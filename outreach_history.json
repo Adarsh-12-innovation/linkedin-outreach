@@ -10,7 +10,15 @@
     "urn:li:activity:7442210685734006786",
     "urn:li:activity:7443300001356808192",
     "urn:li:activity:7443409490726715392",
-    "urn:li:activity:7432772222156615680"
+    "urn:li:activity:7432772222156615680",
+    "urn:li:activity:7443160969582866432",
+    "urn:li:activity:7443237262450114560",
+    "urn:li:activity:7443223086402883584",
+    "urn:li:activity:7442960966813925376",
+    "urn:li:activity:7443194197307998208",
+    "urn:li:activity:7443396777350926336",
+    "urn:li:activity:7443578644196827136",
+    "urn:li:activity:7443397329920905216"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -23,7 +31,15 @@
     "steffid@techrakers.com",
     "rajaranjani.r@pilvisystems.com",
     "sitaram@ideaforgeitsystems.com",
-    "yashika@vitric.in"
+    "yashika@vitric.in",
+    "barath.k@vysystems.com",
+    "priyanka.bkgupta24@gmail.com",
+    "aswathy.s@flycatchtech.com",
+    "shubham.sonkar@gvrinfotek.com",
+    "sudharshan@arvenise.com",
+    "rishi.kumar@diverselynx.com",
+    "Rakesh@humanticsresource.net",
+    "Harsha@Gforgetech.com"
   ],
   "contacted_details": [
     {
@@ -91,6 +107,54 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432772222156615680",
       "email": "yashika@vitric.in",
       "timestamp": "2026-03-28T08:45:46.875996"
+    },
+    {
+      "urn": "urn:li:activity:7443160969582866432",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443160969582866432",
+      "email": "barath.k@vysystems.com",
+      "timestamp": "2026-03-28T09:59:58.250179"
+    },
+    {
+      "urn": "urn:li:activity:7443237262450114560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443237262450114560",
+      "email": "priyanka.bkgupta24@gmail.com",
+      "timestamp": "2026-03-28T10:00:00.226504"
+    },
+    {
+      "urn": "urn:li:activity:7443223086402883584",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443223086402883584",
+      "email": "aswathy.s@flycatchtech.com",
+      "timestamp": "2026-03-28T10:00:02.325794"
+    },
+    {
+      "urn": "urn:li:activity:7442960966813925376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442960966813925376",
+      "email": "shubham.sonkar@gvrinfotek.com",
+      "timestamp": "2026-03-28T10:00:04.329409"
+    },
+    {
+      "urn": "urn:li:activity:7443194197307998208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443194197307998208",
+      "email": "sudharshan@arvenise.com",
+      "timestamp": "2026-03-28T10:00:06.432129"
+    },
+    {
+      "urn": "urn:li:activity:7443396777350926336",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443396777350926336",
+      "email": "rishi.kumar@diverselynx.com",
+      "timestamp": "2026-03-28T10:00:08.440636"
+    },
+    {
+      "urn": "urn:li:activity:7443578644196827136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443578644196827136",
+      "email": "Rakesh@humanticsresource.net",
+      "timestamp": "2026-03-28T11:52:42.153771"
+    },
+    {
+      "urn": "urn:li:activity:7443397329920905216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443397329920905216",
+      "email": "Harsha@Gforgetech.com",
+      "timestamp": "2026-03-28T15:12:16.643457"
     }
   ]
 }

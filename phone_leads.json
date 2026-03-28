@@ -80,5 +80,27 @@
     "contact_method": "email",
     "has_contact_info": true,
     "saved_to_leads_at": "2026-03-28T13:40:04.072324"
+  },
+  {
+    "saved_at": 0,
+    "saved_at_iso": null,
+    "entity_urn": "urn:li:activity:7443578644196827136",
+    "post_urn": "urn:li:activity:7443578644196827136",
+    "text_preview": "",
+    "raw_data": {},
+    "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nRecruiter at Humantics resource\n\n\ud83d\ude80 Hiring: Machine Learning Engineer (Generative AI) | Remote | Firstsource\nWe are excited to announce an opportunity with Firstsource Solutions Ltd. for a Machine Learning Engineer (GenAI) role!\nIf you\u2019re passionate about building cutting-edge AI systems and working on real-world generative AI applications, this role is for you.\n\ud83d\udd0d Role Details:\n\ud83d\udcbc Experience: 5\u20137 Years\n\ud83d\udcb0 Budget: Up to 17 LPA\n\ud83d\udccd Location: Remote\n\ud83c\udfe2 Employment Type: Full-Time (FTE)\n\u23f3 Notice Period: Immediate / Max 20 Days\n\ud83e\udde0 What You\u2019ll Do:\nBuild & optimize Generative AI models (Text, Image, Audio)\nWork with cross-functional teams to deliver AI-driven solutions\nDevelop scalable ML pipelines for production\nFine-tune models for performance & accuracy\nStay updated with the latest advancements in AI\n\u2699\ufe0f Key Skills Required:\nStrong Python programming\nExperience with TensorFlow / PyTorch\nHands-on with NLP, Computer Vision\nCloud exposure (AWS / GCP / Azure)\nKnowledge of data preprocessing & model evaluation\n\u2b50 Nice to Have:\nExperience with GANs / VAEs\nExposure to MLOps practices\nContributions to open-source or research\n\ud83c\udf0d Why Join Firstsource?\n Part of the RP Goenka Group, Firstsource is a global BPM leader with 37+ centers across India, US, UK, and Philippines, driving innovation in analytics, automation, and AI.\n\ud83d\udce9 Interested candidates can apply or reach out directly.\n Know someone who fits? Feel free to tag or share!\nEmail: Rakesh@humanticsresource.net\nNumber: 7799744533\n\n\n#Hiring #MachineLearning #GenerativeAI #MLJobs #AIJobs #Python #NLP #ComputerVision #DeepLearning #RemoteJobs #TechHiring #MLOps #TensorFlow #PyTorch #AWS #GCP #Azure #Firstsource #JobsIndia\n\n[EMAILS FOUND: Rakesh@humanticsresource.net]\n\n[PHONE NUMBERS FOUND: 17494477354, 1776297600, 7799744533, 16306386461, 7443578644, 17762976000, 7443578643]",
+    "created_at": 0,
+    "created_at_iso": null,
+    "index": 2,
+    "poster_name": "Rakesh",
+    "poster_email": "Rakesh@humanticsresource.net",
+    "poster_phone": "7799744533",
+    "company": "Firstsource Solutions Ltd.",
+    "role_title": "Machine Learning Engineer (Generative AI)",
+    "role_summary": "Hiring a Remote Full-Time Machine Learning Engineer (Generative AI) with 5-7 years experience for Firstsource Solutions Ltd., focusing on building and optimizing GenAI models and ML pipelines.",
+    "rate_or_compensation": "Up to 17 LPA",
+    "contact_method": "email / phone",
+    "has_contact_info": true,
+    "saved_to_leads_at": "2026-03-28T11:52:40.280279"
   }
 ]
