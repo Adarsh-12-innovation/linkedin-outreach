@@ -9,7 +9,8 @@
     "urn:li:activity:7441834904818110465",
     "urn:li:activity:7442210685734006786",
     "urn:li:activity:7443300001356808192",
-    "urn:li:activity:7443409490726715392"
+    "urn:li:activity:7443409490726715392",
+    "urn:li:activity:7432772222156615680"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -21,7 +22,8 @@
     "sukesh@nebulapartners.com",
     "steffid@techrakers.com",
     "rajaranjani.r@pilvisystems.com",
-    "sitaram@ideaforgeitsystems.com"
+    "sitaram@ideaforgeitsystems.com",
+    "yashika@vitric.in"
   ],
   "contacted_details": [
     {
@@ -83,6 +85,12 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443409490726715392",
       "email": "sitaram@ideaforgeitsystems.com",
       "timestamp": "2026-03-28T13:50:13.744929"
+    },
+    {
+      "urn": "urn:li:activity:7432772222156615680",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432772222156615680",
+      "email": "yashika@vitric.in",
+      "timestamp": "2026-03-28T08:45:46.875996"
     }
   ]
 }

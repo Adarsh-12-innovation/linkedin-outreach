@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-28T08:45:47.876741",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 10,
+    "contacts_extracted": 1,
+    "with_email": 1,
+    "with_phone": 0,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7432772222156615680",
+      "post_urn": "urn:li:activity:7432772222156615680",
+      "text_preview": "",
+      "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nIT Recruiter at Vitric Business Solution Private Limited | Fueling Innovation Through Exceptional Tech Talent | Let's Connect!\n\n\ud83d\ude80\u00a0\u00a0Urgent Hiring \u2013 ML Engineer \ud83d\ude80\n\nWe are looking for an experienced ML Engineer for a contractual opportunity!\n\n\ud83d\udccc Position: ML Engineer \n\ud83d\udccc Experience: 5-8 yrs\n\ud83d\udccc Employment Type - Contractual\n\ud83d\udccc Duration - 6+ months contract (Can be extended on performance basis)\n\ud83d\udccc Joining - Immediate to 15 Days\n\ud83d\udccc Work mode- Remote\n\n\ud83d\udd37 Key Responsibilities:\n\u2705 Design, develop, and deploy machine learning models for real-world applications.\n\n\u2705 Implement and optimize end-to-end ML pipelines using PySpark and MLflow.\n\n\u2705 Work with structured and unstructured data using Pandas, NumPy, and other data processing libraries. \n\n\u2705 Train and fine-tune models using scikit-learn, TensorFlow, or PyTorch\n\n\ud83d\udd37 Required Skills & Experience:\n\u2705 Strong programming skills in Python, including libraries like pandas, NumPy, and scikit-learn.\n\n\u2705 Solid understanding of machine learning algorithms, model development, and evaluation techniques. \n\n\u2705 Proficient with MLflow for tracking experiments and model lifecycle management.\n\n\u2705 Familiarity or hands-on experience with LLMs (e.g., OpenAI, Hugging Face Transformers). \n\n\u2705 Understanding of MLOps principles and deployment best practices\n\nInterested candidates can send their CV at yashika@vitric.in\n\n#Machinelearning #Deeplearning #Hiring #OpenAI #MLOPS #Pytorch #Careeropportunities #Tensorflow\n\nML Engineer at aiadventures\n\nSTEM OPT Eligible (3 Years from Dec 2025) | Amazon Data Engineer Intern 5+ Years in Data Modeling, Analytics, Data Science & Visualization Leveraging Data, Leadership & Innovation to Drive Impactful Growth\n\nArchitecting Tech Teams | Recruitment Specialist | Bridging Talent to Innovation | Driving Organizational Growth through People & Culture |\n\nData Science | Agentic AI | C2FO | Ex- PwC, Tredence | NIT ROURKELA | LJMU | IIITB | GGI\n\nTech Lead | Agentic AI & Software Engineer | Full Stack | MLOps | Co-Founder @ BotiqueAI | Free AI Audit for Companies\n\nSenior Technical Manager\n\nSr. Bench Sales Recruiter at Rackera Inc\n\nSenior Data Scientist @ Saint-Gobain\n\nGenerative AI Engg | Building LLM Powered Applications | Data Scientist | AIML | Python | LangGraph | LangChain | Agentic AI | ML & LLMOPS | RAG | MCP | A2A | CrewAI | ADK | AWS Bedrock| Azure OpenAI |Talks about #GenAI\n\nSRE | AWS | Terraform | FinTech Payments | GenAI | Pune\n\n[EMAILS FOUND: yashika@vitric.in, A3tech.786@gmail.com]\n\n[PHONE NUMBERS FOUND: 17638911358, 17550008561, 17563963145, 1465019812, 17193556848, 17718599783, 17193493243, 16708503455, 17721195815, 17675381009, 17563963146, 17616357752, 7432772220, 17242514875, 17550008560, 1776297600, 17383297127, 7432772222, 17752932000, 16769012622, 17375652817, 1009476594, 17718599782, 17746871256, 4939516723, 2874328082, 17442769594, 17675381008, 17722719137, 17722719138, 17589680019, 17762976000, 7432808249, 1462116954, 17594769967, (7432808249, 17110123423, 17594769974, 17421513601, 17383296213, 17746871255, 17182601419, 17488738962, 846464-1774, 1775293200, 17383100541, 17182601418]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 4,
+      "poster_name": "Yashika",
+      "poster_email": "yashika@vitric.in",
+      "poster_phone": null,
+      "company": "Vitric Business Solution Private Limited",
+      "role_title": "ML Engineer",
+      "role_summary": "Urgent hiring for an experienced ML Engineer for a 6+ months remote contract role at Vitric Business Solution Private Limited to design, develop, and deploy machine learning models and optimize ML pipelines.",
+      "rate_or_compensation": null,
+      "contact_method": "email",
+      "has_contact_info": true
+    }
+  ]
+}
