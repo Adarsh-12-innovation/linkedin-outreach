@@ -1,10 +1,9 @@
 name: Daily LinkedIn Outreach
 
 on:
-  # Runs daily at 9 PM UTC (adjust to your timezone)
-  # Examples: 2:30 AM IST = "0 21 * * *", 5 PM EST = "0 22 * * *"
+  # Runs 4 times a day: 9 AM, 3 PM (15:00), 8 PM (20:00), and 12 AM (00:00) UTC
   schedule:
-    - cron: "0 21 * * *"
+    - cron: "0 0,9,15,20 * * *"
 
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
