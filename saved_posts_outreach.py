@@ -857,7 +857,11 @@ def save_phone_leads(results: list[dict]):
         with open(path) as f:
             existing = json.load(f)
 
-    existing_urns = {e.get("post_urn") or e.get("entity_urn") for e in existing}
+    # Load history for final deduplication guard
+    history = load_history()
+    seen_urns = set(history.get("contacted_urns", []))
+    existing_urns = {e.get("post_urn") or e.get("entity_urn") for e in existing} | seen_urns
+    
     new_leads = []
     for r in phone_leads:
         urn = r.get("post_urn") or r.get("entity_urn")
@@ -870,16 +874,18 @@ def save_phone_leads(results: list[dict]):
         with open(path, "w") as f:
             json.dump(existing, f, indent=2, default=str)
         log.info(f"\n  Saved {len(new_leads)} new phone leads to {path}")
-        for lead in new_leads:
-            log.info(
-                f"    {lead.get('poster_name', '?')} | "
-                f"{lead.get('poster_phone')} | "
-                f"{lead.get('role_summary', '?')[:40]}"
-            )
 
 
 def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
     """Auto-send emails to posts with emails. Save phone leads separately."""
+    # Final guard: Only process items not in history
+    history = load_history()
+    results = dedupe_against_history(results, history)
+    
+    if not results:
+        log.info("  No new leads to contact (all deduped against history).")
+        return []
+
     save_phone_leads(results)
 
     phone_leads = [r for r in results if r.get("poster_phone")]
@@ -893,7 +899,7 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
     if dry_run:
         log.info("\n  [DRY RUN] Would send emails to:")
         for r in with_email:
-            log.info(f"    {r.get('poster_name','?')} <{r['poster_email']}> — {r.get('role_summary','')[:50]}")
+            log.info(f"    {r.get('poster_name','?')} <{r['poster_email']}> — {r.get('role_title','')[:50]}")
         if phone_leads:
             log.info(f"  [DRY RUN] Would send phone leads summary to {CONFIG['SENDER_EMAIL']}")
         return []
@@ -909,12 +915,9 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
 
     # 2. Send outreach emails to candidates
     if not with_email:
-        log.info("  No posts with emails to send to.")
         return []
 
-    history = load_history()
     emailed = []
-
     for r in with_email:
         try:
             send_one_email(
