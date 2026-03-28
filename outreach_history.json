@@ -23,7 +23,8 @@
     "urn:li:activity:7442458590088626176",
     "urn:li:activity:7442433292999663616",
     "urn:li:activity:7442809998155628544",
-    "urn:li:activity:7442112105475973120"
+    "urn:li:activity:7442112105475973120",
+    "urn:li:activity:7440334261582397440"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -49,7 +50,8 @@
     "ankita.n@encred.io",
     "sneha.kirti@muoro.com",
     "ai@hereandnow.co.in",
-    "Jagrati.jadhav@appzime.in"
+    "Jagrati.jadhav@appzime.in",
+    "hr@sudocodelab.com"
   ],
   "contacted_details": [
     {
@@ -195,6 +197,12 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442112105475973120",
       "email": "Jagrati.jadhav@appzime.in",
       "timestamp": "2026-03-28T18:12:19.219118"
+    },
+    {
+      "urn": "urn:li:activity:7440334261582397440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440334261582397440",
+      "email": "hr@sudocodelab.com",
+      "timestamp": "2026-03-28T18:38:36.917429"
     }
   ]
 }
