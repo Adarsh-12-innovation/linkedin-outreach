@@ -102,7 +102,10 @@ CONFIG = {
 
     # Gemini
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY"),
+    "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY", ""),
     "GEMINI_MODEL": "gemini-2.5-flash",
+
+    # "GEMINI_MODEL": "gemini-2.0-flash-lite",
 
     # Gmail OAuth2
     "GMAIL_CREDENTIALS_FILE": "credentials.json",
@@ -132,7 +135,7 @@ CONFIG = {
 EMAIL_TEMPLATE = {
     "subject": "Application AI/ML Engineer — Available for Contract roles",
     "body": """\
-Hi {recipient_name},
+Hello,
 
 I came across your recent post on LinkedIn about the {role_title} role and wanted to reach out.
 
@@ -199,51 +202,75 @@ def create_linkedin_session() -> requests.Session:
     return session
 
 
-def fetch_saved_posts(session: requests.Session, lookback_hours: int = 24) -> list[dict]:
+def fetch_saved_posts(session: requests.Session, history: dict = None) -> list[dict]:
     """
-    Fetch saved items from LinkedIn using the Voyager API.
-    Tries multiple endpoint patterns since LinkedIn changes these.
+    Fetch saved items from LinkedIn.
+    Optimization: Stops immediately when it hits a post URN already in outreach_history.json.
     """
-    cutoff_time = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
-    cutoff_ms = int(cutoff_time.timestamp() * 1000)
-
-    log.info(f"Fetching saved posts from last {lookback_hours} hours...")
-
+    log.info("Fetching saved posts list (IDs only)...")
+    
+    seen_urns = set(history.get("contacted_urns", [])) if history else set()
+    saved_items = []
+    
     # Try multiple known endpoint patterns
     endpoints = [
-        # Modern GraphQL SaveDashSaves pattern
         "https://www.linkedin.com/voyager/api/graphql?queryId=voyagerSaveDashSaves.f465d4848c0ef24e03c2ddd1fbe1e8f6&variables=(count:{count},start:{start})",
-        # My Items / Saved Posts direct API
         "https://www.linkedin.com/voyager/api/voyagerContentDashSaves?count={count}&start={start}&q=savedByMe",
-        # Alternative REST pattern
         "https://www.linkedin.com/voyager/api/saveDashSaves?count={count}&start={start}",
-        # Voyager feed pattern (sometimes used for saves)
-        "https://www.linkedin.com/voyager/api/feed/updates?count={count}&start={start}&q=savedByMe",
     ]
 
     for endpoint_template in endpoints:
-        log.info(f"  Trying endpoint: {endpoint_template[:80]}...")
-        saved_items = _try_fetch_saved(session, endpoint_template, cutoff_ms, lookback_hours)
-        if saved_items is not None:  # None means endpoint failed, [] means no results
-            return saved_items
+        log.info(f"  Checking endpoint: {endpoint_template[:60]}...")
+        start = 0
+        count = 20
+        endpoint_results = []
+        already_seen_trigger = False
 
-    # If all REST endpoints fail, try scraping the saved posts page
-    log.info("  All API endpoints failed. Trying HTML page scrape...")
-    saved_items = _try_fetch_saved_from_html(session, cutoff_ms, lookback_hours)
-    if saved_items:
-        return saved_items
+        while True:
+            url = endpoint_template.format(count=count, start=start)
+            try:
+                resp = session.get(url, timeout=15)
+                if resp.status_code != 200: break
+                data = resp.json()
+            except: break
 
-    log.error(
-        "Could not fetch saved posts from any endpoint.\n"
-        "LinkedIn may have changed their internal API.\n"
-        "Try these steps:\n"
-        "  1. Verify li_at and JSESSIONID are fresh (re-copy from browser)\n"
-        "  2. Open LinkedIn in Chrome, go to 'My Items' / saved posts\n"
-        "  3. Open F12 → Network tab → filter by 'voyager'\n"
-        "  4. Look for the request that loads your saved posts\n"
-        "  5. Copy that URL and update the endpoints list in this script"
-    )
-    return []
+            elements = (
+                data.get("elements", [])
+                or data.get("data", {}).get("saveDashSavesByAll", {}).get("elements", [])
+                or data.get("included", [])
+            )
+            if not elements: break
+
+            for item in elements:
+                urn = (
+                    item.get("entityUrn", "")
+                    or item.get("savedEntity", {}).get("entityUrn", "")
+                    or item.get("*savedEntity", "")
+                )
+                if not urn: continue
+
+                # HIGH-PERFORMANCE OPTIMIZATION: Stop if we've reached a post from a previous run
+                if urn in seen_urns:
+                    log.info(f"  Reached known post {urn[:30]}... stopping fetch.")
+                    already_seen_trigger = True
+                    break
+
+                endpoint_results.append({
+                    "entity_urn": urn,
+                    "post_urn": urn,
+                })
+
+            if already_seen_trigger or len(elements) < count: break
+            start += count
+            time.sleep(0.5)
+        
+        if endpoint_results or already_seen_trigger:
+            log.info(f"  Found {len(endpoint_results)} new posts to process.")
+            return endpoint_results
+
+    # Fallback to HTML scrape if API fails
+    log.info("  API endpoints yielded no new items. Trying HTML fallback...")
+    return _try_fetch_saved_from_html(session, 0, 0)
 
 
 def _try_fetch_saved(
@@ -472,29 +499,22 @@ def fetch_post_content(session: requests.Session, post_urn: str) -> tuple[str, i
     return content, created_at
 
 
-def fetch_all_post_contents(session: requests.Session, saved_items: list[dict], lookback_hours: int) -> list[dict]:
-    """Fetch full content and apply strict creation date filtering."""
-    cutoff_time = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
-    cutoff_ms = int(cutoff_time.timestamp() * 1000)
-    
-    log.info(f"Fetching full content and applying strict {lookback_hours}h creation filter...")
+def fetch_all_post_contents(session: requests.Session, saved_items: list[dict]) -> list[dict]:
+    """Fetch full content for all provided items."""
+    log.info(f"Fetching full content for {len(saved_items)} items...")
 
     filtered_items = []
     for i, item in enumerate(saved_items):
         post_urn = item.get("post_urn", "") or item.get("entity_urn", "")
         if post_urn:
             content, created_at = fetch_post_content(session, post_urn)
-            
-            # Use the most reliable created_at found
-            final_created_at = created_at or item.get("created_at", 0)
-            
-            if final_created_at and final_created_at < cutoff_ms:
-                log.info(f"  [{i+1}/{len(saved_items)}] SKIPPED (Too old: {datetime.fromtimestamp(final_created_at/1000).strftime('%Y-%m-%d %H:%M')})")
+            if not content:
+                log.warning(f"  [{i+1}/{len(saved_items)}] FAILED to fetch content for {post_urn[:50]}")
                 continue
 
             item["full_content"] = content
-            item["created_at"] = final_created_at
-            item["created_at_iso"] = datetime.fromtimestamp(final_created_at/1000, tz=timezone.utc).isoformat() if final_created_at else None
+            item["created_at"] = created_at
+            item["created_at_iso"] = datetime.fromtimestamp(created_at/1000, tz=timezone.utc).isoformat() if created_at else None
             
             log.info(f"  [{i+1}/{len(saved_items)}] {len(content):>5d} chars | {post_urn[:50]}")
             filtered_items.append(item)
@@ -502,7 +522,6 @@ def fetch_all_post_contents(session: requests.Session, saved_items: list[dict], 
             log.info(f"  [{i+1}/{len(saved_items)}] No URN available")
         time.sleep(0.5)
 
-    log.info(f"After strict creation filter: {len(filtered_items)}/{len(saved_items)} posts remain.")
     return filtered_items
 
 
@@ -511,40 +530,50 @@ def fetch_all_post_contents(session: requests.Session, saved_items: list[dict], 
 # ═══════════════════════════════════════════════
 
 def call_gemini(prompt: str, max_retries: int = 5) -> str:
-    """Call Gemini API with retry on rate limit."""
+    """Call Gemini API with retry on rate limit and automatic key rotation."""
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{CONFIG['GEMINI_MODEL']}:generateContent"
     )
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 8192},
-    }
+    
+    current_key = CONFIG["GEMINI_API_KEY"]
+    alt_key = CONFIG["ALTERNATIVE_GEMINI_API_KEY"]
+    using_alt = False
 
     for attempt in range(1, max_retries + 1):
-        resp = requests.post(
-            url,
-            headers={"Content-Type": "application/json"},
-            params={"key": CONFIG["GEMINI_API_KEY"]},
-            json=payload,
-            timeout=90,
-        )
-
-        if resp.status_code == 429:
-            wait = 15 * (2 ** (attempt - 1))
-            log.warning(f"  Rate limited (429). Retrying in {wait}s... ({attempt}/{max_retries})")
-            time.sleep(wait)
-            continue
-
-        resp.raise_for_status()
-        data = resp.json()
         try:
-            return data["candidates"][0]["content"]["parts"][0]["text"]
-        except (KeyError, IndexError):
-            log.error(f"Gemini response error: {json.dumps(data, indent=2)[:500]}")
-            return ""
+            resp = requests.post(
+                url,
+                headers={"Content-Type": "application/json"},
+                params={"key": current_key},
+                json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.1, "maxOutputTokens": 8192}},
+                timeout=90,
+            )
 
-    log.error(f"  Gemini failed after {max_retries} retries")
+            if resp.status_code == 429:
+                # If we have an alternative key and haven't used it yet, switch immediately
+                if alt_key and not using_alt:
+                    log.warning(f"  Quota reached for primary key. Switching to ALTERNATIVE_GEMINI_API_KEY...")
+                    current_key = alt_key
+                    using_alt = True
+                    continue
+                
+                # Otherwise, wait and retry
+                wait = 15 * (2 ** (attempt - 1))
+                log.warning(f"  Rate limited (429). Retrying in {wait}s... ({attempt}/{max_retries})")
+                time.sleep(wait)
+                continue
+
+            resp.raise_for_status()
+            data = resp.json()
+            return data["candidates"][0]["content"]["parts"][0]["text"]
+            
+        except Exception as e:
+            if attempt == max_retries:
+                log.error(f"  Gemini failed after {max_retries} attempts: {e}")
+                return ""
+            time.sleep(2)
+
     return ""
 
 
@@ -745,7 +774,7 @@ def compose_email(to_email: str, recipient_name: str, role_title: str) -> str:
     msg["Subject"] = EMAIL_TEMPLATE["subject"]
 
     body = EMAIL_TEMPLATE["body"].format(
-        recipient_name=recipient_name or "there",
+        # recipient_name=recipient_name or "there",
         role_title=role_title or "AI/ML Engineer",
         sender_name=CONFIG["SENDER_NAME"],
     )
@@ -971,33 +1000,21 @@ def main():
     print(f"  Lookback: {CONFIG['LOOKBACK_HOURS']}h  |  Mode: {mode}")
     print(f"{'='*70}")
 
-    # ── 1. Fetch saved posts ──
+    # ── 1. Fetch saved posts (Optimization: stops when it hits history) ──
     log.info("\n[STEP 1] Fetching saved LinkedIn posts...")
     session = create_linkedin_session()
-    saved = fetch_saved_posts(session, CONFIG["LOOKBACK_HOURS"])
-
-    if not saved:
-        log.info("No saved posts found in the lookback window.")
-        return
-
-    # ── 2. Dedupe history BEFORE fetching content ──
-    # Optimization: Only fetch full content for posts we haven't contacted before
     history = load_history()
-    saved = dedupe_against_history(saved, history)
-    
-    if not saved:
-        log.info("All saved posts already contacted in previous runs. Optimization complete.")
-        return
-
-    # ── 3. Fetch full content ──
-    log.info("\n[STEP 2] Fetching full post content for fresh leads...")
-    saved = fetch_all_post_contents(session, saved, CONFIG["LOOKBACK_HOURS"])
+    saved = fetch_saved_posts(session, history)
 
     if not saved:
-        log.info("No posts passed the strict creation date filter.")
+        log.info("No new saved posts found (all recent posts already in history). Optimization complete.")
         return
 
-    # ── 4. Gemini extraction ──
+    # ── 2. Fetch full content ──
+    log.info("\n[STEP 2] Fetching full post content for new leads...")
+    saved = fetch_all_post_contents(session, saved)
+
+    # ── 3. Gemini extraction ──
     log.info("\n[STEP 3] Extracting contacts with Gemini...")
     extracted = extract_contacts_with_gemini(saved)
 
