@@ -117,7 +117,7 @@ CONFIG = {
     "RESUME_PATH": "Adarsh Bansal_CV_2026.pdf",
 
     # Time window
-    "LOOKBACK_HOURS": 24,
+    "LOOKBACK_HOURS": 48,
 
     # Tracking
     "HISTORY_FILE": "outreach_history.json",
@@ -134,7 +134,7 @@ EMAIL_TEMPLATE = {
     "body": """\
 Hi {recipient_name},
 
-I came across your recent post on LinkedIn about {role_summary} and wanted to reach out.
+I came across your recent post on LinkedIn about the {role_title} role and wanted to reach out.
 
 Hope you are doing well! Wished to know for suitable contract roles in Data Science and AI/ML or Analytics.
 
@@ -211,14 +211,14 @@ def fetch_saved_posts(session: requests.Session, lookback_hours: int = 24) -> li
 
     # Try multiple known endpoint patterns
     endpoints = [
-        # Current pattern (2024-2026)
+        # Modern GraphQL SaveDashSaves pattern
         "https://www.linkedin.com/voyager/api/graphql?queryId=voyagerSaveDashSaves.f465d4848c0ef24e03c2ddd1fbe1e8f6&variables=(count:{count},start:{start})",
-        # Older REST pattern
-        "https://www.linkedin.com/voyager/api/saveDashSaves?count={count}&start={start}",
-        # Alternative graphql pattern
-        "https://www.linkedin.com/voyager/api/graphql?variables=(count:{count},start:{start})&queryId=voyagerSaveDashSaves.f465d4848c0ef24e03c2ddd1fbe1e8f6",
-        # My Items page pattern
+        # My Items / Saved Posts direct API
         "https://www.linkedin.com/voyager/api/voyagerContentDashSaves?count={count}&start={start}&q=savedByMe",
+        # Alternative REST pattern
+        "https://www.linkedin.com/voyager/api/saveDashSaves?count={count}&start={start}",
+        # Voyager feed pattern (sometimes used for saves)
+        "https://www.linkedin.com/voyager/api/feed/updates?count={count}&start={start}&q=savedByMe",
     ]
 
     for endpoint_template in endpoints:
@@ -297,15 +297,20 @@ def _try_fetch_saved(
             break
 
         for item in elements:
-            saved_at = (
-                item.get("savedAt", 0)
-                or item.get("createdAt", 0)
+            # Prioritize created timestamp over saved timestamp
+            created_at = (
+                item.get("createdAt", 0)
+                or item.get("savedEntity", {}).get("createdAt", 0)
                 or item.get("lastModifiedAt", 0)
+                or item.get("savedAt", 0)
             )
 
-            if saved_at and saved_at < cutoff_ms:
-                log.info(f"  Reached posts older than {lookback_hours}h, stopping.")
-                return saved_items
+            if created_at and created_at < cutoff_ms:
+                # Still continue if savedAt is newer, as we want to check all elements
+                # But only log and stop if we are sure we've passed the creation cutoff
+                # LinkedIn API usually returns items sorted by savedAt, not createdAt.
+                # To be safe, we'll process all items in the first few pages.
+                pass 
 
             # Extract whatever identifying info is available
             entity_urn = (
@@ -318,20 +323,22 @@ def _try_fetch_saved(
             # Try to get post text directly from included data
             text = item.get("commentary", {}).get("text", "") if isinstance(item.get("commentary"), dict) else ""
 
-            saved_item = {
-                "saved_at": saved_at,
-                "saved_at_iso": (
-                    datetime.fromtimestamp(saved_at / 1000, tz=timezone.utc).isoformat()
-                    if saved_at else None
-                ),
-                "entity_urn": entity_urn,
-                "post_urn": entity_urn,
-                "text_preview": text[:200] if text else "",
-                "raw_data": item,
-            }
-            saved_items.append(saved_item)
+            # Check if this post was created within our lookback window
+            if created_at and created_at >= cutoff_ms:
+                saved_item = {
+                    "created_at": created_at,
+                    "created_at_iso": (
+                        datetime.fromtimestamp(created_at / 1000, tz=timezone.utc).isoformat()
+                        if created_at else None
+                    ),
+                    "entity_urn": entity_urn,
+                    "post_urn": entity_urn,
+                    "text_preview": text[:200] if text else "",
+                    "raw_data": item,
+                }
+                saved_items.append(saved_item)
 
-        log.info(f"  Page {start // count + 1}: {len(elements)} items ({len(saved_items)} total)")
+        log.info(f"  Page {start // count + 1}: {len(elements)} elements | {len(saved_items)} match creation cutoff")
         start += count
         time.sleep(1)
 
@@ -380,35 +387,24 @@ def _try_fetch_saved_from_html(
         return []
 
 
-def fetch_post_content(session: requests.Session, post_urn: str) -> str:
+def fetch_post_content(session: requests.Session, post_urn: str) -> tuple[str, int]:
     """
-    Fetch the full text content of a LinkedIn post by its URN.
+    Fetch the full text content and creation timestamp of a LinkedIn post.
+    Returns (content_string, created_at_ms).
     """
-    # Extract the activity ID from various URN formats
     activity_id = None
-
-    # urn:li:activity:1234567890
     match = re.search(r"urn:li:activity:(\d+)", post_urn)
-    if match:
-        activity_id = match.group(1)
-
-    # urn:li:share:1234567890
+    if match: activity_id = match.group(1)
     if not activity_id:
         match = re.search(r"urn:li:share:(\d+)", post_urn)
-        if match:
-            activity_id = match.group(1)
-
-    # urn:li:ugcPost:1234567890
+        if match: activity_id = match.group(1)
     if not activity_id:
         match = re.search(r"urn:li:ugcPost:(\d+)", post_urn)
-        if match:
-            activity_id = match.group(1)
+        if match: activity_id = match.group(1)
 
     if not activity_id:
-        log.debug(f"  Could not extract activity ID from URN: {post_urn}")
-        return ""
+        return "", 0
 
-    # Fetch post detail via feed updates API
     url = (
         f"https://www.linkedin.com/voyager/api/feed/updates"
         f"?decorationId=com.linkedin.voyager.deco.feed.FeedUpdate-4"
@@ -416,47 +412,53 @@ def fetch_post_content(session: requests.Session, post_urn: str) -> str:
         f"&activityUrn=urn%3Ali%3Aactivity%3A{activity_id}"
     )
 
+    created_at = 0
     try:
         resp = session.get(url, timeout=15)
         if resp.status_code != 200:
-            # Try alternate endpoint
-            url2 = (
-                f"https://www.linkedin.com/voyager/api/feed/updates/"
-                f"urn:li:activity:{activity_id}"
-            )
+            url2 = f"https://www.linkedin.com/voyager/api/feed/updates/urn:li:activity:{activity_id}"
             resp = session.get(url2, timeout=15)
             if resp.status_code != 200:
-                return ""
+                return "", 0
 
         data = resp.json()
+        
+        # Extract created_at from various possible fields in the detail response
+        if "createdAt" in str(data):
+            # Deep search for createdAt
+            def find_created_at(obj):
+                if isinstance(obj, dict):
+                    if "createdAt" in obj: return obj["createdAt"]
+                    for v in obj.values():
+                        res = find_created_at(v)
+                        if res: return res
+                elif isinstance(obj, list):
+                    for item in obj:
+                        res = find_created_at(item)
+                        if res: return res
+                return None
+            created_at = find_created_at(data) or 0
+
     except Exception as e:
         log.debug(f"  Error fetching post {activity_id}: {e}")
-        return ""
+        return "", 0
 
-    # Extract text from the response JSON
     text_parts = []
     raw = json.dumps(data)
 
-    # Look for commentary text in the JSON
-    # LinkedIn stores post text in various nested locations
     def extract_texts(obj, depth=0):
-        if depth > 10:
-            return
+        if depth > 10: return
         if isinstance(obj, dict):
             for key in ("text", "commentary", "translationText"):
                 if key in obj and isinstance(obj[key], str) and len(obj[key]) > 20:
                     text_parts.append(obj[key])
-            # Check nested text attribute
             if "attributes" not in obj:
-                for v in obj.values():
-                    extract_texts(v, depth + 1)
+                for v in obj.values(): extract_texts(v, depth + 1)
         elif isinstance(obj, list):
-            for item in obj:
-                extract_texts(item, depth + 1)
+            for item in obj: extract_texts(item, depth + 1)
 
     extract_texts(data)
 
-    # Also extract emails and phones from raw JSON
     emails = set(re.findall(r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}", raw))
     emails -= {"example@email.com", "noreply@linkedin.com", "user@example.com"}
     phones = set(re.findall(r"(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}", raw))
@@ -464,31 +466,44 @@ def fetch_post_content(session: requests.Session, post_urn: str) -> str:
     all_phones = {p.strip() for p in (phones | intl_phones) if len(re.sub(r"\D", "", p)) >= 10}
 
     content = "\n\n".join(text_parts)
-    if emails:
-        content += f"\n\n[EMAILS FOUND: {', '.join(emails)}]"
-    if all_phones:
-        content += f"\n\n[PHONE NUMBERS FOUND: {', '.join(all_phones)}]"
+    if emails: content += f"\n\n[EMAILS FOUND: {', '.join(emails)}]"
+    if all_phones: content += f"\n\n[PHONE NUMBERS FOUND: {', '.join(all_phones)}]"
 
-    return content
+    return content, created_at
 
 
-def fetch_all_post_contents(session: requests.Session, saved_items: list[dict]) -> list[dict]:
-    """Fetch full content for all saved posts."""
-    log.info(f"Fetching full content for {len(saved_items)} saved posts...")
+def fetch_all_post_contents(session: requests.Session, saved_items: list[dict], lookback_hours: int) -> list[dict]:
+    """Fetch full content and apply strict creation date filtering."""
+    cutoff_time = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
+    cutoff_ms = int(cutoff_time.timestamp() * 1000)
+    
+    log.info(f"Fetching full content and applying strict {lookback_hours}h creation filter...")
 
+    filtered_items = []
     for i, item in enumerate(saved_items):
         post_urn = item.get("post_urn", "") or item.get("entity_urn", "")
         if post_urn:
-            content = fetch_post_content(session, post_urn)
+            content, created_at = fetch_post_content(session, post_urn)
+            
+            # Use the most reliable created_at found
+            final_created_at = created_at or item.get("created_at", 0)
+            
+            if final_created_at and final_created_at < cutoff_ms:
+                log.info(f"  [{i+1}/{len(saved_items)}] SKIPPED (Too old: {datetime.fromtimestamp(final_created_at/1000).strftime('%Y-%m-%d %H:%M')})")
+                continue
+
             item["full_content"] = content
-            chars = len(content)
-            log.info(f"  [{i+1}/{len(saved_items)}] {chars:>5d} chars | {post_urn[:60]}")
+            item["created_at"] = final_created_at
+            item["created_at_iso"] = datetime.fromtimestamp(final_created_at/1000, tz=timezone.utc).isoformat() if final_created_at else None
+            
+            log.info(f"  [{i+1}/{len(saved_items)}] {len(content):>5d} chars | {post_urn[:50]}")
+            filtered_items.append(item)
         else:
-            item["full_content"] = ""
             log.info(f"  [{i+1}/{len(saved_items)}] No URN available")
         time.sleep(0.5)
 
-    return saved_items
+    log.info(f"After strict creation filter: {len(filtered_items)}/{len(saved_items)} posts remain.")
+    return filtered_items
 
 
 # ═══════════════════════════════════════════════
@@ -626,7 +641,7 @@ def load_history() -> dict:
     if path.exists():
         with open(path) as f:
             return json.load(f)
-    return {"contacted_urns": [], "contacted_emails": []}
+    return {"contacted_urns": [], "contacted_emails": [], "contacted_details": []}
 
 
 def save_history(history: dict):
@@ -652,9 +667,21 @@ def dedupe_against_history(results: list[dict], history: dict) -> list[dict]:
     return fresh
 
 
-def record_contact(history: dict, urn: str, email: str = None):
+def record_contact(history: dict, urn: str, email: str = None, url: str = None):
     if urn and urn not in history["contacted_urns"]:
         history["contacted_urns"].append(urn)
+        
+        # Add structured detail with URL
+        if "contacted_details" not in history:
+            history["contacted_details"] = []
+        
+        history["contacted_details"].append({
+            "urn": urn,
+            "url": url,
+            "email": email,
+            "timestamp": datetime.now().isoformat()
+        })
+
     if email and email not in history["contacted_emails"]:
         history["contacted_emails"].append(email)
 
@@ -711,7 +738,7 @@ def get_gmail_service():
     return service
 
 
-def compose_email(to_email: str, recipient_name: str, role_summary: str) -> str:
+def compose_email(to_email: str, recipient_name: str, role_title: str) -> str:
     msg = MIMEMultipart()
     msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
     msg["To"] = to_email
@@ -719,7 +746,7 @@ def compose_email(to_email: str, recipient_name: str, role_summary: str) -> str:
 
     body = EMAIL_TEMPLATE["body"].format(
         recipient_name=recipient_name or "there",
-        role_summary=role_summary or "an AI/ML contract opportunity",
+        role_title=role_title or "AI/ML Engineer",
         sender_name=CONFIG["SENDER_NAME"],
     )
     msg.attach(MIMEText(body, "plain"))
@@ -738,8 +765,8 @@ def compose_email(to_email: str, recipient_name: str, role_summary: str) -> str:
     return base64.urlsafe_b64encode(msg.as_bytes()).decode()
 
 
-def send_one_email(service, to_email: str, name: str, summary: str) -> dict:
-    raw = compose_email(to_email, name, summary)
+def send_one_email(service, to_email: str, name: str, role_title: str) -> dict:
+    raw = compose_email(to_email, name, role_title)
     return service.users().messages().send(userId="me", body={"raw": raw}).execute()
 
 
@@ -863,11 +890,12 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
         try:
             send_one_email(
                 gmail, r["poster_email"],
-                r.get("poster_name", ""), r.get("role_summary", ""),
+                r.get("poster_name", ""), r.get("role_title", ""),
             )
             log.info(f"  Sent -> {r['poster_email']} ({r.get('poster_name', '?')})")
             urn = r.get("post_urn") or r.get("entity_urn", "")
-            record_contact(history, urn, r["poster_email"])
+            url = f"https://www.linkedin.com/feed/update/{urn}" if urn else ""
+            record_contact(history, urn, r["poster_email"], url)
             emailed.append(r)
             time.sleep(1)
         except Exception as e:
@@ -920,7 +948,7 @@ def save_run(saved: list, extracted: list, emailed: list):
 def main():
     parser = argparse.ArgumentParser(description="LinkedIn Saved Posts Outreach Agent")
     parser.add_argument("--dry-run", action="store_true", help="Skip sending emails")
-    parser.add_argument("--hours", type=int, default=24, help="Lookback hours (default: 24)")
+    parser.add_argument("--hours", type=int, default=48, help="Lookback hours (default: 48)")
     parser.add_argument("--resume", type=str, help="Path to resume PDF")
     args = parser.parse_args()
 
@@ -954,7 +982,7 @@ def main():
 
     # ── 2. Fetch full content ──
     log.info("\n[STEP 2] Fetching full post content...")
-    saved = fetch_all_post_contents(session, saved)
+    saved = fetch_all_post_contents(session, saved, CONFIG["LOOKBACK_HOURS"])
 
     # ── 3. Gemini extraction ──
     log.info("\n[STEP 3] Extracting contacts with Gemini...")
