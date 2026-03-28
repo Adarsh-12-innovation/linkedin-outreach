@@ -89,13 +89,18 @@ jobs:
 
       - name: Update Gmail token if refreshed
         env:
-          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GMAIL_TOKEN_JSON_SECRET: ${{ secrets.GMAIL_TOKEN_JSON }}
         run: |
-          # If token.json was updated (refreshed), we need to update the secret
-          # GitHub Actions can't update secrets directly, so we log a reminder
+          # If token.json exists, check if it's different from our current secret
           if [ -f token.json ]; then
-            NEW_TOKEN=$(base64 -w 0 token.json)
-            if [ "$NEW_TOKEN" != "$GMAIL_TOKEN_JSON" ]; then
-              echo "::warning::Gmail token was refreshed. Update GMAIL_TOKEN_JSON secret with the new value from the committed token.json"
+            NEW_TOKEN=$(cat token.json)
+            # Compare the raw JSON content
+            if [ "$NEW_TOKEN" != "$GMAIL_TOKEN_JSON_SECRET" ]; then
+              echo "Gmail token was refreshed. Updating GMAIL_TOKEN_JSON secret..."
+              gh secret set GMAIL_TOKEN_JSON --body "$NEW_TOKEN"
+              echo "Secret updated successfully."
+            else
+              echo "Gmail token is up to date."
             fi
           fi
