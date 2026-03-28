@@ -17,7 +17,8 @@
     "urn:li:activity:7442960966813925376",
     "urn:li:activity:7443194197307998208",
     "urn:li:activity:7443396777350926336",
-    "urn:li:activity:7443578644196827136"
+    "urn:li:activity:7443578644196827136",
+    "urn:li:activity:7443397329920905216"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -37,7 +38,8 @@
     "shubham.sonkar@gvrinfotek.com",
     "sudharshan@arvenise.com",
     "rishi.kumar@diverselynx.com",
-    "Rakesh@humanticsresource.net"
+    "Rakesh@humanticsresource.net",
+    "Harsha@Gforgetech.com"
   ],
   "contacted_details": [
     {
@@ -147,6 +149,12 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443578644196827136",
       "email": "Rakesh@humanticsresource.net",
       "timestamp": "2026-03-28T11:52:42.153771"
+    },
+    {
+      "urn": "urn:li:activity:7443397329920905216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443397329920905216",
+      "email": "Harsha@Gforgetech.com",
+      "timestamp": "2026-03-28T15:12:16.643457"
     }
   ]
 }
