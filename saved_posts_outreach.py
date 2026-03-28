@@ -980,24 +980,30 @@ def main():
         log.info("No saved posts found in the lookback window.")
         return
 
-    # ── 2. Fetch full content ──
-    log.info("\n[STEP 2] Fetching full post content...")
+    # ── 2. Dedupe history BEFORE fetching content ──
+    # Optimization: Only fetch full content for posts we haven't contacted before
+    history = load_history()
+    saved = dedupe_against_history(saved, history)
+    
+    if not saved:
+        log.info("All saved posts already contacted in previous runs. Optimization complete.")
+        return
+
+    # ── 3. Fetch full content ──
+    log.info("\n[STEP 2] Fetching full post content for fresh leads...")
     saved = fetch_all_post_contents(session, saved, CONFIG["LOOKBACK_HOURS"])
 
-    # ── 3. Gemini extraction ──
+    if not saved:
+        log.info("No posts passed the strict creation date filter.")
+        return
+
+    # ── 4. Gemini extraction ──
     log.info("\n[STEP 3] Extracting contacts with Gemini...")
     extracted = extract_contacts_with_gemini(saved)
 
     if not extracted:
         log.info("No contacts extracted from saved posts.")
         save_run(saved, [], [])
-        return
-
-    # ── 4. Dedupe history ──
-    history = load_history()
-    extracted = dedupe_against_history(extracted, history)
-    if not extracted:
-        log.info("All saved posts already contacted in previous runs.")
         return
 
     # ── 5. Auto-send ──
