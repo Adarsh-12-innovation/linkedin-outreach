@@ -270,7 +270,7 @@ def fetch_saved_posts(session: requests.Session, history: dict = None) -> list[d
 
     # Fallback to HTML scrape if API fails
     log.info("  API endpoints yielded no new items. Trying HTML fallback...")
-    return _try_fetch_saved_from_html(session, 0, 0)
+    return _try_fetch_saved_from_html(session, 0, 0, history)
 
 
 def _try_fetch_saved(
@@ -377,6 +377,7 @@ def _try_fetch_saved_from_html(
     session: requests.Session,
     cutoff_ms: int,
     lookback_hours: int,
+    history: dict = None
 ) -> list[dict]:
     """Fallback: try loading the saved posts HTML page and extracting URNs."""
     from bs4 import BeautifulSoup
@@ -389,15 +390,19 @@ def _try_fetch_saved_from_html(
 
         # Look for activity URNs in the page source
         urns = re.findall(r"urn:li:activity:\d+", resp.text)
-        urns = list(set(urns))  # Dedupe
+        urns = list(set(urns))  # Dedupe list of found URNs
 
         if not urns:
             return []
 
-        log.info(f"  Found {len(urns)} post URNs from HTML page")
-
+        seen_urns = set(history.get("contacted_urns", [])) if history else set()
+        
         saved_items = []
         for urn in urns:
+            # OPTIMIZATION: Skip if already contacted
+            if urn in seen_urns:
+                continue
+                
             saved_items.append({
                 "saved_at": 0,
                 "saved_at_iso": None,
@@ -407,6 +412,7 @@ def _try_fetch_saved_from_html(
                 "raw_data": {},
             })
 
+        log.info(f"  Found {len(urns)} post URNs on page, {len(saved_items)} are new.")
         return saved_items
 
     except Exception as e:
@@ -1008,6 +1014,9 @@ def main():
     session = create_linkedin_session()
     history = load_history()
     saved = fetch_saved_posts(session, history)
+
+    # Final check before heavy content fetching
+    saved = dedupe_against_history(saved, history)
 
     if not saved:
         log.info("No new saved posts found (all recent posts already in history). Optimization complete.")
