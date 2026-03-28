@@ -19,7 +19,7 @@ on:
       lookback_hours:
         description: "Hours to look back"
         required: false
-        default: "48"
+        default: "24"
 
 permissions:
   contents: write  # Needed to commit history/phone_leads back to repo
@@ -58,7 +58,7 @@ jobs:
 
           HOURS="${{ github.event.inputs.lookback_hours }}"
           if [ -z "$HOURS" ]; then
-            HOURS="48"
+            HOURS="24"
           fi
 
           python saved_posts_outreach.py --hours "$HOURS" $DRY_RUN_FLAG
