@@ -58,5 +58,27 @@
     "contact_method": "email / phone",
     "has_contact_info": true,
     "saved_to_leads_at": "2026-03-28T12:34:19.701103"
+  },
+  {
+    "saved_at": 0,
+    "saved_at_iso": null,
+    "entity_urn": "urn:li:activity:7443525220902039552",
+    "post_urn": "urn:li:activity:7443525220902039552",
+    "text_preview": "",
+    "raw_data": {},
+    "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nHuman Resources Administrator At Sureminds Solutions Private Limited\n\nHello #Connections \n\n\ud83d\ude80 We\u2019re Hiring: AI/ML Experts | Contract to Hire | Bangalore\n\nLooking to work on cutting-edge AI, Machine Learning & Generative AI solutions? We have exciting opportunities across multiple levels for passionate professionals ready to build scalable, enterprise-grade AI systems.\n\n\ud83d\udd39 Open Roles:\n\u2022 Lead AI Engineer (7+ years)\n\u2022 Senior Data Scientist (5+ years)\n\u2022 Junior Data Scientist (2\u20133+ years)\n\n\ud83d\udd39 What You\u2019ll Work On:\n\u2714\ufe0f Generative AI, LLMs, RAG pipelines, and Agentic AI systems\n\u2714\ufe0f NLP use cases like classification, summarization & semantic search\n\u2714\ufe0f Scalable AI architectures with cloud (AWS/Azure/GCP)\n\u2714\ufe0f Deployment using Docker, Kubernetes & MLOps practices\n\u2714\ufe0f Real-world AI solutions solving complex business problems\n\n\ud83d\udd39 What We\u2019re Looking For:\n\u2022 Strong Python, SQL & ML/DL expertise (TensorFlow/PyTorch)\n\u2022 Hands-on experience with LLMs, embeddings & vector databases\n\u2022 Exposure to frameworks like LangGraph, AutoGen, or ADK\n\u2022 Passion for innovation, scalability & Responsible AI\n\n\ud83d\udccd Location: Bangalore\n\ud83d\udcc4 Employment Type: Contract to Hire\n\n\ud83d\udce9 Apply Now: mahatej@sureminds.co.in \ud83d\udcde Contact: +91 8897707162\n\n#AIJobs #DataScienceJobs #MachineLearning #GenerativeAI #LLM #HiringNow #BangaloreJobs #TechCareers #ArtificialIntelligence #DeepLearning #NLP #RAG #MLOps #CloudComputing #PythonJobs #Kubernetes #AWSJobs #AzureJobs #GCPJobs #CareerOpportunity\n\nDomestic IT Recruiter | Bulk, Lateral & Leadership Hiring | End-to-End Talent Acquisition\n\nGenerative AI Engg | Building LLM Powered Applications | Data Scientist | AIML | Python | LangGraph | LangChain | Agentic AI | ML & LLMOPS | RAG | MCP | A2A | CrewAI | ADK | AWS Bedrock| Azure OpenAI |Talks about #GenAI\n\n[EMAILS FOUND: mahatej@sureminds.co.in]\n\n[PHONE NUMBERS FOUND: +91 8897707162, 1318987267, 17247638104, 17710608837, 1035434483, 17594769967, 17417549015, 17589680019, 7443525220, 17762976000, 1 8897707162, 17594769974, 1776297600]",
+    "created_at": 0,
+    "created_at_iso": null,
+    "index": 3,
+    "poster_name": "Mahatej",
+    "poster_email": "mahatej@sureminds.co.in",
+    "poster_phone": "+91 8897707162",
+    "company": "Sureminds Solutions Private Limited",
+    "role_title": "AI/ML Experts",
+    "role_summary": "Hiring AI/ML Experts (Lead AI Engineer, Senior Data Scientist, Junior Data Scientist) for contract-to-hire roles in Bangalore, focusing on Generative AI, LLMs, NLP, and scalable AI architectures.",
+    "rate_or_compensation": null,
+    "contact_method": "email",
+    "has_contact_info": true,
+    "saved_to_leads_at": "2026-03-28T13:40:04.072324"
   }
 ]

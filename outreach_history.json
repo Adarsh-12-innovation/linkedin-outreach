@@ -1,0 +1,88 @@
+{
+  "contacted_urns": [
+    "urn:li:activity:7442088139596288001",
+    "urn:li:activity:7441822768951832576",
+    "urn:li:activity:7442085471796768769",
+    "urn:li:activity:7442192188647800832",
+    "urn:li:activity:7443286506087059456",
+    "urn:li:activity:7443525220902039552",
+    "urn:li:activity:7441834904818110465",
+    "urn:li:activity:7442210685734006786",
+    "urn:li:activity:7443300001356808192",
+    "urn:li:activity:7443409490726715392"
+  ],
+  "contacted_emails": [
+    "sujith.g@eniacsys.com",
+    "Ragul@radixlink.com",
+    "info@kbstraining.com",
+    "sujata.k@3shooltech.com",
+    "innaiah@veritis.com",
+    "mahatej@sureminds.co.in",
+    "sukesh@nebulapartners.com",
+    "steffid@techrakers.com",
+    "rajaranjani.r@pilvisystems.com",
+    "sitaram@ideaforgeitsystems.com"
+  ],
+  "contacted_details": [
+    {
+      "urn": "urn:li:activity:7442088139596288001",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442088139596288001",
+      "email": "sujith.g@eniacsys.com",
+      "timestamp": "2026-03-28T13:40:14.992600"
+    },
+    {
+      "urn": "urn:li:activity:7441822768951832576",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441822768951832576",
+      "email": "Ragul@radixlink.com",
+      "timestamp": "2026-03-28T13:40:19.341709"
+    },
+    {
+      "urn": "urn:li:activity:7442085471796768769",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442085471796768769",
+      "email": "info@kbstraining.com",
+      "timestamp": "2026-03-28T13:40:22.493537"
+    },
+    {
+      "urn": "urn:li:activity:7442192188647800832",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442192188647800832",
+      "email": "sujata.k@3shooltech.com",
+      "timestamp": "2026-03-28T13:40:26.869139"
+    },
+    {
+      "urn": "urn:li:activity:7443286506087059456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443286506087059456",
+      "email": "innaiah@veritis.com",
+      "timestamp": "2026-03-28T13:40:30.242463"
+    },
+    {
+      "urn": "urn:li:activity:7443525220902039552",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443525220902039552",
+      "email": "mahatej@sureminds.co.in",
+      "timestamp": "2026-03-28T13:40:33.514387"
+    },
+    {
+      "urn": "urn:li:activity:7441834904818110465",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441834904818110465",
+      "email": "sukesh@nebulapartners.com",
+      "timestamp": "2026-03-28T13:40:36.785111"
+    },
+    {
+      "urn": "urn:li:activity:7442210685734006786",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442210685734006786",
+      "email": "steffid@techrakers.com",
+      "timestamp": "2026-03-28T13:50:05.218023"
+    },
+    {
+      "urn": "urn:li:activity:7443300001356808192",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443300001356808192",
+      "email": "rajaranjani.r@pilvisystems.com",
+      "timestamp": "2026-03-28T13:50:08.835289"
+    },
+    {
+      "urn": "urn:li:activity:7443409490726715392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443409490726715392",
+      "email": "sitaram@ideaforgeitsystems.com",
+      "timestamp": "2026-03-28T13:50:13.744929"
+    }
+  ]
+}
