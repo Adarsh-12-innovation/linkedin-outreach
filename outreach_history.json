@@ -21,7 +21,8 @@
     "urn:li:activity:7443397329920905216",
     "urn:li:activity:7442909519342551040",
     "urn:li:activity:7442458590088626176",
-    "urn:li:activity:7442433292999663616"
+    "urn:li:activity:7442433292999663616",
+    "urn:li:activity:7442809998155628544"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -45,7 +46,8 @@
     "Harsha@Gforgetech.com",
     "narmadaa.websenor@gmail.com",
     "ankita.n@encred.io",
-    "sneha.kirti@muoro.com"
+    "sneha.kirti@muoro.com",
+    "ai@hereandnow.co.in"
   ],
   "contacted_details": [
     {
@@ -179,6 +181,12 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442433292999663616",
       "email": "sneha.kirti@muoro.com",
       "timestamp": "2026-03-28T22:57:49.199038"
+    },
+    {
+      "urn": "urn:li:activity:7442809998155628544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442809998155628544",
+      "email": "ai@hereandnow.co.in",
+      "timestamp": "2026-03-28T17:34:28.577553"
     }
   ]
 }
