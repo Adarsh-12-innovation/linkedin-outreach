@@ -138,7 +138,7 @@ CONFIG = {
 EMAIL_TEMPLATE = {
     "subject": "Application AI/ML Engineer — Available for Contract roles",
     "body": """\
-Hello,
+Hello {recipient_name},
 
 I came across your recent post on LinkedIn about the {role_title} role and wanted to reach out.
 
@@ -774,17 +774,42 @@ def get_gmail_service():
     return service
 
 
+def extract_first_name(full_name: str) -> str:
+    """Extract first name from full name, defaulting to None if unclear."""
+    if not full_name or full_name == "?":
+        return None
+    
+    # Remove common prefixes/suffixes
+    clean_name = re.sub(r"^(Mr\.|Ms\.|Mrs\.|Dr\.)\s+", "", full_name, flags=re.I)
+    
+    # Take the first word
+    parts = clean_name.split()
+    if not parts:
+        return None
+        
+    first_name = parts[0].strip()
+    
+    # If first name is just a single character or symbol, it's not reliable
+    if len(first_name) <= 1 or not first_name.isalpha():
+        return None
+        
+    return first_name.capitalize()
+
+
 def compose_email(to_email: str, recipient_name: str, role_title: str) -> str:
     msg = MIMEMultipart()
     msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
     msg["To"] = to_email
     msg["Subject"] = EMAIL_TEMPLATE["subject"]
 
+    # Address by first name or "there"
+    first_name = extract_first_name(recipient_name)
     body = EMAIL_TEMPLATE["body"].format(
-        # recipient_name=recipient_name or "there",
+        recipient_name=first_name or "Team",
         role_title=role_title or "AI/ML Engineer",
         sender_name=CONFIG["SENDER_NAME"],
     )
+
     msg.attach(MIMEText(body, "plain"))
 
     resume = Path(CONFIG["RESUME_PATH"])
@@ -823,8 +848,9 @@ def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str) -
             return "" # Invalid length for WhatsApp
         
         # Build message
+        first_name = extract_first_name(recipient_name)
         body = EMAIL_TEMPLATE["body"].format(
-            recipient_name=recipient_name or "there",
+            recipient_name=first_name or "Team",
             role_title=role_title or "AI/ML Engineer",
             sender_name=CONFIG["SENDER_NAME"],
         )
