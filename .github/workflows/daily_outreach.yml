@@ -4,14 +4,11 @@ on:
   # Runs 6 times a day (UTC) -> (IST)
   # 03:30 UTC = 09:00 IST
   # 08:30 UTC = 14:00 IST
-  # 08:40 UTC = 14:10 IST (Test Run)
   # 09:30 UTC = 15:00 IST
   # 14:30 UTC = 20:00 IST
   # 18:30 UTC = 00:00 IST
   schedule:
-    - cron: "30 3,8,9,14,18 * * *"
-    - cron: "40 8 * * *"
-
+    - cron: "30 3,6,8,10,12,14,18 * * *"
 
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
