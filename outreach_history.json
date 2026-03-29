@@ -37,7 +37,12 @@
     "urn:li:activity:7443205115668447232",
     "urn:li:activity:7442078423558201344",
     "urn:li:activity:7443352466668224513",
-    "urn:li:activity:7441699570549682176"
+    "urn:li:activity:7441699570549682176",
+    "urn:li:activity:7443295471730765825",
+    "urn:li:activity:7444034413962866688",
+    "urn:li:activity:7444035079506661376",
+    "urn:li:activity:7444048572607639552",
+    "urn:li:activity:7444027044713316352"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -75,7 +80,12 @@
     "sajina.a@expertspro.io",
     "eedula.surendra@clyptus.in",
     "pavan.kirla@signitives.net",
-    "sonali.girhe@follextechnology.com"
+    "sonali.girhe@follextechnology.com",
+    "skumar@alltechconsultinginc.com",
+    "sherly.seedarla@rayosys.com",
+    "Medhar@forcecraver.com",
+    "suraj.singh@avendata-group.com",
+    "azrath.k@tachyontech.com"
   ],
   "contacted_details": [
     {
@@ -305,6 +315,36 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441699570549682176",
       "email": "sonali.girhe@follextechnology.com",
       "timestamp": "2026-03-29T14:57:36.385846"
+    },
+    {
+      "urn": "urn:li:activity:7443295471730765825",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443295471730765825",
+      "email": "skumar@alltechconsultinginc.com",
+      "timestamp": "2026-03-29T21:45:08.227131"
+    },
+    {
+      "urn": "urn:li:activity:7444034413962866688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444034413962866688",
+      "email": "sherly.seedarla@rayosys.com",
+      "timestamp": "2026-03-29T22:04:43.150022"
+    },
+    {
+      "urn": "urn:li:activity:7444035079506661376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444035079506661376",
+      "email": "Medhar@forcecraver.com",
+      "timestamp": "2026-03-29T22:04:46.740887"
+    },
+    {
+      "urn": "urn:li:activity:7444048572607639552",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444048572607639552",
+      "email": "suraj.singh@avendata-group.com",
+      "timestamp": "2026-03-29T22:04:54.568386"
+    },
+    {
+      "urn": "urn:li:activity:7444027044713316352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444027044713316352",
+      "email": "azrath.k@tachyontech.com",
+      "timestamp": "2026-03-29T22:05:02.738658"
     }
   ]
 }

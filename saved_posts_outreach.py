@@ -85,6 +85,8 @@ from email import encoders
 from pathlib import Path
 
 import requests
+import phonenumbers
+from urllib.parse import quote
 
 from dotenv import load_dotenv
 
@@ -118,6 +120,7 @@ CONFIG = {
 
     # Resume
     "RESUME_PATH": "Adarsh Bansal_CV_2026.pdf",
+    "RESUME_URL": "https://github.com/Adarsh-12-innovation/linkedin-outreach/raw/main/Adarsh%20Bansal_CV_2026.pdf",
 
     # Time window
     "LOOKBACK_HOURS": 48,
@@ -803,6 +806,37 @@ def send_one_email(service, to_email: str, name: str, role_title: str) -> dict:
     return service.users().messages().send(userId="me", body={"raw": raw}).execute()
 
 
+def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str) -> str:
+    """Clean phone number and generate a pre-filled WhatsApp wa.me link."""
+    try:
+        # Extract ONLY digits
+        digits_only = re.sub(r"\D", "", phone_str)
+        
+        # WhatsApp requirement: Country code + Number, NO '+' or other chars.
+        # If user provided 10 digits, assume India (91)
+        if len(digits_only) == 10:
+            final_number = "91" + digits_only
+        elif len(digits_only) > 10:
+            # Already has a country code (like 91987...)
+            final_number = digits_only
+        else:
+            return "" # Invalid length for WhatsApp
+        
+        # Build message
+        body = EMAIL_TEMPLATE["body"].format(
+            recipient_name=recipient_name or "there",
+            role_title=role_title or "AI/ML Engineer",
+            sender_name=CONFIG["SENDER_NAME"],
+        )
+        body = body.replace("attached below", f"here: {CONFIG['RESUME_URL']}")
+        
+        encoded_msg = quote(body)
+        return f"https://wa.me/{final_number}?text={encoded_msg}"
+    except Exception as e:
+        log.debug(f"Failed to format WhatsApp link for {phone_str}: {e}")
+        return ""
+
+
 def send_leads_summary_email(service, phone_leads: list[dict]):
     """Send a summary of all phone leads found in this run to the user's email."""
     if not phone_leads:
@@ -817,7 +851,8 @@ def send_leads_summary_email(service, phone_leads: list[dict]):
 
     body_lines = [
         f"Hi {CONFIG['SENDER_NAME']},\n",
-        f"Identified {len(phone_leads)} phone leads in the latest LinkedIn saved posts run:\n",
+        f"Identified {len(phone_leads)} phone leads in the latest LinkedIn saved posts run.\n",
+        "Click the [WhatsApp] links below to instantly message recruiters with your pre-filled outreach and resume link.\n",
         "-" * 60
     ]
 
@@ -829,12 +864,16 @@ def send_leads_summary_email(service, phone_leads: list[dict]):
         company = lead.get("company") or "Unknown Company"
         urn = lead.get("post_urn") or lead.get("entity_urn", "")
         url = f"https://www.linkedin.com/feed/update/{urn}" if urn else "No URL"
+        
+        wa_link = format_whatsapp_link(phone, name, role) if phone != "No Phone" else ""
 
         body_lines.append(f"{i}. {name} ({company})")
         body_lines.append(f"   Phone: {phone}")
+        if wa_link:
+            body_lines.append(f"   WhatsApp: {wa_link}")
         body_lines.append(f"   Email: {email}")
         body_lines.append(f"   Role:  {role}")
-        body_lines.append(f"   Link:  {url}")
+        body_lines.append(f"   LinkedIn: {url}")
         body_lines.append("-" * 60)
 
     body_lines.append("\nBest regards,\nYour Outreach Agent")

@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-03-29T21:45:09.235960",
+  "lookback_hours": 48,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 1,
+    "with_phone": 1,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7443295471730765825",
+      "post_urn": "urn:li:activity:7443295471730765825",
+      "text_preview": "",
+      "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nHiring _ #Generative AI (#GenAI) & #Intelligent Agent Consultant _ New York, NY\n\nNotes:\n\u2022\tThis is a long-term contract role.\n\u2022\tDay one onsite with hybrid.\n\u2022\tPreferred local candidates only who can come for in-person interview\n\u00a0\nSkills required:\n\u2022\t7\u201315 years proven experience in #AI/ML engineering, architecting and delivering real-world products or platforms.\n\u2022\tDeep, practical expertise with #LLMs, #GenAI frameworks (#OpenAI, #LangChain, etc.), and agent development.\n\u2022\tStrong programming skills (e.g., #Python) and architectural experience with distributed, scalable systems.\n\u2022\tHands-on experience designing and developing AI/ML models, GenAI applications in production environments (cloud/on-premise).\n\u2022\tExperience with evaluation, observability/monitoring of GenAI solutions.\n\u2022\tStrong understanding of microservices, API design, CI/CD, containerization, and MLOps practices.\n\u2022\tExcellent communication skills and ability to drive technical vision collaboratively.\n\u2022\tTrack record of delivering high-quality AI products with scalability, maintainability, and observability in mind.\n\u2022\tFamiliarity with Agile development and DevOps concepts\n\nNice to have:\n\u2022\tExperience with DevOps and CI/CD in ML workflows is a plus.\n\u2022\tExperience in agentic process automation or AI copilots\n\nIf you are interested and suitable to this role, please send your updated resume to skumar@alltechconsultinginc.com\n\nThanks.,\nSenthil Kumar | 609-297-8907 | skumar@alltechconsultinginc.com\n\n#GenerativeAI , #GenAI, #AI, #AIML, #Machinelearning, #ML, #LLMs, #LLM, #OpenAI, #LangChain, #Python, #microservices, #API, #CI/CD, #MLOps\n#onsite, #contract, #longterm, #C2C, #Corp2Corp, #w2, #Hiring\n#Newyork, #NY, #NYC, #NJ, #Newjersey,#Newyorkcity\n\nAI/ML Engineer | Generative AI | LLMs | RAG | MLOps | AWS | Building Production-Grade Intelligent Systems\n\nBusiness Development Executive\n\nSenior Bench Sales Recruiter |US IT Staffing | Vendor Management|End-to-End Marketing\n\n[EMAILS FOUND: skumar@alltechconsultinginc.com]\n\n[PHONE NUMBERS FOUND: 17482371340, 17762976000, 1123128805, 7443295471, 1775408400, 16600027725, 609-297-8907, 17182316953, 17754084000, 16962394320, 1776297600, 17678935871, 1097487732, 7443295470, 16754345157, 17640864880]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Senthil Kumar",
+      "poster_email": "skumar@alltechconsultinginc.com",
+      "poster_phone": "609-297-8907",
+      "company": "Alltech Consulting Inc.",
+      "role_title": "Generative AI (GenAI) & Intelligent Agent Consultant",
+      "role_summary": "Long-term contract role for a Generative AI & Intelligent Agent Consultant in New York, NY, requiring AI/ML and GenAI experience.",
+      "rate_or_compensation": null,
+      "contact_method": "email",
+      "has_contact_info": true,
+      "saved_to_leads_at": "2026-03-29T21:44:58.328126"
+    }
+  ]
+}
