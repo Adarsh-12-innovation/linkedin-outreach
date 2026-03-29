@@ -686,19 +686,17 @@ def save_history(history: dict):
 
 def dedupe_against_history(results: list[dict], history: dict) -> list[dict]:
     seen_urns = set(history.get("contacted_urns", []))
-    seen_emails = set(history.get("contacted_emails", []))
 
     fresh, skipped = [], 0
     for r in results:
         urn = r.get("post_urn", "") or r.get("entity_urn", "")
-        email = r.get("poster_email", "")
-        if urn in seen_urns or (email and email in seen_emails):
+        if urn in seen_urns:
             skipped += 1
         else:
             fresh.append(r)
 
     if skipped:
-        log.info(f"Skipped {skipped} already-contacted posts")
+        log.info(f"Skipped {skipped} already-contacted posts (by LinkedIn ID)")
     return fresh
 
 
