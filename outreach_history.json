@@ -24,7 +24,9 @@
     "urn:li:activity:7442433292999663616",
     "urn:li:activity:7442809998155628544",
     "urn:li:activity:7442112105475973120",
-    "urn:li:activity:7440334261582397440"
+    "urn:li:activity:7440334261582397440",
+    "urn:li:activity:7443869326916595712",
+    "urn:li:activity:7443880875135569920"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -51,7 +53,9 @@
     "sneha.kirti@muoro.com",
     "ai@hereandnow.co.in",
     "Jagrati.jadhav@appzime.in",
-    "hr@sudocodelab.com"
+    "hr@sudocodelab.com",
+    "priyanka@rayosys.com",
+    "jbhatia@forcecraver.com"
   ],
   "contacted_details": [
     {
@@ -203,6 +207,18 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440334261582397440",
       "email": "hr@sudocodelab.com",
       "timestamp": "2026-03-28T18:38:36.917429"
+    },
+    {
+      "urn": "urn:li:activity:7443869326916595712",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443869326916595712",
+      "email": "priyanka@rayosys.com",
+      "timestamp": "2026-03-29T05:23:48.051756"
+    },
+    {
+      "urn": "urn:li:activity:7443880875135569920",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443880875135569920",
+      "email": "jbhatia@forcecraver.com",
+      "timestamp": "2026-03-29T05:23:49.844341"
     }
   ]
 }

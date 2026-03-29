@@ -168,5 +168,27 @@
     "contact_method": "email / phone",
     "has_contact_info": true,
     "saved_to_leads_at": "2026-03-28T17:34:16.558421"
+  },
+  {
+    "saved_at": 0,
+    "saved_at_iso": null,
+    "entity_urn": "urn:li:activity:7443880875135569920",
+    "post_urn": "urn:li:activity:7443880875135569920",
+    "text_preview": "",
+    "raw_data": {},
+    "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nCEO & Founder | Salesforce Architect at Forcecraver | Expert in Salesforce, DataCloud, Agentforce, SAP, Oracle, Full Stack Development, Data Science & Engineering | Transforming CRM & Tech Solutions\n\n\ud83d\ude80 Hiring: Senior Data Scientist (#Forcecraver)\n\ud83d\udccd Location: Remote (India Only)\n\ud83d\udcbc Experience: 5+ Years\n\ud83d\udcc4 Employment Type: Contract\n\n\nWe are looking for a Senior Data Scientist to lead validation, optimization, and production deployment of ML models for premium freight pricing. This is a high-impact, revenue-critical role requiring strong expertise in ML, MLOps, and production systems.\n\n\ud83d\udd39 Key Responsibilities:\n\u2714 Audit & validate ML models (data leakage, evaluation rigor)\n\u2714 Benchmark performance & perform error analysis\n\u2714 Recommend GO/NO-GO for production readiness\n\u2714 Optimize models (feature engineering, tuning, retraining)\n\u2714 Define monitoring (drift detection, alerts, retraining triggers)\n\u2714 Collaborate with data & engineering teams\n\u2714 Lead production deployment & post-launch monitoring\n\u2714 Mentor team & drive ML best practices\n\n\ud83d\udd39 Required Skills:\n\u2714 Strong ML expertise (regression, forecasting, clustering)\n\u2714 Python (scikit-learn, pandas, NumPy, TensorFlow/PyTorch/XGBoost)\n\u2714 MLOps, model deployment & monitoring\n\u2714 Cloud ML platforms (AWS SageMaker / Azure ML / Vertex AI)\n\u2714 SQL, data pipelines, Spark/Databricks/Snowflake\n\u2714 Strong statistics & optimization background\n\n\ud83d\udd39 Good to Have:\n\u2714 Experience in logistics / freight pricing / supply chain\n\u2714 Pricing optimization or revenue management models\n\n\ud83c\udf93 Qualification: Master\u2019s / PhD in relevant field\n\ud83d\udccc Candidates must be based in India\n\n\ud83d\udce9 Please reach out to me at +919899634637 or jbhatia@forcecraver.com to discuss further.\n\ud83d\udd14 Follow @Jitender Bhatia @Forcecraver Technologies for more job updates.\n\n[EMAILS FOUND: jbhatia@forcecraver.com]\n\n[PHONE NUMBERS FOUND: 1776297600, 7441883617, 7443880875, 17762976000, 16767481865, +919899634637, 16933119740, 9198996346]",
+    "created_at": 0,
+    "created_at_iso": null,
+    "index": 2,
+    "poster_name": "Jitender Bhatia",
+    "poster_email": "jbhatia@forcecraver.com",
+    "poster_phone": "+919899634637",
+    "company": "Forcecraver",
+    "role_title": "Senior Data Scientist",
+    "role_summary": "Forcecraver is hiring a remote (India only) Senior Data Scientist for a contract role to lead validation, optimization, and deployment of ML models for freight pricing.",
+    "rate_or_compensation": null,
+    "contact_method": "email",
+    "has_contact_info": true,
+    "saved_to_leads_at": "2026-03-29T05:23:45.804129"
   }
 ]
