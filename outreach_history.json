@@ -42,7 +42,8 @@
     "urn:li:activity:7444034413962866688",
     "urn:li:activity:7444035079506661376",
     "urn:li:activity:7444048572607639552",
-    "urn:li:activity:7444027044713316352"
+    "urn:li:activity:7444027044713316352",
+    "urn:li:activity:7442462284796555264"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -85,7 +86,8 @@
     "sherly.seedarla@rayosys.com",
     "Medhar@forcecraver.com",
     "suraj.singh@avendata-group.com",
-    "azrath.k@tachyontech.com"
+    "azrath.k@tachyontech.com",
+    "srushti@the-algo.com"
   ],
   "contacted_details": [
     {
@@ -345,6 +347,12 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444027044713316352",
       "email": "azrath.k@tachyontech.com",
       "timestamp": "2026-03-29T22:05:02.738658"
+    },
+    {
+      "urn": "urn:li:activity:7442462284796555264",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442462284796555264",
+      "email": "srushti@the-algo.com",
+      "timestamp": "2026-03-29T17:01:33.918959"
     }
   ]
 }
