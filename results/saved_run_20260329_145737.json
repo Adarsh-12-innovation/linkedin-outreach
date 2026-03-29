@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-29T14:57:37.386871",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 1,
+    "with_phone": 0,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7441699570549682176",
+      "post_urn": "urn:li:activity:7441699570549682176",
+      "text_preview": "",
+      "full_content": "Hi Sonali, \nGreat opportunity for AI Engineers with strong experience in building intelligent solutions.\nI am Chakshu, Client Relationship Manager at ASYVA InfoTech. Our team builds and scales software, cloud, and data solutions. We have experienced AI Engineers, Data Scientists, and ML specialists available for immediate onboarding on a contractual basis to support teams and accelerate project delivery.\nHappy to connect and share relevant profiles.\n\ncc- Tanay Gupta Kritika Gupta\n\nYou'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nSenior Human Resources Consultant || Client Relations || Team Effectiveness || Succession Planning || Vendor management || HR Generalist || Team Handling @Follex Technology\n\n#Hiring #AIMLEngineer #Remote #AIengineer\nUrgent opening: \ud83d\udea8\nRequirement 1 : AI Engineer:\nExp: 5 years exp.\u00a0\nLocation: Remote\nNotice Period: Immediate Joiner\nRole: Contract/ Consultant \nInterested candidates can share cv to sonali.girhe@follextechnology.com\n\nRequirement 2: Development manager :*\n5-7 years exp.\nMust have good knowledge on coding and Should able to lead the team.\u00a0\nLocation: Remote\nNotice Period: Immediate Joiner\nRole: Contract/ Consultant \n#Hiring #Immediatejoiner #Remote #AIEngineer #AIML #Remotejobs #WFH #ContractJobs #DevelopementManager #LLM #GenAI #HiringAIML\n\nGenerative AI Engg | Building LLM Powered Applications | Data Scientist | AIML | Python | LangGraph | LangChain | Agentic AI | ML & LLMOPS | RAG | MCP | A2A | CrewAI | ADK | AWS Bedrock| Azure OpenAI |Talks about #GenAI\n\nBackend Developer @SavvyMinds || Node.js ||JavaScript || SQL\n\nSenior Business Development Executive specializing in C2C, B2B, and C2H staffing. I provide remote resources worldwide \ud83c\udf0d, helping businesses scale with expert web and app development solutions. Let's connect!\n\nJunior Web Developer at Logelite Pvt Ltd\n\nFrontend Developer | React.js Expert | 6+ Years Experience | On Career Break | Actively Seeking Opportunities\n\nFreelance Android & Flutter Developer | Kotlin, Java, Dart | Jetpack, Firebase | IoT & BLE Apps | Building Scalable, High-Performance Mobile Solutions\n\n#immediate joiner| IT Recruiter|HR Recruiter| Sourcing Specialist | Talent Acquisition |\n\nSenior Software Engineer || MTech in AI & ML\n\nAI ML Engineer @ Verizon | GenAI, Palantir Foundry, Databricks, AWS | Building Scalable Data & ML Pipelines\n\n[EMAILS FOUND: sonali.girhe@follextechnology.com]\n\n[PHONE NUMBERS FOUND: 1675623925, 17674158685, 1776297600, 17213890472, 1475464595, 16945279339, 1775401200, 17754012000, 16600027725, 1106249084, 17674158684, 17263326797, 7441732487, 17628715841, 8722928844, 846464-1774, 17343478452, 17594769974, 17762976000, 17673802184, 17247431784, 17727452869, 16497419019, (7441732487, 17651906448, 17431411369, 782-2552590, 17742472856, 17589680019, 2874417324, 17667556565, 17715858124, 17594769967, 17351195881, 17715858126, 17727452868, 7441699570, 17628715842, 16355885673, 16819731705, 17247431785, 17651906449, 7441699569, 16542396823, 17089767002, 17667556290, 17687140360]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Sonali Girhe",
+      "poster_email": "sonali.girhe@follextechnology.com",
+      "poster_phone": null,
+      "company": "Follex Technology",
+      "role_title": "AI Engineer, Development Manager",
+      "role_summary": "Contract/freelance opportunities for AI Engineers and Development Managers at Follex Technology, requiring immediate joiners for remote positions.",
+      "rate_or_compensation": null,
+      "contact_method": "email",
+      "has_contact_info": true
+    }
+  ]
+}

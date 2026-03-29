@@ -36,7 +36,8 @@
     "urn:li:activity:7443162972111384576",
     "urn:li:activity:7443205115668447232",
     "urn:li:activity:7442078423558201344",
-    "urn:li:activity:7443352466668224513"
+    "urn:li:activity:7443352466668224513",
+    "urn:li:activity:7441699570549682176"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -73,7 +74,8 @@
     "komal@viennaconsultancy.com",
     "sajina.a@expertspro.io",
     "eedula.surendra@clyptus.in",
-    "pavan.kirla@signitives.net"
+    "pavan.kirla@signitives.net",
+    "sonali.girhe@follextechnology.com"
   ],
   "contacted_details": [
     {
@@ -297,6 +299,12 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443352466668224513",
       "email": "pavan.kirla@signitives.net",
       "timestamp": "2026-03-29T13:32:48.651970"
+    },
+    {
+      "urn": "urn:li:activity:7441699570549682176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441699570549682176",
+      "email": "sonali.girhe@follextechnology.com",
+      "timestamp": "2026-03-29T14:57:36.385846"
     }
   ]
 }
