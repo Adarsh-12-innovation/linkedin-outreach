@@ -28,7 +28,15 @@
     "urn:li:activity:7443869326916595712",
     "urn:li:activity:7443880875135569920",
     "urn:li:activity:7443895973786955777",
-    "urn:li:activity:7443880878839296000"
+    "urn:li:activity:7443880878839296000",
+    "urn:li:activity:7441788603845996544",
+    "urn:li:activity:7442637846945030144",
+    "urn:li:activity:7442825014720045056",
+    "urn:li:activity:7443211960520912896",
+    "urn:li:activity:7443162972111384576",
+    "urn:li:activity:7443205115668447232",
+    "urn:li:activity:7442078423558201344",
+    "urn:li:activity:7443352466668224513"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -57,7 +65,15 @@
     "Jagrati.jadhav@appzime.in",
     "hr@sudocodelab.com",
     "priyanka@rayosys.com",
-    "jbhatia@forcecraver.com"
+    "jbhatia@forcecraver.com",
+    "gopi@relianttechno.com",
+    "gowtham.ponnusamy@exaways.com",
+    "nibedita.panigrahi@emergertech.com",
+    "mansi@teknobit.com",
+    "komal@viennaconsultancy.com",
+    "sajina.a@expertspro.io",
+    "eedula.surendra@clyptus.in",
+    "pavan.kirla@signitives.net"
   ],
   "contacted_details": [
     {
@@ -233,6 +249,54 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443880878839296000",
       "email": "jbhatia@forcecraver.com",
       "timestamp": "2026-03-29T10:56:50.733838"
+    },
+    {
+      "urn": "urn:li:activity:7441788603845996544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441788603845996544",
+      "email": "gopi@relianttechno.com",
+      "timestamp": "2026-03-29T13:32:35.135747"
+    },
+    {
+      "urn": "urn:li:activity:7442637846945030144",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442637846945030144",
+      "email": "gowtham.ponnusamy@exaways.com",
+      "timestamp": "2026-03-29T13:32:37.085607"
+    },
+    {
+      "urn": "urn:li:activity:7442825014720045056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442825014720045056",
+      "email": "nibedita.panigrahi@emergertech.com",
+      "timestamp": "2026-03-29T13:32:39.015682"
+    },
+    {
+      "urn": "urn:li:activity:7443211960520912896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443211960520912896",
+      "email": "mansi@teknobit.com",
+      "timestamp": "2026-03-29T13:32:40.925693"
+    },
+    {
+      "urn": "urn:li:activity:7443162972111384576",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443162972111384576",
+      "email": "komal@viennaconsultancy.com",
+      "timestamp": "2026-03-29T13:32:42.856700"
+    },
+    {
+      "urn": "urn:li:activity:7443205115668447232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443205115668447232",
+      "email": "sajina.a@expertspro.io",
+      "timestamp": "2026-03-29T13:32:44.770501"
+    },
+    {
+      "urn": "urn:li:activity:7442078423558201344",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442078423558201344",
+      "email": "eedula.surendra@clyptus.in",
+      "timestamp": "2026-03-29T13:32:46.711294"
+    },
+    {
+      "urn": "urn:li:activity:7443352466668224513",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443352466668224513",
+      "email": "pavan.kirla@signitives.net",
+      "timestamp": "2026-03-29T13:32:48.651970"
     }
   ]
 }
