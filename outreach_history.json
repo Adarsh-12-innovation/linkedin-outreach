@@ -54,7 +54,12 @@
     "urn:li:activity:7444246314587934720",
     "urn:li:activity:7444258171352952832",
     "urn:li:activity:7444266858767273984",
-    "urn:li:activity:7444256462681567233"
+    "urn:li:activity:7444256462681567233",
+    "urn:li:activity:7444335965642526721",
+    "urn:li:activity:7444313949304668160",
+    "urn:li:activity:7444287386584240128",
+    "urn:li:activity:7444301988290306049",
+    "urn:li:activity:7444316300660666369"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -107,7 +112,12 @@
     "himanshi@sourcebae.com",
     "hr@stellarmind.ai",
     "Narsing.r@tachyontech.com",
-    "garimasingh@tech5sages.com"
+    "garimasingh@tech5sages.com",
+    "Yash.mishra@technotrillion.in",
+    "a.radhika@ekloudservices.com",
+    "hrjobs@kas-in.com",
+    "nitya.pande@softbay.com",
+    "yashika.jain@rayosys.com"
   ],
   "contacted_details": [
     {
@@ -439,6 +449,36 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444256462681567233",
       "email": "garimasingh@tech5sages.com",
       "timestamp": "2026-03-30T06:55:20.796612"
+    },
+    {
+      "urn": "urn:li:activity:7444335965642526721",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444335965642526721",
+      "email": "Yash.mishra@technotrillion.in",
+      "timestamp": "2026-03-30T13:54:00.962458"
+    },
+    {
+      "urn": "urn:li:activity:7444313949304668160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444313949304668160",
+      "email": "a.radhika@ekloudservices.com",
+      "timestamp": "2026-03-30T13:54:02.937079"
+    },
+    {
+      "urn": "urn:li:activity:7444287386584240128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444287386584240128",
+      "email": "hrjobs@kas-in.com",
+      "timestamp": "2026-03-30T13:54:04.938443"
+    },
+    {
+      "urn": "urn:li:activity:7444301988290306049",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444301988290306049",
+      "email": "nitya.pande@softbay.com",
+      "timestamp": "2026-03-30T13:54:06.984159"
+    },
+    {
+      "urn": "urn:li:activity:7444316300660666369",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444316300660666369",
+      "email": "yashika.jain@rayosys.com",
+      "timestamp": "2026-03-30T13:54:08.963640"
     }
   ]
 }
