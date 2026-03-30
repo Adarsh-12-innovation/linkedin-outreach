@@ -46,7 +46,15 @@
     "urn:li:activity:7442462284796555264",
     "urn:li:activity:7443574362018054144",
     "urn:li:activity:7444245287415541760",
-    "urn:li:activity:7443198184341798912"
+    "urn:li:activity:7443198184341798912",
+    "urn:li:activity:7444266425311039488",
+    "urn:li:activity:7444238716929208320",
+    "urn:li:activity:7444243459277946880",
+    "urn:li:activity:7444243275500314624",
+    "urn:li:activity:7444246314587934720",
+    "urn:li:activity:7444258171352952832",
+    "urn:li:activity:7444266858767273984",
+    "urn:li:activity:7444256462681567233"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -93,7 +101,13 @@
     "srushti@the-algo.com",
     "tridentsyspro@gmail.com",
     "piyusha.r@apideltech.com",
-    "recruiter@ribbitzllc.com"
+    "recruiter@ribbitzllc.com",
+    "Khushi@sourcebae.com",
+    "Khalil@weradioactive.com",
+    "himanshi@sourcebae.com",
+    "hr@stellarmind.ai",
+    "Narsing.r@tachyontech.com",
+    "garimasingh@tech5sages.com"
   ],
   "contacted_details": [
     {
@@ -377,6 +391,54 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443198184341798912",
       "email": "recruiter@ribbitzllc.com",
       "timestamp": "2026-03-30T05:37:13.460495"
+    },
+    {
+      "urn": "urn:li:activity:7444266425311039488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444266425311039488",
+      "email": "Khushi@sourcebae.com",
+      "timestamp": "2026-03-30T06:55:07.817020"
+    },
+    {
+      "urn": "urn:li:activity:7444238716929208320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444238716929208320",
+      "email": "Khalil@weradioactive.com",
+      "timestamp": "2026-03-30T06:55:09.667472"
+    },
+    {
+      "urn": "urn:li:activity:7444243459277946880",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444243459277946880",
+      "email": "jbhatia@forcecraver.com",
+      "timestamp": "2026-03-30T06:55:11.511270"
+    },
+    {
+      "urn": "urn:li:activity:7444243275500314624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444243275500314624",
+      "email": "jbhatia@forcecraver.com",
+      "timestamp": "2026-03-30T06:55:13.368162"
+    },
+    {
+      "urn": "urn:li:activity:7444246314587934720",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444246314587934720",
+      "email": "himanshi@sourcebae.com",
+      "timestamp": "2026-03-30T06:55:15.238073"
+    },
+    {
+      "urn": "urn:li:activity:7444258171352952832",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444258171352952832",
+      "email": "hr@stellarmind.ai",
+      "timestamp": "2026-03-30T06:55:17.083213"
+    },
+    {
+      "urn": "urn:li:activity:7444266858767273984",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444266858767273984",
+      "email": "Narsing.r@tachyontech.com",
+      "timestamp": "2026-03-30T06:55:18.950924"
+    },
+    {
+      "urn": "urn:li:activity:7444256462681567233",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444256462681567233",
+      "email": "garimasingh@tech5sages.com",
+      "timestamp": "2026-03-30T06:55:20.796612"
     }
   ]
 }
