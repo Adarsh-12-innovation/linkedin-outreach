@@ -59,7 +59,10 @@
     "urn:li:activity:7444313949304668160",
     "urn:li:activity:7444287386584240128",
     "urn:li:activity:7444301988290306049",
-    "urn:li:activity:7444316300660666369"
+    "urn:li:activity:7444316300660666369",
+    "urn:li:activity:7444284873479045121",
+    "urn:li:activity:7444343575263289344",
+    "urn:li:activity:7444318781688025088"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -117,7 +120,10 @@
     "a.radhika@ekloudservices.com",
     "hrjobs@kas-in.com",
     "nitya.pande@softbay.com",
-    "yashika.jain@rayosys.com"
+    "yashika.jain@rayosys.com",
+    "Ritika@yaza.com.au",
+    "hr@nextlooptechnologies.com",
+    "hr@entalix-systems.com"
   ],
   "contacted_details": [
     {
@@ -479,6 +485,24 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444316300660666369",
       "email": "yashika.jain@rayosys.com",
       "timestamp": "2026-03-30T13:54:08.963640"
+    },
+    {
+      "urn": "urn:li:activity:7444284873479045121",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444284873479045121",
+      "email": "Ritika@yaza.com.au",
+      "timestamp": "2026-03-30T19:32:06.856844"
+    },
+    {
+      "urn": "urn:li:activity:7444343575263289344",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444343575263289344",
+      "email": "hr@nextlooptechnologies.com",
+      "timestamp": "2026-03-30T19:32:08.753276"
+    },
+    {
+      "urn": "urn:li:activity:7444318781688025088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444318781688025088",
+      "email": "hr@entalix-systems.com",
+      "timestamp": "2026-03-30T19:32:10.723823"
     }
   ]
 }
