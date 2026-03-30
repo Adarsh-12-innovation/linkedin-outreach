@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-03-30T05:37:14.461615",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 3,
+    "contacts_extracted": 3,
+    "with_email": 3,
+    "with_phone": 0,
+    "emailed": 3
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7443574362018054144",
+      "post_urn": "urn:li:activity:7443574362018054144",
+      "text_preview": "",
+      "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nTechnical Recruiter at Trident Systems Pro\n\nWe Are Hiring!! - Azure Infra Cloud Engineer with DevOps and Linux - #OpentoWork #WeAreHiring #AzureCloud #DevOps\n\nCompany Description\nTrident Systems Pro is a solutions-driven organization specializing in innovative technology services and infrastructure management. The company is committed to delivering customized IT solutions for diverse industries, empowering businesses to achieve operational efficiency. With a focus on cutting-edge technologies and client satisfaction, Trident Systems Pro enables its clients to adapt in rapidly evolving digital environments. The organization fosters a collaborative and inclusive workplace culture to drive success and innovation.\n\nRole Description\nThis is a contract-based remote WFH role for an Azure Infra Cloud Engineer with DevOps and Linux expertise with 4-5years experience. The engineer will focus on designing, implementing, and managing cloud infrastructure solutions within the Azure ecosystem. Responsibilities include ensuring seamless deployment, automation, and scaling, as well as configuring, monitoring, and optimizing Linux environments. The role requires collaboration with cross-functional teams to support DevOps activities and improve infrastructure reliability and performance.\n\nQualifications\nExperience with Cloud Computing and Infrastructure, particularly within Azure environments\nProficiency in Linux systems and administration\nFamiliarity with Software Development and DevOps practices\nWorking knowledge of Databases and data management concepts\nStrong problem-solving skills and the ability to optimize system performance\nExperience with automation tools and CI/CD pipelines is a plus\nBachelor's degree in Computer Science, Engineering, or related field preferred\n\nDM me or send email to tridentsyspro@gmail.com for more details\n\nSr. Lead Infrastructure | 85k+LinkedIn | Follow World IT Jobs group for all IT Infra Jobs | A day without laughter is a day wasted\ud83d\ude0a\n\n[EMAILS FOUND: tridentsyspro@gmail.com]\n\n[PHONE NUMBERS FOUND: 17762976000, 17619836503, 7443574362, 7443574361, 1776297600, 1686602185, 17243020216, 17619836504]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": null,
+      "poster_email": "tridentsyspro@gmail.com",
+      "poster_phone": null,
+      "company": "Trident Systems Pro",
+      "role_title": "Azure Infra Cloud Engineer with DevOps and Linux",
+      "role_summary": "Contract-based remote WFH role for an Azure Infra Cloud Engineer with DevOps and Linux expertise, focusing on designing, implementing, and managing cloud infrastructure solutions within the Azure ecosystem.",
+      "rate_or_compensation": null,
+      "contact_method": "email",
+      "has_contact_info": true
+    },
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7444245287415541760",
+      "post_urn": "urn:li:activity:7444245287415541760",
+      "text_preview": "",
+      "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nSr.Technical Recruiter at Apidel Technologies\n\n\ud83d\ude80 Apidel Technologies Hiring: Python Developer \u2013 Pandas Specialist (Contract Role)\n\ud83d\udd39 Experience: 7+ Years\n\ud83d\udd52 Shift: UK Shift (2 PM \u2013 11 PM)\n\ud83d\udccd Interview: Face-to-Face\nWe\u2019re looking for a Python Specialist with strong expertise in data processing and analysis using Pandas. Ideal candidates should have hands-on experience working with large datasets and building efficient data workflows.\n\ud83d\udcbc Key Skills:\n\u2714 Python (Pandas, NumPy)\n\u2714 Data Processing & Analysis\n\u2714 SQL & Relational Databases\n\u2714 CSV, Excel, JSON Handling\n\u2714 Jupyter Notebook & Git\n\u2b50 Good to Have:\nMachine Learning (scikit-learn) | AWS/Azure/GCP | Airflow | Spark\n\ud83d\udce9 Interested candidates can share their resume at: piyusha.r@apideltech.com Dhaval Patil Neha Dhoot Roshani K. Nazarana Pathan\n\nIT Technical Recruiter | Tech Talent Acquisition | Connecting IT Talent with Opportunities | Apidel Technologies\n\n[EMAILS FOUND: piyusha.r@apideltech.com]\n\n[PHONE NUMBERS FOUND: 1776297600, 15175901694, 17622394100, 16041576226, 17709721710, 17545766098, 16533960665, 15175901693, 17020398241, 17762976000, 7444245286, 1561268291, 7444245287, 16929858963, 16534495039, 16104232357, 16389357993, 17078178356, 17709721709]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 2,
+      "poster_name": null,
+      "poster_email": "piyusha.r@apideltech.com",
+      "poster_phone": null,
+      "company": "Apidel Technologies",
+      "role_title": "Python Developer \u2013 Pandas Specialist",
+      "role_summary": "Contract Python Developer \u2013 Pandas Specialist role requiring 7+ years experience in data processing and analysis using Pandas, with a UK shift and face-to-face interview.",
+      "rate_or_compensation": null,
+      "contact_method": "email",
+      "has_contact_info": true
+    },
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7443198184341798912",
+      "post_urn": "urn:li:activity:7443198184341798912",
+      "text_preview": "",
+      "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nFreelance Recruiter (Technical) | Public Policy | Management Sciences | Amal Fellow | Aspiring Public Administrator and Policy Analyst\n\n\ud83d\ude80 We're Hiring: AI Engineer (n8n) \u2013 UAE (Remote / Offshore)\n\nWe are looking for a talented AI Engineer with strong expertise in n8n to join our Data & AI team.\n\n\ud83d\udccd Location: UAE - Remote (Offshore)\n  Candidate Preferrence: Philippines - Egypt -India\n\u23f3 Contract Role\n\nKey Responsibilities:\n\u2022 Design, develop and manage AI workflows using n8n\n\u2022 Build RAG pipelines and Agentic RAG systems\n\u2022 Integrate LLMs, Vector Databases, Postgres & Python scripts\n\u2022 Develop robust automation and data pipelines\n\u2022 Collaborate with Data Engineers, Analysts & Business stakeholders\n\nRequired Skills:\n\u2022 3\u20135 years experience as AI Engineer or Automation Engineer\n\u2022 Strong hands-on experience with n8n\n\u2022 Mastery in Python & SQL\n\u2022 Good command on RAG & Agentic systems\n\u2022 Experience with REST APIs, webhooks & on-premise deployments (advantage)\n\u2022 Excellent communication skills\n\nQualifications:\n\u2022 Bachelor\u2019s degree in Computer Science, IT or related field\n\nIf you have solid experience building intelligent automation with n8n and want to work on cutting-edge AI solutions, this role is for you!\n\n\ud83d\udce9 Send your CV to: recruiter@ribbitzllc.com\u00a0\u00a0\nSubject Line: AI Engineer (n8n) \u2013 Current Location \u2013 Notice Period\n\nOpen to strong offshore candidates who can align with UAE/Gulf time zones.\n\nTag someone who might be interested \ud83d\udc47\n\n#QatarJobs #UAEJobs #AIJobs #n8n #AIEngineer #RAG #AgenticAI #Python #Automation #DataPipeline #TechJobs #Hiring #ArtificialIntelligence #DevOps #RemoteJobs #India #Philippines #Egypt\n\n\u2b50 Talent Acquisition Specialist ||Compliance & Onboarding || Mass Hiring || End-to-End Recruitment\n\nHR Manager | HR Operations & 360\u00b0 Talent Acquisition Leader | People & Culture Strategist | HR Policy, Compliance & Administration Expert\n\nAI Engineer | Senior Program Manager| Partner/Chief IT Operations USA | AI Professional | Technical Business Analyst | Specializing in IT Augmentation | Expertise in Global IT Transformative Strategies| PHR |\n\nData Analyst & AI Automation Expert | AI Agents, Advanced Excel, SQL, Power Bi | Leveraging 3 Years of Online Marketing Expertise to Deliver Data-Driven Business Insights\n\nSpeaker | Workforce Expert | Lawyer - Employment | 2x Founder | Championing Ownership Culture & Preferred Discomfort to shape bold leaders and energised teams.\n\n[EMAILS FOUND: recruiter@ribbitzllc.com]\n\n[PHONE NUMBERS FOUND: 1776297600, 16915061250, 1016427335, 17696965796, 17370983510, 17742684636, 17466188482, 17696965795, 17742684637, 17486063946, 17762976000, 7443198184, 1775455200, 17525879860, 16241704563, 7443198183, 17754552000, 17466188483, 17473042392, 16351630761, 17744559678]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 3,
+      "poster_name": null,
+      "poster_email": "recruiter@ribbitzllc.com",
+      "poster_phone": null,
+      "company": "Ribbitz LLC",
+      "role_title": "AI Engineer (n8n)",
+      "role_summary": "Contract remote/offshore AI Engineer role in UAE (Philippines, Egypt, India preferred) requiring strong n8n expertise to design, develop, and manage AI workflows, build RAG pipelines, and integrate LLMs.",
+      "rate_or_compensation": null,
+      "contact_method": "email",
+      "has_contact_info": true
+    }
+  ]
+}
