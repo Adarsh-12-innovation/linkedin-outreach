@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-03-30T08:06:21.692635",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 2,
+    "contacts_extracted": 2,
+    "with_email": 0,
+    "with_phone": 2,
+    "emailed": 0
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7444268406184280064",
+      "post_urn": "urn:li:activity:7444268406184280064",
+      "text_preview": "",
+      "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nUpwardIQ Software Solutions\n\n\ud83d\ude80 We\u2019re Hiring: Gen AI Automation QE (Expert Level)\n\ud83d\udccd Location: Bangalore\n \ud83d\udcbc Employment Type: Full-Time / Contract (C2H)\n \u23f3 Experience: 7+ Years\n \u26a1 Notice Period: Immediate Joiners Preferred\n \ud83d\udccc Open Positions: 2\n\n\ud83d\udd0d Role Overview\n We are looking for an Expert Quality Engineer (QE) with strong hands-on experience in test automation and AI-driven quality engineering. You will play a key role in designing and implementing automation strategies for a homegrown iTMS (Transportation Management System), driving efficiency, scalability, and faster delivery.\n\n\ud83d\udee0\ufe0f Key Skills Required\n \u2714\ufe0f Strong expertise in Java, Selenium, and Playwright\n \u2714\ufe0f Experience with Gen AI tools (Cursor IDE / AI Studio or similar)\n \u2714\ufe0f Proven ability to build automation frameworks from scratch\n \u2714\ufe0f Knowledge of AI-assisted testing (self-healing scripts, optimization, AI insights)\n \u2714\ufe0f Solid understanding of SDLC & Agile methodologies\n \u2714\ufe0f Experience in testing complex enterprise applications\n \u2714\ufe0f Strong analytical and communication skills\n\n\ud83c\udf1f Nice to Have\n \u2728 Experience in TMS / Logistics / Supply Chain platforms\n \u2728 Exposure to CI/CD & DevOps practices\n \u2728 Hands-on experience in API & backend automation testing\n \u2728 Ability to mentor teams and provide technical leadership\n \u2728 Familiarity with cloud-based testing environments\n\n\ud83d\udce9 Interested candidates can apply or DM me directly.\n\n #Hiring #AutomationTesting #GenAI #QualityEngineering #Selenium #Playwright #BangaloreJobs #ImmediateJoiners #TechCareers\n\nAI Strategy in 1 Day + Prototype in 3 Weeks | Fastest Path to AI & Digital Transformation While Having A Stupidly Good Time | 22+ Years Making Transformation Less Painful\n\n[PHONE NUMBERS FOUND: 17549379951, 17762976000, 17495857271, 1776297600, 7444268405, 7444268406, 17256152491]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": null,
+      "poster_email": null,
+      "poster_phone": "17549379951",
+      "company": "UpwardIQ Software Solutions",
+      "role_title": "Gen AI Automation QE (Expert Level)",
+      "role_summary": "UpwardIQ Software Solutions is hiring an Expert Gen AI Automation QE in Bangalore for full-time/contract, requiring 7+ years experience in test automation, Java, Selenium, Playwright, and Gen AI tools.",
+      "rate_or_compensation": null,
+      "contact_method": "DM",
+      "has_contact_info": true,
+      "saved_to_leads_at": "2026-03-30T08:06:20.404272"
+    },
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7444271144691707904",
+      "post_urn": "urn:li:activity:7444271144691707904",
+      "text_preview": "",
+      "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nTAG Manager - India @ Astrosoft Technologies II Ex-FIS II Ex-Zenmonics II Driving Excellence in Talent Acquisition II Empowering Organizations with Top Talent\n\nDear Connections\nOne of my friend is hiring for below positions.\nRole: AI Engineer - Agent platform\nExperience: 5-7 yrs\nLocation: Hyderabad\nWorkmode: WFH (weekly once office visit)\nContract: 6 months to 1 year\nSkills: Python with C# or Multi language is a plus.\nLLMs Prompts and tool calling workflows\nMLOPs tooling evaluation frameworks\nFamiliar with vector Databases\n\nRole: AI/ML Services Integration with C#, .Net\nExperience: 5-7 yrs\nLocation: Hyderabad\nWorkmode: Flexible working hours with overlap with US teams (WFH)\nContract: 6 months to 1 year\nSkills: Develop APIs and backend microservices (C#, .Net)\nIntegrate with AI/ML services EHR\nwork with UX, product and DevSecops teams\n\nInterested ones please DM or connect me, Please refer or share it to your friends\n#AI #AIEngineer #AIML #C#, #DOTNET, #MLOPS, #AIMLEngineer\n\n[PHONE NUMBERS FOUND: 7444271143, 17762976000, 15931797758, 1776297600, 7444271144]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 2,
+      "poster_name": null,
+      "poster_email": null,
+      "poster_phone": "7444271143",
+      "company": null,
+      "role_title": "AI Engineer - Agent platform, AI/ML Services Integration with C#, .Net",
+      "role_summary": "A friend is hiring for two WFH contract roles in Hyderabad: an AI Engineer (5-7 yrs, Python/C#, LLMs) and an AI/ML Services Integration specialist (5-7 yrs, C#/.Net, APIs).",
+      "rate_or_compensation": null,
+      "contact_method": "DM",
+      "has_contact_info": true,
+      "saved_to_leads_at": "2026-03-30T08:06:20.404281"
+    }
+  ]
+}
