@@ -76,7 +76,8 @@
     "urn:li:activity:7444701679599620096",
     "urn:li:activity:7444722785836224512",
     "urn:li:activity:7444687795090014208",
-    "urn:li:activity:7444677055050428416"
+    "urn:li:activity:7444677055050428416",
+    "urn:li:activity:7444757819976818690"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -149,7 +150,8 @@
     "info@prakashai.co.in",
     "talentexec12@sysmind.com",
     "Recruiter@rmg-sa.com",
-    "manjusha@schrilltech.com"
+    "manjusha@schrilltech.com",
+    "lakshmikantha@usmsystems.com"
   ],
   "contacted_details": [
     {
@@ -613,6 +615,12 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444677055050428416",
       "email": "mahatej@sureminds.co.in",
       "timestamp": "2026-03-31T13:43:08.789881"
+    },
+    {
+      "urn": "urn:li:activity:7444757819976818690",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444757819976818690",
+      "email": "lakshmikantha@usmsystems.com",
+      "timestamp": "2026-03-31T15:18:24.415347"
     }
   ]
 }
