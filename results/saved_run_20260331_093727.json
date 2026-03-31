@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-31T09:37:27.461477",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 1,
+    "with_phone": 0,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7444626519672647680",
+      "post_urn": "urn:li:activity:7444626519672647680",
+      "text_preview": "",
+      "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nTalent Acquisition Specialist | Clients Engagement | Helps IT Businesses | Reduce Time-to-Hire | End to End Recruitment Support\n\n\ud83d\ude80 Hiring: Lead Machine Learning Engineer (Remote | Pan India | Contract Role)\n\n\ud83d\udd52 Timing: 11:30 AM \u2013 8:30 PM\n\ud83d\udcc5 Experience: 10\u201312 Years\n\nWe are looking for an experienced Lead Machine Learning Engineer to drive AI/ML strategy, lead a team, and build scalable, production-grade machine learning systems that create real business impact.\n\n\ud83d\udd39 Key Responsibilities:\nLead and mentor a team of 3\u20138 ML Engineers\nDefine and drive AI/ML strategy aligned with business goals\nArchitect and deliver end-to-end ML solutions at scale\nCollaborate with cross-functional teams and executive stakeholders\nEstablish best practices for model development, deployment & monitoring\nDrive ML infrastructure roadmap and innovation initiatives\nTranslate cutting-edge research into real-world applications\nBuild PoCs and influence strategic decision-making\n\n\ud83d\udd39 Requirements:\n10+ years of experience in ML production environments\nStrong Python and data science stack (NumPy, Pandas, Matplotlib)\nExperience with TensorFlow, PyTorch, Scikit-learn\nExpertise in supervised & unsupervised learning techniques\nStrong foundation in statistics and scalable ML system design\nProven leadership and stakeholder management experience\n\n\ud83d\udce9 Interested candidates can share their resume at: k.rina@ekloudservices.com\n\n#Hiring #MachineLearning #AIJobs #LeadMLEngineer #DataScienceJobs #PythonJobs #RemoteJobsIndia #TechHiring #ArtificialIntelligence #DeepLearning #CareerOpportunity #HiringNow #MLJobs #LeadershipRoles #ContractJobs #IndiaJobs\n\nPassionate HR Professional | Hiring All Tech Stacks | Helping Job Seekers | Talent Acquisition Expert | Career Development Enthusiast | HR Strategy & Transformation | Networking Pro | Building Winning Teams\n\n[EMAILS FOUND: k.rina@ekloudservices.com]\n\n[PHONE NUMBERS FOUND: 17581258527, 17664026084, 17755560000, 1011247048, 7444626517, 17581258528, 1775556000, 17724480110, 17664946761, 7444626519, 17762976000, 1776297600]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": null,
+      "poster_email": "k.rina@ekloudservices.com",
+      "poster_phone": null,
+      "company": "ekloudservices",
+      "role_title": "Lead Machine Learning Engineer",
+      "role_summary": "Hiring a Lead Machine Learning Engineer for a remote, pan-India contract role to drive AI/ML strategy, lead a team, and build scalable ML systems.",
+      "rate_or_compensation": null,
+      "contact_method": "email",
+      "has_contact_info": true
+    }
+  ]
+}
