@@ -564,5 +564,27 @@
     "contact_method": "email / phone",
     "has_contact_info": true,
     "saved_to_leads_at": "2026-03-31T13:42:57.254520"
+  },
+  {
+    "saved_at": 0,
+    "saved_at_iso": null,
+    "entity_urn": "urn:li:activity:7444775653779976194",
+    "post_urn": "urn:li:activity:7444775653779976194",
+    "text_preview": "",
+    "raw_data": {},
+    "full_content": "Jitender Bhatia\n\nCEO & Founder | Salesforce Architect at Forcecraver | Expert in Salesforce, DataCloud, Agentforce, SAP, Oracle, Full Stack Development, Data Science & Engineering | Transforming CRM & Tech Solutions\n\n\ud83d\ude80 Hiring: Senior Data Scientist | 6+ Years Experience | Remote\n\n#Forcecraver is looking for an experienced Senior Data Scientist to join a consulting team focused on solving high-impact client problems through predictive modelling, experimentation, and scalable ML deployment.\n\n\ud83d\udccd Location: Remote\n\ud83e\uddd1\u200d\ud83d\udcbb Experience: 6+ Years\n\ud83c\udf0f Candidates: India-based applicants only\n\nKey Responsibilities\n\n\u2022 Lead end-to-end ML projects including problem framing, data acquisition, feature engineering, model development, validation, and deployment.\n\u2022 Build and optimize machine learning models (classification, regression, time-series, ensemble methods).\n\u2022 Collaborate with engineering teams to productionize models using APIs, containers, and CI/CD pipelines.\n\u2022 Conduct model validation, A/B testing, and experimentation to measure business impact.\n\u2022 Mentor junior data scientists and establish best practices for ML lifecycle, documentation, and governance.\n\u2022 Present actionable insights and recommendations to technical and business stakeholders.\n\nRequired Skills\n\n\u2022 Strong Python expertise for data science (Pandas, NumPy).\n\u2022 Advanced SQL for data extraction, transformation, and performance tuning.\n\u2022 Experience with scikit-learn, TensorFlow, and machine learning model development.\n\u2022 Strong foundation in statistics, feature engineering, and model evaluation.\n\u2022 Experience deploying ML models using APIs, containers, and CI/CD concepts.\n\nPreferred Skills\n\n\u2022 Experience with PySpark or distributed data processing.\n\u2022 Familiarity with AWS, GCP, or Azure and MLOps tools.\n\n\ud83d\udce9 Please reach out to me at +919899634637 or jbhatia@forcecraver.com to discuss further.\n\ud83d\udd14 Follow @Jitender Bhatia @Forcecraver Technologies for more job updates.\n\n#Forcecraver #Hiring #RemoteJobs #DataScientist #MachineLearning #Python #SQL #MLOps #IndiaJobs #AIJobs\n\n\ud83d\ude80 Hiring: Senior Data Scientist | 6+ Years Experience | Remote\n\n#Forcecraver is looking for an experienced Senior Data Scientist to join a consulting team focused on solving high-impact client problems through predictive modelling, experimentation, and scalable ML deployment.\n\n\ud83d\udccd Location: Remote\n\ud83e\uddd1\u200d\ud83d\udcbb Experience: 6+ Years\n\ud83c\udf0f Candidates: India-based applicants only\n\nKey Responsibilities\n\n\u2022 Lead end-to-end ML projects including problem framing, data acquisition, feature engineering, model development, validation, and deployment.\n\u2022 Build and optimize machine learning models (classification, regression, time-series, ensemble methods).\n\u2022 Collaborate with engineering teams to productionize models using APIs, containers, and CI/CD pipelines.\n\u2022 Conduct model validation, A/B testing, and experimentation to measure business impact.\n\u2022 Mentor junior data scientists and establish best practices for ML lifecycle, documentation, and governance.\n\u2022 Present actionable insights and recommendations to technical and business stakeholders.\n\nRequired Skills\n\n\u2022 Strong Python expertise for data science (Pandas, NumPy).\n\u2022 Advanced SQL for data extraction, transformation, and performance tuning.\n\u2022 Experience with scikit-learn, TensorFlow, and machine learning model development.\n\u2022 Strong foundation in statistics, feature engineering, and model evaluation.\n\u2022 Experience deploying ML models using APIs, containers, and CI/CD concepts.\n\nPreferred Skills\n\n\u2022 Experience with PySpark or distributed data processing.\n\u2022 Familiarity with AWS, GCP, or Azure and MLOps tools.\n\n\ud83d\udce9 Please reach out to me at +919899634637 or jbhatia@forcecraver.com to discuss further.\n\ud83d\udd14 Follow @Jitender Bhatia @Forcecraver Technologies for more job updates.\n\n#Forcecraver #Hiring #RemoteJobs #DataScientist #MachineLearning #Python #SQL #MLOps #IndiaJobs #AIJobs\n\n[EMAILS FOUND IN POST: jbhatia@forcecraver.com]\n\n[PHONE NUMBERS FOUND IN POST: 9198996346, +919899634637]",
+    "created_at": 0,
+    "created_at_iso": null,
+    "index": 5,
+    "poster_name": "Jitender Bhatia",
+    "poster_email": "jbhatia@forcecraver.com",
+    "poster_phone": "+919899634637",
+    "company": "Forcecraver",
+    "role_title": "Senior Data Scientist",
+    "role_summary": "Forcecraver is hiring an experienced remote Senior Data Scientist (6+ years experience) in India for predictive modeling and scalable ML deployment.",
+    "rate_or_compensation": null,
+    "contact_method": "email / phone",
+    "has_contact_info": true,
+    "saved_to_leads_at": "2026-03-31T18:18:03.196932"
   }
 ]
