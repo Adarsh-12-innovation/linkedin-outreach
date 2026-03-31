@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-31T05:22:42.529103",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 0,
+    "with_phone": 0,
+    "emailed": 0
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7444445283335307264",
+      "post_urn": "urn:li:activity:7444445283335307264",
+      "text_preview": "",
+      "full_content": "Venkata Sai Priyamvadha Rega\n\nHi Samarth, this sounds like a really interesting project. My background is in\u00a0Python backend development, APIs, and data systems, and I\u2019ve been exploring\u00a0AI workflows and LLM-based applications\u00a0recently. I\u2019m particularly interested in how agentic systems are being used to build real-world applications. Would love to connect and follow the work your team is doing.\n\nGood luck with the hiring. Hope you find the right person!\n\n#AIDeveloper #AIAgents #AgenticAI #AIEngineering #GenerativeAI #LLM #AIProduct #LangGraph #LangChain #OpenAIAPI #PythonDevelopers #MachineLearningEngineer #HiringNow #AIJobs #ContractToHire #RemoteJobs #MultiAgentSystems #AIArchitecture #PromptEngineering #ProductionAI #hiring \n\nYou'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nCOO - Driving Product, Growth & Operations at SkipForce || MS in BA-PM @UCONN || Managing Partner, DoTech Technologies || Active Recruiter || Scrum & Agile || Technical Product Management\n\n\ud83d\udea8 Hiring: AI Agent Developer (Contract to Hire | CST Hours)\nI\u2019m currently looking to work with top-tier AI developers who have hands-on experience building production-ready AI agents.\n\nThis is a high-impact, execution-focused project where we\u2019ll be building 7 specialized AI agents across different use cases (Sales, Support, Training, etc.).\n\nWhat I\u2019m looking for:\n- Strong experience with Python-based AI agents\n- Hands-on with LangGraph / LangChain / agent orchestration frameworks\n- Experience working with OpenAI APIs, tool calling, memory, and multi-agent systems, OpenClaw\n- Familiarity with building end-to-end agentic workflows (backend + integration)\n- Experience deploying agents to production environments (APIs, cloud, etc.)\n- Understanding of prompt engineering + system design for real-world use cases\n\nBonus if you\u2019ve worked with:\n- Multi-agent coordination systems\n- Voice AI / conversational agents\n- CRM or workflow integrations\n\nImportant:\n- You must have built and deployed real AI agents (not just experiments)\n- Please reach out only with your portfolio / live projects / case studies\n- Availability in CST (US timezone) is required\n- This is a contract-to-hire opportunity for the right fit\n\nI\u2019m not looking for average execution here; I\u2019m looking for people who understand systems, not just tools.\n\nIf that\u2019s you, DM me with your work.\nLet\u2019s build something solid.\n\nIT Sophomore | Aspiring Data Analyst | Turning Data into Insights with Python | Learning by Building\n\nAI Advisor & Enterprise Architect | Guiding Europe\u2019s AI Innovation & Compliance | Board Member, Author, Speaker | Based in Brussels, EU\n\nChandraKumar R Pillai\n\nPython Developer | Machine Learning | Competitive Programmer | Reliance Foundation scholar | ALP Cohort | B. Tech in MnC\n\nFull-Stack TypeScript Engineer | MERN Stack Specialist | 5+ years building scalable web applications\n\nApplication Development Analyst | 2x Salesforce Certified Developer | Specializing in Salesforce Data & Marketing Cloud | Problem Solver | Data Science & Machine Learning Enthusiast\n\nAspiring Software Engineer | Full-Stack Web Developer | DSA | Building Real-World Projects\n\nSoftware Developer Intern at ByteEdu | B.Tech CSD\u201928 @ MITS, Gwalior | AIML & Data Science Enthusiast | C++ | Python | JavaScript | Exploring Full Stack Web Development | Turning Ideas into Intelligent Software Solutions\n\nSoftware Engineer @ LTIMindtree | Java | Spring Boot | AWS | Docker | Full Stack | CLF-C02 Certified\n\n[PHONE NUMBERS FOUND: 17453324975, 7444445283, 17623437990, 17724432436, 16948510772, 11609229313, 17746330688, 4014825676, 17746330686, 17748661904, 17572908592, 5003727462, 2874444657, 2874444483, 1776297600, 17748989462, 15720605079, 7444448340, 17755416000, 17680648028, 17716165964, 1200622177, 1775541600, 17587118518, 17623437989, 17716165963, (7444448340, 7444445280, 846464-1774, 17749143866, 17599868210, (7444465750, 17590555228, 17762976000, 7444530511, 1244376336, 2874445305, 17675915260, (7444530511, 1340782154, 7444465750, 17323385816, 17204387335, 16589182819, 15720605080, 17704769634, 17748947954]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Samarth",
+      "poster_email": null,
+      "poster_phone": null,
+      "company": "SkipForce",
+      "role_title": "AI Agent Developer",
+      "role_summary": "Hiring top-tier AI developers with hands-on experience building production-ready AI agents for a high-impact, execution-focused project involving 7 specialized AI agents.",
+      "rate_or_compensation": "Contract to Hire",
+      "contact_method": "DM",
+      "has_contact_info": false
+    }
+  ]
+}
