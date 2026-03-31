@@ -480,30 +480,47 @@ def fetch_post_content(session: requests.Session, post_urn: str) -> tuple[str, i
         return "", 0
 
     text_parts = []
-    raw = json.dumps(data)
+    
+    # FORBIDDEN keys that usually contain comments, social details, or metadata
+    FORBIDDEN_KEYS = {
+        "socialDetail", "socialContent", "comments", "actions", 
+        "updateAction", "socialDetailEntity", "attributes", "reactions",
+        "followingInfo", "tracking", "footer", "feedbackDetail", "header"
+    }
 
     def extract_texts(obj, depth=0):
-        if depth > 10: return
+        if depth > 15: return
         if isinstance(obj, dict):
+            # Check for main text fields
             for key in ("text", "commentary", "translationText"):
-                if key in obj and isinstance(obj[key], str) and len(obj[key]) > 20:
-                    text_parts.append(obj[key])
-            if "attributes" not in obj:
-                for v in obj.values(): extract_texts(v, depth + 1)
+                val = obj.get(key)
+                if isinstance(val, str) and len(val) > 10:
+                    text_parts.append(val)
+                elif isinstance(val, dict) and "text" in val: # Handle commentary: {text: "..."}
+                    if isinstance(val["text"], str) and len(val["text"]) > 10:
+                        text_parts.append(val["text"])
+            
+            # Recurse, but skip forbidden keys
+            for k, v in obj.items():
+                if k not in FORBIDDEN_KEYS:
+                    extract_texts(v, depth + 1)
         elif isinstance(obj, list):
-            for item in obj: extract_texts(item, depth + 1)
+            for item in obj:
+                extract_texts(item, depth + 1)
 
     extract_texts(data)
 
-    emails = set(re.findall(r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}", raw))
+    content = "\n\n".join(text_parts)
+
+    # NOW run regex on the assembled content (main post ONLY), NOT raw JSON
+    emails = set(re.findall(r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}", content))
     emails -= {"example@email.com", "noreply@linkedin.com", "user@example.com"}
-    phones = set(re.findall(r"(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}", raw))
-    intl_phones = set(re.findall(r"\+\d{1,3}[-.\s]?\d{4,5}[-.\s]?\d{4,6}", raw))
+    phones = set(re.findall(r"(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}", content))
+    intl_phones = set(re.findall(r"\+\d{1,3}[-.\s]?\d{4,5}[-.\s]?\d{4,6}", content))
     all_phones = {p.strip() for p in (phones | intl_phones) if len(re.sub(r"\D", "", p)) >= 10}
 
-    content = "\n\n".join(text_parts)
-    if emails: content += f"\n\n[EMAILS FOUND: {', '.join(emails)}]"
-    if all_phones: content += f"\n\n[PHONE NUMBERS FOUND: {', '.join(all_phones)}]"
+    if emails: content += f"\n\n[EMAILS FOUND IN POST: {', '.join(emails)}]"
+    if all_phones: content += f"\n\n[PHONE NUMBERS FOUND IN POST: {', '.join(all_phones)}]"
 
     return content, created_at
 
@@ -622,6 +639,8 @@ For each post, extract ALL contact information and job details. Look very carefu
 - Company hiring
 - Role details
 
+CRITICAL: Focus ONLY on the main post content. Ignore any contact info found in comment sections or unrelated text.
+
 {posts_block}
 
 Respond with ONLY a JSON array (no markdown, no commentary). Per post:
@@ -703,7 +722,7 @@ def dedupe_against_history(results: list[dict], history: dict) -> list[dict]:
     return fresh
 
 
-def record_contact(history: dict, urn: str, email: str = None, url: str = None):
+def record_contact(history: dict, urn: str, email: str = None, url: str = None, thread_id: str = None, message_id: str = None):
     if urn and urn not in history["contacted_urns"]:
         history["contacted_urns"].append(urn)
         
@@ -715,6 +734,9 @@ def record_contact(history: dict, urn: str, email: str = None, url: str = None):
             "urn": urn,
             "url": url,
             "email": email,
+            "thread_id": thread_id,
+            "message_id": message_id,
+            "followed_up": False,
             "timestamp": datetime.now().isoformat()
         })
 
@@ -863,44 +885,197 @@ def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str) -
         return ""
 
 
-def send_leads_summary_email(service, phone_leads: list[dict]):
-    """Send a summary of all phone leads found in this run to the user's email."""
-    if not phone_leads:
+def send_followup_email(service, to_email: str, thread_id: str, last_message_id: str) -> dict:
+    """Send a follow-up email in the same thread."""
+    # Get thread to find subject
+    thread = service.users().threads().get(userId="me", id=thread_id).execute()
+    messages = thread.get("messages", [])
+    
+    # Find subject from first message
+    subject = "Follow up: Application"
+    for part in messages[0].get("payload", {}).get("headers", []):
+        if part.get("name") == "Subject":
+            subject = part.get("value")
+            if not subject.lower().startswith("re:"):
+                subject = f"Re: {subject}"
+            break
+
+    msg = MIMEMultipart()
+    msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+    msg["To"] = to_email
+    msg["Subject"] = subject
+    msg["In-Reply-To"] = last_message_id
+    msg["References"] = last_message_id
+
+    body = """Hello Team,
+
+Hope you are doing well! It would be great if you can share for any update on my application with respect to the last mail.
+
+Thanks & Regards,
+Adarsh
+Contact: +91-8077593119"""
+
+    msg.attach(MIMEText(body, "plain"))
+    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+    
+    return service.users().messages().send(userId="me", body={
+        "raw": raw,
+        "threadId": thread_id
+    }).execute()
+
+
+def process_followups(service, history: dict) -> list[dict]:
+    """Check history for emails sent > 24h ago with no reply, and send followup."""
+    log.info("\n[STEP 5] Checking for follow-ups...")
+    
+    contacted_details = history.get("contacted_details", [])
+    if not contacted_details:
+        log.info("  No outreach history to check for follow-ups.")
+        return []
+
+    now = datetime.now(timezone.utc)
+    followups_sent = []
+
+    for entry in contacted_details:
+        # 1. Basic checks (time, already followed up, has thread)
+        ts_str = entry.get("timestamp")
+        if not ts_str: continue
+        
+        sent_at = datetime.fromisoformat(ts_str)
+        # Ensure sent_at is timezone-aware
+        if sent_at.tzinfo is None:
+            sent_at = sent_at.replace(tzinfo=timezone.utc)
+            
+        hours_passed = (now - sent_at).total_seconds() / 3600
+        
+        if hours_passed < 24: continue
+        if entry.get("followed_up"): continue
+        
+        thread_id = entry.get("thread_id")
+        email = entry.get("email")
+        if not thread_id or not email: continue
+
+        log.info(f"  Checking thread {thread_id} ({email})...")
+
+        try:
+            # 2. Check for replies in thread
+            thread = service.users().threads().get(userId="me", id=thread_id).execute()
+            messages = thread.get("messages", [])
+            
+            # If more than 1 message, check if any message is NOT from the sender
+            has_reply = False
+            for msg in messages:
+                headers = msg.get("payload", {}).get("headers", [])
+                from_email = ""
+                for h in headers:
+                    if h.get("name") == "From":
+                        from_email = h.get("value")
+                        break
+                
+                # If message is NOT from our sender email, it's a reply
+                if CONFIG["SENDER_EMAIL"].lower() not in from_email.lower():
+                    has_reply = True
+                    break
+            
+            if has_reply:
+                log.info(f"    Recruiter replied! Marking as followed_up to stop monitoring.")
+                entry["followed_up"] = True
+                continue
+
+            # 3. Send Follow-up
+            log.info(f"    No reply after {hours_passed:.1f}h. Sending follow-up...")
+            last_msg_id = entry.get("message_id")
+            send_followup_email(service, email, thread_id, last_msg_id)
+            
+            entry["followed_up"] = True
+            entry["followup_timestamp"] = datetime.now().isoformat()
+            followups_sent.append(entry)
+            time.sleep(1)
+
+        except Exception as e:
+            log.error(f"    Error processing follow-up for {email}: {e}")
+
+    if followups_sent:
+        log.info(f"  Sent {len(followups_sent)} follow-up emails.")
+    else:
+        log.info("  No follow-ups needed at this time.")
+        
+    return followups_sent
+
+
+def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list[dict], followed_up: list[dict] = None):
+    """Send a combined summary of phone leads, outreach emails, and follow-ups."""
+    if not phone_leads and not emailed_leads and not followed_up:
+        log.info("No new activity to summarize. Skipping notification email.")
         return
 
-    log.info(f"Sending summary of {len(phone_leads)} phone leads to {CONFIG['SENDER_EMAIL']}...")
+    log.info(f"Sending run summary to {CONFIG['SENDER_EMAIL']}...")
 
     msg = MIMEMultipart()
     msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
     msg["To"] = CONFIG["SENDER_EMAIL"]
-    msg["Subject"] = f"LinkedIn Phone Leads Summary - {datetime.now().strftime('%Y-%m-%d')}"
+    msg["Subject"] = f"LinkedIn Outreach Summary - {datetime.now().strftime('%Y-%m-%d')}"
 
     body_lines = [
         f"Hi {CONFIG['SENDER_NAME']},\n",
-        f"Identified {len(phone_leads)} phone leads in the latest LinkedIn saved posts run.\n",
-        "Click the [WhatsApp] links below to instantly message recruiters with your pre-filled outreach and resume link.\n",
-        "-" * 60
+        f"Here is the summary from the latest LinkedIn outreach run.\n",
     ]
 
-    for i, lead in enumerate(phone_leads, 1):
-        name = lead.get("poster_name") or "Unknown"
-        phone = lead.get("poster_phone") or "No Phone"
-        email = lead.get("poster_email") or "No Email"
-        role = lead.get("role_title") or lead.get("role_summary", "")[:100]
-        company = lead.get("company") or "Unknown Company"
-        urn = lead.get("post_urn") or lead.get("entity_urn", "")
-        url = f"https://www.linkedin.com/feed/update/{urn}" if urn else "No URL"
-        
-        wa_link = format_whatsapp_link(phone, name, role) if phone != "No Phone" else ""
+    # --- SECTION 1: EMAILED LEADS ---
+    if emailed_leads:
+        body_lines.append("✅ NEW OUTREACH EMAILS SENT")
+        body_lines.append("-" * 30)
+        for i, lead in enumerate(emailed_leads, 1):
+            name = lead.get("poster_name") or "Unknown"
+            email = lead.get("poster_email") or "No Email"
+            role = lead.get("role_title") or lead.get("role_summary", "")[:100]
+            company = lead.get("company") or "Unknown Company"
+            urn = lead.get("post_urn") or lead.get("entity_urn", "")
+            url = f"https://www.linkedin.com/feed/update/{urn}" if urn else "No URL"
+            
+            body_lines.append(f"{i}. {name} ({company})")
+            body_lines.append(f"   Email:    {email}")
+            body_lines.append(f"   Role:     {role}")
+            body_lines.append(f"   LinkedIn: {url}")
+            body_lines.append("")
+        body_lines.append("")
 
-        body_lines.append(f"{i}. {name} ({company})")
-        body_lines.append(f"   Phone: {phone}")
-        if wa_link:
-            body_lines.append(f"   WhatsApp: {wa_link}")
-        body_lines.append(f"   Email: {email}")
-        body_lines.append(f"   Role:  {role}")
-        body_lines.append(f"   LinkedIn: {url}")
-        body_lines.append("-" * 60)
+    # --- SECTION 2: FOLLOW-UPS ---
+    if followed_up:
+        body_lines.append("🔄 FOLLOW-UP EMAILS SENT (No reply after 24h)")
+        body_lines.append("-" * 30)
+        for i, entry in enumerate(followed_up, 1):
+            email = entry.get("email")
+            url = entry.get("url") or "No URL"
+            body_lines.append(f"{i}. Followed up with: {email}")
+            body_lines.append(f"   LinkedIn: {url}")
+            body_lines.append("")
+        body_lines.append("")
+
+    # --- SECTION 3: PHONE LEADS ---
+    if phone_leads:
+        body_lines.append("📞 PHONE LEADS (Manual Follow-up)")
+        body_lines.append("-" * 30)
+        body_lines.append("Click the [WhatsApp] links to message recruiters instantly.\n")
+        for i, lead in enumerate(phone_leads, 1):
+            name = lead.get("poster_name") or "Unknown"
+            phone = lead.get("poster_phone") or "No Phone"
+            email = lead.get("poster_email") or "No Email"
+            role = lead.get("role_title") or lead.get("role_summary", "")[:100]
+            company = lead.get("company") or "Unknown Company"
+            urn = lead.get("post_urn") or lead.get("entity_urn", "")
+            url = f"https://www.linkedin.com/feed/update/{urn}" if urn else "No URL"
+            
+            wa_link = format_whatsapp_link(phone, name, role) if phone != "No Phone" else ""
+
+            body_lines.append(f"{i}. {name} ({company})")
+            body_lines.append(f"   Phone:    {phone}")
+            if wa_link:
+                body_lines.append(f"   WhatsApp: {wa_link}")
+            body_lines.append(f"   Email:    {email}")
+            body_lines.append(f"   Role:     {role}")
+            body_lines.append(f"   LinkedIn: {url}")
+            body_lines.append("")
 
     body_lines.append("\nBest regards,\nYour Outreach Agent")
     body = "\n".join(body_lines)
@@ -908,7 +1083,7 @@ def send_leads_summary_email(service, phone_leads: list[dict]):
 
     raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
     service.users().messages().send(userId="me", body={"raw": raw}).execute()
-    log.info("Summary email sent successfully.")
+    log.info("Combined summary email sent successfully.")
 
 
 # ═══════════════════════════════════════════════
@@ -974,36 +1149,42 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
         return []
 
     gmail = get_gmail_service()
-
-    # 1. Send phone leads summary to self
-    if phone_leads:
-        try:
-            send_leads_summary_email(gmail, phone_leads)
-        except Exception as e:
-            log.error(f"  Failed to send phone leads summary to self: {e}")
-
-    # 2. Send outreach emails to candidates
-    if not with_email:
-        return []
-
     emailed = []
+
+    # 1. Send outreach emails to new candidates
     for r in with_email:
         try:
-            send_one_email(
+            resp = send_one_email(
                 gmail, r["poster_email"],
                 r.get("poster_name", ""), r.get("role_title", ""),
             )
-            log.info(f"  Sent -> {r['poster_email']} ({r.get('poster_name', '?')})")
+            thread_id = resp.get("threadId")
+            message_id = resp.get("id")
+            
+            log.info(f"  Sent -> {r['poster_email']} ({r.get('poster_name', '?')}) | Thread: {thread_id}")
             urn = r.get("post_urn") or r.get("entity_urn", "")
             url = f"https://www.linkedin.com/feed/update/{urn}" if urn else ""
-            record_contact(history, urn, r["poster_email"], url)
+            record_contact(history, urn, r["poster_email"], url, thread_id, message_id)
             emailed.append(r)
             time.sleep(1)
         except Exception as e:
             log.error(f"  FAILED {r.get('poster_email', '?')}: {e}")
 
+    # 2. Process follow-ups for old unanswered emails
+    followed_up = []
+    try:
+        followed_up = process_followups(gmail, history)
+    except Exception as e:
+        log.error(f"  Failed to process follow-ups: {e}")
+
+    # 3. Send combined summary email to self (if not dry run)
+    try:
+        send_run_summary_email(gmail, phone_leads, emailed, followed_up)
+    except Exception as e:
+        log.error(f"  Failed to send run summary email to self: {e}")
+
     save_history(history)
-    log.info(f"\n  Emails sent: {len(emailed)}/{len(with_email)}")
+    log.info(f"\n  Summary: {len(emailed)} new sent, {len(followed_up)} follow-ups sent.")
     return emailed
 
 
