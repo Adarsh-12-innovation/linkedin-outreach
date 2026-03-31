@@ -68,7 +68,8 @@
     "urn:li:activity:7444437903201607680",
     "urn:li:activity:7444413145022054401",
     "urn:li:activity:7444458442632912897",
-    "urn:li:activity:7444408701345705984"
+    "urn:li:activity:7444408701345705984",
+    "urn:li:activity:7444612701642731520"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -134,7 +135,8 @@
     "bhemanth@shatantech.com",
     "lisa@rwaltz.com",
     "anila@cogentcube.com",
-    "ravi2@gretisglobal.com"
+    "ravi2@gretisglobal.com",
+    "sanjana.patel@huemot.com"
   ],
   "contacted_details": [
     {
@@ -550,6 +552,12 @@
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444408701345705984",
       "email": "ravi2@gretisglobal.com",
       "timestamp": "2026-03-31T05:12:23.965582"
+    },
+    {
+      "urn": "urn:li:activity:7444612701642731520",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444612701642731520",
+      "email": "sanjana.patel@huemot.com",
+      "timestamp": "2026-03-31T05:38:12.422918"
     }
   ]
 }

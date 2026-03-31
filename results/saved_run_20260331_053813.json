@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-31T05:38:13.424072",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 1,
+    "with_phone": 0,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7444612701642731520",
+      "post_urn": "urn:li:activity:7444612701642731520",
+      "text_preview": "",
+      "full_content": "You'll no longer see this post in your feed.\n\nWe appreciate you letting us know\n\nThank you for your report\n\nSenior HR Executive (Talent Acquisition) |Driving End-to-End Hiring Success for Global IT Projects\n\nWe are hiring for Senior AI Engineer (GenAI & RAG Specialist)\nExperience- 8+years\nLocation-Remote\nMode-Contract\nShare your cv - sanjana.patel@huemot.com\n\u00a0\nRole Overview\nWe are looking for a high-velocity\u00a0AI Engineer\u00a0to lead the development of our next-generation Generative AI platforms. You aren't just a coder; you are an architect of \"intelligent\" systems. You should be deeply comfortable with the Python ecosystem, obsessed with the efficiency of\u00a0Cursor, and capable of taking a RAG (Retrieval-Augmented Generation) concept from a local notebook to a globally scaled\u00a0AWS\u00a0production environment.\n\n\nKey Responsibilities\nArchitect RAG Pipelines:\u00a0Design and implement robust Retrieval-Augmented Generation systems using\u00a0LangChain\u00a0or\u00a0LlamaIndex.\nVector Strategy:\u00a0Manage high-performance vector databases (e.g.,\u00a0Pinecone, Weaviate, or ChromaDB) for efficient data retrieval.\nAI-First Development:\u00a0Utilize\u00a0Cursor\u00a0and LLM-augmented workflows to maintain 2x development velocity while ensuring code quality.\nEnd-to-End Deployment:\u00a0Own the lifecycle of AI models\u2014from local development to automated deployment using\u00a0GitHub Actions\u00a0and\u00a0AWS CodePipeline.\nScalable Infrastructure:\u00a0Build and maintain inference APIs using\u00a0FastAPI\u00a0or\u00a0Flask, hosted on AWS (SageMaker, Lambda, or ECS).\nML Integration:\u00a0Seamlessly integrate traditional Machine Learning (Scikit-Learn, XGBoost) with modern LLM capabilities.\n#SeniorAIEngineer #GenAI #RAGSpecialist #AIEngineer #AWS\n\nSenior HR Executive (Talent Acquisition) |Driving End-to-End Hiring Success for Global IT Projects\n\n[EMAILS FOUND: sanjana.patel@huemot.com]\n\n[PHONE NUMBERS FOUND: 1776297600, 7444612701, 17762976000, 17604337590, 17429658740, 1060714300]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": null,
+      "poster_email": "sanjana.patel@huemot.com",
+      "poster_phone": null,
+      "company": "Huemot",
+      "role_title": "Senior AI Engineer (GenAI & RAG Specialist)",
+      "role_summary": "We are looking for a high-velocity AI Engineer to lead the development of our next-generation Generative AI platforms, focusing on GenAI and RAG systems.",
+      "rate_or_compensation": null,
+      "contact_method": "email",
+      "has_contact_info": true
+    }
+  ]
+}
