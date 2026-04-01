@@ -101,7 +101,12 @@
     "urn:li:activity:7444801243161522176",
     "urn:li:activity:7444881052470358016",
     "urn:li:activity:7444860628181348354",
-    "urn:li:activity:7444762111097962496"
+    "urn:li:activity:7444762111097962496",
+    "urn:li:activity:7445102185354498049",
+    "urn:li:activity:7445110270063984641",
+    "urn:li:activity:7445118499284455427",
+    "urn:li:activity:7445096625317969920",
+    "urn:li:activity:7445121489038798848"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -198,7 +203,11 @@
     "Lakshmi.D@itvisiongroup.com",
     "Karanbir.singh@rivagoinfotech.com",
     "gary@zenxmanpower.com",
-    "vaishnavi.yadav@nityo.com"
+    "vaishnavi.yadav@nityo.com",
+    "anilisa.benny@qzigma.com",
+    "sundar@emcubetech.com",
+    "aditya.verma@imcsgroup.net",
+    "priyadarshan@lorventech.com"
   ],
   "contacted_details": [
     {
@@ -675,8 +684,9 @@
       "email": "rkudikala@encore-c.com",
       "thread_id": "19d451df7e94f0a2",
       "message_id": "19d451df7e94f0a2",
-      "followed_up": false,
-      "timestamp": "2026-03-31T18:18:05.174610"
+      "followed_up": true,
+      "timestamp": "2026-03-31T18:18:05.174610",
+      "followup_timestamp": "2026-04-02T00:33:57.720007"
     },
     {
       "urn": "urn:li:activity:7444799249877299200",
@@ -684,8 +694,9 @@
       "email": "kumar@itvisiongroup.com",
       "thread_id": "19d451dff9b1c4ef",
       "message_id": "19d451dff9b1c4ef",
-      "followed_up": false,
-      "timestamp": "2026-03-31T18:18:07.007334"
+      "followed_up": true,
+      "timestamp": "2026-03-31T18:18:07.007334",
+      "followup_timestamp": "2026-04-02T00:34:00.182000"
     },
     {
       "urn": "urn:li:activity:7444768301974462464",
@@ -693,8 +704,9 @@
       "email": "hr@sunbirditsolutions.com",
       "thread_id": "19d451e0527ae2b4",
       "message_id": "19d451e0527ae2b4",
-      "followed_up": false,
-      "timestamp": "2026-03-31T18:18:08.871412"
+      "followed_up": true,
+      "timestamp": "2026-03-31T18:18:08.871412",
+      "followup_timestamp": "2026-04-02T00:34:03.685091"
     },
     {
       "urn": "urn:li:activity:7444775653779976194",
@@ -702,8 +714,9 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19d451e0cb595ded",
       "message_id": "19d451e0cb595ded",
-      "followed_up": false,
-      "timestamp": "2026-03-31T18:18:10.683061"
+      "followed_up": true,
+      "timestamp": "2026-03-31T18:18:10.683061",
+      "followup_timestamp": "2026-04-02T00:34:07.525847"
     },
     {
       "urn": "urn:li:activity:7444769995655622656",
@@ -884,6 +897,51 @@
       "message_id": "19d49f0f1eaffda0",
       "followed_up": false,
       "timestamp": "2026-04-01T16:47:00.462903"
+    },
+    {
+      "urn": "urn:li:activity:7445102185354498049",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445102185354498049",
+      "email": "hr@nextlooptechnologies.com",
+      "thread_id": "19d4a5f2f4ffacae",
+      "message_id": "19d4a5f2f4ffacae",
+      "followed_up": false,
+      "timestamp": "2026-04-02T00:17:24.240845"
+    },
+    {
+      "urn": "urn:li:activity:7445110270063984641",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445110270063984641",
+      "email": "anilisa.benny@qzigma.com",
+      "thread_id": "19d4a5f409dd4f74",
+      "message_id": "19d4a5f409dd4f74",
+      "followed_up": false,
+      "timestamp": "2026-04-02T00:17:26.778840"
+    },
+    {
+      "urn": "urn:li:activity:7445118499284455427",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445118499284455427",
+      "email": "sundar@emcubetech.com",
+      "thread_id": "19d4a5f4b4f9c991",
+      "message_id": "19d4a5f4b4f9c991",
+      "followed_up": false,
+      "timestamp": "2026-04-02T00:17:29.171910"
+    },
+    {
+      "urn": "urn:li:activity:7445096625317969920",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445096625317969920",
+      "email": "aditya.verma@imcsgroup.net",
+      "thread_id": "19d4a5f53f59a91c",
+      "message_id": "19d4a5f53f59a91c",
+      "followed_up": false,
+      "timestamp": "2026-04-02T00:17:33.206122"
+    },
+    {
+      "urn": "urn:li:activity:7445121489038798848",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445121489038798848",
+      "email": "priyadarshan@lorventech.com",
+      "thread_id": "19d4a5f62f21acab",
+      "message_id": "19d4a5f62f21acab",
+      "followed_up": false,
+      "timestamp": "2026-04-02T00:17:35.766780"
     }
   ]
 }

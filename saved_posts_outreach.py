@@ -107,12 +107,13 @@ CONFIG = {
     "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY", ""),
     "GEMINI_MODEL": "gemini-2.5-flash",
 
-    # "GEMINI_MODEL": "gemini-2.0-flash-lite",
-
     # Gmail OAuth2
     "GMAIL_CREDENTIALS_FILE": "credentials.json",
     "GMAIL_TOKEN_FILE": "token.json",
-    "GMAIL_SCOPES": ["https://www.googleapis.com/auth/gmail.send"],
+    "GMAIL_SCOPES": [
+        "https://www.googleapis.com/auth/gmail.send",
+        "https://www.googleapis.com/auth/gmail.readonly"
+    ],
 
     # Your details
     "SENDER_NAME": "Adarsh Bansal",
@@ -208,16 +209,17 @@ def create_linkedin_session() -> requests.Session:
 def fetch_saved_posts(session: requests.Session, history: dict = None) -> list[dict]:
     """
     Fetch saved items from LinkedIn.
-    Optimization: Stops immediately when it hits a post URN already in outreach_history.json.
+    Uses aggressive multi-format URN extraction and Deep JSON Inspection.
     """
     log.info("Fetching saved posts list (IDs only)...")
     
     seen_urns = set(history.get("contacted_urns", [])) if history else set()
-    saved_items = []
+    all_new_results = {}
     
-    # Try multiple known endpoint patterns
+    # Broad set of endpoints including modern Dash and Identity endpoints
     endpoints = [
-        "https://www.linkedin.com/voyager/api/graphql?queryId=voyagerSaveDashSaves.f465d4848c0ef24e03c2ddd1fbe1e8f6&variables=(count:{count},start:{start})",
+        "https://www.linkedin.com/voyager/api/myItems/savedPosts?count={count}&start={start}",
+        "https://www.linkedin.com/voyager/api/identity/dash/savedItems?count={count}&q=savedByMe&start={start}",
         "https://www.linkedin.com/voyager/api/voyagerContentDashSaves?count={count}&start={start}&q=savedByMe",
         "https://www.linkedin.com/voyager/api/saveDashSaves?count={count}&start={start}",
     ]
@@ -225,55 +227,65 @@ def fetch_saved_posts(session: requests.Session, history: dict = None) -> list[d
     for endpoint_template in endpoints:
         log.info(f"  Checking endpoint: {endpoint_template[:60]}...")
         start = 0
-        count = 20
-        endpoint_results = []
-        already_seen_trigger = False
+        count = 50
+        endpoint_new_count = 0
+        endpoint_total_found = 0
 
         while True:
             url = endpoint_template.format(count=count, start=start)
             try:
                 resp = session.get(url, timeout=15)
-                if resp.status_code != 200: break
-                data = resp.json()
-            except: break
-
-            elements = (
-                data.get("elements", [])
-                or data.get("data", {}).get("saveDashSavesByAll", {}).get("elements", [])
-                or data.get("included", [])
-            )
-            if not elements: break
-
-            for item in elements:
-                urn = (
-                    item.get("entityUrn", "")
-                    or item.get("savedEntity", {}).get("entityUrn", "")
-                    or item.get("*savedEntity", "")
-                )
-                if not urn: continue
-
-                # HIGH-PERFORMANCE OPTIMIZATION: Stop if we've reached a post from a previous run
-                if urn in seen_urns:
-                    log.info(f"  Reached known post {urn[:30]}... stopping fetch.")
-                    already_seen_trigger = True
+                if resp.status_code != 200:
                     break
+                data = resp.json()
+            except:
+                break
 
-                endpoint_results.append({
-                    "entity_urn": urn,
-                    "post_urn": urn,
-                })
+            # AGGRESSIVE URN EXTRACTION
+            found_urns_in_page = []
+            
+            def find_urns(obj):
+                if isinstance(obj, str):
+                    # Match common LinkedIn URN patterns
+                    # activity, share, ugcPost, fs_updateV2
+                    matches = re.findall(r"urn:li:(?:activity|share|ugcPost|fs_updateV2):[\d\(\)a-zA-Z0-9_-]+", obj)
+                    if matches: found_urns_in_page.extend(matches)
+                elif isinstance(obj, dict):
+                    for v in obj.values(): find_urns(v)
+                elif isinstance(obj, list):
+                    for i in obj: find_urns(i)
 
-            if already_seen_trigger or len(elements) < count: break
+            find_urns(data)
+            page_urns = list(set(found_urns_in_page))
+            
+            if not page_urns:
+                break
+
+            endpoint_total_found += len(page_urns)
+            for urn in page_urns:
+                if urn not in seen_urns and urn not in all_new_results:
+                    all_new_results[urn] = {
+                        "entity_urn": urn,
+                        "post_urn": urn,
+                    }
+                    endpoint_new_count += 1
+
+            if len(page_urns) < 3 or start > 200:
+                break
+            
             start += count
             time.sleep(0.5)
         
-        if endpoint_results or already_seen_trigger:
-            log.info(f"  Found {len(endpoint_results)} new posts to process.")
-            return endpoint_results
+        log.info(f"  Endpoint summary: {endpoint_total_found} total posts found, {endpoint_new_count} were new.")
 
-    # Fallback to HTML scrape if API fails
-    log.info("  API endpoints yielded no new items. Trying HTML fallback...")
-    return _try_fetch_saved_from_html(session, 0, 0, history)
+    final_results = list(all_new_results.values())
+    log.info(f"Total unique new posts discovered: {len(final_results)}")
+    
+    if not final_results:
+        log.info("  API yielded nothing. Trying HTML fallback (limited to first page)...")
+        return _try_fetch_saved_from_html(session, 0, 0, history)
+
+    return final_results
 
 
 def _try_fetch_saved(
@@ -572,7 +584,14 @@ def call_gemini(prompt: str, max_retries: int = 5) -> str:
                 url,
                 headers={"Content-Type": "application/json"},
                 params={"key": current_key},
-                json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.1, "maxOutputTokens": 8192}},
+                json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {
+                        "temperature": 0.1,
+                        "maxOutputTokens": 64000,
+                        "response_mime_type": "application/json"
+                    }
+                },
                 timeout=90,
             )
 
@@ -613,7 +632,8 @@ def extract_contacts_with_gemini(saved_items: list[dict]) -> list[dict]:
         log.info("No saved posts with content to analyze.")
         return []
 
-    batch_size = 5
+    # Reduced batch size for higher quality and reliability
+    batch_size = 3
     all_extracted = []
 
     for batch_start in range(0, len(items_with_content), batch_size):
@@ -623,38 +643,32 @@ def extract_contacts_with_gemini(saved_items: list[dict]) -> list[dict]:
         for idx, item in enumerate(batch):
             posts_block += f"""
 ===== Post {idx + 1} =====
-Saved at: {item.get('saved_at_iso', 'unknown')}
 URN: {item.get('post_urn', 'unknown')[:80]}
 
 --- Content ---
-{item.get('full_content', '')[:2500]}
+{item.get('full_content', '')[:3500]}
 """
 
-        prompt = f"""You are analyzing LinkedIn posts that a user has saved. These are posts the user found interesting — likely contract/freelance job opportunities in AI/ML.
+        prompt = f"""You are analyzing LinkedIn posts to extract contact information for jobs in AI/ML, Data Science, and Engineering.
 
-For each post, extract ALL contact information and job details. Look very carefully for:
-- Email addresses (sometimes obfuscated like "name [at] company [dot] com")
-- Phone numbers (any format — US, international, with/without country code)
-- The poster's full name
-- Company hiring
-- Role details
-
-CRITICAL: Focus ONLY on the main post content. Ignore any contact info found in comment sections or unrelated text.
+For each post, scan the content VERY carefully for:
+- Email addresses: Extract the primary contact email. Look for obfuscated formats like "name[at]company.com", "name at company dot com", or emails hidden in signatures.
+- Phone numbers: Extract the primary phone number (India +91 or US +1 or others).
+- Poster Name: Identify the person who shared the post or the contact person mentioned.
+- Role & Company: Identify the job title and the hiring company.
 
 {posts_block}
 
-Respond with ONLY a JSON array (no markdown, no commentary). Per post:
+Respond with ONLY a JSON array of objects (one per post). If info is missing, use null.
 {{
-    "index": <1-based>,
-    "poster_name": "<full name or null>",
-    "poster_email": "<email address or null>",
-    "poster_phone": "<phone number or null>",
-    "company": "<hiring company or null>",
-    "role_title": "<role title or null>",
-    "role_summary": "<1-line summary of what the post is about>",
-    "rate_or_compensation": "<pay info or null>",
-    "contact_method": "<how to apply: email / DM / link / phone / null>",
-    "has_contact_info": true/false
+    "index": <1-based index from the post list above>,
+    "poster_name": "<full name>",
+    "poster_email": "<clean email address like user@example.com>",
+    "poster_phone": "<clean digits like +918077593119>",
+    "company": "<company name>",
+    "role_title": "<job title>",
+    "role_summary": "<very brief 1-sentence role summary>",
+    "has_contact_info": <true/false if EITHER email or phone was found>
 }}"""
 
         batch_num = batch_start // batch_size + 1
@@ -664,8 +678,9 @@ Respond with ONLY a JSON array (no markdown, no commentary). Per post:
         raw = call_gemini(prompt)
 
         try:
-            cleaned = re.sub(r"^```json\s*", "", raw.strip())
-            cleaned = re.sub(r"\s*```$", "", cleaned)
+            # More robust JSON cleaning
+            cleaned = re.sub(r"^.*?\[", "[", raw.strip(), flags=re.DOTALL)
+            cleaned = re.sub(r"\].*?$", "]", cleaned, flags=re.DOTALL)
             evaluations = json.loads(cleaned)
 
             for ev in evaluations:
@@ -683,7 +698,7 @@ Respond with ONLY a JSON array (no markdown, no commentary). Per post:
             log.warning(f"  JSON parse error: {e}")
             log.debug(f"  Raw: {raw[:500]}")
 
-        time.sleep(5)  # Free tier rate limit
+        time.sleep(2)  # Short pause
 
     log.info(f"\nExtracted info from {len(all_extracted)} posts")
     return all_extracted

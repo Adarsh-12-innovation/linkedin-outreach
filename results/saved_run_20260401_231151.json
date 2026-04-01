@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-04-01T23:11:51.555383",
+  "lookback_hours": 48,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 0,
+    "with_email": 0,
+    "with_phone": 0,
+    "emailed": 0
+  },
+  "extracted": []
+}
