@@ -82,7 +82,8 @@
     "urn:li:activity:7444799249877299200",
     "urn:li:activity:7444768301974462464",
     "urn:li:activity:7444775653779976194",
-    "urn:li:activity:7444769995655622656"
+    "urn:li:activity:7444769995655622656",
+    "urn:li:activity:7445012150353326080"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -160,7 +161,8 @@
     "rkudikala@encore-c.com",
     "kumar@itvisiongroup.com",
     "hr@sunbirditsolutions.com",
-    "hr_india@stewart.com"
+    "hr_india@stewart.com",
+    "suhas@sourcebae.com"
   ],
   "contacted_details": [
     {
@@ -675,6 +677,15 @@
       "message_id": "19d47892d43d276c",
       "followed_up": false,
       "timestamp": "2026-04-01T05:34:25.687697"
+    },
+    {
+      "urn": "urn:li:activity:7445012150353326080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445012150353326080",
+      "email": "suhas@sourcebae.com",
+      "thread_id": "19d480d2edd58e67",
+      "message_id": "19d480d2edd58e67",
+      "followed_up": false,
+      "timestamp": "2026-04-01T07:58:36.970576"
     }
   ]
 }
