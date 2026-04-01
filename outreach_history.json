@@ -92,7 +92,16 @@
     "urn:li:activity:7445005340418670593",
     "urn:li:activity:7445046111565918208",
     "urn:li:activity:7444998569574531073",
-    "urn:li:activity:7445009968983961600"
+    "urn:li:activity:7445009968983961600",
+    "urn:li:activity:7444749435567353856",
+    "urn:li:activity:7445075606423171072",
+    "urn:li:activity:7444794656367996928",
+    "urn:li:activity:7445096908299247616",
+    "urn:li:activity:7444931875216748544",
+    "urn:li:activity:7444801243161522176",
+    "urn:li:activity:7444881052470358016",
+    "urn:li:activity:7444860628181348354",
+    "urn:li:activity:7444762111097962496"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -180,7 +189,16 @@
     "himanshu.tamang@bytebillion.com",
     "shifa@sourcebae.com",
     "malekya@jsanconsulting.com",
-    "career@strive4x.net"
+    "career@strive4x.net",
+    "wasim@esharpedge.com",
+    "pjapa@primusglobal.com",
+    "sushmita_upadhyay@rivagoinfotech.com",
+    "Lohith@tror.ai",
+    "thomas.blackwell@globalhiringnetwork.net",
+    "Lakshmi.D@itvisiongroup.com",
+    "Karanbir.singh@rivagoinfotech.com",
+    "gary@zenxmanpower.com",
+    "vaishnavi.yadav@nityo.com"
   ],
   "contacted_details": [
     {
@@ -785,6 +803,87 @@
       "message_id": "19d48b29063304dc",
       "followed_up": false,
       "timestamp": "2026-04-01T10:59:15.586160"
+    },
+    {
+      "urn": "urn:li:activity:7444749435567353856",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444749435567353856",
+      "email": "wasim@esharpedge.com",
+      "thread_id": "19d49f0a5afe89e3",
+      "message_id": "19d49f0a5afe89e3",
+      "followed_up": false,
+      "timestamp": "2026-04-01T16:46:41.006630"
+    },
+    {
+      "urn": "urn:li:activity:7445075606423171072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445075606423171072",
+      "email": "pjapa@primusglobal.com",
+      "thread_id": "19d49f0afe30b0e3",
+      "message_id": "19d49f0afe30b0e3",
+      "followed_up": false,
+      "timestamp": "2026-04-01T16:46:43.432804"
+    },
+    {
+      "urn": "urn:li:activity:7444794656367996928",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444794656367996928",
+      "email": "sushmita_upadhyay@rivagoinfotech.com",
+      "thread_id": "19d49f0b4cf4c6de",
+      "message_id": "19d49f0b4cf4c6de",
+      "followed_up": false,
+      "timestamp": "2026-04-01T16:46:45.276037"
+    },
+    {
+      "urn": "urn:li:activity:7445096908299247616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445096908299247616",
+      "email": "Lohith@tror.ai",
+      "thread_id": "19d49f0bc797779b",
+      "message_id": "19d49f0bc797779b",
+      "followed_up": false,
+      "timestamp": "2026-04-01T16:46:47.127295"
+    },
+    {
+      "urn": "urn:li:activity:7444931875216748544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444931875216748544",
+      "email": "thomas.blackwell@globalhiringnetwork.net",
+      "thread_id": "19d49f0c5103d89a",
+      "message_id": "19d49f0c5103d89a",
+      "followed_up": false,
+      "timestamp": "2026-04-01T16:46:49.065385"
+    },
+    {
+      "urn": "urn:li:activity:7444801243161522176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444801243161522176",
+      "email": "Lakshmi.D@itvisiongroup.com",
+      "thread_id": "19d49f0cdb2be85e",
+      "message_id": "19d49f0cdb2be85e",
+      "followed_up": false,
+      "timestamp": "2026-04-01T16:46:51.454262"
+    },
+    {
+      "urn": "urn:li:activity:7444881052470358016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444881052470358016",
+      "email": "Karanbir.singh@rivagoinfotech.com",
+      "thread_id": "19d49f0d498b295d",
+      "message_id": "19d49f0d498b295d",
+      "followed_up": false,
+      "timestamp": "2026-04-01T16:46:53.400529"
+    },
+    {
+      "urn": "urn:li:activity:7444860628181348354",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444860628181348354",
+      "email": "gary@zenxmanpower.com",
+      "thread_id": "19d49f0e93e7d214",
+      "message_id": "19d49f0e93e7d214",
+      "followed_up": false,
+      "timestamp": "2026-04-01T16:46:58.472338"
+    },
+    {
+      "urn": "urn:li:activity:7444762111097962496",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444762111097962496",
+      "email": "vaishnavi.yadav@nityo.com",
+      "thread_id": "19d49f0f1eaffda0",
+      "message_id": "19d49f0f1eaffda0",
+      "followed_up": false,
+      "timestamp": "2026-04-01T16:47:00.462903"
     }
   ]
 }
