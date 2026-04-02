@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-04-02T18:56:09.375293",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 1,
+    "with_phone": 1,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7445531894299058176",
+      "post_urn": "urn:li:activity:7445531894299058176",
+      "text_preview": "",
+      "full_content": "Jitender Bhatia\n\nCEO & Founder | Salesforce Architect at Forcecraver | Expert in Salesforce, DataCloud, Agentforce, SAP, Oracle, Full Stack Development, Data Science & Engineering | Transforming CRM & Tech Solutions\n\n\ud83d\ude80 We\u2019re Hiring: Data / GenAI Engineers (#Forcecraver)\n\nWe are looking for experienced Data / Generative AI Engineers to join our Professional Services team on a contract basis and deliver production-grade AI solutions.\n\n\ud83d\udccd Location: Remote (India Only)\n\ud83d\udd52 Shift: 8 AM \u2013 4 PM EST\n\n\ud83d\udd39 What You\u2019ll Work On:\n\t\u2022\tConversational AI assistants\n\t\u2022\tRAG (Retrieval-Augmented Generation) systems\n\t\u2022\tDocument processing automation\n\t\u2022\tAI-powered data analytics platforms\n\n\ud83d\udd39 Key Responsibilities:\n\t\u2022\tBuild GenAI solutions using Amazon Bedrock & LLMs (Claude, OpenAI, Cohere)\n\t\u2022\tDevelop RAG pipelines with vector databases (Pinecone, Weaviate, OpenSearch)\n\t\u2022\tDesign serverless architectures using AWS Lambda, API Gateway\n\t\u2022\tCreate APIs (FastAPI/Flask) for real-time AI systems\n\t\u2022\tImplement prompt engineering, embeddings, and AI agents\n\t\u2022\tWork directly with clients in agile delivery environments\n\n\ud83d\udd39 Must-Have Skills:\n\t\u2022\tStrong Python (3.9+) expertise\n\t\u2022\tHands-on with Amazon Bedrock & LLM integrations\n\t\u2022\tExperience with LangChain / LlamaIndex / AI agents\n\t\u2022\tSolid AWS serverless architecture experience\n\t\u2022\tVector DB & RAG implementation experience\n\t\u2022\tREST API development\n\n\ud83d\udd39 Experience Required:\n\t\u2022\t5+ years in software engineering\n\t\u2022\t2+ years in AWS (production deployments)\n\t\u2022\t1+ year in Generative AI / LLMs / RAG systems\n\n\ud83d\udca1 India-based candidates only\n\n\ud83d\udce9 Please reach out to me at +919899634637 or jbhatia@forcecraver.com to discuss further.\n\ud83d\udd14 Follow @Jitender Bhatia @Forcecraver Technologies for more job updates.\n\n\ud83d\ude80 We\u2019re Hiring: Data / GenAI Engineers (#Forcecraver)\n\nWe are looking for experienced Data / Generative AI Engineers to join our Professional Services team on a contract basis and deliver production-grade AI solutions.\n\n\ud83d\udccd Location: Remote (India Only)\n\ud83d\udd52 Shift: 8 AM \u2013 4 PM EST\n\n\ud83d\udd39 What You\u2019ll Work On:\n\t\u2022\tConversational AI assistants\n\t\u2022\tRAG (Retrieval-Augmented Generation) systems\n\t\u2022\tDocument processing automation\n\t\u2022\tAI-powered data analytics platforms\n\n\ud83d\udd39 Key Responsibilities:\n\t\u2022\tBuild GenAI solutions using Amazon Bedrock & LLMs (Claude, OpenAI, Cohere)\n\t\u2022\tDevelop RAG pipelines with vector databases (Pinecone, Weaviate, OpenSearch)\n\t\u2022\tDesign serverless architectures using AWS Lambda, API Gateway\n\t\u2022\tCreate APIs (FastAPI/Flask) for real-time AI systems\n\t\u2022\tImplement prompt engineering, embeddings, and AI agents\n\t\u2022\tWork directly with clients in agile delivery environments\n\n\ud83d\udd39 Must-Have Skills:\n\t\u2022\tStrong Python (3.9+) expertise\n\t\u2022\tHands-on with Amazon Bedrock & LLM integrations\n\t\u2022\tExperience with LangChain / LlamaIndex / AI agents\n\t\u2022\tSolid AWS serverless architecture experience\n\t\u2022\tVector DB & RAG implementation experience\n\t\u2022\tREST API development\n\n\ud83d\udd39 Experience Required:\n\t\u2022\t5+ years in software engineering\n\t\u2022\t2+ years in AWS (production deployments)\n\t\u2022\t1+ year in Generative AI / LLMs / RAG systems\n\n\ud83d\udca1 India-based candidates only\n\n\ud83d\udce9 Please reach out to me at +919899634637 or jbhatia@forcecraver.com to discuss further.\n\ud83d\udd14 Follow @Jitender Bhatia @Forcecraver Technologies for more job updates.\n\nFounder & CEO at Maribou | GTM Systems for B2B Service Firms | Podcast host | History nerd\n\nSantiago Faus\n\n[EMAILS FOUND IN POST: jbhatia@forcecraver.com]\n\n[PHONE NUMBERS FOUND IN POST: 9198996346, +919899634637]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Jitender Bhatia",
+      "poster_email": "jbhatia@forcecraver.com",
+      "poster_phone": "+919899634637",
+      "company": "Forcecraver",
+      "role_title": "Data / GenAI Engineers",
+      "role_summary": "We are looking for experienced Data / Generative AI Engineers to join our Professional Services team on a contract basis and deliver production-grade AI solutions.",
+      "has_contact_info": true,
+      "saved_to_leads_at": "2026-04-02T18:56:06.186317"
+    }
+  ]
+}
