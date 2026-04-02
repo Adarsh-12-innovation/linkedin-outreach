@@ -743,8 +743,9 @@
       "email": "suhas@sourcebae.com",
       "thread_id": "19d480d2edd58e67",
       "message_id": "19d480d2edd58e67",
-      "followed_up": false,
-      "timestamp": "2026-04-01T07:58:36.970576"
+      "followed_up": true,
+      "timestamp": "2026-04-01T07:58:36.970576",
+      "followup_timestamp": "2026-04-02T09:32:13.879214"
     },
     {
       "urn": "urn:li:activity:7444988066995556353",
