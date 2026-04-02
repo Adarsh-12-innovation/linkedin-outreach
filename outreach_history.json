@@ -124,7 +124,17 @@
     "urn:li:activity:7445368500224921600",
     "urn:li:activity:7445399002503860224",
     "urn:li:activity:7445425239745789952",
-    "urn:li:activity:7445400222890950656"
+    "urn:li:activity:7445400222890950656",
+    "urn:li:activity:7445488999990947840",
+    "urn:li:activity:7445471982931943425",
+    "urn:li:activity:7445531063671586817",
+    "urn:li:activity:7445533414742499328",
+    "urn:li:activity:7445479660253126658",
+    "urn:li:activity:7445481368337219584",
+    "urn:li:activity:7445500911302623232",
+    "urn:li:activity:7445484582767935488",
+    "urn:li:activity:7445528271175376897",
+    "urn:li:activity:7445512019132432385"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -238,7 +248,16 @@
     "chippy.george@ellow.io",
     "reeshank.kohad@ncircletech.com",
     "taneeshka@archireglobal.com",
-    "vaibhav.pathak@genisysapp.com"
+    "vaibhav.pathak@genisysapp.com",
+    "sonali.khedekar@nityo.com",
+    "ayush@firstcalli.com",
+    "Keerthi@topsysit.com",
+    "ravi@omtechllc.com",
+    "Harshita@infowaygroup.com",
+    "abha06verma@gmail.com",
+    "info@luminaradatasystems.com",
+    "hr.axiomra@gmail.com",
+    "wellington.com@hrofficer.org"
   ],
   "contacted_details": [
     {
@@ -1151,6 +1170,96 @@
       "message_id": "19d4e11b4132a5c4",
       "followed_up": false,
       "timestamp": "2026-04-02T12:01:17.023570"
+    },
+    {
+      "urn": "urn:li:activity:7445488999990947840",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445488999990947840",
+      "email": "sonali.khedekar@nityo.com",
+      "thread_id": "19d4f8b09cfefd59",
+      "message_id": "19d4f8b09cfefd59",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:25.329153"
+    },
+    {
+      "urn": "urn:li:activity:7445471982931943425",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445471982931943425",
+      "email": "ayush@firstcalli.com",
+      "thread_id": "19d4f8b10752ab16",
+      "message_id": "19d4f8b10752ab16",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:27.151617"
+    },
+    {
+      "urn": "urn:li:activity:7445531063671586817",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445531063671586817",
+      "email": "Keerthi@topsysit.com",
+      "thread_id": "19d4f8b17c2351c6",
+      "message_id": "19d4f8b17c2351c6",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:29.015523"
+    },
+    {
+      "urn": "urn:li:activity:7445533414742499328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445533414742499328",
+      "email": "sonali.khedekar@nityo.com",
+      "thread_id": "19d4f8b1f632440e",
+      "message_id": "19d4f8b1f632440e",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:30.828538"
+    },
+    {
+      "urn": "urn:li:activity:7445479660253126658",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445479660253126658",
+      "email": "ravi@omtechllc.com",
+      "thread_id": "19d4f8b247dcf1b0",
+      "message_id": "19d4f8b247dcf1b0",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:32.614929"
+    },
+    {
+      "urn": "urn:li:activity:7445481368337219584",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445481368337219584",
+      "email": "Harshita@infowaygroup.com",
+      "thread_id": "19d4f8b2d1933be3",
+      "message_id": "19d4f8b2d1933be3",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:34.508054"
+    },
+    {
+      "urn": "urn:li:activity:7445500911302623232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445500911302623232",
+      "email": "abha06verma@gmail.com",
+      "thread_id": "19d4f8b32a9b2ec2",
+      "message_id": "19d4f8b32a9b2ec2",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:36.369063"
+    },
+    {
+      "urn": "urn:li:activity:7445484582767935488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445484582767935488",
+      "email": "info@luminaradatasystems.com",
+      "thread_id": "19d4f8b3af2b6fb5",
+      "message_id": "19d4f8b3af2b6fb5",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:38.203116"
+    },
+    {
+      "urn": "urn:li:activity:7445528271175376897",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445528271175376897",
+      "email": "hr.axiomra@gmail.com",
+      "thread_id": "19d4f8b428df1ae3",
+      "message_id": "19d4f8b428df1ae3",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:40.321223"
+    },
+    {
+      "urn": "urn:li:activity:7445512019132432385",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445512019132432385",
+      "email": "wellington.com@hrofficer.org",
+      "thread_id": "19d4f8b4d322760c",
+      "message_id": "19d4f8b4d322760c",
+      "followed_up": false,
+      "timestamp": "2026-04-02T18:53:42.670116"
     }
   ]
 }
