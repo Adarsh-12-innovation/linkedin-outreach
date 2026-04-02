@@ -112,7 +112,16 @@
     "urn:li:activity:7445231303194742784",
     "urn:li:activity:7445330730248978433",
     "urn:li:activity:7445326011170476034",
-    "urn:li:activity:7445328088038764544"
+    "urn:li:activity:7445328088038764544",
+    "urn:li:activity:7445361754559336449",
+    "urn:li:activity:7445347373087846400",
+    "urn:li:activity:7445370692210147328",
+    "urn:li:activity:7445390875804889088",
+    "urn:li:activity:7445385322231787520",
+    "urn:li:activity:7445396577281748992",
+    "urn:li:activity:7445376917920260096",
+    "urn:li:activity:7445346714817011712",
+    "urn:li:activity:7445368500224921600"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -216,7 +225,14 @@
     "priyadarshan@lorventech.com",
     "hr8@innowrap.com",
     "saranya@softenger.com",
-    "revathi.d@avowstech.com"
+    "revathi.d@avowstech.com",
+    "Aquib@nabuzsoftware.com",
+    "nidhi.barde@consulthagnos.com",
+    "aswathy.r@ellow.io",
+    "harikaabhrapudi@gmail.com",
+    "sonali.nayak@accordinnovations.com",
+    "mahanthi.srinivas@accordinnovations.com",
+    "chippy.george@ellow.io"
   ],
   "contacted_details": [
     {
@@ -1013,6 +1029,87 @@
       "message_id": "19d4cb1ef7bacd68",
       "followed_up": false,
       "timestamp": "2026-04-02T05:37:02.963849"
+    },
+    {
+      "urn": "urn:li:activity:7445361754559336449",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445361754559336449",
+      "email": "Aquib@nabuzsoftware.com",
+      "thread_id": "19d4e0181d09fd9f",
+      "message_id": "19d4e0181d09fd9f",
+      "followed_up": false,
+      "timestamp": "2026-04-02T11:43:34.705238"
+    },
+    {
+      "urn": "urn:li:activity:7445347373087846400",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445347373087846400",
+      "email": "nidhi.barde@consulthagnos.com",
+      "thread_id": "19d4e0189dd02769",
+      "message_id": "19d4e0189dd02769",
+      "followed_up": false,
+      "timestamp": "2026-04-02T11:43:36.689423"
+    },
+    {
+      "urn": "urn:li:activity:7445370692210147328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445370692210147328",
+      "email": "nidhi.barde@consulthagnos.com",
+      "thread_id": "19d4e018f1c31e70",
+      "message_id": "19d4e018f1c31e70",
+      "followed_up": false,
+      "timestamp": "2026-04-02T11:43:38.700803"
+    },
+    {
+      "urn": "urn:li:activity:7445390875804889088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445390875804889088",
+      "email": "aswathy.r@ellow.io",
+      "thread_id": "19d4e0196be6789b",
+      "message_id": "19d4e0196be6789b",
+      "followed_up": false,
+      "timestamp": "2026-04-02T11:43:40.680885"
+    },
+    {
+      "urn": "urn:li:activity:7445385322231787520",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445385322231787520",
+      "email": "harikaabhrapudi@gmail.com",
+      "thread_id": "19d4e019fecab666",
+      "message_id": "19d4e019fecab666",
+      "followed_up": false,
+      "timestamp": "2026-04-02T11:43:42.648615"
+    },
+    {
+      "urn": "urn:li:activity:7445396577281748992",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445396577281748992",
+      "email": "sonali.nayak@accordinnovations.com",
+      "thread_id": "19d4e01a71a20900",
+      "message_id": "19d4e01a71a20900",
+      "followed_up": false,
+      "timestamp": "2026-04-02T11:43:44.579073"
+    },
+    {
+      "urn": "urn:li:activity:7445376917920260096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445376917920260096",
+      "email": "mahanthi.srinivas@accordinnovations.com",
+      "thread_id": "19d4e01ae8b7b1bf",
+      "message_id": "19d4e01ae8b7b1bf",
+      "followed_up": false,
+      "timestamp": "2026-04-02T11:43:46.533134"
+    },
+    {
+      "urn": "urn:li:activity:7445346714817011712",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445346714817011712",
+      "email": "nitya.pande@softbay.com",
+      "thread_id": "19d4e01b61ea7194",
+      "message_id": "19d4e01b61ea7194",
+      "followed_up": false,
+      "timestamp": "2026-04-02T11:43:48.512155"
+    },
+    {
+      "urn": "urn:li:activity:7445368500224921600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445368500224921600",
+      "email": "chippy.george@ellow.io",
+      "thread_id": "19d4e01bc77de3b6",
+      "message_id": "19d4e01bc77de3b6",
+      "followed_up": false,
+      "timestamp": "2026-04-02T11:43:50.458448"
     }
   ]
 }
