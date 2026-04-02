@@ -121,7 +121,10 @@
     "urn:li:activity:7445396577281748992",
     "urn:li:activity:7445376917920260096",
     "urn:li:activity:7445346714817011712",
-    "urn:li:activity:7445368500224921600"
+    "urn:li:activity:7445368500224921600",
+    "urn:li:activity:7445399002503860224",
+    "urn:li:activity:7445425239745789952",
+    "urn:li:activity:7445400222890950656"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -232,7 +235,10 @@
     "harikaabhrapudi@gmail.com",
     "sonali.nayak@accordinnovations.com",
     "mahanthi.srinivas@accordinnovations.com",
-    "chippy.george@ellow.io"
+    "chippy.george@ellow.io",
+    "reeshank.kohad@ncircletech.com",
+    "taneeshka@archireglobal.com",
+    "vaibhav.pathak@genisysapp.com"
   ],
   "contacted_details": [
     {
@@ -1110,6 +1116,33 @@
       "message_id": "19d4e01bc77de3b6",
       "followed_up": false,
       "timestamp": "2026-04-02T11:43:50.458448"
+    },
+    {
+      "urn": "urn:li:activity:7445399002503860224",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445399002503860224",
+      "email": "reeshank.kohad@ncircletech.com",
+      "thread_id": "19d4e11a79e7d828",
+      "message_id": "19d4e11a79e7d828",
+      "followed_up": false,
+      "timestamp": "2026-04-02T12:01:13.021621"
+    },
+    {
+      "urn": "urn:li:activity:7445425239745789952",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445425239745789952",
+      "email": "taneeshka@archireglobal.com",
+      "thread_id": "19d4e11ae0d5450b",
+      "message_id": "19d4e11ae0d5450b",
+      "followed_up": false,
+      "timestamp": "2026-04-02T12:01:15.009616"
+    },
+    {
+      "urn": "urn:li:activity:7445400222890950656",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445400222890950656",
+      "email": "vaibhav.pathak@genisysapp.com",
+      "thread_id": "19d4e11b4132a5c4",
+      "message_id": "19d4e11b4132a5c4",
+      "followed_up": false,
+      "timestamp": "2026-04-02T12:01:17.023570"
     }
   ]
 }
