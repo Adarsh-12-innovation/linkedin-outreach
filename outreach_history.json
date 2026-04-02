@@ -862,8 +862,9 @@
       "email": "wasim@esharpedge.com",
       "thread_id": "19d49f0a5afe89e3",
       "message_id": "19d49f0a5afe89e3",
-      "followed_up": false,
-      "timestamp": "2026-04-01T16:46:41.006630"
+      "followed_up": true,
+      "timestamp": "2026-04-01T16:46:41.006630",
+      "followup_timestamp": "2026-04-02T17:37:28.921671"
     },
     {
       "urn": "urn:li:activity:7445075606423171072",
@@ -871,8 +872,9 @@
       "email": "pjapa@primusglobal.com",
       "thread_id": "19d49f0afe30b0e3",
       "message_id": "19d49f0afe30b0e3",
-      "followed_up": false,
-      "timestamp": "2026-04-01T16:46:43.432804"
+      "followed_up": true,
+      "timestamp": "2026-04-01T16:46:43.432804",
+      "followup_timestamp": "2026-04-02T17:37:30.408671"
     },
     {
       "urn": "urn:li:activity:7444794656367996928",
@@ -880,8 +882,9 @@
       "email": "sushmita_upadhyay@rivagoinfotech.com",
       "thread_id": "19d49f0b4cf4c6de",
       "message_id": "19d49f0b4cf4c6de",
-      "followed_up": false,
-      "timestamp": "2026-04-01T16:46:45.276037"
+      "followed_up": true,
+      "timestamp": "2026-04-01T16:46:45.276037",
+      "followup_timestamp": "2026-04-02T17:37:31.887494"
     },
     {
       "urn": "urn:li:activity:7445096908299247616",
@@ -889,8 +892,9 @@
       "email": "Lohith@tror.ai",
       "thread_id": "19d49f0bc797779b",
       "message_id": "19d49f0bc797779b",
-      "followed_up": false,
-      "timestamp": "2026-04-01T16:46:47.127295"
+      "followed_up": true,
+      "timestamp": "2026-04-01T16:46:47.127295",
+      "followup_timestamp": "2026-04-02T17:37:33.364727"
     },
     {
       "urn": "urn:li:activity:7444931875216748544",
@@ -898,7 +902,7 @@
       "email": "thomas.blackwell@globalhiringnetwork.net",
       "thread_id": "19d49f0c5103d89a",
       "message_id": "19d49f0c5103d89a",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-04-01T16:46:49.065385"
     },
     {
@@ -907,8 +911,9 @@
       "email": "Lakshmi.D@itvisiongroup.com",
       "thread_id": "19d49f0cdb2be85e",
       "message_id": "19d49f0cdb2be85e",
-      "followed_up": false,
-      "timestamp": "2026-04-01T16:46:51.454262"
+      "followed_up": true,
+      "timestamp": "2026-04-01T16:46:51.454262",
+      "followup_timestamp": "2026-04-02T17:37:34.939246"
     },
     {
       "urn": "urn:li:activity:7444881052470358016",
@@ -916,8 +921,9 @@
       "email": "Karanbir.singh@rivagoinfotech.com",
       "thread_id": "19d49f0d498b295d",
       "message_id": "19d49f0d498b295d",
-      "followed_up": false,
-      "timestamp": "2026-04-01T16:46:53.400529"
+      "followed_up": true,
+      "timestamp": "2026-04-01T16:46:53.400529",
+      "followup_timestamp": "2026-04-02T17:37:36.370743"
     },
     {
       "urn": "urn:li:activity:7444860628181348354",
@@ -925,8 +931,9 @@
       "email": "gary@zenxmanpower.com",
       "thread_id": "19d49f0e93e7d214",
       "message_id": "19d49f0e93e7d214",
-      "followed_up": false,
-      "timestamp": "2026-04-01T16:46:58.472338"
+      "followed_up": true,
+      "timestamp": "2026-04-01T16:46:58.472338",
+      "followup_timestamp": "2026-04-02T17:37:37.844994"
     },
     {
       "urn": "urn:li:activity:7444762111097962496",
@@ -934,8 +941,9 @@
       "email": "vaishnavi.yadav@nityo.com",
       "thread_id": "19d49f0f1eaffda0",
       "message_id": "19d49f0f1eaffda0",
-      "followed_up": false,
-      "timestamp": "2026-04-01T16:47:00.462903"
+      "followed_up": true,
+      "timestamp": "2026-04-01T16:47:00.462903",
+      "followup_timestamp": "2026-04-02T17:37:39.380469"
     },
     {
       "urn": "urn:li:activity:7445102185354498049",
