@@ -486,7 +486,7 @@ def _try_fetch_saved_via_graphql(
     
     search_intent = "SEARCH_MY_ITEMS_SAVED_POSTS"
     page_size = 10     # LinkedIn uses 10 per page for saved posts
-    max_pages = 4     # Safety cap: 200 items max
+    max_pages = 3     # Safety cap: 200 items max
     
     all_new = {}
 
