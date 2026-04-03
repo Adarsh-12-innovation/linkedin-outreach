@@ -144,6 +144,7 @@ EMAIL_TEMPLATE = {
 Hello {recipient_name},
 
 I came across your recent post on LinkedIn about the {role_title} role and wanted to reach out.
+Post link: {post_url}
 
 Hope you are doing well! Wished to know for suitable contract roles in Data Science and AI/ML or Analytics.
 
@@ -1240,7 +1241,7 @@ def extract_first_name(full_name: str) -> str:
     return first_name.capitalize()
 
 
-def compose_email(to_email: str, recipient_name: str, role_title: str) -> str:
+def compose_email(to_email: str, recipient_name: str, role_title: str, post_url: str) -> str:
     msg = MIMEMultipart()
     msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
     msg["To"] = to_email
@@ -1251,6 +1252,7 @@ def compose_email(to_email: str, recipient_name: str, role_title: str) -> str:
     body = EMAIL_TEMPLATE["body"].format(
         recipient_name=first_name or "Team",
         role_title=role_title or "AI/ML Engineer",
+        post_url=post_url or "LinkedIn post",
         sender_name=CONFIG["SENDER_NAME"],
     )
 
@@ -1270,12 +1272,12 @@ def compose_email(to_email: str, recipient_name: str, role_title: str) -> str:
     return base64.urlsafe_b64encode(msg.as_bytes()).decode()
 
 
-def send_one_email(service, to_email: str, name: str, role_title: str) -> dict:
-    raw = compose_email(to_email, name, role_title)
+def send_one_email(service, to_email: str, name: str, role_title: str, post_url: str) -> dict:
+    raw = compose_email(to_email, name, role_title, post_url)
     return service.users().messages().send(userId="me", body={"raw": raw}).execute()
 
 
-def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str) -> str:
+def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str, post_url: str) -> str:
     """Clean phone number and generate a pre-filled WhatsApp wa.me link."""
     try:
         # Extract ONLY digits
@@ -1296,6 +1298,7 @@ def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str) -
         body = EMAIL_TEMPLATE["body"].format(
             recipient_name=first_name or "Team",
             role_title=role_title or "AI/ML Engineer",
+            post_url=post_url or "LinkedIn post",
             sender_name=CONFIG["SENDER_NAME"],
         )
         body = body.replace("attached below", f"here: {CONFIG['RESUME_URL']}")
@@ -1488,7 +1491,7 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
             urn = lead.get("post_urn") or lead.get("entity_urn", "")
             url = f"https://www.linkedin.com/feed/update/{urn}" if urn else "No URL"
             
-            wa_link = format_whatsapp_link(phone, name, role) if phone != "No Phone" else ""
+            wa_link = format_whatsapp_link(phone, name, role, url) if phone != "No Phone" else ""
 
             body_lines.append(f"{i}. {name} ({company})")
             body_lines.append(f"   Phone:    {phone}")
@@ -1646,16 +1649,18 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
     # 1. Send outreach emails to new candidates
     for r in with_email:
         try:
+            urn = r.get("post_urn") or r.get("entity_urn", "")
+            url = f"https://www.linkedin.com/feed/update/{urn}" if urn else ""
+            
             resp = send_one_email(
                 gmail, r["poster_email"],
                 r.get("poster_name", ""), r.get("role_title", ""),
+                url
             )
             thread_id = resp.get("threadId")
             message_id = resp.get("id")
             
             log.info(f"  Sent -> {r['poster_email']} ({r.get('poster_name', '?')}) | Thread: {thread_id}")
-            urn = r.get("post_urn") or r.get("entity_urn", "")
-            url = f"https://www.linkedin.com/feed/update/{urn}" if urn else ""
             record_contact(history, urn, r["poster_email"], url, thread_id, message_id)
             emailed.append(r)
             time.sleep(1)
