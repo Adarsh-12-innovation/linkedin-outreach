@@ -1277,8 +1277,9 @@
       "email": "sonali.khedekar@nityo.com",
       "thread_id": "19d4f8b09cfefd59",
       "message_id": "19d4f8b09cfefd59",
-      "followed_up": false,
-      "timestamp": "2026-04-02T18:53:25.329153"
+      "followed_up": true,
+      "timestamp": "2026-04-02T18:53:25.329153",
+      "followup_timestamp": "2026-04-03T19:09:12.438923"
     },
     {
       "urn": "urn:li:activity:7445471982931943425",
@@ -1286,8 +1287,9 @@
       "email": "ayush@firstcalli.com",
       "thread_id": "19d4f8b10752ab16",
       "message_id": "19d4f8b10752ab16",
-      "followed_up": false,
-      "timestamp": "2026-04-02T18:53:27.151617"
+      "followed_up": true,
+      "timestamp": "2026-04-02T18:53:27.151617",
+      "followup_timestamp": "2026-04-03T19:09:13.859972"
     },
     {
       "urn": "urn:li:activity:7445531063671586817",
@@ -1295,8 +1297,9 @@
       "email": "Keerthi@topsysit.com",
       "thread_id": "19d4f8b17c2351c6",
       "message_id": "19d4f8b17c2351c6",
-      "followed_up": false,
-      "timestamp": "2026-04-02T18:53:29.015523"
+      "followed_up": true,
+      "timestamp": "2026-04-02T18:53:29.015523",
+      "followup_timestamp": "2026-04-03T19:09:15.271262"
     },
     {
       "urn": "urn:li:activity:7445533414742499328",
@@ -1304,8 +1307,9 @@
       "email": "sonali.khedekar@nityo.com",
       "thread_id": "19d4f8b1f632440e",
       "message_id": "19d4f8b1f632440e",
-      "followed_up": false,
-      "timestamp": "2026-04-02T18:53:30.828538"
+      "followed_up": true,
+      "timestamp": "2026-04-02T18:53:30.828538",
+      "followup_timestamp": "2026-04-03T19:09:16.715132"
     },
     {
       "urn": "urn:li:activity:7445479660253126658",
@@ -1313,8 +1317,9 @@
       "email": "ravi@omtechllc.com",
       "thread_id": "19d4f8b247dcf1b0",
       "message_id": "19d4f8b247dcf1b0",
-      "followed_up": false,
-      "timestamp": "2026-04-02T18:53:32.614929"
+      "followed_up": true,
+      "timestamp": "2026-04-02T18:53:32.614929",
+      "followup_timestamp": "2026-04-03T19:09:18.219113"
     },
     {
       "urn": "urn:li:activity:7445481368337219584",
@@ -1322,7 +1327,7 @@
       "email": "Harshita@infowaygroup.com",
       "thread_id": "19d4f8b2d1933be3",
       "message_id": "19d4f8b2d1933be3",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-04-02T18:53:34.508054"
     },
     {
@@ -1331,8 +1336,9 @@
       "email": "abha06verma@gmail.com",
       "thread_id": "19d4f8b32a9b2ec2",
       "message_id": "19d4f8b32a9b2ec2",
-      "followed_up": false,
-      "timestamp": "2026-04-02T18:53:36.369063"
+      "followed_up": true,
+      "timestamp": "2026-04-02T18:53:36.369063",
+      "followup_timestamp": "2026-04-03T19:09:21.006194"
     },
     {
       "urn": "urn:li:activity:7445484582767935488",
@@ -1340,7 +1346,7 @@
       "email": "info@luminaradatasystems.com",
       "thread_id": "19d4f8b3af2b6fb5",
       "message_id": "19d4f8b3af2b6fb5",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-04-02T18:53:38.203116"
     },
     {
@@ -1349,8 +1355,9 @@
       "email": "hr.axiomra@gmail.com",
       "thread_id": "19d4f8b428df1ae3",
       "message_id": "19d4f8b428df1ae3",
-      "followed_up": false,
-      "timestamp": "2026-04-02T18:53:40.321223"
+      "followed_up": true,
+      "timestamp": "2026-04-02T18:53:40.321223",
+      "followup_timestamp": "2026-04-03T19:09:22.511208"
     },
     {
       "urn": "urn:li:activity:7445512019132432385",
@@ -1358,8 +1365,9 @@
       "email": "wellington.com@hrofficer.org",
       "thread_id": "19d4f8b4d322760c",
       "message_id": "19d4f8b4d322760c",
-      "followed_up": false,
-      "timestamp": "2026-04-02T18:53:42.670116"
+      "followed_up": true,
+      "timestamp": "2026-04-02T18:53:42.670116",
+      "followup_timestamp": "2026-04-03T19:09:24.477673"
     },
     {
       "urn": "urn:li:activity:7445531894299058176",
@@ -1367,8 +1375,9 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19d4f8d842fe336c",
       "message_id": "19d4f8d842fe336c",
-      "followed_up": false,
-      "timestamp": "2026-04-02T18:56:08.087994"
+      "followed_up": true,
+      "timestamp": "2026-04-02T18:56:08.087994",
+      "followup_timestamp": "2026-04-03T19:09:25.891789"
     },
     {
       "urn": "urn:li:activity:7445700967880122369",
