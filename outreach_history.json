@@ -165,7 +165,18 @@
     "urn:li:activity:7445743868878229504",
     "urn:li:activity:7445734074217865216",
     "urn:li:activity:7445734513600675840",
-    "urn:li:activity:7445734255034400769"
+    "urn:li:activity:7445734255034400769",
+    "urn:li:activity:7445764476458672128",
+    "urn:li:activity:7445758922860425216",
+    "urn:li:activity:7445765794682265602",
+    "urn:li:activity:7445737057450254337",
+    "urn:li:activity:7445811309356457984",
+    "urn:li:activity:7445782808717078528",
+    "urn:li:activity:7445793938495614976",
+    "urn:li:activity:7445771414634393601",
+    "urn:li:activity:7445812567241003008",
+    "urn:li:activity:7445770486296293376",
+    "urn:li:activity:7445819956027490304"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -308,7 +319,16 @@
     "aliya.u@pattemdigital.com",
     "vamsibandagenisis@gmail.com",
     "gvaishnavi@theaimatters.com",
-    "ramya.a@avanitechsolutions.com"
+    "ramya.a@avanitechsolutions.com",
+    "hr@sysvoy.com",
+    "shivam.gaurav@programmers.ai",
+    "niyati.anshatait@gmail.com",
+    "careers@arvo.com.pk",
+    "hr@newavenueworkforce.com",
+    "hiring@codestratlabs.com",
+    "shivani.khare@brihatisglobal.com",
+    "careers@xavierai.co",
+    "ramya.b@techno-facts.com"
   ],
   "contacted_details": [
     {
@@ -1612,6 +1632,105 @@
       "message_id": "19d533b3eba6bdb5",
       "followed_up": false,
       "timestamp": "2026-04-03T12:04:45.097323"
+    },
+    {
+      "urn": "urn:li:activity:7445764476458672128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445764476458672128",
+      "email": "hr@sysvoy.com",
+      "thread_id": "19d539445c5eb6d7",
+      "message_id": "19d539445c5eb6d7",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:41:59.620524"
+    },
+    {
+      "urn": "urn:li:activity:7445758922860425216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445758922860425216",
+      "email": "shivam.gaurav@programmers.ai",
+      "thread_id": "19d53944ccc61def",
+      "message_id": "19d53944ccc61def",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:01.494274"
+    },
+    {
+      "urn": "urn:li:activity:7445765794682265602",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445765794682265602",
+      "email": "Forcecraver.aditya@gmail.com",
+      "thread_id": "19d5394540935759",
+      "message_id": "19d5394540935759",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:03.350459"
+    },
+    {
+      "urn": "urn:li:activity:7445737057450254337",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445737057450254337",
+      "email": "niyati.anshatait@gmail.com",
+      "thread_id": "19d53945ab899949",
+      "message_id": "19d53945ab899949",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:05.188471"
+    },
+    {
+      "urn": "urn:li:activity:7445811309356457984",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445811309356457984",
+      "email": "careers@arvo.com.pk",
+      "thread_id": "19d539462fd55e37",
+      "message_id": "19d539462fd55e37",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:07.093610"
+    },
+    {
+      "urn": "urn:li:activity:7445782808717078528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445782808717078528",
+      "email": "hr@newavenueworkforce.com",
+      "thread_id": "19d53946b376fec0",
+      "message_id": "19d53946b376fec0",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:09.009176"
+    },
+    {
+      "urn": "urn:li:activity:7445793938495614976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445793938495614976",
+      "email": "hiring@codestratlabs.com",
+      "thread_id": "19d539471709dd8b",
+      "message_id": "19d539471709dd8b",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:10.889663"
+    },
+    {
+      "urn": "urn:li:activity:7445771414634393601",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445771414634393601",
+      "email": "shivani.khare@brihatisglobal.com",
+      "thread_id": "19d5394787461e3d",
+      "message_id": "19d5394787461e3d",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:12.740697"
+    },
+    {
+      "urn": "urn:li:activity:7445812567241003008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445812567241003008",
+      "email": "careers@xavierai.co",
+      "thread_id": "19d5394818441973",
+      "message_id": "19d5394818441973",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:14.623641"
+    },
+    {
+      "urn": "urn:li:activity:7445770486296293376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445770486296293376",
+      "email": "ramya.b@techno-facts.com",
+      "thread_id": "19d5394878ca052e",
+      "message_id": "19d5394878ca052e",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:16.625088"
+    },
+    {
+      "urn": "urn:li:activity:7445819956027490304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445819956027490304",
+      "email": "sonali.khedekar@nityo.com",
+      "thread_id": "19d53948fd6e4ebd",
+      "message_id": "19d53948fd6e4ebd",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:42:18.565581"
     }
   ]
 }
