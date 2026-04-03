@@ -105,6 +105,7 @@ CONFIG = {
     # Gemini
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY"),
     "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY", ""),
+    "SECOND_ALTERNATIVE_GEMINI_API_KEY": os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY", ""),
     "GEMINI_MODEL": "gemini-2.5-flash",
 
     # Gmail OAuth2
@@ -130,6 +131,7 @@ CONFIG = {
     "HISTORY_FILE": "outreach_history.json",
     "PHONE_LEADS_FILE": "phone_leads.json",
     "RESULTS_DIR": "results",
+    "STALE_QUERYID_NOTIFIED_FILE": ".queryid_stale_notified",
 }
 
 # ─────────────────────────────────────────────
@@ -175,6 +177,9 @@ logging.basicConfig(
 )
 log = logging.getLogger("saved-posts-agent")
 
+# Module-level flag — set by _try_fetch_saved_via_graphql when queryId returns 400/404
+_GRAPHQL_QUERYID_STALE = False
+
 
 # ═══════════════════════════════════════════════
 # STEP 1: FETCH LINKEDIN SAVED POSTS
@@ -206,6 +211,52 @@ def create_linkedin_session() -> requests.Session:
     return session
 
 
+def _normalize_urns_to_activity(raw_urns: set) -> set:
+    """
+    Normalize LinkedIn URNs so that the same post isn't counted twice.
+
+    LinkedIn represents a single post under multiple URN types that share
+    the same numeric ID:
+        urn:li:activity:7445700967880122369
+        urn:li:ugcPost:7445700967880122369
+        urn:li:share:7445700967880122369
+        urn:li:fs_updateV2:(urn:li:activity:7445700967880122369,...)
+
+    We canonicalize everything to ``urn:li:activity:<id>`` because that's
+    what ``fetch_post_content`` expects downstream.  Any URN whose numeric
+    ID already appears under an ``activity`` prefix is dropped.
+    """
+    id_to_urn = {}
+    for urn in raw_urns:
+        # Extract the bare numeric ID regardless of prefix
+        m = re.search(r"(\d{10,})", urn)
+        if not m:
+            continue
+        numeric_id = m.group(1)
+
+        existing = id_to_urn.get(numeric_id)
+        # Prefer activity URN; if we already have one, skip duplicates
+        if existing and existing.startswith("urn:li:activity:"):
+            continue
+        # Store the canonical activity form
+        id_to_urn[numeric_id] = f"urn:li:activity:{numeric_id}"
+
+    return set(id_to_urn.values())
+
+
+def _normalize_seen_urns(seen_urns: set) -> set:
+    """
+    Expand history URNs so that *any* URN variant of an already-contacted
+    post is recognized as seen.  Returns a set of bare numeric IDs.
+    """
+    ids = set()
+    for urn in seen_urns:
+        m = re.search(r"(\d{10,})", urn)
+        if m:
+            ids.add(m.group(1))
+    return ids
+
+
 def fetch_saved_posts(session: requests.Session, history: dict = None) -> list[dict]:
     """
     Fetch saved items from LinkedIn.
@@ -214,6 +265,7 @@ def fetch_saved_posts(session: requests.Session, history: dict = None) -> list[d
     log.info("Fetching saved posts list (IDs only)...")
     
     seen_urns = set(history.get("contacted_urns", [])) if history else set()
+    seen_ids = _normalize_seen_urns(seen_urns)   # bare numeric IDs for cross-format dedup
     all_new_results = {}
     
     # Broad set of endpoints including modern Dash and Identity endpoints
@@ -256,14 +308,16 @@ def fetch_saved_posts(session: requests.Session, history: dict = None) -> list[d
                     for i in obj: find_urns(i)
 
             find_urns(data)
-            page_urns = list(set(found_urns_in_page))
+            # Normalize to canonical activity URNs (dedup across urn types)
+            page_urns = list(_normalize_urns_to_activity(set(found_urns_in_page)))
             
             if not page_urns:
                 break
 
             endpoint_total_found += len(page_urns)
             for urn in page_urns:
-                if urn not in seen_urns and urn not in all_new_results:
+                numeric_id = re.search(r"(\d{10,})", urn).group(1)
+                if numeric_id not in seen_ids and urn not in all_new_results:
                     all_new_results[urn] = {
                         "entity_urn": urn,
                         "post_urn": urn,
@@ -280,9 +334,20 @@ def fetch_saved_posts(session: requests.Session, history: dict = None) -> list[d
 
     final_results = list(all_new_results.values())
     log.info(f"Total unique new posts discovered: {len(final_results)}")
-    
+
+    # ── Try GraphQL endpoint (modern LinkedIn frontend uses this) ──
     if not final_results:
-        log.info("  API yielded nothing. Trying HTML fallback (limited to first page)...")
+        log.info("  REST APIs yielded nothing. Trying GraphQL saved-items endpoints...")
+        graphql_results = _try_fetch_saved_via_graphql(session, seen_ids)
+        if graphql_results:
+            for urn, item in graphql_results.items():
+                if urn not in all_new_results:
+                    all_new_results[urn] = item
+            final_results = list(all_new_results.values())
+            log.info(f"  GraphQL yielded {len(graphql_results)} new posts.")
+
+    if not final_results:
+        log.info("  All API endpoints yielded nothing. Trying HTML fallback with pagination...")
         return _try_fetch_saved_from_html(session, 0, 0, history)
 
     return final_results
@@ -388,51 +453,357 @@ def _try_fetch_saved(
     return saved_items
 
 
+def _try_fetch_saved_via_graphql(
+    session: requests.Session,
+    seen_ids: set,
+) -> dict:
+    """
+    Fetch saved posts via LinkedIn's GraphQL search-clusters endpoint.
+    
+    LinkedIn treats "My Saved Posts" as a search query internally.
+    The endpoint uses cursor-based pagination: each response includes a
+    ``paginationToken`` that must be passed to the next request.
+    
+    Page 1:  variables=(start:0,query:(flagshipSearchIntent:SEARCH_MY_ITEMS_SAVED_POSTS))
+    Page 2+: variables=(start:N,paginationToken:<base64>,query:(...))
+    
+    The queryId rotates every 4-8 weeks on LinkedIn redeploys.
+    When it breaks (400/404), grab the new one from DevTools:
+        /my-items/saved-posts/ → Network → filter "graphql" → scroll down
+    
+    Args:
+        seen_ids: Set of bare numeric IDs already contacted (for cross-format dedup).
+    
+    Returns dict of {urn: item_dict} for new (unseen) posts.
+    """
+    graphql_base = "https://www.linkedin.com/voyager/api/graphql"
+    
+    # Actual queryId from LinkedIn's saved-posts page (as of Apr 2026).
+    # When this stops working (400/404), update via DevTools (see docstring).
+    known_query_ids = [
+        "voyagerSearchDashClusters.05111e1b90ee7fea15bebe9f9410ced9",
+    ]
+    
+    search_intent = "SEARCH_MY_ITEMS_SAVED_POSTS"
+    page_size = 10     # LinkedIn uses 10 per page for saved posts
+    max_pages = 4     # Safety cap: 200 items max
+    
+    all_new = {}
+
+    for query_id in known_query_ids:
+        start = 0
+        pagination_token = None
+        endpoint_found_any = False
+        
+        for page_num in range(max_pages):
+            # Build variables — first page has no paginationToken
+            if pagination_token:
+                # Only encode '=' in the base64 token (as LinkedIn expects %3D)
+                encoded_token = pagination_token.replace("=", "%3D")
+                variables = (
+                    f"(start:{start},"
+                    f"paginationToken:{encoded_token},"
+                    f"query:(flagshipSearchIntent:{search_intent}))"
+                )
+            else:
+                variables = (
+                    f"(start:{start},"
+                    f"query:(flagshipSearchIntent:{search_intent}))"
+                )
+            
+            url = f"{graphql_base}?variables={variables}&queryId={query_id}"
+            
+            try:
+                resp = session.get(url, timeout=15)
+                if resp.status_code in (400, 404):
+                    if not endpoint_found_any:
+                        global _GRAPHQL_QUERYID_STALE
+                        _GRAPHQL_QUERYID_STALE = True
+                        log.warning(f"  GraphQL queryId stale ({resp.status_code}). "
+                                    f"Update from DevTools: /my-items/saved-posts/ → Network → scroll")
+                    break
+                if resp.status_code in (401, 403):
+                    log.debug(f"  GraphQL auth error ({resp.status_code})")
+                    break
+                if resp.status_code != 200:
+                    break
+
+                data = resp.json()
+            except Exception as e:
+                log.debug(f"  GraphQL request failed: {e}")
+                break
+
+            # ── Extract URNs from this page (TARGETED, not full sweep) ──
+            # LinkedIn's search-clusters response contains the actual saved
+            # posts in trackingUrn / navigationUrl fields.  The rest of the
+            # JSON (especially `included`) has reshares, originals, profiles
+            # etc. that inflate the count if we regex-sweep everything.
+            targeted_urns = set()
+            
+            def extract_saved_post_urns(obj):
+                """Walk the JSON and pull URNs only from fields that identify
+                the actual saved post, not related/embedded content."""
+                if isinstance(obj, dict):
+                    # trackingUrn — primary: identifies the tracked search result
+                    tracking = obj.get("trackingUrn", "")
+                    if isinstance(tracking, str) and "activity" in tracking:
+                        m = re.search(r"urn:li:activity:\d+", tracking)
+                        if m:
+                            targeted_urns.add(m.group(0))
+                    
+                    # navigationUrl — secondary: /feed/update/urn:li:activity:123
+                    nav_url = obj.get("navigationUrl", "")
+                    if isinstance(nav_url, str) and "/feed/update/" in nav_url:
+                        m = re.search(r"urn:li:activity:\d+", nav_url)
+                        if m:
+                            targeted_urns.add(m.group(0))
+
+                    for v in obj.values():
+                        extract_saved_post_urns(v)
+                elif isinstance(obj, list):
+                    for item in obj:
+                        extract_saved_post_urns(item)
+
+            extract_saved_post_urns(data)
+            page_urns = _normalize_urns_to_activity(targeted_urns)
+
+            # Fallback: if targeted extraction found nothing but the response
+            # has data, try a full sweep (handles unexpected response shapes)
+            if not page_urns:
+                raw_text = json.dumps(data)
+                raw_urns = set(re.findall(
+                    r"urn:li:(?:activity|share|ugcPost|fs_updateV2):[\d\(\)a-zA-Z0-9_-]+",
+                    raw_text
+                ))
+                page_urns = _normalize_urns_to_activity(raw_urns)
+                if page_urns:
+                    log.debug(f"  Targeted extraction found 0, full sweep found {len(page_urns)}")
+
+            if not page_urns:
+                if not endpoint_found_any:
+                    break  # Wrong queryId — no results at all
+                log.info(f"  GraphQL pagination exhausted at page {page_num + 1}.")
+                break  # Pagination done
+
+            endpoint_found_any = True
+            new_on_page = 0
+            for urn in page_urns:
+                numeric_id = re.search(r"(\d{10,})", urn).group(1)
+                if numeric_id not in seen_ids and urn not in all_new:
+                    all_new[urn] = {
+                        "entity_urn": urn,
+                        "post_urn": urn,
+                    }
+                    new_on_page += 1
+
+            log.info(f"  GraphQL page {page_num + 1}: "
+                     f"{len(page_urns)} posts, {new_on_page} new")
+
+            # ── Extract paginationToken for next page ──
+            # LinkedIn embeds it in the response metadata. We search recursively
+            # because the nesting depth varies across LinkedIn deploys.
+            next_token = None
+            def find_pagination_token(obj):
+                nonlocal next_token
+                if next_token:
+                    return
+                if isinstance(obj, dict):
+                    if "paginationToken" in obj and isinstance(obj["paginationToken"], str):
+                        next_token = obj["paginationToken"]
+                        return
+                    for v in obj.values():
+                        find_pagination_token(v)
+                elif isinstance(obj, list):
+                    for item in obj:
+                        find_pagination_token(item)
+            
+            find_pagination_token(data)
+            
+            if not next_token:
+                log.info(f"  No paginationToken in response — last page reached.")
+                break
+            
+            pagination_token = next_token
+            start += page_size
+            time.sleep(0.7)
+
+        if endpoint_found_any:
+            log.info(f"  GraphQL fetched {len(all_new)} total new posts.")
+            # queryId is still valid — clear any prior stale notification flag
+            stale_path = Path(CONFIG["STALE_QUERYID_NOTIFIED_FILE"])
+            if stale_path.exists():
+                stale_path.unlink()
+            break  # Found a working queryId
+
+    return all_new
+
+
 def _try_fetch_saved_from_html(
     session: requests.Session,
     cutoff_ms: int,
     lookback_hours: int,
     history: dict = None
 ) -> list[dict]:
-    """Fallback: try loading the saved posts HTML page and extracting URNs."""
+    """
+    Paginated HTML fallback for fetching saved posts.
+    
+    Strategy (3 phases):
+      Phase 1 — Load the saved-posts HTML page; extract URNs from both the
+                visible DOM *and* LinkedIn's embedded <code> data tags which
+                often contain the full first-page API payload.
+      Phase 2 — Make paginated Voyager REST / GraphQL API calls to fetch
+                subsequent pages of saved items (the same calls LinkedIn's
+                frontend makes on scroll).
+      Phase 3 — Deduplicate against history and return results.
+    
+    All URNs are normalized to ``urn:li:activity:<id>`` so that the same
+    post appearing as activity/ugcPost/share is only counted once.
+    """
     from bs4 import BeautifulSoup
 
+    seen_urns = set(history.get("contacted_urns", [])) if history else set()
+    seen_ids = _normalize_seen_urns(seen_urns)
+    raw_found_urns = set()  # Collects all URN variants before normalization
+
+    # ── Phase 1: Load initial HTML page ──────────────────────────────────
     url = "https://www.linkedin.com/my-items/saved-posts/"
+    urn_pattern = r"urn:li:(?:activity|ugcPost|share|fs_updateV2):\d+"
     try:
-        resp = session.get(url, timeout=15, headers={"Accept": "text/html"})
+        resp = session.get(url, timeout=20, headers={"Accept": "text/html"})
         if resp.status_code != 200:
+            log.debug(f"  HTML page returned {resp.status_code}")
             return []
 
-        # Look for activity URNs in the page source
-        urns = re.findall(r"urn:li:activity:\d+", resp.text)
-        urns = list(set(urns))  # Dedupe list of found URNs
+        html_text = resp.text
 
-        if not urns:
-            return []
+        # 1a. Regex sweep across raw HTML for all URN types
+        raw_found_urns.update(re.findall(urn_pattern, html_text))
 
-        seen_urns = set(history.get("contacted_urns", [])) if history else set()
-        
-        saved_items = []
-        for urn in urns:
-            # OPTIMIZATION: Skip if already contacted
-            if urn in seen_urns:
+        # 1b. Parse embedded <code> data tags (LinkedIn hides API payloads here)
+        #     These tags have ids like "bpr-guid-*" and contain JSON blobs with
+        #     the actual Voyager response data, often including URNs from the
+        #     full initial fetch (which may exceed visible DOM items).
+        soup = BeautifulSoup(html_text, "html.parser")
+        for code_tag in soup.find_all("code", id=True):
+            try:
+                code_text = code_tag.get_text()
+                if not code_text or len(code_text) < 20:
+                    continue
+                raw_found_urns.update(re.findall(urn_pattern, code_text))
+
+                # Try to parse JSON and extract URNs from nested structures
+                try:
+                    embedded_data = json.loads(code_text)
+                    included = embedded_data.get("included", [])
+                    if isinstance(included, list):
+                        for item in included:
+                            if isinstance(item, dict):
+                                for val in item.values():
+                                    if isinstance(val, str):
+                                        raw_found_urns.update(re.findall(urn_pattern, val))
+                except (json.JSONDecodeError, AttributeError):
+                    pass
+            except Exception:
                 continue
-                
-            saved_items.append({
-                "saved_at": 0,
-                "saved_at_iso": None,
-                "entity_urn": urn,
-                "post_urn": urn,
-                "text_preview": "",
-                "raw_data": {},
-            })
 
-        log.info(f"  Found {len(urns)} post URNs on page, {len(saved_items)} are new.")
-        return saved_items
+        # Normalize: collapse activity/ugcPost/share variants → single activity URN per post
+        all_found_urns = _normalize_urns_to_activity(raw_found_urns)
+
+        # Count how many are genuinely unseen
+        found_ids = {re.search(r"(\d{10,})", u).group(1) for u in all_found_urns
+                     if re.search(r"(\d{10,})", u)}
+        new_count = len(found_ids - seen_ids)
+        log.info(f"  Found {len(all_found_urns)} unique posts on page (HTML + embedded data),"
+                 f" {new_count} are new.")
 
     except Exception as e:
-        log.debug(f"  HTML fallback failed: {e}")
+        log.debug(f"  HTML page load failed: {e}")
         return []
+
+    # ── Phase 2: Paginate via API calls ──────────────────────────────────
+    #    LinkedIn's saved-posts page loads ~10 items initially and fetches
+    #    more via Voyager API on scroll. We replicate those calls.
+    page_size = 20
+    max_pages = 10  # Safety cap: up to ~200 additional items
+    initial_count = len(all_found_urns)
+
+    # Endpoints to try for pagination (REST + GraphQL variants)
+    pagination_endpoints = [
+        # REST endpoints with savedByMe qualifier
+        "https://www.linkedin.com/voyager/api/saveDashSaves?q=savedByMe&count={count}&start={start}",
+        "https://www.linkedin.com/voyager/api/voyagerContentDashSaves?q=savedByMe&count={count}&start={start}",
+        "https://www.linkedin.com/voyager/api/identity/dash/savedItems?q=savedByMe&count={count}&start={start}",
+        # Original endpoints (may work with different start offsets)
+        "https://www.linkedin.com/voyager/api/myItems/savedPosts?count={count}&start={start}",
+    ]
+
+    for endpoint_template in pagination_endpoints:
+        start = initial_count  # Begin after what HTML gave us
+        page_yielded_new = False
+
+        for page_num in range(max_pages):
+            api_url = endpoint_template.format(count=page_size, start=start)
+            try:
+                api_resp = session.get(api_url, timeout=15)
+                if api_resp.status_code != 200:
+                    break
+                data = api_resp.json()
+            except Exception:
+                break
+
+            # Extract + normalize URNs from JSON response
+            raw_text = json.dumps(data)
+            page_raw_urns = set(re.findall(urn_pattern, raw_text))
+            page_urns = _normalize_urns_to_activity(page_raw_urns)
+            new_urns = page_urns - all_found_urns
+
+            if not page_urns:
+                break  # Empty page = endpoint exhausted or wrong
+
+            if new_urns:
+                all_found_urns.update(new_urns)
+                page_yielded_new = True
+                log.info(f"  API pagination page {page_num + 1}: "
+                         f"+{len(new_urns)} new posts (total: {len(all_found_urns)})")
+
+            # Check if we've exhausted all pages
+            paging = data.get("paging", {})
+            total = paging.get("total", 0)
+            elements = data.get("elements", [])
+
+            if total and start + page_size >= total:
+                break
+            if len(elements) < page_size and len(page_urns) < 3:
+                break
+
+            start += page_size
+            time.sleep(0.5)
+
+        if page_yielded_new:
+            log.info(f"  Pagination via {endpoint_template[:60]}... yielded results.")
+            break  # Found a working endpoint, stop trying others
+
+    new_total = len(all_found_urns) - initial_count
+    if new_total > 0:
+        log.info(f"  Pagination added {new_total} posts beyond initial HTML page.")
+
+    # ── Phase 3: Deduplicate against history and build result list ────────
+    saved_items = []
+    for urn in all_found_urns:
+        numeric_id = re.search(r"(\d{10,})", urn)
+        if numeric_id and numeric_id.group(1) in seen_ids:
+            continue
+        saved_items.append({
+            "saved_at": 0,
+            "saved_at_iso": None,
+            "entity_urn": urn,
+            "post_urn": urn,
+            "text_preview": "",
+            "raw_data": {},
+        })
+
+    log.info(f"  Total: {len(all_found_urns)} URNs found, {len(saved_items)} are new (unseen).")
+    return saved_items
 
 
 def fetch_post_content(session: requests.Session, post_urn: str) -> tuple[str, int]:
@@ -567,59 +938,92 @@ def fetch_all_post_contents(session: requests.Session, saved_items: list[dict]) 
 # STEP 2: GEMINI EXTRACTION
 # ═══════════════════════════════════════════════
 
-def call_gemini(prompt: str, max_retries: int = 5) -> str:
-    """Call Gemini API with retry on rate limit and automatic key rotation."""
+def call_gemini(prompt: str) -> str:
+    """
+    Call Gemini API with specialized retry/rotation logic:
+    - Key 1: 2 retries (3 attempts total)
+    - Key 2: 1 retry (2 attempts total)
+    - Key 3: 1 retry (2 attempts total)
+    If all fail with 429, send an email notification.
+    """
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{CONFIG['GEMINI_MODEL']}:generateContent"
     )
     
-    current_key = CONFIG["GEMINI_API_KEY"]
-    alt_key = CONFIG["ALTERNATIVE_GEMINI_API_KEY"]
-    using_alt = False
+    keys = [
+        {"key": CONFIG["GEMINI_API_KEY"], "retries": 2, "name": "Primary"},
+        {"key": CONFIG["ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 1"},
+        {"key": CONFIG["SECOND_ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 2"},
+    ]
 
-    for attempt in range(1, max_retries + 1):
-        try:
-            resp = requests.post(
-                url,
-                headers={"Content-Type": "application/json"},
-                params={"key": current_key},
-                json={
-                    "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {
-                        "temperature": 0.1,
-                        "maxOutputTokens": 64000,
-                        "response_mime_type": "application/json"
-                    }
-                },
-                timeout=90,
-            )
+    for k_info in keys:
+        current_key = k_info["key"]
+        if not current_key or current_key.startswith("YOUR_"):
+            continue
 
-            if resp.status_code == 429:
-                # If we have an alternative key and haven't used it yet, switch immediately
-                if alt_key and not using_alt:
-                    log.warning(f"  Quota reached for primary key. Switching to ALTERNATIVE_GEMINI_API_KEY...")
-                    current_key = alt_key
-                    using_alt = True
-                    continue
+        max_attempts = k_info["retries"] + 1
+        for attempt in range(1, max_attempts + 1):
+            try:
+                resp = requests.post(
+                    url,
+                    headers={"Content-Type": "application/json"},
+                    params={"key": current_key},
+                    json={
+                        "contents": [{"parts": [{"text": prompt}]}],
+                        "generationConfig": {
+                            "temperature": 0.1,
+                            "maxOutputTokens": 64000,
+                            "response_mime_type": "application/json"
+                        }
+                    },
+                    timeout=90,
+                )
+
+                if resp.status_code == 429:
+                    if attempt < max_attempts:
+                        wait = 10 * attempt
+                        log.warning(f"  {k_info['name']} Key: Rate limited (429). Retry {attempt}/{k_info['retries']} in {wait}s...")
+                        time.sleep(wait)
+                        continue
+                    else:
+                        log.warning(f"  {k_info['name']} Key: Exhausted all retries.")
+                        break # Switch to next key
+
+                resp.raise_for_status()
+                data = resp.json()
+                return data["candidates"][0]["content"]["parts"][0]["text"]
                 
-                # Otherwise, wait and retry
-                wait = 15 * (2 ** (attempt - 1))
-                log.warning(f"  Rate limited (429). Retrying in {wait}s... ({attempt}/{max_retries})")
-                time.sleep(wait)
-                continue
+            except Exception as e:
+                log.error(f"  {k_info['name']} Key Error: {e}")
+                if attempt == max_attempts:
+                    break
+                time.sleep(2)
 
-            resp.raise_for_status()
-            data = resp.json()
-            return data["candidates"][0]["content"]["parts"][0]["text"]
-            
-        except Exception as e:
-            if attempt == max_retries:
-                log.error(f"  Gemini failed after {max_retries} attempts: {e}")
-                return ""
-            time.sleep(2)
-
+    # If we reach here, all keys failed
+    log.critical("ALL Gemini API keys failed or were rate limited.")
+    try:
+        send_rate_limit_notification()
+    except:
+        pass
     return ""
+
+
+def send_rate_limit_notification():
+    """Send an email alert when all Gemini keys are rate limited."""
+    try:
+        gmail = get_gmail_service()
+        msg = MIMEMultipart()
+        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+        msg["To"] = CONFIG["SENDER_EMAIL"]
+        msg["Subject"] = "⚠️ Gemini API Rate Limit Alert"
+        body = "All your Gemini API keys have hit their rate limits or failed. The outreach run has been paused or completed with partial results."
+        msg.attach(MIMEText(body, "plain"))
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+        log.info("Rate limit notification sent to email.")
+    except Exception as e:
+        log.error(f"Failed to send rate limit email: {e}")
 
 
 def extract_contacts_with_gemini(saved_items: list[dict]) -> list[dict]:
@@ -723,11 +1127,14 @@ def save_history(history: dict):
 
 def dedupe_against_history(results: list[dict], history: dict) -> list[dict]:
     seen_urns = set(history.get("contacted_urns", []))
+    seen_ids = _normalize_seen_urns(seen_urns)  # bare numeric IDs for cross-format dedup
 
     fresh, skipped = [], 0
     for r in results:
         urn = r.get("post_urn", "") or r.get("entity_urn", "")
-        if urn in seen_urns:
+        m = re.search(r"(\d{10,})", urn)
+        numeric_id = m.group(1) if m else ""
+        if urn in seen_urns or numeric_id in seen_ids:
             skipped += 1
         else:
             fresh.append(r)
@@ -1101,6 +1508,65 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
     log.info("Combined summary email sent successfully.")
 
 
+def send_queryid_stale_notification():
+    """
+    Send a one-time email alert when the GraphQL queryId has expired.
+    
+    Uses a marker file to avoid re-sending on every run.  The marker is
+    automatically deleted when a working queryId is detected again (see
+    _try_fetch_saved_via_graphql).
+    """
+    marker = Path(CONFIG["STALE_QUERYID_NOTIFIED_FILE"])
+
+    # Already notified for this stale period — don't spam
+    if marker.exists():
+        log.info("  QueryId stale notification already sent (skipping).")
+        return
+
+    try:
+        gmail = get_gmail_service()
+
+        msg = MIMEMultipart()
+        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+        msg["To"] = CONFIG["SENDER_EMAIL"]
+        msg["Subject"] = "⚠️ LinkedIn Outreach Agent — GraphQL QueryId Expired"
+
+        body = """\
+Hi Adarsh,
+
+Your LinkedIn Saved Posts Outreach Agent detected that the GraphQL queryId has expired (returned 400/404).
+
+The script fell back to the HTML scraper which is limited to ~10 posts per run. To restore full pagination:
+
+1. Open Chrome → linkedin.com/my-items/saved-posts/
+2. F12 → Network tab → filter by "graphql"
+3. Clear the log, then scroll down until new posts load
+4. Copy the queryId from the new request URL
+   (looks like: voyagerSearchDashClusters.xxxxx)
+5. Update the known_query_ids list in saved_posts_outreach.py
+6. Commit & push (if using GitHub Actions)
+
+Current stale queryId:
+  voyagerSearchDashClusters.05111e1b90ee7fea15bebe9f9410ced9
+
+This alert is sent once per stale period. You won't get another until you
+update the queryId and it expires again.
+
+— Your Outreach Agent
+"""
+        msg.attach(MIMEText(body, "plain"))
+
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+
+        # Write marker so we don't re-send next run
+        marker.write_text(datetime.now().isoformat())
+        log.info("  Sent queryId-stale notification email to self.")
+
+    except Exception as e:
+        log.error(f"  Failed to send queryId-stale notification: {e}")
+
+
 # ═══════════════════════════════════════════════
 # STEP 5: AUTO-SEND & PHONE LEADS
 # ═══════════════════════════════════════════════
@@ -1119,12 +1585,23 @@ def save_phone_leads(results: list[dict]):
     # Load history for final deduplication guard
     history = load_history()
     seen_urns = set(history.get("contacted_urns", []))
-    existing_urns = {e.get("post_urn") or e.get("entity_urn") for e in existing} | seen_urns
+    seen_ids = _normalize_seen_urns(seen_urns)
+    
+    # Collect numeric IDs from existing phone leads + history
+    existing_ids = set()
+    for e in existing:
+        urn = e.get("post_urn") or e.get("entity_urn") or ""
+        m = re.search(r"(\d{10,})", urn)
+        if m:
+            existing_ids.add(m.group(1))
+    existing_ids |= seen_ids
     
     new_leads = []
     for r in phone_leads:
-        urn = r.get("post_urn") or r.get("entity_urn")
-        if urn not in existing_urns:
+        urn = r.get("post_urn") or r.get("entity_urn") or ""
+        m = re.search(r"(\d{10,})", urn)
+        numeric_id = m.group(1) if m else ""
+        if numeric_id not in existing_ids:
             r["saved_to_leads_at"] = datetime.now().isoformat()
             new_leads.append(r)
 
@@ -1274,6 +1751,15 @@ def main():
     history = load_history()
     saved = fetch_saved_posts(session, history)
 
+    # ── Notify if GraphQL queryId has expired ──
+    if _GRAPHQL_QUERYID_STALE:
+        log.warning("\n[ALERT] GraphQL queryId expired — pagination limited to ~10 posts.")
+        log.warning("  Run is continuing with HTML fallback, but update the queryId soon.")
+        try:
+            send_queryid_stale_notification()
+        except Exception as e:
+            log.error(f"  Could not send stale-queryId notification: {e}")
+
     # Final check before heavy content fetching
     saved = dedupe_against_history(saved, history)
 
@@ -1313,4 +1799,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
