@@ -176,7 +176,11 @@
     "urn:li:activity:7445771414634393601",
     "urn:li:activity:7445812567241003008",
     "urn:li:activity:7445770486296293376",
-    "urn:li:activity:7445819956027490304"
+    "urn:li:activity:7445819956027490304",
+    "urn:li:activity:7445768002475786240",
+    "urn:li:activity:7445777517074063360",
+    "urn:li:activity:7445798407438307328",
+    "urn:li:activity:7445819592377217024"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -328,7 +332,10 @@
     "hiring@codestratlabs.com",
     "shivani.khare@brihatisglobal.com",
     "careers@xavierai.co",
-    "ramya.b@techno-facts.com"
+    "ramya.b@techno-facts.com",
+    "joyitadas@acbhiring.com",
+    "falak.ansari@techcharmindia.com",
+    "apply@qualimatrix.in"
   ],
   "contacted_details": [
     {
@@ -1731,6 +1738,42 @@
       "message_id": "19d53948fd6e4ebd",
       "followed_up": false,
       "timestamp": "2026-04-03T13:42:18.565581"
+    },
+    {
+      "urn": "urn:li:activity:7445768002475786240",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445768002475786240",
+      "email": "joyitadas@acbhiring.com",
+      "thread_id": "19d53a2131722622",
+      "message_id": "19d53a2131722622",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:57:03.852556"
+    },
+    {
+      "urn": "urn:li:activity:7445777517074063360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445777517074063360",
+      "email": "falak.ansari@techcharmindia.com",
+      "thread_id": "19d53a219ea3e559",
+      "message_id": "19d53a219ea3e559",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:57:05.874657"
+    },
+    {
+      "urn": "urn:li:activity:7445798407438307328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445798407438307328",
+      "email": "apply@qualimatrix.in",
+      "thread_id": "19d53a2221fded12",
+      "message_id": "19d53a2221fded12",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:57:07.922414"
+    },
+    {
+      "urn": "urn:li:activity:7445819592377217024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445819592377217024",
+      "email": "anila@cogentcube.com",
+      "thread_id": "19d53a2282cf944d",
+      "message_id": "19d53a2282cf944d",
+      "followed_up": false,
+      "timestamp": "2026-04-03T13:57:09.943353"
     }
   ]
 }
