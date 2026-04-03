@@ -143,7 +143,12 @@
     "urn:li:activity:7445436570482159616",
     "urn:li:activity:7445705396616376320",
     "urn:li:activity:7445701458714382336",
-    "urn:li:activity:7445355026094551040"
+    "urn:li:activity:7445355026094551040",
+    "urn:li:activity:7445368246649712640",
+    "urn:li:activity:7445449575525695488",
+    "urn:li:activity:7444991836294926338",
+    "urn:li:activity:7445438468064854016",
+    "urn:li:activity:7445456239075119104"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -273,7 +278,10 @@
     "palak.agarwal@delphic.in",
     "bhupendra.singh@muoro.com",
     "Forcecraver.aditya@gmail.com",
-    "shabnam.h@data-engine.co"
+    "shabnam.h@data-engine.co",
+    "koushik.dey@kaliper.in",
+    "amita@sourcebae.com",
+    "sushree@mindbrain.co.in"
   ],
   "contacted_details": [
     {
@@ -1367,6 +1375,51 @@
       "message_id": "19d524b15337aed4",
       "followed_up": false,
       "timestamp": "2026-04-03T07:42:25.568820"
+    },
+    {
+      "urn": "urn:li:activity:7445368246649712640",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445368246649712640",
+      "email": "chippy.george@ellow.io",
+      "thread_id": "19d5254556c3602e",
+      "message_id": "19d5254556c3602e",
+      "followed_up": false,
+      "timestamp": "2026-04-03T07:52:31.746716"
+    },
+    {
+      "urn": "urn:li:activity:7445449575525695488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445449575525695488",
+      "email": "koushik.dey@kaliper.in",
+      "thread_id": "19d52545a6c9bf8d",
+      "message_id": "19d52545a6c9bf8d",
+      "followed_up": false,
+      "timestamp": "2026-04-03T07:52:33.602469"
+    },
+    {
+      "urn": "urn:li:activity:7444991836294926338",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444991836294926338",
+      "email": "amita@sourcebae.com",
+      "thread_id": "19d5254637180724",
+      "message_id": "19d5254637180724",
+      "followed_up": false,
+      "timestamp": "2026-04-03T07:52:35.450010"
+    },
+    {
+      "urn": "urn:li:activity:7445438468064854016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445438468064854016",
+      "email": "shifa@sourcebae.com",
+      "thread_id": "19d525469b0b7e58",
+      "message_id": "19d525469b0b7e58",
+      "followed_up": false,
+      "timestamp": "2026-04-03T07:52:37.211113"
+    },
+    {
+      "urn": "urn:li:activity:7445456239075119104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445456239075119104",
+      "email": "sushree@mindbrain.co.in",
+      "thread_id": "19d5254705738e24",
+      "message_id": "19d5254705738e24",
+      "followed_up": false,
+      "timestamp": "2026-04-03T07:52:39.089757"
     }
   ]
 }
