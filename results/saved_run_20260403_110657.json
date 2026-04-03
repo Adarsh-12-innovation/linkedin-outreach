@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-04-03T11:06:57.410024",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 2,
+    "contacts_extracted": 2,
+    "with_email": 0,
+    "with_phone": 1,
+    "emailed": 0
+  },
+  "extracted": [
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7445723339689463808",
+      "post_urn": "urn:li:activity:7445723339689463808",
+      "text_preview": "",
+      "full_content": "jobsrmine.com\n\nhttps://jobsrmine.com/job/na/customer-success-manager/3092723761\n\n10,838 followers\n\n#hiring Customer Success Manager\n\nApply here: https://lnkd.in/ekaV_d-A\n\nSirion is the worlds leading AI-native Contract Lifecyle Management\n\n#hiring Customer Success Manager\n\nApply here: https://lnkd.in/ekaV_d-A\n\nSirion is the worlds leading AI-native Contract Lifecyle Management\n\n[PHONE NUMBERS FOUND IN POST: 3092723761]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": null,
+      "poster_email": null,
+      "poster_phone": "3092723761",
+      "company": "Sirion",
+      "role_title": "Customer Success Manager",
+      "role_summary": "Hiring Customer Success Manager for Sirion, an AI-native Contract Lifecycle Management company.",
+      "has_contact_info": true,
+      "saved_to_leads_at": "2026-04-03T11:06:55.967529"
+    },
+    {
+      "saved_at": 0,
+      "saved_at_iso": null,
+      "entity_urn": "urn:li:activity:7445705298226360320",
+      "post_urn": "urn:li:activity:7445705298226360320",
+      "text_preview": "",
+      "full_content": "Emperen Technologies\n\n15,358 followers\n\n\ud83d\ude80 Exciting Career Opportunities at Emperen Technologies! \ud83d\ude80\n\nWe are actively hiring skilled professionals for long-term contract roles across multiple cutting-edge technologies!\n\nIf you have expertise in any of the areas below, we want to hear from you! \ud83d\udc47\n\n\u2705 Artificial Intelligence (AI)\n\u2705 Databricks\n\u2705 Cloud Experts\n\u2705 IBM ELM\n\u2705 SAP\n\n\ud83d\udcbc Why Join Emperen Technologies?\n\ud83d\udd39 Long-term contract engagements\n\ud83d\udd39 Opportunity to work on exciting & innovative projects\n\ud83d\udd39 Collaborate with industry-leading professionals\n\ud83d\udd39 Grow your career in high-demand technology domains\n\n\ud83d\udce2 Interested? Here's How to Apply:\n\n\ud83d\udc49 Fill out the Google Form below with your details:\n\ud83d\udd17 https://lnkd.in/diTv44iP\n\nOnce your profile is shortlisted, our HR team will reach out to you directly to take things forward! \u2705\n\n\u26a0\ufe0f Please Note: This is a direct hiring requirement. Agencies/Vendors, please do not apply.\n\n\ud83d\udcf2 Share this post and help someone find their next big opportunity! Tag a friend or colleague who might be a great fit! \ud83d\ude4c\n\n#Hiring #LongTermContract #AI #Databricks #CloudComputing #IBMELM #SAP #EmperenTechnologies #TechJobs #ContractJobs #NowHiring #TechCareers #JobOpportunity\n\n\ud83d\ude80 Exciting Career Opportunities at Emperen Technologies! \ud83d\ude80\n\nWe are actively hiring skilled professionals for long-term contract roles across multiple cutting-edge technologies!\n\nIf you have expertise in any of the areas below, we want to hear from you! \ud83d\udc47\n\n\u2705 Artificial Intelligence (AI)\n\u2705 Databricks\n\u2705 Cloud Experts\n\u2705 IBM ELM\n\u2705 SAP\n\n\ud83d\udcbc Why Join Emperen Technologies?\n\ud83d\udd39 Long-term contract engagements\n\ud83d\udd39 Opportunity to work on exciting & innovative projects\n\ud83d\udd39 Collaborate with industry-leading professionals\n\ud83d\udd39 Grow your career in high-demand technology domains\n\n\ud83d\udce2 Interested? Here's How to Apply:\n\n\ud83d\udc49 Fill out the Google Form below with your details:\n\ud83d\udd17 https://lnkd.in/diTv44iP\n\nOnce your profile is shortlisted, our HR team will reach out to you directly to take things forward! \u2705\n\n\u26a0\ufe0f Please Note: This is a direct hiring requirement. Agencies/Vendors, please do not apply.\n\n\ud83d\udcf2 Share this post and help someone find their next big opportunity! Tag a friend or colleague who might be a great fit! \ud83d\ude4c\n\n#Hiring #LongTermContract #AI #Databricks #CloudComputing #IBMELM #SAP #EmperenTechnologies #TechJobs #ContractJobs #NowHiring #TechCareers #JobOpportunity",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 2,
+      "poster_name": null,
+      "poster_email": null,
+      "poster_phone": null,
+      "company": "Emperen Technologies",
+      "role_title": "Multiple Tech Roles (AI, Databricks, Cloud, etc.)",
+      "role_summary": "Hiring skilled professionals for long-term contract roles in AI, Databricks, Cloud, IBM ELM, and SAP at Emperen Technologies.",
+      "has_contact_info": false
+    }
+  ]
+}
