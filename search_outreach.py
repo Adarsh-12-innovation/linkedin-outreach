@@ -224,12 +224,31 @@ def create_linkedin_session():
     # Try curl_cffi first (Chrome TLS fingerprint)
     try:
         from curl_cffi.requests import Session as CffiSession
-        session = CffiSession(impersonate="chrome")
-        for k, v in cookies.items():
-            session.cookies.set(k, v, domain=".linkedin.com")
-        session.headers.update(headers)
+
+        class LinkedInCffiSession:
+            """Wrapper around curl_cffi that passes cookies per-request
+            (curl_cffi's session.cookies.set with domain doesn't always work)."""
+
+            def __init__(self):
+                self._session = CffiSession(impersonate="chrome")
+                self._cookies = cookies
+                self._session.headers.update(headers)
+                self._is_cffi = True
+
+            def get(self, url, timeout=20, **kwargs):
+                # Merge cookies into every request
+                req_cookies = {**self._cookies, **kwargs.pop("cookies", {})}
+                return self._session.get(
+                    url, cookies=req_cookies, timeout=timeout,
+                    allow_redirects=False, **kwargs
+                )
+
+            @property
+            def headers(self):
+                return self._session.headers
+
+        session = LinkedInCffiSession()
         log.info("LinkedIn session created with curl_cffi (Chrome TLS fingerprint)")
-        session._is_cffi = True
         return session
     except ImportError:
         log.warning("curl_cffi not installed. Using plain requests (TLS fingerprint mismatch risk).")
@@ -330,10 +349,19 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
         else:
             variables = f"(start:0,query:({query_part}))"
 
-        url = f"{graphql_base}?variables={variables}&queryId={query_id}"
+        # URL-encode the variables (spaces in keywords, special chars)
+        encoded_vars = quote(variables, safe="(),:")
+        url = f"{graphql_base}?variables={encoded_vars}&queryId={query_id}"
 
         try:
-            resp = session.get(url, timeout=20)
+            resp = session.get(url, timeout=30)
+
+            # Detect redirect (means cookies not accepted / session invalid)
+            if hasattr(resp, 'status_code') and resp.status_code in (301, 302, 303, 307, 308):
+                location = resp.headers.get("Location", "")
+                log.error(f"  Redirected to {location[:80]}... — session cookies not accepted.")
+                log.error(f"  Check li_at and JSESSIONID are fresh (re-copy from browser).")
+                break
             if resp.status_code in (400, 404):
                 log.warning(f"  Search queryId may be stale ({resp.status_code}). Update via DevTools.")
                 break
