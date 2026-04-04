@@ -341,13 +341,26 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
                 log.error(f"  Auth error ({resp.status_code}) — check li_at + JSESSIONID")
                 break
             if resp.status_code != 200:
-                log.debug(f"  HTTP {resp.status_code} on search page {page_num + 1}")
+                log.warning(f"  HTTP {resp.status_code} on search page {page_num + 1}")
                 break
 
             data = resp.json()
+            log.debug(f"  Response size: {len(json.dumps(data))} chars")
         except Exception as e:
-            log.debug(f"  Search request failed: {e}")
+            log.warning(f"  Search request failed: {e}")
             break
+
+        # Dump first page response for debugging (only on first phrase, first page)
+        if page_num == 0:
+            debug_path = Path(CONFIG["RESULTS_DIR"])
+            debug_path.mkdir(exist_ok=True)
+            debug_file = debug_path / "search_debug_response.json"
+            try:
+                with open(debug_file, "w") as f:
+                    json.dump(data, f, indent=2)
+                log.info(f"  Debug: saved first-page response to {debug_file}")
+            except Exception:
+                pass
 
         # Targeted URN extraction from trackingUrn / navigationUrl
         targeted_urns = set()
@@ -375,9 +388,20 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
         extract_result_urns(data)
         page_urns = _normalize_urns_to_activity(targeted_urns)
 
+        # Fallback: full sweep if targeted extraction found nothing
         if not page_urns:
-            log.info(f"  Search '{phrase}' page {page_num + 1}: 0 results — done.")
-            break
+            raw_text = json.dumps(data)
+            raw_urns = set(re.findall(
+                r"urn:li:(?:activity|share|ugcPost|fs_updateV2):[\d\(\)a-zA-Z0-9_-]+",
+                raw_text
+            ))
+            page_urns = _normalize_urns_to_activity(raw_urns)
+            if page_urns:
+                log.info(f"  Targeted extraction found 0, full sweep found {len(page_urns)}")
+            else:
+                log.info(f"  Search '{phrase}' page {page_num + 1}: 0 results — done.")
+                log.info(f"  (Check results/search_debug_response.json for raw response)")
+                break
 
         new_on_page = 0
         for urn in page_urns:
@@ -1111,6 +1135,12 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
 def git_sync_pull():
     """Auto pull latest history from GitHub before running."""
     try:
+        # Stash any local changes first (e.g. uncommitted results)
+        subprocess.run(
+            ["git", "stash", "--include-untracked"],
+            capture_output=True, text=True, timeout=15
+        )
+
         result = subprocess.run(
             ["git", "pull", "origin", "main", "--rebase"],
             capture_output=True, text=True, timeout=30
@@ -1119,6 +1149,15 @@ def git_sync_pull():
             log.info(f"  Git pull: {result.stdout.strip()}")
         else:
             log.warning(f"  Git pull failed: {result.stderr.strip()}")
+
+        # Pop stashed changes back
+        pop_result = subprocess.run(
+            ["git", "stash", "pop"],
+            capture_output=True, text=True, timeout=15
+        )
+        if pop_result.returncode != 0 and "No stash" not in pop_result.stderr:
+            log.debug(f"  Git stash pop: {pop_result.stderr.strip()}")
+
     except FileNotFoundError:
         log.warning("  git not found. Skipping auto-sync.")
     except Exception as e:
@@ -1199,7 +1238,13 @@ def main():
     parser = argparse.ArgumentParser(description="LinkedIn Keyword Search Outreach Agent")
     parser.add_argument("--dry-run", action="store_true", help="Skip sending emails")
     parser.add_argument("--no-git-sync", action="store_true", help="Skip auto git pull/push")
+    parser.add_argument("--test", action="store_true", help="Test mode: skip emails AND git sync")
     args = parser.parse_args()
+
+    # --test is shorthand for --dry-run + --no-git-sync
+    if args.test:
+        args.dry_run = True
+        args.no_git_sync = True
 
     # Validate required env vars
     missing = [k for k, v in CONFIG.items()
@@ -1208,7 +1253,7 @@ def main():
         log.error(f"Set these env vars: {', '.join(missing)}")
         sys.exit(1)
 
-    mode = "dry-run" if args.dry_run else "full"
+    mode = "test" if args.test else ("dry-run" if args.dry_run else "full")
     print(f"\n{'='*70}")
     print(f"  LinkedIn Keyword Search Outreach Agent")
     print(f"  Phrases: {CONFIG['SEARCH_PHRASES']}")
