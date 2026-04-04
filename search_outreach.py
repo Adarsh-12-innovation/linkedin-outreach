@@ -322,12 +322,20 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
         else:
             variables = f"(start:0,query:({query_part}))"
 
-        # URL-encode the variables (spaces in keywords, special chars)
-        encoded_vars = quote(variables, safe="(),:")
-        url = f"{graphql_base}?variables={encoded_vars}&queryId={query_id}"
+        # Only encode spaces — don't use quote() which causes double-encoding
+        # with the requests library. Match how saved_posts_outreach.py does it.
+        variables_encoded = variables.replace(" ", "%20")
+        url = f"{graphql_base}?variables={variables_encoded}&queryId={query_id}"
+        log.debug(f"  URL: {url[:150]}...")
 
         try:
-            resp = session.get(url, timeout=30)
+            # Use PreparedRequest to prevent requests from re-encoding the URL
+            # (parentheses/commas in Rest.li format break if re-encoded)
+            import requests as req_lib
+            req = req_lib.Request("GET", url)
+            prepared = session.prepare_request(req)
+            prepared.url = url  # Override to keep our exact URL
+            resp = session.send(prepared, timeout=30)
             status = resp.status_code
             log.info(f"  HTTP {status}, {len(resp.content)} bytes")
 
