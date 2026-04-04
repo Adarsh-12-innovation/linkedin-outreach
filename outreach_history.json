@@ -180,7 +180,14 @@
     "urn:li:activity:7445768002475786240",
     "urn:li:activity:7445777517074063360",
     "urn:li:activity:7445798407438307328",
-    "urn:li:activity:7445819592377217024"
+    "urn:li:activity:7445819592377217024",
+    "urn:li:activity:7445842753923715072",
+    "urn:li:activity:7445922608178708481",
+    "urn:li:activity:7445855109093322753",
+    "urn:li:activity:7445892195389452288",
+    "urn:li:activity:7445835561883451392",
+    "urn:li:activity:7445894794599575552",
+    "urn:li:activity:7445902594083889152"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -335,7 +342,13 @@
     "ramya.b@techno-facts.com",
     "joyitadas@acbhiring.com",
     "falak.ansari@techcharmindia.com",
-    "apply@qualimatrix.in"
+    "apply@qualimatrix.in",
+    "Prince.surve@expeditets.com",
+    "ruban@sysytems.com",
+    "E-careers@cogentcube.com",
+    "evangeline@lorventech.com",
+    "mohd.arish@confiarservices.com",
+    "ruban@vysystems.com"
   ],
   "contacted_details": [
     {
@@ -1783,6 +1796,69 @@
       "message_id": "19d53a2282cf944d",
       "followed_up": false,
       "timestamp": "2026-04-03T13:57:09.943353"
+    },
+    {
+      "urn": "urn:li:activity:7445842753923715072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445842753923715072",
+      "email": "Prince.surve@expeditets.com",
+      "thread_id": "19d56d236405eed0",
+      "message_id": "19d56d236405eed0",
+      "followed_up": false,
+      "timestamp": "2026-04-04T04:48:30.501982"
+    },
+    {
+      "urn": "urn:li:activity:7445922608178708481",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445922608178708481",
+      "email": "ruban@sysytems.com",
+      "thread_id": "19d56d23dedc9e51",
+      "message_id": "19d56d23dedc9e51",
+      "followed_up": false,
+      "timestamp": "2026-04-04T04:48:32.387753"
+    },
+    {
+      "urn": "urn:li:activity:7445855109093322753",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445855109093322753",
+      "email": "E-careers@cogentcube.com",
+      "thread_id": "19d56d245048aff0",
+      "message_id": "19d56d245048aff0",
+      "followed_up": false,
+      "timestamp": "2026-04-04T04:48:34.241903"
+    },
+    {
+      "urn": "urn:li:activity:7445892195389452288",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445892195389452288",
+      "email": "ravi2@gretisglobal.com",
+      "thread_id": "19d56d24c71aae64",
+      "message_id": "19d56d24c71aae64",
+      "followed_up": false,
+      "timestamp": "2026-04-04T04:48:36.074885"
+    },
+    {
+      "urn": "urn:li:activity:7445835561883451392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445835561883451392",
+      "email": "evangeline@lorventech.com",
+      "thread_id": "19d56d2527d3a850",
+      "message_id": "19d56d2527d3a850",
+      "followed_up": false,
+      "timestamp": "2026-04-04T04:48:38.248731"
+    },
+    {
+      "urn": "urn:li:activity:7445894794599575552",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445894794599575552",
+      "email": "mohd.arish@confiarservices.com",
+      "thread_id": "19d56d25d1c4f829",
+      "message_id": "19d56d25d1c4f829",
+      "followed_up": false,
+      "timestamp": "2026-04-04T04:48:40.140477"
+    },
+    {
+      "urn": "urn:li:activity:7445902594083889152",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445902594083889152",
+      "email": "ruban@vysystems.com",
+      "thread_id": "19d56d26381bb282",
+      "message_id": "19d56d26381bb282",
+      "followed_up": false,
+      "timestamp": "2026-04-04T04:48:42.006274"
     }
   ]
 }
