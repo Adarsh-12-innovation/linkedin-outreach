@@ -221,27 +221,25 @@ def create_linkedin_session():
         "JSESSIONID": f'"{jsessionid}"',
     }
 
+    # Build Cookie header string (most reliable across HTTP clients)
+    cookie_header = "; ".join(f"{k}={v}" for k, v in cookies.items())
+
     # Try curl_cffi first (Chrome TLS fingerprint)
     try:
         from curl_cffi.requests import Session as CffiSession
 
         class LinkedInCffiSession:
-            """Wrapper around curl_cffi that passes cookies per-request
-            (curl_cffi's session.cookies.set with domain doesn't always work)."""
+            """Wrapper around curl_cffi that passes cookies via header
+            (avoids curl_cffi cookie jar domain issues)."""
 
             def __init__(self):
                 self._session = CffiSession(impersonate="chrome")
-                self._cookies = cookies
                 self._session.headers.update(headers)
+                self._session.headers["Cookie"] = cookie_header
                 self._is_cffi = True
 
-            def get(self, url, timeout=20, **kwargs):
-                # Merge cookies into every request
-                req_cookies = {**self._cookies, **kwargs.pop("cookies", {})}
-                return self._session.get(
-                    url, cookies=req_cookies, timeout=timeout,
-                    allow_redirects=False, **kwargs
-                )
+            def get(self, url, timeout=30, **kwargs):
+                return self._session.get(url, timeout=timeout, **kwargs)
 
             @property
             def headers(self):
@@ -355,25 +353,20 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
 
         try:
             resp = session.get(url, timeout=30)
+            status = resp.status_code
+            log.info(f"  HTTP {status}, {len(resp.content)} bytes")
 
-            # Detect redirect (means cookies not accepted / session invalid)
-            if hasattr(resp, 'status_code') and resp.status_code in (301, 302, 303, 307, 308):
-                location = resp.headers.get("Location", "")
-                log.error(f"  Redirected to {location[:80]}... — session cookies not accepted.")
-                log.error(f"  Check li_at and JSESSIONID are fresh (re-copy from browser).")
+            if status in (400, 404):
+                log.warning(f"  Search queryId may be stale ({status}). Update via DevTools.")
                 break
-            if resp.status_code in (400, 404):
-                log.warning(f"  Search queryId may be stale ({resp.status_code}). Update via DevTools.")
+            if status in (401, 403):
+                log.error(f"  Auth error ({status}) — check li_at + JSESSIONID")
                 break
-            if resp.status_code in (401, 403):
-                log.error(f"  Auth error ({resp.status_code}) — check li_at + JSESSIONID")
-                break
-            if resp.status_code != 200:
-                log.warning(f"  HTTP {resp.status_code} on search page {page_num + 1}")
+            if status != 200:
+                log.warning(f"  Unexpected HTTP {status}")
                 break
 
             data = resp.json()
-            log.debug(f"  Response size: {len(json.dumps(data))} chars")
         except Exception as e:
             log.warning(f"  Search request failed: {e}")
             break
