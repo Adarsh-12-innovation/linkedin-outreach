@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-04-04T22:50:46.616260",
+  "mode": "search",
+  "search_phrases": [
+    "ai contract hiring",
+    "machine learning contract hiring"
+  ],
+  "stats": {
+    "raw_search_results": 136,
+    "stage1_passed": 2,
+    "stage2_passed": 0,
+    "contacts_extracted": 0,
+    "emailed": 0
+  },
+  "extracted": []
+}

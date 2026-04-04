@@ -163,7 +163,7 @@ MUST_HAVE_KEYWORDS = {
 }
 
 MUST_NOT_HAVE_KEYWORDS = [
-    "onsite", "hybrid", "wfo",
+    "onsite", "hybrid", "wfo", "in-office", "in office", "office"
 ]
 
 # ─────────────────────────────────────────────
@@ -285,12 +285,7 @@ def _normalize_seen_urns(seen_urns: set) -> set:
 def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
     """
     Search LinkedIn content posts by keyword phrase, sorted by 'latest'.
-
-    Uses the same GraphQL search-clusters endpoint as the LinkedIn frontend.
-    Cursor-based pagination: each response includes a paginationToken
-    for the next page.
-
-    Returns list of {entity_urn, post_urn} dicts for new (unseen) posts.
+    Recursively fetches batches of 10-20 posts using start offsets and tokens.
     """
     graphql_base = "https://www.linkedin.com/voyager/api/graphql"
     query_id = CONFIG["SEARCH_QUERYID"]
@@ -299,9 +294,10 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
 
     results = []
     pagination_token = None
+    start_offset = 0
 
     for page_num in range(max_pages):
-        # Build Rest.li variables — sort by date_posted, filter to last 24h
+        # Build variables
         query_part = (
             f"keywords:{phrase},"
             f"flagshipSearchIntent:SEARCH_SRP,"
@@ -314,9 +310,9 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
 
         if pagination_token:
             encoded_token = pagination_token.replace("=", "%3D")
-            variables = f"(start:{page_num * page_size},paginationToken:{encoded_token},query:({query_part}))"
+            variables = f"(start:{start_offset},paginationToken:{encoded_token},query:({query_part}))"
         else:
-            variables = f"(start:0,query:({query_part}))"
+            variables = f"(start:{start_offset},query:({query_part}))"
 
         # URL-encode spaces in keywords
         variables_encoded = variables.replace(" ", "%20")
@@ -325,17 +321,12 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
         try:
             resp = session.get(url, timeout=20)
             status = resp.status_code
-            log.info(f"  HTTP {status}, {len(resp.content)} bytes")
-
-            if status in (400, 404):
-                log.warning(f"  Search queryId may be stale ({status}). Update via DevTools.")
-                break
             if status in (401, 403):
                 log.error(f"  Auth error ({status}) — li_at + JSESSIONID likely expired.")
                 send_linkedin_auth_error_notification(status)
-                return []
+                return results
             if status != 200:
-                log.warning(f"  Unexpected HTTP {status}")
+                log.warning(f"  HTTP {status} at page {page_num+1}")
                 break
 
             data = resp.json()
@@ -343,94 +334,68 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
             log.warning(f"  Search request failed: {e}")
             break
 
-        # Dump first page response for debugging (only on first phrase, first page)
-        if page_num == 0:
-            debug_path = Path(CONFIG["RESULTS_DIR"])
-            debug_path.mkdir(exist_ok=True)
-            debug_file = debug_path / "search_debug_response.json"
-            try:
-                with open(debug_file, "w") as f:
-                    json.dump(data, f, indent=2)
-                log.info(f"  Debug: saved first-page response to {debug_file}")
-            except Exception:
-                pass
-
-        # Targeted URN extraction from trackingUrn / navigationUrl
+        # Targeted URN extraction
         targeted_urns = set()
-
         def extract_result_urns(obj):
             if isinstance(obj, dict):
                 tracking = obj.get("trackingUrn", "")
                 if isinstance(tracking, str) and "activity" in tracking:
                     m = re.search(r"urn:li:activity:\d+", tracking)
-                    if m:
-                        targeted_urns.add(m.group(0))
-
+                    if m: targeted_urns.add(m.group(0))
                 nav_url = obj.get("navigationUrl", "")
                 if isinstance(nav_url, str) and "/feed/update/" in nav_url:
                     m = re.search(r"urn:li:activity:\d+", nav_url)
-                    if m:
-                        targeted_urns.add(m.group(0))
-
-                for v in obj.values():
-                    extract_result_urns(v)
+                    if m: targeted_urns.add(m.group(0))
+                for v in obj.values(): extract_result_urns(v)
             elif isinstance(obj, list):
-                for item in obj:
-                    extract_result_urns(item)
+                for item in obj: extract_result_urns(item)
 
         extract_result_urns(data)
-        page_urns = _normalize_urns_to_activity(targeted_urns)
+        
+        # Fallback: full sweep
+        raw_urns = set(re.findall(r"urn:li:(?:activity|share|ugcPost|fs_updateV2):[\d\(\)a-zA-Z0-9_-]+", json.dumps(data)))
+        all_found_raw = targeted_urns | raw_urns
+        page_urns = _normalize_urns_to_activity(all_found_raw)
 
-        # Fallback: full sweep if targeted extraction found nothing
         if not page_urns:
-            raw_text = json.dumps(data)
-            raw_urns = set(re.findall(
-                r"urn:li:(?:activity|share|ugcPost|fs_updateV2):[\d\(\)a-zA-Z0-9_-]+",
-                raw_text
-            ))
-            page_urns = _normalize_urns_to_activity(raw_urns)
-            if page_urns:
-                log.info(f"  Targeted extraction found 0, full sweep found {len(page_urns)}")
-            else:
-                log.info(f"  Search '{phrase}' page {page_num + 1}: 0 results — done.")
-                log.info(f"  (Check results/search_debug_response.json for raw response)")
-                break
+            log.info(f"  No more results for '{phrase}' at page {page_num + 1}.")
+            break
 
         new_on_page = 0
         for urn in page_urns:
             numeric_id = re.search(r"(\d{10,})", urn).group(1)
             if numeric_id not in seen_ids:
                 results.append({"entity_urn": urn, "post_urn": urn})
-                seen_ids.add(numeric_id)  # Prevent cross-phrase duplicates
+                seen_ids.add(numeric_id)
                 new_on_page += 1
 
-        log.info(f"  Search '{phrase}' page {page_num + 1}: "
-                 f"{len(page_urns)} posts, {new_on_page} new")
+        log.info(f"  Search '{phrase}' page {page_num + 1}: {len(page_urns)} IDs ({new_on_page} new)")
 
-        # Extract paginationToken for next page
+        # ── Find paginationToken for next page ──
         next_token = None
-
         def find_pagination_token(obj):
             nonlocal next_token
-            if next_token:
-                return
+            if next_token: return
             if isinstance(obj, dict):
-                if "paginationToken" in obj and isinstance(obj["paginationToken"], str):
-                    next_token = obj["paginationToken"]
+                token = obj.get("paginationToken")
+                if isinstance(token, str):
+                    next_token = token
                     return
-                for v in obj.values():
-                    find_pagination_token(v)
+                for v in obj.values(): find_pagination_token(v)
             elif isinstance(obj, list):
-                for item in obj:
-                    find_pagination_token(item)
+                for item in obj: find_pagination_token(item)
 
         find_pagination_token(data)
+        
+        # Update for next iteration
+        pagination_token = next_token
+        start_offset += len(page_urns) # Dynamic increment based on items found
 
-        if not next_token:
+        # Safety: If we didn't find many items and have no token, stop
+        if not next_token and len(page_urns) < 5:
             break
 
-        pagination_token = next_token
-        _human_delay(3.0, 7.0)  # Human-like pause between pages
+        _human_delay(3.0, 7.0)
 
     return results
 
