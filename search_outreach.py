@@ -189,12 +189,12 @@ def _human_delay(min_s: float = 2.0, max_s: float = 6.0):
     time.sleep(max(0.5, base + jitter))
 
 
-def create_linkedin_session():
+def create_linkedin_session(use_cffi: bool = False):
     """
     Create an authenticated LinkedIn session.
 
-    Attempts to use curl_cffi (which matches Chrome's TLS/JA3 fingerprint)
-    and falls back to plain requests if unavailable.
+    Default: plain requests (proven to work with saved_posts_outreach.py).
+    Optional: curl_cffi with --use-cffi flag for Chrome TLS fingerprinting.
     """
     li_at = CONFIG["LINKEDIN_LI_AT"]
     jsessionid = CONFIG["LINKEDIN_JSESSIONID"].strip('"')
@@ -207,7 +207,6 @@ def create_linkedin_session():
         ),
         "Accept": "application/vnd.linkedin.normalized+json+2.1",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate, br",
         "x-li-lang": "en_US",
         "x-li-page-instance": f"urn:li:page:feed_index;{random.randbytes(8).hex()}",
         "x-restli-protocol-version": "2.0.0",
@@ -216,50 +215,26 @@ def create_linkedin_session():
         "Origin": "https://www.linkedin.com",
     }
 
-    cookies = {
-        "li_at": li_at,
-        "JSESSIONID": f'"{jsessionid}"',
-    }
+    if use_cffi:
+        try:
+            from curl_cffi.requests import Session as CffiSession
+            session = CffiSession(impersonate="chrome")
+            session.headers.update(headers)
+            session.headers["Cookie"] = f"li_at={li_at}; JSESSIONID=\"{jsessionid}\""
+            session._is_cffi = True
+            log.info("LinkedIn session created with curl_cffi (Chrome TLS fingerprint)")
+            return session
+        except ImportError:
+            log.warning("curl_cffi not installed. Falling back to requests.")
 
-    # Build Cookie header string (most reliable across HTTP clients)
-    cookie_header = "; ".join(f"{k}={v}" for k, v in cookies.items())
-
-    # Try curl_cffi first (Chrome TLS fingerprint)
-    try:
-        from curl_cffi.requests import Session as CffiSession
-
-        class LinkedInCffiSession:
-            """Wrapper around curl_cffi that passes cookies via header
-            (avoids curl_cffi cookie jar domain issues)."""
-
-            def __init__(self):
-                self._session = CffiSession(impersonate="chrome")
-                self._session.headers.update(headers)
-                self._session.headers["Cookie"] = cookie_header
-                self._is_cffi = True
-
-            def get(self, url, timeout=30, **kwargs):
-                return self._session.get(url, timeout=timeout, **kwargs)
-
-            @property
-            def headers(self):
-                return self._session.headers
-
-        session = LinkedInCffiSession()
-        log.info("LinkedIn session created with curl_cffi (Chrome TLS fingerprint)")
-        return session
-    except ImportError:
-        log.warning("curl_cffi not installed. Using plain requests (TLS fingerprint mismatch risk).")
-        log.warning("Install with: pip install curl_cffi")
-
-    # Fallback to plain requests
+    # Default: plain requests (same as saved_posts_outreach.py — proven to work)
     import requests
     session = requests.Session()
     session.cookies.set("li_at", li_at, domain=".linkedin.com")
     session.cookies.set("JSESSIONID", f'"{jsessionid}"', domain=".linkedin.com")
     session.headers.update(headers)
     session._is_cffi = False
-    log.info("LinkedIn session created with requests (fallback)")
+    log.info("LinkedIn session created with requests")
     return session
 
 
@@ -1260,6 +1235,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Skip sending emails")
     parser.add_argument("--no-git-sync", action="store_true", help="Skip auto git pull/push")
     parser.add_argument("--test", action="store_true", help="Test mode: skip emails AND git sync")
+    parser.add_argument("--use-cffi", action="store_true", help="Use curl_cffi for Chrome TLS fingerprint")
     args = parser.parse_args()
 
     # --test is shorthand for --dry-run + --no-git-sync
@@ -1288,7 +1264,7 @@ def main():
 
     # ── 1. Search LinkedIn ──
     log.info("\n[STEP 1] Searching LinkedIn for keyword posts...")
-    session = create_linkedin_session()
+    session = create_linkedin_session(use_cffi=args.use_cffi)
     history = load_history()
 
     # Decoy: mimic normal browsing before searching
