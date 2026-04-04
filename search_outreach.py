@@ -331,8 +331,9 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
                 log.warning(f"  Search queryId may be stale ({status}). Update via DevTools.")
                 break
             if status in (401, 403):
-                log.error(f"  Auth error ({status}) — check li_at + JSESSIONID")
-                break
+                log.error(f"  Auth error ({status}) — li_at + JSESSIONID likely expired.")
+                send_linkedin_auth_error_notification(status)
+                return []
             if status != 200:
                 log.warning(f"  Unexpected HTTP {status}")
                 break
@@ -492,9 +493,16 @@ def fetch_post_content(session, post_urn: str) -> tuple[str, int]:
     created_at = 0
     try:
         resp = session.get(url, timeout=15)
+        if resp.status_code in (401, 403):
+            log.error(f"  Auth error ({resp.status_code}) fetching post content — session likely expired.")
+            send_linkedin_auth_error_notification(resp.status_code)
+            return "", 0
         if resp.status_code != 200:
             url2 = f"https://www.linkedin.com/voyager/api/feed/updates/urn:li:activity:{activity_id}"
             resp = session.get(url2, timeout=15)
+            if resp.status_code in (401, 403):
+                send_linkedin_auth_error_notification(resp.status_code)
+                return "", 0
             if resp.status_code != 200:
                 return "", 0
 
@@ -877,7 +885,54 @@ def call_gemini(prompt: str) -> str:
                 time.sleep(2)
 
     log.critical("All extraction Gemini keys failed.")
+    try:
+        send_rate_limit_notification()
+    except:
+        pass
     return ""
+
+
+def send_rate_limit_notification():
+    """Send an email alert when all Gemini keys are rate limited."""
+    try:
+        gmail = get_gmail_service()
+        msg = MIMEMultipart()
+        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+        msg["To"] = CONFIG["SENDER_EMAIL"]
+        msg["Subject"] = "⚠️ Gemini API Rate Limit Alert (Search Outreach)"
+        body = "All your Gemini API keys have hit their rate limits or failed during the keyword search run."
+        msg.attach(MIMEText(body, "plain"))
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+        log.info("Rate limit notification sent to email.")
+    except Exception as e:
+        log.error(f"Failed to send rate limit email: {e}")
+
+
+def send_linkedin_auth_error_notification(status_code: int):
+    """Send an email alert when LinkedIn session cookies expire."""
+    try:
+        gmail = get_gmail_service()
+        msg = MIMEMultipart()
+        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+        msg["To"] = CONFIG["SENDER_EMAIL"]
+        msg["Subject"] = f"⚠️ LinkedIn Auth Error ({status_code}) — Session Expired"
+        
+        body = f"""\
+Your LinkedIn Search Outreach Agent encountered an authentication error ({status_code}). 
+This likely means your 'li_at' or 'JSESSIONID' cookies have expired.
+
+Please:
+1. Log in to LinkedIn in your browser.
+2. Extract the fresh 'li_at' and 'JSESSIONID' values from DevTools.
+3. Update your environment variables or CONFIG.
+"""
+        msg.attach(MIMEText(body, "plain"))
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+        log.info("LinkedIn auth error notification sent to email.")
+    except Exception as e:
+        log.error(f"Failed to send auth error email: {e}")
 
 
 def extract_contacts_with_gemini(items: list[dict]) -> list[dict]:

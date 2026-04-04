@@ -289,6 +289,10 @@ def fetch_saved_posts(session: requests.Session, history: dict = None) -> list[d
             url = endpoint_template.format(count=count, start=start)
             try:
                 resp = session.get(url, timeout=15)
+                if resp.status_code in (401, 403):
+                    log.error(f"  Auth error ({resp.status_code}) — li_at/JSESSIONID likely expired.")
+                    send_linkedin_auth_error_notification(resp.status_code)
+                    return [] # Stop this run
                 if resp.status_code != 200:
                     break
                 data = resp.json()
@@ -836,9 +840,16 @@ def fetch_post_content(session: requests.Session, post_urn: str) -> tuple[str, i
     created_at = 0
     try:
         resp = session.get(url, timeout=15)
+        if resp.status_code in (401, 403):
+            log.error(f"  Auth error ({resp.status_code}) fetching post content — session likely expired.")
+            send_linkedin_auth_error_notification(resp.status_code)
+            return "", 0
         if resp.status_code != 200:
             url2 = f"https://www.linkedin.com/voyager/api/feed/updates/urn:li:activity:{activity_id}"
             resp = session.get(url2, timeout=15)
+            if resp.status_code in (401, 403):
+                send_linkedin_auth_error_notification(resp.status_code)
+                return "", 0
             if resp.status_code != 200:
                 return "", 0
 
