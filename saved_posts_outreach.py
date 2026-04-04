@@ -1028,6 +1028,32 @@ def send_rate_limit_notification():
         log.error(f"Failed to send rate limit email: {e}")
 
 
+def send_linkedin_auth_error_notification(status_code: int):
+    """Send an email alert when LinkedIn session cookies expire."""
+    try:
+        gmail = get_gmail_service()
+        msg = MIMEMultipart()
+        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+        msg["To"] = CONFIG["SENDER_EMAIL"]
+        msg["Subject"] = f"⚠️ LinkedIn Auth Error ({status_code}) — Session Expired"
+        
+        body = f"""\
+Your LinkedIn Outreach Agent encountered an authentication error ({status_code}). 
+This likely means your 'li_at' or 'JSESSIONID' cookies have expired.
+
+Please:
+1. Log in to LinkedIn in your browser.
+2. Extract the fresh 'li_at' and 'JSESSIONID' values from DevTools.
+3. Update your environment variables or CONFIG.
+"""
+        msg.attach(MIMEText(body, "plain"))
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+        log.info("LinkedIn auth error notification sent to email.")
+    except Exception as e:
+        log.error(f"Failed to send auth error email: {e}")
+
+
 def extract_contacts_with_gemini(saved_items: list[dict]) -> list[dict]:
     """
     Use Gemini to extract emails, phone numbers, and role details
@@ -1514,7 +1540,8 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
 
 def send_queryid_stale_notification():
     """
-    Send a one-time email alert when the GraphQL queryId has expired.
+    Send a one-time email alert when the GraphQL queryId has 
+    .
     
     Uses a marker file to avoid re-sending on every run.  The marker is
     automatically deleted when a working queryId is detected again (see

@@ -203,16 +203,12 @@ def create_linkedin_session(use_cffi: bool = False):
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/125.0.0.0 Safari/537.36"
+            "Chrome/120.0.0.0 Safari/537.36"
         ),
         "Accept": "application/vnd.linkedin.normalized+json+2.1",
-        "Accept-Language": "en-US,en;q=0.9",
         "x-li-lang": "en_US",
-        "x-li-page-instance": f"urn:li:page:feed_index;{random.randbytes(8).hex()}",
         "x-restli-protocol-version": "2.0.0",
         "csrf-token": jsessionid,
-        "Referer": "https://www.linkedin.com/feed/",
-        "Origin": "https://www.linkedin.com",
     }
 
     if use_cffi:
@@ -322,20 +318,12 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
         else:
             variables = f"(start:0,query:({query_part}))"
 
-        # Only encode spaces — don't use quote() which causes double-encoding
-        # with the requests library. Match how saved_posts_outreach.py does it.
+        # URL-encode spaces in keywords
         variables_encoded = variables.replace(" ", "%20")
         url = f"{graphql_base}?variables={variables_encoded}&queryId={query_id}"
-        log.debug(f"  URL: {url[:150]}...")
 
         try:
-            # Use PreparedRequest to prevent requests from re-encoding the URL
-            # (parentheses/commas in Rest.li format break if re-encoded)
-            import requests as req_lib
-            req = req_lib.Request("GET", url)
-            prepared = session.prepare_request(req)
-            prepared.url = url  # Override to keep our exact URL
-            resp = session.send(prepared, timeout=30)
+            resp = session.get(url, timeout=20)
             status = resp.status_code
             log.info(f"  HTTP {status}, {len(resp.content)} bytes")
 
@@ -458,9 +446,9 @@ def fetch_all_search_results(session, history: dict) -> list[dict]:
     for i, phrase in enumerate(CONFIG["SEARCH_PHRASES"]):
         log.info(f"\n  Searching: \"{phrase}\" (sorted by latest)...")
 
-        # Decoy between searches to break the pattern
-        if i > 0:
-            decoy_request(session)
+        # Decoy disabled — extra API calls trigger session invalidation
+        # if i > 0:
+        #     decoy_request(session)
 
         phrase_results = search_linkedin_posts(session, phrase, seen_ids)
         all_results.extend(phrase_results)
@@ -600,9 +588,9 @@ def fetch_all_post_contents(session, items: list[dict]) -> list[dict]:
         log.info(f"  [{i+1}/{len(items)}] {len(content):>5d} chars | {post_urn[:50]}")
         filtered.append(item)
 
-        # Decoy every 8-12 posts
-        if (i + 1) % random.randint(8, 12) == 0:
-            decoy_request(session)
+        # Decoy disabled — extra API calls trigger session invalidation
+        # if (i + 1) % random.randint(8, 12) == 0:
+        #     decoy_request(session)
 
         _human_delay(1.5, 3.5)
 
@@ -1275,8 +1263,8 @@ def main():
     session = create_linkedin_session(use_cffi=args.use_cffi)
     history = load_history()
 
-    # Decoy: mimic normal browsing before searching
-    decoy_request(session)
+    # Decoy disabled — extra API calls trigger session invalidation
+    # decoy_request(session)
 
     search_results = fetch_all_search_results(session, history)
 
