@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-04T10:56:57.635417",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 0,
+    "with_phone": 0,
+    "emailed": 0
+  },
+  "extracted": [
+    {
+      "entity_urn": "urn:li:activity:7445705298226360320",
+      "post_urn": "urn:li:activity:7445705298226360320",
+      "full_content": "Emperen Technologies\n\n15,360 followers\n\n\ud83d\ude80 Exciting Career Opportunities at Emperen Technologies! \ud83d\ude80\n\nWe are actively hiring skilled professionals for long-term contract roles across multiple cutting-edge technologies!\n\nIf you have expertise in any of the areas below, we want to hear from you! \ud83d\udc47\n\n\u2705 Artificial Intelligence (AI)\n\u2705 Databricks\n\u2705 Cloud Experts\n\u2705 IBM ELM\n\u2705 SAP\n\n\ud83d\udcbc Why Join Emperen Technologies?\n\ud83d\udd39 Long-term contract engagements\n\ud83d\udd39 Opportunity to work on exciting & innovative projects\n\ud83d\udd39 Collaborate with industry-leading professionals\n\ud83d\udd39 Grow your career in high-demand technology domains\n\n\ud83d\udce2 Interested? Here's How to Apply:\n\n\ud83d\udc49 Fill out the Google Form below with your details:\n\ud83d\udd17 https://lnkd.in/diTv44iP\n\nOnce your profile is shortlisted, our HR team will reach out to you directly to take things forward! \u2705\n\n\u26a0\ufe0f Please Note: This is a direct hiring requirement. Agencies/Vendors, please do not apply.\n\n\ud83d\udcf2 Share this post and help someone find their next big opportunity! Tag a friend or colleague who might be a great fit! \ud83d\ude4c\n\n#Hiring #LongTermContract #AI #Databricks #CloudComputing #IBMELM #SAP #EmperenTechnologies #TechJobs #ContractJobs #NowHiring #TechCareers #JobOpportunity\n\n\ud83d\ude80 Exciting Career Opportunities at Emperen Technologies! \ud83d\ude80\n\nWe are actively hiring skilled professionals for long-term contract roles across multiple cutting-edge technologies!\n\nIf you have expertise in any of the areas below, we want to hear from you! \ud83d\udc47\n\n\u2705 Artificial Intelligence (AI)\n\u2705 Databricks\n\u2705 Cloud Experts\n\u2705 IBM ELM\n\u2705 SAP\n\n\ud83d\udcbc Why Join Emperen Technologies?\n\ud83d\udd39 Long-term contract engagements\n\ud83d\udd39 Opportunity to work on exciting & innovative projects\n\ud83d\udd39 Collaborate with industry-leading professionals\n\ud83d\udd39 Grow your career in high-demand technology domains\n\n\ud83d\udce2 Interested? Here's How to Apply:\n\n\ud83d\udc49 Fill out the Google Form below with your details:\n\ud83d\udd17 https://lnkd.in/diTv44iP\n\nOnce your profile is shortlisted, our HR team will reach out to you directly to take things forward! \u2705\n\n\u26a0\ufe0f Please Note: This is a direct hiring requirement. Agencies/Vendors, please do not apply.\n\n\ud83d\udcf2 Share this post and help someone find their next big opportunity! Tag a friend or colleague who might be a great fit! \ud83d\ude4c\n\n#Hiring #LongTermContract #AI #Databricks #CloudComputing #IBMELM #SAP #EmperenTechnologies #TechJobs #ContractJobs #NowHiring #TechCareers #JobOpportunity",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": null,
+      "poster_email": null,
+      "poster_phone": null,
+      "company": "Emperen Technologies",
+      "role_title": "Skilled Professionals (AI, Databricks, Cloud, IBM ELM, SAP)",
+      "role_summary": "Hiring skilled professionals for long-term contract roles in AI, Databricks, Cloud, IBM ELM, and SAP.",
+      "has_contact_info": false
+    }
+  ]
+}

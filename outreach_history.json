@@ -1527,8 +1527,9 @@
       "email": "vishnu@iflowglobal.com",
       "thread_id": "19d529e9cf1cbeb8",
       "message_id": "19d529e9cf1cbeb8",
-      "followed_up": false,
-      "timestamp": "2026-04-03T09:13:40.021486"
+      "followed_up": true,
+      "timestamp": "2026-04-03T09:13:40.021486",
+      "followup_timestamp": "2026-04-04T10:56:46.734406"
     },
     {
       "urn": "urn:li:activity:7445716007983255552",
@@ -1536,8 +1537,9 @@
       "email": "monika@3point.in",
       "thread_id": "19d529ea453df779",
       "message_id": "19d529ea453df779",
-      "followed_up": false,
-      "timestamp": "2026-04-03T09:13:41.983313"
+      "followed_up": true,
+      "timestamp": "2026-04-03T09:13:41.983313",
+      "followup_timestamp": "2026-04-04T10:56:48.103741"
     },
     {
       "urn": "urn:li:activity:7445704216792309760",
@@ -1545,8 +1547,9 @@
       "email": "rahulk@forcecraver.com",
       "thread_id": "19d529eab5d3c19f",
       "message_id": "19d529eab5d3c19f",
-      "followed_up": false,
-      "timestamp": "2026-04-03T09:13:43.838957"
+      "followed_up": true,
+      "timestamp": "2026-04-03T09:13:43.838957",
+      "followup_timestamp": "2026-04-04T10:56:49.482944"
     },
     {
       "urn": "urn:li:activity:7445703106979319809",
@@ -1554,8 +1557,9 @@
       "email": "garimasingh@tech5sages.com",
       "thread_id": "19d529eb3d733b5b",
       "message_id": "19d529eb3d733b5b",
-      "followed_up": false,
-      "timestamp": "2026-04-03T09:13:45.667496"
+      "followed_up": true,
+      "timestamp": "2026-04-03T09:13:45.667496",
+      "followup_timestamp": "2026-04-04T10:56:50.833775"
     },
     {
       "urn": "urn:li:activity:7445703121252585472",
@@ -1563,8 +1567,9 @@
       "email": "resume@fiddleleafsolutions.com",
       "thread_id": "19d529ebb9b9b15a",
       "message_id": "19d529ebb9b9b15a",
-      "followed_up": false,
-      "timestamp": "2026-04-03T09:13:47.553430"
+      "followed_up": true,
+      "timestamp": "2026-04-03T09:13:47.553430",
+      "followup_timestamp": "2026-04-04T10:56:52.244486"
     },
     {
       "urn": "urn:li:activity:7445705526602145792",
@@ -1572,8 +1577,9 @@
       "email": "nitya.pande@softbay.com",
       "thread_id": "19d529ec0dfbe179",
       "message_id": "19d529ec0dfbe179",
-      "followed_up": false,
-      "timestamp": "2026-04-03T09:13:49.387533"
+      "followed_up": true,
+      "timestamp": "2026-04-03T09:13:49.387533",
+      "followup_timestamp": "2026-04-04T10:56:53.619128"
     },
     {
       "urn": "urn:li:activity:7445708847207305216",
@@ -1581,8 +1587,9 @@
       "email": "satya.b@msysinc.com",
       "thread_id": "19d529ec922d06d3",
       "message_id": "19d529ec922d06d3",
-      "followed_up": false,
-      "timestamp": "2026-04-03T09:13:51.366954"
+      "followed_up": true,
+      "timestamp": "2026-04-03T09:13:51.366954",
+      "followup_timestamp": "2026-04-04T10:56:55.011598"
     },
     {
       "urn": "urn:li:activity:7445702205392850944",
@@ -1590,8 +1597,9 @@
       "email": "saikumar.mushnam@centotech.com",
       "thread_id": "19d529ed08510bdd",
       "message_id": "19d529ed08510bdd",
-      "followed_up": false,
-      "timestamp": "2026-04-03T09:13:53.198535"
+      "followed_up": true,
+      "timestamp": "2026-04-03T09:13:53.198535",
+      "followup_timestamp": "2026-04-04T10:56:56.394279"
     },
     {
       "urn": "urn:li:activity:7445735295754375168",
