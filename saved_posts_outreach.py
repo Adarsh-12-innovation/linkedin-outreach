@@ -144,6 +144,7 @@ EMAIL_TEMPLATE = {
 Hello {recipient_name},
 
 I came across your recent post on LinkedIn about the {role_title} role and wanted to reach out.
+
 Post link: {post_url}
 
 Hope you are doing well! Wished to know for suitable contract roles in Data Science and AI/ML or Analytics.
@@ -942,7 +943,7 @@ def fetch_all_post_contents(session: requests.Session, saved_items: list[dict]) 
 def call_gemini(prompt: str) -> str:
     """
     Call Gemini API with specialized retry/rotation logic:
-    - Key 1: 2 retries (3 attempts total)
+    - Key 1: 1 retries (3 attempts total)
     - Key 2: 1 retry (2 attempts total)
     - Key 3: 1 retry (2 attempts total)
     If all fail with 429, send an email notification.
@@ -953,7 +954,7 @@ def call_gemini(prompt: str) -> str:
     )
     
     keys = [
-        {"key": CONFIG["GEMINI_API_KEY"], "retries": 2, "name": "Primary"},
+        {"key": CONFIG["GEMINI_API_KEY"], "retries": 1, "name": "Primary"},
         {"key": CONFIG["ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 1"},
         {"key": CONFIG["SECOND_ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 2"},
     ]
@@ -1301,7 +1302,7 @@ def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str, p
             post_url=post_url or "LinkedIn post",
             sender_name=CONFIG["SENDER_NAME"],
         )
-        body = body.replace("attached below", f"here: {CONFIG['RESUME_URL']}")
+        body = body.replace("attached below", f"here:\n{CONFIG['RESUME_URL']}")
         
         encoded_msg = quote(body)
         return f"https://wa.me/{final_number}?text={encoded_msg}"
