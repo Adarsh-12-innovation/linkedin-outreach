@@ -100,7 +100,7 @@ CONFIG = {
     # Search config
     "SEARCH_PHRASES": [
         "ai contract hiring",
-        "machine learning contract hiring",
+        # "machine learning contract hiring",
     ],
     "SEARCH_QUERYID": "voyagerSearchDashClusters.05111e1b90ee7fea15bebe9f9410ced9",
     "SEARCH_MAX_PAGES_PER_PHRASE": 5,  # 10 results per page × 5 = 50 per phrase
@@ -334,28 +334,34 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
             log.warning(f"  Search request failed: {e}")
             break
 
-        # Targeted URN extraction
+        # Targeted URN extraction (Focus on actual search results)
         targeted_urns = set()
         def extract_result_urns(obj):
             if isinstance(obj, dict):
+                # Search results are usually in 'searchFeedUpdate' or '*update'
+                update_val = obj.get("*update") or obj.get("update")
+                if isinstance(update_val, str) and "urn:li:activity:" in update_val:
+                    m = re.search(r"urn:li:activity:(\d+)", update_val)
+                    if m: targeted_urns.add(f"urn:li:activity:{m.group(1)}")
+                
+                # Check for trackingUrn as backup but only if it's an activity
                 tracking = obj.get("trackingUrn", "")
                 if isinstance(tracking, str) and "activity" in tracking:
-                    m = re.search(r"urn:li:activity:\d+", tracking)
-                    if m: targeted_urns.add(m.group(0))
-                nav_url = obj.get("navigationUrl", "")
-                if isinstance(nav_url, str) and "/feed/update/" in nav_url:
-                    m = re.search(r"urn:li:activity:\d+", nav_url)
-                    if m: targeted_urns.add(m.group(0))
+                    m = re.search(r"urn:li:activity:(\d+)", tracking)
+                    if m: targeted_urns.add(f"urn:li:activity:{m.group(1)}")
+
                 for v in obj.values(): extract_result_urns(v)
             elif isinstance(obj, list):
                 for item in obj: extract_result_urns(item)
 
         extract_result_urns(data)
         
-        # Fallback: full sweep
-        raw_urns = set(re.findall(r"urn:li:(?:activity|share|ugcPost|fs_updateV2):[\d\(\)a-zA-Z0-9_-]+", json.dumps(data)))
-        all_found_raw = targeted_urns | raw_urns
-        page_urns = _normalize_urns_to_activity(all_found_raw)
+        # Only use full sweep if targeted extraction found NOTHING (safety fallback)
+        if not targeted_urns:
+            raw_urns = set(re.findall(r"urn:li:activity:(\d+)", json.dumps(data)))
+            page_urns = {f"urn:li:activity:{uid}" for uid in raw_urns}
+        else:
+            page_urns = targeted_urns
 
         if not page_urns:
             log.info(f"  No more results for '{phrase}' at page {page_num + 1}.")
@@ -575,10 +581,38 @@ def fetch_all_post_contents(session, items: list[dict]) -> list[dict]:
 # ═══════════════════════════════════════════════
 
 def _has_contact_info(content: str) -> bool:
-    """Check if post has at least one email or phone number."""
-    has_email = bool(re.search(r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}", content))
-    has_phone = bool(re.search(r"\+?\d[\d\s\-\.]{8,}\d", content))
-    return has_email or has_phone
+    """
+    Carefully detect emails and phone numbers using a robust regex suite.
+    Handles standard and obfuscated formats (e.g., name [at] domain.com).
+    """
+    if not content or len(content) < 50:
+        return False
+        
+    # 1. EMAILS (Standard + Obfuscated)
+    email_patterns = [
+        r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}",
+        r"[a-zA-Z0-9._%+\-]+\s*[\[\(\{\s]*at[\]\)\}\s]*\s*[a-zA-Z0-9.\-]+\s*[\[\(\{\s]*dot[\]\)\}\s]*\s*[a-zA-Z]{2,}",
+    ]
+    
+    for pattern in email_patterns:
+        if re.search(pattern, content, re.IGNORECASE):
+            return True
+
+    # 2. PHONE NUMBERS (India, US, International)
+    phone_patterns = [
+        r"(?:\+91|91)?[-\s]?[6-9]\d{4}[-\s]?\d{5}", 
+        r"(?:\+?1[-\s]?)?\(?\d{3}\)?[-\s]?\d{3}[-\s]?\d{4}",
+        r"\+\d{1,3}[-\s]?\d{2,5}[-\s]?\d{4,10}",
+    ]
+    
+    for pattern in phone_patterns:
+        matches = re.finditer(pattern, content)
+        for m in matches:
+            digits = re.sub(r"\D", "", m.group())
+            if len(digits) >= 10:
+                return True
+
+    return False
 
 
 def stage_i_keyword_filter(items: list[dict]) -> list[dict]:
