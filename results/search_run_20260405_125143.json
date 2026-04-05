@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-04-05T12:51:43.543327",
+  "mode": "search",
+  "search_phrases": [
+    "ai contract hiring"
+  ],
+  "stats": {
+    "raw_search_results": 92,
+    "stage1_passed": 5,
+    "stage2_passed": 2,
+    "contacts_extracted": 2,
+    "emailed": 0
+  },
+  "extracted": [
+    {
+      "entity_urn": "urn:li:activity:7446421369887817728",
+      "post_urn": "urn:li:activity:7446421369887817728",
+      "full_content": "We\u2019re Hiring: Full Stack Developer (PHP + React)\n\ud83d\udcbc Company: #Forcecraver\n\ud83d\udccd Location: Remote\n\ud83d\udcc4 Employment Type: Contract\n\ud83d\udc68\u200d\ud83d\udcbb Experience: 5\u20136 Years\n\ud83c\uddee\ud83c\uddf3 Candidates must be based in India only\n\n\u2e3b\n\n\ud83d\udd27 Key Skills Required\n\nPHP | React JS | JavaScript | TypeScript\nRDBMS (MySQL) | Database Design\nRESTful APIs | AWS | Cypress | Elasticsearch\n\n\u2e3b\n\n\ud83c\udf1f Role Overview\n\nWe are looking for a passionate Full Stack Developer to build scalable, high-performance web platforms. You will work on cutting-edge technologies including AI/ML integrations, LLMs, and modern cloud-based architectures.\n\n\u2e3b\n\n\ud83d\ude80 Project Highlights\n\n\u2728 Work with a prestigious global client\n\u2728 Exposure to LLMs, RAG pipelines & vector databases (Pinecone, Weaviate, FAISS)\n\u2728 Build cloud-native solutions on AWS\n\u2728 Agile environment with strong collaboration across Product, Engineering & Data teams\n\n\u2e3b\n\n\ud83c\udfaf Key Responsibilities\n\t\u2022\tDevelop end-to-end features from scratch\n\t\u2022\tDesign scalable APIs and optimize system performance\n\t\u2022\tCollaborate with product & design teams in agile setup\n\t\u2022\tMentor junior developers and guide technical decisions\n\t\u2022\tContribute to AI roadmap & LLM integrations\n\n\u2e3b\n\n\u2705 Requirements\n\t\u2022\tStrong backend experience in PHP & API development\n\t\u2022\tHands-on with React & modern JavaScript\n\t\u2022\tSolid understanding of MySQL & database design\n\t\u2022\tExperience with REST APIs and system design\n\t\u2022\tExposure to AI/LLMs or API-based AI integrations is a plus\n\t\u2022\tExperience with AWS, TypeScript, Cypress, Elasticsearch (preferred)\n\n\u2e3b\n\n\ud83c\udf81 Why Join Us?\n\n\u2714 Work on latest technologies & AI-driven systems\n\u2714 Challenging and high-impact projects\n\u2714 Opportunity to work with large global clients\n\u2714 Strong focus on learning & development\n\n\u2e3b\n\n\ud83d\udcde Please reach out to me at +919899634637 or jbhatia@forcecraver.com to discuss further.\n\ud83d\udd14 Follow @Jitender Bhatia @Forcecraver Technologies for more job updates.",
+      "created_at": 0,
+      "index": 1,
+      "poster_name": "Jitender Bhatia",
+      "poster_email": "jbhatia@forcecraver.com",
+      "poster_phone": "+919899634637",
+      "company": "Forcecraver",
+      "role_title": "Full Stack Developer (PHP + React)",
+      "role_summary": "We are looking for a passionate Full Stack Developer to build scalable, high-performance web platforms.",
+      "has_contact_info": true
+    },
+    {
+      "entity_urn": "urn:li:activity:7446277919422988288",
+      "post_urn": "urn:li:activity:7446277919422988288",
+      "full_content": "\ud83d\ude80 We\u2019re Hiring: Data / GenAI Engineers (#Forcecraver)\n\nWe are looking for experienced Data / Generative AI Engineers to join our Professional Services team on a contract basis and deliver production-grade AI solutions.\n\n\ud83d\udccd Location: Remote (India Only)\n\ud83d\udd52 Shift: 8 AM \u2013 4 PM EST\n\n\ud83d\udd39 What You\u2019ll Work On:\n\t\u2022\tConversational AI assistants\n\t\u2022\tRAG (Retrieval-Augmented Generation) systems\n\t\u2022\tDocument processing automation\n\t\u2022\tAI-powered data analytics platforms\n\n\ud83d\udd39 Key Responsibilities:\n\t\u2022\tBuild GenAI solutions using Amazon Bedrock & LLMs (Claude, OpenAI, Cohere)\n\t\u2022\tDevelop RAG pipelines with vector databases (Pinecone, Weaviate, OpenSearch)\n\t\u2022\tDesign serverless architectures using AWS Lambda, API Gateway\n\t\u2022\tCreate APIs (FastAPI/Flask) for real-time AI systems\n\t\u2022\tImplement prompt engineering, embeddings, and AI agents\n\t\u2022\tWork directly with clients in agile delivery environments\n\n\ud83d\udd39 Must-Have Skills:\n\t\u2022\tStrong Python (3.9+) expertise\n\t\u2022\tHands-on with Amazon Bedrock & LLM integrations\n\t\u2022\tExperience with LangChain / LlamaIndex / AI agents\n\t\u2022\tSolid AWS serverless architecture experience\n\t\u2022\tVector DB & RAG implementation experience\n\t\u2022\tREST API development\n\n\ud83d\udd39 Experience Required:\n\t\u2022\t5+ years in software engineering\n\t\u2022\t2+ years in AWS (production deployments)\n\t\u2022\t1+ year in Generative AI / LLMs / RAG systems\n\n\ud83d\udca1 India-based candidates only\n\n\ud83d\udce9 Please reach out to me at +919899634637 or jbhatia@forcecraver.com to discuss further.\n\ud83d\udd14 Follow @Jitender Bhatia @Forcecraver Technologies for more job updates.",
+      "created_at": 0,
+      "index": 2,
+      "poster_name": "Jitender Bhatia",
+      "poster_email": "jbhatia@forcecraver.com",
+      "poster_phone": "+919899634637",
+      "company": "Forcecraver",
+      "role_title": "Data / GenAI Engineers",
+      "role_summary": "We are looking for experienced Data / Generative AI Engineers to join our Professional Services team on a contract basis and deliver production-grade AI solutions.",
+      "has_contact_info": true
+    }
+  ]
+}

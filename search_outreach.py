@@ -103,7 +103,7 @@ CONFIG = {
         # "machine learning contract hiring",
     ],
     "SEARCH_QUERYID": "voyagerSearchDashClusters.05111e1b90ee7fea15bebe9f9410ced9",
-    "SEARCH_MAX_PAGES_PER_PHRASE": 5,  # 10 results per page × 5 = 50 per phrase
+    "SEARCH_MAX_PAGES_PER_PHRASE": 2,  # 10 results per page × 5 = 50 per phrase
 }
 
 # ─────────────────────────────────────────────
@@ -158,12 +158,12 @@ MUST_HAVE_KEYWORDS = {
         "machine learning engineer", "data scientist", "llm", "nlp",
         "python", "agentic", "engineer", "developer", "software",
         "agentic ai", "ai/ml", "artificial intelligence",
-        "ai engineer", "ai developer",
+        "ai engineer", "ai developer"
     ],
 }
 
 MUST_NOT_HAVE_KEYWORDS = [
-    "onsite", "hybrid", "wfo", "in-office", "in office", "office"
+    "onsite", "hybrid", "wfo", "in-office", "in office", "office", "intern", "internship", "apprentice", "apprenticeship"
 ]
 
 # ─────────────────────────────────────────────
@@ -285,19 +285,23 @@ def _normalize_seen_urns(seen_urns: set) -> set:
 def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
     """
     Search LinkedIn content posts by keyword phrase, sorted by 'latest'.
-    Recursively fetches batches of 10-20 posts using start offsets and tokens.
+    Directly extracts post content from GraphQL to minimize API calls.
+    Implements: Max 100 posts, Pagination Gaps (8-15s), and Request Jitter.
     """
     graphql_base = "https://www.linkedin.com/voyager/api/graphql"
     query_id = CONFIG["SEARCH_QUERYID"]
-    max_pages = CONFIG["SEARCH_MAX_PAGES_PER_PHRASE"]
-    page_size = 10
-
+    
+    # HARD STOP at 100 posts (10 calls max)
+    max_calls = 10
     results = []
     pagination_token = None
+    total_fetched = 0
     start_offset = 0
 
-    for page_num in range(max_pages):
-        # Build variables
+    for call_num in range(max_calls):
+        # REQUEST JITTER: Randomize count between 8 and 12
+        current_batch_size = random.randint(8, 12)
+        
         query_part = (
             f"keywords:{phrase},"
             f"flagshipSearchIntent:SEARCH_SRP,"
@@ -314,7 +318,6 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
         else:
             variables = f"(start:{start_offset},query:({query_part}))"
 
-        # URL-encode spaces in keywords
         variables_encoded = variables.replace(" ", "%20")
         url = f"{graphql_base}?variables={variables_encoded}&queryId={query_id}"
 
@@ -325,83 +328,99 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
                 log.error(f"  Auth error ({status}) — li_at + JSESSIONID likely expired.")
                 send_linkedin_auth_error_notification(status)
                 return results
-            if status != 200:
-                log.warning(f"  HTTP {status} at page {page_num+1}")
-                break
-
+            if status != 200: break
             data = resp.json()
-        except Exception as e:
-            log.warning(f"  Search request failed: {e}")
-            break
+        except: break
 
-        # Targeted URN extraction (Focus on actual search results)
-        targeted_urns = set()
-        def extract_result_urns(obj):
+        # ── EXTRACT DATA DIRECTLY ──
+        # Map URNs to their text content within the same response
+        urn_to_content = {}
+        
+        # 1. Search for all 'Update' objects in 'included' which contain the text
+        included = data.get("included", [])
+        for item in included:
+            if item.get("$type") == "com.linkedin.voyager.dash.feed.Update":
+                # Find the activity URN
+                urn = item.get("entityUrn", "")
+                m = re.search(r"urn:li:activity:(\d+)", urn)
+                if not m: continue
+                act_id = m.group(1)
+                
+                # Extract text from commentary
+                commentary = item.get("commentary", {})
+                text_obj = commentary.get("text", {})
+                if isinstance(text_obj, dict) and "text" in text_obj:
+                    urn_to_content[act_id] = text_obj["text"]
+
+        # 2. Identify the actual search results (to avoid noise/ads)
+        page_results = []
+        def find_results(obj):
             if isinstance(obj, dict):
-                # Search results are usually in 'searchFeedUpdate' or '*update'
                 update_val = obj.get("*update") or obj.get("update")
                 if isinstance(update_val, str) and "urn:li:activity:" in update_val:
                     m = re.search(r"urn:li:activity:(\d+)", update_val)
-                    if m: targeted_urns.add(f"urn:li:activity:{m.group(1)}")
-                
-                # Check for trackingUrn as backup but only if it's an activity
-                tracking = obj.get("trackingUrn", "")
-                if isinstance(tracking, str) and "activity" in tracking:
-                    m = re.search(r"urn:li:activity:(\d+)", tracking)
-                    if m: targeted_urns.add(f"urn:li:activity:{m.group(1)}")
-
-                for v in obj.values(): extract_result_urns(v)
+                    if m:
+                        act_id = m.group(1)
+                        full_urn = f"urn:li:activity:{act_id}"
+                        if act_id not in [r["id"] for r in page_results]:
+                            page_results.append({"id": act_id, "urn": full_urn})
+                for v in obj.values(): find_results(v)
             elif isinstance(obj, list):
-                for item in obj: extract_result_urns(item)
+                for i in obj: find_results(i)
 
-        extract_result_urns(data)
-        
-        # Only use full sweep if targeted extraction found NOTHING (safety fallback)
-        if not targeted_urns:
-            raw_urns = set(re.findall(r"urn:li:activity:(\d+)", json.dumps(data)))
-            page_urns = {f"urn:li:activity:{uid}" for uid in raw_urns}
-        else:
-            page_urns = targeted_urns
+        find_results(data)
 
-        if not page_urns:
-            log.info(f"  No more results for '{phrase}' at page {page_num + 1}.")
-            break
+        if not page_results: break
 
         new_on_page = 0
-        for urn in page_urns:
-            numeric_id = re.search(r"(\d{10,})", urn).group(1)
-            if numeric_id not in seen_ids:
-                results.append({"entity_urn": urn, "post_urn": urn})
-                seen_ids.add(numeric_id)
+        for res in page_results:
+            act_id = res["id"]
+            if act_id not in seen_ids:
+                content = urn_to_content.get(act_id, "")
+                post_url = f"https://www.linkedin.com/feed/update/{res['urn']}"
+                
+                # TERMINAL LOGGING: Show snippet of what was found
+                preview = (content[:100].replace('\n', ' ') + "...") if content else "[No Text]"
+                log.info(f"    - Extracted: {preview}")
+                
+                results.append({
+                    "entity_urn": res["urn"],
+                    "post_urn": res["urn"],
+                    "post_url": post_url,
+                    "full_content": content, 
+                    "created_at": 0 
+                })
+                seen_ids.add(act_id)
                 new_on_page += 1
 
-        log.info(f"  Search '{phrase}' page {page_num + 1}: {len(page_urns)} IDs ({new_on_page} new)")
+        log.info(f"  Search '{phrase}' call {call_num + 1}: {len(page_results)} items ({new_on_page} new)")
 
-        # ── Find paginationToken for next page ──
+        # ── FIND PAGINATION TOKEN ──
         next_token = None
-        def find_pagination_token(obj):
+        def find_token(obj):
             nonlocal next_token
             if next_token: return
             if isinstance(obj, dict):
-                token = obj.get("paginationToken")
-                if isinstance(token, str):
-                    next_token = token
-                    return
-                for v in obj.values(): find_pagination_token(v)
+                t = obj.get("paginationToken")
+                if isinstance(t, str): next_token = t; return
+                for v in obj.values(): find_token(v)
             elif isinstance(obj, list):
-                for item in obj: find_pagination_token(item)
+                for i in obj: find_token(i)
+        find_token(data)
 
-        find_pagination_token(data)
+        if not next_token and len(page_results) < 5: break
         
-        # Update for next iteration
+        # ── PREPARE NEXT CALL ──
         pagination_token = next_token
-        start_offset += len(page_urns) # Dynamic increment based on items found
+        start_offset += len(page_results)
+        total_fetched += len(page_results)
+        
+        if total_fetched >= 100: break
 
-        # Safety: If we didn't find many items and have no token, stop
-        if not next_token and len(page_urns) < 5:
-            break
-
-        _human_delay(3.0, 7.0)
+        # THE PAGINATION GAP: Simulate reading time (8-15s)
+        gap = random.uniform(8.0, 15.0)
+        log.info(f"    Simulating reading time... ({gap:.1f}s delay)")
+        time.sleep(gap)
 
     return results
 
@@ -409,7 +428,6 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
 def fetch_all_search_results(session, history: dict) -> list[dict]:
     """
     Run all configured search phrases and collect unique new post URNs.
-    Includes decoy requests between searches to look like normal browsing.
     """
     seen_urns = set(history.get("contacted_urns", []))
     seen_ids = _normalize_seen_urns(seen_urns)
@@ -417,163 +435,43 @@ def fetch_all_search_results(session, history: dict) -> list[dict]:
 
     for i, phrase in enumerate(CONFIG["SEARCH_PHRASES"]):
         log.info(f"\n  Searching: \"{phrase}\" (sorted by latest)...")
-
-        # Decoy disabled — extra API calls trigger session invalidation
-        # if i > 0:
-        #     decoy_request(session)
-
         phrase_results = search_linkedin_posts(session, phrase, seen_ids)
         all_results.extend(phrase_results)
-
         log.info(f"  \"{phrase}\": {len(phrase_results)} new posts")
-
         if i < len(CONFIG["SEARCH_PHRASES"]) - 1:
-            _human_delay(5.0, 10.0)  # Long pause between different searches
+            _human_delay(5.0, 10.0)
 
-    # Final dedup (numeric ID based)
     unique = {}
     for r in all_results:
         m = re.search(r"(\d{10,})", r["post_urn"])
-        if m:
-            unique[m.group(1)] = r
+        if m: unique[m.group(1)] = r
 
     log.info(f"\n  Total unique new posts across all phrases: {len(unique)}")
     return list(unique.values())
 
 
 # ═══════════════════════════════════════════════
-# STEP 2: FETCH POST CONTENT (reuses existing logic)
+# STEP 2: FETCH POST CONTENT (Verification only)
 # ═══════════════════════════════════════════════
 
 def fetch_post_content(session, post_urn: str) -> tuple[str, int]:
-    """Fetch full text content and creation timestamp of a LinkedIn post."""
-    activity_id = None
-    match = re.search(r"urn:li:activity:(\d+)", post_urn)
-    if match:
-        activity_id = match.group(1)
-    if not activity_id:
-        return "", 0
-
-    url = (
-        f"https://www.linkedin.com/voyager/api/feed/updates"
-        f"?decorationId=com.linkedin.voyager.deco.feed.FeedUpdate-4"
-        f"&q=activityByUrn"
-        f"&activityUrn=urn%3Ali%3Aactivity%3A{activity_id}"
-    )
-
-    created_at = 0
-    try:
-        resp = session.get(url, timeout=15)
-        if resp.status_code in (401, 403):
-            log.error(f"  Auth error ({resp.status_code}) fetching post content — session likely expired.")
-            send_linkedin_auth_error_notification(resp.status_code)
-            return "", 0
-        if resp.status_code != 200:
-            url2 = f"https://www.linkedin.com/voyager/api/feed/updates/urn:li:activity:{activity_id}"
-            resp = session.get(url2, timeout=15)
-            if resp.status_code in (401, 403):
-                send_linkedin_auth_error_notification(resp.status_code)
-                return "", 0
-            if resp.status_code != 200:
-                return "", 0
-
-        data = resp.json()
-
-        if "createdAt" in str(data):
-            def find_created_at(obj):
-                if isinstance(obj, dict):
-                    if "createdAt" in obj:
-                        return obj["createdAt"]
-                    for v in obj.values():
-                        res = find_created_at(v)
-                        if res:
-                            return res
-                elif isinstance(obj, list):
-                    for item in obj:
-                        res = find_created_at(item)
-                        if res:
-                            return res
-                return None
-            created_at = find_created_at(data) or 0
-
-    except Exception as e:
-        log.debug(f"  Error fetching post {activity_id}: {e}")
-        return "", 0
-
-    text_parts = []
-    FORBIDDEN_KEYS = {
-        "socialDetail", "socialContent", "comments", "actions",
-        "updateAction", "socialDetailEntity", "attributes", "reactions",
-        "followingInfo", "tracking", "footer", "feedbackDetail", "header"
-    }
-
-    def extract_texts(obj, depth=0):
-        if depth > 15:
-            return
-        if isinstance(obj, dict):
-            for key in ("text", "commentary", "translationText"):
-                val = obj.get(key)
-                if isinstance(val, str) and len(val) > 10:
-                    text_parts.append(val)
-                elif isinstance(val, dict) and "text" in val:
-                    if isinstance(val["text"], str) and len(val["text"]) > 10:
-                        text_parts.append(val["text"])
-            for k, v in obj.items():
-                if k not in FORBIDDEN_KEYS:
-                    extract_texts(v, depth + 1)
-        elif isinstance(obj, list):
-            for item in obj:
-                extract_texts(item, depth + 1)
-
-    extract_texts(data)
-    content = "\n\n".join(text_parts)
-
-    # Extract emails and phones from content
-    emails = set(re.findall(r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}", content))
-    emails -= {"example@email.com", "noreply@linkedin.com", "user@example.com"}
-    phones = set(re.findall(r"(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}", content))
-    intl_phones = set(re.findall(r"\+\d{1,3}[-.\s]?\d{4,5}[-.\s]?\d{4,6}", content))
-    all_phones = {p.strip() for p in (phones | intl_phones) if len(re.sub(r"\D", "", p)) >= 10}
-
-    if emails:
-        content += f"\n\n[EMAILS FOUND IN POST: {', '.join(emails)}]"
-    if all_phones:
-        content += f"\n\n[PHONE NUMBERS FOUND IN POST: {', '.join(all_phones)}]"
-
-    return content, created_at
+    """[LEGACY] No longer used by primary flow."""
+    return "", 0
 
 
 def fetch_all_post_contents(session, items: list[dict]) -> list[dict]:
-    """Fetch full content for all items with human-like delays."""
-    log.info(f"Fetching full content for {len(items)} items...")
-    filtered = []
-
-    for i, item in enumerate(items):
-        post_urn = item.get("post_urn", "") or item.get("entity_urn", "")
-        if not post_urn:
-            continue
-
-        content, created_at = fetch_post_content(session, post_urn)
-        if not content:
-            log.warning(f"  [{i+1}/{len(items)}] FAILED to fetch: {post_urn[:50]}")
-            continue
-
-        item["full_content"] = content
-        item["created_at"] = created_at
-        item["created_at_iso"] = (
-            datetime.fromtimestamp(created_at / 1000, tz=timezone.utc).isoformat()
-            if created_at else None
-        )
-        log.info(f"  [{i+1}/{len(items)}] {len(content):>5d} chars | {post_urn[:50]}")
-        filtered.append(item)
-
-        # Decoy disabled — extra API calls trigger session invalidation
-        # if (i + 1) % random.randint(8, 12) == 0:
-        #     decoy_request(session)
-
-        _human_delay(1.5, 3.5)
-
-    return filtered
+    """
+    In the GraphQL-direct version, content is already present.
+    This function now just verifies and filters valid items.
+    """
+    log.info(f"Verifying content for {len(items)} posts...")
+    valid = []
+    for item in items:
+        content = item.get("full_content", "")
+        # Only accept posts that have readable text
+        if content and len(content) > 20:
+            valid.append(item)
+    return valid
 
 
 # ═══════════════════════════════════════════════
