@@ -513,71 +513,84 @@ def _has_contact_info(content: str) -> bool:
     return False
 
 
-def stage_i_keyword_filter(items: list[dict]) -> list[dict]:
+def stage_i_filter(items: list[dict]) -> list[dict]:
     """
-    Stage I: Rule-based keyword filtering. No LLM used.
-
-    A post passes if:
-    1. At least one keyword from EACH must-have group is present (AND logic across groups)
-    2. NONE of the must-not-have keywords are present
-    3. The post contains at least one email or phone number
+    Stage I: 
+    1. Fast keyword check (employment_type, location, domain).
+    2. LLM check (flash-lite) for contact info (standard or obfuscated).
     """
-    passed = []
-    rejected_reasons = {"no_contact": 0, "missing_group": 0, "blocked_keyword": 0}
-
+    if not items: return []
+    
+    # 1. Keyword Check
+    kw_passed = []
     for item in items:
         content = (item.get("full_content") or "").lower()
-        if not content:
+        
+        # Must NOT have
+        if any(kw.lower() in content for kw in MUST_NOT_HAVE_KEYWORDS):
             continue
+            
+        # Must have (all groups)
+        all_groups = True
+        for group, kws in MUST_HAVE_KEYWORDS.items():
+            if not any(kw.lower() in content for kw in kws):
+                all_groups = False; break
+        if all_groups:
+            kw_passed.append(item)
+            
+    if not kw_passed:
+        log.info("  Stage I: 0 posts passed keyword check.")
+        return []
 
-        # Check 1: Must have contact info
-        if not _has_contact_info(content):
-            rejected_reasons["no_contact"] += 1
-            continue
+    # 2. LLM Contact Check (flash-lite)
+    batch_size = 5
+    passed = []
+    log.info(f"  [Stage I LLM] Detecting contacts in {len(kw_passed)} keyword-matched posts...")
 
-        # Check 2: Must NOT have blocked keywords
-        blocked = False
-        for kw in MUST_NOT_HAVE_KEYWORDS:
-            if kw.lower() in content:
-                blocked = True
-                break
-        if blocked:
-            rejected_reasons["blocked_keyword"] += 1
-            continue
+    for batch_start in range(0, len(kw_passed), batch_size):
+        batch = kw_passed[batch_start:batch_start + batch_size]
+        posts_block = ""
+        for idx, item in enumerate(batch):
+            content = (item.get("full_content") or "")[:2000]
+            posts_block += f"\n===== Post {idx + 1} =====\n{content}\n"
 
-        # Check 3: Must have at least one keyword from EACH group
-        all_groups_matched = True
-        for group_name, keywords in MUST_HAVE_KEYWORDS.items():
-            group_matched = any(kw.lower() in content for kw in keywords)
-            if not group_matched:
-                all_groups_matched = False
-                break
+        prompt = f"""Analyze if these posts contain any contact info (Email/Phone). 
+Look for obfuscated emails like "name [at] domain dot com".
 
-        if not all_groups_matched:
-            rejected_reasons["missing_group"] += 1
-            continue
+{posts_block}
 
-        passed.append(item)
+Respond with ONLY a JSON array:
+[ {{"index": 1, "has_contact": true/false}} ]"""
 
-    log.info(f"  Stage I results: {len(passed)} passed, "
-             f"{rejected_reasons['no_contact']} no contact, "
-             f"{rejected_reasons['missing_group']} missing keyword group, "
-             f"{rejected_reasons['blocked_keyword']} blocked keyword")
+        raw = call_filter_gemini(prompt) # Uses 2 keys, 1 retry each
+        if not raw:
+            passed.extend(batch); continue # Fail-open
+
+        try:
+            cleaned = re.sub(r"^.*?\[", "[", raw.strip(), flags=re.DOTALL)
+            cleaned = re.sub(r"\].*?$", "]", cleaned, flags=re.DOTALL)
+            evals = json.loads(cleaned)
+            for ev in evals:
+                idx = ev.get("index", 0) - 1
+                if 0 <= idx < len(batch) and ev.get("has_contact"):
+                    passed.append(batch[idx])
+        except: passed.extend(batch)
+        time.sleep(2)
+
+    log.info(f"  Stage I Results: {len(passed)} posts have contacts.")
     return passed
 
 
 # ═══════════════════════════════════════════════
-# STEP 4: STAGE II — LLM FILTERING (gemini-2.5-flash-lite)
+# STEP 4: STAGE II — DEEPER RELEVANCY (gemini-2.5-flash)
 # ═══════════════════════════════════════════════
 
 def call_filter_gemini(prompt: str) -> str:
     """
-    Call Gemini with FILTER-specific API keys.
-    Uses gemini-2.5-flash-lite for cost efficiency.
-    Separate keys from extraction to avoid quota contention.
+    Call Gemini with FILTER-specific API keys (flash-lite).
+    - Key 1: 1 retry
+    - Key 2: 1 retry
     """
-    import requests
-
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{CONFIG['FILTER_GEMINI_MODEL']}:generateContent"
@@ -614,11 +627,11 @@ def call_filter_gemini(prompt: str) -> str:
                 if resp.status_code == 429:
                     if attempt < max_attempts:
                         wait = 10 * attempt
-                        log.warning(f"  {k_info['name']}: Rate limited. Retry in {wait}s...")
+                        log.warning(f"  {k_info['name']} Key: Rate limited (429). Retry {attempt}/{k_info['retries']} in {wait}s...")
                         time.sleep(wait)
                         continue
                     else:
-                        log.warning(f"  {k_info['name']}: Exhausted retries.")
+                        log.warning(f"  {k_info['name']} Key: Exhausted retries. Rotating...")
                         break
 
                 resp.raise_for_status()
@@ -626,97 +639,63 @@ def call_filter_gemini(prompt: str) -> str:
                 return data["candidates"][0]["content"]["parts"][0]["text"]
 
             except Exception as e:
-                log.error(f"  {k_info['name']} error: {e}")
+                log.error(f"  {k_info['name']} Error: {e}")
                 if attempt == max_attempts:
                     break
                 time.sleep(2)
 
     log.critical("All filter Gemini keys failed.")
+    try: send_rate_limit_notification()
+    except: pass
     return ""
 
 
 def stage_ii_llm_filter(items: list[dict]) -> list[dict]:
     """
-    Stage II: LLM-based deep relevancy check using gemini-2.5-flash-lite.
-
-    Filters out:
-    - US-specific jobs (visa, w2, US state/city mentions)
-    - Indian onsite/hybrid jobs (city mentioned as office location)
-    - Spam, trainer/educator posts, non-genuine postings
-    - Posts that don't fit AI/ML contract remote criteria
-
-    Uses smart batching: 5 posts per LLM call to minimize API usage.
+    Stage II: Deep relevancy check using gemini-2.5-flash.
+    Uses 3 extraction keys with 1 retry each.
     """
-    if not items:
-        return []
+    if not items: return []
 
     batch_size = 5
     passed = []
 
     for batch_start in range(0, len(items), batch_size):
         batch = items[batch_start:batch_start + batch_size]
-
         posts_block = ""
         for idx, item in enumerate(batch):
-            content = (item.get("full_content") or "")[:2000]
+            content = (item.get("full_content") or "")[:2500]
             posts_block += f"\n===== Post {idx + 1} =====\n{content}\n"
 
-        prompt = f"""You are a job post relevancy analyst. Analyze each LinkedIn post and determine if it is a GENUINE remote AI/ML contract job opportunity suitable for an experienced AI/ML engineer based in India.
-
-For each post, respond with a JSON array. Mark "relevant": true ONLY if ALL of the following are true:
-1. It is a genuine hiring/contract/freelance job post (not spam, not an ad, not a training/educator role)
-2. The role is for AI, ML, Data Science, GenAI, LLM, NLP, Python, or related technical work
-3. The role is remote (work from anywhere / pan India / no specific office location required)
-4. It is NOT a US-specific job requiring visa, work permit, or US work authorization
-5. It does NOT mention W2, US residency requirements, or specific US state/city as mandatory work location
-6. It is NOT an Indian onsite/hybrid job requiring presence in a specific Indian city/office
-
-US job indicators to REJECT: "w2", "us jobs", "usa only", "visa", "work authorization", "EAD", "GC", or mentions of US states/cities as work locations (CA, NJ, DC, FL, TX, NY, Washington, Philadelphia, Wilmington, etc.)
-
-Indian onsite indicators to REJECT: specific Indian city mentioned as office location (Bangalore, Hyderabad, Pune, Mumbai, Delhi, Noida, Gurgaon, Chennai, Kolkata etc.) combined with "onsite", "office", "hybrid", "work from office", "WFO"
-
-Educator/trainer indicators to REJECT: "trainer", "faculty", "instructor", "teaching", "coaching", "mentor students", "course creator"
+        prompt = f"""Analyze if these are GENUINE AI/ML contract jobs suitable for a candidate in India.
+Reject US-only, training, or onsite roles.
 
 {posts_block}
 
 Respond with ONLY a JSON array:
-[
-  {{"index": 1, "relevant": true/false, "rejection_reason": "reason if rejected, null if relevant"}}
-]"""
+[ {{"index": 1, "relevant": true/false, "reason": "..."}} ]"""
 
-        batch_num = batch_start // batch_size + 1
-        total_batches = (len(items) + batch_size - 1) // batch_size
-        log.info(f"  [Filter LLM {batch_num}/{total_batches}] Analyzing {len(batch)} posts...")
-
-        raw = call_filter_gemini(prompt)
+        log.info(f"  [Stage II LLM] Relevancy check for {len(batch)} posts...")
+        raw = call_gemini(prompt) 
         if not raw:
-            # If LLM fails, let the batch pass through (fail-open)
-            log.warning(f"  LLM filter failed for batch {batch_num}. Passing all through.")
-            passed.extend(batch)
-            continue
+            passed.extend(batch); continue
 
         try:
             cleaned = re.sub(r"^.*?\[", "[", raw.strip(), flags=re.DOTALL)
             cleaned = re.sub(r"\].*?$", "]", cleaned, flags=re.DOTALL)
-            evaluations = json.loads(cleaned)
-
-            for ev in evaluations:
+            evals = json.loads(cleaned)
+            for ev in evals:
                 idx = ev.get("index", 0) - 1
                 if 0 <= idx < len(batch):
                     if ev.get("relevant"):
                         passed.append(batch[idx])
-                        log.info(f"    Post {idx + 1}: ✅ relevant")
+                        log.info(f"    Post {idx+1}: ✅")
                     else:
-                        reason = ev.get("rejection_reason", "unknown")
-                        log.info(f"    Post {idx + 1}: ❌ {reason}")
+                        log.info(f"    Post {idx+1}: ❌ {ev.get('reason')}")
+        except: passed.extend(batch)
+        time.sleep(3)
 
-        except json.JSONDecodeError as e:
-            log.warning(f"  JSON parse error in filter: {e}")
-            passed.extend(batch)  # Fail-open
-
-        time.sleep(3)  # Pause between LLM batches
-
-    log.info(f"  Stage II results: {len(passed)} passed out of {len(items)}")
+    log.info(f"  Stage II results: {len(passed)} passed.")
     return passed
 
 
@@ -1243,12 +1222,12 @@ def main():
             git_sync_push()
         return
 
-    # ── 3. Stage I: Keyword filter ──
-    log.info(f"\n[STEP 3] Stage I — Keyword filtering ({len(with_content)} posts)...")
-    stage1_passed = stage_i_keyword_filter(with_content)
+    # ── 3. Stage I: Keyword & Contact filter ──
+    log.info(f"\n[STEP 3] Stage I — Filtering ({len(with_content)} posts)...")
+    stage1_passed = stage_i_filter(with_content)
 
     if not stage1_passed:
-        log.info("No posts passed Stage I keyword filter.")
+        log.info("No posts passed Stage I filter.")
         save_run(search_results, [], [], [], [])
         if not args.no_git_sync:
             git_sync_push()
