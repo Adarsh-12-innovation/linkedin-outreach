@@ -48,6 +48,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 from pathlib import Path
 from urllib.parse import quote
+import requests
 
 from dotenv import load_dotenv
 
@@ -103,7 +104,7 @@ CONFIG = {
         # "machine learning contract hiring",
     ],
     "SEARCH_QUERYID": "voyagerSearchDashClusters.05111e1b90ee7fea15bebe9f9410ced9",
-    "SEARCH_MAX_PAGES_PER_PHRASE": 2,  # 10 results per page × 5 = 50 per phrase
+    "SEARCH_MAX_PAGES_PER_PHRASE": 1,  # 10 results per page × 5 = 50 per phrase
 }
 
 # ─────────────────────────────────────────────
@@ -163,7 +164,7 @@ MUST_HAVE_KEYWORDS = {
 }
 
 MUST_NOT_HAVE_KEYWORDS = [
-    "onsite", "hybrid", "wfo", "in-office", "in office", "office", "intern", "internship", "apprentice", "apprenticeship"
+    "onsite", "hybrid", "wfo", "in-office", "in office", "office", "intern", "internship", "apprentice", "apprenticeship", "headquarters"
 ]
 
 # ─────────────────────────────────────────────
@@ -292,7 +293,7 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
     query_id = CONFIG["SEARCH_QUERYID"]
     
     # HARD STOP at 100 posts (10 calls max)
-    max_calls = 2
+    max_calls = 1
     results = []
     pagination_token = None
     total_fetched = 0
@@ -543,7 +544,7 @@ def stage_i_filter(items: list[dict]) -> list[dict]:
         return []
 
     # 2. LLM Contact Check (flash-lite)
-    batch_size = 5
+    batch_size = 10
     passed = []
     log.info(f"  [Stage I LLM] Detecting contacts in {len(kw_passed)} keyword-matched posts...")
 
@@ -657,7 +658,7 @@ def stage_ii_llm_filter(items: list[dict]) -> list[dict]:
     """
     if not items: return []
 
-    batch_size = 5
+    batch_size = 10
     passed = []
 
     for batch_start in range(0, len(items), batch_size):
@@ -817,7 +818,7 @@ def extract_contacts_with_gemini(items: list[dict]) -> list[dict]:
     if not items_with_content:
         return []
 
-    batch_size = 3
+    batch_size = 5
     all_extracted = []
 
     for batch_start in range(0, len(items_with_content), batch_size):
