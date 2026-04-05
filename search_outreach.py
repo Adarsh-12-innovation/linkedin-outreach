@@ -148,7 +148,7 @@ Best regards,
 # All checked case-insensitively against post content
 MUST_HAVE_KEYWORDS = {
     "employment_type": [
-        "contract", "freelancer", "freelancing", "contractual",
+        "contract", "freelancer", "freelancing", "contractual", "contractor"
     ],
     "location_type": [
         "remote", "anywhere", "pan india",
@@ -164,7 +164,7 @@ MUST_HAVE_KEYWORDS = {
 }
 
 MUST_NOT_HAVE_KEYWORDS = [
-    "onsite", "hybrid", "wfo", "in-office", "in office", "office", "intern", "internship", "apprentice", "apprenticeship", "headquarters"
+    "onsite", "hybrid", "wfo", "in-office", "in office", "office", "intern", "internship", "apprentice", "apprenticeship", "headquarters", "full-time","full time"
 ]
 
 # ─────────────────────────────────────────────
@@ -517,24 +517,27 @@ def _has_contact_info(content: str) -> bool:
 def stage_i_filter(items: list[dict]) -> list[dict]:
     """
     Stage I: 
-    1. Fast keyword check (employment_type, location, domain).
-    2. LLM check (flash-lite) for contact info (standard or obfuscated).
+    1. Precision keyword check with word boundaries.
+    2. LLM check (flash-lite) for contact info.
     """
     if not items: return []
     
-    # 1. Keyword Check
+    # 1. Precision Keyword Check
     kw_passed = []
     for item in items:
         content = (item.get("full_content") or "").lower()
         
-        # Must NOT have
-        if any(kw.lower() in content for kw in MUST_NOT_HAVE_KEYWORDS):
-            continue
+        # Must NOT have (using word boundaries \b)
+        blocked = False
+        for kw in MUST_NOT_HAVE_KEYWORDS:
+            if re.search(rf"\b{re.escape(kw.lower())}\b", content):
+                blocked = True; break
+        if blocked: continue
             
-        # Must have (all groups)
+        # Must have (all categories, using word boundaries)
         all_groups = True
         for group, kws in MUST_HAVE_KEYWORDS.items():
-            if not any(kw.lower() in content for kw in kws):
+            if not any(re.search(rf"\b{re.escape(kw.lower())}\b", content) for kw in kws):
                 all_groups = False; break
         if all_groups:
             kw_passed.append(item)
@@ -543,29 +546,26 @@ def stage_i_filter(items: list[dict]) -> list[dict]:
         log.info("  Stage I: 0 posts passed keyword check.")
         return []
 
-    # 2. LLM Contact Check (flash-lite)
+    # 2. LLM Contact Detection (flash-lite)
     batch_size = 10
     passed = []
-    log.info(f"  [Stage I LLM] Detecting contacts in {len(kw_passed)} keyword-matched posts...")
+    log.info(f"  [Stage I LLM] Detecting contact info in {len(kw_passed)} posts...")
 
     for batch_start in range(0, len(kw_passed), batch_size):
         batch = kw_passed[batch_start:batch_start + batch_size]
         posts_block = ""
         for idx, item in enumerate(batch):
-            content = (item.get("full_content") or "")[:2000]
-            posts_block += f"\n===== Post {idx + 1} =====\n{content}\n"
+            posts_block += f"\nPost {idx + 1}:\n{item['full_content'][:2000]}\n"
 
-        prompt = f"""Analyze if these posts contain any contact info (Email/Phone). 
-Look for obfuscated emails like "name [at] domain dot com".
+        prompt = f"""Analyze these posts for any contact info (Email or Phone). 
+Include obfuscated ones like "user [at] company dot com".
 
-{posts_block}
+Respond with ONLY a JSON array: [ {{"index": 1, "has_contact": true/false}} ]
+{posts_block}"""
 
-Respond with ONLY a JSON array:
-[ {{"index": 1, "has_contact": true/false}} ]"""
-
-        raw = call_filter_gemini(prompt) # Uses 2 keys, 1 retry each
+        raw = call_filter_gemini(prompt) # 1 retry per key
         if not raw:
-            passed.extend(batch); continue # Fail-open
+            passed.extend(batch); continue
 
         try:
             cleaned = re.sub(r"^.*?\[", "[", raw.strip(), flags=re.DOTALL)
@@ -578,7 +578,7 @@ Respond with ONLY a JSON array:
         except: passed.extend(batch)
         time.sleep(2)
 
-    log.info(f"  Stage I Results: {len(passed)} posts have contacts.")
+    log.info(f"  Stage I Results: {len(passed)} passed.")
     return passed
 
 
