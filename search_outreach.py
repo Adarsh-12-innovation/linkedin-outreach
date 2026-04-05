@@ -292,7 +292,7 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
     query_id = CONFIG["SEARCH_QUERYID"]
     
     # HARD STOP at 100 posts (10 calls max)
-    max_calls = 10
+    max_calls = 2
     results = []
     pagination_token = None
     total_fetched = 0
@@ -1165,6 +1165,13 @@ def save_run(search_results, stage1_passed, stage2_passed, extracted, emailed):
             "contacts_extracted": len(extracted),
             "emailed": len(emailed),
         },
+        "all_scraped_posts": [
+            {
+                "urn": item.get("post_urn"),
+                "url": item.get("post_url"),
+                "content": item.get("full_content")
+            } for item in search_results
+        ],
         "extracted": [{k: v for k, v in item.items() if k != "raw_data"} for item in extracted],
     }
 
