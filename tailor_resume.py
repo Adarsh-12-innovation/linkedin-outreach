@@ -35,7 +35,7 @@ CONFIG = {
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
     "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY"),
     "SECOND_ALTERNATIVE_GEMINI_API_KEY": os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY"),
-    "GEMINI_MODEL": "gemini-2.5-pro", 
+    "GEMINI_MODEL": "gemini-2.5-flash", 
     "RESUME_CONFIG": "resume_config.json",
     "RESUME_TEMPLATE": "resume_template.html",
     "OUTPUT_PDF": "Tailored_Resume_Adarsh_Bansal.pdf",
@@ -184,14 +184,15 @@ def call_gemini(prompt: str) -> str:
     )
     
     keys = [
-        {"key": CONFIG["GEMINI_API_KEY"], "retries": 1, "name": "Primary"},
-        {"key": CONFIG["ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 1"},
-        {"key": CONFIG["SECOND_ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 2"},
+        {"key": CONFIG["GEMINI_API_KEY"], "retries": 2, "name": "Primary"},
+        {"key": CONFIG["ALTERNATIVE_GEMINI_API_KEY"], "retries": 2, "name": "Alternative 1"},
+        {"key": CONFIG["SECOND_ALTERNATIVE_GEMINI_API_KEY"], "retries": 2, "name": "Alternative 2"},
     ]
 
     for k_info in keys:
         current_key = k_info["key"]
-        if not current_key or current_key.startswith("YOUR_"):
+        if not current_key or current_key.startswith("YOUR_") or len(current_key) < 10:
+            log.debug(f"Skipping {k_info['name']} (missing or invalid).")
             continue
 
         max_attempts = k_info["retries"] + 1
@@ -208,18 +209,18 @@ def call_gemini(prompt: str) -> str:
                             "response_mime_type": "application/json"
                         }
                     },
-                    timeout=90,
+                    timeout=120,
                 )
 
                 if resp.status_code == 429:
+                    wait = 30 * attempt # Increased wait for Pro model (2 RPM limit)
                     if attempt < max_attempts:
-                        wait = 15 * attempt
-                        log.warning(f"  {k_info['name']} Key: Rate limited (429). Retry in {wait}s...")
+                        log.warning(f"  {k_info['name']} Key: Rate limited (429). Waiting {wait}s before retry {attempt}/{k_info['retries']}...")
                         time.sleep(wait)
                         continue
                     else:
-                        log.warning(f"  {k_info['name']} Key: Exhausted retries.")
-                        break # Switch to next key
+                        log.warning(f"  {k_info['name']} Key: Exhausted retries. Rotating to next key...")
+                        break 
 
                 resp.raise_for_status()
                 data = resp.json()
@@ -229,7 +230,7 @@ def call_gemini(prompt: str) -> str:
                 log.error(f"  {k_info['name']} Key Error: {e}")
                 if attempt == max_attempts:
                     break
-                time.sleep(2)
+                time.sleep(5)
 
     return ""
 
@@ -243,9 +244,10 @@ You are an expert Resume Strategist and ATS Optimizer. Your goal is to tailor th
 ### GUIDELINES:
 1.  **Preserve Integrity:** DO NOT invent experiences or change company names/dates.
 2.  **Highlight Relevancy:** Rephrase bullet points to emphasize skills, tools, and outcomes mentioned in the JD. Use JD keywords naturally.
-3.  **Optimize Skills:** Update the "Skills" section categories or tool order to prioritize what the JD asks for.
-4.  **Semantic Scoring:** Provide a semantic match score (0-100) and identify "Keyword Gaps" (essential JD skills missing from the resume).
-5.  **Output Format:** Return a JSON object with two top-level keys:
+3.  **Bold Keywords:** Use HTML <b> tags to bold key technologies, metrics, and technical skills (e.g. <b>Generative AI</b>, <b>Python</b>, <b>15% increase</b>).
+4.  **Optimize Skills:** Update the "Skills" section categories or tool order to prioritize what the JD asks for.
+5.  **Semantic Scoring:** Provide a semantic match score (0-100) and identify "Keyword Gaps" (essential JD skills missing from the resume).
+6.  **Output Format:** Return a JSON object with two top-level keys:
     - "tailored_resume": The updated resume JSON matching the original structure.
     - "analysis": {{ "match_score": 85, "keyword_gaps": ["...", "..."], "tailoring_notes": "..." }}
 

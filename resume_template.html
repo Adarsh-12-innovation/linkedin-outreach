@@ -6,49 +6,55 @@
     <style>
         @page {
             size: A4;
-            margin: 1cm;
+            margin: 0.4cm 0.6cm;
         }
         body {
-            font-family: "Calibri", "Arial", sans-serif;
-            font-size: 10pt;
-            line-height: 1.3;
+            font-family: "Calibri", "Helvetica", "Arial", sans-serif;
+            font-size: 9.2pt;
+            line-height: 1.12;
             color: #000;
             margin: 0;
             padding: 0;
         }
+        b, strong {
+            font-weight: bold;
+        }
         .header {
             text-align: right;
-            margin-bottom: 10px;
+            margin-bottom: 4px;
         }
         .name {
             font-size: 18pt;
             font-weight: bold;
             color: #000;
-            margin-bottom: 5px;
+            margin-bottom: 2px;
         }
         .contact-info {
-            font-size: 10pt;
+            font-size: 9.5pt;
         }
         .contact-info a {
             color: blue;
             text-decoration: underline;
         }
         .section-header {
-            background-color: #f2f2f2;
-            padding: 3px 5px;
+            background-color: #f3f3f3;
+            padding: 2px 6px;
             font-weight: bold;
-            border-bottom: 1px solid #ccc;
-            margin-top: 15px;
-            margin-bottom: 8px;
+            border-bottom: 0.5pt solid #ccc;
+            margin-top: 10px;
+            margin-bottom: 5px;
             display: flex;
             justify-content: space-between;
+            font-size: 10pt;
+            text-transform: capitalize;
         }
         .company-header {
             display: flex;
             justify-content: space-between;
             font-weight: bold;
-            margin-top: 8px;
-            color: #003366;
+            margin-top: 5px;
+            color: #000080; /* Royal Blue */
+            font-size: 9.5pt;
         }
         .job-title {
             font-style: italic;
@@ -58,39 +64,47 @@
         .period {
             font-weight: normal;
             color: #000;
+            font-style: normal;
         }
         ul {
-            margin: 5px 0 10px 20px;
+            margin: 3px 0 6px 18px;
             padding: 0;
         }
         li {
-            margin-bottom: 4px;
+            margin-bottom: 2px;
             text-align: justify;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 10px;
+            margin-bottom: 6px;
+            font-size: 8.8pt;
         }
         th, td {
-            border: 1px solid #ccc;
-            padding: 4px 6px;
+            border: 0.5pt solid #999;
+            padding: 2px 5px;
             text-align: left;
         }
         th {
             background-color: #f9f9f9;
+            font-weight: bold;
         }
         .skills-table th {
-            width: 30%;
+            width: 25%;
         }
         .academic-project-box {
-            border: 1px solid #000;
-            padding: 10px;
-            margin-top: 10px;
+            border: 0.5pt solid #000;
+            padding: 6px 8px;
+            margin-top: 6px;
         }
         .project-title {
             font-weight: bold;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
+            color: #000;
+        }
+        .blue-text {
+            color: #000080;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -115,20 +129,20 @@
     
     {% if role.projects %}
         {% for project in role.projects %}
-        <div class="company-header" style="margin-top: 4px; font-size: 9.5pt;">
+        <div class="company-header" style="margin-top: 2px; font-size: 9pt; color: #000080;">
             <span>{{ project.client }}</span>
             <span class="period">({{ project.period }})</span>
         </div>
         <ul>
             {% for bullet in project.bullets %}
-            <li>{{ bullet }}</li>
+            <li>{{ bullet | safe }}</li>
             {% endfor %}
         </ul>
         {% endfor %}
     {% else %}
         <ul>
             {% for bullet in role.bullets %}
-            <li>{{ bullet }}</li>
+            <li>{{ bullet | safe }}</li>
             {% endfor %}
         </ul>
     {% endif %}
@@ -157,9 +171,9 @@
             {% endfor %}
         </tbody>
     </table>
-    <ul>
+    <ul style="margin-top: 0;">
         {% for cert in education.certifications %}
-        <li>{{ cert }}</li>
+        <li>{{ cert | safe }}</li>
         {% endfor %}
     </ul>
 
@@ -171,7 +185,7 @@
         <div class="project-title">{{ project.title }}</div>
         <ul>
             {% for bullet in project.bullets %}
-            <li>{{ bullet }}</li>
+            <li>{{ bullet | safe }}</li>
             {% endfor %}
         </ul>
     </div>
@@ -191,7 +205,7 @@
             {% for skill in skills %}
             <tr>
                 <td>{{ skill.category }}</td>
-                <td>{{ skill.tools }}</td>
+                <td>{{ skill.tools | safe }}</td>
             </tr>
             {% endfor %}
         </tbody>
@@ -200,9 +214,9 @@
     <div class="section-header">
         <span>Achievements</span>
     </div>
-    <ul>
+    <ul style="margin-bottom: 0;">
         {% for achievement in achievements %}
-        <li>{{ achievement }}</li>
+        <li>{{ achievement | safe }}</li>
         {% endfor %}
     </ul>
 
