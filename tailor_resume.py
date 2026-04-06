@@ -55,53 +55,105 @@ log = logging.getLogger("tailor-resume")
 # STEP 1: FETCH JD
 # ═══════════════════════════════════════════════
 
+def create_linkedin_session() -> requests.Session:
+    """Create an authenticated LinkedIn session using li_at + JSESSIONID cookies."""
+    session = requests.Session()
+    li_at = CONFIG["LINKEDIN_LI_AT"]
+    jsessionid = CONFIG["LINKEDIN_JSESSIONID"].strip(chr(34))
+
+    session.cookies.set("li_at", li_at, domain=".linkedin.com")
+    session.cookies.set("JSESSIONID", f'"{jsessionid}"', domain=".linkedin.com")
+
+    session.headers.update({
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/vnd.linkedin.normalized+json+2.1",
+        "x-li-lang": "en_US",
+        "x-restli-protocol-version": "2.0.0",
+        "csrf-token": jsessionid,
+    })
+    return session
+
 def fetch_jd_from_linkedin(urn: str) -> str:
-    """Fetch job description from LinkedIn using Voyager API."""
+    """
+    Fetch the full text content of a LinkedIn post.
+    Uses the exact logic from saved_posts_outreach.py.
+    """
     log.info(f"Fetching JD for URN: {urn}...")
     
-    # If URN is just numeric, prefix it
-    if urn.isdigit():
-        urn = f"urn:li:activity:{urn}"
-        
-    session = requests.Session()
-    session.cookies.set("li_at", CONFIG["LINKEDIN_LI_AT"], domain=".linkedin.com")
-    session.cookies.set("JSESSIONID", f'"{CONFIG["LINKEDIN_JSESSIONID"].strip(chr(34))}"', domain=".linkedin.com")
+    activity_id = None
+    # Extract numeric ID from various URN formats
+    match = re.search(r"(\d{10,})", urn)
+    if match: activity_id = match.group(1)
     
-    session.headers.update({
-        "User-Agent": "Mozilla/5.0",
-        "csrf-token": CONFIG["LINKEDIN_JSESSIONID"].strip(chr(34)),
-        "Accept": "application/vnd.linkedin.normalized+json+2.1",
-    })
+    if not activity_id:
+        log.error("Could not extract activity ID from URN.")
+        return ""
+
+    session = create_linkedin_session()
     
-    # Try fetching as activity
-    activity_id = re.search(r"(\d{10,})", urn).group(1)
-    url = f"https://www.linkedin.com/voyager/api/feed/updates?q=activityByUrn&activityUrn=urn%3Ali%3Aactivity%3A{activity_id}"
-    
+    # Primary Voyager REST endpoint with decoration
+    url = (
+        f"https://www.linkedin.com/voyager/api/feed/updates"
+        f"?decorationId=com.linkedin.voyager.deco.feed.FeedUpdate-4"
+        f"&q=activityByUrn"
+        f"&activityUrn=urn%3Ali%3Aactivity%3A{activity_id}"
+    )
+
     try:
         resp = session.get(url, timeout=15)
         if resp.status_code != 200:
-            log.error(f"Failed to fetch activity {activity_id}: {resp.status_code}")
-            return ""
-        
+            # Fallback endpoint
+            url2 = f"https://www.linkedin.com/voyager/api/feed/updates/urn:li:activity:{activity_id}"
+            resp = session.get(url2, timeout=15)
+            if resp.status_code != 200:
+                log.error(f"Failed to fetch activity {activity_id}: {resp.status_code}")
+                return ""
+
         data = resp.json()
-        # Find commentary text
-        def find_text(obj):
-            if isinstance(obj, dict):
-                if "text" in obj and isinstance(obj["text"], str) and len(obj["text"]) > 50:
-                    return obj["text"]
-                for v in obj.values():
-                    res = find_text(v)
-                    if res: return res
-            elif isinstance(obj, list):
-                for i in obj:
-                    res = find_text(i)
-                    if res: return res
-            return None
-        
-        return find_text(data) or ""
     except Exception as e:
         log.error(f"Error fetching JD: {e}")
         return ""
+
+    text_parts = []
+    
+    # Same forbidden keys filter as saved_posts_outreach.py
+    FORBIDDEN_KEYS = {
+        "socialDetail", "socialContent", "comments", "actions", 
+        "updateAction", "socialDetailEntity", "attributes", "reactions",
+        "followingInfo", "tracking", "footer", "feedbackDetail", "header"
+    }
+
+    def extract_texts(obj, depth=0):
+        if depth > 15: return
+        if isinstance(obj, dict):
+            # Check for main text fields
+            for key in ("text", "commentary", "translationText"):
+                val = obj.get(key)
+                if isinstance(val, str) and len(val) > 10:
+                    text_parts.append(val)
+                elif isinstance(val, dict) and "text" in val:
+                    if isinstance(val["text"], str) and len(val["text"]) > 10:
+                        text_parts.append(val["text"])
+            
+            # Recurse, skipping metadata/social noise
+            for k, v in obj.items():
+                if k not in FORBIDDEN_KEYS:
+                    extract_texts(v, depth + 1)
+        elif isinstance(obj, list):
+            for item in obj:
+                extract_texts(item, depth + 1)
+
+    extract_texts(data)
+    content = "\n\n".join(text_parts)
+    
+    if not content:
+        log.warning("Post fetched but no significant text content found.")
+        
+    return content
 
 # ═══════════════════════════════════════════════
 # STEP 2: TAILOR WITH GEMINI
