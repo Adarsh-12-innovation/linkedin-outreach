@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-06T22:39:48.250390",
+  "lookback_hours": 48,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 1,
+    "with_phone": 0,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "entity_urn": "urn:li:activity:7446953754920304640",
+      "post_urn": "urn:li:activity:7446953754920304640",
+      "full_content": "Renjitha Sb\n\nI mailed you one of consultant please check . My mail Id  : ranjitha@seersolutionsinc.com\n\nLAXMI NARASHIMHA SUNDURI\n\nInterested \n\nmounika@beaconbold.com\n\nRequitement Specialist at Nityo Infotech\n\nWe are hiring for an #AI/ML Engineer position. Interested candidates can send their resumes to #reshma.d@nityo.com.\n\nPosition Details:\n- Location: Remote\n- Type: Contract role\n\nCore AI/ML requirements include:\n- Strong experience in Machine Learning, NLP, and Document AI.\n- Hands-on expertise with Python, PyTorch, and TensorFlow.\n- Knowledge of classical ML and deep learning models.\n- Experience in feature engineering for both structured and unstructured data.\n- Familiarity with open source and AWS OCR (Textract), document classification, entity extraction, and text summarization.\n\nAWS & UAIS requirements:\n- Proven experience deploying ML solutions on AWS.\n- Hands-on experience with SageMaker (training, endpoints, monitoring), Textract, Comprehend, and Bedrock.\n- Familiarity with United AI Studio (UAIS) pipelines, guardrails, and governance workflows, or a strong ability to ramp up quickly.\n\nWe are hiring for an #AI/ML Engineer position. Interested candidates can send their resumes to #reshma.d@nityo.com.\n\nPosition Details:\n- Location: Remote\n- Type: Contract role\n\nCore AI/ML requirements include:\n- Strong experience in Machine Learning, NLP, and Document AI.\n- Hands-on expertise with Python, PyTorch, and TensorFlow.\n- Knowledge of classical ML and deep learning models.\n- Experience in feature engineering for both structured and unstructured data.\n- Familiarity with open source and AWS OCR (Textract), document classification, entity extraction, and text summarization.\n\nAWS & UAIS requirements:\n- Proven experience deploying ML solutions on AWS.\n- Hands-on experience with SageMaker (training, endpoints, monitoring), Textract, Comprehend, and Bedrock.\n- Familiarity with United AI Studio (UAIS) pipelines, guardrails, and governance workflows, or a strong ability to ramp up quickly.\n\nUS IT Recruiter\n\nRenjitha Sb\n\nGenerative AI Engineer @ Vertex Pharmaceuticals | LLMs, Drug Discovery AI, MLOps | Ex-Inspire Brands, Indeed | Python, PyTorch, AWS\n\nLAXMI NARASHIMHA SUNDURI\n\nSr Recuiter at BeaconBold\n\n[EMAILS FOUND IN POST: reshma.d@nityo.com, ranjitha@seersolutionsinc.com, mounika@beaconbold.com]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Reshma D",
+      "poster_email": "reshma.d@nityo.com",
+      "poster_phone": null,
+      "company": "Nityo Infotech",
+      "role_title": "AI/ML Engineer",
+      "role_summary": "Remote contract role for an AI/ML Engineer with strong experience in Machine Learning, NLP, Document AI, Python, PyTorch, TensorFlow, and AWS.",
+      "has_contact_info": true
+    }
+  ]
+}

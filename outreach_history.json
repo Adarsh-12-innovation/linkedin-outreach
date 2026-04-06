@@ -210,7 +210,8 @@
     "urn:li:activity:7446872718098202624",
     "urn:li:activity:7446884869558898688",
     "urn:li:activity:7446893925706997760",
-    "urn:li:activity:7446965345380200448"
+    "urn:li:activity:7446965345380200448",
+    "urn:li:activity:7446953754920304640"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -391,7 +392,8 @@
     "Kiran@brezq.com",
     "drrajubarman3393@gmail.com",
     "focusedjobhr@gmail.com",
-    "anil.d@echoitsol.com"
+    "anil.d@echoitsol.com",
+    "reshma.d@nityo.com"
   ],
   "contacted_details": [
     {
@@ -2175,6 +2177,15 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-06T22:33:43.025984"
+    },
+    {
+      "urn": "urn:li:activity:7446953754920304640",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446953754920304640",
+      "email": "reshma.d@nityo.com",
+      "thread_id": "19d63c590156b222",
+      "message_id": "19d63c590156b222",
+      "followed_up": false,
+      "timestamp": "2026-04-06T22:39:46.614057"
     }
   ]
 }
