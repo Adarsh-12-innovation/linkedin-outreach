@@ -204,7 +204,12 @@
     "urn:li:activity:7446905473641140224",
     "urn:li:activity:7446904669328756736",
     "urn:li:activity:7446904449215676416",
-    "urn:li:activity:7446903489684844545"
+    "urn:li:activity:7446903489684844545",
+    "urn:li:activity:7446896492574851072",
+    "urn:li:activity:7446887054153711616",
+    "urn:li:activity:7446872718098202624",
+    "urn:li:activity:7446884869558898688",
+    "urn:li:activity:7446893925706997760"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -379,7 +384,12 @@
     "info@radrealitytech.com",
     "ops@rdrindia.in",
     "rahul.grober@expeditets.com",
-    "info@pricubetech.com"
+    "info@pricubetech.com",
+    "darshit@ncubeinfosolutions.com",
+    "jayashree.kemparaj@timusconsulting.com",
+    "Kiran@brezq.com",
+    "drrajubarman3393@gmail.com",
+    "focusedjobhr@gmail.com"
   ],
   "contacted_details": [
     {
@@ -2108,6 +2118,51 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-06T19:28:59.278868"
+    },
+    {
+      "urn": "urn:li:activity:7446896492574851072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446896492574851072",
+      "email": "darshit@ncubeinfosolutions.com",
+      "thread_id": "19d633d09171c533",
+      "message_id": "19d633d09171c533",
+      "followed_up": false,
+      "timestamp": "2026-04-06T20:10:38.900872"
+    },
+    {
+      "urn": "urn:li:activity:7446887054153711616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446887054153711616",
+      "email": "jayashree.kemparaj@timusconsulting.com",
+      "thread_id": "19d633d157e864d3",
+      "message_id": "19d633d157e864d3",
+      "followed_up": false,
+      "timestamp": "2026-04-06T20:10:41.764124"
+    },
+    {
+      "urn": "urn:li:activity:7446872718098202624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446872718098202624",
+      "email": "Kiran@brezq.com",
+      "thread_id": "19d633d1efb96641",
+      "message_id": "19d633d1efb96641",
+      "followed_up": false,
+      "timestamp": "2026-04-06T20:10:44.230837"
+    },
+    {
+      "urn": "urn:li:activity:7446884869558898688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446884869558898688",
+      "email": "drrajubarman3393@gmail.com",
+      "thread_id": "19d633d260ab9167",
+      "message_id": "19d633d260ab9167",
+      "followed_up": false,
+      "timestamp": "2026-04-06T20:10:46.609302"
+    },
+    {
+      "urn": "urn:li:activity:7446893925706997760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446893925706997760",
+      "email": "focusedjobhr@gmail.com",
+      "thread_id": "19d633d30748263a",
+      "message_id": "19d633d30748263a",
+      "followed_up": false,
+      "timestamp": "2026-04-06T20:10:49.132309"
     }
   ]
 }

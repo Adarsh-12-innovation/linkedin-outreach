@@ -104,7 +104,7 @@ CONFIG = {
         # "machine learning contract hiring",
     ],
     "SEARCH_QUERYID": "voyagerSearchDashClusters.05111e1b90ee7fea15bebe9f9410ced9",
-    "SEARCH_MAX_PAGES_PER_PHRASE": 5,  # 10 results per page × 5 = 50 per phrase
+    "SEARCH_MAX_PAGES_PER_PHRASE": int(os.getenv("SEARCH_MAX_PAGES_PER_PHRASE")),  # 10 results per page × 5 = 50 per phrase
 }
 
 # ─────────────────────────────────────────────
@@ -159,8 +159,8 @@ MUST_HAVE_KEYWORDS = {
         "machine learning engineer", "data scientist", "llm", "nlp",
         "python", "agentic", "engineer", "developer", "software",
         "agentic ai", "ai/ml", "artificial intelligence",
-        "ai engineer", "ai developer"
-    ],
+        "ai engineer", "ai developer", "power apps", "power platform", "copilot","m365", "copilot studio"    
+        ],
 }
 
 MUST_NOT_HAVE_KEYWORDS = [
@@ -668,13 +668,27 @@ def stage_ii_llm_filter(items: list[dict]) -> list[dict]:
             content = (item.get("full_content") or "")[:2500]
             posts_block += f"\n===== Post {idx + 1} =====\n{content}\n"
 
-        prompt = f"""Analyze if these are GENUINE AI/ML contract jobs suitable for a candidate in India.
-Reject US-only, training, or onsite roles.
+#         prompt = f"""Analyze if these are GENUINE AI/ML,Data Science or Python developer contract jobs suitable for a candidate in India.
+# # Reject US-only, training, or onsite roles.
+
+        prompt = f"""
+Analyze the following job description to determine if it is a GENUINE and RELEVANT contract opportunity for a candidate based in India. 
+
+### **1. Mandatory Technical Relevancy (Pass if any category matches):**
+* **AI/ML & Data Science:** Roles involving Machine Learning, NLP, Computer Vision, LLMs, Generative AI, RAG, or Python-based Data Engineering.
+* **Microsoft Ecosystem & Low-Code AI:** Roles specifically requiring Microsoft Power Platform (Power Apps, Power Automate), Copilot Studio, M365 Copilot extensibility, or Dataverse. 
+
+### **2. Strict Rejection Criteria (Reject if ANY of these apply):**
+* **Location:** US-only, UK-only, or any "Onsite/Hybrid" requirement outside of India. (Must be Remote-Global or Remote-India).
+* **Job Type:** Full-time permanent roles (Only Contract/Freelance/Temporary allowed).
+* **Nature of Work:** Training, teaching, academic internships, or "shadowing" roles.
+* **Irrelevant Tech:** Purely front-end (React/Angular) without an AI/Power Platform component, or generic IT support.
 
 {posts_block}
 
 Respond with ONLY a JSON array:
-[ {{"index": 1, "relevant": true/false, "reason": "..."}} ]"""
+[ {{"index": 1, "relevant": true/false, "reason": "..."}} ]
+"""
 
         log.info(f"  [Stage II LLM] Relevancy check for {len(batch)} posts...")
         raw = call_gemini(prompt) 
