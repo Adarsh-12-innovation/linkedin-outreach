@@ -1,0 +1,57 @@
+Adarsh Bansal
++91-8077593119 | adarshbansal1995@gmail.com | https://www.linkedin.com/in/adarsh-bansal-31490a124
+
+Professional Experience
+Total Experience: 06 Years 06 Months
+
+Docusign, Data Scientist (Contract)
+Sep 2025 - present
+- Architected a multi-agent RAG framework using CrewAI, FastAPI, and LiteLLM API to automate end-to-end test case generation from Jira user stories; implemented hybrid RAG search with Azure AI Search achieving high-fidelity testcases across multiple business verticals
+- Developed cloud-native backend leveraging AWS and web frontend using NextJS/ReactJS for seamless test case management and review; implemented bidirectional synchronization with Jira Zephyr Scale and Google Sheets API, reducing manual QA lifecycle cycle time by 60%
+
+Ernst & Young LLP, Senior Consultant
+Nov 2024 - Sep 2025
+Citibank (Feb 2025 - Sep 2025)
+- Engineered GenAI-driven regulatory control transformation pipeline to automate control upliftment and mapping at Citibank using Vertex AI; implemented human-in-the-loop and PII validation workflows, similarity search with FAISS improving compliance accuracy by 30%
+- Developed a RAG-based report automation framework for qualitative/quantitative risk models using Python, LlamaIndex, and prompt engineering for data preprocessing and generate standardized validation sections for 50% faster report generation
+
+American Express (Nov 2024 - Jan 2025)
+- Developed customer spend and behavioral classification models using GBM (Python, XGBoost), contributing to marketing mix optimization efforts and risk-adjusted targeting strategies.
+- Built proof-of-concept (PoC) for a Customer Support Agent using LangGraph and RAG frameworks to securely query customer complaint mails from MongoDB, categorize, generate response, validate and respond to the same
+
+Brane Enterprises, Solution Leader
+Apr 2024 - Sep 2024
+- Developed a Langgraph ReACT agent-based chatbot integrated with PostgreSQL and RAG for real-time querying of project documentation and user data, reducing manual lookup time by 40% and enhancing team collaboration for a Project Management SAAS tool
+- Established ETL and CI/CD pipelines for model retraining and data validation (GitHub Actions, Docker) and automated data ingestion from client systems via RESTful APIs reducing cycle time by 10%
+
+JP Morgan Chase & Co., Quant Analyst
+Apr 2022 - Apr 2024
+- Engineered an Automated Trading System on AWS, utilizing Deep Reinforcement Learning (DRL) for Asset Wealth Management. Built data pipelines for real-time market data ingestion and model retraining, boosting portfolio returns by 15%
+- Proposed an optimal dynamic revenue model using XGBoost for loans >$700k norms to improve competitiveness against peers
+
+Crompton Greaves Power & Industrial Solutions ltd., Data Analyst
+Jul 2017 - Jul 2019
+- Conducted demand forecasting using Random Forest Regressor for export markets to capture seasonal demand variations
+
+Education & Certifications
+Year | Degree | Board / Institute | % / CGPA
+2020-2022 | PGDM (Analytics/Operations) | Goa Institute of Management | 5.35/8
+2013-2017 | B. Tech (Mechanical) | Dayalbagh Educational Institute (D.E.I), Agra | 88.3%
+2012-2013 | HSC (12th) | CBSE | 88.6%
+2010-2011 | SSC (10th) | CBSE | 10/10
+
+- Lean Six Sigma Green Belt certification, SSA Business solutions, 2019
+
+Academic Projects
+MBA Summer Internship Project @ V-GUARD
+- Conducted a pan India analysis on E-Commerce market (Amazon and Flipkart) for kitchen products (size - INR 660+ cr.) across Channels, Consumer behavior, Product trends and Competitor profile
+- Engineered product-preference features and applied K-Means clustering for segment customers into actionable groups
+
+Skills
+Category | Tools & Technologies
+GenAI Tools & Frameworks | Langchain, Langgraph, LlamaIndex, CrewAI, n8n, Streamlit, HuggingFace, Ollama, LLMs, Cursor AI
+Programming | Python (scikit-learn, Pandas, NumPy), SQL, TensorFlow, PyTorch, Flask, FastAPI, JS, ReactJS
+Data Engineering/Analysis | MLFlow, AWS (S3, EC2, Dynamo db, Lambda, ECS), Azure ML Studio, Alteryx, Tableau, PowerBI, SQL
+
+Achievements
+- Q3 Quarterly Award, JP Morgan for increasing revenue of $7.2Mn and efficiency gain of 0.5 FTE with new consumer pricing solution

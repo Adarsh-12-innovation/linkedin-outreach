@@ -159,7 +159,7 @@ MUST_HAVE_KEYWORDS = {
         "machine learning engineer", "data scientist", "llm", "nlp",
         "python", "agentic", "engineer", "developer", "software",
         "agentic ai", "ai/ml", "artificial intelligence",
-        "ai engineer", "ai developer", "power apps", "power platform", "copilot","m365", "copilot studio"    
+        "ai engineer", "ai developer", "power apps", "power platform", "copilot","m365", "copilot studio", "w2"   
         ],
 }
 
@@ -1156,10 +1156,17 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
         body_lines.append("✅ NEW OUTREACH EMAILS SENT")
         body_lines.append("-" * 30)
         for i, lead in enumerate(emailed_leads, 1):
+            urn = lead.get("post_urn") or lead.get("entity_urn", "")
+            short_urn = urn.split(":")[-1] if urn else ""
+            resume_link = f"https://github.com/Adarsh-12-innovation/linkedin-outreach/actions/workflows/custom_resume.yml"
+            
             body_lines.append(f"{i}. {lead.get('poster_name','?')} ({lead.get('company','?')})")
             body_lines.append(f"   Email:    {lead.get('poster_email')}")
             body_lines.append(f"   Role:     {lead.get('role_title')}")
-            body_lines.append(f"   LinkedIn: {lead.get('post_url')}\n")
+            body_lines.append(f"   LinkedIn: {lead.get('post_url')}")
+            if short_urn:
+                body_lines.append(f"   📄 Custom Resume: {resume_link} (Paste URN: {short_urn})")
+            body_lines.append("")
 
     if followed_up:
         body_lines.append("🔄 FOLLOW-UP EMAILS SENT (No reply after 24h)")
@@ -1172,11 +1179,18 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
         body_lines.append("📞 PHONE LEADS (Manual Follow-up)")
         body_lines.append("-" * 30)
         for i, lead in enumerate(phone_leads, 1):
-            wa_link = format_whatsapp_link(lead.get("poster_phone",""), lead.get("poster_name",""), lead.get("role_title",""), lead.get("post_url",""))
+            wa_link = format_whatsapp_link(lead.get('poster_phone',''), lead.get('poster_name',''), lead.get('role_title',''), lead.get('post_url',''))
+            urn = lead.get("post_urn") or lead.get("entity_urn", "")
+            short_urn = urn.split(":")[-1] if urn else ""
+            resume_link = f"https://github.com/Adarsh-12-innovation/linkedin-outreach/actions/workflows/custom_resume.yml"
+
             body_lines.append(f"{i}. {lead.get('poster_name','?')} ({lead.get('company','?')})")
             body_lines.append(f"   Phone:    {lead.get('poster_phone')}")
             if wa_link: body_lines.append(f"   WhatsApp: {wa_link}")
-            body_lines.append(f"   LinkedIn: {lead.get('post_url')}\n")
+            body_lines.append(f"   LinkedIn: {lead.get('post_url')}")
+            if short_urn:
+                body_lines.append(f"   📄 Custom Resume: {resume_link} (Paste URN: {short_urn})")
+            body_lines.append("")
 
     body_lines.append("\nBest regards,\nYour Outreach Agent")
     msg.attach(MIMEText("\n".join(body_lines), "plain"))

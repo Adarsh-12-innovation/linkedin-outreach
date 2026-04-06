@@ -77,6 +77,7 @@ import re
 import time
 import argparse
 import logging
+import subprocess
 from datetime import datetime, timezone, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -1530,6 +1531,10 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
             url = f"https://www.linkedin.com/feed/update/{urn}" if urn else "No URL"
             
             wa_link = format_whatsapp_link(phone, name, role, url) if phone != "No Phone" else ""
+            
+            # GitHub Action link for tailoring
+            resume_link = f"https://github.com/Adarsh-12-innovation/linkedin-outreach/actions/workflows/custom_resume.yml"
+            short_urn = urn.split(":")[-1] if urn else ""
 
             body_lines.append(f"{i}. {name} ({company})")
             body_lines.append(f"   Phone:    {phone}")
@@ -1538,6 +1543,8 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
             body_lines.append(f"   Email:    {email}")
             body_lines.append(f"   Role:     {role}")
             body_lines.append(f"   LinkedIn: {url}")
+            if short_urn:
+                body_lines.append(f"   📄 Custom Resume: {resume_link} (Paste URN: {short_urn})")
             body_lines.append("")
 
     body_lines.append("\nBest regards,\nYour Outreach Agent")
@@ -1725,6 +1732,79 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
 
 
 # ═══════════════════════════════════════════════
+# GIT AUTO-SYNC
+# ═══════════════════════════════════════════════
+
+def git_sync_pull():
+    """Auto pull latest history from GitHub before running."""
+    try:
+        # Stash any local changes first (e.g. uncommitted results)
+        subprocess.run(
+            ["git", "stash", "--include-untracked"],
+            capture_output=True, text=True, timeout=15
+        )
+
+        result = subprocess.run(
+            ["git", "pull", "origin", "main", "--rebase"],
+            capture_output=True, text=True, timeout=30
+        )
+        if result.returncode == 0:
+            log.info(f"  Git pull: {result.stdout.strip()}")
+        else:
+            log.warning(f"  Git pull failed: {result.stderr.strip()}")
+
+        # Pop stashed changes back
+        pop_result = subprocess.run(
+            ["git", "stash", "pop"],
+            capture_output=True, text=True, timeout=15
+        )
+        if pop_result.returncode != 0 and "No stash" not in pop_result.stderr:
+            log.debug(f"  Git stash pop: {pop_result.stderr.strip()}")
+
+    except FileNotFoundError:
+        log.warning("  git not found. Skipping auto-sync.")
+    except Exception as e:
+        log.warning(f"  Git pull error: {e}")
+
+
+def git_sync_push():
+    """Auto commit and push updated history to GitHub after running."""
+    try:
+        files_to_commit = [
+            CONFIG["HISTORY_FILE"],
+            CONFIG["PHONE_LEADS_FILE"],
+            CONFIG["RESULTS_DIR"],
+        ]
+
+        # Stage only files that exist
+        for f in files_to_commit:
+            if Path(f).exists():
+                subprocess.run(["git", "add", f], capture_output=True, timeout=10)
+
+        ts = datetime.now().strftime("%Y%m%d_%H%M")
+        result = subprocess.run(
+            ["git", "commit", "-m", f"saved run {ts}"],
+            capture_output=True, text=True, timeout=15
+        )
+        if "nothing to commit" in result.stdout:
+            log.info("  Git push: nothing new to commit.")
+            return
+
+        result = subprocess.run(
+            ["git", "push", "origin", "main"],
+            capture_output=True, text=True, timeout=30
+        )
+        if result.returncode == 0:
+            log.info(f"  Git push: {result.stdout.strip()}")
+        else:
+            log.warning(f"  Git push failed: {result.stderr.strip()}")
+    except FileNotFoundError:
+        log.warning("  git not found. Skipping auto-sync.")
+    except Exception as e:
+        log.warning(f"  Git push error: {e}")
+
+
+# ═══════════════════════════════════════════════
 # STEP 6: SAVE RESULTS
 # ═══════════════════════════════════════════════
 
@@ -1768,11 +1848,15 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Skip sending emails")
     parser.add_argument("--hours", type=int, default=48, help="Lookback hours (default: 48)")
     parser.add_argument("--resume", type=str, help="Path to resume PDF")
+    parser.add_argument("--no-git-sync", action="store_true", help="Skip auto git pull/push")
     args = parser.parse_args()
 
     if args.resume:
         CONFIG["RESUME_PATH"] = args.resume
     CONFIG["LOOKBACK_HOURS"] = args.hours
+
+    # Detect if running in GitHub Actions
+    is_github_actions = os.getenv("GITHUB_ACTIONS") == "true"
 
     # Validate
     missing = [k for k, v in CONFIG.items() if isinstance(v, str) and v.startswith("YOUR_")]
@@ -1788,6 +1872,11 @@ def main():
     print(f"  LinkedIn Saved Posts Outreach Agent")
     print(f"  Lookback: {CONFIG['LOOKBACK_HOURS']}h  |  Mode: {mode}")
     print(f"{'='*70}")
+
+    # ── 0. Git sync (pull latest history) ──
+    if not args.no_git_sync and not is_github_actions:
+        log.info("\n[STEP 0] Syncing history from GitHub...")
+        git_sync_pull()
 
     # ── 1. Fetch saved posts (Optimization: stops when it hits history) ──
     log.info("\n[STEP 1] Fetching saved LinkedIn posts...")
@@ -1809,6 +1898,9 @@ def main():
 
     if not saved:
         log.info("No new saved posts found (all recent posts already in history). Optimization complete.")
+        # ── Git sync (push updated history even if no new posts, to keep results dir clean if needed) ──
+        if not args.no_git_sync and not is_github_actions:
+            git_sync_push()
         return
 
     # ── 2. Fetch full content ──
@@ -1822,6 +1914,8 @@ def main():
     if not extracted:
         log.info("No contacts extracted from saved posts.")
         save_run(saved, [], [])
+        if not args.no_git_sync and not is_github_actions:
+            git_sync_push()
         return
 
     # ── 5. Auto-send ──
@@ -1830,6 +1924,11 @@ def main():
 
     # ── 6. Save ──
     save_run(saved, extracted, emailed)
+
+    # ── 8. Git sync (push updated history) ──
+    if not args.no_git_sync and not is_github_actions:
+        log.info("\n[STEP 8] Pushing updated history to GitHub...")
+        git_sync_push()
 
     phone_count = len([r for r in extracted if r.get("poster_phone")])
     email_count = len([r for r in extracted if r.get("poster_email")])
