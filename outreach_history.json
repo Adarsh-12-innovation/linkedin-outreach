@@ -209,7 +209,8 @@
     "urn:li:activity:7446887054153711616",
     "urn:li:activity:7446872718098202624",
     "urn:li:activity:7446884869558898688",
-    "urn:li:activity:7446893925706997760"
+    "urn:li:activity:7446893925706997760",
+    "urn:li:activity:7446965345380200448"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -389,7 +390,8 @@
     "jayashree.kemparaj@timusconsulting.com",
     "Kiran@brezq.com",
     "drrajubarman3393@gmail.com",
-    "focusedjobhr@gmail.com"
+    "focusedjobhr@gmail.com",
+    "anil.d@echoitsol.com"
   ],
   "contacted_details": [
     {
@@ -2163,6 +2165,16 @@
       "message_id": "19d633d30748263a",
       "followed_up": false,
       "timestamp": "2026-04-06T20:10:49.132309"
+    },
+    {
+      "urn": "urn:li:activity:7446965345380200448",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446965345380200448",
+      "email": "anil.d@echoitsol.com",
+      "thread_id": "19d63c0058a8f99e",
+      "message_id": "19d63c0058a8f99e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-06T22:33:43.025984"
     }
   ]
 }
