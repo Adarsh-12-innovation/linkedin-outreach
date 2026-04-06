@@ -211,7 +211,11 @@
     "urn:li:activity:7446884869558898688",
     "urn:li:activity:7446893925706997760",
     "urn:li:activity:7446965345380200448",
-    "urn:li:activity:7446953754920304640"
+    "urn:li:activity:7446953754920304640",
+    "urn:li:activity:7446965862034518016",
+    "urn:li:activity:7446926435841314816",
+    "urn:li:activity:7446909581160759296",
+    "urn:li:activity:7446980227437838336"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -393,7 +397,9 @@
     "drrajubarman3393@gmail.com",
     "focusedjobhr@gmail.com",
     "anil.d@echoitsol.com",
-    "reshma.d@nityo.com"
+    "reshma.d@nityo.com",
+    "Shobana.m@lepingconsulting.com",
+    "catherine.r@vrdella.com"
   ],
   "contacted_details": [
     {
@@ -2186,6 +2192,42 @@
       "message_id": "19d63c590156b222",
       "followed_up": false,
       "timestamp": "2026-04-06T22:39:46.614057"
+    },
+    {
+      "urn": "urn:li:activity:7446965862034518016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446965862034518016",
+      "email": "Shobana.m@lepingconsulting.com",
+      "thread_id": "19d6400903a5eb27",
+      "message_id": "19d6400903a5eb27",
+      "followed_up": false,
+      "timestamp": "2026-04-06T23:44:13.188440"
+    },
+    {
+      "urn": "urn:li:activity:7446926435841314816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446926435841314816",
+      "email": "evangeline@lorventech.com",
+      "thread_id": "19d64009b0aaadcb",
+      "message_id": "19d64009b0aaadcb",
+      "followed_up": false,
+      "timestamp": "2026-04-06T23:44:15.762725"
+    },
+    {
+      "urn": "urn:li:activity:7446909581160759296",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446909581160759296",
+      "email": "E-careers@cogentcube.com",
+      "thread_id": "19d6400a216c758e",
+      "message_id": "19d6400a216c758e",
+      "followed_up": false,
+      "timestamp": "2026-04-06T23:44:18.113283"
+    },
+    {
+      "urn": "urn:li:activity:7446980227437838336",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446980227437838336",
+      "email": "catherine.r@vrdella.com",
+      "thread_id": "19d6400adf826a2b",
+      "message_id": "19d6400adf826a2b",
+      "followed_up": false,
+      "timestamp": "2026-04-06T23:44:20.465405"
     }
   ]
 }
