@@ -58,8 +58,14 @@ log = logging.getLogger("tailor-resume")
 def create_linkedin_session() -> requests.Session:
     """Create an authenticated LinkedIn session using li_at + JSESSIONID cookies."""
     session = requests.Session()
-    li_at = CONFIG["LINKEDIN_LI_AT"]
-    jsessionid = CONFIG["LINKEDIN_JSESSIONID"].strip(chr(34))
+
+    # Strip any potential whitespace or newlines from GitHub secrets
+    li_at = (CONFIG["LINKEDIN_LI_AT"] or "").strip()
+    jsessionid = (CONFIG["LINKEDIN_JSESSIONID"] or "").strip().strip('"')
+
+    if not li_at or not jsessionid:
+        log.error("LinkedIn credentials (LI_AT or JSESSIONID) are missing!")
+        return session
 
     session.cookies.set("li_at", li_at, domain=".linkedin.com")
     session.cookies.set("JSESSIONID", f'"{jsessionid}"', domain=".linkedin.com")
@@ -75,22 +81,24 @@ def create_linkedin_session() -> requests.Session:
         "x-restli-protocol-version": "2.0.0",
         "csrf-token": jsessionid,
     })
+
+    log.info("LinkedIn session created with li_at + JSESSIONID")
     return session
 
 def fetch_jd_from_linkedin(urn: str) -> str:
     """
     Fetch the full text content of a LinkedIn post.
-    Uses the exact logic from saved_posts_outreach.py.
+    Matches the exact logic from saved_posts_outreach.py.
     """
     log.info(f"Fetching JD for URN: {urn}...")
     
     activity_id = None
-    # Extract numeric ID from various URN formats
+    # Extract numeric ID from various URN formats or bare numbers
     match = re.search(r"(\d{10,})", urn)
     if match: activity_id = match.group(1)
     
     if not activity_id:
-        log.error("Could not extract activity ID from URN.")
+        log.error(f"Could not extract numeric activity ID from URN: {urn}")
         return ""
 
     session = create_linkedin_session()
@@ -104,23 +112,30 @@ def fetch_jd_from_linkedin(urn: str) -> str:
     )
 
     try:
-        resp = session.get(url, timeout=15)
+        # Disable redirects to avoid 30-redirect loop and see actual status
+        resp = session.get(url, timeout=15, allow_redirects=False)
+        
+        if resp.status_code in (301, 302, 303, 307, 308):
+            log.error(f"LinkedIn redirected to: {resp.headers.get('Location')}")
+            log.error("This usually means your cookies are invalid or expired.")
+            return ""
+
         if resp.status_code != 200:
             # Fallback endpoint
             url2 = f"https://www.linkedin.com/voyager/api/feed/updates/urn:li:activity:{activity_id}"
-            resp = session.get(url2, timeout=15)
+            resp = session.get(url2, timeout=15, allow_redirects=False)
             if resp.status_code != 200:
-                log.error(f"Failed to fetch activity {activity_id}: {resp.status_code}")
+                log.error(f"Failed to fetch activity {activity_id}. Status: {resp.status_code}")
                 return ""
 
         data = resp.json()
     except Exception as e:
-        log.error(f"Error fetching JD: {e}")
+        log.error(f"Error during network request: {e}")
         return ""
 
     text_parts = []
     
-    # Same forbidden keys filter as saved_posts_outreach.py
+    # Forbidden keys filter to remove social noise
     FORBIDDEN_KEYS = {
         "socialDetail", "socialContent", "comments", "actions", 
         "updateAction", "socialDetailEntity", "attributes", "reactions",
@@ -130,7 +145,6 @@ def fetch_jd_from_linkedin(urn: str) -> str:
     def extract_texts(obj, depth=0):
         if depth > 15: return
         if isinstance(obj, dict):
-            # Check for main text fields
             for key in ("text", "commentary", "translationText"):
                 val = obj.get(key)
                 if isinstance(val, str) and len(val) > 10:
@@ -139,7 +153,6 @@ def fetch_jd_from_linkedin(urn: str) -> str:
                     if isinstance(val["text"], str) and len(val["text"]) > 10:
                         text_parts.append(val["text"])
             
-            # Recurse, skipping metadata/social noise
             for k, v in obj.items():
                 if k not in FORBIDDEN_KEYS:
                     extract_texts(v, depth + 1)
@@ -151,7 +164,7 @@ def fetch_jd_from_linkedin(urn: str) -> str:
     content = "\n\n".join(text_parts)
     
     if not content:
-        log.warning("Post fetched but no significant text content found.")
+        log.warning("Post data was returned, but no text content could be extracted.")
         
     return content
 

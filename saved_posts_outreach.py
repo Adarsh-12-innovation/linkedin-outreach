@@ -1501,6 +1501,12 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
             body_lines.append(f"   Email:    {email}")
             body_lines.append(f"   Role:     {role}")
             body_lines.append(f"   LinkedIn: {url}")
+            
+            # GitHub Action link for tailoring
+            resume_link = f"https://github.com/Adarsh-12-innovation/linkedin-outreach/actions/workflows/custom_resume.yml"
+            short_urn = urn.split(":")[-1] if urn else ""
+            if short_urn:
+                body_lines.append(f"   📄 Custom Resume: {resume_link} (Paste URN: {short_urn})")
             body_lines.append("")
         body_lines.append("")
 
@@ -1511,8 +1517,14 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
         for i, entry in enumerate(followed_up, 1):
             email = entry.get("email")
             url = entry.get("url") or "No URL"
+            urn = entry.get("urn", "")
+            short_urn = urn.split(":")[-1] if urn else ""
+            resume_link = f"https://github.com/Adarsh-12-innovation/linkedin-outreach/actions/workflows/custom_resume.yml"
+
             body_lines.append(f"{i}. Followed up with: {email}")
             body_lines.append(f"   LinkedIn: {url}")
+            if short_urn:
+                body_lines.append(f"   📄 Custom Resume: {resume_link} (Paste URN: {short_urn})")
             body_lines.append("")
         body_lines.append("")
 
