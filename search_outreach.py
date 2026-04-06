@@ -104,7 +104,7 @@ CONFIG = {
         # "machine learning contract hiring",
     ],
     "SEARCH_QUERYID": "voyagerSearchDashClusters.05111e1b90ee7fea15bebe9f9410ced9",
-    "SEARCH_MAX_PAGES_PER_PHRASE": 1,  # 10 results per page × 5 = 50 per phrase
+    "SEARCH_MAX_PAGES_PER_PHRASE": 5,  # 10 results per page × 5 = 50 per phrase
 }
 
 # ─────────────────────────────────────────────
@@ -293,7 +293,7 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
     query_id = CONFIG["SEARCH_QUERYID"]
     
     # HARD STOP at 100 posts (10 calls max)
-    max_calls = 1
+    max_calls = CONFIG["SEARCH_MAX_PAGES_PER_PHRASE"]
     results = []
     pagination_token = None
     total_fetched = 0
@@ -315,9 +315,9 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
 
         if pagination_token:
             encoded_token = pagination_token.replace("=", "%3D")
-            variables = f"(start:{start_offset},paginationToken:{encoded_token},query:({query_part}))"
+            variables = f"(start:{start_offset},count:{current_batch_size},paginationToken:{encoded_token},query:({query_part}))"
         else:
-            variables = f"(start:{start_offset},query:({query_part}))"
+            variables = f"(start:{start_offset},count:{current_batch_size},query:({query_part}))"
 
         variables_encoded = variables.replace(" ", "%20")
         url = f"{graphql_base}?variables={variables_encoded}&queryId={query_id}"
@@ -984,6 +984,222 @@ def extract_first_name(full_name: str) -> str:
     return first_name.capitalize()
 
 
+def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str, post_url: str) -> str:
+    """Clean phone number and generate a pre-filled WhatsApp wa.me link."""
+    try:
+        # Extract ONLY digits
+        digits_only = re.sub(r"\D", "", phone_str)
+        
+        # WhatsApp requirement: Country code + Number, NO '+' or other chars.
+        if len(digits_only) == 10:
+            final_number = "91" + digits_only
+        elif len(digits_only) > 10:
+            final_number = digits_only
+        else:
+            return ""
+        
+        # Build message
+        first_name = extract_first_name(recipient_name)
+        body = EMAIL_TEMPLATE["body"].format(
+            recipient_name=first_name or "Team",
+            role_title=role_title or "AI/ML Engineer",
+            post_url=post_url or "LinkedIn post",
+            sender_name=CONFIG["SENDER_NAME"],
+        )
+        body = body.replace("attached below", f"here:\n{CONFIG['RESUME_URL']}")
+        
+        encoded_msg = quote(body)
+        return f"https://wa.me/{final_number}?text={encoded_msg}"
+    except Exception as e:
+        log.debug(f"Failed to format WhatsApp link for {phone_str}: {e}")
+        return ""
+
+
+def send_followup_email(service, to_email: str, thread_id: str, last_message_id: str) -> dict:
+    """Send a follow-up email in the same thread."""
+    # Get thread to find subject
+    thread = service.users().threads().get(userId="me", id=thread_id).execute()
+    messages = thread.get("messages", [])
+    
+    # Find subject from first message
+    subject = "Follow up: Application"
+    for part in messages[0].get("payload", {}).get("headers", []):
+        if part.get("name") == "Subject":
+            subject = part.get("value")
+            if not subject.lower().startswith("re:"):
+                subject = f"Re: {subject}"
+            break
+
+    msg = MIMEMultipart()
+    msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+    msg["To"] = to_email
+    msg["Subject"] = subject
+    msg["In-Reply-To"] = last_message_id
+    msg["References"] = last_message_id
+
+    body = """Hello Team,
+
+Hope you are doing well! It would be great if you can share for any update on my application with respect to the last mail.
+
+Thanks & Regards,
+Adarsh
+Contact: +91-8077593119"""
+
+    msg.attach(MIMEText(body, "plain"))
+    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+    
+    return service.users().messages().send(userId="me", body={
+        "raw": raw,
+        "threadId": thread_id
+    }).execute()
+
+
+def process_followups(service, history: dict) -> list[dict]:
+    """Check history for emails sent > 24h ago with no reply, and send followup."""
+    log.info("\n[STEP 5] Checking for follow-ups...")
+    
+    contacted_details = history.get("contacted_details", [])
+    if not contacted_details:
+        return []
+
+    now = datetime.now(timezone.utc)
+    followups_sent = []
+
+    for entry in contacted_details:
+        ts_str = entry.get("timestamp")
+        if not ts_str: continue
+        
+        sent_at = datetime.fromisoformat(ts_str)
+        if sent_at.tzinfo is None:
+            sent_at = sent_at.replace(tzinfo=timezone.utc)
+            
+        hours_passed = (now - sent_at).total_seconds() / 3600
+        
+        if hours_passed < 24: continue
+        if entry.get("followed_up"): continue
+        
+        thread_id = entry.get("thread_id")
+        email = entry.get("email")
+        if not thread_id or not email: continue
+
+        log.info(f"  Checking thread {thread_id} ({email})...")
+
+        try:
+            thread = service.users().threads().get(userId="me", id=thread_id).execute()
+            messages = thread.get("messages", [])
+            
+            has_reply = False
+            for msg in messages:
+                headers = msg.get("payload", {}).get("headers", [])
+                from_email = ""
+                for h in headers:
+                    if h.get("name") == "From":
+                        from_email = h.get("value")
+                        break
+                if CONFIG["SENDER_EMAIL"].lower() not in from_email.lower():
+                    has_reply = True
+                    break
+            
+            if has_reply:
+                log.info(f"    Recruiter replied! Marking as followed_up.")
+                entry["followed_up"] = True
+                continue
+
+            log.info(f"    No reply after {hours_passed:.1f}h. Sending follow-up...")
+            last_msg_id = entry.get("message_id")
+            send_followup_email(service, email, thread_id, last_msg_id)
+            
+            entry["followed_up"] = True
+            entry["followup_timestamp"] = datetime.now().isoformat()
+            followups_sent.append(entry)
+            time.sleep(1)
+
+        except Exception as e:
+            log.error(f"    Error processing follow-up for {email}: {e}")
+
+    return followups_sent
+
+
+def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list[dict], followed_up: list[dict] = None):
+    """Send a combined summary of phone leads, outreach emails, and follow-ups."""
+    if not phone_leads and not emailed_leads and not followed_up:
+        log.info("No new activity to summarize. Skipping notification email.")
+        return
+
+    log.info(f"Sending run summary to {CONFIG['SENDER_EMAIL']}...")
+
+    msg = MIMEMultipart()
+    msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+    msg["To"] = CONFIG["SENDER_EMAIL"]
+    msg["Subject"] = f"LinkedIn Outreach Summary - {datetime.now().strftime('%Y-%m-%d')}"
+
+    body_lines = [
+        f"Hi {CONFIG['SENDER_NAME']},\n",
+        f"Here is the summary from the latest LinkedIn outreach run.\n",
+    ]
+
+    if emailed_leads:
+        body_lines.append("✅ NEW OUTREACH EMAILS SENT")
+        body_lines.append("-" * 30)
+        for i, lead in enumerate(emailed_leads, 1):
+            body_lines.append(f"{i}. {lead.get('poster_name','?')} ({lead.get('company','?')})")
+            body_lines.append(f"   Email:    {lead.get('poster_email')}")
+            body_lines.append(f"   Role:     {lead.get('role_title')}")
+            body_lines.append(f"   LinkedIn: {lead.get('post_url')}\n")
+
+    if followed_up:
+        body_lines.append("🔄 FOLLOW-UP EMAILS SENT (No reply after 24h)")
+        body_lines.append("-" * 30)
+        for i, entry in enumerate(followed_up, 1):
+            body_lines.append(f"{i}. Followed up with: {entry.get('email')}")
+            body_lines.append(f"   LinkedIn: {entry.get('url') or 'N/A'}\n")
+
+    if phone_leads:
+        body_lines.append("📞 PHONE LEADS (Manual Follow-up)")
+        body_lines.append("-" * 30)
+        for i, lead in enumerate(phone_leads, 1):
+            wa_link = format_whatsapp_link(lead.get("poster_phone",""), lead.get("poster_name",""), lead.get("role_title",""), lead.get("post_url",""))
+            body_lines.append(f"{i}. {lead.get('poster_name','?')} ({lead.get('company','?')})")
+            body_lines.append(f"   Phone:    {lead.get('poster_phone')}")
+            if wa_link: body_lines.append(f"   WhatsApp: {wa_link}")
+            body_lines.append(f"   LinkedIn: {lead.get('post_url')}\n")
+
+    body_lines.append("\nBest regards,\nYour Outreach Agent")
+    msg.attach(MIMEText("\n".join(body_lines), "plain"))
+    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+    service.users().messages().send(userId="me", body={"raw": raw}).execute()
+
+
+def send_rate_limit_notification():
+    """Send an email alert when all Gemini keys are rate limited."""
+    try:
+        gmail = get_gmail_service()
+        msg = MIMEMultipart()
+        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+        msg["To"] = CONFIG["SENDER_EMAIL"]
+        msg["Subject"] = "⚠️ Gemini API Rate Limit Alert"
+        msg.attach(MIMEText("All your Gemini API keys have hit their rate limits or failed.", "plain"))
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+        log.info("Rate limit notification sent.")
+    except: pass
+
+
+def send_linkedin_auth_error_notification(status_code: int):
+    """Send an email alert when LinkedIn session cookies expire."""
+    try:
+        gmail = get_gmail_service()
+        msg = MIMEMultipart()
+        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+        msg["To"] = CONFIG["SENDER_EMAIL"]
+        msg["Subject"] = f"⚠️ LinkedIn Auth Error ({status_code}) — Session Expired"
+        msg.attach(MIMEText(f"Your LinkedIn session cookies have expired (HTTP {status_code}). Please refresh li_at and JSESSIONID.", "plain"))
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+        log.info("Auth error notification sent.")
+    except: pass
+
+
 def send_one_email(service, to_email, name, role_title, post_url=""):
     msg = MIMEMultipart()
     msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
@@ -1012,8 +1228,183 @@ def send_one_email(service, to_email, name, role_title, post_url=""):
     return service.users().messages().send(userId="me", body={"raw": raw}).execute()
 
 
+def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str, post_url: str) -> str:
+    """Clean phone number and generate a pre-filled WhatsApp wa.me link."""
+    try:
+        digits_only = re.sub(r"\D", "", phone_str)
+        if len(digits_only) == 10:
+            final_number = "91" + digits_only
+        elif len(digits_only) > 10:
+            final_number = digits_only
+        else:
+            return ""
+        
+        first_name = extract_first_name(recipient_name)
+        body = EMAIL_TEMPLATE["body"].format(
+            recipient_name=first_name or "Team",
+            role_title=role_title or "AI/ML Engineer",
+            post_url=post_url or "LinkedIn post",
+            sender_name=CONFIG["SENDER_NAME"],
+        )
+        body = body.replace("attached below", f"here:\n{CONFIG['RESUME_URL']}")
+        return f"https://wa.me/{final_number}?text={quote(body)}"
+    except Exception as e:
+        log.debug(f"Failed to format WhatsApp link: {e}")
+        return ""
+
+
+def send_followup_email(service, to_email: str, thread_id: str, last_message_id: str) -> dict:
+    """Send a follow-up email in the same thread."""
+    thread = service.users().threads().get(userId="me", id=thread_id).execute()
+    messages = thread.get("messages", [])
+    subject = "Follow up: Application"
+    for part in messages[0].get("payload", {}).get("headers", []):
+        if part.get("name") == "Subject":
+            subject = part.get("value")
+            if not subject.lower().startswith("re:"):
+                subject = f"Re: {subject}"
+            break
+
+    msg = MIMEMultipart()
+    msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+    msg["To"] = to_email
+    msg["Subject"] = subject
+    msg["In-Reply-To"] = last_message_id
+    msg["References"] = last_message_id
+    body = """Hello Team,
+
+Hope you are doing well! It would be great if you can share for any update on my application with respect to the last mail.
+
+Thanks & Regards,
+Adarsh
+Contact: +91-8077593119"""
+    msg.attach(MIMEText(body, "plain"))
+    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+    return service.users().messages().send(userId="me", body={"raw": raw, "threadId": thread_id}).execute()
+
+
+def process_followups(service, history: dict) -> list[dict]:
+    """Check history for emails sent > 24h ago with no reply, and send followup."""
+    log.info("\n[STEP 5] Checking for follow-ups...")
+    contacted_details = history.get("contacted_details", [])
+    if not contacted_details:
+        return []
+
+    now = datetime.now(timezone.utc)
+    followups_sent = []
+    for entry in contacted_details:
+        ts_str = entry.get("timestamp")
+        if not ts_str: continue
+        sent_at = datetime.fromisoformat(ts_str)
+        if sent_at.tzinfo is None:
+            sent_at = sent_at.replace(tzinfo=timezone.utc)
+            
+        hours_passed = (now - sent_at).total_seconds() / 3600
+        if hours_passed < 24 or entry.get("followed_up"):
+            continue
+        
+        thread_id = entry.get("thread_id")
+        email = entry.get("email")
+        if not thread_id or not email: continue
+
+        log.info(f"  Checking thread {thread_id} ({email})...")
+        try:
+            thread = service.users().threads().get(userId="me", id=thread_id).execute()
+            messages = thread.get("messages", [])
+            has_reply = False
+            for msg in messages:
+                from_email = ""
+                for h in msg.get("payload", {}).get("headers", []):
+                    if h.get("name") == "From":
+                        from_email = h.get("value")
+                        break
+                if CONFIG["SENDER_EMAIL"].lower() not in from_email.lower():
+                    has_reply = True; break
+            
+            if has_reply:
+                log.info(f"    Recruiter replied! Marking as followed_up.")
+                entry["followed_up"] = True; continue
+
+            log.info(f"    No reply after {hours_passed:.1f}h. Sending follow-up...")
+            send_followup_email(service, email, thread_id, entry.get("message_id"))
+            entry["followed_up"] = True
+            entry["followup_timestamp"] = datetime.now().isoformat()
+            followups_sent.append(entry)
+            time.sleep(1)
+        except Exception as e:
+            log.error(f"    Error follow-up for {email}: {e}")
+    return followups_sent
+
+
+def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list[dict], followed_up: list[dict] = None):
+    """Send a combined summary email."""
+    if not phone_leads and not emailed_leads and not followed_up:
+        return
+
+    log.info(f"Sending run summary to {CONFIG['SENDER_EMAIL']}...")
+    msg = MIMEMultipart()
+    msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+    msg["To"] = CONFIG["SENDER_EMAIL"]
+    msg["Subject"] = f"LinkedIn Outreach Summary - {datetime.now().strftime('%Y-%m-%d')}"
+
+    body_lines = [f"Hi {CONFIG['SENDER_NAME']},\n", "Here is the summary from the latest LinkedIn outreach run.\n"]
+    
+    if emailed_leads:
+        body_lines.append("✅ NEW OUTREACH EMAILS SENT\n" + "-"*30)
+        for i, lead in enumerate(emailed_leads, 1):
+            body_lines.append(f"{i}. {lead.get('poster_name','?')} ({lead.get('company','?')})\n   Email:    {lead.get('poster_email')}\n   Role:     {lead.get('role_title')}\n   LinkedIn: {lead.get('post_url')}\n")
+
+    if followed_up:
+        body_lines.append("🔄 FOLLOW-UP EMAILS SENT (No reply after 24h)\n" + "-"*30)
+        for i, entry in enumerate(followed_up, 1):
+            body_lines.append(f"{i}. Followed up with: {entry.get('email')}\n   LinkedIn: {entry.get('url') or 'N/A'}\n")
+
+    if phone_leads:
+        body_lines.append("📞 PHONE LEADS (Manual Follow-up)\n" + "-"*30)
+        for i, lead in enumerate(phone_leads, 1):
+            wa_link = format_whatsapp_link(lead.get('poster_phone',''), lead.get('poster_name',''), lead.get('role_title',''), lead.get('post_url',''))
+            body_lines.append(f"{i}. {lead.get('poster_name','?')} ({lead.get('company','?')})\n   Phone:    {lead.get('poster_phone')}")
+            if wa_link: body_lines.append(f"   WhatsApp: {wa_link}")
+            body_lines.append(f"   LinkedIn: {lead.get('post_url')}\n")
+
+    body_lines.append("\nBest regards,\nYour Outreach Agent")
+    msg.attach(MIMEText("\n".join(body_lines), "plain"))
+    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+    service.users().messages().send(userId="me", body={"raw": raw}).execute()
+
+
+def send_rate_limit_notification():
+    """Gemini rate limit alert."""
+    try:
+        gmail = get_gmail_service()
+        msg = MIMEMultipart()
+        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+        msg["To"] = CONFIG["SENDER_EMAIL"]
+        msg["Subject"] = "⚠️ Gemini API Rate Limit Alert"
+        msg.attach(MIMEText("All your Gemini API keys have hit their rate limits or failed.", "plain"))
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+        log.info("Rate limit notification sent.")
+    except: pass
+
+
+def send_linkedin_auth_error_notification(status_code: int):
+    """LinkedIn auth error alert."""
+    try:
+        gmail = get_gmail_service()
+        msg = MIMEMultipart()
+        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
+        msg["To"] = CONFIG["SENDER_EMAIL"]
+        msg["Subject"] = f"⚠️ LinkedIn Auth Error ({status_code}) — Session Expired"
+        msg.attach(MIMEText(f"Your LinkedIn session cookies have expired (HTTP {status_code}). Please refresh li_at and JSESSIONID.", "plain"))
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+        log.info("Auth error notification sent.")
+    except: pass
+
+
 def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
-    """Send outreach emails. Reuses shared history."""
+    """Send outreach emails, process follow-ups, and send summary."""
     history = load_history()
     results = dedupe_against_history(results, history)
     if not results:
@@ -1033,6 +1424,7 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
     gmail = get_gmail_service()
     emailed = []
 
+    # 1. New Outreach
     for r in with_email:
         try:
             urn = r.get("post_urn") or r.get("entity_urn", "")
@@ -1040,15 +1432,28 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
             resp = send_one_email(gmail, r["poster_email"], r.get("poster_name", ""), r.get("role_title", ""), url)
             thread_id = resp.get("threadId")
             message_id = resp.get("id")
-            log.info(f"  Sent -> {r['poster_email']} ({r.get('poster_name', '?')})")
+            log.info(f"  Sent -> {r['poster_email']} ({r.get('poster_name', '?')}) | Thread: {thread_id}")
             record_contact(history, urn, r["poster_email"], url, thread_id, message_id)
             emailed.append(r)
             time.sleep(1)
         except Exception as e:
             log.error(f"  FAILED {r.get('poster_email', '?')}: {e}")
 
+    # 2. Follow-ups
+    followed_up = []
+    try:
+        followed_up = process_followups(gmail, history)
+    except Exception as e:
+        log.error(f"  Failed follow-ups: {e}")
+
+    # 3. Summary Email
+    try:
+        send_run_summary_email(gmail, phone_leads, emailed, followed_up)
+    except Exception as e:
+        log.error(f"  Failed summary email: {e}")
+
     save_history(history)
-    log.info(f"\n  Summary: {len(emailed)} new emails sent.")
+    log.info(f"\n  Summary: {len(emailed)} new sent, {len(followed_up)} follow-ups sent.")
     return emailed
 
 
