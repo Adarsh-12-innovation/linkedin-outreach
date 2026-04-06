@@ -197,7 +197,14 @@
     "urn:li:activity:7446790731698208769",
     "urn:li:activity:7446843191116578816",
     "urn:li:activity:7446827872713015296",
-    "urn:li:activity:7446822787006038017"
+    "urn:li:activity:7446822787006038017",
+    "urn:li:activity:7446913754325331969",
+    "urn:li:activity:7446908892581654529",
+    "urn:li:activity:7446908183262171137",
+    "urn:li:activity:7446905473641140224",
+    "urn:li:activity:7446904669328756736",
+    "urn:li:activity:7446904449215676416",
+    "urn:li:activity:7446903489684844545"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -367,7 +374,12 @@
     "khushi@bizfy.in",
     "hr@zeopto.com",
     "anilkumar@jashwantech.com",
-    "shivdutt@traverse-ts.com"
+    "shivdutt@traverse-ts.com",
+    "kkk@cynosuretechnologies.com",
+    "info@radrealitytech.com",
+    "ops@rdrindia.in",
+    "rahul.grober@expeditets.com",
+    "info@pricubetech.com"
   ],
   "contacted_details": [
     {
@@ -2026,6 +2038,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-06T14:32:52.918459"
+    },
+    {
+      "urn": "urn:li:activity:7446913754325331969",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446913754325331969",
+      "email": "kkk@cynosuretechnologies.com",
+      "thread_id": "19d6316aa8514c11",
+      "message_id": "19d6316aa8514c11",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-06T19:28:44.629335"
+    },
+    {
+      "urn": "urn:li:activity:7446908892581654529",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446908892581654529",
+      "email": "info@radrealitytech.com",
+      "thread_id": "19d6316b527cb660",
+      "message_id": "19d6316b527cb660",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-06T19:28:47.300398"
+    },
+    {
+      "urn": "urn:li:activity:7446908183262171137",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446908183262171137",
+      "email": "ops@rdrindia.in",
+      "thread_id": "19d6316c0cd3b572",
+      "message_id": "19d6316c0cd3b572",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-06T19:28:49.960921"
+    },
+    {
+      "urn": "urn:li:activity:7446905473641140224",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446905473641140224",
+      "email": "rahul.grober@expeditets.com",
+      "thread_id": "19d6316ca2eceb8d",
+      "message_id": "19d6316ca2eceb8d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-06T19:28:52.222000"
+    },
+    {
+      "urn": "urn:li:activity:7446904669328756736",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446904669328756736",
+      "email": "muskan_d@aaryavinservices.com",
+      "thread_id": "19d6316d3c7a6836",
+      "message_id": "19d6316d3c7a6836",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-06T19:28:54.462230"
+    },
+    {
+      "urn": "urn:li:activity:7446904449215676416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446904449215676416",
+      "email": "sanjana.patel@huemot.com",
+      "thread_id": "19d6316db4f51f35",
+      "message_id": "19d6316db4f51f35",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-06T19:28:56.924665"
+    },
+    {
+      "urn": "urn:li:activity:7446903489684844545",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7446903489684844545",
+      "email": "info@pricubetech.com",
+      "thread_id": "19d6316e5258a309",
+      "message_id": "19d6316e5258a309",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-06T19:28:59.278868"
     }
   ]
 }
