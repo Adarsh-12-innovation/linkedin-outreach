@@ -33,6 +33,8 @@ load_dotenv()
 
 CONFIG = {
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
+    "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY"),
+    "SECOND_ALTERNATIVE_GEMINI_API_KEY": os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY"),
     "GEMINI_MODEL": "gemini-2.5-pro", 
     "RESUME_CONFIG": "resume_config.json",
     "RESUME_TEMPLATE": "resume_template.html",
@@ -173,18 +175,63 @@ def fetch_jd_from_linkedin(urn: str) -> str:
 # ═══════════════════════════════════════════════
 
 def call_gemini(prompt: str) -> str:
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{CONFIG['GEMINI_MODEL']}:generateContent?key={CONFIG['GEMINI_API_KEY']}"
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.2, "response_mime_type": "application/json"}
-    }
-    try:
-        resp = requests.post(url, json=payload, timeout=60)
-        resp.raise_for_status()
-        return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
-    except Exception as e:
-        log.error(f"Gemini error: {e}")
-        return ""
+    """
+    Call Gemini API with specialized retry/rotation logic.
+    """
+    url = (
+        f"https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{CONFIG['GEMINI_MODEL']}:generateContent"
+    )
+    
+    keys = [
+        {"key": CONFIG["GEMINI_API_KEY"], "retries": 1, "name": "Primary"},
+        {"key": CONFIG["ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 1"},
+        {"key": CONFIG["SECOND_ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 2"},
+    ]
+
+    for k_info in keys:
+        current_key = k_info["key"]
+        if not current_key or current_key.startswith("YOUR_"):
+            continue
+
+        max_attempts = k_info["retries"] + 1
+        for attempt in range(1, max_attempts + 1):
+            try:
+                resp = requests.post(
+                    url,
+                    headers={"Content-Type": "application/json"},
+                    params={"key": current_key},
+                    json={
+                        "contents": [{"parts": [{"text": prompt}]}],
+                        "generationConfig": {
+                            "temperature": 0.2,
+                            "response_mime_type": "application/json"
+                        }
+                    },
+                    timeout=90,
+                )
+
+                if resp.status_code == 429:
+                    if attempt < max_attempts:
+                        wait = 15 * attempt
+                        log.warning(f"  {k_info['name']} Key: Rate limited (429). Retry in {wait}s...")
+                        time.sleep(wait)
+                        continue
+                    else:
+                        log.warning(f"  {k_info['name']} Key: Exhausted retries.")
+                        break # Switch to next key
+
+                resp.raise_for_status()
+                data = resp.json()
+                return data["candidates"][0]["content"]["parts"][0]["text"]
+                
+            except Exception as e:
+                log.error(f"  {k_info['name']} Key Error: {e}")
+                if attempt == max_attempts:
+                    break
+                time.sleep(2)
+
+    return ""
 
 def tailor_resume(base_resume: dict, jd_text: str) -> dict:
     """Use Gemini to tailor bullets and calculate scores."""
