@@ -239,17 +239,34 @@ def tailor_resume(base_resume: dict, jd_text: str) -> dict:
     log.info("Tailoring resume with Gemini...")
     
     prompt = f"""
-You are an expert Resume Strategist and ATS Optimizer. Your goal is to tailor the provided resume JSON to match the Job Description (JD).
+You are an expert Resume Strategist and ATS Optimizer specializing in Stealth Keyword Integration and Space Optimization. 
+
+### GOAL:
+Tailor the provided resume JSON to match the Job Description (JD) so perfectly that it achieves a near-100% ATS score without looking forced or "synthetic."
+
+### CORE STRATEGIES:
+1.  **Stealth Keyword Insertion:** 
+    - Identify every critical technology, tech stack, and skill in the JD missing from the resume.
+    - **Intentionally insert** these missing keywords into the "Professional Experience" or "Academic Projects" sections.
+    - **Replace** generic or less relevant keywords in the original resume with these specific JD keywords if they serve a similar technical purpose (e.g., if JD asks for 'FastAPI' and resume has 'Flask', update the project to use 'FastAPI' if plausible, or mention both).
+    - Ensure the integration "gels" naturally with the surrounding context of the project. It must look like you actually used those tools to solve the described problem.
+
+2.  **Strict 1-Page Constraint (Line-Level Control):**
+    - The output MUST fit on a single A4 page.
+    - **Consolidate:** If a role has too many bullets, merge 2-3 shorter ones into a single, high-impact technical sentence.
+    - **Prioritize:** Keep 2-3 strong bullets for recent/relevant roles; limit older or less relevant roles to 1 impactful bullet.
+    - **Prune:** Sacrifice low-value metrics or "fluff" phrases to make room for the mandatory JD keywords.
+    - **Skills Section:** Group the "Tools & Technologies" aggressively to save vertical space.
+
+3.  **Impact & Bolding:**
+    - Use HTML <b> tags to bold the newly inserted JD keywords and key metrics.
+    - Ensure the tone remains professional, senior-level, and outcome-oriented.
 
 ### GUIDELINES:
-1.  **Preserve Integrity:** DO NOT invent experiences or change company names/dates.
-2.  **Highlight Relevancy:** Rephrase bullet points to emphasize skills, tools, and outcomes mentioned in the JD. Use JD keywords naturally.
-3.  **Bold Keywords:** Use HTML <b> tags to bold key technologies, metrics, and technical skills (e.g. <b>Generative AI</b>, <b>Python</b>, <b>15% increase</b>).
-4.  **Optimize Skills:** Update the "Skills" section categories or tool order to prioritize what the JD asks for.
-5.  **Semantic Scoring:** Provide a semantic match score (0-100) and identify "Keyword Gaps" (essential JD skills missing from the resume).
-6.  **Output Format:** Return a JSON object with two top-level keys:
-    - "tailored_resume": The updated resume JSON matching the original structure.
-    - "analysis": {{ "match_score": 85, "keyword_gaps": ["...", "..."], "tailoring_notes": "..." }}
+- **Integrity:** Maintain company names and dates exactly as they are.
+- **Output Format:** Return a JSON object with:
+    - "tailored_resume": The updated JSON.
+    - "analysis": {{ "match_score": 0-100, "keyword_gaps_filled": ["list of JD keywords you inserted"], "optimization_notes": "how you saved space" }}
 
 ### BASE RESUME JSON:
 {json.dumps(base_resume, indent=2)}
