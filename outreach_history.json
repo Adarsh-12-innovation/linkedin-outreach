@@ -225,7 +225,10 @@
     "urn:li:activity:7447236884424032256",
     "urn:li:activity:7447225670235029504",
     "urn:li:activity:7447187532456333313",
-    "urn:li:activity:7447251148505251840"
+    "urn:li:activity:7447251148505251840",
+    "urn:li:activity:7447268631681323009",
+    "urn:li:activity:7447268153438588928",
+    "urn:li:activity:7447256180986499072"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -414,7 +417,9 @@
     "jayasri@sadupsoft.com",
     "ai.dakshvariya@gmail.com",
     "g.punjabi@thesynapses.com",
-    "soniya.raghuwanshi@huemot.com"
+    "soniya.raghuwanshi@huemot.com",
+    "info@sankalptechnologyservices.com",
+    "staffingbridgepro@zohomail.com"
   ],
   "contacted_details": [
     {
@@ -2345,6 +2350,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-07T18:44:46.371310"
+    },
+    {
+      "urn": "urn:li:activity:7447268631681323009",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447268631681323009",
+      "email": "info@sankalptechnologyservices.com",
+      "thread_id": "19d6826a461a1927",
+      "message_id": "19d6826a461a1927",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-07T19:04:16.560838"
+    },
+    {
+      "urn": "urn:li:activity:7447268153438588928",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447268153438588928",
+      "email": "info@sankalptechnologyservices.com",
+      "thread_id": "19d6826ac142bbbc",
+      "message_id": "19d6826ac142bbbc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-07T19:04:18.968586"
+    },
+    {
+      "urn": "urn:li:activity:7447256180986499072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447256180986499072",
+      "email": "staffingbridgepro@zohomail.com",
+      "thread_id": "19d6826b68b5b5de",
+      "message_id": "19d6826b68b5b5de",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-07T19:04:21.437207"
     }
   ]
 }
