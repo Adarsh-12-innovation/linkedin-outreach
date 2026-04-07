@@ -230,7 +230,12 @@
     "urn:li:activity:7447268153438588928",
     "urn:li:activity:7447256180986499072",
     "urn:li:activity:7447260142900883456",
-    "urn:li:activity:7447263195507027968"
+    "urn:li:activity:7447263195507027968",
+    "urn:li:activity:7447298919572856833",
+    "urn:li:activity:7447278614942932992",
+    "urn:li:activity:7447288091775590400",
+    "urn:li:activity:7447302064617185280",
+    "urn:li:activity:7447287107624288257"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -422,7 +427,11 @@
     "soniya.raghuwanshi@huemot.com",
     "info@sankalptechnologyservices.com",
     "staffingbridgepro@zohomail.com",
-    "anamika.singh@manpower.co.in"
+    "anamika.singh@manpower.co.in",
+    "preetam@greenleafconsultants.in",
+    "shalini@kzsoftsolutions.com",
+    "sourav.dawn@infojiniconsulting.com",
+    "contact@torquetek.com"
   ],
   "contacted_details": [
     {
@@ -2064,9 +2073,10 @@
       "email": "hr@zeopto.com",
       "thread_id": "19d6207b78f8643c",
       "message_id": "19d6207b78f8643c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-06T14:32:46.277613"
+      "timestamp": "2026-04-06T14:32:46.277613",
+      "followup_timestamp": "2026-04-07T15:39:03.627450"
     },
     {
       "urn": "urn:li:activity:7446827872713015296",
@@ -2074,7 +2084,7 @@
       "email": "anilkumar@jashwantech.com",
       "thread_id": "19d6207c37237176",
       "message_id": "19d6207c37237176",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-06T14:32:49.560431"
     },
@@ -2084,9 +2094,10 @@
       "email": "shivdutt@traverse-ts.com",
       "thread_id": "19d6207d02087cf7",
       "message_id": "19d6207d02087cf7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-06T14:32:52.918459"
+      "timestamp": "2026-04-06T14:32:52.918459",
+      "followup_timestamp": "2026-04-07T15:39:05.262508"
     },
     {
       "urn": "urn:li:activity:7446913754325331969",
@@ -2401,6 +2412,51 @@
       "message_id": "19d6844a513b7459",
       "followed_up": false,
       "timestamp": "2026-04-07T14:07:02.352553"
+    },
+    {
+      "urn": "urn:li:activity:7447298919572856833",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447298919572856833",
+      "email": "preetam@greenleafconsultants.in",
+      "thread_id": "19d6898bec481133",
+      "message_id": "19d6898bec481133",
+      "followed_up": false,
+      "timestamp": "2026-04-07T15:38:54.171925"
+    },
+    {
+      "urn": "urn:li:activity:7447278614942932992",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447278614942932992",
+      "email": "shalini@kzsoftsolutions.com",
+      "thread_id": "19d6898c7a906a1d",
+      "message_id": "19d6898c7a906a1d",
+      "followed_up": false,
+      "timestamp": "2026-04-07T15:38:56.158802"
+    },
+    {
+      "urn": "urn:li:activity:7447288091775590400",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447288091775590400",
+      "email": "sourav.dawn@infojiniconsulting.com",
+      "thread_id": "19d6898cee957c21",
+      "message_id": "19d6898cee957c21",
+      "followed_up": false,
+      "timestamp": "2026-04-07T15:38:58.166559"
+    },
+    {
+      "urn": "urn:li:activity:7447302064617185280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447302064617185280",
+      "email": "contact@torquetek.com",
+      "thread_id": "19d6898d4096ca2c",
+      "message_id": "19d6898d4096ca2c",
+      "followed_up": false,
+      "timestamp": "2026-04-07T15:39:00.106451"
+    },
+    {
+      "urn": "urn:li:activity:7447287107624288257",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447287107624288257",
+      "email": "g.punjabi@thesynapses.com",
+      "thread_id": "19d6898dd337d719",
+      "message_id": "19d6898dd337d719",
+      "followed_up": false,
+      "timestamp": "2026-04-07T15:39:02.109604"
     }
   ]
 }

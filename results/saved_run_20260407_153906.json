@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-04-07T15:39:06.575943",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 5,
+    "contacts_extracted": 5,
+    "with_email": 5,
+    "with_phone": 1,
+    "emailed": 5
+  },
+  "extracted": [
+    {
+      "entity_urn": "urn:li:activity:7447298919572856833",
+      "post_urn": "urn:li:activity:7447298919572856833",
+      "full_content": "Preetam Bezbarua\n\nGlobal Talent Acquisition II Ex-TATA (TIS) II IPru II MetLife II ColesMyer\n\n#Hiring #SeniorAIEngineer #Remote #ImmediateJoiner #Remote\n\nRole: Consultant \u2013 Senior AI Engineer\nDuration: 3 Months - Contract to Hire\nWorking Mode: Remote\n\nI am looking for a motivated Senior AI Engineer with around 4+ years of hands-on experience to support the design,\ndevelopment, and deployment of AI-driven solutions. This role offers an excellent opportunity to work on real-world AI applications, collaborate with experienced engineers and develop expertise in scalable AI systems.\nMust have the following skillsets; \n#GenerativeAI #AgenticStystem #Python #AdvancedRAG #AgenticFrameworks & #AWS/Azure.\n\nInterested candidates can email me at preetam@greenleafconsultants.in for further details.\n\n#Hiring #SeniorAIEngineer #Remote #ImmediateJoiner #Remote\n\nRole: Consultant \u2013 Senior AI Engineer\nDuration: 3 Months - Contract to Hire\nWorking Mode: Remote\n\nI am looking for a motivated Senior AI Engineer with around 4+ years of hands-on experience to support the design,\ndevelopment, and deployment of AI-driven solutions. This role offers an excellent opportunity to work on real-world AI applications, collaborate with experienced engineers and develop expertise in scalable AI systems.\nMust have the following skillsets; \n#GenerativeAI #AgenticStystem #Python #AdvancedRAG #AgenticFrameworks & #AWS/Azure.\n\nInterested candidates can email me at preetam@greenleafconsultants.in for further details.\n\n[EMAILS FOUND IN POST: preetam@greenleafconsultants.in]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Preetam Bezbarua",
+      "poster_email": "preetam@greenleafconsultants.in",
+      "poster_phone": null,
+      "company": "Greenleaf Consultants",
+      "role_title": "Consultant \u2013 Senior AI Engineer",
+      "role_summary": "Looking for a motivated Senior AI Engineer with 4+ years of experience to support the design, development, and deployment of AI-driven solutions.",
+      "has_contact_info": true
+    },
+    {
+      "entity_urn": "urn:li:activity:7447278614942932992",
+      "post_urn": "urn:li:activity:7447278614942932992",
+      "full_content": "Akhil gundekari\n\nplease send c2c requriments to email id akhil.kumar@skylerinfosystems.com\n\nSumit Saxena\n\nHello, \n\nI\u2019m actively looking for a MERN Stack Developer role with 1+ year of experience and available for immediate joining. I also have experience with n8n automation.\n\nPortfolio: https://hellosumitsaxena.vercel.app\nEmail: hellosumitsaxena@gmail.com\n\nPlease let me know if there are any suitable opportunities. Thanks!\n\nSenior Talent Acquisition Specialist [ Tech & AI Hiring | Employer Branding | Certified Tech Recruiter]\n\nHiring: Lead \u2013 Gen AI QA Engineer \ud83d\udea8\n Location: San Francisco, CA (Hybrid \u2013 1 Day Onsite Mandatory)\n Duration: 12+ Months Contract\n Experience: 10+ Years\n Note: Candidates must be local to the Bay Area\n\nJob Summary:\nWe are looking for an experienced Lead GenAI QA Engineer with strong expertise in AI/ML-driven quality engineering and Agentic AI frameworks. The ideal candidate will lead the development of AI-powered testing solutions, leveraging LLMs, RAG, workflow automation, and MLOps to improve software quality across the SDLC.\n\nRequired Skills:\n\u2714 10+ years in Software Engineering / Quality Engineering\n\u2714 3+ years of experience implementing AI/ML or Generative AI solutions\n\u2714 Strong knowledge of LLM orchestration, Agentic AI, RAG, Prompt Engineering, Vector Databases\n\u2714 Experience with workflow automation tools (n8n, Nova)\n\u2714 Hands-on experience with RAG implementations or model fine-tuning\n\u2714 Experience integrating MCP servers with LLMs\n\u2714 Strong Python programming skills\n\u2714 Experience with SQL & NoSQL databases\n\u2714 Ability to troubleshoot LLM and workflow-level issues\n\u2714 Knowledge of LLM hallucination mitigation strategies\n\u2714 Experience monitoring GenAI systems (security & privacy)\n\n\ud83d\udce9 If you are interested or know someone who is a good fit, please share your resume at:\n  shalini@kzsoftsolutions.com\n M: (813) 568-1274 | \u260e\ufe0f P: (813) 568-1270 x 104\n\n#Hiring #GenAI #AIQA #MachineLearning #LLM #SanFranciscoJobs #ContractJobs\n\nHiring: Lead \u2013 Gen AI QA Engineer \ud83d\udea8\n Location: San Francisco, CA (Hybrid \u2013 1 Day Onsite Mandatory)\n Duration: 12+ Months Contract\n Experience: 10+ Years\n Note: Candidates must be local to the Bay Area\n\nJob Summary:\nWe are looking for an experienced Lead GenAI QA Engineer with strong expertise in AI/ML-driven quality engineering and Agentic AI frameworks. The ideal candidate will lead the development of AI-powered testing solutions, leveraging LLMs, RAG, workflow automation, and MLOps to improve software quality across the SDLC.\n\nRequired Skills:\n\u2714 10+ years in Software Engineering / Quality Engineering\n\u2714 3+ years of experience implementing AI/ML or Generative AI solutions\n\u2714 Strong knowledge of LLM orchestration, Agentic AI, RAG, Prompt Engineering, Vector Databases\n\u2714 Experience with workflow automation tools (n8n, Nova)\n\u2714 Hands-on experience with RAG implementations or model fine-tuning\n\u2714 Experience integrating MCP servers with LLMs\n\u2714 Strong Python programming skills\n\u2714 Experience with SQL & NoSQL databases\n\u2714 Ability to troubleshoot LLM and workflow-level issues\n\u2714 Knowledge of LLM hallucination mitigation strategies\n\u2714 Experience monitoring GenAI systems (security & privacy)\n\n\ud83d\udce9 If you are interested or know someone who is a good fit, please share your resume at:\n  shalini@kzsoftsolutions.com\n M: (813) 568-1274 | \u260e\ufe0f P: (813) 568-1270 x 104\n\n#Hiring #GenAI #AIQA #MachineLearning #LLM #SanFranciscoJobs #ContractJobs\n\nBench Sales Recruiter at Kesh tec inc\n\n1,154 followers\n\nvibepool.ai\n\nImmediate Joiner | MERN Stack Developer | Frontend Developer (React.js) | Node.js | MySQL | JavaScript | REST APIs | n8n Automation\n\nSumit Saxena\n\nSoftware QA Engineer | Trainer | Manual Testing | SQL | Core Java | Selenium | Automation Testing | QA Fundamentals | SDLC | STLC | Functional Testing | Non Functional Testing | Regression Testing | Root Cause Analysis\n\nRanjeet Kumar\n\n[EMAILS FOUND IN POST: hellosumitsaxena@gmail.com, shalini@kzsoftsolutions.com, akhil.kumar@skylerinfosystems.com]\n\n[PHONE NUMBERS FOUND IN POST: (813) 568-1270, (813) 568-1274]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 2,
+      "poster_name": "Shalini",
+      "poster_email": "shalini@kzsoftsolutions.com",
+      "poster_phone": "+18135681274",
+      "company": "KZ Soft Solutions",
+      "role_title": "Lead \u2013 Gen AI QA Engineer",
+      "role_summary": "Looking for an experienced Lead GenAI QA Engineer with strong expertise in AI/ML-driven quality engineering and Agentic AI frameworks.",
+      "has_contact_info": true,
+      "saved_to_leads_at": "2026-04-07T15:38:52.215973"
+    },
+    {
+      "entity_urn": "urn:li:activity:7447288091775590400",
+      "post_urn": "urn:li:activity:7447288091775590400",
+      "full_content": "Sourav D.(SD)\n\nSenior Technical Recruiter | USA Recruitment | Expert in Sourcing | Curating Elite Networks of Cloud, Data, and AI Professionals.\n\n#Hiring: Principal Software Engineer \u2013 Agentic AI & DevOps\nLocation: Remote-USA\nRole Type: Contract\n\nWe\u2019re looking for a Principal-level engineer who can build agentic AI systems and lead cloud-native DevOps at scale.\nIf you have hands-on experience with Azure, Kubernetes, CI/CD, Terraform, and LLM frameworks (LangChain/OpenAI) \u2014 this is a high-impact opportunity to work on cutting-edge AI platforms.\n\nInterested or know someone who fits? Let\u2019s connect!\nEmail: sourav.dawn@infojiniconsulting.com\n\n#Hiring #PrincipalEngineer #DevOps #AgenticAI #LLM #OpenAI \n#Azure #Kubernetes #CloudEngineering #PlatformEngineering #AIJobs \n#TechHiring\n\n#Hiring: Principal Software Engineer \u2013 Agentic AI & DevOps\nLocation: Remote-USA\nRole Type: Contract\n\nWe\u2019re looking for a Principal-level engineer who can build agentic AI systems and lead cloud-native DevOps at scale.\nIf you have hands-on experience with Azure, Kubernetes, CI/CD, Terraform, and LLM frameworks (LangChain/OpenAI) \u2014 this is a high-impact opportunity to work on cutting-edge AI platforms.\n\nInterested or know someone who fits? Let\u2019s connect!\nEmail: sourav.dawn@infojiniconsulting.com\n\n#Hiring #PrincipalEngineer #DevOps #AgenticAI #LLM #OpenAI \n#Azure #Kubernetes #CloudEngineering #PlatformEngineering #AIJobs \n#TechHiring\n\n1,154 followers\n\nvibepool.ai\n\nSr Bench sales Recruiter at IFlex INC\n\n[EMAILS FOUND IN POST: sourav.dawn@infojiniconsulting.com]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 3,
+      "poster_name": "Sourav D.(SD)",
+      "poster_email": "sourav.dawn@infojiniconsulting.com",
+      "poster_phone": null,
+      "company": "Infojini Consulting",
+      "role_title": "Principal Software Engineer \u2013 Agentic AI & DevOps",
+      "role_summary": "Looking for a Principal-level engineer who can build agentic AI systems and lead cloud-native DevOps at scale.",
+      "has_contact_info": true
+    },
+    {
+      "entity_urn": "urn:li:activity:7447302064617185280",
+      "post_urn": "urn:li:activity:7447302064617185280",
+      "full_content": "Pavan Sairam T.\n\nSai Sudani, MBA {LION}\n\nVeera Reddy\n\nDhiren Gohel\n\nTorque Technologies LLC\n\n10,774 followers\n\n\ud83d\udcca\u00a0Now Architecting Data into Decisions\n\nWe\u2019re looking for a Senior #DataScientist\u00a0who can go beyond analysis and drive measurable outcomes through data, experimentation, and storytelling.\n\n\ud83c\udf0d\u00a0Remote (PST Hours Required)\u00a0\ud83d\udd52\u00a0Long Term Contract Engagement\n\nThis role isn\u2019t just about cloud\u2014it\u2019s about\u00a0shaping large-scale public sector systems, driving\u00a0secure, compliant, and scalable architectures\u00a0that actually make a difference.\n\n\ud83d\udca1\u00a0What You Bring\n\n- Hands-on expertise with\u00a0#Python, #SQL, #PySpark, #Pandas, #NumPy, #scikit-learn\n- Exposure to\u00a0#AWS/#GCP & large-scale data environments, #AB Testing \n- Strong skills in\u00a0#Spark optimization & big data processing\n\nThis role is perfect for someone who doesn\u2019t just analyze data\u2014but\u00a0influences strategy, shapes decisions, and drives impact at scale.\n\ud83d\udce9 Interested? Share your profile at\u00a0contact@torquetek.com\n\n#Hiring\u00a0#TechJobs\u00a0#TorqueTechnologies\u00a0#ITJobs\u00a0#USAITJobs\u00a0#ITJobGroups\u00a0#ITTech\u00a0#TechJobs#JobOpening\u00a0#HiringNow\u00a0#TechCareers\u00a0#ConsultingJobs\u00a0#ConsultingJobs #JobOpening #CareerOpportunity #HiringNow #linkedinjobs\u00a0#TechCareers\u00a0#ConsultingJobs\u00a0#JobOpening#CareerOpportunity\u00a0#CareerOpportunities\u00a0#HiringNow\u00a0#Hiring\u00a0#TechJobs\u00a0#hiringalert #jobalerts #jobalert #DataDriven #JoinOurTeam\u00a0#careers #techhiring #DataJobs #datadrivenengineering #technologycareers #genzjobs #techvibes #codeculture #nextzendevelopers #genztech #2026vibes\u00a0#BuildDifferent\u00a0#CareerMove #genzhiring #TechLeadership #datascientistjobs #datasciencegroups\u00a0\n#datascientist #python #sql #ai #ml #sql #pyspark #pandas #numpy #sckiitlearn #aws #gcp #abtesting #sparkoptimization #spark #visualizations #datascience\n\n\ud83d\udcca\u00a0Now Architecting Data into Decisions\n\nWe\u2019re looking for a Senior #DataScientist\u00a0who can go beyond analysis and drive measurable outcomes through data, experimentation, and storytelling.\n\n\ud83c\udf0d\u00a0Remote (PST Hours Required)\u00a0\ud83d\udd52\u00a0Long Term Contract Engagement\n\nThis role isn\u2019t just about cloud\u2014it\u2019s about\u00a0shaping large-scale public sector systems, driving\u00a0secure, compliant, and scalable architectures\u00a0that actually make a difference.\n\n\ud83d\udca1\u00a0What You Bring\n\n- Hands-on expertise with\u00a0#Python, #SQL, #PySpark, #Pandas, #NumPy, #scikit-learn\n- Exposure to\u00a0#AWS/#GCP & large-scale data environments, #AB Testing \n- Strong skills in\u00a0#Spark optimization & big data processing\n\nThis role is perfect for someone who doesn\u2019t just analyze data\u2014but\u00a0influences strategy, shapes decisions, and drives impact at scale.\n\ud83d\udce9 Interested? Share your profile at\u00a0contact@torquetek.com\n\n#Hiring\u00a0#TechJobs\u00a0#TorqueTechnologies\u00a0#ITJobs\u00a0#USAITJobs\u00a0#ITJobGroups\u00a0#ITTech\u00a0#TechJobs#JobOpening\u00a0#HiringNow\u00a0#TechCareers\u00a0#ConsultingJobs\u00a0#ConsultingJobs #JobOpening #CareerOpportunity #HiringNow #linkedinjobs\u00a0#TechCareers\u00a0#ConsultingJobs\u00a0#JobOpening#CareerOpportunity\u00a0#CareerOpportunities\u00a0#HiringNow\u00a0#Hiring\u00a0#TechJobs\u00a0#hiringalert #jobalerts #jobalert #DataDriven #JoinOurTeam\u00a0#careers #techhiring #DataJobs #datadrivenengineering #technologycareers #genzjobs #techvibes #codeculture #nextzendevelopers #genztech #2026vibes\u00a0#BuildDifferent\u00a0#CareerMove #genzhiring #TechLeadership #datascientistjobs #datasciencegroups\u00a0\n#datascientist #python #sql #ai #ml #sql #pyspark #pandas #numpy #sckiitlearn #aws #gcp #abtesting #sparkoptimization #spark #visualizations #datascience\n\nHiring | SAP IBP | SAP QA | Java | IOS | Android | QA Automation | Project Manager | Embedded consultants\n\nVeera Reddy\n\nPresident & CEO of Torque Technologies \ud83d\udca1 Bridging the gap between Technology & Business\n\nDinesh Movva\n\nSr. US IT Recruiter.\n\nPavan Sairam T.\n\nTechnical Acquisition Lead at Torque Technologies LLC\n\nNitesh Bhosle\n\nTalent Acquisition Manager, Lead US Recruiter, Account Manager , Staffing Manager, Operations Manager, Recruitment Manager\n\nDhiren Gohel\n\nOperations Manager (Staffing) at Torque Technologies LLC\n\nSai Sudani, MBA {LION}\n\nNaveen Kumar\n\n10,774 followers\n\nTorque Technologies LLC\n\nSr Lead IT Recruiter\n\n[EMAILS FOUND IN POST: contact@torquetek.com]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Veera Reddy",
+      "poster_email": "contact@torquetek.com",
+      "poster_phone": null,
+      "company": "Torque Technologies LLC",
+      "role_title": "Senior Data Scientist",
+      "role_summary": "Senior Data Scientist who can go beyond analysis and drive measurable outcomes through data, experimentation, and storytelling.",
+      "has_contact_info": true
+    },
+    {
+      "entity_urn": "urn:li:activity:7447287107624288257",
+      "post_urn": "urn:li:activity:7447287107624288257",
+      "full_content": "CEO & Founder @NexusHub | AI Engineer @FTE | Incoming @SDE | 10K+ Linkedln | Open Source Contributor | GSSOC , GSOC 23, 24 | Finalist SIH 23, 24 | Mentor | Amazon ML - 24 | Sharing Jobs & Internships | Tech Speaker |\n\nHiring: AI Engineer (Agentic AI | Knowledge Systems)\n\nLooking for a passionate AI Engineer (2\u20134 yrs) to build next-gen intelligent systems using Multi-Agent Architectures, Vector Search, Ontology & Knowledge Graphs.\nHands-on experience with LLMs, RAG, semantic search, and production deployments is a must.\n\n\ud83d\udccd Remote | Contract Role\nInterested? DM or share profiles at g.punjabi@thesynapses.com\n\nHiring: AI Engineer (Agentic AI | Knowledge Systems)\n\nLooking for a passionate AI Engineer (2\u20134 yrs) to build next-gen intelligent systems using Multi-Agent Architectures, Vector Search, Ontology & Knowledge Graphs.\nHands-on experience with LLMs, RAG, semantic search, and production deployments is a must.\n\n\ud83d\udccd Remote | Contract Role\nInterested? DM or share profiles at g.punjabi@thesynapses.com\n\nStudied at Gautam Buddha University\n\nSarita Saraswat\n\nImmigration Lawyer | Inspiring professionals and founders daily | Hiring A players to join my firm \ud83d\udce9 me | Cheese is overrated but people still send me free \ud83e\uddc0 \u2026 I don\u2019t know why\n\nAI Engineer @EXL | Healthcare AI | 2.5+ Years Experience | GenAI (LLMs, RAG) | Agentic AI | Computer Vision | NLP |\n\nManish Saraswat\n\nFull-Stack Developer | Gen AI | Data Science | SpringBoot | Skilled in MERN, Python, FastAPI, Next Js, SQL | Building interactive web apps and deploying trained AI/ML models.\n\nRaj Upadhyay\n\n[EMAILS FOUND IN POST: g.punjabi@thesynapses.com]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 2,
+      "poster_name": "G. Punjabi",
+      "poster_email": "g.punjabi@thesynapses.com",
+      "poster_phone": null,
+      "company": "The Synapses",
+      "role_title": "AI Engineer",
+      "role_summary": "AI Engineer to build next-gen intelligent systems using Multi-Agent Architectures, Vector Search, Ontology & Knowledge Graphs.",
+      "has_contact_info": true
+    }
+  ]
+}
