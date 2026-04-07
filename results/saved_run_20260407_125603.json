@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-07T12:56:03.104809",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 1,
+    "with_phone": 0,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "entity_urn": "urn:li:activity:7447187532456333313",
+      "post_urn": "urn:li:activity:7447187532456333313",
+      "full_content": "Aryaman Kapoor\n\nMitali Chaurasiya Appreciate the interest!\n We review profiles, not comments. Follow Einstellen.AI  https://www.linkedin.com/company/einstellenai/ and register to be considered.\n\nMitali Chaurasiya Appreciate the interest!\n We review profiles, not comments. Follow Einstellen.AI  https://www.linkedin.com/company/einstellenai/ and register to be considered.\n\nAryaman Kapoor\n\nAman Bhatia Appreciate the interest!\n We review profiles, not comments.\n Follow Einstellen.AI  https://www.linkedin.com/company/einstellenai/ and register to be considered.\n\nAman Bhatia Appreciate the interest!\n We review profiles, not comments.\n Follow Einstellen.AI  https://www.linkedin.com/company/einstellenai/ and register to be considered.\n\nAman Bhatia\n\nMitali Chaurasiya\n\nInterested \n\nSarthak Sharma\n\nHi Garima, TuringEdge can support this requirement. We have Azure-certified AI engineers with strong hands-on experience in agentic AI, knowledge systems, LLM applications, RAG, vector databases, semantic search, and production-grade deployments. Happy to share relevant profiles aligned to this role.\n   \n\nJob by Synapse XTL\n\nIndia (Remote)\n\nAI Engineer\u00a0 \n\nGarima Punjabi\n\nUrgently Hiring for AI Engineer (Contractual Role | Remote), Skills- Multiagent system, Vector Search, Ontology, Knowledge Graph || Share resume at g.punjabi@thesynapses.com\n\n\ud83d\ude80 Hiring: AI Engineer (Agentic AI | Knowledge Systems)\n\nLooking for a passionate AI Engineer (2\u20134 yrs) to build next-gen intelligent systems using Multi-Agent Architectures, Vector Search, Ontology & Knowledge Graphs.\nHands-on experience with LLMs, RAG, semantic search, and production deployments is a must.\n\n\ud83d\udccd Remote | Contract Role\nInterested? DM or share profiles at g.punjabi@thesynapses.com\n\n#AIJobs #Hiring #GenerativeAI #AgenticAI #KnowledgeGraph #Ontology #VectorSearch #RAG #RemoteJobs #ContractualJobs\n\n\ud83d\ude80 Hiring: AI Engineer (Agentic AI | Knowledge Systems)\n\nLooking for a passionate AI Engineer (2\u20134 yrs) to build next-gen intelligent systems using Multi-Agent Architectures, Vector Search, Ontology & Knowledge Graphs.\nHands-on experience with LLMs, RAG, semantic search, and production deployments is a must.\n\n\ud83d\udccd Remote | Contract Role\nInterested? DM or share profiles at g.punjabi@thesynapses.com\n\n#AIJobs #Hiring #GenerativeAI #AgenticAI #KnowledgeGraph #Ontology #VectorSearch #RAG #RemoteJobs #ContractualJobs\n\nAI Analyst @Innodata| Cloud Engineer | DevOps & CI/CD | Python Developer | Data Engineer | Data Analyst | BTech Cloud Computing (2025) | Open to Opportunities\n\nManikanta Gadamsetti\n\nGenerative AI Engg | Building LLM Powered Applications | Data Scientist | AIML | Python | LangGraph | LangChain | Agentic AI | ML & LLMOPS | RAG | MCP | A2A | CrewAI | ADK | AWS Bedrock| Azure OpenAI |Talks about #GenAI\n\nReact Native Developer\n\nDeepak Kumar\n\nProfessional People Finder - Career Cupid - Hiring Matchmaker, Hiring for Director of Business Development/ AVP/ CRO (Remote-10+ years), AI Engineer & Java Engineer (2-4 yrs, Contractual role)\n\nShalini Yadav\n\nStaff Software Engineer | Production ML/AI Systems | Data Platforms at Scale | Spark, Kafka, Kubernetes, MLOps\n\nShubham Sharma\n\nCommunity Servant - Climate Change - Sustainability - Community Well-being & Livelihood - Community Development Practitioner -Tribal Welfare - Researcher (Economics) - Welfare Economist - Ex-Academician\n\nAthmaramani Mohanavari (\u0b86\u0ba4\u0bcd\u0bae\u0bb0\u0bae\u0ba3\u0bbf)\n\n[EMAILS FOUND IN POST: g.punjabi@thesynapses.com]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Garima Punjabi",
+      "poster_email": "g.punjabi@thesynapses.com",
+      "poster_phone": null,
+      "company": "Synapse XTL",
+      "role_title": "AI Engineer",
+      "role_summary": "Urgently Hiring for AI Engineer (Contractual Role | Remote), Skills- Multiagent system, Vector Search, Ontology, Knowledge Graph.",
+      "has_contact_info": true
+    }
+  ]
+}
