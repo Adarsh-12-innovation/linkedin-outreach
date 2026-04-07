@@ -38,7 +38,7 @@ CONFIG = {
     "GEMINI_MODEL": "gemini-2.5-flash", 
     "RESUME_CONFIG": "resume_config.json",
     "RESUME_TEMPLATE": "resume_template.html",
-    "OUTPUT_PDF": "Tailored_Resume_Adarsh_Bansal.pdf",
+    "OUTPUT_PDF": "Adarsh_Bansal_CV_2026_CTM.pdf",
     
     # LinkedIn (needed for fetching JD if URN is provided)
     "LINKEDIN_LI_AT": os.getenv("LINKEDIN_LI_AT"),
