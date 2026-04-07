@@ -224,7 +224,8 @@
     "urn:li:activity:7447144562411712512",
     "urn:li:activity:7447236884424032256",
     "urn:li:activity:7447225670235029504",
-    "urn:li:activity:7447187532456333313"
+    "urn:li:activity:7447187532456333313",
+    "urn:li:activity:7447251148505251840"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -412,7 +413,8 @@
     "simpal@kyma.world",
     "jayasri@sadupsoft.com",
     "ai.dakshvariya@gmail.com",
-    "g.punjabi@thesynapses.com"
+    "g.punjabi@thesynapses.com",
+    "soniya.raghuwanshi@huemot.com"
   ],
   "contacted_details": [
     {
@@ -2333,6 +2335,16 @@
       "message_id": "19d68037a5364e5b",
       "followed_up": false,
       "timestamp": "2026-04-07T12:55:52.177604"
+    },
+    {
+      "urn": "urn:li:activity:7447251148505251840",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447251148505251840",
+      "email": "soniya.raghuwanshi@huemot.com",
+      "thread_id": "19d6814c8c8abe88",
+      "message_id": "19d6814c8c8abe88",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-07T18:44:46.371310"
     }
   ]
 }
