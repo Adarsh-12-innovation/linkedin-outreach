@@ -555,7 +555,7 @@ def stage_i_filter(items: list[dict]) -> list[dict]:
         return []
 
     # 2. LLM Contact Detection (flash-lite)
-    batch_size = 10
+    batch_size = 5
     passed = []
     log.info(f"  [Stage I LLM] Detecting contact info in {len(kw_passed)} posts...")
 
@@ -666,7 +666,7 @@ def stage_ii_llm_filter(items: list[dict]) -> list[dict]:
     """
     if not items: return []
 
-    batch_size = 10
+    batch_size = 5
     passed = []
 
     for batch_start in range(0, len(items), batch_size):
@@ -677,16 +677,17 @@ def stage_ii_llm_filter(items: list[dict]) -> list[dict]:
             posts_block += f"\n===== Post {idx + 1} =====\n{content}\n"
 
         prompt = f"""
-Analyze the following job description to determine if it is a GENUINE and RELEVANT contract opportunity for an AI/ML Engineer, Data Scientist, or Python AI Developer based in India.
+Analyze the following job description to determine if it is a GENUINE and RELEVANT contract/freelance opportunity for an AI/ML Engineer, Data Scientist, or Python AI Developer based in India.
 
 ### **1. Mandatory Technical Relevancy (Must involve IMPLEMENTING AI):**
-* **AI/ML & Data Science:** Roles involving actually building, training, or deploying Machine Learning models, NLP, Computer Vision, LLMs, Generative AI, RAG, or Python-based AI Data Engineering.
-* **Microsoft Low-Code AI:** Roles specifically requiring IMPLEMENTATION of Copilot Studio, Azure AI, or M365 AI extensibility.
+* **AI/ML & Data Science:** Roles involving Machine Learning models, NLP, Computer Vision, LLMs, Generative AI, RAG, or Python-based AI Data Engineering.
+*  * **Microsoft Ecosystem & Low-Code AI:** Roles specifically requiring Microsoft Power Platform (Power Apps, Power Automate), Copilot Studio, M365 Copilot extensibility, or Dataverse.
 
 ### **2. STRICT REJECTION CRITERIA (Reject if ANY of these apply):**
 * **Generic Software Engineering:** Reject pure Java, .NET, C#, or C++ developer roles even if they mention "AI-enabled" or "using AI tools." If the primary task is building standard web apps, APIs, or enterprise systems in Java/JS WITHOUT developing/fine-tuning ML models, REJECT.
 * **Design/UX:** Reject AI Product Designers, UX Designers, UI Architects, or any design-first roles. We are looking for CODING and IMPLEMENTATION engineers only.
-* **Non-Technical/Leadership:** Reject Marketing, Sales, Project Management, or pure Recruitment roles.
+* **Non-Technical:** Reject Marketing, Sales, or pure Recruitment roles.
+* **Nature of Work:** Training, teaching, academic internships, or "shadowing" roles.
 * **Location:** US-only, UK-only, or any "Onsite/Hybrid" requirement outside of India. (Must be Remote-Global or Remote-India).
 * **Job Type:** Full-time permanent roles (Only Contract/Freelance/Temporary allowed).
 
@@ -1178,8 +1179,17 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
         body_lines.append("🔄 FOLLOW-UP EMAILS SENT (No reply after 24h)")
         body_lines.append("-" * 30)
         for i, entry in enumerate(followed_up, 1):
-            body_lines.append(f"{i}. Followed up with: {entry.get('email')}")
-            body_lines.append(f"   LinkedIn: {entry.get('url') or 'N/A'}\n")
+            email = entry.get("email")
+            url = entry.get("url") or "No URL"
+            urn = entry.get("urn", "")
+            short_urn = urn.split(":")[-1] if urn else ""
+            resume_link = f"https://github.com/Adarsh-12-innovation/linkedin-outreach/actions/workflows/custom_resume.yml"
+
+            body_lines.append(f"{i}. Followed up with: {email}")
+            body_lines.append(f"   LinkedIn: {url}")
+            if short_urn:
+                body_lines.append(f"   📄 Custom Resume: {resume_link} (Paste URN: {short_urn})")
+            body_lines.append("")
 
     if phone_leads:
         body_lines.append("📞 PHONE LEADS (Manual Follow-up)")
@@ -1260,181 +1270,6 @@ def send_one_email(service, to_email, name, role_title, post_url=""):
 
     raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
     return service.users().messages().send(userId="me", body={"raw": raw}).execute()
-
-
-def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str, post_url: str) -> str:
-    """Clean phone number and generate a pre-filled WhatsApp wa.me link."""
-    try:
-        digits_only = re.sub(r"\D", "", phone_str)
-        if len(digits_only) == 10:
-            final_number = "91" + digits_only
-        elif len(digits_only) > 10:
-            final_number = digits_only
-        else:
-            return ""
-        
-        first_name = extract_first_name(recipient_name)
-        body = EMAIL_TEMPLATE["body"].format(
-            recipient_name=first_name or "Team",
-            role_title=role_title or "AI/ML Engineer",
-            post_url=post_url or "LinkedIn post",
-            sender_name=CONFIG["SENDER_NAME"],
-        )
-        body = body.replace("attached below", f"here:\n{CONFIG['RESUME_URL']}")
-        return f"https://wa.me/{final_number}?text={quote(body)}"
-    except Exception as e:
-        log.debug(f"Failed to format WhatsApp link: {e}")
-        return ""
-
-
-def send_followup_email(service, to_email: str, thread_id: str, last_message_id: str) -> dict:
-    """Send a follow-up email in the same thread."""
-    thread = service.users().threads().get(userId="me", id=thread_id).execute()
-    messages = thread.get("messages", [])
-    subject = "Follow up: Application"
-    for part in messages[0].get("payload", {}).get("headers", []):
-        if part.get("name") == "Subject":
-            subject = part.get("value")
-            if not subject.lower().startswith("re:"):
-                subject = f"Re: {subject}"
-            break
-
-    msg = MIMEMultipart()
-    msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
-    msg["To"] = to_email
-    msg["Subject"] = subject
-    msg["In-Reply-To"] = last_message_id
-    msg["References"] = last_message_id
-    body = """Hello Team,
-
-Hope you are doing well! It would be great if you can share for any update on my application with respect to the last mail.
-
-Thanks & Regards,
-Adarsh
-Contact: +91-8077593119"""
-    msg.attach(MIMEText(body, "plain"))
-    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-    return service.users().messages().send(userId="me", body={"raw": raw, "threadId": thread_id}).execute()
-
-
-def process_followups(service, history: dict) -> list[dict]:
-    """Check history for emails sent > 24h ago with no reply, and send followup."""
-    log.info("\n[STEP 5] Checking for follow-ups...")
-    contacted_details = history.get("contacted_details", [])
-    if not contacted_details:
-        return []
-
-    now = datetime.now(timezone.utc)
-    followups_sent = []
-    for entry in contacted_details:
-        ts_str = entry.get("timestamp")
-        if not ts_str: continue
-        sent_at = datetime.fromisoformat(ts_str)
-        if sent_at.tzinfo is None:
-            sent_at = sent_at.replace(tzinfo=timezone.utc)
-            
-        hours_passed = (now - sent_at).total_seconds() / 3600
-        if hours_passed < 24 or entry.get("followed_up"):
-            continue
-        
-        thread_id = entry.get("thread_id")
-        email = entry.get("email")
-        if not thread_id or not email: continue
-
-        log.info(f"  Checking thread {thread_id} ({email})...")
-        try:
-            thread = service.users().threads().get(userId="me", id=thread_id).execute()
-            messages = thread.get("messages", [])
-            has_reply = False
-            for msg in messages:
-                from_email = ""
-                for h in msg.get("payload", {}).get("headers", []):
-                    if h.get("name") == "From":
-                        from_email = h.get("value")
-                        break
-                if CONFIG["SENDER_EMAIL"].lower() not in from_email.lower():
-                    has_reply = True; break
-            
-            if has_reply:
-                log.info(f"    Recruiter replied! Marking as followed_up.")
-                entry["followed_up"] = True; continue
-
-            log.info(f"    No reply after {hours_passed:.1f}h. Sending follow-up...")
-            send_followup_email(service, email, thread_id, entry.get("message_id"))
-            entry["followed_up"] = True
-            entry["followup_timestamp"] = datetime.now().isoformat()
-            followups_sent.append(entry)
-            time.sleep(1)
-        except Exception as e:
-            log.error(f"    Error follow-up for {email}: {e}")
-    return followups_sent
-
-
-def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list[dict], followed_up: list[dict] = None):
-    """Send a combined summary email."""
-    if not phone_leads and not emailed_leads and not followed_up:
-        return
-
-    log.info(f"Sending run summary to {CONFIG['SENDER_EMAIL']}...")
-    msg = MIMEMultipart()
-    msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
-    msg["To"] = CONFIG["SENDER_EMAIL"]
-    msg["Subject"] = f"LinkedIn Outreach Summary - {datetime.now().strftime('%Y-%m-%d')}"
-
-    body_lines = [f"Hi {CONFIG['SENDER_NAME']},\n", "Here is the summary from the latest LinkedIn outreach run.\n"]
-    
-    if emailed_leads:
-        body_lines.append("✅ NEW OUTREACH EMAILS SENT\n" + "-"*30)
-        for i, lead in enumerate(emailed_leads, 1):
-            body_lines.append(f"{i}. {lead.get('poster_name','?')} ({lead.get('company','?')})\n   Email:    {lead.get('poster_email')}\n   Role:     {lead.get('role_title')}\n   LinkedIn: {lead.get('post_url')}\n")
-
-    if followed_up:
-        body_lines.append("🔄 FOLLOW-UP EMAILS SENT (No reply after 24h)\n" + "-"*30)
-        for i, entry in enumerate(followed_up, 1):
-            body_lines.append(f"{i}. Followed up with: {entry.get('email')}\n   LinkedIn: {entry.get('url') or 'N/A'}\n")
-
-    if phone_leads:
-        body_lines.append("📞 PHONE LEADS (Manual Follow-up)\n" + "-"*30)
-        for i, lead in enumerate(phone_leads, 1):
-            wa_link = format_whatsapp_link(lead.get('poster_phone',''), lead.get('poster_name',''), lead.get('role_title',''), lead.get('post_url',''))
-            body_lines.append(f"{i}. {lead.get('poster_name','?')} ({lead.get('company','?')})\n   Phone:    {lead.get('poster_phone')}")
-            if wa_link: body_lines.append(f"   WhatsApp: {wa_link}")
-            body_lines.append(f"   LinkedIn: {lead.get('post_url')}\n")
-
-    body_lines.append("\nBest regards,\nYour Outreach Agent")
-    msg.attach(MIMEText("\n".join(body_lines), "plain"))
-    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-    service.users().messages().send(userId="me", body={"raw": raw}).execute()
-
-
-def send_rate_limit_notification():
-    """Gemini rate limit alert."""
-    try:
-        gmail = get_gmail_service()
-        msg = MIMEMultipart()
-        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
-        msg["To"] = CONFIG["SENDER_EMAIL"]
-        msg["Subject"] = "⚠️ Gemini API Rate Limit Alert"
-        msg.attach(MIMEText("All your Gemini API keys have hit their rate limits or failed.", "plain"))
-        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
-        log.info("Rate limit notification sent.")
-    except: pass
-
-
-def send_linkedin_auth_error_notification(status_code: int):
-    """LinkedIn auth error alert."""
-    try:
-        gmail = get_gmail_service()
-        msg = MIMEMultipart()
-        msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
-        msg["To"] = CONFIG["SENDER_EMAIL"]
-        msg["Subject"] = f"⚠️ LinkedIn Auth Error ({status_code}) — Session Expired"
-        msg.attach(MIMEText(f"Your LinkedIn session cookies have expired (HTTP {status_code}). Please refresh li_at and JSESSIONID.", "plain"))
-        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-        gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
-        log.info("Auth error notification sent.")
-    except: pass
 
 
 def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
