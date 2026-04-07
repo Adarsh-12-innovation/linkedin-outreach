@@ -73,6 +73,8 @@ CONFIG = {
     "FILTER_GEMINI_API_KEY": os.getenv("FILTER_GEMINI_API_KEY", ""),
     "FILTER_ALT_GEMINI_API_KEY": os.getenv("FILTER_ALT_GEMINI_API_KEY", ""),
     "FILTER_GEMINI_MODEL": "gemini-2.5-flash-lite",
+    # "FILTER_GEMINI_MODEL": "gemini-3.1-flash-lite",
+
 
     # Gmail OAuth2
     "GMAIL_CREDENTIALS_FILE": "credentials.json",
@@ -674,26 +676,24 @@ def stage_ii_llm_filter(items: list[dict]) -> list[dict]:
             content = (item.get("full_content") or "")[:2500]
             posts_block += f"\n===== Post {idx + 1} =====\n{content}\n"
 
-#         prompt = f"""Analyze if these are GENUINE AI/ML,Data Science or Python developer contract jobs suitable for a candidate in India.
-# # Reject US-only, training, or onsite roles.
-
         prompt = f"""
-Analyze the following job description to determine if it is a GENUINE and RELEVANT contract opportunity for a candidate based in India. 
+Analyze the following job description to determine if it is a GENUINE and RELEVANT contract opportunity for an AI/ML Engineer, Data Scientist, or Python AI Developer based in India.
 
-### **1. Mandatory Technical Relevancy (Pass if any category matches):**
-* **AI/ML & Data Science:** Roles involving Machine Learning, NLP, Computer Vision, LLMs, Generative AI, RAG, or Python-based Data Engineering.
-* **Microsoft Ecosystem & Low-Code AI:** Roles specifically requiring Microsoft Power Platform (Power Apps, Power Automate), Copilot Studio, M365 Copilot extensibility, or Dataverse. 
+### **1. Mandatory Technical Relevancy (Must involve IMPLEMENTING AI):**
+* **AI/ML & Data Science:** Roles involving actually building, training, or deploying Machine Learning models, NLP, Computer Vision, LLMs, Generative AI, RAG, or Python-based AI Data Engineering.
+* **Microsoft Low-Code AI:** Roles specifically requiring IMPLEMENTATION of Copilot Studio, Azure AI, or M365 AI extensibility.
 
-### **2. Strict Rejection Criteria (Reject if ANY of these apply):**
+### **2. STRICT REJECTION CRITERIA (Reject if ANY of these apply):**
+* **Generic Software Engineering:** Reject pure Java, .NET, C#, or C++ developer roles even if they mention "AI-enabled" or "using AI tools." If the primary task is building standard web apps, APIs, or enterprise systems in Java/JS WITHOUT developing/fine-tuning ML models, REJECT.
+* **Design/UX:** Reject AI Product Designers, UX Designers, UI Architects, or any design-first roles. We are looking for CODING and IMPLEMENTATION engineers only.
+* **Non-Technical/Leadership:** Reject Marketing, Sales, Project Management, or pure Recruitment roles.
 * **Location:** US-only, UK-only, or any "Onsite/Hybrid" requirement outside of India. (Must be Remote-Global or Remote-India).
 * **Job Type:** Full-time permanent roles (Only Contract/Freelance/Temporary allowed).
-* **Nature of Work:** Training, teaching, academic internships, or "shadowing" roles.
-* **Irrelevant Tech:** Purely front-end (React/Angular) without an AI/Power Platform component, or generic IT support.
 
 {posts_block}
 
 Respond with ONLY a JSON array:
-[ {{"index": 1, "relevant": true/false, "reason": "..."}} ]
+[ {{"index": 1, "relevant": true/false, "reason": "concise reason for rejection or approval"}} ]
 """
 
         log.info(f"  [Stage II LLM] Relevancy check for {len(batch)} posts...")
