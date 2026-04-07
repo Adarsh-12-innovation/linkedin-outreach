@@ -228,7 +228,9 @@
     "urn:li:activity:7447251148505251840",
     "urn:li:activity:7447268631681323009",
     "urn:li:activity:7447268153438588928",
-    "urn:li:activity:7447256180986499072"
+    "urn:li:activity:7447256180986499072",
+    "urn:li:activity:7447260142900883456",
+    "urn:li:activity:7447263195507027968"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -419,7 +421,8 @@
     "g.punjabi@thesynapses.com",
     "soniya.raghuwanshi@huemot.com",
     "info@sankalptechnologyservices.com",
-    "staffingbridgepro@zohomail.com"
+    "staffingbridgepro@zohomail.com",
+    "anamika.singh@manpower.co.in"
   ],
   "contacted_details": [
     {
@@ -2380,6 +2383,24 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-07T19:04:21.437207"
+    },
+    {
+      "urn": "urn:li:activity:7447260142900883456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447260142900883456",
+      "email": "anamika.singh@manpower.co.in",
+      "thread_id": "19d68449c67f766f",
+      "message_id": "19d68449c67f766f",
+      "followed_up": false,
+      "timestamp": "2026-04-07T14:07:00.557538"
+    },
+    {
+      "urn": "urn:li:activity:7447263195507027968",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447263195507027968",
+      "email": "sukesh@nebulapartners.com",
+      "thread_id": "19d6844a513b7459",
+      "message_id": "19d6844a513b7459",
+      "followed_up": false,
+      "timestamp": "2026-04-07T14:07:02.352553"
     }
   ]
 }
