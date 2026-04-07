@@ -35,7 +35,7 @@ CONFIG = {
     "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
     "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY"),
     "SECOND_ALTERNATIVE_GEMINI_API_KEY": os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY"),
-    "GEMINI_MODEL": "gemini-2.5-flash", 
+    "GEMINI_MODEL": "gemini-2.5-pro", 
     "RESUME_CONFIG": "resume_config.json",
     "RESUME_TEMPLATE": "resume_template.html",
     "OUTPUT_PDF": "Tailored_Resume_Adarsh_Bansal.pdf",
