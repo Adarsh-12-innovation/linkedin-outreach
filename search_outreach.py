@@ -148,10 +148,10 @@ Best regards,
 # All checked case-insensitively against post content
 MUST_HAVE_KEYWORDS = {
     "employment_type": [
-        "contract", "freelancer", "freelancing", "contractual", "contractor"
+        "contract", "freelancer", "freelancing", "contractual", "contractor", "c2c", "c2h"
     ],
     "location_type": [
-        "remote", "anywhere", "pan india",
+        "remote", "anywhere", "pan india", "work from home", "wfh","work-from-fome"
     ],
     "domain": [
         "ai", "gen ai", "genai", "generative ai", "machine learning", "ml",
@@ -159,12 +159,12 @@ MUST_HAVE_KEYWORDS = {
         "machine learning engineer", "data scientist", "llm", "nlp",
         "python", "agentic", "engineer", "developer", "software",
         "agentic ai", "ai/ml", "artificial intelligence",
-        "ai engineer", "ai developer", "power apps", "power platform", "copilot","m365", "copilot studio", "w2"   
+        "ai engineer", "ai developer", "power apps", "power platform", "copilot","m365", "copilot studio"    
         ],
 }
 
 MUST_NOT_HAVE_KEYWORDS = [
-    "onsite", "hybrid", "wfo", "in-office", "in office", "office", "intern", "internship", "apprentice", "apprenticeship", "headquarters", "full-time","full time"
+    "onsite", "hybrid", "wfo", "work-from-office","work from office","work from offc", "work-from-offc","in-office", "office-based", "intern", "internship", "apprentice", "apprenticeship", "headquarters", "direct hire", "fte"
 ]
 
 # ─────────────────────────────────────────────
@@ -531,6 +531,12 @@ def stage_i_filter(items: list[dict]) -> list[dict]:
         blocked = False
         for kw in MUST_NOT_HAVE_KEYWORDS:
             if re.search(rf"\b{re.escape(kw.lower())}\b", content):
+                # OVERRIDE: If it's a 'forbidden' word but also has a 'contract' word, allow it
+                # This handles "Full Time Contract" or "Work from Office but Remote allowed"
+                is_contract = any(re.search(rf"\b{re.escape(c.lower())}\b", content) for c in MUST_HAVE_KEYWORDS["employment_type"])
+                if is_contract and kw.lower() in ["permanent", "full-time", "full time"]:
+                    continue # It's a contract role that happens to be full-time
+                
                 blocked = True; break
         if blocked: continue
             

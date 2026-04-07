@@ -397,6 +397,12 @@ def main():
     tailored_data = result.get("tailored_resume")
     analysis = result.get("analysis", {})
     
+    # SAFETY HALT: If Gemini failed, do not generate/send a broken resume
+    if analysis.get("match_score") == 0 or analysis.get("tailoring_notes") == "API Error":
+        log.critical("Resume tailoring failed (API Error or 0% match). Check Gemini quota and logs.")
+        log.error("Aborting PDF generation and email to prevent sending un-tailored resume.")
+        sys.exit(1)
+    
     # 4. Generate PDF
     generate_pdf(tailored_data, CONFIG["RESUME_TEMPLATE"], CONFIG["OUTPUT_PDF"])
     
