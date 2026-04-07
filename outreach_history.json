@@ -215,7 +215,10 @@
     "urn:li:activity:7446965862034518016",
     "urn:li:activity:7446926435841314816",
     "urn:li:activity:7446909581160759296",
-    "urn:li:activity:7446980227437838336"
+    "urn:li:activity:7446980227437838336",
+    "urn:li:activity:7447157622388207616",
+    "urn:li:activity:7447153049707663360",
+    "urn:li:activity:7447144987579916290"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -399,7 +402,9 @@
     "anil.d@echoitsol.com",
     "reshma.d@nityo.com",
     "Shobana.m@lepingconsulting.com",
-    "catherine.r@vrdella.com"
+    "catherine.r@vrdella.com",
+    "simpal@kyma.world",
+    "jayasri@sadupsoft.com"
   ],
   "contacted_details": [
     {
@@ -2228,6 +2233,36 @@
       "message_id": "19d6400adf826a2b",
       "followed_up": false,
       "timestamp": "2026-04-06T23:44:20.465405"
+    },
+    {
+      "urn": "urn:li:activity:7447157622388207616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447157622388207616",
+      "email": "simpal@kyma.world",
+      "thread_id": "19d66865ab09956a",
+      "message_id": "19d66865ab09956a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-07T11:29:34.675709"
+    },
+    {
+      "urn": "urn:li:activity:7447153049707663360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447153049707663360",
+      "email": "nelaveni@augusitsolutions.com",
+      "thread_id": "19d668665349f39a",
+      "message_id": "19d668665349f39a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-07T11:29:37.135949"
+    },
+    {
+      "urn": "urn:li:activity:7447144987579916290",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447144987579916290",
+      "email": "jayasri@sadupsoft.com",
+      "thread_id": "19d66866e5613713",
+      "message_id": "19d66866e5613713",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-07T11:29:39.380751"
     }
   ]
 }
