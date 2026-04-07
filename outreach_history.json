@@ -221,7 +221,9 @@
     "urn:li:activity:7447144987579916290",
     "urn:li:activity:7447144800153387008",
     "urn:li:activity:7447138609461219328",
-    "urn:li:activity:7447144562411712512"
+    "urn:li:activity:7447144562411712512",
+    "urn:li:activity:7447236884424032256",
+    "urn:li:activity:7447225670235029504"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -407,7 +409,8 @@
     "Shobana.m@lepingconsulting.com",
     "catherine.r@vrdella.com",
     "simpal@kyma.world",
-    "jayasri@sadupsoft.com"
+    "jayasri@sadupsoft.com",
+    "ai.dakshvariya@gmail.com"
   ],
   "contacted_details": [
     {
@@ -2293,6 +2296,26 @@
       "message_id": "19d668e9d41d2182",
       "followed_up": false,
       "timestamp": "2026-04-07T11:38:35.558967"
+    },
+    {
+      "urn": "urn:li:activity:7447236884424032256",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447236884424032256",
+      "email": "k.rina@ekloudservices.com",
+      "thread_id": "19d67aa5fc520450",
+      "message_id": "19d67aa5fc520450",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-07T16:48:32.424336"
+    },
+    {
+      "urn": "urn:li:activity:7447225670235029504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447225670235029504",
+      "email": "ai.dakshvariya@gmail.com",
+      "thread_id": "19d67aa693957c8b",
+      "message_id": "19d67aa693957c8b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-07T16:48:34.833041"
     }
   ]
 }
