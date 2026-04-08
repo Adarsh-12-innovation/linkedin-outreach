@@ -7,6 +7,7 @@ Generates a polished PDF and emails it to the user.
 """
 
 import os
+import sys
 import json
 import argparse
 import logging

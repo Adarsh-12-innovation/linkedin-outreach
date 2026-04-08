@@ -1373,7 +1373,7 @@ def send_followup_email(service, to_email: str, thread_id: str, last_message_id:
 
     body = """Hello Team,
 
-Hope you are doing well! It would be great if you can share for any update on my application with respect to the last mail.
+Hope you are doing well! It would be great if you can share for any update on my application.
 
 Thanks & Regards,
 Adarsh
@@ -1688,6 +1688,17 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
     phone_leads = [r for r in results if r.get("poster_phone")]
     with_email = [r for r in results if r.get("poster_email")]
     without_email = [r for r in results if not r.get("poster_email")]
+
+    # Filter excluded domains
+    excluded_domains = CONFIG["EXCLUDED_DOMAINS"]
+    if excluded_domains:
+        before_count = len(with_email)
+        with_email = [
+            r for r in with_email 
+            if r["poster_email"].split('@')[-1].lower() not in excluded_domains
+        ]
+        if len(with_email) < before_count:
+            log.info(f"  Filtered out {before_count - len(with_email)} leads (excluded domains)")
 
     log.info(f"\n  {len(with_email)} with email (will send)")
     log.info(f"  {len(without_email)} without email (skipped)")

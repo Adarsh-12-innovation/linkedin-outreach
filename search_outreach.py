@@ -99,6 +99,7 @@ CONFIG = {
     "HISTORY_FILE": "outreach_history.json",
     "PHONE_LEADS_FILE": "phone_leads.json",
     "RESULTS_DIR": "results",
+    "EXCLUDED_EMAILS": [e.strip().lower() for e in os.getenv("EXCLUDED_EMAILS", "").split(",") if e.strip()],
 
     # Search config
     "SEARCH_PHRASES": [
@@ -107,6 +108,8 @@ CONFIG = {
     ],
     "SEARCH_QUERYID": "voyagerSearchDashClusters.05111e1b90ee7fea15bebe9f9410ced9",
     "SEARCH_MAX_PAGES_PER_PHRASE": int(os.getenv("SEARCH_MAX_PAGES_PER_PHRASE")),  # 10 results per page × 5 = 50 per phrase
+    "MAX_POSTS_PER_RUN": int(os.getenv("MAX_POSTS_PER_RUN")),
+    "EXCLUDED_DOMAINS": os.getenv("EXCLUDED_DOMAINS")
 }
 
 # ─────────────────────────────────────────────
@@ -294,7 +297,7 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
     graphql_base = "https://www.linkedin.com/voyager/api/graphql"
     query_id = CONFIG["SEARCH_QUERYID"]
     
-    # HARD STOP at 100 posts (10 calls max)
+    # HARD STOP at 200 posts
     max_calls = CONFIG["SEARCH_MAX_PAGES_PER_PHRASE"]
     results = []
     pagination_token = None
@@ -302,8 +305,8 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
     start_offset = 0
 
     for call_num in range(max_calls):
-        # REQUEST JITTER: Randomize count between 8 and 12
-        current_batch_size = random.randint(8, 12)
+        # REQUEST JITTER: Randomize count around 20 (Max results per page)
+        current_batch_size = random.randint(18, 22)
         
         query_part = (
             f"keywords:{phrase},"
@@ -418,7 +421,7 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
         start_offset += len(page_results)
         total_fetched += len(page_results)
         
-        if total_fetched >= 100: break
+        if total_fetched >= CONFIG['MAX_POSTS_PER_RUN']: break
 
         # THE PAGINATION GAP: Simulate reading time (8-15s)
         gap = random.uniform(8.0, 15.0)
@@ -555,7 +558,7 @@ def stage_i_filter(items: list[dict]) -> list[dict]:
         return []
 
     # 2. LLM Contact Detection (flash-lite)
-    batch_size = 5
+    batch_size = 10
     passed = []
     log.info(f"  [Stage I LLM] Detecting contact info in {len(kw_passed)} posts...")
 
@@ -1060,7 +1063,7 @@ def send_followup_email(service, to_email: str, thread_id: str, last_message_id:
 
     body = """Hello Team,
 
-Hope you are doing well! It would be great if you can share for any update on my application with respect to the last mail.
+Hope you are doing well! It would be great if you can share for any update on my application.
 
 Thanks & Regards,
 Adarsh
@@ -1280,8 +1283,36 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
         log.info("  No new leads to contact.")
         return []
 
+    # with_email = [r for r in results if r.get("poster_email")]
+    # phone_leads = [r for r in results if r.get("poster_phone")]
+
+    # # Filter excluded domains
+    # excluded_domains = CONFIG["EXCLUDED_DOMAINS"]
+    # if excluded_domains:
+    #     before_count = len(with_email)
+    #     with_email = [
+    #         r for r in with_email 
+    #         if r["poster_email"].split('@')[-1].lower() in excluded_domains
+    #     ]
+        # Wait, the user wants to EXCLUDE these domains. 
+        # Correct logic: if domain NOT in excluded_domains
+        # Re-writing the instruction to be correct.
+        pass
+    
+    # Correcting the logic in the new_string for search_outreach.py
     with_email = [r for r in results if r.get("poster_email")]
     phone_leads = [r for r in results if r.get("poster_phone")]
+
+    # Filter excluded domains
+    excluded_domains = CONFIG["EXCLUDED_DOMAINS"]
+    if excluded_domains:
+        before_count = len(with_email)
+        with_email = [
+            r for r in with_email 
+            if r["poster_email"].split('@')[-1].lower() not in excluded_domains
+        ]
+        if len(with_email) < before_count:
+            log.info(f"  Filtered out {before_count - len(with_email)} leads (excluded domains)")
 
     log.info(f"\n  {len(with_email)} with email, {len(phone_leads)} with phone")
 
@@ -1559,3 +1590,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
