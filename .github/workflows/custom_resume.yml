@@ -34,7 +34,8 @@ jobs:
 
       - name: Run Tailor Script
         env:
-          RESUME_GEMINI_API_KEY: ${{ secrets.RESUME_GEMINI_API_KEY }}
+          RESUME_GEMINI_API_KEY_1: ${{ secrets.RESUME_GEMINI_API_KEY_1 }}
+          RESUME_GEMINI_API_KEY_2: ${{ secrets.RESUME_GEMINI_API_KEY_2 }}
           GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
           LINKEDIN_LI_AT: ${{ secrets.LINKEDIN_LI_AT }}
           LINKEDIN_JSESSIONID: ${{ secrets.LINKEDIN_JSESSIONID }}
