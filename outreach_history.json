@@ -243,7 +243,20 @@
     "urn:li:activity:7447356882433863680",
     "urn:li:activity:7447377428596940801",
     "urn:li:activity:7447380177531260928",
-    "urn:li:activity:7447364180158005248"
+    "urn:li:activity:7447364180158005248",
+    "urn:li:activity:7447539761193553920",
+    "urn:li:activity:7447539712044605440",
+    "urn:li:activity:7447536922970800128",
+    "urn:li:activity:7447536718418829312",
+    "urn:li:activity:7447536042196365313",
+    "urn:li:activity:7447516114051461120",
+    "urn:li:activity:7447513713093390336",
+    "urn:li:activity:7447513607573049344",
+    "urn:li:activity:7447512727490719744",
+    "urn:li:activity:7447505941756858368",
+    "urn:li:activity:7447505610637512704",
+    "urn:li:activity:7447505396744814592",
+    "urn:li:activity:7447450688890236929"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -445,7 +458,12 @@
     "sharandeep.goud@avanceservices.us",
     "mohd.alam@recruiter.nlbtech.com",
     "mubeenakamal.basha@htcinc.com",
-    "harshit@quantumworldit.com"
+    "harshit@quantumworldit.com",
+    "priyadas@edurungroup.in",
+    "hr@smaitee.com",
+    "jobs@dakrishsolutions.com",
+    "rutuja.khonde@clingmultisolutions.org",
+    "ssharma@prointegrate.net"
   ],
   "contacted_details": [
     {
@@ -2559,6 +2577,136 @@
       "message_id": "19d69b674b69d43e",
       "followed_up": false,
       "timestamp": "2026-04-07T20:50:58.429489"
+    },
+    {
+      "urn": "urn:li:activity:7447539761193553920",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447539761193553920",
+      "email": "priyadas@edurungroup.in",
+      "thread_id": "19d6bef3edce9ec4",
+      "message_id": "19d6bef3edce9ec4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:16.292414"
+    },
+    {
+      "urn": "urn:li:activity:7447539712044605440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447539712044605440",
+      "email": "hr@smaitee.com",
+      "thread_id": "19d6bef493178a32",
+      "message_id": "19d6bef493178a32",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:18.791987"
+    },
+    {
+      "urn": "urn:li:activity:7447536922970800128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447536922970800128",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d6bef53dfe173d",
+      "message_id": "19d6bef53dfe173d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:21.202881"
+    },
+    {
+      "urn": "urn:li:activity:7447536718418829312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447536718418829312",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d6bef5c7a24aa1",
+      "message_id": "19d6bef5c7a24aa1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:23.762245"
+    },
+    {
+      "urn": "urn:li:activity:7447536042196365313",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447536042196365313",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d6bef67b6df069",
+      "message_id": "19d6bef67b6df069",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:26.230513"
+    },
+    {
+      "urn": "urn:li:activity:7447516114051461120",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447516114051461120",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19d6bef707752b21",
+      "message_id": "19d6bef707752b21",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:28.573389"
+    },
+    {
+      "urn": "urn:li:activity:7447513713093390336",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447513713093390336",
+      "email": "k.rina@ekloudservices.com",
+      "thread_id": "19d6bef782c2294e",
+      "message_id": "19d6bef782c2294e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:31.041807"
+    },
+    {
+      "urn": "urn:li:activity:7447513607573049344",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447513607573049344",
+      "email": "jobs@dakrishsolutions.com",
+      "thread_id": "19d6bef833906639",
+      "message_id": "19d6bef833906639",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:33.502280"
+    },
+    {
+      "urn": "urn:li:activity:7447512727490719744",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447512727490719744",
+      "email": "rutuja.khonde@clingmultisolutions.org",
+      "thread_id": "19d6bef8d39b0bab",
+      "message_id": "19d6bef8d39b0bab",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:35.868986"
+    },
+    {
+      "urn": "urn:li:activity:7447505941756858368",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447505941756858368",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d6bef95469c297",
+      "message_id": "19d6bef95469c297",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:38.308689"
+    },
+    {
+      "urn": "urn:li:activity:7447505610637512704",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447505610637512704",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d6bef9f7617bcf",
+      "message_id": "19d6bef9f7617bcf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:40.772166"
+    },
+    {
+      "urn": "urn:li:activity:7447505396744814592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447505396744814592",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d6befa8c814ab0",
+      "message_id": "19d6befa8c814ab0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:43.127382"
+    },
+    {
+      "urn": "urn:li:activity:7447450688890236929",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447450688890236929",
+      "email": "ssharma@prointegrate.net",
+      "thread_id": "19d6befb29fa9935",
+      "message_id": "19d6befb29fa9935",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-08T12:42:45.491916"
     }
   ]
 }
