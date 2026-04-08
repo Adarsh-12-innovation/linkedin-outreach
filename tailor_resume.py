@@ -33,7 +33,7 @@ load_dotenv()
 # ─────────────────────────────────────────────
 
 CONFIG = {
-    "GEMINI_API_KEY": os.getenv("RESUME_GEMINI_API_KEY"),
+    "RESUME_GEMINI_API_KEY": os.getenv("RESUME_GEMINI_API_KEY"),
     "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY"),
     "SECOND_ALTERNATIVE_GEMINI_API_KEY": os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY"),
     "GEMINI_MODEL": "gemini-2.5-flash", 
@@ -186,7 +186,7 @@ def call_gemini(prompt: str) -> str:
     )
     
     keys = [
-        {"key": CONFIG["GEMINI_API_KEY"], "retries": 2, "name": "Primary"},
+        {"key": CONFIG["RESUME_GEMINI_API_KEY"], "retries": 2, "name": "Primary"},
         {"key": CONFIG["ALTERNATIVE_GEMINI_API_KEY"], "retries": 2, "name": "Alternative 1"},
         {"key": CONFIG["SECOND_ALTERNATIVE_GEMINI_API_KEY"], "retries": 2, "name": "Alternative 2"},
     ]
