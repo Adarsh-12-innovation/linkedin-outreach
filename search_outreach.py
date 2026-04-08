@@ -63,15 +63,19 @@ CONFIG = {
     "LINKEDIN_LI_AT": os.getenv("LINKEDIN_LI_AT", "YOUR_LI_AT_COOKIE"),
     "LINKEDIN_JSESSIONID": os.getenv("LINKEDIN_JSESSIONID", "YOUR_JSESSIONID_COOKIE"),
 
-    # Gemini — Contact extraction keys (reuses same keys as saved_posts_outreach.py)
-    "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY"),
-    "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY", ""),
-    "SECOND_ALTERNATIVE_GEMINI_API_KEY": os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY", ""),
+    # Gemini — Contact extraction keys (6 keys with 1 retry each)
+    "GEMINI_API_KEY_1": os.getenv("GEMINI_API_KEY_1", os.getenv("GEMINI_API_KEY", "")),
+    "GEMINI_API_KEY_2": os.getenv("GEMINI_API_KEY_2", os.getenv("ALTERNATIVE_GEMINI_API_KEY", "")),
+    "GEMINI_API_KEY_3": os.getenv("GEMINI_API_KEY_3", os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY", "")),
+    "GEMINI_API_KEY_4": os.getenv("GEMINI_API_KEY_4", ""),
+    "GEMINI_API_KEY_5": os.getenv("GEMINI_API_KEY_5", ""),
+    "GEMINI_API_KEY_6": os.getenv("GEMINI_API_KEY_6", ""),
     "GEMINI_MODEL": "gemini-2.5-flash",
 
-    # Gemini — LLM Filtering keys (SEPARATE keys to avoid quota contention)
-    "FILTER_GEMINI_API_KEY": os.getenv("FILTER_GEMINI_API_KEY", ""),
-    "FILTER_ALT_GEMINI_API_KEY": os.getenv("FILTER_ALT_GEMINI_API_KEY", ""),
+    # Gemini — LLM Filtering keys (3 keys with 1 retry each)
+    "FILTER_GEMINI_API_KEY_1": os.getenv("FILTER_GEMINI_API_KEY_1", os.getenv("FILTER_GEMINI_API_KEY", "")),
+    "FILTER_GEMINI_API_KEY_2": os.getenv("FILTER_GEMINI_API_KEY_2", os.getenv("FILTER_ALT_GEMINI_API_KEY", "")),
+    "FILTER_GEMINI_API_KEY_3": os.getenv("FILTER_GEMINI_API_KEY_3", ""),
     "FILTER_GEMINI_MODEL": "gemini-2.5-flash-lite",
     # "FILTER_GEMINI_MODEL": "gemini-3.1-flash-lite",
 
@@ -600,8 +604,7 @@ Respond with ONLY a JSON array: [ {{"index": 1, "has_contact": true/false}} ]
 def call_filter_gemini(prompt: str) -> str:
     """
     Call Gemini with FILTER-specific API keys (flash-lite).
-    - Key 1: 1 retry
-    - Key 2: 1 retry
+    - 3 keys with 1 retry each (2 attempts per key).
     """
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
@@ -609,8 +612,9 @@ def call_filter_gemini(prompt: str) -> str:
     )
 
     keys = [
-        {"key": CONFIG["FILTER_GEMINI_API_KEY"], "retries": 1, "name": "Filter Primary"},
-        {"key": CONFIG["FILTER_ALT_GEMINI_API_KEY"], "retries": 1, "name": "Filter Alt"},
+        {"key": CONFIG["FILTER_GEMINI_API_KEY_1"], "retries": 1, "name": "Filter Key 1"},
+        {"key": CONFIG["FILTER_GEMINI_API_KEY_2"], "retries": 1, "name": "Filter Key 2"},
+        {"key": CONFIG["FILTER_GEMINI_API_KEY_3"], "retries": 1, "name": "Filter Key 3"},
     ]
 
     for k_info in keys:
@@ -738,9 +742,12 @@ def call_gemini(prompt: str) -> str:
     )
 
     keys = [
-        {"key": CONFIG["GEMINI_API_KEY"], "retries": 1, "name": "Primary"},
-        {"key": CONFIG["ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alt 1"},
-        {"key": CONFIG["SECOND_ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alt 2"},
+        {"key": CONFIG["GEMINI_API_KEY_1"], "retries": 1, "name": "Extraction Key 1"},
+        {"key": CONFIG["GEMINI_API_KEY_2"], "retries": 1, "name": "Extraction Key 2"},
+        {"key": CONFIG["GEMINI_API_KEY_3"], "retries": 1, "name": "Extraction Key 3"},
+        {"key": CONFIG["GEMINI_API_KEY_4"], "retries": 1, "name": "Extraction Key 4"},
+        {"key": CONFIG["GEMINI_API_KEY_5"], "retries": 1, "name": "Extraction Key 5"},
+        {"key": CONFIG["GEMINI_API_KEY_6"], "retries": 1, "name": "Extraction Key 6"},
     ]
 
     for k_info in keys:

@@ -33,9 +33,8 @@ load_dotenv()
 # ─────────────────────────────────────────────
 
 CONFIG = {
-    "RESUME_GEMINI_API_KEY": os.getenv("RESUME_GEMINI_API_KEY"),
-    "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY"),
-    "SECOND_ALTERNATIVE_GEMINI_API_KEY": os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY"),
+    "RESUME_GEMINI_API_KEY_1": os.getenv("RESUME_GEMINI_API_KEY_1", os.getenv("RESUME_GEMINI_API_KEY", "")),
+    "RESUME_GEMINI_API_KEY_2": os.getenv("RESUME_GEMINI_API_KEY_2", os.getenv("ALTERNATIVE_GEMINI_API_KEY", "")),
     "GEMINI_MODEL": "gemini-2.5-flash", 
     # "GEMINI_MODEL": "gemma-4-31b-it", 
     "RESUME_CONFIG": "resume_config.json",
@@ -179,6 +178,7 @@ def fetch_jd_from_linkedin(urn: str) -> str:
 def call_gemini(prompt: str) -> str:
     """
     Call Gemini API with specialized retry/rotation logic.
+    - 2 keys with 1 retry each (2 attempts per key).
     """
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
@@ -186,9 +186,8 @@ def call_gemini(prompt: str) -> str:
     )
     
     keys = [
-        {"key": CONFIG["RESUME_GEMINI_API_KEY"], "retries": 2, "name": "Primary"},
-        {"key": CONFIG["ALTERNATIVE_GEMINI_API_KEY"], "retries": 2, "name": "Alternative 1"},
-        {"key": CONFIG["SECOND_ALTERNATIVE_GEMINI_API_KEY"], "retries": 2, "name": "Alternative 2"},
+        {"key": CONFIG["RESUME_GEMINI_API_KEY_1"], "retries": 1, "name": "Resume Key 1"},
+        {"key": CONFIG["RESUME_GEMINI_API_KEY_2"], "retries": 1, "name": "Resume Key 2"},
     ]
 
     for k_info in keys:

@@ -104,9 +104,12 @@ CONFIG = {
 
 
     # Gemini
-    "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY"),
-    "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY", ""),
-    "SECOND_ALTERNATIVE_GEMINI_API_KEY": os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY", ""),
+    "GEMINI_API_KEY_1": os.getenv("GEMINI_API_KEY_1", os.getenv("GEMINI_API_KEY", "")),
+    "GEMINI_API_KEY_2": os.getenv("GEMINI_API_KEY_2", os.getenv("ALTERNATIVE_GEMINI_API_KEY", "")),
+    "GEMINI_API_KEY_3": os.getenv("GEMINI_API_KEY_3", os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY", "")),
+    "GEMINI_API_KEY_4": os.getenv("GEMINI_API_KEY_4", ""),
+    "GEMINI_API_KEY_5": os.getenv("GEMINI_API_KEY_5", ""),
+    "GEMINI_API_KEY_6": os.getenv("GEMINI_API_KEY_6", ""),
     "GEMINI_MODEL": "gemini-2.5-flash",
 
     # Gmail OAuth2
@@ -133,6 +136,8 @@ CONFIG = {
     "PHONE_LEADS_FILE": "phone_leads.json",
     "RESULTS_DIR": "results",
     "STALE_QUERYID_NOTIFIED_FILE": ".queryid_stale_notified",
+    "EXCLUDED_DOMAINS": os.getenv("EXCLUDED_DOMAINS")
+
 }
 
 # ─────────────────────────────────────────────
@@ -955,9 +960,7 @@ def fetch_all_post_contents(session: requests.Session, saved_items: list[dict]) 
 def call_gemini(prompt: str) -> str:
     """
     Call Gemini API with specialized retry/rotation logic:
-    - Key 1: 1 retries (3 attempts total)
-    - Key 2: 1 retry (2 attempts total)
-    - Key 3: 1 retry (2 attempts total)
+    - 6 keys with 1 retry each (2 attempts per key).
     If all fail with 429, send an email notification.
     """
     url = (
@@ -966,9 +969,12 @@ def call_gemini(prompt: str) -> str:
     )
     
     keys = [
-        {"key": CONFIG["GEMINI_API_KEY"], "retries": 1, "name": "Primary"},
-        {"key": CONFIG["ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 1"},
-        {"key": CONFIG["SECOND_ALTERNATIVE_GEMINI_API_KEY"], "retries": 1, "name": "Alternative 2"},
+        {"key": CONFIG["GEMINI_API_KEY_1"], "retries": 1, "name": "Key 1"},
+        {"key": CONFIG["GEMINI_API_KEY_2"], "retries": 1, "name": "Key 2"},
+        {"key": CONFIG["GEMINI_API_KEY_3"], "retries": 1, "name": "Key 3"},
+        {"key": CONFIG["GEMINI_API_KEY_4"], "retries": 1, "name": "Key 4"},
+        {"key": CONFIG["GEMINI_API_KEY_5"], "retries": 1, "name": "Key 5"},
+        {"key": CONFIG["GEMINI_API_KEY_6"], "retries": 1, "name": "Key 6"},
     ]
 
     for k_info in keys:
