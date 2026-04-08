@@ -33,7 +33,7 @@ load_dotenv()
 # ─────────────────────────────────────────────
 
 CONFIG = {
-    "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
+    "GEMINI_API_KEY": os.getenv("RESUME_GEMINI_API_KEY"),
     "ALTERNATIVE_GEMINI_API_KEY": os.getenv("ALTERNATIVE_GEMINI_API_KEY"),
     "SECOND_ALTERNATIVE_GEMINI_API_KEY": os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY"),
     "GEMINI_MODEL": "gemini-2.5-flash", 
