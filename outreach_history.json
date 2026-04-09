@@ -282,7 +282,9 @@
     "urn:li:activity:7447896136083824641",
     "urn:li:activity:7447895536298274816",
     "urn:li:activity:7447894044522901504",
-    "urn:li:activity:7447891063890944001"
+    "urn:li:activity:7447891063890944001",
+    "urn:li:activity:7447950248028602368",
+    "urn:li:activity:7447963890249826305"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -502,7 +504,8 @@
     "megha@strektech.com",
     "careers@contactdoctor.in",
     "vaishnavi@logiczus.com",
-    "sakshi.c.gempert@gmail.com"
+    "sakshi.c.gempert@gmail.com",
+    "info@eximartglobal.com"
   ],
   "contacted_details": [
     {
@@ -3019,6 +3022,24 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-09T15:35:42.101376"
+    },
+    {
+      "urn": "urn:li:activity:7447950248028602368",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447950248028602368",
+      "email": "muskan_d@aaryavinservices.com",
+      "thread_id": "19d71fa9c17651d3",
+      "message_id": "19d71fa9c17651d3",
+      "followed_up": false,
+      "timestamp": "2026-04-09T11:22:23.099132"
+    },
+    {
+      "urn": "urn:li:activity:7447963890249826305",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447963890249826305",
+      "email": "info@eximartglobal.com",
+      "thread_id": "19d71faa57a14092",
+      "message_id": "19d71faa57a14092",
+      "followed_up": false,
+      "timestamp": "2026-04-09T11:22:25.013743"
     }
   ]
 }
