@@ -272,7 +272,17 @@
     "urn:li:activity:7447887321011519488",
     "urn:li:activity:7447887180926070784",
     "urn:li:activity:7447882358340501504",
-    "urn:li:activity:7447845568229613568"
+    "urn:li:activity:7447845568229613568",
+    "urn:li:activity:7447941915431464960",
+    "urn:li:activity:7447897934462959616",
+    "urn:li:activity:7447897789411565568",
+    "urn:li:activity:7447897672558071808",
+    "urn:li:activity:7447896353214513153",
+    "urn:li:activity:7447896336210915328",
+    "urn:li:activity:7447896136083824641",
+    "urn:li:activity:7447895536298274816",
+    "urn:li:activity:7447894044522901504",
+    "urn:li:activity:7447891063890944001"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -490,7 +500,9 @@
     "mohini.k@tachyontech.com",
     "hr@sparkinfosol.com",
     "megha@strektech.com",
-    "careers@contactdoctor.in"
+    "careers@contactdoctor.in",
+    "vaishnavi@logiczus.com",
+    "sakshi.c.gempert@gmail.com"
   ],
   "contacted_details": [
     {
@@ -2907,6 +2919,106 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-09T11:51:24.482214"
+    },
+    {
+      "urn": "urn:li:activity:7447941915431464960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447941915431464960",
+      "email": "vaishnavi@logiczus.com",
+      "thread_id": "19d71b40f21456a2",
+      "message_id": "19d71b40f21456a2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:20.381244"
+    },
+    {
+      "urn": "urn:li:activity:7447897934462959616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447897934462959616",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d71b41f5ca5169",
+      "message_id": "19d71b41f5ca5169",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:24.343591"
+    },
+    {
+      "urn": "urn:li:activity:7447897789411565568",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447897789411565568",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d71b427dc2539b",
+      "message_id": "19d71b427dc2539b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:26.650753"
+    },
+    {
+      "urn": "urn:li:activity:7447897672558071808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447897672558071808",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d71b42ebc44e14",
+      "message_id": "19d71b42ebc44e14",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:28.832716"
+    },
+    {
+      "urn": "urn:li:activity:7447896353214513153",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447896353214513153",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d71b439a98d492",
+      "message_id": "19d71b439a98d492",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:31.028304"
+    },
+    {
+      "urn": "urn:li:activity:7447896336210915328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447896336210915328",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d71b441ad38792",
+      "message_id": "19d71b441ad38792",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:33.232415"
+    },
+    {
+      "urn": "urn:li:activity:7447896136083824641",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447896136083824641",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d71b448f0e51a5",
+      "message_id": "19d71b448f0e51a5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:35.492376"
+    },
+    {
+      "urn": "urn:li:activity:7447895536298274816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447895536298274816",
+      "email": "muskan_d@aaryavinservices.com",
+      "thread_id": "19d71b453e176961",
+      "message_id": "19d71b453e176961",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:37.707478"
+    },
+    {
+      "urn": "urn:li:activity:7447894044522901504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447894044522901504",
+      "email": "mohini.k@tachyontech.com",
+      "thread_id": "19d71b45b5e86e74",
+      "message_id": "19d71b45b5e86e74",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:39.965275"
+    },
+    {
+      "urn": "urn:li:activity:7447891063890944001",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447891063890944001",
+      "email": "sakshi.c.gempert@gmail.com",
+      "thread_id": "19d71b462b839923",
+      "message_id": "19d71b462b839923",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-09T15:35:42.101376"
     }
   ]
 }
