@@ -264,7 +264,10 @@
     "urn:li:activity:7447528848650321920",
     "urn:li:activity:7447666354561884160",
     "urn:li:activity:7447666475894751232",
-    "urn:li:activity:7447545339722756096"
+    "urn:li:activity:7447545339722756096",
+    "urn:li:activity:7447836958434811905",
+    "urn:li:activity:7447840753415880704",
+    "urn:li:activity:7447848290403926016"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -476,7 +479,8 @@
     "hr@aspirax.co",
     "Vyshnavi.Venigallav@hankersystems.in",
     "renganayaki@vysystems.com",
-    "rikhitapadmaa@gmail.com"
+    "rikhitapadmaa@gmail.com",
+    "talent.execura@gmail.com"
   ],
   "contacted_details": [
     {
@@ -2541,8 +2545,9 @@
       "email": "nagendraworkspace@gmail.com",
       "thread_id": "19d69b63c16feb5c",
       "message_id": "19d69b63c16feb5c",
-      "followed_up": false,
-      "timestamp": "2026-04-07T20:50:44.233624"
+      "followed_up": true,
+      "timestamp": "2026-04-07T20:50:44.233624",
+      "followup_timestamp": "2026-04-09T04:38:16.807318"
     },
     {
       "urn": "urn:li:activity:7447362812521185282",
@@ -2550,8 +2555,9 @@
       "email": "sirish.g@avanceservices.com",
       "thread_id": "19d69b6448f82d6d",
       "message_id": "19d69b6448f82d6d",
-      "followed_up": false,
-      "timestamp": "2026-04-07T20:50:46.247348"
+      "followed_up": true,
+      "timestamp": "2026-04-07T20:50:46.247348",
+      "followup_timestamp": "2026-04-09T04:38:18.265762"
     },
     {
       "urn": "urn:li:activity:7447377851596840960",
@@ -2559,8 +2565,9 @@
       "email": "sharandeep.goud@avanceservices.us",
       "thread_id": "19d69b64d6067ba9",
       "message_id": "19d69b64d6067ba9",
-      "followed_up": false,
-      "timestamp": "2026-04-07T20:50:48.285077"
+      "followed_up": true,
+      "timestamp": "2026-04-07T20:50:48.285077",
+      "followup_timestamp": "2026-04-09T04:38:19.712054"
     },
     {
       "urn": "urn:li:activity:7447368007611326464",
@@ -2568,8 +2575,9 @@
       "email": "mohd.alam@recruiter.nlbtech.com",
       "thread_id": "19d69b654f0917b3",
       "message_id": "19d69b654f0917b3",
-      "followed_up": false,
-      "timestamp": "2026-04-07T20:50:50.309905"
+      "followed_up": true,
+      "timestamp": "2026-04-07T20:50:50.309905",
+      "followup_timestamp": "2026-04-09T04:38:21.287850"
     },
     {
       "urn": "urn:li:activity:7447356882433863680",
@@ -2577,8 +2585,9 @@
       "email": "mubeenakamal.basha@htcinc.com",
       "thread_id": "19d69b65ca20581a",
       "message_id": "19d69b65ca20581a",
-      "followed_up": false,
-      "timestamp": "2026-04-07T20:50:52.334350"
+      "followed_up": true,
+      "timestamp": "2026-04-07T20:50:52.334350",
+      "followup_timestamp": "2026-04-09T04:38:22.746853"
     },
     {
       "urn": "urn:li:activity:7447377428596940801",
@@ -2586,8 +2595,9 @@
       "email": "sharandeep.goud@avanceservices.us",
       "thread_id": "19d69b66509ee2d7",
       "message_id": "19d69b66509ee2d7",
-      "followed_up": false,
-      "timestamp": "2026-04-07T20:50:54.489430"
+      "followed_up": true,
+      "timestamp": "2026-04-07T20:50:54.489430",
+      "followup_timestamp": "2026-04-09T04:38:24.235027"
     },
     {
       "urn": "urn:li:activity:7447380177531260928",
@@ -2595,8 +2605,9 @@
       "email": "harshit@quantumworldit.com",
       "thread_id": "19d69b66d37d2c71",
       "message_id": "19d69b66d37d2c71",
-      "followed_up": false,
-      "timestamp": "2026-04-07T20:50:56.468842"
+      "followed_up": true,
+      "timestamp": "2026-04-07T20:50:56.468842",
+      "followup_timestamp": "2026-04-09T04:38:25.714983"
     },
     {
       "urn": "urn:li:activity:7447364180158005248",
@@ -2604,8 +2615,9 @@
       "email": "sirish.g@avanceservices.com",
       "thread_id": "19d69b674b69d43e",
       "message_id": "19d69b674b69d43e",
-      "followed_up": false,
-      "timestamp": "2026-04-07T20:50:58.429489"
+      "followed_up": true,
+      "timestamp": "2026-04-07T20:50:58.429489",
+      "followup_timestamp": "2026-04-09T04:38:27.199718"
     },
     {
       "urn": "urn:li:activity:7447539761193553920",
@@ -2808,6 +2820,33 @@
       "message_id": "19d6e91669aba1c5",
       "followed_up": false,
       "timestamp": "2026-04-09T00:58:36.942651"
+    },
+    {
+      "urn": "urn:li:activity:7447836958434811905",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447836958434811905",
+      "email": "talent.execura@gmail.com",
+      "thread_id": "19d70889100b97a6",
+      "message_id": "19d70889100b97a6",
+      "followed_up": false,
+      "timestamp": "2026-04-09T04:38:11.618861"
+    },
+    {
+      "urn": "urn:li:activity:7447840753415880704",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447840753415880704",
+      "email": "talent.execura@gmail.com",
+      "thread_id": "19d70889816c33e5",
+      "message_id": "19d70889816c33e5",
+      "followed_up": false,
+      "timestamp": "2026-04-09T04:38:13.517004"
+    },
+    {
+      "urn": "urn:li:activity:7447848290403926016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447848290403926016",
+      "email": "sherly.seedarla@rayosys.com",
+      "thread_id": "19d70889f78a898f",
+      "message_id": "19d70889f78a898f",
+      "followed_up": false,
+      "timestamp": "2026-04-09T04:38:15.321873"
     }
   ]
 }
