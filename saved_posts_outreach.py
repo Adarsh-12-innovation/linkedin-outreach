@@ -110,7 +110,7 @@ CONFIG = {
     "GEMINI_API_KEY_4": os.getenv("GEMINI_API_KEY_4", ""),
     "GEMINI_API_KEY_5": os.getenv("GEMINI_API_KEY_5", ""),
     "GEMINI_API_KEY_6": os.getenv("GEMINI_API_KEY_6", ""),
-    "GEMINI_MODEL": "gemini-2.5-flash",
+    "GEMINI_MODEL": "gemini-2.5-flash-lite",
 
     # Gmail OAuth2
     "GMAIL_CREDENTIALS_FILE": "credentials.json",

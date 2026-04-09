@@ -29,6 +29,7 @@ Usage:
     python search_outreach.py                 # Full pipeline
     python search_outreach.py --dry-run       # Everything except sending emails
     python search_outreach.py --no-git-sync   # Skip auto git pull/push
+    python search_outreach.py --use-cffi
 """
 
 import os
@@ -70,7 +71,9 @@ CONFIG = {
     "GEMINI_API_KEY_4": os.getenv("GEMINI_API_KEY_4", ""),
     "GEMINI_API_KEY_5": os.getenv("GEMINI_API_KEY_5", ""),
     "GEMINI_API_KEY_6": os.getenv("GEMINI_API_KEY_6", ""),
-    "GEMINI_MODEL": "gemini-2.5-flash",
+    # "GEMINI_MODEL": "gemini-2.5-flash",
+    "GEMINI_MODEL": "gemini-2.5-flash-lite",
+
 
     # Gemini — LLM Filtering keys (3 keys with 1 retry each)
     "FILTER_GEMINI_API_KEY_1": os.getenv("FILTER_GEMINI_API_KEY_1", os.getenv("FILTER_GEMINI_API_KEY", "")),
