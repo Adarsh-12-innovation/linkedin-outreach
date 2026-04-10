@@ -2999,9 +2999,10 @@
       "email": "vaishnavi@logiczus.com",
       "thread_id": "19d71b40f21456a2",
       "message_id": "19d71b40f21456a2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:20.381244"
+      "timestamp": "2026-04-09T15:35:20.381244",
+      "followup_timestamp": "2026-04-10T17:07:06.188808"
     },
     {
       "urn": "urn:li:activity:7447897934462959616",
@@ -3009,9 +3010,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d71b41f5ca5169",
       "message_id": "19d71b41f5ca5169",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:24.343591"
+      "timestamp": "2026-04-09T15:35:24.343591",
+      "followup_timestamp": "2026-04-10T17:07:07.730577"
     },
     {
       "urn": "urn:li:activity:7447897789411565568",
@@ -3019,9 +3021,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d71b427dc2539b",
       "message_id": "19d71b427dc2539b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:26.650753"
+      "timestamp": "2026-04-09T15:35:26.650753",
+      "followup_timestamp": "2026-04-10T17:07:09.236177"
     },
     {
       "urn": "urn:li:activity:7447897672558071808",
@@ -3029,9 +3032,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d71b42ebc44e14",
       "message_id": "19d71b42ebc44e14",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:28.832716"
+      "timestamp": "2026-04-09T15:35:28.832716",
+      "followup_timestamp": "2026-04-10T17:07:10.726762"
     },
     {
       "urn": "urn:li:activity:7447896353214513153",
@@ -3039,9 +3043,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d71b439a98d492",
       "message_id": "19d71b439a98d492",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:31.028304"
+      "timestamp": "2026-04-09T15:35:31.028304",
+      "followup_timestamp": "2026-04-10T17:07:12.234875"
     },
     {
       "urn": "urn:li:activity:7447896336210915328",
@@ -3049,9 +3054,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d71b441ad38792",
       "message_id": "19d71b441ad38792",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:33.232415"
+      "timestamp": "2026-04-09T15:35:33.232415",
+      "followup_timestamp": "2026-04-10T17:07:13.753240"
     },
     {
       "urn": "urn:li:activity:7447896136083824641",
@@ -3059,9 +3065,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d71b448f0e51a5",
       "message_id": "19d71b448f0e51a5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:35.492376"
+      "timestamp": "2026-04-09T15:35:35.492376",
+      "followup_timestamp": "2026-04-10T17:07:15.259026"
     },
     {
       "urn": "urn:li:activity:7447895536298274816",
@@ -3069,9 +3076,10 @@
       "email": "muskan_d@aaryavinservices.com",
       "thread_id": "19d71b453e176961",
       "message_id": "19d71b453e176961",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:37.707478"
+      "timestamp": "2026-04-09T15:35:37.707478",
+      "followup_timestamp": "2026-04-10T17:07:16.886440"
     },
     {
       "urn": "urn:li:activity:7447894044522901504",
@@ -3079,9 +3087,10 @@
       "email": "mohini.k@tachyontech.com",
       "thread_id": "19d71b45b5e86e74",
       "message_id": "19d71b45b5e86e74",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:39.965275"
+      "timestamp": "2026-04-09T15:35:39.965275",
+      "followup_timestamp": "2026-04-10T17:07:18.361021"
     },
     {
       "urn": "urn:li:activity:7447891063890944001",
@@ -3089,9 +3098,10 @@
       "email": "sakshi.c.gempert@gmail.com",
       "thread_id": "19d71b462b839923",
       "message_id": "19d71b462b839923",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-09T15:35:42.101376"
+      "timestamp": "2026-04-09T15:35:42.101376",
+      "followup_timestamp": "2026-04-10T17:07:19.981142"
     },
     {
       "urn": "urn:li:activity:7447950248028602368",
