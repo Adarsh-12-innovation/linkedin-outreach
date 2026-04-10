@@ -294,7 +294,16 @@
     "urn:li:activity:7448222596955058176",
     "urn:li:activity:7448222477970800641",
     "urn:li:activity:7448222325977636864",
-    "urn:li:activity:7448215445473509377"
+    "urn:li:activity:7448215445473509377",
+    "urn:li:activity:7448259029010882560",
+    "urn:li:activity:7448258686487232513",
+    "urn:li:activity:7448258624868495361",
+    "urn:li:activity:7448258522582245376",
+    "urn:li:activity:7448258301294776320",
+    "urn:li:activity:7448258203986976768",
+    "urn:li:activity:7448256603465703424",
+    "urn:li:activity:7448252461825409024",
+    "urn:li:activity:7448246071648198656"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -518,7 +527,13 @@
     "info@eximartglobal.com",
     "resource@kasturiempowersolutions.com",
     "raksha@conveytechlabs.com",
-    "ruchitha@edurungroup.in"
+    "ruchitha@edurungroup.in",
+    "hr@clouddaystech.com",
+    "info@ascentiqai.com",
+    "chaithanya.v@tachyontech.com",
+    "Vandana@intmavens.com",
+    "triveni.n@nishtechnologies.com",
+    "ashutosh@aloissolutions.com.au"
   ],
   "contacted_details": [
     {
@@ -3171,6 +3186,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-10T11:56:51.503049"
+    },
+    {
+      "urn": "urn:li:activity:7448259029010882560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448259029010882560",
+      "email": "hr@clouddaystech.com",
+      "thread_id": "19d766080c0a8a35",
+      "message_id": "19d766080c0a8a35",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-10T13:22:09.924156"
+    },
+    {
+      "urn": "urn:li:activity:7448258686487232513",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448258686487232513",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d76608de454476",
+      "message_id": "19d76608de454476",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-10T13:22:12.528176"
+    },
+    {
+      "urn": "urn:li:activity:7448258624868495361",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448258624868495361",
+      "email": "info@ascentiqai.com",
+      "thread_id": "19d766095a6918ec",
+      "message_id": "19d766095a6918ec",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-10T13:22:14.841978"
+    },
+    {
+      "urn": "urn:li:activity:7448258522582245376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448258522582245376",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d76609fab704e1",
+      "message_id": "19d76609fab704e1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-10T13:22:17.092709"
+    },
+    {
+      "urn": "urn:li:activity:7448258301294776320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448258301294776320",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d7660a641f6537",
+      "message_id": "19d7660a641f6537",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-10T13:22:19.344330"
+    },
+    {
+      "urn": "urn:li:activity:7448258203986976768",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448258203986976768",
+      "email": "chaithanya.v@tachyontech.com",
+      "thread_id": "19d7660ae405a662",
+      "message_id": "19d7660ae405a662",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-10T13:22:21.611535"
+    },
+    {
+      "urn": "urn:li:activity:7448256603465703424",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448256603465703424",
+      "email": "Vandana@intmavens.com",
+      "thread_id": "19d7660b9bc03699",
+      "message_id": "19d7660b9bc03699",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-10T13:22:23.858454"
+    },
+    {
+      "urn": "urn:li:activity:7448252461825409024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448252461825409024",
+      "email": "triveni.n@nishtechnologies.com",
+      "thread_id": "19d7660c04b38aef",
+      "message_id": "19d7660c04b38aef",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-10T13:22:26.100104"
+    },
+    {
+      "urn": "urn:li:activity:7448246071648198656",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448246071648198656",
+      "email": "ashutosh@aloissolutions.com.au",
+      "thread_id": "19d7660cae4642ab",
+      "message_id": "19d7660cae4642ab",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-10T13:22:28.365420"
     }
   ]
 }
