@@ -3084,8 +3084,9 @@
       "email": "muskan_d@aaryavinservices.com",
       "thread_id": "19d71fa9c17651d3",
       "message_id": "19d71fa9c17651d3",
-      "followed_up": false,
-      "timestamp": "2026-04-09T11:22:23.099132"
+      "followed_up": true,
+      "timestamp": "2026-04-09T11:22:23.099132",
+      "followup_timestamp": "2026-04-10T11:27:58.188522"
     },
     {
       "urn": "urn:li:activity:7447963890249826305",
@@ -3093,8 +3094,9 @@
       "email": "info@eximartglobal.com",
       "thread_id": "19d71faa57a14092",
       "message_id": "19d71faa57a14092",
-      "followed_up": false,
-      "timestamp": "2026-04-09T11:22:25.013743"
+      "followed_up": true,
+      "timestamp": "2026-04-09T11:22:25.013743",
+      "followup_timestamp": "2026-04-10T11:27:59.741812"
     },
     {
       "urn": "urn:li:activity:7447991726545272832",
