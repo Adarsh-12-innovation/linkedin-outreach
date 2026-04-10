@@ -304,7 +304,8 @@
     "urn:li:activity:7448256603465703424",
     "urn:li:activity:7448252461825409024",
     "urn:li:activity:7448246071648198656",
-    "urn:li:activity:7448233185043255296"
+    "urn:li:activity:7448233185043255296",
+    "urn:li:activity:7448300511352553473"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -534,7 +535,8 @@
     "chaithanya.v@tachyontech.com",
     "Vandana@intmavens.com",
     "triveni.n@nishtechnologies.com",
-    "ashutosh@aloissolutions.com.au"
+    "ashutosh@aloissolutions.com.au",
+    "priyadarshini.u@martinettechnologies.com"
   ],
   "contacted_details": [
     {
@@ -3286,6 +3288,15 @@
       "message_id": "19d766fccf779f4a",
       "followed_up": false,
       "timestamp": "2026-04-10T08:08:52.077025"
+    },
+    {
+      "urn": "urn:li:activity:7448300511352553473",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448300511352553473",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "19d76ca68df35141",
+      "message_id": "19d76ca68df35141",
+      "followed_up": false,
+      "timestamp": "2026-04-10T09:47:50.174539"
     }
   ]
 }
