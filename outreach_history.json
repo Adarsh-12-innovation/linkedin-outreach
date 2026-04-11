@@ -3335,8 +3335,9 @@
       "email": "priyadarshini.u@martinettechnologies.com",
       "thread_id": "19d76ca68df35141",
       "message_id": "19d76ca68df35141",
-      "followed_up": false,
-      "timestamp": "2026-04-10T09:47:50.174539"
+      "followed_up": true,
+      "timestamp": "2026-04-10T09:47:50.174539",
+      "followup_timestamp": "2026-04-11T11:03:13.173908"
     },
     {
       "urn": "urn:li:activity:7448302012380758016",
@@ -3344,8 +3345,9 @@
       "email": "pravalika.t@martinettechnologies.com",
       "thread_id": "19d76ce4040272c0",
       "message_id": "19d76ce4040272c0",
-      "followed_up": false,
-      "timestamp": "2026-04-10T09:52:02.023271"
+      "followed_up": true,
+      "timestamp": "2026-04-10T09:52:02.023271",
+      "followup_timestamp": "2026-04-11T11:03:14.707914"
     },
     {
       "urn": "urn:li:activity:7448301165961969664",
@@ -3353,7 +3355,7 @@
       "email": "raveendraiah@jhugnutec.com",
       "thread_id": "19d76ce494fd72f2",
       "message_id": "19d76ce494fd72f2",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-04-10T09:52:03.858157"
     },
     {
