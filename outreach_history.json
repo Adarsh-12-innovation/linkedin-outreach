@@ -313,7 +313,8 @@
     "urn:li:activity:7448337745627754497",
     "urn:li:activity:7448325388952563712",
     "urn:li:activity:7448307508076670977",
-    "urn:li:activity:7448287974389157889"
+    "urn:li:activity:7448287974389157889",
+    "urn:li:activity:7448614566617329664"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -550,7 +551,8 @@
     "chandra@acunor.com",
     "akhil.k@siraconsultinginc.com",
     "hr-hr@asyvainfotech.com",
-    "leela.revanth@adroitinnovative.com"
+    "leela.revanth@adroitinnovative.com",
+    "anshita@ziventra.com"
   ],
   "contacted_details": [
     {
@@ -3408,6 +3410,15 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-10T19:26:50.777281"
+    },
+    {
+      "urn": "urn:li:activity:7448614566617329664",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448614566617329664",
+      "email": "anshita@ziventra.com",
+      "thread_id": "19d7b47f29a9d760",
+      "message_id": "19d7b47f29a9d760",
+      "followed_up": false,
+      "timestamp": "2026-04-11T06:43:26.529279"
     }
   ]
 }
