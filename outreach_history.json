@@ -3455,8 +3455,9 @@
       "email": "kriti@augmentedresourcing.com",
       "thread_id": "19d7bcce27f3910b",
       "message_id": "19d7bcce27f3910b",
-      "followed_up": false,
-      "timestamp": "2026-04-11T09:08:38.513347"
+      "followed_up": true,
+      "timestamp": "2026-04-11T09:08:38.513347",
+      "followup_timestamp": "2026-04-12T09:13:01.594960"
     },
     {
       "urn": "urn:li:activity:7448615733233856514",
@@ -3464,8 +3465,9 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "19d7bccebd498bbf",
       "message_id": "19d7bccebd498bbf",
-      "followed_up": false,
-      "timestamp": "2026-04-11T09:08:40.432884"
+      "followed_up": true,
+      "timestamp": "2026-04-11T09:08:40.432884",
+      "followup_timestamp": "2026-04-12T09:13:03.043337"
     },
     {
       "urn": "urn:li:activity:7448595698821931008",
