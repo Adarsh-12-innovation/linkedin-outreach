@@ -96,8 +96,12 @@ CONFIG = {
     "SENDER_EMAIL": "adarshbansal1995@gmail.com",
 
     # Resume
-    "RESUME_PATH": "Adarsh Bansal_CV_2026.pdf",
-    "RESUME_URL": "https://github.com/Adarsh-12-innovation/linkedin-outreach/raw/main/Adarsh%20Bansal_CV_2026.pdf",
+    "RESUME_PATH": os.getenv("RESUME_PATH", "Adarsh Bansal_CV_2026.pdf"),
+    "RESUME_URL_PREFIX": "https://github.com/Adarsh-12-innovation/linkedin-outreach/raw/main/",
+    
+    # Keyword-based Resume Mapping
+    # Format in .env: RESUME_MAPPING='{"python, ai, ml": "resume_ai.pdf", "data, analytics": "resume_data.pdf"}'
+    "RESUME_MAPPING": json.loads(os.getenv("RESUME_MAPPING", "{}")),
 
     # GitHub (for auto git sync)
     "GITHUB_REPO": "Adarsh-12-innovation/linkedin-outreach",
@@ -116,7 +120,7 @@ CONFIG = {
     "SEARCH_QUERYID": "voyagerSearchDashClusters.05111e1b90ee7fea15bebe9f9410ced9",
     "SEARCH_MAX_PAGES_PER_PHRASE": int(os.getenv("SEARCH_MAX_PAGES_PER_PHRASE")),  # 10 results per page × 5 = 50 per phrase
     "MAX_POSTS_PER_RUN": int(os.getenv("MAX_POSTS_PER_RUN")),
-    "EXCLUDED_DOMAINS": os.getenv("EXCLUDED_DOMAINS")
+    "EXCLUDED_DOMAINS": [d.strip().lower() for d in os.getenv("EXCLUDED_DOMAINS", "").split(",") if d.strip()],
 }
 
 # ─────────────────────────────────────────────
@@ -1018,7 +1022,14 @@ def extract_first_name(full_name: str) -> str:
     return first_name.capitalize()
 
 
-def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str, post_url: str) -> str:
+def get_resume_url(resume_path: str) -> str:
+    """Construct the GitHub URL for a given resume filename."""
+    base_prefix = CONFIG["RESUME_URL_PREFIX"]
+    filename = Path(resume_path).name if resume_path else Path(CONFIG["RESUME_PATH"]).name
+    return f"{base_prefix}{quote(filename)}"
+
+
+def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str, post_url: str, resume_url: str = None) -> str:
     """Clean phone number and generate a pre-filled WhatsApp wa.me link."""
     try:
         # Extract ONLY digits
@@ -1040,7 +1051,11 @@ def format_whatsapp_link(phone_str: str, recipient_name: str, role_title: str, p
             post_url=post_url or "LinkedIn post",
             sender_name=CONFIG["SENDER_NAME"],
         )
-        body = body.replace("attached below", f"here:\n{CONFIG['RESUME_URL']}")
+        
+        # Explicitly call out the dynamic resume in the WhatsApp message
+        final_resume_url = resume_url or get_resume_url(CONFIG["RESUME_PATH"])
+        resume_msg = f"📄 View my Resume: {final_resume_url}\n\n"
+        body = body.replace("Kindly find my resume attached below.", resume_msg)
         
         encoded_msg = quote(body)
         return f"https://wa.me/{final_number}?text={encoded_msg}"
@@ -1257,7 +1272,32 @@ def send_linkedin_auth_error_notification(status_code: int):
     except: pass
 
 
-def send_one_email(service, to_email, name, role_title, post_url=""):
+def select_resume(content: str) -> str:
+    """
+    Select the most relevant resume based on post content and RESUME_MAPPING.
+    Returns the file path of the selected resume.
+    """
+    mapping = CONFIG.get("RESUME_MAPPING", {})
+    if not mapping:
+        return CONFIG["RESUME_PATH"]
+
+    content_lower = content.lower()
+    for keywords_str, resume_file in mapping.items():
+        # Support comma-separated keywords for each resume
+        keywords = [k.strip().lower() for k in keywords_str.split(",")]
+        for kw in keywords:
+            # Robust partial match logic
+            if kw in content_lower:
+                if Path(resume_file).exists():
+                    log.info(f"  Matched keyword '{kw}' -> Selecting {resume_file}")
+                    return resume_file
+                else:
+                    log.warning(f"  Matched {resume_file} but file not found. Falling back.")
+
+    return CONFIG["RESUME_PATH"]
+
+
+def send_one_email(service, to_email, name, role_title, post_url="", resume_path=None):
     msg = MIMEMultipart()
     msg["From"] = f"{CONFIG['SENDER_NAME']} <{CONFIG['SENDER_EMAIL']}>"
     msg["To"] = to_email
@@ -1272,14 +1312,17 @@ def send_one_email(service, to_email, name, role_title, post_url=""):
     )
     msg.attach(MIMEText(body, "plain"))
 
-    resume = Path(CONFIG["RESUME_PATH"])
-    if resume.exists():
-        with open(resume, "rb") as f:
+    # Use selected resume or default
+    final_resume_path = Path(resume_path or CONFIG["RESUME_PATH"])
+    if final_resume_path.exists():
+        with open(final_resume_path, "rb") as f:
             part = MIMEBase("application", "octet-stream")
             part.set_payload(f.read())
             encoders.encode_base64(part)
-            part.add_header("Content-Disposition", f"attachment; filename={resume.name}")
+            part.add_header("Content-Disposition", f"attachment; filename={final_resume_path.name}")
             msg.attach(part)
+    else:
+        log.warning(f"Resume not found at {final_resume_path} — sending without attachment.")
 
     raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
     return service.users().messages().send(userId="me", body={"raw": raw}).execute()
@@ -1293,23 +1336,6 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
         log.info("  No new leads to contact.")
         return []
 
-    # with_email = [r for r in results if r.get("poster_email")]
-    # phone_leads = [r for r in results if r.get("poster_phone")]
-
-    # # Filter excluded domains
-    # excluded_domains = CONFIG["EXCLUDED_DOMAINS"]
-    # if excluded_domains:
-    #     before_count = len(with_email)
-    #     with_email = [
-    #         r for r in with_email 
-    #         if r["poster_email"].split('@')[-1].lower() in excluded_domains
-    #     ]
-        # Wait, the user wants to EXCLUDE these domains. 
-        # Correct logic: if domain NOT in excluded_domains
-        # Re-writing the instruction to be correct.
-        pass
-    
-    # Correcting the logic in the new_string for search_outreach.py
     with_email = [r for r in results if r.get("poster_email")]
     phone_leads = [r for r in results if r.get("poster_phone")]
 
@@ -1339,10 +1365,14 @@ def auto_send(results: list[dict], dry_run: bool = False) -> list[dict]:
         try:
             urn = r.get("post_urn") or r.get("entity_urn", "")
             url = f"https://www.linkedin.com/feed/update/{urn}" if urn else ""
-            resp = send_one_email(gmail, r["poster_email"], r.get("poster_name", ""), r.get("role_title", ""), url)
+            
+            # SELECT CUSTOM RESUME
+            selected_resume = select_resume(r.get("full_content", ""))
+            
+            resp = send_one_email(gmail, r["poster_email"], r.get("poster_name", ""), r.get("role_title", ""), url, resume_path=selected_resume)
             thread_id = resp.get("threadId")
             message_id = resp.get("id")
-            log.info(f"  Sent -> {r['poster_email']} ({r.get('poster_name', '?')}) | Thread: {thread_id}")
+            log.info(f"  Sent -> {r['poster_email']} ({r.get('poster_name', '?')}) | Thread: {thread_id} | Resume: {selected_resume}")
             record_contact(history, urn, r["poster_email"], url, thread_id, message_id)
             emailed.append(r)
             time.sleep(1)
