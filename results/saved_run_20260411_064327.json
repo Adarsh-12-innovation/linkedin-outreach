@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-11T06:43:27.533597",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 1,
+    "with_phone": 0,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "entity_urn": "urn:li:activity:7448614566617329664",
+      "post_urn": "urn:li:activity:7448614566617329664",
+      "full_content": "5,784 followers\n\nWe\u2019re actively looking for strong IT staffing vendors\n\nNot just anyone \u2014\nwe\u2019re looking for reliable vendors who can actually deliver quality tech talent.\n\nAt ZIVENTRA, we are currently working on active client requirements across:\n\u2714 Data Engineers\n\u2714 DevOps Engineers\n\u2714 AI/ML Engineers\n\u2714 SAP & Cloud roles\n\n\ud83e\udd1d If you have:\n\n\u2714 Pre-screened, deployment-ready candidates\n\u2714 Strong experience in contract / full-time hiring\n\u2714 Ability to deliver with speed & quality\n\nThen we should definitely collaborate.\n\nWe don\u2019t believe in bulk CV sharing.\nWe believe in closing positions with the right candidates.\n\nThat\u2019s why we\u2019re building a trusted vendor network \u2014\nnot just one-time partnerships.\n\n\nMail us anshita@ziventra.com or DM to partner with us\n\nLet\u2019s close positions faster \u2014 together\n\nWe\u2019re actively looking for strong IT staffing vendors\n\nNot just anyone \u2014\nwe\u2019re looking for reliable vendors who can actually deliver quality tech talent.\n\nAt ZIVENTRA, we are currently working on active client requirements across:\n\u2714 Data Engineers\n\u2714 DevOps Engineers\n\u2714 AI/ML Engineers\n\u2714 SAP & Cloud roles\n\n\ud83e\udd1d If you have:\n\n\u2714 Pre-screened, deployment-ready candidates\n\u2714 Strong experience in contract / full-time hiring\n\u2714 Ability to deliver with speed & quality\n\nThen we should definitely collaborate.\n\nWe don\u2019t believe in bulk CV sharing.\nWe believe in closing positions with the right candidates.\n\nThat\u2019s why we\u2019re building a trusted vendor network \u2014\nnot just one-time partnerships.\n\n\nMail us anshita@ziventra.com or DM to partner with us\n\nLet\u2019s close positions faster \u2014 together\n\n\ud83e\udde1 Helping Tech Professionals Build Influence, Visibility & Become Sought-After Leaders | Ex-Microsoft | Author of The Sought-After Leader (Coming June 2026) | Leadership Coach\n\nUma Subramanian\n\n[EMAILS FOUND IN POST: anshita@ziventra.com]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Uma Subramanian",
+      "poster_email": "anshita@ziventra.com",
+      "poster_phone": null,
+      "company": "ZIVENTRA",
+      "role_title": null,
+      "role_summary": null,
+      "has_contact_info": true
+    }
+  ]
+}
