@@ -3445,8 +3445,9 @@
       "email": "anshita@ziventra.com",
       "thread_id": "19d7b47f29a9d760",
       "message_id": "19d7b47f29a9d760",
-      "followed_up": false,
-      "timestamp": "2026-04-11T06:43:26.529279"
+      "followed_up": true,
+      "timestamp": "2026-04-11T06:43:26.529279",
+      "followup_timestamp": "2026-04-12T07:50:08.964193"
     },
     {
       "urn": "urn:li:activity:7448635146536194049",
