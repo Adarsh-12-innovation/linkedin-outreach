@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-04-12T23:08:33.324830",
+  "lookback_hours": 48,
+  "stats": {
+    "saved_posts_fetched": 2,
+    "contacts_extracted": 2,
+    "with_email": 1,
+    "with_phone": 1,
+    "emailed": 1
+  },
+  "extracted": [
+    {
+      "entity_urn": "urn:li:activity:7449133349937491968",
+      "post_urn": "urn:li:activity:7449133349937491968",
+      "full_content": "Sonam Sharma\n\nHR Manager at WebOsmic.com\n\n#Hiring: AI/ML + Python Support - Freelance | Remote | Evening Shift\n\n3-4 hours/day | Weekdays | 9:00 PM IST onwards\n\n#MustHave:\u00a0\n- 6+ years of experience\n- AI/ML | Python | ML Ops\n\n#HowToApply:\n- Apply here: https://lnkd.in/drzBqYJE\n\n#WhatsApp: +91 637-635-5600 \u2014 Amit | +91 852-903-3520 \u2014 Dhananjay\n\n#Important:\u00a0\nOnly call if you have completed the form and meet the mandatory experience requirement.\n\n#Contract #RemoteWork #HiringNow #DeveloperJobs #India #FreelanceOpportunity #Freelance #AI #ML #Python #MLOps\n\n#Hiring: AI/ML + Python Support - Freelance | Remote | Evening Shift\n\n3-4 hours/day | Weekdays | 9:00 PM IST onwards\n\n#MustHave:\u00a0\n- 6+ years of experience\n- AI/ML | Python | ML Ops\n\n#HowToApply:\n- Apply here: https://lnkd.in/drzBqYJE\n\n#WhatsApp: +91 637-635-5600 \u2014 Amit | +91 852-903-3520 \u2014 Dhananjay\n\n#Important:\u00a0\nOnly call if you have completed the form and meet the mandatory experience requirement.\n\n#Contract #RemoteWork #HiringNow #DeveloperJobs #India #FreelanceOpportunity #Freelance #AI #ML #Python #MLOps\n\n[PHONE NUMBERS FOUND IN POST: 1 637-635-5600, 1 852-903-3520]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Sonam Sharma",
+      "poster_email": null,
+      "poster_phone": "+916376355600",
+      "company": "WebOsmic.com",
+      "role_title": "HR Manager",
+      "role_summary": "Hiring for AI/ML + Python Support - Freelance | Remote | Evening Shift.",
+      "has_contact_info": true,
+      "saved_to_leads_at": "2026-04-12T23:08:19.846114"
+    },
+    {
+      "entity_urn": "urn:li:activity:7449114016456577024",
+      "post_urn": "urn:li:activity:7449114016456577024",
+      "full_content": "Director at Emperen Technologies\n\n\u26a1 Need Databricks expertise fast \u2014 without the long hiring cycle?  \nEmperen Technologies is an official Databricks Partner, helping enterprises scale data transformation with trusted, on-demand talent.\n\nWe provide Databricks resources on a contract and hourly basis for organizations that need speed, flexibility, and quality.\n\n\u2714 Azure Databricks | Spark | PySpark  \n\u2714 Data Engineering | Data Architecture  \n\u2714 Data Migration & Modernization  \n\u2714 AI/ML & Analytics Integration  \n\nWhether you\u2019re a Vendor Manager, CTO, CEO, or Head of Data & AI across India, Europe, the USA, or the Middle East \u2014 we help you onboard quickly and deliver outcomes with confidence.\n\nFrom building modern data platforms to accelerating AI-ready architectures, Emperen Technologies supports your transformation with premium, scalable expertise.\n\nIf you\u2019re looking for high-quality Databricks talent that can start fast and add value from day one, let\u2019s connect.\n\n\ud83d\udce9 info@emperentech.com\n\n#Databricks #OfficialDatabricksPartner #DataEngineering #AzureDatabricks #Spark #PySpark #DataArchitecture #DataMigration #DataModernization #AI #MachineLearning #Analytics #ContractHiring #TechHiring #DatabricksConsulting #B2BTech #DataAI #CTO #CEO #VendorManagement #HeadOfData #EuropeBusiness #USABusiness #MiddleEastBusiness #IndiaBusiness\n\n\u26a1 Need Databricks expertise fast \u2014 without the long hiring cycle?  \nEmperen Technologies is an official Databricks Partner, helping enterprises scale data transformation with trusted, on-demand talent.\n\nWe provide Databricks resources on a contract and hourly basis for organizations that need speed, flexibility, and quality.\n\n\u2714 Azure Databricks | Spark | PySpark  \n\u2714 Data Engineering | Data Architecture  \n\u2714 Data Migration & Modernization  \n\u2714 AI/ML & Analytics Integration  \n\nWhether you\u2019re a Vendor Manager, CTO, CEO, or Head of Data & AI across India, Europe, the USA, or the Middle East \u2014 we help you onboard quickly and deliver outcomes with confidence.\n\nFrom building modern data platforms to accelerating AI-ready architectures, Emperen Technologies supports your transformation with premium, scalable expertise.\n\nIf you\u2019re looking for high-quality Databricks talent that can start fast and add value from day one, let\u2019s connect.\n\n\ud83d\udce9 info@emperentech.com\n\n#Databricks #OfficialDatabricksPartner #DataEngineering #AzureDatabricks #Spark #PySpark #DataArchitecture #DataMigration #DataModernization #AI #MachineLearning #Analytics #ContractHiring #TechHiring #DatabricksConsulting #B2BTech #DataAI #CTO #CEO #VendorManagement #HeadOfData #EuropeBusiness #USABusiness #MiddleEastBusiness #IndiaBusiness\n\nDirector at Emperen Technologies\n\n[EMAILS FOUND IN POST: info@emperentech.com]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 2,
+      "poster_name": null,
+      "poster_email": "info@emperentech.com",
+      "poster_phone": null,
+      "company": "Emperen Technologies",
+      "role_title": "Director",
+      "role_summary": "Seeking Databricks expertise for contract and hourly roles.",
+      "has_contact_info": true
+    }
+  ]
+}

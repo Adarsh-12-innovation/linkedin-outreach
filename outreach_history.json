@@ -317,7 +317,8 @@
     "urn:li:activity:7448614566617329664",
     "urn:li:activity:7448635146536194049",
     "urn:li:activity:7448615733233856514",
-    "urn:li:activity:7448595698821931008"
+    "urn:li:activity:7448595698821931008",
+    "urn:li:activity:7449114016456577024"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -558,7 +559,8 @@
     "anshita@ziventra.com",
     "kriti@augmentedresourcing.com",
     "rishitha.b@martinettechnologies.com",
-    "isha@code1.dev"
+    "isha@code1.dev",
+    "info@emperentech.com"
   ],
   "contacted_details": [
     {
@@ -3477,6 +3479,15 @@
       "message_id": "19d8020aebca76fd",
       "followed_up": false,
       "timestamp": "2026-04-12T05:18:39.004112"
+    },
+    {
+      "urn": "urn:li:activity:7449114016456577024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449114016456577024",
+      "email": "info@emperentech.com",
+      "thread_id": "19d82c60c5f5ec0e",
+      "message_id": "19d82c60c5f5ec0e",
+      "followed_up": false,
+      "timestamp": "2026-04-12T23:08:31.748725"
     }
   ]
 }
