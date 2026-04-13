@@ -1284,19 +1284,21 @@ def select_resume(content: str) -> str:
     content_lower = content.lower()
     
     # Clean up content: replace non-alphanumeric with spaces for easier matching
+    # We keep numbers for things like 'M365' or 'S/4HANA'
     clean_content = re.sub(r'[^a-z0-9\s]', ' ', content_lower)
     
     for keywords_str, resume_file in mapping.items():
         keywords = [k.strip().lower() for k in keywords_str.split(",")]
         for kw in keywords:
-            # Robust word boundary check (regex)
-            # This matches 'copilot' in 'copilots' or 'M365' regardless of punctuation
-            if re.search(rf'\b{re.escape(kw)}\b', clean_content) or kw in content_lower:
+            # STRICT word boundary check with optional plural 's'
+            # This matches 'sap' but NOT 'whatsapp'
+            # This matches 'copilot' and 'copilots'
+            pattern = rf'\b{re.escape(kw)}s?\b'
+            if re.search(pattern, clean_content):
                 if Path(resume_file).exists():
                     log.info(f"  ✅ Match Found: keyword '{kw}' -> Selected: {resume_file}")
                     return resume_file
                 else:
-                    # This is likely why it sent the default: the file wasn't found on disk
                     log.warning(f"  ⚠️ Match Found ('{kw}'), but FILE MISSING: {resume_file}")
 
     log.info(f"  ℹ️ No keyword matches found in post. Using default resume.")
