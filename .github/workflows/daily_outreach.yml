@@ -60,6 +60,7 @@ jobs:
           GMAIL_CREDENTIALS_JSON: ${{ secrets.GMAIL_CREDENTIALS_JSON }}
           GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
           EXCLUDED_DOMAINS: ${{ secrets.EXCLUDED_DOMAINS }}
+          RESUME_MAPPING: ${{ secrets.RESUME_MAPPING }}
         run: |
           # Determine flags
           DRY_RUN_FLAG=""
