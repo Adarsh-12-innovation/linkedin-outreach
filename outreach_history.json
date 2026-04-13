@@ -344,7 +344,13 @@
     "urn:li:activity:7449380935671881728",
     "urn:li:activity:7449368965023424512",
     "urn:li:activity:7449440793280438272",
-    "urn:li:activity:7449362045163999232"
+    "urn:li:activity:7449362045163999232",
+    "urn:li:activity:7449458600856510464",
+    "urn:li:activity:7449457528582848512",
+    "urn:li:activity:7449453807081627648",
+    "urn:li:activity:7449453572728995840",
+    "urn:li:activity:7449449051353407488",
+    "urn:li:activity:7449446962317201408"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -600,7 +606,12 @@
     "recruitment@raftglobal.in",
     "harsha@code1.dev",
     "cv@softwarezgroup.com, kavita@softwarezgroup.com",
-    "dewansh@adlerqa.in"
+    "dewansh@adlerqa.in",
+    "atif@prolificxpert.com",
+    "viveik.dikshit@aglowrec.in",
+    "rishabh@tekinspirations.com",
+    "vinay@silverbayconsulting.com",
+    "Chivalrytek@gmail.com"
   ],
   "contacted_details": [
     {
@@ -3780,6 +3791,66 @@
       "message_id": "19d86f708bed82d3",
       "followed_up": false,
       "timestamp": "2026-04-13T13:10:30.277623"
+    },
+    {
+      "urn": "urn:li:activity:7449458600856510464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449458600856510464",
+      "email": "atif@prolificxpert.com",
+      "thread_id": "19d87576a98ab91e",
+      "message_id": "19d87576a98ab91e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-13T20:25:47.139782"
+    },
+    {
+      "urn": "urn:li:activity:7449457528582848512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449457528582848512",
+      "email": "viveik.dikshit@aglowrec.in",
+      "thread_id": "19d8757749b7b059",
+      "message_id": "19d8757749b7b059",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-13T20:25:49.599081"
+    },
+    {
+      "urn": "urn:li:activity:7449453807081627648",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449453807081627648",
+      "email": "rishabh@tekinspirations.com",
+      "thread_id": "19d87577e49e6a85",
+      "message_id": "19d87577e49e6a85",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-13T20:25:51.843207"
+    },
+    {
+      "urn": "urn:li:activity:7449453572728995840",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449453572728995840",
+      "email": "Shobana.m@lepingconsulting.com",
+      "thread_id": "19d87578ecff4598",
+      "message_id": "19d87578ecff4598",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-13T20:25:56.356660"
+    },
+    {
+      "urn": "urn:li:activity:7449449051353407488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449449051353407488",
+      "email": "vinay@silverbayconsulting.com",
+      "thread_id": "19d875799446ed99",
+      "message_id": "19d875799446ed99",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-13T20:25:58.599567"
+    },
+    {
+      "urn": "urn:li:activity:7449446962317201408",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449446962317201408",
+      "email": "Chivalrytek@gmail.com",
+      "thread_id": "19d8757ad3a1ad81",
+      "message_id": "19d8757ad3a1ad81",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-13T20:26:03.933500"
     }
   ]
 }
