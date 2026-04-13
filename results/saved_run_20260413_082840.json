@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-13T08:28:40.347007",
+  "lookback_hours": 24,
+  "stats": {
+    "saved_posts_fetched": 1,
+    "contacts_extracted": 1,
+    "with_email": 0,
+    "with_phone": 1,
+    "emailed": 0
+  },
+  "extracted": [
+    {
+      "entity_urn": "urn:li:activity:7449133349937491968",
+      "post_urn": "urn:li:activity:7449133349937491968",
+      "full_content": "Nikhath Kousar\n\nTry Lety Our AI - Recruiter, Visit - www.skillety.com, Transform your Hiring Process.\n\nTry Lety Our AI - Recruiter, Visit - www.skillety.com, Transform your Hiring Process.\n\nBALACHANDAR S\n\nSonam Sharma\n\nHR Manager at WebOsmic.com\n\n#Hiring: AI/ML + Python Support - Freelance | Remote | Evening Shift\n\n3-4 hours/day | Weekdays | 9:00 PM IST onwards\n\n#MustHave:\u00a0\n- 6+ years of experience\n- AI/ML | Python | ML Ops\n\n#HowToApply:\n- Apply here: https://lnkd.in/drzBqYJE\n\n#WhatsApp: +91 637-635-5600 \u2014 Amit | +91 852-903-3520 \u2014 Dhananjay\n\n#Important:\u00a0\nOnly call if you have completed the form and meet the mandatory experience requirement.\n\n#Contract #RemoteWork #HiringNow #DeveloperJobs #India #FreelanceOpportunity #Freelance #AI #ML #Python #MLOps\n\n#Hiring: AI/ML + Python Support - Freelance | Remote | Evening Shift\n\n3-4 hours/day | Weekdays | 9:00 PM IST onwards\n\n#MustHave:\u00a0\n- 6+ years of experience\n- AI/ML | Python | ML Ops\n\n#HowToApply:\n- Apply here: https://lnkd.in/drzBqYJE\n\n#WhatsApp: +91 637-635-5600 \u2014 Amit | +91 852-903-3520 \u2014 Dhananjay\n\n#Important:\u00a0\nOnly call if you have completed the form and meet the mandatory experience requirement.\n\n#Contract #RemoteWork #HiringNow #DeveloperJobs #India #FreelanceOpportunity #Freelance #AI #ML #Python #MLOps\n\nAWS Data Engineer | 7.5YOE (4 yrs Data Eng) | Python, SQL, Pyspark | AWS (Glue, S3, IAM, Data Catalog, Step Functions) | ETL/ELTPipelines | Big Data & DWH | Open to Senior/Lead Data Engineer | India(Remote/Hyd/Bengaluru)\n\nRama Krishna Killa\n\nTurning Ideas into Scalable Web Apps | Frontend Developer | Angular & Next.js Developer\n\nDeepak Omarr\n\n[PHONE NUMBERS FOUND IN POST: 1 852-903-3520, 1 637-635-5600]",
+      "created_at": 0,
+      "created_at_iso": null,
+      "index": 1,
+      "poster_name": "Amit | Dhananjay",
+      "poster_email": null,
+      "poster_phone": "+916376355600",
+      "company": "WebOsmic.com",
+      "role_title": "AI/ML + Python Support",
+      "role_summary": "Hiring for a freelance AI/ML and Python Support role with an evening shift.",
+      "has_contact_info": true
+    }
+  ]
+}
