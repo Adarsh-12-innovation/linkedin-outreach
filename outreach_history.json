@@ -318,7 +318,11 @@
     "urn:li:activity:7448635146536194049",
     "urn:li:activity:7448615733233856514",
     "urn:li:activity:7448595698821931008",
-    "urn:li:activity:7449114016456577024"
+    "urn:li:activity:7449114016456577024",
+    "urn:li:activity:7449322711266283520",
+    "urn:li:activity:7448354798925684736",
+    "urn:li:activity:7449320358484025344",
+    "urn:li:activity:7448320265375178752"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -560,7 +564,11 @@
     "kriti@augmentedresourcing.com",
     "rishitha.b@martinettechnologies.com",
     "isha@code1.dev",
-    "info@emperentech.com"
+    "info@emperentech.com",
+    "pbhandari@analyticsfoxsoftwares.com",
+    "nandini.pilla@centotech.com",
+    "shireesha.b@martinettechnologies.com",
+    "hr@aqusagtechnologies.com"
   ],
   "contacted_details": [
     {
@@ -3477,8 +3485,9 @@
       "email": "isha@code1.dev",
       "thread_id": "19d8020aebca76fd",
       "message_id": "19d8020aebca76fd",
-      "followed_up": false,
-      "timestamp": "2026-04-12T05:18:39.004112"
+      "followed_up": true,
+      "timestamp": "2026-04-12T05:18:39.004112",
+      "followup_timestamp": "2026-04-13T05:23:35.932721"
     },
     {
       "urn": "urn:li:activity:7449114016456577024",
@@ -3488,6 +3497,42 @@
       "message_id": "19d82c60c5f5ec0e",
       "followed_up": false,
       "timestamp": "2026-04-12T23:08:31.748725"
+    },
+    {
+      "urn": "urn:li:activity:7449322711266283520",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449322711266283520",
+      "email": "pbhandari@analyticsfoxsoftwares.com",
+      "thread_id": "19d854b77075b421",
+      "message_id": "19d854b77075b421",
+      "followed_up": false,
+      "timestamp": "2026-04-13T05:23:28.677757"
+    },
+    {
+      "urn": "urn:li:activity:7448354798925684736",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448354798925684736",
+      "email": "nandini.pilla@centotech.com",
+      "thread_id": "19d854b7c03ad2b3",
+      "message_id": "19d854b7c03ad2b3",
+      "followed_up": false,
+      "timestamp": "2026-04-13T05:23:30.653882"
+    },
+    {
+      "urn": "urn:li:activity:7449320358484025344",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449320358484025344",
+      "email": "shireesha.b@martinettechnologies.com",
+      "thread_id": "19d854b85ea37e76",
+      "message_id": "19d854b85ea37e76",
+      "followed_up": false,
+      "timestamp": "2026-04-13T05:23:32.524732"
+    },
+    {
+      "urn": "urn:li:activity:7448320265375178752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448320265375178752",
+      "email": "hr@aqusagtechnologies.com",
+      "thread_id": "19d854b8d5e2e5bd",
+      "message_id": "19d854b8d5e2e5bd",
+      "followed_up": false,
+      "timestamp": "2026-04-13T05:23:34.462169"
     }
   ]
 }
