@@ -342,7 +342,9 @@
     "urn:li:activity:7449403381623955456",
     "urn:li:activity:7449391644862337025",
     "urn:li:activity:7449380935671881728",
-    "urn:li:activity:7449368965023424512"
+    "urn:li:activity:7449368965023424512",
+    "urn:li:activity:7449440793280438272",
+    "urn:li:activity:7449362045163999232"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -597,7 +599,8 @@
     "biuro@solutionspace.pl",
     "recruitment@raftglobal.in",
     "harsha@code1.dev",
-    "cv@softwarezgroup.com, kavita@softwarezgroup.com"
+    "cv@softwarezgroup.com, kavita@softwarezgroup.com",
+    "dewansh@adlerqa.in"
   ],
   "contacted_details": [
     {
@@ -3759,6 +3762,24 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-13T18:14:38.405569"
+    },
+    {
+      "urn": "urn:li:activity:7449440793280438272",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449440793280438272",
+      "email": "dewansh@adlerqa.in",
+      "thread_id": "19d86f7008401a31",
+      "message_id": "19d86f7008401a31",
+      "followed_up": false,
+      "timestamp": "2026-04-13T13:10:28.224659"
+    },
+    {
+      "urn": "urn:li:activity:7449362045163999232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449362045163999232",
+      "email": "sonali.girhe@follextechnology.com",
+      "thread_id": "19d86f708bed82d3",
+      "message_id": "19d86f708bed82d3",
+      "followed_up": false,
+      "timestamp": "2026-04-13T13:10:30.277623"
     }
   ]
 }
