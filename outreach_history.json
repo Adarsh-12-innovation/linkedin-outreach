@@ -333,7 +333,10 @@
     "urn:li:activity:7449311003890110464",
     "urn:li:activity:7449310830057226240",
     "urn:li:activity:7449310736507416576",
-    "urn:li:activity:7449310594287132672"
+    "urn:li:activity:7449310594287132672",
+    "urn:li:activity:7449357782094417920",
+    "urn:li:activity:7449357920812843008",
+    "urn:li:activity:7449374180589883393"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -580,7 +583,10 @@
     "nandini.pilla@centotech.com",
     "shireesha.b@martinettechnologies.com",
     "hr@aqusagtechnologies.com",
-    "sanjana.a@martinettechnologies.com"
+    "sanjana.a@martinettechnologies.com",
+    "imalhotra@prointegrate.net",
+    "n.kashyap@cloudvandexa.com",
+    "hr@addisverify.com"
   ],
   "contacted_details": [
     {
@@ -3655,6 +3661,33 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-13T12:26:13.982797"
+    },
+    {
+      "urn": "urn:li:activity:7449357782094417920",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449357782094417920",
+      "email": "imalhotra@prointegrate.net",
+      "thread_id": "19d863baede78226",
+      "message_id": "19d863baede78226",
+      "followed_up": false,
+      "timestamp": "2026-04-13T09:45:51.785367"
+    },
+    {
+      "urn": "urn:li:activity:7449357920812843008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449357920812843008",
+      "email": "n.kashyap@cloudvandexa.com",
+      "thread_id": "19d863bb6a3cdb27",
+      "message_id": "19d863bb6a3cdb27",
+      "followed_up": false,
+      "timestamp": "2026-04-13T09:45:53.704012"
+    },
+    {
+      "urn": "urn:li:activity:7449374180589883393",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449374180589883393",
+      "email": "hr@addisverify.com",
+      "thread_id": "19d863bbc973c644",
+      "message_id": "19d863bbc973c644",
+      "followed_up": false,
+      "timestamp": "2026-04-13T09:45:55.651512"
     }
   ]
 }
