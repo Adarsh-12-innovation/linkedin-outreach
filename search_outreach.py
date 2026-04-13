@@ -180,7 +180,8 @@ MUST_HAVE_KEYWORDS = {
 }
 
 MUST_NOT_HAVE_KEYWORDS = [
-    "onsite", "hybrid", "wfo", "work-from-office","work from office","work from offc", "work-from-offc","in-office", "office-based", "intern", "internship", "apprentice", "apprenticeship", "headquarters", "direct hire", "fte"
+    "onsite", "hybrid", "wfo", "work-from-office","work from office","work from offc", "work-from-offc","in-office", "office-based", "intern", "internship", "apprentice", "apprenticeship", "headquarters", "direct hire", "fte",
+    "us citizen", "green card", "gc holder", "citizen only", "authorized to work in the us"
 ]
 
 # ─────────────────────────────────────────────
@@ -702,7 +703,8 @@ Analyze the following job description to determine if it is a GENUINE and RELEVA
 * **Design/UX:** Reject AI Product Designers, UX Designers, UI Architects, or any design-first roles. We are looking for CODING and IMPLEMENTATION engineers only.
 * **Non-Technical:** Reject Marketing, Sales, or pure Recruitment roles.
 * **Nature of Work:** Training, teaching, academic internships, or "shadowing" roles.
-* **Location:** US-only, UK-only, or any "Onsite/Hybrid" requirement outside of India. (Must be Remote-Global or Remote-India).
+* **Location & Authorization:** Reject roles that are "US-only", "UK-only", or require "US Citizenship/Green Card". Reject any "Onsite/Hybrid" requirement outside of India. 
+* **NOTE ON TIMINGS:** DO NOT reject roles based on working hours. US timings, UK timings, or Night Shifts are PERFECTLY FINE as long as the role is Remote-Global or Remote-India.
 * **Job Type:** Full-time permanent roles (Only Contract/Freelance/Temporary allowed).
 
 {posts_block}
