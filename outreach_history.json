@@ -375,7 +375,10 @@
     "urn:li:activity:7449754022388928512",
     "urn:li:activity:7449796249186115584",
     "urn:li:activity:7449797491711148032",
-    "urn:li:activity:7449790539354497024"
+    "urn:li:activity:7449790539354497024",
+    "urn:li:activity:7449842828207341568",
+    "urn:li:activity:7449842032229105664",
+    "urn:li:activity:7449825336403451904"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -647,7 +650,8 @@
     "tejasri.abbadiwar@n-labs.ai",
     "sanjay@audentestech.com",
     "swetha@esquareinfo.com",
-    "dharshini@vysystems.com"
+    "dharshini@vysystems.com",
+    "kavya@intellisofttech.com"
   ],
   "contacted_details": [
     {
@@ -4151,6 +4155,36 @@
       "message_id": "19d8c22589e9b635",
       "followed_up": false,
       "timestamp": "2026-04-14T13:15:54.978922"
+    },
+    {
+      "urn": "urn:li:activity:7449842828207341568",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449842828207341568",
+      "email": "dharshini@vysystems.com",
+      "thread_id": "19d8cd50c15a7d72",
+      "message_id": "19d8cd50c15a7d72",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T22:01:06.173590"
+    },
+    {
+      "urn": "urn:li:activity:7449842032229105664",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449842032229105664",
+      "email": "dharshini@vysystems.com",
+      "thread_id": "19d8cd51f9bab712",
+      "message_id": "19d8cd51f9bab712",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T22:01:11.080214"
+    },
+    {
+      "urn": "urn:li:activity:7449825336403451904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449825336403451904",
+      "email": "kavya@intellisofttech.com",
+      "thread_id": "19d8cd53506b25cc",
+      "message_id": "19d8cd53506b25cc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T22:01:16.602043"
     }
   ]
 }
