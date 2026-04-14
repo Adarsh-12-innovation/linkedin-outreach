@@ -363,7 +363,10 @@
     "urn:li:activity:7449696377040941056",
     "urn:li:activity:7449678871513296896",
     "urn:li:activity:7449678766571728896",
-    "urn:li:activity:7449678539747962880"
+    "urn:li:activity:7449678539747962880",
+    "urn:li:activity:7449707519679291392",
+    "urn:li:activity:7449708621447471106",
+    "urn:li:activity:7449705332592996352"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -627,7 +630,8 @@
     "Chivalrytek@gmail.com",
     "Srikanth.emula@n-labs.ai",
     "Hr@wxites.com",
-    "info@staffrex.in"
+    "info@staffrex.in",
+    "hr.itrecruiter@devlats.com"
   ],
   "contacted_details": [
     {
@@ -4002,6 +4006,33 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-14T13:50:38.845782"
+    },
+    {
+      "urn": "urn:li:activity:7449707519679291392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449707519679291392",
+      "email": "info@staffrex.in",
+      "thread_id": "19d8b17f971964e1",
+      "message_id": "19d8b17f971964e1",
+      "followed_up": false,
+      "timestamp": "2026-04-14T08:24:57.716850"
+    },
+    {
+      "urn": "urn:li:activity:7449708621447471106",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449708621447471106",
+      "email": "himanshu.tamang@bytebillion.com",
+      "thread_id": "19d8b1800ab27b1a",
+      "message_id": "19d8b1800ab27b1a",
+      "followed_up": false,
+      "timestamp": "2026-04-14T08:24:59.771363"
+    },
+    {
+      "urn": "urn:li:activity:7449705332592996352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449705332592996352",
+      "email": "hr.itrecruiter@devlats.com",
+      "thread_id": "19d8b180968020dd",
+      "message_id": "19d8b180968020dd",
+      "followed_up": false,
+      "timestamp": "2026-04-14T08:25:01.687284"
     }
   ]
 }
