@@ -1596,7 +1596,10 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
             urn = lead.get("post_urn") or lead.get("entity_urn", "")
             url = f"https://www.linkedin.com/feed/update/{urn}" if urn else "No URL"
             
-            wa_link = format_whatsapp_link(phone, name, role, url) if phone != "No Phone" else ""
+            # Select resume for WhatsApp link consistency
+            selected_resume = select_resume(lead.get("full_content", ""))
+            resume_url = get_resume_url(selected_resume)
+            wa_link = format_whatsapp_link(phone, name, role, url, resume_url=resume_url) if phone != "No Phone" else ""
             
             # GitHub Action link for tailoring
             resume_link = f"https://github.com/Adarsh-12-innovation/linkedin-outreach/actions/workflows/custom_resume.yml"

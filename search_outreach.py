@@ -1226,7 +1226,10 @@ def send_run_summary_email(service, phone_leads: list[dict], emailed_leads: list
         body_lines.append("📞 PHONE LEADS (Manual Follow-up)")
         body_lines.append("-" * 30)
         for i, lead in enumerate(phone_leads, 1):
-            wa_link = format_whatsapp_link(lead.get('poster_phone',''), lead.get('poster_name',''), lead.get('role_title',''), lead.get('post_url',''))
+            # Select resume for WhatsApp link consistency
+            selected_resume = select_resume(lead.get("full_content", ""))
+            resume_url = get_resume_url(selected_resume)
+            wa_link = format_whatsapp_link(lead.get('poster_phone',''), lead.get('poster_name',''), lead.get('role_title',''), lead.get('post_url',''), resume_url=resume_url)
             urn = lead.get("post_urn") or lead.get("entity_urn", "")
             short_urn = urn.split(":")[-1] if urn else ""
             resume_link = f"https://github.com/Adarsh-12-innovation/linkedin-outreach/actions/workflows/custom_resume.yml"
