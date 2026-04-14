@@ -3538,8 +3538,9 @@
       "email": "info@emperentech.com",
       "thread_id": "19d82c60c5f5ec0e",
       "message_id": "19d82c60c5f5ec0e",
-      "followed_up": false,
-      "timestamp": "2026-04-12T23:08:31.748725"
+      "followed_up": true,
+      "timestamp": "2026-04-12T23:08:31.748725",
+      "followup_timestamp": "2026-04-14T05:36:22.109837"
     },
     {
       "urn": "urn:li:activity:7449322711266283520",
@@ -3547,8 +3548,9 @@
       "email": "pbhandari@analyticsfoxsoftwares.com",
       "thread_id": "19d854b77075b421",
       "message_id": "19d854b77075b421",
-      "followed_up": false,
-      "timestamp": "2026-04-13T05:23:28.677757"
+      "followed_up": true,
+      "timestamp": "2026-04-13T05:23:28.677757",
+      "followup_timestamp": "2026-04-14T05:36:23.564959"
     },
     {
       "urn": "urn:li:activity:7448354798925684736",
@@ -3556,8 +3558,9 @@
       "email": "nandini.pilla@centotech.com",
       "thread_id": "19d854b7c03ad2b3",
       "message_id": "19d854b7c03ad2b3",
-      "followed_up": false,
-      "timestamp": "2026-04-13T05:23:30.653882"
+      "followed_up": true,
+      "timestamp": "2026-04-13T05:23:30.653882",
+      "followup_timestamp": "2026-04-14T05:36:24.966080"
     },
     {
       "urn": "urn:li:activity:7449320358484025344",
@@ -3565,8 +3568,9 @@
       "email": "shireesha.b@martinettechnologies.com",
       "thread_id": "19d854b85ea37e76",
       "message_id": "19d854b85ea37e76",
-      "followed_up": false,
-      "timestamp": "2026-04-13T05:23:32.524732"
+      "followed_up": true,
+      "timestamp": "2026-04-13T05:23:32.524732",
+      "followup_timestamp": "2026-04-14T05:36:26.467254"
     },
     {
       "urn": "urn:li:activity:7448320265375178752",
@@ -3574,8 +3578,9 @@
       "email": "hr@aqusagtechnologies.com",
       "thread_id": "19d854b8d5e2e5bd",
       "message_id": "19d854b8d5e2e5bd",
-      "followed_up": false,
-      "timestamp": "2026-04-13T05:23:34.462169"
+      "followed_up": true,
+      "timestamp": "2026-04-13T05:23:34.462169",
+      "followup_timestamp": "2026-04-14T05:36:27.921917"
     },
     {
       "urn": "urn:li:activity:7449326432553541632",
