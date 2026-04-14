@@ -304,19 +304,20 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
     """
     Search LinkedIn content posts by keyword phrase, sorted by 'latest'.
     Directly extracts post content from GraphQL to minimize API calls.
-    Implements: Max 100 posts, Pagination Gaps (8-15s), and Request Jitter.
+    Implements: Respects MAX_POSTS_PER_RUN, Pagination Gaps (8-15s), and Request Jitter.
     """
     graphql_base = "https://www.linkedin.com/voyager/api/graphql"
     query_id = CONFIG["SEARCH_QUERYID"]
     
-    # HARD STOP at 200 posts
-    max_calls = CONFIG["SEARCH_MAX_PAGES_PER_PHRASE"]
+    # Respect the dynamic limit from CONFIG
+    max_posts_limit = CONFIG["MAX_POSTS_PER_RUN"]
     results = []
     pagination_token = None
     total_fetched = 0
     start_offset = 0
 
-    for call_num in range(max_calls):
+    # Continue searching until we hit the total limit for this run
+    while total_fetched < max_posts_limit:
         # REQUEST JITTER: Randomize count around 20 (Max results per page)
         current_batch_size = random.randint(18, 22)
         
@@ -411,7 +412,7 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
                 seen_ids.add(act_id)
                 new_on_page += 1
 
-        log.info(f"  Search '{phrase}' call {call_num + 1}: {len(page_results)} items ({new_on_page} new)")
+        log.info(f"  Search '{phrase}': {len(page_results)} items ({new_on_page} new)")
 
         # ── FIND PAGINATION TOKEN ──
         next_token = None
