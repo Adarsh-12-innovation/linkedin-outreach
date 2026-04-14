@@ -357,7 +357,13 @@
     "urn:li:activity:7449679304722014208",
     "urn:li:activity:7449679197804896256",
     "urn:li:activity:7449679051532750848",
-    "urn:li:activity:7449626003074666496"
+    "urn:li:activity:7449626003074666496",
+    "urn:li:activity:7449725832119390208",
+    "urn:li:activity:7449705814811918336",
+    "urn:li:activity:7449696377040941056",
+    "urn:li:activity:7449678871513296896",
+    "urn:li:activity:7449678766571728896",
+    "urn:li:activity:7449678539747962880"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -620,7 +626,8 @@
     "vinay@silverbayconsulting.com",
     "Chivalrytek@gmail.com",
     "Srikanth.emula@n-labs.ai",
-    "Hr@wxites.com"
+    "Hr@wxites.com",
+    "info@staffrex.in"
   ],
   "contacted_details": [
     {
@@ -3935,6 +3942,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-14T12:04:19.744946"
+    },
+    {
+      "urn": "urn:li:activity:7449725832119390208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449725832119390208",
+      "email": "Srikanth.emula@n-labs.ai",
+      "thread_id": "19d8b13cdea8ba6e",
+      "message_id": "19d8b13cdea8ba6e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T13:50:24.044262"
+    },
+    {
+      "urn": "urn:li:activity:7449705814811918336",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449705814811918336",
+      "email": "info@staffrex.in",
+      "thread_id": "19d8b13e3ce53ea7",
+      "message_id": "19d8b13e3ce53ea7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T13:50:29.727670"
+    },
+    {
+      "urn": "urn:li:activity:7449696377040941056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449696377040941056",
+      "email": "jayasri@sadupsoft.com",
+      "thread_id": "19d8b13eaf80d8b6",
+      "message_id": "19d8b13eaf80d8b6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T13:50:31.877432"
+    },
+    {
+      "urn": "urn:li:activity:7449678871513296896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449678871513296896",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d8b13f4cd5fe6b",
+      "message_id": "19d8b13f4cd5fe6b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T13:50:34.348285"
+    },
+    {
+      "urn": "urn:li:activity:7449678766571728896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449678766571728896",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d8b13ffe6c7557",
+      "message_id": "19d8b13ffe6c7557",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T13:50:36.595253"
+    },
+    {
+      "urn": "urn:li:activity:7449678539747962880",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449678539747962880",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d8b1406b822120",
+      "message_id": "19d8b1406b822120",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T13:50:38.845782"
     }
   ]
 }
