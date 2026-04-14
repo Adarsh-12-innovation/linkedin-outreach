@@ -367,7 +367,12 @@
     "urn:li:activity:7449707519679291392",
     "urn:li:activity:7449708621447471106",
     "urn:li:activity:7449705332592996352",
-    "urn:li:activity:7449734115840647168"
+    "urn:li:activity:7449734115840647168",
+    "urn:li:activity:7449785102651490304",
+    "urn:li:activity:7449761994209116160",
+    "urn:li:activity:7449755445386432512",
+    "urn:li:activity:7449754396181291008",
+    "urn:li:activity:7449754022388928512"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -633,7 +638,10 @@
     "Hr@wxites.com",
     "info@staffrex.in",
     "hr.itrecruiter@devlats.com",
-    "shreshthi@atf-labs.com"
+    "shreshthi@atf-labs.com",
+    "sabiritoffice@gmail.com",
+    "Peeyush.cvc@gmail.com",
+    "tejasri.abbadiwar@n-labs.ai"
   ],
   "contacted_details": [
     {
@@ -4047,6 +4055,56 @@
       "message_id": "19d8b6b262ac443c",
       "followed_up": false,
       "timestamp": "2026-04-14T09:55:49.014581"
+    },
+    {
+      "urn": "urn:li:activity:7449785102651490304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449785102651490304",
+      "email": "sabiritoffice@gmail.com",
+      "thread_id": "19d8be4f367fe483",
+      "message_id": "19d8be4f367fe483",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T17:38:50.620684"
+    },
+    {
+      "urn": "urn:li:activity:7449761994209116160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449761994209116160",
+      "email": "focusedjobhr@gmail.com",
+      "thread_id": "19d8be4fba9a4996",
+      "message_id": "19d8be4fba9a4996",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T17:38:52.718981"
+    },
+    {
+      "urn": "urn:li:activity:7449755445386432512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449755445386432512",
+      "email": "Peeyush.cvc@gmail.com",
+      "thread_id": "19d8be503abe5630",
+      "message_id": "19d8be503abe5630",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T17:38:54.749627"
+    },
+    {
+      "urn": "urn:li:activity:7449754396181291008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449754396181291008",
+      "email": "cv@softwarezgroup.com",
+      "thread_id": "19d8be50c8b006d2",
+      "message_id": "19d8be50c8b006d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T17:38:57.429933"
+    },
+    {
+      "urn": "urn:li:activity:7449754022388928512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449754022388928512",
+      "email": "tejasri.abbadiwar@n-labs.ai",
+      "thread_id": "19d8be51548d58f1",
+      "message_id": "19d8be51548d58f1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-14T17:38:59.728103"
     }
   ]
 }
