@@ -366,7 +366,8 @@
     "urn:li:activity:7449678539747962880",
     "urn:li:activity:7449707519679291392",
     "urn:li:activity:7449708621447471106",
-    "urn:li:activity:7449705332592996352"
+    "urn:li:activity:7449705332592996352",
+    "urn:li:activity:7449734115840647168"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -631,7 +632,8 @@
     "Srikanth.emula@n-labs.ai",
     "Hr@wxites.com",
     "info@staffrex.in",
-    "hr.itrecruiter@devlats.com"
+    "hr.itrecruiter@devlats.com",
+    "shreshthi@atf-labs.com"
   ],
   "contacted_details": [
     {
@@ -3718,8 +3720,9 @@
       "email": "imalhotra@prointegrate.net",
       "thread_id": "19d863baede78226",
       "message_id": "19d863baede78226",
-      "followed_up": false,
-      "timestamp": "2026-04-13T09:45:51.785367"
+      "followed_up": true,
+      "timestamp": "2026-04-13T09:45:51.785367",
+      "followup_timestamp": "2026-04-14T09:55:51.462041"
     },
     {
       "urn": "urn:li:activity:7449357920812843008",
@@ -3727,8 +3730,9 @@
       "email": "n.kashyap@cloudvandexa.com",
       "thread_id": "19d863bb6a3cdb27",
       "message_id": "19d863bb6a3cdb27",
-      "followed_up": false,
-      "timestamp": "2026-04-13T09:45:53.704012"
+      "followed_up": true,
+      "timestamp": "2026-04-13T09:45:53.704012",
+      "followup_timestamp": "2026-04-14T09:55:52.955304"
     },
     {
       "urn": "urn:li:activity:7449374180589883393",
@@ -3736,8 +3740,9 @@
       "email": "hr@addisverify.com",
       "thread_id": "19d863bbc973c644",
       "message_id": "19d863bbc973c644",
-      "followed_up": false,
-      "timestamp": "2026-04-13T09:45:55.651512"
+      "followed_up": true,
+      "timestamp": "2026-04-13T09:45:55.651512",
+      "followup_timestamp": "2026-04-14T09:55:54.464659"
     },
     {
       "urn": "urn:li:activity:7449425767391723520",
@@ -4033,6 +4038,15 @@
       "message_id": "19d8b180968020dd",
       "followed_up": false,
       "timestamp": "2026-04-14T08:25:01.687284"
+    },
+    {
+      "urn": "urn:li:activity:7449734115840647168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449734115840647168",
+      "email": "shreshthi@atf-labs.com",
+      "thread_id": "19d8b6b262ac443c",
+      "message_id": "19d8b6b262ac443c",
+      "followed_up": false,
+      "timestamp": "2026-04-14T09:55:49.014581"
     }
   ]
 }
