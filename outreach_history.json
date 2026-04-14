@@ -3780,9 +3780,10 @@
       "email": "aswathy.r@ellow.io",
       "thread_id": "19d86df2a6810a3e",
       "message_id": "19d86df2a6810a3e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T18:14:26.046591"
+      "timestamp": "2026-04-13T18:14:26.046591",
+      "followup_timestamp": "2026-04-14T19:49:22.535552"
     },
     {
       "urn": "urn:li:activity:7449424408773013504",
@@ -3790,9 +3791,10 @@
       "email": "cv@softwarezgroup.com",
       "thread_id": "19d86df37c9f8bdb",
       "message_id": "19d86df37c9f8bdb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T18:14:29.063664"
+      "timestamp": "2026-04-13T18:14:29.063664",
+      "followup_timestamp": "2026-04-14T19:49:24.108697"
     },
     {
       "urn": "urn:li:activity:7449403381623955456",
@@ -3800,9 +3802,10 @@
       "email": "biuro@solutionspace.pl",
       "thread_id": "19d86df3f9536644",
       "message_id": "19d86df3f9536644",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T18:14:31.380336"
+      "timestamp": "2026-04-13T18:14:31.380336",
+      "followup_timestamp": "2026-04-14T19:49:25.605159"
     },
     {
       "urn": "urn:li:activity:7449391644862337025",
@@ -3810,9 +3813,10 @@
       "email": "recruitment@raftglobal.in",
       "thread_id": "19d86df486547bc1",
       "message_id": "19d86df486547bc1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T18:14:33.715599"
+      "timestamp": "2026-04-13T18:14:33.715599",
+      "followup_timestamp": "2026-04-14T19:49:27.167781"
     },
     {
       "urn": "urn:li:activity:7449380935671881728",
@@ -3820,9 +3824,10 @@
       "email": "harsha@code1.dev",
       "thread_id": "19d86df50b1af85a",
       "message_id": "19d86df50b1af85a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T18:14:36.063609"
+      "timestamp": "2026-04-13T18:14:36.063609",
+      "followup_timestamp": "2026-04-14T19:49:28.724694"
     },
     {
       "urn": "urn:li:activity:7449368965023424512",
@@ -3830,9 +3835,10 @@
       "email": "cv@softwarezgroup.com, kavita@softwarezgroup.com",
       "thread_id": "19d86df5b6903297",
       "message_id": "19d86df5b6903297",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T18:14:38.405569"
+      "timestamp": "2026-04-13T18:14:38.405569",
+      "followup_timestamp": "2026-04-14T19:49:30.292130"
     },
     {
       "urn": "urn:li:activity:7449440793280438272",
