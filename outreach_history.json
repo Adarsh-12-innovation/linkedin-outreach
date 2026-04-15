@@ -3866,9 +3866,10 @@
       "email": "atif@prolificxpert.com",
       "thread_id": "19d87576a98ab91e",
       "message_id": "19d87576a98ab91e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T20:25:47.139782"
+      "timestamp": "2026-04-13T20:25:47.139782",
+      "followup_timestamp": "2026-04-15T05:36:51.042741"
     },
     {
       "urn": "urn:li:activity:7449457528582848512",
@@ -3876,9 +3877,10 @@
       "email": "viveik.dikshit@aglowrec.in",
       "thread_id": "19d8757749b7b059",
       "message_id": "19d8757749b7b059",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T20:25:49.599081"
+      "timestamp": "2026-04-13T20:25:49.599081",
+      "followup_timestamp": "2026-04-15T05:36:52.650091"
     },
     {
       "urn": "urn:li:activity:7449453807081627648",
@@ -3886,9 +3888,10 @@
       "email": "rishabh@tekinspirations.com",
       "thread_id": "19d87577e49e6a85",
       "message_id": "19d87577e49e6a85",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T20:25:51.843207"
+      "timestamp": "2026-04-13T20:25:51.843207",
+      "followup_timestamp": "2026-04-15T05:36:54.213848"
     },
     {
       "urn": "urn:li:activity:7449453572728995840",
@@ -3896,9 +3899,10 @@
       "email": "Shobana.m@lepingconsulting.com",
       "thread_id": "19d87578ecff4598",
       "message_id": "19d87578ecff4598",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T20:25:56.356660"
+      "timestamp": "2026-04-13T20:25:56.356660",
+      "followup_timestamp": "2026-04-15T05:36:55.767834"
     },
     {
       "urn": "urn:li:activity:7449449051353407488",
@@ -3906,9 +3910,10 @@
       "email": "vinay@silverbayconsulting.com",
       "thread_id": "19d875799446ed99",
       "message_id": "19d875799446ed99",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T20:25:58.599567"
+      "timestamp": "2026-04-13T20:25:58.599567",
+      "followup_timestamp": "2026-04-15T05:36:57.349397"
     },
     {
       "urn": "urn:li:activity:7449446962317201408",
@@ -3916,9 +3921,10 @@
       "email": "Chivalrytek@gmail.com",
       "thread_id": "19d8757ad3a1ad81",
       "message_id": "19d8757ad3a1ad81",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-13T20:26:03.933500"
+      "timestamp": "2026-04-13T20:26:03.933500",
+      "followup_timestamp": "2026-04-15T05:36:58.909040"
     },
     {
       "urn": "urn:li:activity:7449701238688079872",
