@@ -4139,8 +4139,9 @@
       "email": "shreshthi@atf-labs.com",
       "thread_id": "19d8b6b262ac443c",
       "message_id": "19d8b6b262ac443c",
-      "followed_up": false,
-      "timestamp": "2026-04-14T09:55:49.014581"
+      "followed_up": true,
+      "timestamp": "2026-04-14T09:55:49.014581",
+      "followup_timestamp": "2026-04-15T09:56:52.327886"
     },
     {
       "urn": "urn:li:activity:7449785102651490304",
