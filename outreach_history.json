@@ -4098,8 +4098,9 @@
       "email": "info@staffrex.in",
       "thread_id": "19d8b17f971964e1",
       "message_id": "19d8b17f971964e1",
-      "followed_up": false,
-      "timestamp": "2026-04-14T08:24:57.716850"
+      "followed_up": true,
+      "timestamp": "2026-04-14T08:24:57.716850",
+      "followup_timestamp": "2026-04-15T14:01:45.483632"
     },
     {
       "urn": "urn:li:activity:7449708621447471106",
@@ -4107,8 +4108,9 @@
       "email": "himanshu.tamang@bytebillion.com",
       "thread_id": "19d8b1800ab27b1a",
       "message_id": "19d8b1800ab27b1a",
-      "followed_up": false,
-      "timestamp": "2026-04-14T08:24:59.771363"
+      "followed_up": true,
+      "timestamp": "2026-04-14T08:24:59.771363",
+      "followup_timestamp": "2026-04-15T14:01:47.886733"
     },
     {
       "urn": "urn:li:activity:7449705332592996352",
@@ -4116,8 +4118,9 @@
       "email": "hr.itrecruiter@devlats.com",
       "thread_id": "19d8b180968020dd",
       "message_id": "19d8b180968020dd",
-      "followed_up": false,
-      "timestamp": "2026-04-14T08:25:01.687284"
+      "followed_up": true,
+      "timestamp": "2026-04-14T08:25:01.687284",
+      "followup_timestamp": "2026-04-15T14:01:50.958076"
     },
     {
       "urn": "urn:li:activity:7449734115840647168",

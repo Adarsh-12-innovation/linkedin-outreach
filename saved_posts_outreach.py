@@ -110,6 +110,7 @@ CONFIG = {
     "GEMINI_API_KEY_4": os.getenv("GEMINI_API_KEY_4", ""),
     "GEMINI_API_KEY_5": os.getenv("GEMINI_API_KEY_5", ""),
     "GEMINI_API_KEY_6": os.getenv("GEMINI_API_KEY_6", ""),
+    "GEMINI_API_KEY_7": os.getenv("GEMINI_API_KEY_7", ""),
     "GEMINI_MODEL": "gemini-2.5-flash-lite",
 
     # Gmail OAuth2
@@ -978,7 +979,7 @@ def call_gemini(prompt: str) -> str:
         {"key": CONFIG["GEMINI_API_KEY_4"], "retries": 1, "name": "Key 4"},
         {"key": CONFIG["GEMINI_API_KEY_5"], "retries": 1, "name": "Key 5"},
         {"key": CONFIG["GEMINI_API_KEY_6"], "retries": 1, "name": "Key 6"},
-        {"key": CONFIG["GEMINI_API_KEY_7"], "retries": 1, "name": "Key 7"},
+        {"key": CONFIG["GEMINI_API_KEY_7"], "retries": 1, "name": "Key 7"}
     ]
 
     for k_info in keys:
