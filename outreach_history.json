@@ -383,7 +383,24 @@
     "urn:li:activity:7450052687548809216",
     "urn:li:activity:7450045268043153408",
     "urn:li:activity:7450047193006219264",
-    "urn:li:activity:7450047216255209472"
+    "urn:li:activity:7450047216255209472",
+    "urn:li:activity:7450063932418916352",
+    "urn:li:activity:7450061489551548416",
+    "urn:li:activity:7450060819591077888",
+    "urn:li:activity:7450060372411281409",
+    "urn:li:activity:7450059186346033152",
+    "urn:li:activity:7450057203849273344",
+    "urn:li:activity:7450056445045153792",
+    "urn:li:activity:7450049330008182785",
+    "urn:li:activity:7450041012909002752",
+    "urn:li:activity:7450040330873327616",
+    "urn:li:activity:7450040247322812416",
+    "urn:li:activity:7450040043689144320",
+    "urn:li:activity:7450039849589497856",
+    "urn:li:activity:7450039799425421312",
+    "urn:li:activity:7450039418003890176",
+    "urn:li:activity:7450026388176429057",
+    "urn:li:activity:7449936204860383232"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -659,7 +676,15 @@
     "kavya@intellisofttech.com",
     "khushi.j@infowaygroup.com",
     "Jadhav.nandini@hankersystems.in",
-    "shweta.sgempertsindia@gmail.com"
+    "shweta.sgempertsindia@gmail.com",
+    "mansi@infowaygroup.com",
+    "Shreya@infowaygroup.com",
+    "Tanushri@infowaygroup.com",
+    "Shravya.Bhake@n-labs.ai",
+    "Jyothi.Soma@n-labs.ai",
+    "vijayalakshmi@conveytechlabs.com",
+    "shainkig@jawaminfotech.com",
+    "consult@jksolutionsgroup.org"
   ],
   "contacted_details": [
     {
@@ -4251,6 +4276,176 @@
       "message_id": "19d8faccef329b36",
       "followed_up": false,
       "timestamp": "2026-04-15T05:46:00.441984"
+    },
+    {
+      "urn": "urn:li:activity:7450063932418916352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450063932418916352",
+      "email": "info@staffrex.in",
+      "thread_id": "19d8fe11b44d64a3",
+      "message_id": "19d8fe11b44d64a3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:08.677940"
+    },
+    {
+      "urn": "urn:li:activity:7450061489551548416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450061489551548416",
+      "email": "mansi@infowaygroup.com",
+      "thread_id": "19d8fe12d423ef98",
+      "message_id": "19d8fe12d423ef98",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:13.274021"
+    },
+    {
+      "urn": "urn:li:activity:7450060819591077888",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450060819591077888",
+      "email": "Shreya@infowaygroup.com",
+      "thread_id": "19d8fe13cb837324",
+      "message_id": "19d8fe13cb837324",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:17.865853"
+    },
+    {
+      "urn": "urn:li:activity:7450060372411281409",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450060372411281409",
+      "email": "Tanushri@infowaygroup.com",
+      "thread_id": "19d8fe151b85afc9",
+      "message_id": "19d8fe151b85afc9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:22.646718"
+    },
+    {
+      "urn": "urn:li:activity:7450059186346033152",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450059186346033152",
+      "email": "Shravya.Bhake@n-labs.ai",
+      "thread_id": "19d8fe15c88e1c8a",
+      "message_id": "19d8fe15c88e1c8a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:25.661058"
+    },
+    {
+      "urn": "urn:li:activity:7450057203849273344",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450057203849273344",
+      "email": "Jyothi.Soma@n-labs.ai",
+      "thread_id": "19d8fe1675a8f907",
+      "message_id": "19d8fe1675a8f907",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:28.074191"
+    },
+    {
+      "urn": "urn:li:activity:7450056445045153792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450056445045153792",
+      "email": "vijayalakshmi@conveytechlabs.com",
+      "thread_id": "19d8fe16f8d36bfa",
+      "message_id": "19d8fe16f8d36bfa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:30.373202"
+    },
+    {
+      "urn": "urn:li:activity:7450049330008182785",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450049330008182785",
+      "email": "shainkig@jawaminfotech.com",
+      "thread_id": "19d8fe179f6a7467",
+      "message_id": "19d8fe179f6a7467",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:32.824246"
+    },
+    {
+      "urn": "urn:li:activity:7450041012909002752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450041012909002752",
+      "email": "info@staffrex.in",
+      "thread_id": "19d8fe18ba4ac678",
+      "message_id": "19d8fe18ba4ac678",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:37.566523"
+    },
+    {
+      "urn": "urn:li:activity:7450040330873327616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450040330873327616",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d8fe1945843d8b",
+      "message_id": "19d8fe1945843d8b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:40.278118"
+    },
+    {
+      "urn": "urn:li:activity:7450040247322812416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450040247322812416",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d8fe19ef06a927",
+      "message_id": "19d8fe19ef06a927",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:42.923030"
+    },
+    {
+      "urn": "urn:li:activity:7450040043689144320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450040043689144320",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d8fe1ab3ff3108",
+      "message_id": "19d8fe1ab3ff3108",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:47.959100"
+    },
+    {
+      "urn": "urn:li:activity:7450039849589497856",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450039849589497856",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d8fe1bd7f2112b",
+      "message_id": "19d8fe1bd7f2112b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:50.349042"
+    },
+    {
+      "urn": "urn:li:activity:7450039799425421312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450039799425421312",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d8fe1c6ed62c69",
+      "message_id": "19d8fe1c6ed62c69",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:53.252384"
+    },
+    {
+      "urn": "urn:li:activity:7450039418003890176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450039418003890176",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d8fe1dfc7980c7",
+      "message_id": "19d8fe1dfc7980c7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:13:59.554720"
+    },
+    {
+      "urn": "urn:li:activity:7450026388176429057",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450026388176429057",
+      "email": "consult@jksolutionsgroup.org",
+      "thread_id": "19d8fe1ec6861e02",
+      "message_id": "19d8fe1ec6861e02",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:14:02.802506"
+    },
+    {
+      "urn": "urn:li:activity:7449936204860383232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449936204860383232",
+      "email": "dharshini@vysystems.com",
+      "thread_id": "19d8fe2045c57ff0",
+      "message_id": "19d8fe2045c57ff0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:14:08.747834"
     }
   ]
 }
