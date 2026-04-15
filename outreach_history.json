@@ -402,7 +402,13 @@
     "urn:li:activity:7450026388176429057",
     "urn:li:activity:7449936204860383232",
     "urn:li:activity:7450068390494248960",
-    "urn:li:activity:7450063506424385536"
+    "urn:li:activity:7450063506424385536",
+    "urn:li:activity:7450101480201572352",
+    "urn:li:activity:7450091206027689984",
+    "urn:li:activity:7450082432881426432",
+    "urn:li:activity:7450079687273517056",
+    "urn:li:activity:7450071112132059136",
+    "urn:li:activity:7450050191912554496"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -688,7 +694,10 @@
     "shainkig@jawaminfotech.com",
     "consult@jksolutionsgroup.org",
     "devarapalli.amrutha@lovasit.com",
-    "info@ribbitzllc.com"
+    "info@ribbitzllc.com",
+    "mohamed.k@asapstaffing.co.uk",
+    "uma@taln.cloud",
+    "likhitha.thalari@openteqgroup.com"
   ],
   "contacted_details": [
     {
@@ -4473,6 +4482,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-15T12:27:40.708713"
+    },
+    {
+      "urn": "urn:li:activity:7450101480201572352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450101480201572352",
+      "email": "mohamed.k@asapstaffing.co.uk",
+      "thread_id": "19d90623b5cb8b05",
+      "message_id": "19d90623b5cb8b05",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T14:34:10.486767"
+    },
+    {
+      "urn": "urn:li:activity:7450091206027689984",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450091206027689984",
+      "email": "uma@taln.cloud",
+      "thread_id": "19d9062437749e81",
+      "message_id": "19d9062437749e81",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T14:34:12.817746"
+    },
+    {
+      "urn": "urn:li:activity:7450082432881426432",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450082432881426432",
+      "email": "consult@jksolutionsgroup.org",
+      "thread_id": "19d90625227836c8",
+      "message_id": "19d90625227836c8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T14:34:16.867437"
+    },
+    {
+      "urn": "urn:li:activity:7450079687273517056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450079687273517056",
+      "email": "cv@softwarezgroup.com",
+      "thread_id": "19d90625b9e702ae",
+      "message_id": "19d90625b9e702ae",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T14:34:19.065869"
+    },
+    {
+      "urn": "urn:li:activity:7450071112132059136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450071112132059136",
+      "email": "likhitha.thalari@openteqgroup.com",
+      "thread_id": "19d9062626c5ab71",
+      "message_id": "19d9062626c5ab71",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T14:34:21.094941"
+    },
+    {
+      "urn": "urn:li:activity:7450050191912554496",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450050191912554496",
+      "email": "shainkig@jawaminfotech.com",
+      "thread_id": "19d90626c965bae7",
+      "message_id": "19d90626c965bae7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T14:34:23.308036"
     }
   ]
 }
