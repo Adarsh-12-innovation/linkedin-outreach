@@ -71,6 +71,8 @@ CONFIG = {
     "GEMINI_API_KEY_4": os.getenv("GEMINI_API_KEY_4", ""),
     "GEMINI_API_KEY_5": os.getenv("GEMINI_API_KEY_5", ""),
     "GEMINI_API_KEY_6": os.getenv("GEMINI_API_KEY_6", ""),
+    "GEMINI_API_KEY_7": os.getenv("GEMINI_API_KEY_7", ""),
+
     # "GEMINI_MODEL": "gemini-2.5-flash",
     "GEMINI_MODEL": "gemini-2.5-flash-lite",
 
@@ -79,6 +81,7 @@ CONFIG = {
     "FILTER_GEMINI_API_KEY_1": os.getenv("FILTER_GEMINI_API_KEY_1", os.getenv("FILTER_GEMINI_API_KEY", "")),
     "FILTER_GEMINI_API_KEY_2": os.getenv("FILTER_GEMINI_API_KEY_2", os.getenv("FILTER_ALT_GEMINI_API_KEY", "")),
     "FILTER_GEMINI_API_KEY_3": os.getenv("FILTER_GEMINI_API_KEY_3", ""),
+    "FILTER_GEMINI_API_KEY_4": os.getenv("FILTER_GEMINI_API_KEY_4", ""),
     "FILTER_GEMINI_MODEL": "gemini-2.5-flash-lite",
     # "FILTER_GEMINI_MODEL": "gemini-3.1-flash-lite",
 
@@ -624,6 +627,7 @@ def call_filter_gemini(prompt: str) -> str:
         {"key": CONFIG["FILTER_GEMINI_API_KEY_1"], "retries": 1, "name": "Filter Key 1"},
         {"key": CONFIG["FILTER_GEMINI_API_KEY_2"], "retries": 1, "name": "Filter Key 2"},
         {"key": CONFIG["FILTER_GEMINI_API_KEY_3"], "retries": 1, "name": "Filter Key 3"},
+        {"key": CONFIG["FILTER_GEMINI_API_KEY_4"], "retries": 1, "name": "Filter Key 4"}
     ]
 
     for k_info in keys:
@@ -758,6 +762,7 @@ def call_gemini(prompt: str) -> str:
         {"key": CONFIG["GEMINI_API_KEY_4"], "retries": 1, "name": "Extraction Key 4"},
         {"key": CONFIG["GEMINI_API_KEY_5"], "retries": 1, "name": "Extraction Key 5"},
         {"key": CONFIG["GEMINI_API_KEY_6"], "retries": 1, "name": "Extraction Key 6"},
+        {"key": CONFIG["GEMINI_API_KEY_7"], "retries": 1, "name": "Extraction Key 7"},
     ]
 
     for k_info in keys:
