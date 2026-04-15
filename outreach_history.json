@@ -400,7 +400,9 @@
     "urn:li:activity:7450039799425421312",
     "urn:li:activity:7450039418003890176",
     "urn:li:activity:7450026388176429057",
-    "urn:li:activity:7449936204860383232"
+    "urn:li:activity:7449936204860383232",
+    "urn:li:activity:7450068390494248960",
+    "urn:li:activity:7450063506424385536"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -684,7 +686,9 @@
     "Jyothi.Soma@n-labs.ai",
     "vijayalakshmi@conveytechlabs.com",
     "shainkig@jawaminfotech.com",
-    "consult@jksolutionsgroup.org"
+    "consult@jksolutionsgroup.org",
+    "devarapalli.amrutha@lovasit.com",
+    "info@ribbitzllc.com"
   ],
   "contacted_details": [
     {
@@ -4446,6 +4450,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-15T12:14:08.747834"
+    },
+    {
+      "urn": "urn:li:activity:7450068390494248960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450068390494248960",
+      "email": "devarapalli.amrutha@lovasit.com",
+      "thread_id": "19d8fee5e3fdc0fc",
+      "message_id": "19d8fee5e3fdc0fc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:27:38.237476"
+    },
+    {
+      "urn": "urn:li:activity:7450063506424385536",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450063506424385536",
+      "email": "info@ribbitzllc.com",
+      "thread_id": "19d8fee69c3b1e40",
+      "message_id": "19d8fee69c3b1e40",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T12:27:40.708713"
     }
   ]
 }
