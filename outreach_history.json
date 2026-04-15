@@ -379,7 +379,11 @@
     "urn:li:activity:7449842828207341568",
     "urn:li:activity:7449842032229105664",
     "urn:li:activity:7449825336403451904",
-    "urn:li:activity:7449858066180759553"
+    "urn:li:activity:7449858066180759553",
+    "urn:li:activity:7450052687548809216",
+    "urn:li:activity:7450045268043153408",
+    "urn:li:activity:7450047193006219264",
+    "urn:li:activity:7450047216255209472"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -652,7 +656,10 @@
     "sanjay@audentestech.com",
     "swetha@esquareinfo.com",
     "dharshini@vysystems.com",
-    "kavya@intellisofttech.com"
+    "kavya@intellisofttech.com",
+    "khushi.j@infowaygroup.com",
+    "Jadhav.nandini@hankersystems.in",
+    "shweta.sgempertsindia@gmail.com"
   ],
   "contacted_details": [
     {
@@ -4208,6 +4215,42 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-14T22:19:19.089755"
+    },
+    {
+      "urn": "urn:li:activity:7450052687548809216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450052687548809216",
+      "email": "khushi.j@infowaygroup.com",
+      "thread_id": "19d8facb0378ea1d",
+      "message_id": "19d8facb0378ea1d",
+      "followed_up": false,
+      "timestamp": "2026-04-15T05:45:52.713768"
+    },
+    {
+      "urn": "urn:li:activity:7450045268043153408",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450045268043153408",
+      "email": "Jadhav.nandini@hankersystems.in",
+      "thread_id": "19d8facbeaa74252",
+      "message_id": "19d8facbeaa74252",
+      "followed_up": false,
+      "timestamp": "2026-04-15T05:45:56.688526"
+    },
+    {
+      "urn": "urn:li:activity:7450047193006219264",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450047193006219264",
+      "email": "shweta.sgempertsindia@gmail.com",
+      "thread_id": "19d8facc7f101a70",
+      "message_id": "19d8facc7f101a70",
+      "followed_up": false,
+      "timestamp": "2026-04-15T05:45:58.562705"
+    },
+    {
+      "urn": "urn:li:activity:7450047216255209472",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450047216255209472",
+      "email": "hr@entalix-systems.com",
+      "thread_id": "19d8faccef329b36",
+      "message_id": "19d8faccef329b36",
+      "followed_up": false,
+      "timestamp": "2026-04-15T05:46:00.441984"
     }
   ]
 }
