@@ -408,7 +408,9 @@
     "urn:li:activity:7450082432881426432",
     "urn:li:activity:7450079687273517056",
     "urn:li:activity:7450071112132059136",
-    "urn:li:activity:7450050191912554496"
+    "urn:li:activity:7450050191912554496",
+    "urn:li:activity:7450073550285361152",
+    "urn:li:activity:7450049885296500737"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -4542,6 +4544,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-15T14:34:23.308036"
+    },
+    {
+      "urn": "urn:li:activity:7450073550285361152",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450073550285361152",
+      "email": "recruiter@ribbitzllc.com",
+      "thread_id": "19d907bf73471b9c",
+      "message_id": "19d907bf73471b9c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T15:02:17.008097"
+    },
+    {
+      "urn": "urn:li:activity:7450049885296500737",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450049885296500737",
+      "email": "shainkig@jawaminfotech.com",
+      "thread_id": "19d907bfe31fbe20",
+      "message_id": "19d907bfe31fbe20",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-15T15:02:19.293200"
     }
   ]
 }
