@@ -369,7 +369,7 @@ def search_linkedin_posts(session, phrase: str, seen_ids: set) -> list[dict]:
                 act_id = m.group(1)
                 
                 # Extract text from commentary
-                commentary = item.get("commentary", {})
+                commentary = item.get("commentary") or {}
                 text_obj = commentary.get("text", {})
                 if isinstance(text_obj, dict) and "text" in text_obj:
                     urn_to_content[act_id] = text_obj["text"]
