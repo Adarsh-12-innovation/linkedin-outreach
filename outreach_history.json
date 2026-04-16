@@ -434,7 +434,9 @@
     "urn:li:activity:7450399406161502208",
     "urn:li:activity:7450390549813133312",
     "urn:li:activity:7450302972464472064",
-    "urn:li:activity:7450274841707945984"
+    "urn:li:activity:7450274841707945984",
+    "urn:li:activity:7450425334803361792",
+    "urn:li:activity:7450419845118054400"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -735,7 +737,9 @@
     "archana@taln.cloud",
     "carreirsfuturetech@gmail.com",
     "somya.sharma@tekinspirations.com",
-    "rahul.grober@expediteinc.com"
+    "rahul.grober@expediteinc.com",
+    "rec1.hjd@habmail.com",
+    "ruth.y@ideslabs.com"
   ],
   "contacted_details": [
     {
@@ -4867,6 +4871,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-16T11:53:15.081095"
+    },
+    {
+      "urn": "urn:li:activity:7450425334803361792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450425334803361792",
+      "email": "rec1.hjd@habmail.com",
+      "thread_id": "19d950ae9814f4dc",
+      "message_id": "19d950ae9814f4dc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T12:16:54.298442"
+    },
+    {
+      "urn": "urn:li:activity:7450419845118054400",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450419845118054400",
+      "email": "ruth.y@ideslabs.com",
+      "thread_id": "19d950afe14716f9",
+      "message_id": "19d950afe14716f9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T12:16:59.970112"
     }
   ]
 }
