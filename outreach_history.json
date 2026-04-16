@@ -442,7 +442,11 @@
     "urn:li:activity:7450450102814478336",
     "urn:li:activity:7450443701035737088",
     "urn:li:activity:7450442682138791937",
-    "urn:li:activity:7450416542560976896"
+    "urn:li:activity:7450416542560976896",
+    "urn:li:activity:7450477358916059150",
+    "urn:li:activity:7450473157863571457",
+    "urn:li:activity:7450425010353070080",
+    "urn:li:activity:7450422833983156224"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -748,7 +752,9 @@
     "ruth.y@ideslabs.com",
     "rani@prakharsoftwares.com",
     "Medha@Forcecraver.com",
-    "alekhyaa@eteaminc.com"
+    "alekhyaa@eteaminc.com",
+    "careers@rayadvertising.com",
+    "tehreem.fatima@techwaresoft.io"
   ],
   "contacted_details": [
     {
@@ -4960,6 +4966,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-16T14:16:55.707319"
+    },
+    {
+      "urn": "urn:li:activity:7450477358916059150",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450477358916059150",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "19d95b6693dba7f0",
+      "message_id": "19d95b6693dba7f0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T15:24:13.340213"
+    },
+    {
+      "urn": "urn:li:activity:7450473157863571457",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450473157863571457",
+      "email": "hrjobs@kas-in.com",
+      "thread_id": "19d95b674a5a2dbc",
+      "message_id": "19d95b674a5a2dbc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T15:24:16.782024"
+    },
+    {
+      "urn": "urn:li:activity:7450425010353070080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450425010353070080",
+      "email": "careers@rayadvertising.com",
+      "thread_id": "19d95b68022375ca",
+      "message_id": "19d95b68022375ca",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T15:24:19.850434"
+    },
+    {
+      "urn": "urn:li:activity:7450422833983156224",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450422833983156224",
+      "email": "tehreem.fatima@techwaresoft.io",
+      "thread_id": "19d95b6915dae6e6",
+      "message_id": "19d95b6915dae6e6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T15:24:23.890286"
     }
   ]
 }
