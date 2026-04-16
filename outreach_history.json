@@ -449,7 +449,12 @@
     "urn:li:activity:7450422833983156224",
     "urn:li:activity:7450506230634029056",
     "urn:li:activity:7450504678557061120",
-    "urn:li:activity:7450494644385308672"
+    "urn:li:activity:7450494644385308672",
+    "urn:li:activity:7450521402715041793",
+    "urn:li:activity:7450512123010617344",
+    "urn:li:activity:7450457923820093440",
+    "urn:li:activity:7450451273490898944",
+    "urn:li:activity:7450437717278007296"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -759,7 +764,9 @@
     "careers@rayadvertising.com",
     "tehreem.fatima@techwaresoft.io",
     "akansha2@aliqan.com",
-    "simranjeet.kaur@phitechlabs.com"
+    "simranjeet.kaur@phitechlabs.com",
+    "gracytd4137@gmail.com",
+    "upasanamodi2015@gmail.com"
   ],
   "contacted_details": [
     {
@@ -5060,6 +5067,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-16T18:07:00.264203"
+    },
+    {
+      "urn": "urn:li:activity:7450521402715041793",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450521402715041793",
+      "email": "rec1.hjd@habmail.com",
+      "thread_id": "19d965b7731748f4",
+      "message_id": "19d965b7731748f4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T18:24:30.613532"
+    },
+    {
+      "urn": "urn:li:activity:7450512123010617344",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450512123010617344",
+      "email": "gracytd4137@gmail.com",
+      "thread_id": "19d965b8d924c2b5",
+      "message_id": "19d965b8d924c2b5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T18:24:36.391044"
+    },
+    {
+      "urn": "urn:li:activity:7450457923820093440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450457923820093440",
+      "email": "khushi.j@infowaygroup.com",
+      "thread_id": "19d965b97902ae17",
+      "message_id": "19d965b97902ae17",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T18:24:38.615523"
+    },
+    {
+      "urn": "urn:li:activity:7450451273490898944",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450451273490898944",
+      "email": "info@staffrex.in",
+      "thread_id": "19d965ba8f44c406",
+      "message_id": "19d965ba8f44c406",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T18:24:43.370715"
+    },
+    {
+      "urn": "urn:li:activity:7450437717278007296",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450437717278007296",
+      "email": "upasanamodi2015@gmail.com",
+      "thread_id": "19d965bb02b87632",
+      "message_id": "19d965bb02b87632",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T18:24:45.610621"
     }
   ]
 }
