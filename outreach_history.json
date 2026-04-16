@@ -4265,9 +4265,10 @@
       "email": "dharshini@vysystems.com",
       "thread_id": "19d8cd50c15a7d72",
       "message_id": "19d8cd50c15a7d72",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-14T22:01:06.173590"
+      "timestamp": "2026-04-14T22:01:06.173590",
+      "followup_timestamp": "2026-04-16T05:41:53.520318"
     },
     {
       "urn": "urn:li:activity:7449842032229105664",
@@ -4275,9 +4276,10 @@
       "email": "dharshini@vysystems.com",
       "thread_id": "19d8cd51f9bab712",
       "message_id": "19d8cd51f9bab712",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-14T22:01:11.080214"
+      "timestamp": "2026-04-14T22:01:11.080214",
+      "followup_timestamp": "2026-04-16T05:41:55.041421"
     },
     {
       "urn": "urn:li:activity:7449825336403451904",
@@ -4285,9 +4287,10 @@
       "email": "kavya@intellisofttech.com",
       "thread_id": "19d8cd53506b25cc",
       "message_id": "19d8cd53506b25cc",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-14T22:01:16.602043"
+      "timestamp": "2026-04-14T22:01:16.602043",
+      "followup_timestamp": "2026-04-16T05:41:56.534488"
     },
     {
       "urn": "urn:li:activity:7449858066180759553",
@@ -4295,9 +4298,10 @@
       "email": "viveik.dikshit@aglowrec.in",
       "thread_id": "19d8ce5b9c5f04ee",
       "message_id": "19d8ce5b9c5f04ee",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-14T22:19:19.089755"
+      "timestamp": "2026-04-14T22:19:19.089755",
+      "followup_timestamp": "2026-04-16T05:41:58.017072"
     },
     {
       "urn": "urn:li:activity:7450052687548809216",
