@@ -446,7 +446,10 @@
     "urn:li:activity:7450477358916059150",
     "urn:li:activity:7450473157863571457",
     "urn:li:activity:7450425010353070080",
-    "urn:li:activity:7450422833983156224"
+    "urn:li:activity:7450422833983156224",
+    "urn:li:activity:7450506230634029056",
+    "urn:li:activity:7450504678557061120",
+    "urn:li:activity:7450494644385308672"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -754,7 +757,9 @@
     "Medha@Forcecraver.com",
     "alekhyaa@eteaminc.com",
     "careers@rayadvertising.com",
-    "tehreem.fatima@techwaresoft.io"
+    "tehreem.fatima@techwaresoft.io",
+    "akansha2@aliqan.com",
+    "simranjeet.kaur@phitechlabs.com"
   ],
   "contacted_details": [
     {
@@ -4383,9 +4388,10 @@
       "email": "info@staffrex.in",
       "thread_id": "19d8fe11b44d64a3",
       "message_id": "19d8fe11b44d64a3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:08.677940"
+      "timestamp": "2026-04-15T12:13:08.677940",
+      "followup_timestamp": "2026-04-16T18:07:02.548564"
     },
     {
       "urn": "urn:li:activity:7450061489551548416",
@@ -4393,9 +4399,10 @@
       "email": "mansi@infowaygroup.com",
       "thread_id": "19d8fe12d423ef98",
       "message_id": "19d8fe12d423ef98",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:13.274021"
+      "timestamp": "2026-04-15T12:13:13.274021",
+      "followup_timestamp": "2026-04-16T18:07:04.920394"
     },
     {
       "urn": "urn:li:activity:7450060819591077888",
@@ -4403,9 +4410,10 @@
       "email": "Shreya@infowaygroup.com",
       "thread_id": "19d8fe13cb837324",
       "message_id": "19d8fe13cb837324",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:17.865853"
+      "timestamp": "2026-04-15T12:13:17.865853",
+      "followup_timestamp": "2026-04-16T18:07:07.390108"
     },
     {
       "urn": "urn:li:activity:7450060372411281409",
@@ -4413,9 +4421,10 @@
       "email": "Tanushri@infowaygroup.com",
       "thread_id": "19d8fe151b85afc9",
       "message_id": "19d8fe151b85afc9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:22.646718"
+      "timestamp": "2026-04-15T12:13:22.646718",
+      "followup_timestamp": "2026-04-16T18:07:09.732553"
     },
     {
       "urn": "urn:li:activity:7450059186346033152",
@@ -4423,9 +4432,10 @@
       "email": "Shravya.Bhake@n-labs.ai",
       "thread_id": "19d8fe15c88e1c8a",
       "message_id": "19d8fe15c88e1c8a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:25.661058"
+      "timestamp": "2026-04-15T12:13:25.661058",
+      "followup_timestamp": "2026-04-16T18:07:12.003788"
     },
     {
       "urn": "urn:li:activity:7450057203849273344",
@@ -4433,9 +4443,10 @@
       "email": "Jyothi.Soma@n-labs.ai",
       "thread_id": "19d8fe1675a8f907",
       "message_id": "19d8fe1675a8f907",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:28.074191"
+      "timestamp": "2026-04-15T12:13:28.074191",
+      "followup_timestamp": "2026-04-16T18:07:14.272833"
     },
     {
       "urn": "urn:li:activity:7450056445045153792",
@@ -4443,9 +4454,10 @@
       "email": "vijayalakshmi@conveytechlabs.com",
       "thread_id": "19d8fe16f8d36bfa",
       "message_id": "19d8fe16f8d36bfa",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:30.373202"
+      "timestamp": "2026-04-15T12:13:30.373202",
+      "followup_timestamp": "2026-04-16T18:07:16.511912"
     },
     {
       "urn": "urn:li:activity:7450049330008182785",
@@ -4453,9 +4465,10 @@
       "email": "shainkig@jawaminfotech.com",
       "thread_id": "19d8fe179f6a7467",
       "message_id": "19d8fe179f6a7467",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:32.824246"
+      "timestamp": "2026-04-15T12:13:32.824246",
+      "followup_timestamp": "2026-04-16T18:07:18.800105"
     },
     {
       "urn": "urn:li:activity:7450041012909002752",
@@ -4463,9 +4476,10 @@
       "email": "info@staffrex.in",
       "thread_id": "19d8fe18ba4ac678",
       "message_id": "19d8fe18ba4ac678",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:37.566523"
+      "timestamp": "2026-04-15T12:13:37.566523",
+      "followup_timestamp": "2026-04-16T18:07:21.060918"
     },
     {
       "urn": "urn:li:activity:7450040330873327616",
@@ -4473,9 +4487,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d8fe1945843d8b",
       "message_id": "19d8fe1945843d8b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:40.278118"
+      "timestamp": "2026-04-15T12:13:40.278118",
+      "followup_timestamp": "2026-04-16T18:07:23.371749"
     },
     {
       "urn": "urn:li:activity:7450040247322812416",
@@ -4483,9 +4498,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d8fe19ef06a927",
       "message_id": "19d8fe19ef06a927",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:42.923030"
+      "timestamp": "2026-04-15T12:13:42.923030",
+      "followup_timestamp": "2026-04-16T18:07:25.684016"
     },
     {
       "urn": "urn:li:activity:7450040043689144320",
@@ -4493,9 +4509,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d8fe1ab3ff3108",
       "message_id": "19d8fe1ab3ff3108",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:47.959100"
+      "timestamp": "2026-04-15T12:13:47.959100",
+      "followup_timestamp": "2026-04-16T18:07:27.962196"
     },
     {
       "urn": "urn:li:activity:7450039849589497856",
@@ -4503,9 +4520,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d8fe1bd7f2112b",
       "message_id": "19d8fe1bd7f2112b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:50.349042"
+      "timestamp": "2026-04-15T12:13:50.349042",
+      "followup_timestamp": "2026-04-16T18:07:30.199481"
     },
     {
       "urn": "urn:li:activity:7450039799425421312",
@@ -4513,9 +4531,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d8fe1c6ed62c69",
       "message_id": "19d8fe1c6ed62c69",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:53.252384"
+      "timestamp": "2026-04-15T12:13:53.252384",
+      "followup_timestamp": "2026-04-16T18:07:32.468255"
     },
     {
       "urn": "urn:li:activity:7450039418003890176",
@@ -4523,9 +4542,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d8fe1dfc7980c7",
       "message_id": "19d8fe1dfc7980c7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:13:59.554720"
+      "timestamp": "2026-04-15T12:13:59.554720",
+      "followup_timestamp": "2026-04-16T18:07:34.733571"
     },
     {
       "urn": "urn:li:activity:7450026388176429057",
@@ -4533,9 +4553,10 @@
       "email": "consult@jksolutionsgroup.org",
       "thread_id": "19d8fe1ec6861e02",
       "message_id": "19d8fe1ec6861e02",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:14:02.802506"
+      "timestamp": "2026-04-15T12:14:02.802506",
+      "followup_timestamp": "2026-04-16T18:07:37.017025"
     },
     {
       "urn": "urn:li:activity:7449936204860383232",
@@ -4543,9 +4564,10 @@
       "email": "dharshini@vysystems.com",
       "thread_id": "19d8fe2045c57ff0",
       "message_id": "19d8fe2045c57ff0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:14:08.747834"
+      "timestamp": "2026-04-15T12:14:08.747834",
+      "followup_timestamp": "2026-04-16T18:07:39.338358"
     },
     {
       "urn": "urn:li:activity:7450068390494248960",
@@ -4553,9 +4575,10 @@
       "email": "devarapalli.amrutha@lovasit.com",
       "thread_id": "19d8fee5e3fdc0fc",
       "message_id": "19d8fee5e3fdc0fc",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:27:38.237476"
+      "timestamp": "2026-04-15T12:27:38.237476",
+      "followup_timestamp": "2026-04-16T18:07:41.609487"
     },
     {
       "urn": "urn:li:activity:7450063506424385536",
@@ -4563,9 +4586,10 @@
       "email": "info@ribbitzllc.com",
       "thread_id": "19d8fee69c3b1e40",
       "message_id": "19d8fee69c3b1e40",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T12:27:40.708713"
+      "timestamp": "2026-04-15T12:27:40.708713",
+      "followup_timestamp": "2026-04-16T18:07:43.891870"
     },
     {
       "urn": "urn:li:activity:7450101480201572352",
@@ -5006,6 +5030,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-16T15:24:23.890286"
+    },
+    {
+      "urn": "urn:li:activity:7450506230634029056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450506230634029056",
+      "email": "akansha2@aliqan.com",
+      "thread_id": "19d964b5249a95f6",
+      "message_id": "19d964b5249a95f6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T18:06:52.869447"
+    },
+    {
+      "urn": "urn:li:activity:7450504678557061120",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450504678557061120",
+      "email": "simranjeet.kaur@phitechlabs.com",
+      "thread_id": "19d964b5c00af43d",
+      "message_id": "19d964b5c00af43d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T18:06:55.213278"
+    },
+    {
+      "urn": "urn:li:activity:7450494644385308672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450494644385308672",
+      "email": "mansi@infowaygroup.com",
+      "thread_id": "19d964b71d7f0aec",
+      "message_id": "19d964b71d7f0aec",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T18:07:00.264203"
     }
   ]
 }
