@@ -422,7 +422,19 @@
     "urn:li:activity:7450176738237603840",
     "urn:li:activity:7450175499643031552",
     "urn:li:activity:7450174613139128320",
-    "urn:li:activity:7450173459084562432"
+    "urn:li:activity:7450173459084562432",
+    "urn:li:activity:7450423093644402688",
+    "urn:li:activity:7450417983014977536",
+    "urn:li:activity:7450417929956909056",
+    "urn:li:activity:7450411409986834432",
+    "urn:li:activity:7450406151034322944",
+    "urn:li:activity:7450402167842127873",
+    "urn:li:activity:7450402151685570560",
+    "urn:li:activity:7450401929081573376",
+    "urn:li:activity:7450399406161502208",
+    "urn:li:activity:7450390549813133312",
+    "urn:li:activity:7450302972464472064",
+    "urn:li:activity:7450274841707945984"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -719,7 +731,11 @@
     "karthikmerican@gmail.com",
     "anurag.dubey@vyzeinc.com",
     "preeti.tyagi@tekinspirations.com",
-    "umer.javaid.09876@gmail.com"
+    "umer.javaid.09876@gmail.com",
+    "archana@taln.cloud",
+    "carreirsfuturetech@gmail.com",
+    "somya.sharma@tekinspirations.com",
+    "rahul.grober@expediteinc.com"
   ],
   "contacted_details": [
     {
@@ -4309,7 +4325,7 @@
       "email": "khushi.j@infowaygroup.com",
       "thread_id": "19d8facb0378ea1d",
       "message_id": "19d8facb0378ea1d",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-04-15T05:45:52.713768"
     },
     {
@@ -4318,8 +4334,9 @@
       "email": "Jadhav.nandini@hankersystems.in",
       "thread_id": "19d8facbeaa74252",
       "message_id": "19d8facbeaa74252",
-      "followed_up": false,
-      "timestamp": "2026-04-15T05:45:56.688526"
+      "followed_up": true,
+      "timestamp": "2026-04-15T05:45:56.688526",
+      "followup_timestamp": "2026-04-16T11:53:18.135126"
     },
     {
       "urn": "urn:li:activity:7450047193006219264",
@@ -4327,8 +4344,9 @@
       "email": "shweta.sgempertsindia@gmail.com",
       "thread_id": "19d8facc7f101a70",
       "message_id": "19d8facc7f101a70",
-      "followed_up": false,
-      "timestamp": "2026-04-15T05:45:58.562705"
+      "followed_up": true,
+      "timestamp": "2026-04-15T05:45:58.562705",
+      "followup_timestamp": "2026-04-16T11:53:20.492510"
     },
     {
       "urn": "urn:li:activity:7450047216255209472",
@@ -4336,8 +4354,9 @@
       "email": "hr@entalix-systems.com",
       "thread_id": "19d8faccef329b36",
       "message_id": "19d8faccef329b36",
-      "followed_up": false,
-      "timestamp": "2026-04-15T05:46:00.441984"
+      "followed_up": true,
+      "timestamp": "2026-04-15T05:46:00.441984",
+      "followup_timestamp": "2026-04-16T11:53:22.837381"
     },
     {
       "urn": "urn:li:activity:7450063932418916352",
@@ -4728,6 +4747,126 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-15T20:54:53.536011"
+    },
+    {
+      "urn": "urn:li:activity:7450423093644402688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450423093644402688",
+      "email": "sakshi.c.gempert@gmail.com",
+      "thread_id": "19d94f4c80722f70",
+      "message_id": "19d94f4c80722f70",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:52:44.527081"
+    },
+    {
+      "urn": "urn:li:activity:7450417983014977536",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450417983014977536",
+      "email": "archana@taln.cloud",
+      "thread_id": "19d94f4d2c776049",
+      "message_id": "19d94f4d2c776049",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:52:46.970820"
+    },
+    {
+      "urn": "urn:li:activity:7450417929956909056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450417929956909056",
+      "email": "uma@taln.cloud",
+      "thread_id": "19d94f4dd359d266",
+      "message_id": "19d94f4dd359d266",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:52:49.213539"
+    },
+    {
+      "urn": "urn:li:activity:7450411409986834432",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450411409986834432",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19d94f4e54d6fc49",
+      "message_id": "19d94f4e54d6fc49",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:52:51.511580"
+    },
+    {
+      "urn": "urn:li:activity:7450406151034322944",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450406151034322944",
+      "email": "mansi@infowaygroup.com",
+      "thread_id": "19d94f4f63e7757d",
+      "message_id": "19d94f4f63e7757d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:52:56.102298"
+    },
+    {
+      "urn": "urn:li:activity:7450402167842127873",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450402167842127873",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d94f4fe0b3c119",
+      "message_id": "19d94f4fe0b3c119",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:52:58.376291"
+    },
+    {
+      "urn": "urn:li:activity:7450402151685570560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450402151685570560",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d94f5098cc47a7",
+      "message_id": "19d94f5098cc47a7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:53:00.863785"
+    },
+    {
+      "urn": "urn:li:activity:7450401929081573376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450401929081573376",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d94f5121717777",
+      "message_id": "19d94f5121717777",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:53:03.278083"
+    },
+    {
+      "urn": "urn:li:activity:7450399406161502208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450399406161502208",
+      "email": "priyanka.bkgupta24@gmail.com",
+      "thread_id": "19d94f51fa44d0b4",
+      "message_id": "19d94f51fa44d0b4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:53:06.498368"
+    },
+    {
+      "urn": "urn:li:activity:7450390549813133312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450390549813133312",
+      "email": "carreirsfuturetech@gmail.com",
+      "thread_id": "19d94f52ae9fdbdc",
+      "message_id": "19d94f52ae9fdbdc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:53:09.617785"
+    },
+    {
+      "urn": "urn:li:activity:7450302972464472064",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450302972464472064",
+      "email": "somya.sharma@tekinspirations.com",
+      "thread_id": "19d94f537b54f841",
+      "message_id": "19d94f537b54f841",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:53:12.780934"
+    },
+    {
+      "urn": "urn:li:activity:7450274841707945984",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450274841707945984",
+      "email": "rahul.grober@expediteinc.com",
+      "thread_id": "19d94f540eb10664",
+      "message_id": "19d94f540eb10664",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-16T11:53:15.081095"
     }
   ]
 }
