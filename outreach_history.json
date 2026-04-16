@@ -4704,9 +4704,10 @@
       "email": "priyadarshini.u@martinettechnologies.com",
       "thread_id": "19d911de274f6e69",
       "message_id": "19d911de274f6e69",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T17:59:08.900883"
+      "timestamp": "2026-04-15T17:59:08.900883",
+      "followup_timestamp": "2026-04-16T19:45:10.802776"
     },
     {
       "urn": "urn:li:activity:7450134556055085056",
@@ -4714,7 +4715,7 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19d911ded0c41ccf",
       "message_id": "19d911ded0c41ccf",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-15T17:59:11.518664"
     },
@@ -4724,7 +4725,7 @@
       "email": "greg.neto@trueblueglobalco.com",
       "thread_id": "19d912766968f59c",
       "message_id": "19d912766968f59c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-15T18:09:32.585405"
     },
@@ -4734,9 +4735,10 @@
       "email": "khushi.j@infowaygroup.com",
       "thread_id": "19d912779edce739",
       "message_id": "19d912779edce739",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T18:09:37.191556"
+      "timestamp": "2026-04-15T18:09:37.191556",
+      "followup_timestamp": "2026-04-16T19:45:12.714437"
     },
     {
       "urn": "urn:li:activity:7450133877513416704",
@@ -4744,9 +4746,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19d913fed0daae45",
       "message_id": "19d913fed0daae45",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-15T18:36:19.961681"
+      "timestamp": "2026-04-15T18:36:19.961681",
+      "followup_timestamp": "2026-04-16T19:45:14.320591"
     },
     {
       "urn": "urn:li:activity:7450188880479440897",
