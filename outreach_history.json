@@ -504,7 +504,8 @@
     "urn:li:activity:7450844711499567104",
     "urn:li:activity:7450822262519201792",
     "urn:li:activity:7450881862224199680",
-    "urn:li:activity:7450823595955609600"
+    "urn:li:activity:7450823595955609600",
+    "urn:li:activity:7450794640376684544"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -5720,6 +5721,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-17T18:09:12.116615"
+    },
+    {
+      "urn": "urn:li:activity:7450794640376684544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450794640376684544",
+      "email": "mansi@infowaygroup.com",
+      "thread_id": "19d9b7df4ce8fb5c",
+      "message_id": "19d9b7df4ce8fb5c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-17T18:20:17.656474"
     }
   ]
 }
