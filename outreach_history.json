@@ -499,7 +499,10 @@
     "urn:li:activity:7450826628089167872",
     "urn:li:activity:7450823260721594369",
     "urn:li:activity:7450822016460300288",
-    "urn:li:activity:7450815462214660096"
+    "urn:li:activity:7450815462214660096",
+    "urn:li:activity:7450846854499442688",
+    "urn:li:activity:7450844711499567104",
+    "urn:li:activity:7450822262519201792"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -833,7 +836,10 @@
     "haresh@ninjatechnolabs.com",
     "keerthi@cognizioni.com",
     "harshitha@cognizioni.com",
-    "vishakha.eqube@gmail.com"
+    "vishakha.eqube@gmail.com",
+    "tharika@allegisglobalsolutions.com",
+    "shconsultancy2000@gmail.com",
+    "hirique.hr@gmail.com"
   ],
   "contacted_details": [
     {
@@ -5651,6 +5657,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-17T15:04:10.067316"
+    },
+    {
+      "urn": "urn:li:activity:7450846854499442688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450846854499442688",
+      "email": "tharika@allegisglobalsolutions.com",
+      "thread_id": "19d9b2743d76957f",
+      "message_id": "19d9b2743d76957f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-17T16:45:36.192279"
+    },
+    {
+      "urn": "urn:li:activity:7450844711499567104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450844711499567104",
+      "email": "shconsultancy2000@gmail.com",
+      "thread_id": "19d9b2750afb0f01",
+      "message_id": "19d9b2750afb0f01",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-17T16:45:40.264757"
+    },
+    {
+      "urn": "urn:li:activity:7450822262519201792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450822262519201792",
+      "email": "hirique.hr@gmail.com",
+      "thread_id": "19d9b276721b13c2",
+      "message_id": "19d9b276721b13c2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-17T16:45:45.458119"
     }
   ]
 }
