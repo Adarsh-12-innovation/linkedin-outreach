@@ -5123,9 +5123,10 @@
       "email": "priyadarshini.u@martinettechnologies.com",
       "thread_id": "19d95b6693dba7f0",
       "message_id": "19d95b6693dba7f0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T15:24:13.340213"
+      "timestamp": "2026-04-16T15:24:13.340213",
+      "followup_timestamp": "2026-04-17T15:36:48.038502"
     },
     {
       "urn": "urn:li:activity:7450473157863571457",
@@ -5133,7 +5134,7 @@
       "email": "hrjobs@kas-in.com",
       "thread_id": "19d95b674a5a2dbc",
       "message_id": "19d95b674a5a2dbc",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-16T15:24:16.782024"
     },
@@ -5143,9 +5144,10 @@
       "email": "careers@rayadvertising.com",
       "thread_id": "19d95b68022375ca",
       "message_id": "19d95b68022375ca",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T15:24:19.850434"
+      "timestamp": "2026-04-16T15:24:19.850434",
+      "followup_timestamp": "2026-04-17T15:36:51.729611"
     },
     {
       "urn": "urn:li:activity:7450422833983156224",
@@ -5153,9 +5155,10 @@
       "email": "tehreem.fatima@techwaresoft.io",
       "thread_id": "19d95b6915dae6e6",
       "message_id": "19d95b6915dae6e6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T15:24:23.890286"
+      "timestamp": "2026-04-16T15:24:23.890286",
+      "followup_timestamp": "2026-04-17T15:36:54.585746"
     },
     {
       "urn": "urn:li:activity:7450506230634029056",
