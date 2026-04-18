@@ -511,7 +511,21 @@
     "urn:li:activity:7450910228109475840",
     "urn:li:activity:7450904075937783808",
     "urn:li:activity:7450903856756051968",
-    "urn:li:activity:7450896998083477504"
+    "urn:li:activity:7450896998083477504",
+    "urn:li:activity:7451131156869136384",
+    "urn:li:activity:7451131094722076672",
+    "urn:li:activity:7451130985573752832",
+    "urn:li:activity:7451130862080995329",
+    "urn:li:activity:7451130712927166464",
+    "urn:li:activity:7451130350908362752",
+    "urn:li:activity:7451010281046171649",
+    "urn:li:activity:7451009811095175168",
+    "urn:li:activity:7450979886917173248",
+    "urn:li:activity:7450962069375336448",
+    "urn:li:activity:7450957707450269696",
+    "urn:li:activity:7450957651603234817",
+    "urn:li:activity:7450957533881536512",
+    "urn:li:activity:7450940633449521153"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -852,7 +866,10 @@
     "ilayaraja.p@xforia.com",
     "manish.nirwan@techridge.net",
     "vijay.singh@tanishasystems.com",
-    "mahi@trebecon.com"
+    "mahi@trebecon.com",
+    "Nitesh.burman@apolisrises.com",
+    "Anjali@idah-tech.com",
+    "Saba@aliqan.com"
   ],
   "contacted_details": [
     {
@@ -5826,6 +5843,146 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-17T20:46:27.097486"
+    },
+    {
+      "urn": "urn:li:activity:7451131156869136384",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451131156869136384",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d9f53dfeaacb77",
+      "message_id": "19d9f53dfeaacb77",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:12:47.879594"
+    },
+    {
+      "urn": "urn:li:activity:7451131094722076672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451131094722076672",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d9f53e85856c88",
+      "message_id": "19d9f53e85856c88",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:12:50.534097"
+    },
+    {
+      "urn": "urn:li:activity:7451130985573752832",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451130985573752832",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d9f53f3e0eaf4d",
+      "message_id": "19d9f53f3e0eaf4d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:12:52.989525"
+    },
+    {
+      "urn": "urn:li:activity:7451130862080995329",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451130862080995329",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d9f53fce95d586",
+      "message_id": "19d9f53fce95d586",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:12:55.342727"
+    },
+    {
+      "urn": "urn:li:activity:7451130712927166464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451130712927166464",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d9f5404555a698",
+      "message_id": "19d9f5404555a698",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:12:57.697049"
+    },
+    {
+      "urn": "urn:li:activity:7451130350908362752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451130350908362752",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19d9f540e10c467f",
+      "message_id": "19d9f540e10c467f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:13:00.017012"
+    },
+    {
+      "urn": "urn:li:activity:7451010281046171649",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451010281046171649",
+      "email": "dharshini@vysystems.com",
+      "thread_id": "19d9f5420a8a4ccd",
+      "message_id": "19d9f5420a8a4ccd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:13:04.768038"
+    },
+    {
+      "urn": "urn:li:activity:7451009811095175168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451009811095175168",
+      "email": "dharshini@vysystems.com",
+      "thread_id": "19d9f5435de369e4",
+      "message_id": "19d9f5435de369e4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:13:09.826624"
+    },
+    {
+      "urn": "urn:li:activity:7450979886917173248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450979886917173248",
+      "email": "Nitesh.burman@apolisrises.com",
+      "thread_id": "19d9f543e728c0a1",
+      "message_id": "19d9f543e728c0a1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:13:12.285941"
+    },
+    {
+      "urn": "urn:li:activity:7450962069375336448",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450962069375336448",
+      "email": "Anjali@idah-tech.com",
+      "thread_id": "19d9f5446b63a131",
+      "message_id": "19d9f5446b63a131",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:13:14.699444"
+    },
+    {
+      "urn": "urn:li:activity:7450957707450269696",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450957707450269696",
+      "email": "vijay.singh@tanishasystems.com",
+      "thread_id": "19d9f5451f9cadb4",
+      "message_id": "19d9f5451f9cadb4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:13:17.163548"
+    },
+    {
+      "urn": "urn:li:activity:7450957651603234817",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450957651603234817",
+      "email": "vijay.singh@tanishasystems.com",
+      "thread_id": "19d9f545a7322f38",
+      "message_id": "19d9f545a7322f38",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:13:19.603394"
+    },
+    {
+      "urn": "urn:li:activity:7450957533881536512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450957533881536512",
+      "email": "vijay.singh@tanishasystems.com",
+      "thread_id": "19d9f54643b0785a",
+      "message_id": "19d9f54643b0785a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:13:21.933374"
+    },
+    {
+      "urn": "urn:li:activity:7450940633449521153",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450940633449521153",
+      "email": "Saba@aliqan.com",
+      "thread_id": "19d9f546d7611ac0",
+      "message_id": "19d9f546d7611ac0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:13:24.415148"
     }
   ]
 }
