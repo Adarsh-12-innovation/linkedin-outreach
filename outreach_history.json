@@ -529,7 +529,8 @@
     "urn:li:activity:7451109764182319104",
     "urn:li:activity:7451010668503318528",
     "urn:li:activity:7451197378281517056",
-    "urn:li:activity:7451194809706520576"
+    "urn:li:activity:7451194809706520576",
+    "urn:li:activity:7451253108606783488"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -874,7 +875,8 @@
     "Nitesh.burman@apolisrises.com",
     "Anjali@idah-tech.com",
     "Saba@aliqan.com",
-    "hr@binitos.com"
+    "hr@binitos.com",
+    "gokulnath@vysystems.com"
   ],
   "contacted_details": [
     {
@@ -5385,9 +5387,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d99f561480d3f7",
       "message_id": "19d99f561480d3f7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:11:29.347523"
+      "timestamp": "2026-04-17T11:11:29.347523",
+      "followup_timestamp": "2026-04-18T18:38:08.288517"
     },
     {
       "urn": "urn:li:activity:7450762022645809152",
@@ -5395,9 +5398,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d99f56ce25cd36",
       "message_id": "19d99f56ce25cd36",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:11:32.403952"
+      "timestamp": "2026-04-17T11:11:32.403952",
+      "followup_timestamp": "2026-04-18T18:38:10.614041"
     },
     {
       "urn": "urn:li:activity:7450761869390135296",
@@ -5405,9 +5409,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d99f579b8d3b28",
       "message_id": "19d99f579b8d3b28",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:11:35.077824"
+      "timestamp": "2026-04-17T11:11:35.077824",
+      "followup_timestamp": "2026-04-18T18:38:12.966562"
     },
     {
       "urn": "urn:li:activity:7450761729720037377",
@@ -5415,9 +5420,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d99f583e41539e",
       "message_id": "19d99f583e41539e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:11:37.834892"
+      "timestamp": "2026-04-17T11:11:37.834892",
+      "followup_timestamp": "2026-04-18T18:38:15.271158"
     },
     {
       "urn": "urn:li:activity:7450761680692637696",
@@ -5425,9 +5431,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d99f58d23b3b81",
       "message_id": "19d99f58d23b3b81",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:11:40.235567"
+      "timestamp": "2026-04-17T11:11:40.235567",
+      "followup_timestamp": "2026-04-18T18:38:17.623605"
     },
     {
       "urn": "urn:li:activity:7450761365604114432",
@@ -5435,9 +5442,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "19d99f59443e78b8",
       "message_id": "19d99f59443e78b8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:11:42.653096"
+      "timestamp": "2026-04-17T11:11:42.653096",
+      "followup_timestamp": "2026-04-18T18:38:19.960999"
     },
     {
       "urn": "urn:li:activity:7450758065001521152",
@@ -5445,7 +5453,7 @@
       "email": "navyasree@impaxioninc.com",
       "thread_id": "19d99f5a9f1b7a58",
       "message_id": "19d99f5a9f1b7a58",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-17T11:11:47.507327"
     },
@@ -5455,9 +5463,10 @@
       "email": "ayu@kazokku.co.id",
       "thread_id": "19d99f5b291bc3a6",
       "message_id": "19d99f5b291bc3a6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:11:50.027128"
+      "timestamp": "2026-04-17T11:11:50.027128",
+      "followup_timestamp": "2026-04-18T18:38:22.715746"
     },
     {
       "urn": "urn:li:activity:7450754185840467969",
@@ -5465,9 +5474,10 @@
       "email": "iswarya@impaxioninc.com",
       "thread_id": "19d99f5c2f701e97",
       "message_id": "19d99f5c2f701e97",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:11:54.379162"
+      "timestamp": "2026-04-17T11:11:54.379162",
+      "followup_timestamp": "2026-04-18T18:38:25.163413"
     },
     {
       "urn": "urn:li:activity:7450732280966291456",
@@ -5475,7 +5485,7 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19d99f5cd5092057",
       "message_id": "19d99f5cd5092057",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-17T11:11:56.584133"
     },
@@ -5485,9 +5495,10 @@
       "email": "anjali.gautam@whizglobal.com",
       "thread_id": "19d99f5d5f69d4da",
       "message_id": "19d99f5d5f69d4da",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:11:58.939022"
+      "timestamp": "2026-04-17T11:11:58.939022",
+      "followup_timestamp": "2026-04-18T18:38:27.949914"
     },
     {
       "urn": "urn:li:activity:7450641259603369985",
@@ -5495,9 +5506,10 @@
       "email": "tahashah3021@gmail.com",
       "thread_id": "19d99f5ded2191b8",
       "message_id": "19d99f5ded2191b8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:12:01.295325"
+      "timestamp": "2026-04-17T11:12:01.295325",
+      "followup_timestamp": "2026-04-18T18:38:30.296001"
     },
     {
       "urn": "urn:li:activity:7450633188315385856",
@@ -5505,9 +5517,10 @@
       "email": "info@ribbitzllc.com",
       "thread_id": "19d99f5e789bef7e",
       "message_id": "19d99f5e789bef7e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:12:03.597963"
+      "timestamp": "2026-04-17T11:12:03.597963",
+      "followup_timestamp": "2026-04-18T18:38:32.639462"
     },
     {
       "urn": "urn:li:activity:7450626390581760000",
@@ -5515,9 +5528,10 @@
       "email": "schivaluri@sysintelli.com",
       "thread_id": "19d99f5f1fef813d",
       "message_id": "19d99f5f1fef813d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T11:12:05.850252"
+      "timestamp": "2026-04-17T11:12:05.850252",
+      "followup_timestamp": "2026-04-18T18:38:34.973966"
     },
     {
       "urn": "urn:li:activity:7450788549987295232",
@@ -5525,9 +5539,10 @@
       "email": "simranjeet.kaur@phitechlabs.com",
       "thread_id": "19d9a3c7044329cf",
       "message_id": "19d9a3c7044329cf",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T12:29:06.110508"
+      "timestamp": "2026-04-17T12:29:06.110508",
+      "followup_timestamp": "2026-04-18T18:38:37.344499"
     },
     {
       "urn": "urn:li:activity:7450781808717209600",
@@ -5535,9 +5550,10 @@
       "email": "khushi.j@infowaygroup.com",
       "thread_id": "19d9a3cd62fa56cb",
       "message_id": "19d9a3cd62fa56cb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T12:29:34.076660"
+      "timestamp": "2026-04-17T12:29:34.076660",
+      "followup_timestamp": "2026-04-18T18:38:39.706204"
     },
     {
       "urn": "urn:li:activity:7450773800503361536",
@@ -5545,9 +5561,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19d9a3d01064f05c",
       "message_id": "19d9a3d01064f05c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T12:29:44.132431"
+      "timestamp": "2026-04-17T12:29:44.132431",
+      "followup_timestamp": "2026-04-18T18:38:42.018353"
     },
     {
       "urn": "urn:li:activity:7450804870460223488",
@@ -6028,6 +6045,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-18T15:04:13.579776"
+    },
+    {
+      "urn": "urn:li:activity:7451253108606783488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451253108606783488",
+      "email": "gokulnath@vysystems.com",
+      "thread_id": "19da0b49e8403f60",
+      "message_id": "19da0b49e8403f60",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T18:38:05.874411"
     }
   ]
 }
