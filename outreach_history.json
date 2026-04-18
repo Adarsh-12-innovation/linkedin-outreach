@@ -5253,9 +5253,10 @@
       "email": "renganayaki@vysystems.com",
       "thread_id": "19d96e45b283dda6",
       "message_id": "19d96e45b283dda6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:02.576732"
+      "timestamp": "2026-04-16T20:54:02.576732",
+      "followup_timestamp": "2026-04-18T05:22:25.137034"
     },
     {
       "urn": "urn:li:activity:7450555643738112000",
@@ -5263,9 +5264,10 @@
       "email": "renganayaki@vysystems.com",
       "thread_id": "19d96e466957a24b",
       "message_id": "19d96e466957a24b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:05.138460"
+      "timestamp": "2026-04-16T20:54:05.138460",
+      "followup_timestamp": "2026-04-18T05:22:26.762483"
     },
     {
       "urn": "urn:li:activity:7450552551025934337",
@@ -5273,9 +5275,10 @@
       "email": "karthikmerican@gmail.com",
       "thread_id": "19d96e4703d66f35",
       "message_id": "19d96e4703d66f35",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:07.780516"
+      "timestamp": "2026-04-16T20:54:07.780516",
+      "followup_timestamp": "2026-04-18T05:22:28.404249"
     },
     {
       "urn": "urn:li:activity:7450551689193091073",
@@ -5283,9 +5286,10 @@
       "email": "Shobana.m@lepingconsulting.com",
       "thread_id": "19d96e483f216ea8",
       "message_id": "19d96e483f216ea8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:12.264210"
+      "timestamp": "2026-04-16T20:54:12.264210",
+      "followup_timestamp": "2026-04-18T05:22:30.007998"
     },
     {
       "urn": "urn:li:activity:7450550380309954560",
@@ -5293,9 +5297,10 @@
       "email": "naveen.reddy@theavianconsulting.com",
       "thread_id": "19d96e493cefb4f3",
       "message_id": "19d96e493cefb4f3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:16.635016"
+      "timestamp": "2026-04-16T20:54:16.635016",
+      "followup_timestamp": "2026-04-18T05:22:31.579022"
     },
     {
       "urn": "urn:li:activity:7450550310361649152",
@@ -5303,9 +5308,10 @@
       "email": "naveen.reddy@theavianconsulting.com",
       "thread_id": "19d96e4a46e4bd17",
       "message_id": "19d96e4a46e4bd17",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:21.197984"
+      "timestamp": "2026-04-16T20:54:21.197984",
+      "followup_timestamp": "2026-04-18T05:22:33.184329"
     },
     {
       "urn": "urn:li:activity:7450547406602993665",
@@ -5313,9 +5319,10 @@
       "email": "Rahul@dprsolutionsinc.com",
       "thread_id": "19d96e4afc430ae3",
       "message_id": "19d96e4afc430ae3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:23.488279"
+      "timestamp": "2026-04-16T20:54:23.488279",
+      "followup_timestamp": "2026-04-18T05:22:34.773136"
     },
     {
       "urn": "urn:li:activity:7450541831555309568",
@@ -5323,9 +5330,10 @@
       "email": "n.kashyap@cloudvandexa.com",
       "thread_id": "19d96e4c38b2278c",
       "message_id": "19d96e4c38b2278c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:28.487639"
+      "timestamp": "2026-04-16T20:54:28.487639",
+      "followup_timestamp": "2026-04-18T05:22:36.334141"
     },
     {
       "urn": "urn:li:activity:7450538794803716097",
@@ -5333,9 +5341,10 @@
       "email": "chary@technologyhub.net",
       "thread_id": "19d96e4cbc17db6c",
       "message_id": "19d96e4cbc17db6c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:30.600880"
+      "timestamp": "2026-04-16T20:54:30.600880",
+      "followup_timestamp": "2026-04-18T05:22:37.943048"
     },
     {
       "urn": "urn:li:activity:7450533563852173313",
@@ -5343,9 +5352,10 @@
       "email": "chandanasri2216@gmail.com",
       "thread_id": "19d96e4d38d59624",
       "message_id": "19d96e4d38d59624",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-16T20:54:32.888036"
+      "timestamp": "2026-04-16T20:54:32.888036",
+      "followup_timestamp": "2026-04-18T05:22:39.545718"
     },
     {
       "urn": "urn:li:activity:7450762127666999297",
