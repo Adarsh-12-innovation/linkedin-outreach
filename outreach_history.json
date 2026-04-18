@@ -525,7 +525,9 @@
     "urn:li:activity:7450957707450269696",
     "urn:li:activity:7450957651603234817",
     "urn:li:activity:7450957533881536512",
-    "urn:li:activity:7450940633449521153"
+    "urn:li:activity:7450940633449521153",
+    "urn:li:activity:7451109764182319104",
+    "urn:li:activity:7451010668503318528"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -869,7 +871,8 @@
     "mahi@trebecon.com",
     "Nitesh.burman@apolisrises.com",
     "Anjali@idah-tech.com",
-    "Saba@aliqan.com"
+    "Saba@aliqan.com",
+    "hr@binitos.com"
   ],
   "contacted_details": [
     {
@@ -5983,6 +5986,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-18T12:13:24.415148"
+    },
+    {
+      "urn": "urn:li:activity:7451109764182319104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451109764182319104",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19d9f65deb33a7bb",
+      "message_id": "19d9f65deb33a7bb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:32:27.630973"
+    },
+    {
+      "urn": "urn:li:activity:7451010668503318528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451010668503318528",
+      "email": "hr@binitos.com",
+      "thread_id": "19d9f65edc94295f",
+      "message_id": "19d9f65edc94295f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T12:32:30.882154"
     }
   ]
 }
