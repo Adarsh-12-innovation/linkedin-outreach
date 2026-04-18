@@ -5706,9 +5706,10 @@
       "email": "arvind@ninjatechnolabs.com",
       "thread_id": "19d9aca2481a0c30",
       "message_id": "19d9aca2481a0c30",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T15:03:53.408442"
+      "timestamp": "2026-04-17T15:03:53.408442",
+      "followup_timestamp": "2026-04-18T15:07:29.138600"
     },
     {
       "urn": "urn:li:activity:7450834204981870592",
@@ -5716,9 +5717,10 @@
       "email": "haresh@ninjatechnolabs.com",
       "thread_id": "19d9aca312e9179d",
       "message_id": "19d9aca312e9179d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T15:03:56.558024"
+      "timestamp": "2026-04-17T15:03:56.558024",
+      "followup_timestamp": "2026-04-18T15:07:30.739180"
     },
     {
       "urn": "urn:li:activity:7450826628089167872",
@@ -5726,9 +5728,10 @@
       "email": "keerthi@cognizioni.com",
       "thread_id": "19d9aca3dab3b102",
       "message_id": "19d9aca3dab3b102",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T15:03:59.445284"
+      "timestamp": "2026-04-17T15:03:59.445284",
+      "followup_timestamp": "2026-04-18T15:07:32.323462"
     },
     {
       "urn": "urn:li:activity:7450823260721594369",
@@ -5736,9 +5739,10 @@
       "email": "khushi.j@infowaygroup.com",
       "thread_id": "19d9aca4ed5a9b00",
       "message_id": "19d9aca4ed5a9b00",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T15:04:04.103348"
+      "timestamp": "2026-04-17T15:04:04.103348",
+      "followup_timestamp": "2026-04-18T15:07:33.935360"
     },
     {
       "urn": "urn:li:activity:7450822016460300288",
@@ -5746,9 +5750,10 @@
       "email": "harshitha@cognizioni.com",
       "thread_id": "19d9aca5a5e81d7e",
       "message_id": "19d9aca5a5e81d7e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T15:04:07.125802"
+      "timestamp": "2026-04-17T15:04:07.125802",
+      "followup_timestamp": "2026-04-18T15:07:35.524130"
     },
     {
       "urn": "urn:li:activity:7450815462214660096",
@@ -5756,9 +5761,10 @@
       "email": "vishakha.eqube@gmail.com",
       "thread_id": "19d9aca66cfa7842",
       "message_id": "19d9aca66cfa7842",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T15:04:10.067316"
+      "timestamp": "2026-04-17T15:04:10.067316",
+      "followup_timestamp": "2026-04-18T15:07:37.129283"
     },
     {
       "urn": "urn:li:activity:7450846854499442688",
