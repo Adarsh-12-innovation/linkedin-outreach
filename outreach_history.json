@@ -5772,9 +5772,10 @@
       "email": "tharika@allegisglobalsolutions.com",
       "thread_id": "19d9b2743d76957f",
       "message_id": "19d9b2743d76957f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T16:45:36.192279"
+      "timestamp": "2026-04-17T16:45:36.192279",
+      "followup_timestamp": "2026-04-18T19:23:02.959247"
     },
     {
       "urn": "urn:li:activity:7450844711499567104",
@@ -5782,9 +5783,10 @@
       "email": "shconsultancy2000@gmail.com",
       "thread_id": "19d9b2750afb0f01",
       "message_id": "19d9b2750afb0f01",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T16:45:40.264757"
+      "timestamp": "2026-04-17T16:45:40.264757",
+      "followup_timestamp": "2026-04-18T19:23:04.629018"
     },
     {
       "urn": "urn:li:activity:7450822262519201792",
@@ -5792,9 +5794,10 @@
       "email": "hirique.hr@gmail.com",
       "thread_id": "19d9b276721b13c2",
       "message_id": "19d9b276721b13c2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T16:45:45.458119"
+      "timestamp": "2026-04-17T16:45:45.458119",
+      "followup_timestamp": "2026-04-18T19:23:06.186469"
     },
     {
       "urn": "urn:li:activity:7450881862224199680",
@@ -5802,9 +5805,10 @@
       "email": "falak.ansari@techcharmindia.com",
       "thread_id": "19d9b73bf913945e",
       "message_id": "19d9b73bf913945e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T18:09:08.788267"
+      "timestamp": "2026-04-17T18:09:08.788267",
+      "followup_timestamp": "2026-04-18T19:23:08.033985"
     },
     {
       "urn": "urn:li:activity:7450823595955609600",
@@ -5812,9 +5816,10 @@
       "email": "khushi.j@infowaygroup.com",
       "thread_id": "19d9b73cd7d63a07",
       "message_id": "19d9b73cd7d63a07",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T18:09:12.116615"
+      "timestamp": "2026-04-17T18:09:12.116615",
+      "followup_timestamp": "2026-04-18T19:23:09.721485"
     },
     {
       "urn": "urn:li:activity:7450794640376684544",
@@ -5822,9 +5827,10 @@
       "email": "mansi@infowaygroup.com",
       "thread_id": "19d9b7df4ce8fb5c",
       "message_id": "19d9b7df4ce8fb5c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T18:20:17.656474"
+      "timestamp": "2026-04-17T18:20:17.656474",
+      "followup_timestamp": "2026-04-18T19:23:11.499366"
     },
     {
       "urn": "urn:li:activity:7450921483960254465",
