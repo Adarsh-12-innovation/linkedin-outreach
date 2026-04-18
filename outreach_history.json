@@ -530,7 +530,8 @@
     "urn:li:activity:7451010668503318528",
     "urn:li:activity:7451197378281517056",
     "urn:li:activity:7451194809706520576",
-    "urn:li:activity:7451253108606783488"
+    "urn:li:activity:7451253108606783488",
+    "urn:li:activity:7451213799929384960"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -876,7 +877,8 @@
     "Anjali@idah-tech.com",
     "Saba@aliqan.com",
     "hr@binitos.com",
-    "gokulnath@vysystems.com"
+    "gokulnath@vysystems.com",
+    "abhishek@technologyhub.net"
   ],
   "contacted_details": [
     {
@@ -6067,6 +6069,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-18T18:38:05.874411"
+    },
+    {
+      "urn": "urn:li:activity:7451213799929384960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451213799929384960",
+      "email": "abhishek@technologyhub.net",
+      "thread_id": "19da108a6c0dcb9b",
+      "message_id": "19da108a6c0dcb9b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-18T20:09:52.981021"
     }
   ]
 }
