@@ -6103,9 +6103,10 @@
       "email": "gokulnath@vysystems.com",
       "thread_id": "19da0b49e8403f60",
       "message_id": "19da0b49e8403f60",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-18T18:38:05.874411"
+      "timestamp": "2026-04-18T18:38:05.874411",
+      "followup_timestamp": "2026-04-19T19:23:04.239974"
     },
     {
       "urn": "urn:li:activity:7451213799929384960",
