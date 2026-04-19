@@ -591,9 +591,13 @@ Include obfuscated ones like "user [at] company dot com".
 Respond with ONLY a JSON array: [ {{"index": 1, "has_contact": true/false}} ]
 {posts_block}"""
 
-        raw = call_filter_gemini(prompt) # 1 retry per key
+        raw = call_filter_gemini(prompt) 
         if not raw:
-            passed.extend(batch); continue
+            log.warning("  Stage I LLM failed (keys exhausted). Falling back to Regex check.")
+            for item in batch:
+                if _has_contact_info(item.get("full_content", "")):
+                    passed.append(item)
+            continue
 
         try:
             cleaned = re.sub(r"^.*?\[", "[", raw.strip(), flags=re.DOTALL)
@@ -603,7 +607,12 @@ Respond with ONLY a JSON array: [ {{"index": 1, "has_contact": true/false}} ]
                 idx = ev.get("index", 0) - 1
                 if 0 <= idx < len(batch) and ev.get("has_contact"):
                     passed.append(batch[idx])
-        except: passed.extend(batch)
+        except: 
+            # On parse error, fallback to regex for this batch
+            log.warning(f"  Stage I parse error. Falling back to Regex for this batch.")
+            for item in batch:
+                if _has_contact_info(item.get("full_content", "")):
+                    passed.append(item)
         time.sleep(2)
 
     log.info(f"  Stage I Results: {len(passed)} passed.")
@@ -722,7 +731,8 @@ Respond with ONLY a JSON array:
         log.info(f"  [Stage II LLM] Relevancy check for {len(batch)} posts...")
         raw = call_gemini(prompt) 
         if not raw:
-            passed.extend(batch); continue
+            log.error("  Stage II LLM failed (keys exhausted). Skipping this batch to avoid irrelevant outreach.")
+            continue
 
         try:
             cleaned = re.sub(r"^.*?\[", "[", raw.strip(), flags=re.DOTALL)
@@ -736,7 +746,8 @@ Respond with ONLY a JSON array:
                         log.info(f"    Post {idx+1}: ✅ {batch[idx].get('post_url')}")
                     else:
                         log.info(f"    Post {idx+1}: ❌ {ev.get('reason')}")
-        except: passed.extend(batch)
+        except: 
+            log.warning("  Stage II parse error. Skipping batch.")
         time.sleep(3)
 
     log.info(f"  Stage II results: {len(passed)} passed.")
@@ -908,6 +919,10 @@ Respond with ONLY a JSON array of objects (one per post). If info is missing, us
         log.info(f"  [Gemini {batch_num}/{total_batches}] Extracting from {len(batch)} posts...")
 
         raw = call_gemini(prompt)
+        if not raw:
+            log.error("  Extraction failed (keys exhausted). Skipping contact extraction for this batch.")
+            continue
+
         try:
             cleaned = re.sub(r"^.*?\[", "[", raw.strip(), flags=re.DOTALL)
             cleaned = re.sub(r"\].*?$", "]", cleaned, flags=re.DOTALL)
@@ -1564,11 +1579,17 @@ def main():
         log.error(f"Set these env vars: {', '.join(missing)}")
         sys.exit(1)
 
+    # Key Diagnostics
+    filter_keys = [v for k, v in CONFIG.items() if k.startswith("FILTER_GEMINI_API_KEY_") and v and not v.startswith("YOUR_")]
+    extract_keys = [v for k, v in CONFIG.items() if k.startswith("GEMINI_API_KEY_") and v and not v.startswith("YOUR_")]
+    
     mode = "test" if args.test else ("dry-run" if args.dry_run else "full")
     print(f"\n{'='*70}")
     print(f"  LinkedIn Keyword Search Outreach Agent")
-    print(f"  Phrases: {CONFIG['SEARCH_PHRASES']}")
-    print(f"  Mode: {mode}")
+    print(f"  Phrases:      {CONFIG['SEARCH_PHRASES']}")
+    print(f"  Mode:         {mode}")
+    print(f"  Filter Keys:  {len(filter_keys)} loaded")
+    print(f"  Extract Keys: {len(extract_keys)} loaded")
     print(f"{'='*70}")
 
     # ── 0. Git sync (pull latest history) ──

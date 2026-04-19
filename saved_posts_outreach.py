@@ -1131,6 +1131,9 @@ Respond with ONLY a JSON array of objects (one per post). If info is missing, us
         log.info(f"[Gemini {batch_num}/{total_batches}] Analyzing {len(batch)} posts...")
 
         raw = call_gemini(prompt)
+        if not raw:
+            log.error("  Extraction failed (keys exhausted). Skipping contact extraction for this batch.")
+            continue
 
         try:
             # More robust JSON cleaning
@@ -1912,6 +1915,12 @@ def save_run(saved: list, extracted: list, emailed: list):
             "with_phone": phone_count,
             "emailed": len(emailed),
         },
+        "all_saved_posts": [
+            {
+                "urn": item.get("post_urn") or item.get("entity_urn"),
+                "content": item.get("full_content")
+            } for item in saved
+        ],
         "extracted": extracted,
     }
 
@@ -1953,10 +1962,15 @@ def main():
         log.error("  GEMINI_API_KEY      — from aistudio.google.com")
         sys.exit(1)
 
+    # Key Diagnostics
+    extract_keys = [v for k, v in CONFIG.items() if k.startswith("GEMINI_API_KEY_") and v and not v.startswith("YOUR_")]
+
     mode = "dry-run" if args.dry_run else "full"
     print(f"\n{'='*70}")
     print(f"  LinkedIn Saved Posts Outreach Agent")
-    print(f"  Lookback: {CONFIG['LOOKBACK_HOURS']}h  |  Mode: {mode}")
+    print(f"  Lookback:     {CONFIG['LOOKBACK_HOURS']}h")
+    print(f"  Mode:         {mode}")
+    print(f"  Extract Keys: {len(extract_keys)} loaded")
     print(f"{'='*70}")
 
     # ── 0. Git sync (pull latest history) ──
