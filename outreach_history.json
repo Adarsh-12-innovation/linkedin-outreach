@@ -6082,7 +6082,7 @@
       "email": "navyasree@impaxioninc.com",
       "thread_id": "19d9ff0c61e291d0",
       "message_id": "19d9ff0c61e291d0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-18T15:04:11.132816"
     },
@@ -6092,9 +6092,10 @@
       "email": "navyasree@impaxioninc.com",
       "thread_id": "19d9ff0d0f025181",
       "message_id": "19d9ff0d0f025181",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-18T15:04:13.579776"
+      "timestamp": "2026-04-18T15:04:13.579776",
+      "followup_timestamp": "2026-04-19T15:06:48.971597"
     },
     {
       "urn": "urn:li:activity:7451253108606783488",
