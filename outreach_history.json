@@ -5838,9 +5838,10 @@
       "email": "ilayaraja.p@xforia.com",
       "thread_id": "19d9c0381ca193cd",
       "message_id": "19d9c0381ca193cd",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T20:46:09.789837"
+      "timestamp": "2026-04-17T20:46:09.789837",
+      "followup_timestamp": "2026-04-19T05:40:11.263630"
     },
     {
       "urn": "urn:li:activity:7450912614827687936",
@@ -5848,9 +5849,10 @@
       "email": "naveen.reddy@theavianconsulting.com",
       "thread_id": "19d9c03905facdd8",
       "message_id": "19d9c03905facdd8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T20:46:14.182699"
+      "timestamp": "2026-04-17T20:46:14.182699",
+      "followup_timestamp": "2026-04-19T05:40:12.764599"
     },
     {
       "urn": "urn:li:activity:7450910228109475840",
@@ -5858,9 +5860,10 @@
       "email": "manish.nirwan@techridge.net",
       "thread_id": "19d9c039ed321328",
       "message_id": "19d9c039ed321328",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T20:46:17.592820"
+      "timestamp": "2026-04-17T20:46:17.592820",
+      "followup_timestamp": "2026-04-19T05:40:14.294375"
     },
     {
       "urn": "urn:li:activity:7450904075937783808",
@@ -5868,9 +5871,10 @@
       "email": "vijay.singh@tanishasystems.com",
       "thread_id": "19d9c03aa48c1494",
       "message_id": "19d9c03aa48c1494",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T20:46:20.918542"
+      "timestamp": "2026-04-17T20:46:20.918542",
+      "followup_timestamp": "2026-04-19T05:40:15.823664"
     },
     {
       "urn": "urn:li:activity:7450903856756051968",
@@ -5878,9 +5882,10 @@
       "email": "vijay.singh@tanishasystems.com",
       "thread_id": "19d9c03b94a7adca",
       "message_id": "19d9c03b94a7adca",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T20:46:24.197731"
+      "timestamp": "2026-04-17T20:46:24.197731",
+      "followup_timestamp": "2026-04-19T05:40:17.355343"
     },
     {
       "urn": "urn:li:activity:7450896998083477504",
@@ -5888,9 +5893,10 @@
       "email": "mahi@trebecon.com",
       "thread_id": "19d9c03c459794d1",
       "message_id": "19d9c03c459794d1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-17T20:46:27.097486"
+      "timestamp": "2026-04-17T20:46:27.097486",
+      "followup_timestamp": "2026-04-19T05:40:18.811887"
     },
     {
       "urn": "urn:li:activity:7451131156869136384",
