@@ -531,7 +531,9 @@
     "urn:li:activity:7451197378281517056",
     "urn:li:activity:7451194809706520576",
     "urn:li:activity:7451253108606783488",
-    "urn:li:activity:7451213799929384960"
+    "urn:li:activity:7451213799929384960",
+    "urn:li:activity:7451498570094133248",
+    "urn:li:activity:7451335721585520640"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -6097,6 +6099,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-18T20:09:52.981021"
+    },
+    {
+      "urn": "urn:li:activity:7451498570094133248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451498570094133248",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19da495ec97fc482",
+      "message_id": "19da495ec97fc482",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-19T12:43:03.592211"
+    },
+    {
+      "urn": "urn:li:activity:7451335721585520640",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451335721585520640",
+      "email": "dharshini@vysystems.com",
+      "thread_id": "19da496018f6d36d",
+      "message_id": "19da496018f6d36d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-19T12:43:08.513792"
     }
   ]
 }
