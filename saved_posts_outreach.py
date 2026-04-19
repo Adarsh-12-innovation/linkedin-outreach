@@ -104,9 +104,9 @@ CONFIG = {
 
 
     # Gemini
-    "GEMINI_API_KEY_1": os.getenv("GEMINI_API_KEY_1", os.getenv("GEMINI_API_KEY", "")),
-    "GEMINI_API_KEY_2": os.getenv("GEMINI_API_KEY_2", os.getenv("ALTERNATIVE_GEMINI_API_KEY", "")),
-    "GEMINI_API_KEY_3": os.getenv("GEMINI_API_KEY_3", os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY", "")),
+    "GEMINI_API_KEY_1": os.getenv("GEMINI_API_KEY_1", ""),
+    "GEMINI_API_KEY_2": os.getenv("GEMINI_API_KEY_2", ""),
+    "GEMINI_API_KEY_3": os.getenv("GEMINI_API_KEY_3", ""),
     "GEMINI_API_KEY_4": os.getenv("GEMINI_API_KEY_4", ""),
     "GEMINI_API_KEY_5": os.getenv("GEMINI_API_KEY_5", ""),
     "GEMINI_API_KEY_6": os.getenv("GEMINI_API_KEY_6", ""),

@@ -65,9 +65,9 @@ CONFIG = {
     "LINKEDIN_JSESSIONID": os.getenv("LINKEDIN_JSESSIONID", "YOUR_JSESSIONID_COOKIE"),
 
     # Gemini — Contact extraction keys (6 keys with 1 retry each)
-    "GEMINI_API_KEY_1": os.getenv("GEMINI_API_KEY_1", os.getenv("GEMINI_API_KEY", "")),
-    "GEMINI_API_KEY_2": os.getenv("GEMINI_API_KEY_2", os.getenv("ALTERNATIVE_GEMINI_API_KEY", "")),
-    "GEMINI_API_KEY_3": os.getenv("GEMINI_API_KEY_3", os.getenv("SECOND_ALTERNATIVE_GEMINI_API_KEY", "")),
+    "GEMINI_API_KEY_1": os.getenv("GEMINI_API_KEY_1", ""),
+    "GEMINI_API_KEY_2": os.getenv("GEMINI_API_KEY_2", ""),
+    "GEMINI_API_KEY_3": os.getenv("GEMINI_API_KEY_3", ""),
     "GEMINI_API_KEY_4": os.getenv("GEMINI_API_KEY_4", ""),
     "GEMINI_API_KEY_5": os.getenv("GEMINI_API_KEY_5", ""),
     "GEMINI_API_KEY_6": os.getenv("GEMINI_API_KEY_6", ""),
@@ -78,8 +78,8 @@ CONFIG = {
 
 
     # Gemini — LLM Filtering keys (3 keys with 1 retry each)
-    "FILTER_GEMINI_API_KEY_1": os.getenv("FILTER_GEMINI_API_KEY_1", os.getenv("FILTER_GEMINI_API_KEY", "")),
-    "FILTER_GEMINI_API_KEY_2": os.getenv("FILTER_GEMINI_API_KEY_2", os.getenv("FILTER_ALT_GEMINI_API_KEY", "")),
+    "FILTER_GEMINI_API_KEY_1": os.getenv("FILTER_GEMINI_API_KEY_1", ""),
+    "FILTER_GEMINI_API_KEY_2": os.getenv("FILTER_GEMINI_API_KEY_2", ""),
     "FILTER_GEMINI_API_KEY_3": os.getenv("FILTER_GEMINI_API_KEY_3", ""),
     "FILTER_GEMINI_API_KEY_4": os.getenv("FILTER_GEMINI_API_KEY_4", ""),
     "FILTER_GEMINI_MODEL": "gemini-2.5-flash-lite",
@@ -567,6 +567,7 @@ def stage_i_filter(items: list[dict]) -> list[dict]:
             if not any(re.search(rf"\b{re.escape(kw.lower())}\b", content) for kw in kws):
                 all_groups = False; break
         if all_groups:
+            log.info(f"    - Stage I Pass: {item.get('post_url')}")
             kw_passed.append(item)
             
     if not kw_passed:
@@ -732,7 +733,7 @@ Respond with ONLY a JSON array:
                 if 0 <= idx < len(batch):
                     if ev.get("relevant"):
                         passed.append(batch[idx])
-                        log.info(f"    Post {idx+1}: ✅")
+                        log.info(f"    Post {idx+1}: ✅ {batch[idx].get('post_url')}")
                     else:
                         log.info(f"    Post {idx+1}: ❌ {ev.get('reason')}")
         except: passed.extend(batch)
@@ -1515,6 +1516,20 @@ def save_run(search_results, stage1_passed, stage2_passed, extracted, emailed):
                 "url": item.get("post_url"),
                 "content": item.get("full_content")
             } for item in search_results
+        ],
+        "stage1_passed_posts": [
+            {
+                "urn": item.get("post_urn"),
+                "url": item.get("post_url"),
+                "content": item.get("full_content")
+            } for item in stage1_passed
+        ],
+        "stage2_passed_posts": [
+            {
+                "urn": item.get("post_urn"),
+                "url": item.get("post_url"),
+                "content": item.get("full_content")
+            } for item in stage2_passed
         ],
         "extracted": [{k: v for k, v in item.items() if k != "raw_data"} for item in extracted],
     }

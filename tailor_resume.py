@@ -33,8 +33,8 @@ load_dotenv()
 # ─────────────────────────────────────────────
 
 CONFIG = {
-    "RESUME_GEMINI_API_KEY_1": os.getenv("RESUME_GEMINI_API_KEY_1", os.getenv("RESUME_GEMINI_API_KEY", "")),
-    "RESUME_GEMINI_API_KEY_2": os.getenv("RESUME_GEMINI_API_KEY_2", os.getenv("ALTERNATIVE_GEMINI_API_KEY", "")),
+    "RESUME_GEMINI_API_KEY_1": os.getenv("RESUME_GEMINI_API_KEY_1", ""),
+    "RESUME_GEMINI_API_KEY_2": os.getenv("RESUME_GEMINI_API_KEY_2", ""),
     "GEMINI_MODEL": "gemini-2.5-flash-lite", 
     # "GEMINI_MODEL": "gemma-4-31b-it", 
     "RESUME_CONFIG": "resume_config.json",
