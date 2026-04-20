@@ -533,7 +533,10 @@
     "urn:li:activity:7451253108606783488",
     "urn:li:activity:7451213799929384960",
     "urn:li:activity:7451498570094133248",
-    "urn:li:activity:7451335721585520640"
+    "urn:li:activity:7451335721585520640",
+    "urn:li:activity:7451841186857684993",
+    "urn:li:activity:7451840238567723008",
+    "urn:li:activity:7451701266289876993"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -880,7 +883,8 @@
     "Saba@aliqan.com",
     "hr@binitos.com",
     "gokulnath@vysystems.com",
-    "abhishek@technologyhub.net"
+    "abhishek@technologyhub.net",
+    "sriraj.rama@impaxioninc.com"
   ],
   "contacted_details": [
     {
@@ -6114,9 +6118,10 @@
       "email": "abhishek@technologyhub.net",
       "thread_id": "19da108a6c0dcb9b",
       "message_id": "19da108a6c0dcb9b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-18T20:09:52.981021"
+      "timestamp": "2026-04-18T20:09:52.981021",
+      "followup_timestamp": "2026-04-20T10:01:38.172056"
     },
     {
       "urn": "urn:li:activity:7451498570094133248",
@@ -6137,6 +6142,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-19T12:43:08.513792"
+    },
+    {
+      "urn": "urn:li:activity:7451841186857684993",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451841186857684993",
+      "email": "sriraj.rama@impaxioninc.com",
+      "thread_id": "19da9284825ec62c",
+      "message_id": "19da9284825ec62c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T10:01:24.954866"
+    },
+    {
+      "urn": "urn:li:activity:7451840238567723008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451840238567723008",
+      "email": "navyasree@impaxioninc.com",
+      "thread_id": "19da9285de8e563d",
+      "message_id": "19da9285de8e563d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T10:01:30.270174"
+    },
+    {
+      "urn": "urn:li:activity:7451701266289876993",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451701266289876993",
+      "email": "mansi@infowaygroup.com",
+      "thread_id": "19da928718cf6fd3",
+      "message_id": "19da928718cf6fd3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T10:01:35.163135"
     }
   ]
 }
