@@ -565,7 +565,10 @@
     "urn:li:activity:7451968548714749952",
     "urn:li:activity:7451968013773414400",
     "urn:li:activity:7452001297467113472",
-    "urn:li:activity:7451987804219265024"
+    "urn:li:activity:7451987804219265024",
+    "urn:li:activity:7452006582525239296",
+    "urn:li:activity:7452006199715147776",
+    "urn:li:activity:7452006105259458560"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -928,7 +931,10 @@
     "sathvi@fusionplusinc.com",
     "mahek@aliqan.com",
     "khushboo@aliqan.com",
-    "pooja@zethic.com"
+    "pooja@zethic.com",
+    "harsha@foxoneusa.com",
+    "archana@foxoneusa.com",
+    "sreya@foxoneusa.com"
   ],
   "contacted_details": [
     {
@@ -6508,6 +6514,33 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-20T20:19:37.016203"
+    },
+    {
+      "urn": "urn:li:activity:7452006582525239296",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452006582525239296",
+      "email": "harsha@foxoneusa.com",
+      "thread_id": "19dab67b983325a6",
+      "message_id": "19dab67b983325a6",
+      "followed_up": false,
+      "timestamp": "2026-04-20T14:59:55.179250"
+    },
+    {
+      "urn": "urn:li:activity:7452006199715147776",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452006199715147776",
+      "email": "archana@foxoneusa.com",
+      "thread_id": "19dab67c11592bae",
+      "message_id": "19dab67c11592bae",
+      "followed_up": false,
+      "timestamp": "2026-04-20T14:59:57.178474"
+    },
+    {
+      "urn": "urn:li:activity:7452006105259458560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452006105259458560",
+      "email": "sreya@foxoneusa.com",
+      "thread_id": "19dab67c9bb3e2e1",
+      "message_id": "19dab67c9bb3e2e1",
+      "followed_up": false,
+      "timestamp": "2026-04-20T14:59:59.221233"
     }
   ]
 }
