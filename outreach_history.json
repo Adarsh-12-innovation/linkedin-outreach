@@ -568,7 +568,12 @@
     "urn:li:activity:7451987804219265024",
     "urn:li:activity:7452006582525239296",
     "urn:li:activity:7452006199715147776",
-    "urn:li:activity:7452006105259458560"
+    "urn:li:activity:7452006105259458560",
+    "urn:li:activity:7452029878889000960",
+    "urn:li:activity:7452022413078269954",
+    "urn:li:activity:7452018895689003008",
+    "urn:li:activity:7451994486274007042",
+    "urn:li:activity:7451994326852632576"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -934,7 +939,9 @@
     "pooja@zethic.com",
     "harsha@foxoneusa.com",
     "archana@foxoneusa.com",
-    "sreya@foxoneusa.com"
+    "sreya@foxoneusa.com",
+    "Deepakn@arborteksys.com",
+    "Nanabolu.Bhargavi@infoservices.com"
   ],
   "contacted_details": [
     {
@@ -6541,6 +6548,56 @@
       "message_id": "19dab67c9bb3e2e1",
       "followed_up": false,
       "timestamp": "2026-04-20T14:59:59.221233"
+    },
+    {
+      "urn": "urn:li:activity:7452029878889000960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452029878889000960",
+      "email": "ilayaraja.p@xforia.com",
+      "thread_id": "19dabe053e29a0de",
+      "message_id": "19dabe053e29a0de",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T22:41:40.761111"
+    },
+    {
+      "urn": "urn:li:activity:7452022413078269954",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452022413078269954",
+      "email": "Deepakn@arborteksys.com",
+      "thread_id": "19dabe05b10baa62",
+      "message_id": "19dabe05b10baa62",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T22:41:42.952125"
+    },
+    {
+      "urn": "urn:li:activity:7452018895689003008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452018895689003008",
+      "email": "Nanabolu.Bhargavi@infoservices.com",
+      "thread_id": "19dabe06512e0256",
+      "message_id": "19dabe06512e0256",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T22:41:45.427088"
+    },
+    {
+      "urn": "urn:li:activity:7451994486274007042",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451994486274007042",
+      "email": "naveen.reddy@theavianconsulting.com",
+      "thread_id": "19dabe06eb598297",
+      "message_id": "19dabe06eb598297",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T22:41:47.757661"
+    },
+    {
+      "urn": "urn:li:activity:7451994326852632576",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451994326852632576",
+      "email": "naveen.reddy@theavianconsulting.com",
+      "thread_id": "19dabe0775c440d0",
+      "message_id": "19dabe0775c440d0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T22:41:49.990570"
     }
   ]
 }
