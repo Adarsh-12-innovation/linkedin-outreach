@@ -556,7 +556,9 @@
     "urn:li:activity:7451888695768678400",
     "urn:li:activity:7451888529896284160",
     "urn:li:activity:7451883361356353536",
-    "urn:li:activity:7451923791959539712"
+    "urn:li:activity:7451923791959539712",
+    "urn:li:activity:7451945550008193024",
+    "urn:li:activity:7451936654988328960"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -913,7 +915,9 @@
     "Jyothsna@cesxperts.com",
     "anamikak@magnor.in",
     "bushra.parveen@follextechnology.com",
-    "salomi.gadhiya@cloudstakes.com"
+    "salomi.gadhiya@cloudstakes.com",
+    "rishabh@skillnixrecruitment.com",
+    "Prashanth@deltacubes.us"
   ],
   "contacted_details": [
     {
@@ -6401,6 +6405,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-20T15:02:41.336492"
+    },
+    {
+      "urn": "urn:li:activity:7451945550008193024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451945550008193024",
+      "email": "rishabh@skillnixrecruitment.com",
+      "thread_id": "19daaa330dfdc627",
+      "message_id": "19daaa330dfdc627",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T16:55:16.763825"
+    },
+    {
+      "urn": "urn:li:activity:7451936654988328960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451936654988328960",
+      "email": "Prashanth@deltacubes.us",
+      "thread_id": "19daaa342fd96008",
+      "message_id": "19daaa342fd96008",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T16:55:21.682657"
     }
   ]
 }
