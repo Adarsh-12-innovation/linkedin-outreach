@@ -619,6 +619,10 @@ Respond with ONLY a JSON array: [ {{"index": 1, "has_contact": true/false}} ]
     return passed
 
 
+# Global index trackers for API key rotation (reset per script run)
+_FILTER_KEY_INDEX = 0
+_EXTRACTION_KEY_INDEX = 0
+
 # ═══════════════════════════════════════════════
 # STEP 4: STAGE II — DEEPER RELEVANCY (gemini-2.5-flash)
 # ═══════════════════════════════════════════════
@@ -628,6 +632,7 @@ def call_filter_gemini(prompt: str) -> str:
     Call Gemini with FILTER-specific API keys (flash-lite).
     - 3 keys with 1 retry each (2 attempts per key).
     """
+    global _FILTER_KEY_INDEX
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{CONFIG['FILTER_GEMINI_MODEL']}:generateContent"
@@ -640,12 +645,16 @@ def call_filter_gemini(prompt: str) -> str:
         {"key": CONFIG["FILTER_GEMINI_API_KEY_4"], "retries": 1, "name": "Filter Key 4"}
     ]
 
-    for k_info in keys:
+    num_keys = len(keys)
+    for _ in range(num_keys):
+        k_info = keys[_FILTER_KEY_INDEX]
         current_key = k_info["key"]
         if not current_key or current_key.startswith("YOUR_"):
+            _FILTER_KEY_INDEX = (_FILTER_KEY_INDEX + 1) % num_keys
             continue
 
         max_attempts = k_info["retries"] + 1
+        success = False
         for attempt in range(1, max_attempts + 1):
             try:
                 resp = requests.post(
@@ -682,6 +691,9 @@ def call_filter_gemini(prompt: str) -> str:
                 if attempt == max_attempts:
                     break
                 time.sleep(2)
+        
+        # If we reach here, the current key failed all attempts. Advance to next key.
+        _FILTER_KEY_INDEX = (_FILTER_KEY_INDEX + 1) % num_keys
 
     log.critical("All filter Gemini keys failed.")
     try: send_rate_limit_notification()
@@ -760,6 +772,7 @@ Respond with ONLY a JSON array:
 
 def call_gemini(prompt: str) -> str:
     """Call Gemini with extraction API keys (same retry logic as saved_posts_outreach.py)."""
+    global _EXTRACTION_KEY_INDEX
     import requests
 
     url = (
@@ -777,9 +790,12 @@ def call_gemini(prompt: str) -> str:
         {"key": CONFIG["GEMINI_API_KEY_7"], "retries": 1, "name": "Extraction Key 7"},
     ]
 
-    for k_info in keys:
+    num_keys = len(keys)
+    for _ in range(num_keys):
+        k_info = keys[_EXTRACTION_KEY_INDEX]
         current_key = k_info["key"]
         if not current_key or current_key.startswith("YOUR_"):
+            _EXTRACTION_KEY_INDEX = (_EXTRACTION_KEY_INDEX + 1) % num_keys
             continue
 
         max_attempts = k_info["retries"] + 1
@@ -803,10 +819,11 @@ def call_gemini(prompt: str) -> str:
                 if resp.status_code == 429:
                     if attempt < max_attempts:
                         wait = 10 * attempt
-                        log.warning(f"  {k_info['name']}: Rate limited. Retry in {wait}s...")
+                        log.warning(f"  {k_info['name']}: Rate limited. Retry {attempt}/{k_info['retries']} in {wait}s...")
                         time.sleep(wait)
                         continue
                     else:
+                        log.warning(f"  {k_info['name']}: Exhausted retries. Rotating...")
                         break
 
                 resp.raise_for_status()
@@ -818,6 +835,9 @@ def call_gemini(prompt: str) -> str:
                 if attempt == max_attempts:
                     break
                 time.sleep(2)
+        
+        # If we reach here, the current key failed all attempts. Advance to next key.
+        _EXTRACTION_KEY_INDEX = (_EXTRACTION_KEY_INDEX + 1) % num_keys
 
     log.critical("All extraction Gemini keys failed.")
     try:

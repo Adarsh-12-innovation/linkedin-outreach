@@ -961,12 +961,16 @@ def fetch_all_post_contents(session: requests.Session, saved_items: list[dict]) 
 # STEP 2: GEMINI EXTRACTION
 # ═══════════════════════════════════════════════
 
+# Global index tracker for API key rotation (reset per script run)
+_EXTRACTION_KEY_INDEX = 0
+
 def call_gemini(prompt: str) -> str:
     """
     Call Gemini API with specialized retry/rotation logic:
-    - 6 keys with 1 retry each (2 attempts per key).
+    - 7 keys with 1 retry each (2 attempts per key).
     If all fail with 429, send an email notification.
     """
+    global _EXTRACTION_KEY_INDEX
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{CONFIG['GEMINI_MODEL']}:generateContent"
@@ -982,9 +986,12 @@ def call_gemini(prompt: str) -> str:
         {"key": CONFIG["GEMINI_API_KEY_7"], "retries": 1, "name": "Key 7"}
     ]
 
-    for k_info in keys:
+    num_keys = len(keys)
+    for _ in range(num_keys):
+        k_info = keys[_EXTRACTION_KEY_INDEX]
         current_key = k_info["key"]
         if not current_key or current_key.startswith("YOUR_"):
+            _EXTRACTION_KEY_INDEX = (_EXTRACTION_KEY_INDEX + 1) % num_keys
             continue
 
         max_attempts = k_info["retries"] + 1
@@ -1012,7 +1019,7 @@ def call_gemini(prompt: str) -> str:
                         time.sleep(wait)
                         continue
                     else:
-                        log.warning(f"  {k_info['name']} Key: Exhausted all retries.")
+                        log.warning(f"  {k_info['name']} Key: Exhausted all retries. Rotating...")
                         break # Switch to next key
 
                 resp.raise_for_status()
@@ -1024,6 +1031,9 @@ def call_gemini(prompt: str) -> str:
                 if attempt == max_attempts:
                     break
                 time.sleep(2)
+        
+        # Current key failed all attempts, increment global index for next call
+        _EXTRACTION_KEY_INDEX = (_EXTRACTION_KEY_INDEX + 1) % num_keys
 
     # If we reach here, all keys failed
     log.critical("ALL Gemini API keys failed or were rate limited.")
