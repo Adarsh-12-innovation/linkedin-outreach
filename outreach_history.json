@@ -551,7 +551,11 @@
     "urn:li:activity:7451882878029676544",
     "urn:li:activity:7451882525141913600",
     "urn:li:activity:7451882477888946176",
-    "urn:li:activity:7451881399231602688"
+    "urn:li:activity:7451881399231602688",
+    "urn:li:activity:7451896342060175361",
+    "urn:li:activity:7451888695768678400",
+    "urn:li:activity:7451888529896284160",
+    "urn:li:activity:7451883361356353536"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -905,7 +909,10 @@
     "k.vijaykumar@impaxioninc.com",
     "sagarika@cesxperts.com",
     "uma@cesxperts.com",
-    "Jyothsna@cesxperts.com"
+    "Jyothsna@cesxperts.com",
+    "anamikak@magnor.in",
+    "bushra.parveen@follextechnology.com",
+    "salomi.gadhiya@cloudstakes.com"
   ],
   "contacted_details": [
     {
@@ -6343,6 +6350,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-20T12:30:32.323542"
+    },
+    {
+      "urn": "urn:li:activity:7451896342060175361",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451896342060175361",
+      "email": "anamikak@magnor.in",
+      "thread_id": "19daa26cfe66b26a",
+      "message_id": "19daa26cfe66b26a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T14:39:25.391286"
+    },
+    {
+      "urn": "urn:li:activity:7451888695768678400",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451888695768678400",
+      "email": "bushra.parveen@follextechnology.com",
+      "thread_id": "19daa26dbc1b8d57",
+      "message_id": "19daa26dbc1b8d57",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T14:39:28.305279"
+    },
+    {
+      "urn": "urn:li:activity:7451888529896284160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451888529896284160",
+      "email": "soundharya@deltacubes.us",
+      "thread_id": "19daa26ee3a2a95d",
+      "message_id": "19daa26ee3a2a95d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T14:39:33.393666"
+    },
+    {
+      "urn": "urn:li:activity:7451883361356353536",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451883361356353536",
+      "email": "salomi.gadhiya@cloudstakes.com",
+      "thread_id": "19daa26f7013e700",
+      "message_id": "19daa26f7013e700",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T14:39:35.631755"
     }
   ]
 }
