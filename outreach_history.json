@@ -558,7 +558,12 @@
     "urn:li:activity:7451883361356353536",
     "urn:li:activity:7451923791959539712",
     "urn:li:activity:7451945550008193024",
-    "urn:li:activity:7451936654988328960"
+    "urn:li:activity:7451936654988328960",
+    "urn:li:activity:7451980694450307072",
+    "urn:li:activity:7451980468129882112",
+    "urn:li:activity:7451971698129604608",
+    "urn:li:activity:7451968548714749952",
+    "urn:li:activity:7451968013773414400"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -917,7 +922,10 @@
     "bushra.parveen@follextechnology.com",
     "salomi.gadhiya@cloudstakes.com",
     "rishabh@skillnixrecruitment.com",
-    "Prashanth@deltacubes.us"
+    "Prashanth@deltacubes.us",
+    "sathvi@fusionplusinc.com",
+    "mahek@aliqan.com",
+    "khushboo@aliqan.com"
   ],
   "contacted_details": [
     {
@@ -6162,9 +6170,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19da495ec97fc482",
       "message_id": "19da495ec97fc482",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-19T12:43:03.592211"
+      "timestamp": "2026-04-19T12:43:03.592211",
+      "followup_timestamp": "2026-04-20T18:55:21.246363"
     },
     {
       "urn": "urn:li:activity:7451335721585520640",
@@ -6172,9 +6181,10 @@
       "email": "dharshini@vysystems.com",
       "thread_id": "19da496018f6d36d",
       "message_id": "19da496018f6d36d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-19T12:43:08.513792"
+      "timestamp": "2026-04-19T12:43:08.513792",
+      "followup_timestamp": "2026-04-20T18:55:23.613463"
     },
     {
       "urn": "urn:li:activity:7451841186857684993",
@@ -6425,6 +6435,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-20T16:55:21.682657"
+    },
+    {
+      "urn": "urn:li:activity:7451980694450307072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451980694450307072",
+      "email": "sathvi@fusionplusinc.com",
+      "thread_id": "19dab10ec0ae6c91",
+      "message_id": "19dab10ec0ae6c91",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T18:55:08.755820"
+    },
+    {
+      "urn": "urn:li:activity:7451980468129882112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451980468129882112",
+      "email": "sathvi@fusionplusinc.com",
+      "thread_id": "19dab10f70928795",
+      "message_id": "19dab10f70928795",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T18:55:11.228223"
+    },
+    {
+      "urn": "urn:li:activity:7451971698129604608",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451971698129604608",
+      "email": "shifa@sourcebae.com",
+      "thread_id": "19dab1101aac3706",
+      "message_id": "19dab1101aac3706",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T18:55:13.894449"
+    },
+    {
+      "urn": "urn:li:activity:7451968548714749952",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451968548714749952",
+      "email": "mahek@aliqan.com",
+      "thread_id": "19dab110a0bd9838",
+      "message_id": "19dab110a0bd9838",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T18:55:16.654548"
+    },
+    {
+      "urn": "urn:li:activity:7451968013773414400",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451968013773414400",
+      "email": "khushboo@aliqan.com",
+      "thread_id": "19dab1115aaab3b7",
+      "message_id": "19dab1115aaab3b7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T18:55:18.904556"
     }
   ]
 }
