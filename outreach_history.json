@@ -542,7 +542,16 @@
     "urn:li:activity:7451860967690252288",
     "urn:li:activity:7451859044505653248",
     "urn:li:activity:7451855679092359168",
-    "urn:li:activity:7451855471080022016"
+    "urn:li:activity:7451855471080022016",
+    "urn:li:activity:7451885551684820992",
+    "urn:li:activity:7451883595977084928",
+    "urn:li:activity:7451883401252421632",
+    "urn:li:activity:7451883240191254528",
+    "urn:li:activity:7451882983894106112",
+    "urn:li:activity:7451882878029676544",
+    "urn:li:activity:7451882525141913600",
+    "urn:li:activity:7451882477888946176",
+    "urn:li:activity:7451881399231602688"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -893,7 +902,10 @@
     "sriraj.rama@impaxioninc.com",
     "jyothi.ch@msysinc.com",
     "Yos@secondtalent.com",
-    "k.vijaykumar@impaxioninc.com"
+    "k.vijaykumar@impaxioninc.com",
+    "sagarika@cesxperts.com",
+    "uma@cesxperts.com",
+    "Jyothsna@cesxperts.com"
   ],
   "contacted_details": [
     {
@@ -6241,6 +6253,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-20T12:02:01.934011"
+    },
+    {
+      "urn": "urn:li:activity:7451885551684820992",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451885551684820992",
+      "email": "sagarika@cesxperts.com",
+      "thread_id": "19da9b08316a10c1",
+      "message_id": "19da9b08316a10c1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T12:30:12.985084"
+    },
+    {
+      "urn": "urn:li:activity:7451883595977084928",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451883595977084928",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19da9b090581a625",
+      "message_id": "19da9b090581a625",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T12:30:16.135580"
+    },
+    {
+      "urn": "urn:li:activity:7451883401252421632",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451883401252421632",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19da9b09a3d2498b",
+      "message_id": "19da9b09a3d2498b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T12:30:18.796126"
+    },
+    {
+      "urn": "urn:li:activity:7451883240191254528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451883240191254528",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19da9b0a51a049fb",
+      "message_id": "19da9b0a51a049fb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T12:30:21.249459"
+    },
+    {
+      "urn": "urn:li:activity:7451882983894106112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451882983894106112",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19da9b0ad17bd1d2",
+      "message_id": "19da9b0ad17bd1d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T12:30:23.409172"
+    },
+    {
+      "urn": "urn:li:activity:7451882878029676544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451882878029676544",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19da9b0b48f65f7e",
+      "message_id": "19da9b0b48f65f7e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T12:30:25.657898"
+    },
+    {
+      "urn": "urn:li:activity:7451882525141913600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451882525141913600",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19da9b0bee6f6e96",
+      "message_id": "19da9b0bee6f6e96",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T12:30:27.808560"
+    },
+    {
+      "urn": "urn:li:activity:7451882477888946176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451882477888946176",
+      "email": "uma@cesxperts.com",
+      "thread_id": "19da9b0c60358693",
+      "message_id": "19da9b0c60358693",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T12:30:30.059806"
+    },
+    {
+      "urn": "urn:li:activity:7451881399231602688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451881399231602688",
+      "email": "Jyothsna@cesxperts.com",
+      "thread_id": "19da9b0cfb39b453",
+      "message_id": "19da9b0cfb39b453",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T12:30:32.323542"
     }
   ]
 }
