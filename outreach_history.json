@@ -563,7 +563,9 @@
     "urn:li:activity:7451980468129882112",
     "urn:li:activity:7451971698129604608",
     "urn:li:activity:7451968548714749952",
-    "urn:li:activity:7451968013773414400"
+    "urn:li:activity:7451968013773414400",
+    "urn:li:activity:7452001297467113472",
+    "urn:li:activity:7451987804219265024"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -925,7 +927,8 @@
     "Prashanth@deltacubes.us",
     "sathvi@fusionplusinc.com",
     "mahek@aliqan.com",
-    "khushboo@aliqan.com"
+    "khushboo@aliqan.com",
+    "pooja@zethic.com"
   ],
   "contacted_details": [
     {
@@ -6485,6 +6488,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-20T18:55:18.904556"
+    },
+    {
+      "urn": "urn:li:activity:7452001297467113472",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452001297467113472",
+      "email": "Shobana.m@lepingconsulting.com",
+      "thread_id": "19dab5e385eb8915",
+      "message_id": "19dab5e385eb8915",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T20:19:34.623460"
+    },
+    {
+      "urn": "urn:li:activity:7451987804219265024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451987804219265024",
+      "email": "pooja@zethic.com",
+      "thread_id": "19dab5e43e195cdc",
+      "message_id": "19dab5e43e195cdc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-20T20:19:37.016203"
     }
   ]
 }
