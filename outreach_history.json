@@ -586,7 +586,16 @@
     "urn:li:activity:7452210046173896704",
     "urn:li:activity:7452209723988209665",
     "urn:li:activity:7452185609852411904",
-    "urn:li:activity:7452074942705188864"
+    "urn:li:activity:7452074942705188864",
+    "urn:li:activity:7452263519716159488",
+    "urn:li:activity:7452255382829326336",
+    "urn:li:activity:7452246303922774016",
+    "urn:li:activity:7452246195076399104",
+    "urn:li:activity:7452241573162979328",
+    "urn:li:activity:7452210282023514112",
+    "urn:li:activity:7452209913705000960",
+    "urn:li:activity:7452195254054862849",
+    "urn:li:activity:7452194791603478528"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -959,7 +968,10 @@
     "sumanshree.acharya@mindbrain.co.in",
     "aparajita.m@mindbrain.co.in",
     "reeta.madhuri@theaimatters.com",
-    "sandeep@3coresystems.com"
+    "sandeep@3coresystems.com",
+    "revathi.mpalli@impaxioninc.com",
+    "hr@lokstech.com",
+    "surabhi@citypeoplesolutions.com.au"
   ],
   "contacted_details": [
     {
@@ -6746,6 +6758,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-21T11:40:56.618719"
+    },
+    {
+      "urn": "urn:li:activity:7452263519716159488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452263519716159488",
+      "email": "revathi.mpalli@impaxioninc.com",
+      "thread_id": "19daf32f0d443961",
+      "message_id": "19daf32f0d443961",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T14:10:45.252201"
+    },
+    {
+      "urn": "urn:li:activity:7452255382829326336",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452255382829326336",
+      "email": "hr@lokstech.com",
+      "thread_id": "19daf32f99672539",
+      "message_id": "19daf32f99672539",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T14:10:47.537969"
+    },
+    {
+      "urn": "urn:li:activity:7452246303922774016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452246303922774016",
+      "email": "arvind@ninjatechnolabs.com",
+      "thread_id": "19daf33048a819e1",
+      "message_id": "19daf33048a819e1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T14:10:50.617721"
+    },
+    {
+      "urn": "urn:li:activity:7452246195076399104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452246195076399104",
+      "email": "haresh@ninjatechnolabs.com",
+      "thread_id": "19daf330f8e089a6",
+      "message_id": "19daf330f8e089a6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T14:10:53.068421"
+    },
+    {
+      "urn": "urn:li:activity:7452241573162979328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452241573162979328",
+      "email": "sudharshan@arvenise.com",
+      "thread_id": "19daf3317987c792",
+      "message_id": "19daf3317987c792",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T14:10:55.433252"
+    },
+    {
+      "urn": "urn:li:activity:7452210282023514112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452210282023514112",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19daf3320d4da70e",
+      "message_id": "19daf3320d4da70e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T14:10:57.849651"
+    },
+    {
+      "urn": "urn:li:activity:7452209913705000960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452209913705000960",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19daf3328ee7a25f",
+      "message_id": "19daf3328ee7a25f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T14:10:59.970311"
+    },
+    {
+      "urn": "urn:li:activity:7452195254054862849",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452195254054862849",
+      "email": "surabhi@citypeoplesolutions.com.au",
+      "thread_id": "19daf333268a3a2b",
+      "message_id": "19daf333268a3a2b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T14:11:02.262415"
+    },
+    {
+      "urn": "urn:li:activity:7452194791603478528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452194791603478528",
+      "email": "surabhi@citypeoplesolutions.com.au",
+      "thread_id": "19daf333aee023de",
+      "message_id": "19daf333aee023de",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T14:11:04.588625"
     }
   ]
 }
