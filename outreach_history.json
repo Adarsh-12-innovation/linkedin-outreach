@@ -573,7 +573,20 @@
     "urn:li:activity:7452022413078269954",
     "urn:li:activity:7452018895689003008",
     "urn:li:activity:7451994486274007042",
-    "urn:li:activity:7451994326852632576"
+    "urn:li:activity:7451994326852632576",
+    "urn:li:activity:7452234701718667264",
+    "urn:li:activity:7452229814847193088",
+    "urn:li:activity:7452228746675138560",
+    "urn:li:activity:7452223349084119040",
+    "urn:li:activity:7452218409783820288",
+    "urn:li:activity:7452218321854443520",
+    "urn:li:activity:7452216024902328320",
+    "urn:li:activity:7452210407026442240",
+    "urn:li:activity:7452210147084578816",
+    "urn:li:activity:7452210046173896704",
+    "urn:li:activity:7452209723988209665",
+    "urn:li:activity:7452185609852411904",
+    "urn:li:activity:7452074942705188864"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -941,7 +954,12 @@
     "archana@foxoneusa.com",
     "sreya@foxoneusa.com",
     "Deepakn@arborteksys.com",
-    "Nanabolu.Bhargavi@infoservices.com"
+    "Nanabolu.Bhargavi@infoservices.com",
+    "hello@cloudgeniee.com",
+    "sumanshree.acharya@mindbrain.co.in",
+    "aparajita.m@mindbrain.co.in",
+    "reeta.madhuri@theaimatters.com",
+    "sandeep@3coresystems.com"
   ],
   "contacted_details": [
     {
@@ -6598,6 +6616,136 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-20T22:41:49.990570"
+    },
+    {
+      "urn": "urn:li:activity:7452234701718667264",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452234701718667264",
+      "email": "hello@cloudgeniee.com",
+      "thread_id": "19daea9420e9dedb",
+      "message_id": "19daea9420e9dedb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:22.445508"
+    },
+    {
+      "urn": "urn:li:activity:7452229814847193088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452229814847193088",
+      "email": "sumanshree.acharya@mindbrain.co.in",
+      "thread_id": "19daea94c40291a7",
+      "message_id": "19daea94c40291a7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:24.802184"
+    },
+    {
+      "urn": "urn:li:activity:7452228746675138560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452228746675138560",
+      "email": "aparajita.m@mindbrain.co.in",
+      "thread_id": "19daea954ad29691",
+      "message_id": "19daea954ad29691",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:27.118506"
+    },
+    {
+      "urn": "urn:li:activity:7452223349084119040",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452223349084119040",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19daea95ffe387fe",
+      "message_id": "19daea95ffe387fe",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:29.449674"
+    },
+    {
+      "urn": "urn:li:activity:7452218409783820288",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452218409783820288",
+      "email": "aswathy.s@flycatchtech.com",
+      "thread_id": "19daea9710e5da2e",
+      "message_id": "19daea9710e5da2e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:34.171531"
+    },
+    {
+      "urn": "urn:li:activity:7452218321854443520",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452218321854443520",
+      "email": "aswathy.s@flycatchtech.com",
+      "thread_id": "19daea97e7aef9d5",
+      "message_id": "19daea97e7aef9d5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:37.849153"
+    },
+    {
+      "urn": "urn:li:activity:7452216024902328320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452216024902328320",
+      "email": "reeta.madhuri@theaimatters.com",
+      "thread_id": "19daea9895c81d00",
+      "message_id": "19daea9895c81d00",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:40.206462"
+    },
+    {
+      "urn": "urn:li:activity:7452210407026442240",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452210407026442240",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19daea991ee4216d",
+      "message_id": "19daea991ee4216d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:42.514837"
+    },
+    {
+      "urn": "urn:li:activity:7452210147084578816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452210147084578816",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19daea99b9871c2c",
+      "message_id": "19daea99b9871c2c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:44.764731"
+    },
+    {
+      "urn": "urn:li:activity:7452210046173896704",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452210046173896704",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19daea9a3e5f9e40",
+      "message_id": "19daea9a3e5f9e40",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:47.035099"
+    },
+    {
+      "urn": "urn:li:activity:7452209723988209665",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452209723988209665",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "19daea9ab3aea84f",
+      "message_id": "19daea9ab3aea84f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:49.135918"
+    },
+    {
+      "urn": "urn:li:activity:7452185609852411904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452185609852411904",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19daea9b38b442a4",
+      "message_id": "19daea9b38b442a4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:51.348777"
+    },
+    {
+      "urn": "urn:li:activity:7452074942705188864",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452074942705188864",
+      "email": "sandeep@3coresystems.com",
+      "thread_id": "19daea9c82604517",
+      "message_id": "19daea9c82604517",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T11:40:56.618719"
     }
   ]
 }
