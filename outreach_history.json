@@ -595,7 +595,10 @@
     "urn:li:activity:7452210282023514112",
     "urn:li:activity:7452209913705000960",
     "urn:li:activity:7452195254054862849",
-    "urn:li:activity:7452194791603478528"
+    "urn:li:activity:7452194791603478528",
+    "urn:li:activity:7452284789132300319",
+    "urn:li:activity:7452253598312337408",
+    "urn:li:activity:7452225015233581056"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -971,7 +974,9 @@
     "sandeep@3coresystems.com",
     "revathi.mpalli@impaxioninc.com",
     "hr@lokstech.com",
-    "surabhi@citypeoplesolutions.com.au"
+    "surabhi@citypeoplesolutions.com.au",
+    "sarala@cerebral-works.com",
+    "Aniket.shah111985@gmail.com"
   ],
   "contacted_details": [
     {
@@ -6848,6 +6853,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-21T14:11:04.588625"
+    },
+    {
+      "urn": "urn:li:activity:7452284789132300319",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452284789132300319",
+      "email": "sarala@cerebral-works.com",
+      "thread_id": "19daf636c0a640b0",
+      "message_id": "19daf636c0a640b0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T15:03:42.913243"
+    },
+    {
+      "urn": "urn:li:activity:7452253598312337408",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452253598312337408",
+      "email": "Aniket.shah111985@gmail.com",
+      "thread_id": "19daf637778baa79",
+      "message_id": "19daf637778baa79",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T15:03:45.390228"
+    },
+    {
+      "urn": "urn:li:activity:7452225015233581056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452225015233581056",
+      "email": "surabhi@citypeoplesolutions.com.au",
+      "thread_id": "19daf63820a839e9",
+      "message_id": "19daf63820a839e9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-21T15:03:48.402939"
     }
   ]
 }
