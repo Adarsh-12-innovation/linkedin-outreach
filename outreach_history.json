@@ -6502,9 +6502,10 @@
       "email": "rishabh@skillnixrecruitment.com",
       "thread_id": "19daaa330dfdc627",
       "message_id": "19daaa330dfdc627",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T16:55:16.763825"
+      "timestamp": "2026-04-20T16:55:16.763825",
+      "followup_timestamp": "2026-04-21T19:45:34.494723"
     },
     {
       "urn": "urn:li:activity:7451936654988328960",
@@ -6512,9 +6513,10 @@
       "email": "Prashanth@deltacubes.us",
       "thread_id": "19daaa342fd96008",
       "message_id": "19daaa342fd96008",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T16:55:21.682657"
+      "timestamp": "2026-04-20T16:55:21.682657",
+      "followup_timestamp": "2026-04-21T19:45:36.260122"
     },
     {
       "urn": "urn:li:activity:7451980694450307072",
@@ -6522,9 +6524,10 @@
       "email": "sathvi@fusionplusinc.com",
       "thread_id": "19dab10ec0ae6c91",
       "message_id": "19dab10ec0ae6c91",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T18:55:08.755820"
+      "timestamp": "2026-04-20T18:55:08.755820",
+      "followup_timestamp": "2026-04-21T19:45:37.974043"
     },
     {
       "urn": "urn:li:activity:7451980468129882112",
@@ -6532,9 +6535,10 @@
       "email": "sathvi@fusionplusinc.com",
       "thread_id": "19dab10f70928795",
       "message_id": "19dab10f70928795",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T18:55:11.228223"
+      "timestamp": "2026-04-20T18:55:11.228223",
+      "followup_timestamp": "2026-04-21T19:45:39.762411"
     },
     {
       "urn": "urn:li:activity:7451971698129604608",
@@ -6542,7 +6546,7 @@
       "email": "shifa@sourcebae.com",
       "thread_id": "19dab1101aac3706",
       "message_id": "19dab1101aac3706",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-20T18:55:13.894449"
     },
@@ -6552,9 +6556,10 @@
       "email": "mahek@aliqan.com",
       "thread_id": "19dab110a0bd9838",
       "message_id": "19dab110a0bd9838",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T18:55:16.654548"
+      "timestamp": "2026-04-20T18:55:16.654548",
+      "followup_timestamp": "2026-04-21T19:45:41.672144"
     },
     {
       "urn": "urn:li:activity:7451968013773414400",
@@ -6562,9 +6567,10 @@
       "email": "khushboo@aliqan.com",
       "thread_id": "19dab1115aaab3b7",
       "message_id": "19dab1115aaab3b7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T18:55:18.904556"
+      "timestamp": "2026-04-20T18:55:18.904556",
+      "followup_timestamp": "2026-04-21T19:45:43.399000"
     },
     {
       "urn": "urn:li:activity:7452001297467113472",
