@@ -6578,9 +6578,10 @@
       "email": "Shobana.m@lepingconsulting.com",
       "thread_id": "19dab5e385eb8915",
       "message_id": "19dab5e385eb8915",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T20:19:34.623460"
+      "timestamp": "2026-04-20T20:19:34.623460",
+      "followup_timestamp": "2026-04-22T05:38:23.183357"
     },
     {
       "urn": "urn:li:activity:7451987804219265024",
@@ -6588,9 +6589,10 @@
       "email": "pooja@zethic.com",
       "thread_id": "19dab5e43e195cdc",
       "message_id": "19dab5e43e195cdc",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T20:19:37.016203"
+      "timestamp": "2026-04-20T20:19:37.016203",
+      "followup_timestamp": "2026-04-22T05:38:24.811449"
     },
     {
       "urn": "urn:li:activity:7452006582525239296",
@@ -6628,9 +6630,10 @@
       "email": "ilayaraja.p@xforia.com",
       "thread_id": "19dabe053e29a0de",
       "message_id": "19dabe053e29a0de",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T22:41:40.761111"
+      "timestamp": "2026-04-20T22:41:40.761111",
+      "followup_timestamp": "2026-04-22T05:38:26.432464"
     },
     {
       "urn": "urn:li:activity:7452022413078269954",
@@ -6638,9 +6641,10 @@
       "email": "Deepakn@arborteksys.com",
       "thread_id": "19dabe05b10baa62",
       "message_id": "19dabe05b10baa62",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T22:41:42.952125"
+      "timestamp": "2026-04-20T22:41:42.952125",
+      "followup_timestamp": "2026-04-22T05:38:28.090895"
     },
     {
       "urn": "urn:li:activity:7452018895689003008",
@@ -6648,9 +6652,10 @@
       "email": "Nanabolu.Bhargavi@infoservices.com",
       "thread_id": "19dabe06512e0256",
       "message_id": "19dabe06512e0256",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T22:41:45.427088"
+      "timestamp": "2026-04-20T22:41:45.427088",
+      "followup_timestamp": "2026-04-22T05:38:29.942093"
     },
     {
       "urn": "urn:li:activity:7451994486274007042",
@@ -6658,9 +6663,10 @@
       "email": "naveen.reddy@theavianconsulting.com",
       "thread_id": "19dabe06eb598297",
       "message_id": "19dabe06eb598297",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T22:41:47.757661"
+      "timestamp": "2026-04-20T22:41:47.757661",
+      "followup_timestamp": "2026-04-22T05:38:31.481913"
     },
     {
       "urn": "urn:li:activity:7451994326852632576",
@@ -6668,9 +6674,10 @@
       "email": "naveen.reddy@theavianconsulting.com",
       "thread_id": "19dabe0775c440d0",
       "message_id": "19dabe0775c440d0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-20T22:41:49.990570"
+      "timestamp": "2026-04-20T22:41:49.990570",
+      "followup_timestamp": "2026-04-22T05:38:32.982603"
     },
     {
       "urn": "urn:li:activity:7452234701718667264",
