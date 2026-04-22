@@ -625,7 +625,16 @@
     "urn:li:activity:7452547984111722497",
     "urn:li:activity:7452678073872752640",
     "urn:li:activity:7452663597366833152",
-    "urn:li:activity:7452656924673642496"
+    "urn:li:activity:7452656924673642496",
+    "urn:li:activity:7452713236551897088",
+    "urn:li:activity:7452706192222552064",
+    "urn:li:activity:7452704903866748928",
+    "urn:li:activity:7452704883675226112",
+    "urn:li:activity:7452703018057342977",
+    "urn:li:activity:7452699337312260098",
+    "urn:li:activity:7452697043032223744",
+    "urn:li:activity:7452693629443141632",
+    "urn:li:activity:7452692980949348353"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1015,7 +1024,11 @@
     "sainavitha@deltacubes.us",
     "green@wikilabs.in",
     "vinitanirwal@sourcebae.com",
-    "tarun.vermafreelancer@gmail.com"
+    "tarun.vermafreelancer@gmail.com",
+    "Vineeth@censusinfotech.com",
+    "hr@qcentro.com",
+    "asad.akhtar@jriaaa.com",
+    "hr@cstechnologysolution.com"
   ],
   "contacted_details": [
     {
@@ -7238,6 +7251,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-22T18:05:04.892012"
+    },
+    {
+      "urn": "urn:li:activity:7452713236551897088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452713236551897088",
+      "email": "Vineeth@censusinfotech.com",
+      "thread_id": "19db571d0c9ec640",
+      "message_id": "19db571d0c9ec640",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-22T19:17:09.315919"
+    },
+    {
+      "urn": "urn:li:activity:7452706192222552064",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452706192222552064",
+      "email": "tarun.vermafreelancer@gmail.com",
+      "thread_id": "19db571d8d5d5a99",
+      "message_id": "19db571d8d5d5a99",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-22T19:17:11.543719"
+    },
+    {
+      "urn": "urn:li:activity:7452704903866748928",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452704903866748928",
+      "email": "tarun.vermafreelancer@gmail.com",
+      "thread_id": "19db571e02cc2b76",
+      "message_id": "19db571e02cc2b76",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-22T19:17:13.580842"
+    },
+    {
+      "urn": "urn:li:activity:7452704883675226112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452704883675226112",
+      "email": "tarun.vermafreelancer@gmail.com",
+      "thread_id": "19db571e89534fe2",
+      "message_id": "19db571e89534fe2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-22T19:17:15.710708"
+    },
+    {
+      "urn": "urn:li:activity:7452703018057342977",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452703018057342977",
+      "email": "hr@qcentro.com",
+      "thread_id": "19db571f2760324f",
+      "message_id": "19db571f2760324f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-22T19:17:18.253128"
+    },
+    {
+      "urn": "urn:li:activity:7452699337312260098",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452699337312260098",
+      "email": "darshit@ncubeinfosolutions.com",
+      "thread_id": "19db571fd5aba0b3",
+      "message_id": "19db571fd5aba0b3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-22T19:17:20.589303"
+    },
+    {
+      "urn": "urn:li:activity:7452697043032223744",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452697043032223744",
+      "email": "asad.akhtar@jriaaa.com",
+      "thread_id": "19db57205bc9364e",
+      "message_id": "19db57205bc9364e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-22T19:17:22.791698"
+    },
+    {
+      "urn": "urn:li:activity:7452693629443141632",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452693629443141632",
+      "email": "devarapalli.amrutha@lovasit.com",
+      "thread_id": "19db5720c1f2ad84",
+      "message_id": "19db5720c1f2ad84",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-22T19:17:24.828607"
+    },
+    {
+      "urn": "urn:li:activity:7452692980949348353",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452692980949348353",
+      "email": "hr@cstechnologysolution.com",
+      "thread_id": "19db57216df36c4b",
+      "message_id": "19db57216df36c4b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-22T19:17:27.123828"
     }
   ]
 }
