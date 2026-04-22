@@ -6966,9 +6966,10 @@
       "email": "sarala@cerebral-works.com",
       "thread_id": "19daf636c0a640b0",
       "message_id": "19daf636c0a640b0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-21T15:03:42.913243"
+      "timestamp": "2026-04-21T15:03:42.913243",
+      "followup_timestamp": "2026-04-22T15:55:00.759160"
     },
     {
       "urn": "urn:li:activity:7452253598312337408",
@@ -6976,9 +6977,10 @@
       "email": "Aniket.shah111985@gmail.com",
       "thread_id": "19daf637778baa79",
       "message_id": "19daf637778baa79",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-21T15:03:45.390228"
+      "timestamp": "2026-04-21T15:03:45.390228",
+      "followup_timestamp": "2026-04-22T15:55:02.344725"
     },
     {
       "urn": "urn:li:activity:7452225015233581056",
@@ -6986,9 +6988,10 @@
       "email": "surabhi@citypeoplesolutions.com.au",
       "thread_id": "19daf63820a839e9",
       "message_id": "19daf63820a839e9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-21T15:03:48.402939"
+      "timestamp": "2026-04-21T15:03:48.402939",
+      "followup_timestamp": "2026-04-22T15:55:03.924520"
     },
     {
       "urn": "urn:li:activity:7452331247374209026",
