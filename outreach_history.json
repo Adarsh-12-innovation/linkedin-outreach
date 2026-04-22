@@ -6999,9 +6999,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db008ca307e380",
       "message_id": "19db008ca307e380",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-21T18:04:19.847288"
+      "timestamp": "2026-04-21T18:04:19.847288",
+      "followup_timestamp": "2026-04-22T19:47:08.012886"
     },
     {
       "urn": "urn:li:activity:7452337106892394496",
@@ -7009,7 +7010,7 @@
       "email": "anilisa.benny@qzigma.com",
       "thread_id": "19db034761672c16",
       "message_id": "19db034761672c16",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-21T18:52:02.103105"
     },
@@ -7019,9 +7020,10 @@
       "email": "careers@rayadvertising.com",
       "thread_id": "19db0347e4388d79",
       "message_id": "19db0347e4388d79",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-21T18:52:04.219806"
+      "timestamp": "2026-04-21T18:52:04.219806",
+      "followup_timestamp": "2026-04-22T19:47:11.118179"
     },
     {
       "urn": "urn:li:activity:7452373672700379136",
