@@ -653,7 +653,10 @@
     "urn:li:activity:7452993479204442112",
     "urn:li:activity:7452990607893037057",
     "urn:li:activity:7452976883782115328",
-    "urn:li:activity:7452951920316465152"
+    "urn:li:activity:7452951920316465152",
+    "urn:li:activity:7453051872141234176",
+    "urn:li:activity:7453029958471389186",
+    "urn:li:activity:7453028696854093824"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1056,7 +1059,10 @@
     "shivani@dinjaninfotech.com",
     "kanchan.manral@infojiniconsulting.com",
     "Harsha.tiwari@codersbrain.com",
-    "farheen@s4ia.in"
+    "farheen@s4ia.in",
+    "support@datawavesconsulting.com",
+    "techinrentjob@gmail.com",
+    "pallavi.singhal@cibronix.com"
   ],
   "contacted_details": [
     {
@@ -7583,6 +7589,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-23T15:03:44.625771"
+    },
+    {
+      "urn": "urn:li:activity:7453051872141234176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453051872141234176",
+      "email": "support@datawavesconsulting.com",
+      "thread_id": "19dba5502d2437ca",
+      "message_id": "19dba5502d2437ca",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T18:03:48.100258"
+    },
+    {
+      "urn": "urn:li:activity:7453029958471389186",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453029958471389186",
+      "email": "techinrentjob@gmail.com",
+      "thread_id": "19dba550a5dab0ec",
+      "message_id": "19dba550a5dab0ec",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T18:03:50.380334"
+    },
+    {
+      "urn": "urn:li:activity:7453028696854093824",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453028696854093824",
+      "email": "pallavi.singhal@cibronix.com",
+      "thread_id": "19dba551383cb305",
+      "message_id": "19dba551383cb305",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T18:03:52.485163"
     }
   ]
 }
