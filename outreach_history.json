@@ -7101,9 +7101,10 @@
       "email": "devamadhav.goriparthi@dprsolutionsinc.com",
       "thread_id": "19db3bf1a8d1f17a",
       "message_id": "19db3bf1a8d1f17a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T11:22:20.775599"
+      "timestamp": "2026-04-22T11:22:20.775599",
+      "followup_timestamp": "2026-04-23T11:40:08.951514"
     },
     {
       "urn": "urn:li:activity:7452586114755850240",
@@ -7111,9 +7112,10 @@
       "email": "hr@binitos.com",
       "thread_id": "19db3bf268107f24",
       "message_id": "19db3bf268107f24",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T11:22:24.077369"
+      "timestamp": "2026-04-22T11:22:24.077369",
+      "followup_timestamp": "2026-04-23T11:40:10.721375"
     },
     {
       "urn": "urn:li:activity:7452579862243942400",
@@ -7121,9 +7123,10 @@
       "email": "jaynaga.gv@impaxioninc.com",
       "thread_id": "19db3bf30c9d6af6",
       "message_id": "19db3bf30c9d6af6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T11:22:26.334734"
+      "timestamp": "2026-04-22T11:22:26.334734",
+      "followup_timestamp": "2026-04-23T11:40:12.198547"
     },
     {
       "urn": "urn:li:activity:7452579548682076160",
@@ -7131,7 +7134,7 @@
       "email": "jaynaga.gv@impaxioninc.com",
       "thread_id": "19db3bf4580c6c8c",
       "message_id": "19db3bf4580c6c8c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-22T11:22:31.146914"
     },
@@ -7141,9 +7144,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db3bf4c73dc44c",
       "message_id": "19db3bf4c73dc44c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T11:22:33.318396"
+      "timestamp": "2026-04-22T11:22:33.318396",
+      "followup_timestamp": "2026-04-23T11:40:13.730809"
     },
     {
       "urn": "urn:li:activity:7452553170104242177",
@@ -7151,9 +7155,10 @@
       "email": "revathi.mpalli@impaxioninc.com",
       "thread_id": "19db3bf627fab14d",
       "message_id": "19db3bf627fab14d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T11:22:39.175570"
+      "timestamp": "2026-04-22T11:22:39.175570",
+      "followup_timestamp": "2026-04-23T11:40:15.173111"
     },
     {
       "urn": "urn:li:activity:7452552764947267584",
@@ -7161,7 +7166,7 @@
       "email": "revathi.mpalli@impaxioninc.com",
       "thread_id": "19db3bf6c36905c7",
       "message_id": "19db3bf6c36905c7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-22T11:22:41.359452"
     },
@@ -7171,9 +7176,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db3bf7592fe7cf",
       "message_id": "19db3bf7592fe7cf",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T11:22:43.545596"
+      "timestamp": "2026-04-22T11:22:43.545596",
+      "followup_timestamp": "2026-04-23T11:40:17.099490"
     },
     {
       "urn": "urn:li:activity:7452486590624337920",
@@ -7181,9 +7187,10 @@
       "email": "Priya@yottasys.com",
       "thread_id": "19db3bf7d3ce8c05",
       "message_id": "19db3bf7d3ce8c05",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T11:22:45.945060"
+      "timestamp": "2026-04-22T11:22:45.945060",
+      "followup_timestamp": "2026-04-23T11:40:18.542969"
     },
     {
       "urn": "urn:li:activity:7452440501896499200",
@@ -7191,9 +7198,10 @@
       "email": "govindtiwari@nablax.in",
       "thread_id": "19db3bf86d401aee",
       "message_id": "19db3bf86d401aee",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T11:22:48.084145"
+      "timestamp": "2026-04-22T11:22:48.084145",
+      "followup_timestamp": "2026-04-23T11:40:19.973910"
     },
     {
       "urn": "urn:li:activity:7452422295844765696",
@@ -7201,9 +7209,10 @@
       "email": "deepak.chaudhary@truecodesol.com",
       "thread_id": "19db3bf8fba99aad",
       "message_id": "19db3bf8fba99aad",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T11:22:50.396918"
+      "timestamp": "2026-04-22T11:22:50.396918",
+      "followup_timestamp": "2026-04-23T11:40:21.398983"
     },
     {
       "urn": "urn:li:activity:7452644154678878208",
