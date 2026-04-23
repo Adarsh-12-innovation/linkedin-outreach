@@ -7300,9 +7300,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db52fc370baaf8",
       "message_id": "19db52fc370baaf8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T18:05:00.357305"
+      "timestamp": "2026-04-22T18:05:00.357305",
+      "followup_timestamp": "2026-04-23T19:50:41.344865"
     },
     {
       "urn": "urn:li:activity:7452663597366833152",
@@ -7310,7 +7311,7 @@
       "email": "shifa@sourcebae.com",
       "thread_id": "19db52fca786c709",
       "message_id": "19db52fca786c709",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-22T18:05:02.534988"
     },
@@ -7320,9 +7321,10 @@
       "email": "tarun.vermafreelancer@gmail.com",
       "thread_id": "19db52fd58e8f6c0",
       "message_id": "19db52fd58e8f6c0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T18:05:04.892012"
+      "timestamp": "2026-04-22T18:05:04.892012",
+      "followup_timestamp": "2026-04-23T19:50:42.992593"
     },
     {
       "urn": "urn:li:activity:7452713236551897088",
@@ -7330,9 +7332,10 @@
       "email": "Vineeth@censusinfotech.com",
       "thread_id": "19db571d0c9ec640",
       "message_id": "19db571d0c9ec640",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T19:17:09.315919"
+      "timestamp": "2026-04-22T19:17:09.315919",
+      "followup_timestamp": "2026-04-23T19:50:44.432918"
     },
     {
       "urn": "urn:li:activity:7452706192222552064",
@@ -7340,9 +7343,10 @@
       "email": "tarun.vermafreelancer@gmail.com",
       "thread_id": "19db571d8d5d5a99",
       "message_id": "19db571d8d5d5a99",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T19:17:11.543719"
+      "timestamp": "2026-04-22T19:17:11.543719",
+      "followup_timestamp": "2026-04-23T19:50:45.870900"
     },
     {
       "urn": "urn:li:activity:7452704903866748928",
@@ -7350,9 +7354,10 @@
       "email": "tarun.vermafreelancer@gmail.com",
       "thread_id": "19db571e02cc2b76",
       "message_id": "19db571e02cc2b76",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T19:17:13.580842"
+      "timestamp": "2026-04-22T19:17:13.580842",
+      "followup_timestamp": "2026-04-23T19:50:47.266785"
     },
     {
       "urn": "urn:li:activity:7452704883675226112",
@@ -7360,9 +7365,10 @@
       "email": "tarun.vermafreelancer@gmail.com",
       "thread_id": "19db571e89534fe2",
       "message_id": "19db571e89534fe2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T19:17:15.710708"
+      "timestamp": "2026-04-22T19:17:15.710708",
+      "followup_timestamp": "2026-04-23T19:50:48.651200"
     },
     {
       "urn": "urn:li:activity:7452703018057342977",
@@ -7370,9 +7376,10 @@
       "email": "hr@qcentro.com",
       "thread_id": "19db571f2760324f",
       "message_id": "19db571f2760324f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T19:17:18.253128"
+      "timestamp": "2026-04-22T19:17:18.253128",
+      "followup_timestamp": "2026-04-23T19:50:50.103170"
     },
     {
       "urn": "urn:li:activity:7452699337312260098",
@@ -7380,9 +7387,10 @@
       "email": "darshit@ncubeinfosolutions.com",
       "thread_id": "19db571fd5aba0b3",
       "message_id": "19db571fd5aba0b3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T19:17:20.589303"
+      "timestamp": "2026-04-22T19:17:20.589303",
+      "followup_timestamp": "2026-04-23T19:50:51.564096"
     },
     {
       "urn": "urn:li:activity:7452697043032223744",
@@ -7390,9 +7398,10 @@
       "email": "asad.akhtar@jriaaa.com",
       "thread_id": "19db57205bc9364e",
       "message_id": "19db57205bc9364e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T19:17:22.791698"
+      "timestamp": "2026-04-22T19:17:22.791698",
+      "followup_timestamp": "2026-04-23T19:50:53.025069"
     },
     {
       "urn": "urn:li:activity:7452693629443141632",
@@ -7400,9 +7409,10 @@
       "email": "devarapalli.amrutha@lovasit.com",
       "thread_id": "19db5720c1f2ad84",
       "message_id": "19db5720c1f2ad84",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T19:17:24.828607"
+      "timestamp": "2026-04-22T19:17:24.828607",
+      "followup_timestamp": "2026-04-23T19:50:54.444170"
     },
     {
       "urn": "urn:li:activity:7452692980949348353",
@@ -7410,9 +7420,10 @@
       "email": "hr@cstechnologysolution.com",
       "thread_id": "19db57216df36c4b",
       "message_id": "19db57216df36c4b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T19:17:27.123828"
+      "timestamp": "2026-04-22T19:17:27.123828",
+      "followup_timestamp": "2026-04-23T19:50:56.124008"
     },
     {
       "urn": "urn:li:activity:7452925473048764416",
