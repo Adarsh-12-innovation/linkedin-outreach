@@ -647,7 +647,13 @@
     "urn:li:activity:7452785521841577984",
     "urn:li:activity:7452967452600336384",
     "urn:li:activity:7452962197585965056",
-    "urn:li:activity:7452906645535506432"
+    "urn:li:activity:7452906645535506432",
+    "urn:li:activity:7453011715383803904",
+    "urn:li:activity:7453009477429067777",
+    "urn:li:activity:7452993479204442112",
+    "urn:li:activity:7452990607893037057",
+    "urn:li:activity:7452976883782115328",
+    "urn:li:activity:7452951920316465152"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1046,7 +1052,11 @@
     "mani@vanguard-itsolutions.com",
     "vikram.s@zapnixinc.com",
     "krishnaveni.a@aplombtek.com",
-    "savita@spineor.com"
+    "savita@spineor.com",
+    "shivani@dinjaninfotech.com",
+    "kanchan.manral@infojiniconsulting.com",
+    "Harsha.tiwari@codersbrain.com",
+    "farheen@s4ia.in"
   ],
   "contacted_details": [
     {
@@ -7504,6 +7514,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-23T12:06:59.790692"
+    },
+    {
+      "urn": "urn:li:activity:7453011715383803904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453011715383803904",
+      "email": "shivani@dinjaninfotech.com",
+      "thread_id": "19db9aff3276de10",
+      "message_id": "19db9aff3276de10",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T15:03:30.926881"
+    },
+    {
+      "urn": "urn:li:activity:7453009477429067777",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453009477429067777",
+      "email": "kanchan.manral@infojiniconsulting.com",
+      "thread_id": "19db9affcc619d5c",
+      "message_id": "19db9affcc619d5c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T15:03:33.370831"
+    },
+    {
+      "urn": "urn:li:activity:7452993479204442112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452993479204442112",
+      "email": "Harsha.tiwari@codersbrain.com",
+      "thread_id": "19db9b0058977e25",
+      "message_id": "19db9b0058977e25",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T15:03:35.379298"
+    },
+    {
+      "urn": "urn:li:activity:7452990607893037057",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452990607893037057",
+      "email": "hr@smaitee.com",
+      "thread_id": "19db9b00d15436a0",
+      "message_id": "19db9b00d15436a0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T15:03:37.611980"
+    },
+    {
+      "urn": "urn:li:activity:7452976883782115328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452976883782115328",
+      "email": "farheen@s4ia.in",
+      "thread_id": "19db9b01614934a4",
+      "message_id": "19db9b01614934a4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T15:03:39.840057"
+    },
+    {
+      "urn": "urn:li:activity:7452951920316465152",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452951920316465152",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19db9b0282ed1082",
+      "message_id": "19db9b0282ed1082",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T15:03:44.625771"
     }
   ]
 }
