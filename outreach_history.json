@@ -644,7 +644,10 @@
     "urn:li:activity:7452954571251040256",
     "urn:li:activity:7452951933151264768",
     "urn:li:activity:7452936802467778560",
-    "urn:li:activity:7452785521841577984"
+    "urn:li:activity:7452785521841577984",
+    "urn:li:activity:7452967452600336384",
+    "urn:li:activity:7452962197585965056",
+    "urn:li:activity:7452906645535506432"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1042,7 +1045,8 @@
     "hello@ahteslabs.com",
     "mani@vanguard-itsolutions.com",
     "vikram.s@zapnixinc.com",
-    "krishnaveni.a@aplombtek.com"
+    "krishnaveni.a@aplombtek.com",
+    "savita@spineor.com"
   ],
   "contacted_details": [
     {
@@ -7470,6 +7474,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-23T11:43:01.938774"
+    },
+    {
+      "urn": "urn:li:activity:7452967452600336384",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452967452600336384",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19db90e4545dc6a5",
+      "message_id": "19db90e4545dc6a5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T12:06:55.095647"
+    },
+    {
+      "urn": "urn:li:activity:7452962197585965056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452962197585965056",
+      "email": "savita@spineor.com",
+      "thread_id": "19db90e4fe21bd11",
+      "message_id": "19db90e4fe21bd11",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T12:06:57.477678"
+    },
+    {
+      "urn": "urn:li:activity:7452906645535506432",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452906645535506432",
+      "email": "surabhi@citypeoplesolutions.com.au",
+      "thread_id": "19db90e5801827a9",
+      "message_id": "19db90e5801827a9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T12:06:59.790692"
     }
   ]
 }
