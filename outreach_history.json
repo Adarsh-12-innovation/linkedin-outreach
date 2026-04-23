@@ -656,7 +656,12 @@
     "urn:li:activity:7452951920316465152",
     "urn:li:activity:7453051872141234176",
     "urn:li:activity:7453029958471389186",
-    "urn:li:activity:7453028696854093824"
+    "urn:li:activity:7453028696854093824",
+    "urn:li:activity:7453105180759433216",
+    "urn:li:activity:7453096711771566080",
+    "urn:li:activity:7453084246128189440",
+    "urn:li:activity:7453082296053653504",
+    "urn:li:activity:7453077403066585088"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1062,7 +1067,10 @@
     "farheen@s4ia.in",
     "support@datawavesconsulting.com",
     "techinrentjob@gmail.com",
-    "pallavi.singhal@cibronix.com"
+    "pallavi.singhal@cibronix.com",
+    "venkat@saisoftsol.com",
+    "navneet@fasthireinc.com",
+    "Ankit.Kanojiya@tanishasystems.com"
   ],
   "contacted_details": [
     {
@@ -7226,9 +7234,10 @@
       "email": "sainavitha@deltacubes.us",
       "thread_id": "19db48aae5761de3",
       "message_id": "19db48aae5761de3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T15:04:42.177052"
+      "timestamp": "2026-04-22T15:04:42.177052",
+      "followup_timestamp": "2026-04-23T21:27:16.117760"
     },
     {
       "urn": "urn:li:activity:7452637292139089920",
@@ -7236,9 +7245,10 @@
       "email": "green@wikilabs.in",
       "thread_id": "19db48ac97977ef5",
       "message_id": "19db48ac97977ef5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T15:04:48.838589"
+      "timestamp": "2026-04-22T15:04:48.838589",
+      "followup_timestamp": "2026-04-23T21:27:18.560852"
     },
     {
       "urn": "urn:li:activity:7452613182617018368",
@@ -7246,9 +7256,10 @@
       "email": "vinitanirwal@sourcebae.com",
       "thread_id": "19db48ad52f89a8f",
       "message_id": "19db48ad52f89a8f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T15:04:52.013326"
+      "timestamp": "2026-04-22T15:04:52.013326",
+      "followup_timestamp": "2026-04-23T21:27:20.852178"
     },
     {
       "urn": "urn:li:activity:7452599730083110912",
@@ -7256,9 +7267,10 @@
       "email": "sanjana.patel@huemot.com",
       "thread_id": "19db48ae05da8445",
       "message_id": "19db48ae05da8445",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T15:04:55.123309"
+      "timestamp": "2026-04-22T15:04:55.123309",
+      "followup_timestamp": "2026-04-23T21:27:23.207940"
     },
     {
       "urn": "urn:li:activity:7452597413162205184",
@@ -7266,9 +7278,10 @@
       "email": "himanshu.tamang@bytebillion.com",
       "thread_id": "19db48aef25e5bbd",
       "message_id": "19db48aef25e5bbd",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T15:04:58.431353"
+      "timestamp": "2026-04-22T15:04:58.431353",
+      "followup_timestamp": "2026-04-23T21:27:25.514973"
     },
     {
       "urn": "urn:li:activity:7452547984111722497",
@@ -7276,9 +7289,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db48af9b66b6b1",
       "message_id": "19db48af9b66b6b1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-22T15:05:01.781112"
+      "timestamp": "2026-04-22T15:05:01.781112",
+      "followup_timestamp": "2026-04-23T21:27:27.981522"
     },
     {
       "urn": "urn:li:activity:7452678073872752640",
@@ -7619,6 +7633,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-23T18:03:52.485163"
+    },
+    {
+      "urn": "urn:li:activity:7453105180759433216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453105180759433216",
+      "email": "viveik.dikshit@aglowrec.in",
+      "thread_id": "19dbb0f11a57c102",
+      "message_id": "19dbb0f11a57c102",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T21:27:01.769689"
+    },
+    {
+      "urn": "urn:li:activity:7453096711771566080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453096711771566080",
+      "email": "venkat@saisoftsol.com",
+      "thread_id": "19dbb0f1af6bd4d2",
+      "message_id": "19dbb0f1af6bd4d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T21:27:04.218336"
+    },
+    {
+      "urn": "urn:li:activity:7453084246128189440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453084246128189440",
+      "email": "Vineeth@censusinfotech.com",
+      "thread_id": "19dbb0f222f2d6d0",
+      "message_id": "19dbb0f222f2d6d0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T21:27:06.676147"
+    },
+    {
+      "urn": "urn:li:activity:7453082296053653504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453082296053653504",
+      "email": "navneet@fasthireinc.com",
+      "thread_id": "19dbb0f2c264b562",
+      "message_id": "19dbb0f2c264b562",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T21:27:08.938943"
+    },
+    {
+      "urn": "urn:li:activity:7453077403066585088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453077403066585088",
+      "email": "Ankit.Kanojiya@tanishasystems.com",
+      "thread_id": "19dbb0f3ee8258db",
+      "message_id": "19dbb0f3ee8258db",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T21:27:13.610558"
     }
   ]
 }
