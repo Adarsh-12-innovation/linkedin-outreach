@@ -634,7 +634,12 @@
     "urn:li:activity:7452699337312260098",
     "urn:li:activity:7452697043032223744",
     "urn:li:activity:7452693629443141632",
-    "urn:li:activity:7452692980949348353"
+    "urn:li:activity:7452692980949348353",
+    "urn:li:activity:7452925473048764416",
+    "urn:li:activity:7452808323659120640",
+    "urn:li:activity:7452802161500901376",
+    "urn:li:activity:7452771487155060736",
+    "urn:li:activity:7452767191244087298"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1028,7 +1033,10 @@
     "Vineeth@censusinfotech.com",
     "hr@qcentro.com",
     "asad.akhtar@jriaaa.com",
-    "hr@cstechnologysolution.com"
+    "hr@cstechnologysolution.com",
+    "hello@ahteslabs.com",
+    "mani@vanguard-itsolutions.com",
+    "vikram.s@zapnixinc.com"
   ],
   "contacted_details": [
     {
@@ -7031,9 +7039,10 @@
       "email": "Nanabolu.Bhargavi@infoservices.com",
       "thread_id": "19db0ba02c25560b",
       "message_id": "19db0ba02c25560b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-21T21:17:54.394460"
+      "timestamp": "2026-04-21T21:17:54.394460",
+      "followup_timestamp": "2026-04-23T09:33:31.508009"
     },
     {
       "urn": "urn:li:activity:7452370871127818240",
@@ -7041,7 +7050,7 @@
       "email": "business.pawant@gmail.com",
       "thread_id": "19db0ba0a6297f2c",
       "message_id": "19db0ba0a6297f2c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-21T21:17:56.645645"
     },
@@ -7051,7 +7060,7 @@
       "email": "mahesh@msysinc.com",
       "thread_id": "19db0ba143d5e510",
       "message_id": "19db0ba143d5e510",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-21T21:17:58.760550"
     },
@@ -7061,9 +7070,10 @@
       "email": "sophia@fluxteksol.com",
       "thread_id": "19db0ba1d49e9207",
       "message_id": "19db0ba1d49e9207",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-21T21:18:00.928258"
+      "timestamp": "2026-04-21T21:18:00.928258",
+      "followup_timestamp": "2026-04-23T09:33:34.885230"
     },
     {
       "urn": "urn:li:activity:7452590327602823168",
@@ -7354,6 +7364,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-22T19:17:27.123828"
+    },
+    {
+      "urn": "urn:li:activity:7452925473048764416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452925473048764416",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19db8819abeae18f",
+      "message_id": "19db8819abeae18f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T09:33:16.455580"
+    },
+    {
+      "urn": "urn:li:activity:7452808323659120640",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452808323659120640",
+      "email": "hello@ahteslabs.com",
+      "thread_id": "19db881a6c205f14",
+      "message_id": "19db881a6c205f14",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T09:33:19.620202"
+    },
+    {
+      "urn": "urn:li:activity:7452802161500901376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452802161500901376",
+      "email": "mani@vanguard-itsolutions.com",
+      "thread_id": "19db881b12b3ca33",
+      "message_id": "19db881b12b3ca33",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T09:33:22.087244"
+    },
+    {
+      "urn": "urn:li:activity:7452771487155060736",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452771487155060736",
+      "email": "vikram.s@zapnixinc.com",
+      "thread_id": "19db881ba4dfacda",
+      "message_id": "19db881ba4dfacda",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T09:33:24.442051"
+    },
+    {
+      "urn": "urn:li:activity:7452767191244087298",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452767191244087298",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19db881cb9f8eec3",
+      "message_id": "19db881cb9f8eec3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-23T09:33:28.845875"
     }
   ]
 }
