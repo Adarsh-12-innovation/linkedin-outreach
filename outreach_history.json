@@ -7687,7 +7687,7 @@
       "email": "support@datawavesconsulting.com",
       "thread_id": "19dba5502d2437ca",
       "message_id": "19dba5502d2437ca",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-23T18:03:48.100258"
     },
@@ -7697,9 +7697,10 @@
       "email": "techinrentjob@gmail.com",
       "thread_id": "19dba550a5dab0ec",
       "message_id": "19dba550a5dab0ec",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T18:03:50.380334"
+      "timestamp": "2026-04-23T18:03:50.380334",
+      "followup_timestamp": "2026-04-24T19:29:48.295306"
     },
     {
       "urn": "urn:li:activity:7453028696854093824",
@@ -7707,9 +7708,10 @@
       "email": "pallavi.singhal@cibronix.com",
       "thread_id": "19dba551383cb305",
       "message_id": "19dba551383cb305",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T18:03:52.485163"
+      "timestamp": "2026-04-23T18:03:52.485163",
+      "followup_timestamp": "2026-04-24T19:29:49.795305"
     },
     {
       "urn": "urn:li:activity:7453105180759433216",
