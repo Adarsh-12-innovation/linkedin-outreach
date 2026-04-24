@@ -688,7 +688,9 @@
     "urn:li:activity:7453364175113781250",
     "urn:li:activity:7453364041521057792",
     "urn:li:activity:7453359352289230848",
-    "urn:li:activity:7453272763483561984"
+    "urn:li:activity:7453272763483561984",
+    "urn:li:activity:7453386014682750976",
+    "urn:li:activity:7453366399298588672"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1110,7 +1112,9 @@
     "rohini.swathi@augusitsolutions.com",
     "vaishnavi.a@techwaukee.com",
     "shaziyafathima@techwaukee.com",
-    "divya.c@ekloudservices.com"
+    "divya.c@ekloudservices.com",
+    "majidkhan@talentifyy.com",
+    "abina.aravind@attainsolutions.com"
   ],
   "contacted_details": [
     {
@@ -8009,6 +8013,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-24T15:30:44.487285"
+    },
+    {
+      "urn": "urn:li:activity:7453386014682750976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453386014682750976",
+      "email": "majidkhan@talentifyy.com",
+      "thread_id": "19dbf376a99daad8",
+      "message_id": "19dbf376a99daad8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T16:49:33.237551"
+    },
+    {
+      "urn": "urn:li:activity:7453366399298588672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453366399298588672",
+      "email": "abina.aravind@attainsolutions.com",
+      "thread_id": "19dbf3778c578b2c",
+      "message_id": "19dbf3778c578b2c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T16:49:36.796228"
     }
   ]
 }
