@@ -665,7 +665,20 @@
     "urn:li:activity:7453291891015716864",
     "urn:li:activity:7453287872561958912",
     "urn:li:activity:7453155642992689152",
-    "urn:li:activity:7453149247845154816"
+    "urn:li:activity:7453149247845154816",
+    "urn:li:activity:7453323309212975104",
+    "urn:li:activity:7453322788079177728",
+    "urn:li:activity:7453322750905196544",
+    "urn:li:activity:7453321848429314048",
+    "urn:li:activity:7453321378981908480",
+    "urn:li:activity:7453321235049914368",
+    "urn:li:activity:7453314311709687808",
+    "urn:li:activity:7453314303547322370",
+    "urn:li:activity:7453314260635443200",
+    "urn:li:activity:7453312453792333824",
+    "urn:li:activity:7453311205638713344",
+    "urn:li:activity:7453299214387712000",
+    "urn:li:activity:7453148828116865026"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1077,7 +1090,13 @@
     "Ankit.Kanojiya@tanishasystems.com",
     "muskan@viennaconsultancy.com",
     "Hemanth@sourcemantra.com",
-    "jackie@sassoconsulting.co.za"
+    "jackie@sassoconsulting.co.za",
+    "sandhya.s@techwaukee.com",
+    "pavithra.m@techwaukee.com",
+    "jobs@hiregenie.in",
+    "mohini@jmsadvisory.in",
+    "johnnacks@techwaukee.com",
+    "Jennifer@lor-venk.com"
   ],
   "contacted_details": [
     {
@@ -7741,6 +7760,136 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-24T10:04:13.395549"
+    },
+    {
+      "urn": "urn:li:activity:7453323309212975104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453323309212975104",
+      "email": "sandhya.s@techwaukee.com",
+      "thread_id": "19dbe32d3237de8d",
+      "message_id": "19dbe32d3237de8d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:04:55.481473"
+    },
+    {
+      "urn": "urn:li:activity:7453322788079177728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453322788079177728",
+      "email": "sandhya.s@techwaukee.com",
+      "thread_id": "19dbe32dda4a5938",
+      "message_id": "19dbe32dda4a5938",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:04:57.931187"
+    },
+    {
+      "urn": "urn:li:activity:7453322750905196544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453322750905196544",
+      "email": "pavithra.m@techwaukee.com",
+      "thread_id": "19dbe32e46f97f8b",
+      "message_id": "19dbe32e46f97f8b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:04:59.922312"
+    },
+    {
+      "urn": "urn:li:activity:7453321848429314048",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453321848429314048",
+      "email": "jobs@hiregenie.in",
+      "thread_id": "19dbe32f021e7d25",
+      "message_id": "19dbe32f021e7d25",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:02.804410"
+    },
+    {
+      "urn": "urn:li:activity:7453321378981908480",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453321378981908480",
+      "email": "pavithra.m@techwaukee.com",
+      "thread_id": "19dbe32f9cab6c42",
+      "message_id": "19dbe32f9cab6c42",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:04.930943"
+    },
+    {
+      "urn": "urn:li:activity:7453321235049914368",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453321235049914368",
+      "email": "pavithra.m@techwaukee.com",
+      "thread_id": "19dbe33009bf5574",
+      "message_id": "19dbe33009bf5574",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:07.059415"
+    },
+    {
+      "urn": "urn:li:activity:7453314311709687808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453314311709687808",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dbe331380341f8",
+      "message_id": "19dbe331380341f8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:11.798300"
+    },
+    {
+      "urn": "urn:li:activity:7453314303547322370",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453314303547322370",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dbe3325e7bf878",
+      "message_id": "19dbe3325e7bf878",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:16.276693"
+    },
+    {
+      "urn": "urn:li:activity:7453314260635443200",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453314260635443200",
+      "email": "mohini@jmsadvisory.in",
+      "thread_id": "19dbe332c9acbe8e",
+      "message_id": "19dbe332c9acbe8e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:18.635872"
+    },
+    {
+      "urn": "urn:li:activity:7453312453792333824",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453312453792333824",
+      "email": "sagarika@cesxperts.com",
+      "thread_id": "19dbe33415699d3c",
+      "message_id": "19dbe33415699d3c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:23.301746"
+    },
+    {
+      "urn": "urn:li:activity:7453311205638713344",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453311205638713344",
+      "email": "johnnacks@techwaukee.com",
+      "thread_id": "19dbe3349590c6fa",
+      "message_id": "19dbe3349590c6fa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:25.528781"
+    },
+    {
+      "urn": "urn:li:activity:7453299214387712000",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453299214387712000",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dbe3353d88c0c8",
+      "message_id": "19dbe3353d88c0c8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:27.899964"
+    },
+    {
+      "urn": "urn:li:activity:7453148828116865026",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453148828116865026",
+      "email": "Jennifer@lor-venk.com",
+      "thread_id": "19dbe335a962a5a0",
+      "message_id": "19dbe335a962a5a0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T12:05:30.015685"
     }
   ]
 }
