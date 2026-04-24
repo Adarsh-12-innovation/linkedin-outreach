@@ -7623,9 +7623,10 @@
       "email": "shivani@dinjaninfotech.com",
       "thread_id": "19db9aff3276de10",
       "message_id": "19db9aff3276de10",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T15:03:30.926881"
+      "timestamp": "2026-04-23T15:03:30.926881",
+      "followup_timestamp": "2026-04-24T15:48:02.501102"
     },
     {
       "urn": "urn:li:activity:7453009477429067777",
@@ -7633,9 +7634,10 @@
       "email": "kanchan.manral@infojiniconsulting.com",
       "thread_id": "19db9affcc619d5c",
       "message_id": "19db9affcc619d5c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T15:03:33.370831"
+      "timestamp": "2026-04-23T15:03:33.370831",
+      "followup_timestamp": "2026-04-24T15:48:04.031651"
     },
     {
       "urn": "urn:li:activity:7452993479204442112",
@@ -7643,7 +7645,7 @@
       "email": "Harsha.tiwari@codersbrain.com",
       "thread_id": "19db9b0058977e25",
       "message_id": "19db9b0058977e25",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-23T15:03:35.379298"
     },
@@ -7653,9 +7655,10 @@
       "email": "hr@smaitee.com",
       "thread_id": "19db9b00d15436a0",
       "message_id": "19db9b00d15436a0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T15:03:37.611980"
+      "timestamp": "2026-04-23T15:03:37.611980",
+      "followup_timestamp": "2026-04-24T15:48:05.654901"
     },
     {
       "urn": "urn:li:activity:7452976883782115328",
@@ -7663,9 +7666,10 @@
       "email": "farheen@s4ia.in",
       "thread_id": "19db9b01614934a4",
       "message_id": "19db9b01614934a4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T15:03:39.840057"
+      "timestamp": "2026-04-23T15:03:39.840057",
+      "followup_timestamp": "2026-04-24T15:48:07.114239"
     },
     {
       "urn": "urn:li:activity:7452951920316465152",
@@ -7673,7 +7677,7 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db9b0282ed1082",
       "message_id": "19db9b0282ed1082",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-23T15:03:44.625771"
     },
