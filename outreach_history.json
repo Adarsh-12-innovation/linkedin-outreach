@@ -661,7 +661,11 @@
     "urn:li:activity:7453096711771566080",
     "urn:li:activity:7453084246128189440",
     "urn:li:activity:7453082296053653504",
-    "urn:li:activity:7453077403066585088"
+    "urn:li:activity:7453077403066585088",
+    "urn:li:activity:7453291891015716864",
+    "urn:li:activity:7453287872561958912",
+    "urn:li:activity:7453155642992689152",
+    "urn:li:activity:7453149247845154816"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1070,7 +1074,10 @@
     "pallavi.singhal@cibronix.com",
     "venkat@saisoftsol.com",
     "navneet@fasthireinc.com",
-    "Ankit.Kanojiya@tanishasystems.com"
+    "Ankit.Kanojiya@tanishasystems.com",
+    "muskan@viennaconsultancy.com",
+    "Hemanth@sourcemantra.com",
+    "jackie@sassoconsulting.co.za"
   ],
   "contacted_details": [
     {
@@ -7694,6 +7701,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-23T21:27:13.610558"
+    },
+    {
+      "urn": "urn:li:activity:7453291891015716864",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453291891015716864",
+      "email": "muskan@viennaconsultancy.com",
+      "thread_id": "19dbdc4241856857",
+      "message_id": "19dbdc4241856857",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T10:04:02.137534"
+    },
+    {
+      "urn": "urn:li:activity:7453287872561958912",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453287872561958912",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dbdc42d2ba4dc5",
+      "message_id": "19dbdc42d2ba4dc5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T10:04:04.455349"
+    },
+    {
+      "urn": "urn:li:activity:7453155642992689152",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453155642992689152",
+      "email": "Hemanth@sourcemantra.com",
+      "thread_id": "19dbdc43a90f59c9",
+      "message_id": "19dbdc43a90f59c9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T10:04:07.570881"
+    },
+    {
+      "urn": "urn:li:activity:7453149247845154816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453149247845154816",
+      "email": "jackie@sassoconsulting.co.za",
+      "thread_id": "19dbdc450add5e02",
+      "message_id": "19dbdc450add5e02",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T10:04:13.395549"
     }
   ]
 }
