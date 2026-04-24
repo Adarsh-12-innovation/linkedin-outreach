@@ -683,7 +683,12 @@
     "urn:li:activity:7453354243379601408",
     "urn:li:activity:7453350031669231616",
     "urn:li:activity:7453349937972445184",
-    "urn:li:activity:7453349416100503552"
+    "urn:li:activity:7453349416100503552",
+    "urn:li:activity:7453378129122754560",
+    "urn:li:activity:7453364175113781250",
+    "urn:li:activity:7453364041521057792",
+    "urn:li:activity:7453359352289230848",
+    "urn:li:activity:7453272763483561984"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1104,7 +1109,8 @@
     "Jennifer@lor-venk.com",
     "rohini.swathi@augusitsolutions.com",
     "vaishnavi.a@techwaukee.com",
-    "shaziyafathima@techwaukee.com"
+    "shaziyafathima@techwaukee.com",
+    "divya.c@ekloudservices.com"
   ],
   "contacted_details": [
     {
@@ -7465,9 +7471,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db8819abeae18f",
       "message_id": "19db8819abeae18f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T09:33:16.455580"
+      "timestamp": "2026-04-23T09:33:16.455580",
+      "followup_timestamp": "2026-04-24T15:30:47.022980"
     },
     {
       "urn": "urn:li:activity:7452808323659120640",
@@ -7475,9 +7482,10 @@
       "email": "hello@ahteslabs.com",
       "thread_id": "19db881a6c205f14",
       "message_id": "19db881a6c205f14",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T09:33:19.620202"
+      "timestamp": "2026-04-23T09:33:19.620202",
+      "followup_timestamp": "2026-04-24T15:30:49.414427"
     },
     {
       "urn": "urn:li:activity:7452802161500901376",
@@ -7485,9 +7493,10 @@
       "email": "mani@vanguard-itsolutions.com",
       "thread_id": "19db881b12b3ca33",
       "message_id": "19db881b12b3ca33",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T09:33:22.087244"
+      "timestamp": "2026-04-23T09:33:22.087244",
+      "followup_timestamp": "2026-04-24T15:30:51.737374"
     },
     {
       "urn": "urn:li:activity:7452771487155060736",
@@ -7495,9 +7504,10 @@
       "email": "vikram.s@zapnixinc.com",
       "thread_id": "19db881ba4dfacda",
       "message_id": "19db881ba4dfacda",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T09:33:24.442051"
+      "timestamp": "2026-04-23T09:33:24.442051",
+      "followup_timestamp": "2026-04-24T15:30:54.096311"
     },
     {
       "urn": "urn:li:activity:7452767191244087298",
@@ -7505,9 +7515,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db881cb9f8eec3",
       "message_id": "19db881cb9f8eec3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T09:33:28.845875"
+      "timestamp": "2026-04-23T09:33:28.845875",
+      "followup_timestamp": "2026-04-24T15:30:56.348829"
     },
     {
       "urn": "urn:li:activity:7452960875969257472",
@@ -7948,6 +7959,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-24T14:01:54.902540"
+    },
+    {
+      "urn": "urn:li:activity:7453378129122754560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453378129122754560",
+      "email": "divya.c@ekloudservices.com",
+      "thread_id": "19dbeef1a1e04fd6",
+      "message_id": "19dbeef1a1e04fd6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T15:30:35.148639"
+    },
+    {
+      "urn": "urn:li:activity:7453364175113781250",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453364175113781250",
+      "email": "k.rina@ekloudservices.com",
+      "thread_id": "19dbeef27a1a4902",
+      "message_id": "19dbeef27a1a4902",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T15:30:37.546308"
+    },
+    {
+      "urn": "urn:li:activity:7453364041521057792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453364041521057792",
+      "email": "k.rina@ekloudservices.com",
+      "thread_id": "19dbeef2e8a0d932",
+      "message_id": "19dbeef2e8a0d932",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T15:30:39.960562"
+    },
+    {
+      "urn": "urn:li:activity:7453359352289230848",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453359352289230848",
+      "email": "nitya.pande@softbay.com",
+      "thread_id": "19dbeef383ac2435",
+      "message_id": "19dbeef383ac2435",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T15:30:42.309778"
+    },
+    {
+      "urn": "urn:li:activity:7453272763483561984",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453272763483561984",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dbeef41753d8be",
+      "message_id": "19dbeef41753d8be",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T15:30:44.487285"
     }
   ]
 }
