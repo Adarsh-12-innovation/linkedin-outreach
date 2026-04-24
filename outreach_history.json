@@ -690,7 +690,12 @@
     "urn:li:activity:7453359352289230848",
     "urn:li:activity:7453272763483561984",
     "urn:li:activity:7453386014682750976",
-    "urn:li:activity:7453366399298588672"
+    "urn:li:activity:7453366399298588672",
+    "urn:li:activity:7453401819948519424",
+    "urn:li:activity:7453384458772168704",
+    "urn:li:activity:7453382119529054208",
+    "urn:li:activity:7453357540437970945",
+    "urn:li:activity:7453350212942745600"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1114,7 +1119,8 @@
     "shaziyafathima@techwaukee.com",
     "divya.c@ekloudservices.com",
     "majidkhan@talentifyy.com",
-    "abina.aravind@attainsolutions.com"
+    "abina.aravind@attainsolutions.com",
+    "gurudatta.kavale@softbay.com"
   ],
   "contacted_details": [
     {
@@ -7530,9 +7536,10 @@
       "email": "chippy.george@ellow.io",
       "thread_id": "19db8f837487690d",
       "message_id": "19db8f837487690d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T11:42:49.388666"
+      "timestamp": "2026-04-23T11:42:49.388666",
+      "followup_timestamp": "2026-04-24T18:56:15.242432"
     },
     {
       "urn": "urn:li:activity:7452954571251040256",
@@ -7540,9 +7547,10 @@
       "email": "shifa@sourcebae.com",
       "thread_id": "19db8f8406b6036a",
       "message_id": "19db8f8406b6036a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T11:42:51.896296"
+      "timestamp": "2026-04-23T11:42:51.896296",
+      "followup_timestamp": "2026-04-24T18:56:17.580441"
     },
     {
       "urn": "urn:li:activity:7452951933151264768",
@@ -7550,9 +7558,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db8f854ec721a5",
       "message_id": "19db8f854ec721a5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T11:42:57.283305"
+      "timestamp": "2026-04-23T11:42:57.283305",
+      "followup_timestamp": "2026-04-24T18:56:19.894213"
     },
     {
       "urn": "urn:li:activity:7452936802467778560",
@@ -7560,9 +7569,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db8f85cfe7b30d",
       "message_id": "19db8f85cfe7b30d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T11:42:59.431765"
+      "timestamp": "2026-04-23T11:42:59.431765",
+      "followup_timestamp": "2026-04-24T18:56:22.195855"
     },
     {
       "urn": "urn:li:activity:7452785521841577984",
@@ -7570,9 +7580,10 @@
       "email": "krishnaveni.a@aplombtek.com",
       "thread_id": "19db8f8669493e9a",
       "message_id": "19db8f8669493e9a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T11:43:01.938774"
+      "timestamp": "2026-04-23T11:43:01.938774",
+      "followup_timestamp": "2026-04-24T18:56:24.450785"
     },
     {
       "urn": "urn:li:activity:7452967452600336384",
@@ -7580,7 +7591,7 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19db90e4545dc6a5",
       "message_id": "19db90e4545dc6a5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-23T12:06:55.095647"
     },
@@ -7590,9 +7601,10 @@
       "email": "savita@spineor.com",
       "thread_id": "19db90e4fe21bd11",
       "message_id": "19db90e4fe21bd11",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T12:06:57.477678"
+      "timestamp": "2026-04-23T12:06:57.477678",
+      "followup_timestamp": "2026-04-24T18:56:27.286566"
     },
     {
       "urn": "urn:li:activity:7452906645535506432",
@@ -7600,9 +7612,10 @@
       "email": "surabhi@citypeoplesolutions.com.au",
       "thread_id": "19db90e5801827a9",
       "message_id": "19db90e5801827a9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T12:06:59.790692"
+      "timestamp": "2026-04-23T12:06:59.790692",
+      "followup_timestamp": "2026-04-24T18:56:29.673152"
     },
     {
       "urn": "urn:li:activity:7453011715383803904",
@@ -8033,6 +8046,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-24T16:49:36.796228"
+    },
+    {
+      "urn": "urn:li:activity:7453401819948519424",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453401819948519424",
+      "email": "gurudatta.kavale@softbay.com",
+      "thread_id": "19dbfab15c4a7252",
+      "message_id": "19dbfab15c4a7252",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T18:55:53.403735"
+    },
+    {
+      "urn": "urn:li:activity:7453384458772168704",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453384458772168704",
+      "email": "rajeswariboya997@gmail.com",
+      "thread_id": "19dbfab29a04d7ab",
+      "message_id": "19dbfab29a04d7ab",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T18:55:58.867548"
+    },
+    {
+      "urn": "urn:li:activity:7453382119529054208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453382119529054208",
+      "email": "nelaveni@augusitsolutions.com",
+      "thread_id": "19dbfab3add0657f",
+      "message_id": "19dbfab3add0657f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T18:56:03.222461"
+    },
+    {
+      "urn": "urn:li:activity:7453357540437970945",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453357540437970945",
+      "email": "bushra.parveen@follextechnology.com",
+      "thread_id": "19dbfab4ea75cf60",
+      "message_id": "19dbfab4ea75cf60",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T18:56:08.202472"
+    },
+    {
+      "urn": "urn:li:activity:7453350212942745600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7453350212942745600",
+      "email": "sonali.girhe@follextechnology.com",
+      "thread_id": "19dbfab5e048d6fc",
+      "message_id": "19dbfab5e048d6fc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-24T18:56:12.772805"
     }
   ]
 }
