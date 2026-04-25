@@ -7774,7 +7774,7 @@
       "email": "muskan@viennaconsultancy.com",
       "thread_id": "19dbdc4241856857",
       "message_id": "19dbdc4241856857",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-24T10:04:02.137534"
     },
@@ -7784,9 +7784,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19dbdc42d2ba4dc5",
       "message_id": "19dbdc42d2ba4dc5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T10:04:04.455349"
+      "timestamp": "2026-04-24T10:04:04.455349",
+      "followup_timestamp": "2026-04-25T11:12:18.467145"
     },
     {
       "urn": "urn:li:activity:7453155642992689152",
@@ -7794,9 +7795,10 @@
       "email": "Hemanth@sourcemantra.com",
       "thread_id": "19dbdc43a90f59c9",
       "message_id": "19dbdc43a90f59c9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T10:04:07.570881"
+      "timestamp": "2026-04-24T10:04:07.570881",
+      "followup_timestamp": "2026-04-25T11:12:20.022433"
     },
     {
       "urn": "urn:li:activity:7453149247845154816",
@@ -7804,9 +7806,10 @@
       "email": "jackie@sassoconsulting.co.za",
       "thread_id": "19dbdc450add5e02",
       "message_id": "19dbdc450add5e02",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T10:04:13.395549"
+      "timestamp": "2026-04-24T10:04:13.395549",
+      "followup_timestamp": "2026-04-25T11:12:21.581411"
     },
     {
       "urn": "urn:li:activity:7453323309212975104",
