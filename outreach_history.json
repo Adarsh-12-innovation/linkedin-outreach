@@ -7719,9 +7719,10 @@
       "email": "viveik.dikshit@aglowrec.in",
       "thread_id": "19dbb0f11a57c102",
       "message_id": "19dbb0f11a57c102",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T21:27:01.769689"
+      "timestamp": "2026-04-23T21:27:01.769689",
+      "followup_timestamp": "2026-04-25T05:27:07.688849"
     },
     {
       "urn": "urn:li:activity:7453096711771566080",
@@ -7729,9 +7730,10 @@
       "email": "venkat@saisoftsol.com",
       "thread_id": "19dbb0f1af6bd4d2",
       "message_id": "19dbb0f1af6bd4d2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T21:27:04.218336"
+      "timestamp": "2026-04-23T21:27:04.218336",
+      "followup_timestamp": "2026-04-25T05:27:09.090685"
     },
     {
       "urn": "urn:li:activity:7453084246128189440",
@@ -7739,9 +7741,10 @@
       "email": "Vineeth@censusinfotech.com",
       "thread_id": "19dbb0f222f2d6d0",
       "message_id": "19dbb0f222f2d6d0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T21:27:06.676147"
+      "timestamp": "2026-04-23T21:27:06.676147",
+      "followup_timestamp": "2026-04-25T05:27:10.516668"
     },
     {
       "urn": "urn:li:activity:7453082296053653504",
@@ -7749,9 +7752,10 @@
       "email": "navneet@fasthireinc.com",
       "thread_id": "19dbb0f2c264b562",
       "message_id": "19dbb0f2c264b562",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T21:27:08.938943"
+      "timestamp": "2026-04-23T21:27:08.938943",
+      "followup_timestamp": "2026-04-25T05:27:12.009148"
     },
     {
       "urn": "urn:li:activity:7453077403066585088",
@@ -7759,9 +7763,10 @@
       "email": "Ankit.Kanojiya@tanishasystems.com",
       "thread_id": "19dbb0f3ee8258db",
       "message_id": "19dbb0f3ee8258db",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-23T21:27:13.610558"
+      "timestamp": "2026-04-23T21:27:13.610558",
+      "followup_timestamp": "2026-04-25T05:27:13.411324"
     },
     {
       "urn": "urn:li:activity:7453291891015716864",
