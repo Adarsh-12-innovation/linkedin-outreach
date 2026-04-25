@@ -7817,9 +7817,10 @@
       "email": "sandhya.s@techwaukee.com",
       "thread_id": "19dbe32d3237de8d",
       "message_id": "19dbe32d3237de8d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:04:55.481473"
+      "timestamp": "2026-04-24T12:04:55.481473",
+      "followup_timestamp": "2026-04-25T13:44:20.272435"
     },
     {
       "urn": "urn:li:activity:7453322788079177728",
@@ -7827,9 +7828,10 @@
       "email": "sandhya.s@techwaukee.com",
       "thread_id": "19dbe32dda4a5938",
       "message_id": "19dbe32dda4a5938",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:04:57.931187"
+      "timestamp": "2026-04-24T12:04:57.931187",
+      "followup_timestamp": "2026-04-25T13:44:21.815529"
     },
     {
       "urn": "urn:li:activity:7453322750905196544",
@@ -7837,9 +7839,10 @@
       "email": "pavithra.m@techwaukee.com",
       "thread_id": "19dbe32e46f97f8b",
       "message_id": "19dbe32e46f97f8b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:04:59.922312"
+      "timestamp": "2026-04-24T12:04:59.922312",
+      "followup_timestamp": "2026-04-25T13:44:23.371710"
     },
     {
       "urn": "urn:li:activity:7453321848429314048",
@@ -7847,7 +7850,7 @@
       "email": "jobs@hiregenie.in",
       "thread_id": "19dbe32f021e7d25",
       "message_id": "19dbe32f021e7d25",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-24T12:05:02.804410"
     },
@@ -7857,9 +7860,10 @@
       "email": "pavithra.m@techwaukee.com",
       "thread_id": "19dbe32f9cab6c42",
       "message_id": "19dbe32f9cab6c42",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:05:04.930943"
+      "timestamp": "2026-04-24T12:05:04.930943",
+      "followup_timestamp": "2026-04-25T13:44:25.184677"
     },
     {
       "urn": "urn:li:activity:7453321235049914368",
@@ -7867,9 +7871,10 @@
       "email": "pavithra.m@techwaukee.com",
       "thread_id": "19dbe33009bf5574",
       "message_id": "19dbe33009bf5574",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:05:07.059415"
+      "timestamp": "2026-04-24T12:05:07.059415",
+      "followup_timestamp": "2026-04-25T13:44:26.736695"
     },
     {
       "urn": "urn:li:activity:7453314311709687808",
@@ -7877,7 +7882,7 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19dbe331380341f8",
       "message_id": "19dbe331380341f8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-24T12:05:11.798300"
     },
@@ -7887,7 +7892,7 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19dbe3325e7bf878",
       "message_id": "19dbe3325e7bf878",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-24T12:05:16.276693"
     },
@@ -7897,9 +7902,10 @@
       "email": "mohini@jmsadvisory.in",
       "thread_id": "19dbe332c9acbe8e",
       "message_id": "19dbe332c9acbe8e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:05:18.635872"
+      "timestamp": "2026-04-24T12:05:18.635872",
+      "followup_timestamp": "2026-04-25T13:44:28.656365"
     },
     {
       "urn": "urn:li:activity:7453312453792333824",
@@ -7907,9 +7913,10 @@
       "email": "sagarika@cesxperts.com",
       "thread_id": "19dbe33415699d3c",
       "message_id": "19dbe33415699d3c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:05:23.301746"
+      "timestamp": "2026-04-24T12:05:23.301746",
+      "followup_timestamp": "2026-04-25T13:44:30.294235"
     },
     {
       "urn": "urn:li:activity:7453311205638713344",
@@ -7917,9 +7924,10 @@
       "email": "johnnacks@techwaukee.com",
       "thread_id": "19dbe3349590c6fa",
       "message_id": "19dbe3349590c6fa",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:05:25.528781"
+      "timestamp": "2026-04-24T12:05:25.528781",
+      "followup_timestamp": "2026-04-25T13:44:31.857944"
     },
     {
       "urn": "urn:li:activity:7453299214387712000",
@@ -7927,9 +7935,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19dbe3353d88c0c8",
       "message_id": "19dbe3353d88c0c8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:05:27.899964"
+      "timestamp": "2026-04-24T12:05:27.899964",
+      "followup_timestamp": "2026-04-25T13:44:33.475479"
     },
     {
       "urn": "urn:li:activity:7453148828116865026",
@@ -7937,9 +7946,10 @@
       "email": "Jennifer@lor-venk.com",
       "thread_id": "19dbe335a962a5a0",
       "message_id": "19dbe335a962a5a0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-24T12:05:30.015685"
+      "timestamp": "2026-04-24T12:05:30.015685",
+      "followup_timestamp": "2026-04-25T13:44:35.030677"
     },
     {
       "urn": "urn:li:activity:7453356954363535360",
