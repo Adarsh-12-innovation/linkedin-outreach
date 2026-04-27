@@ -706,7 +706,18 @@
     "urn:li:activity:7454401474081624064",
     "urn:li:activity:7454401465818775552",
     "urn:li:activity:7454400814325891072",
-    "urn:li:activity:7454381340738891776"
+    "urn:li:activity:7454381340738891776",
+    "urn:li:activity:7454459936962605057",
+    "urn:li:activity:7454453981860442112",
+    "urn:li:activity:7454452351681314816",
+    "urn:li:activity:7454445828095672320",
+    "urn:li:activity:7454443964797124608",
+    "urn:li:activity:7454443169443876864",
+    "urn:li:activity:7454436104386007040",
+    "urn:li:activity:7454426058008985600",
+    "urn:li:activity:7454425294582677504",
+    "urn:li:activity:7454419337966178304",
+    "urn:li:activity:7454418529581387776"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1135,7 +1146,11 @@
     "nupur@pinakinkantha.com",
     "sreeja.vyshnava@groviya.com",
     "hrajput1@bayonesolutions.com",
-    "haifa.usman@nityo.com"
+    "haifa.usman@nityo.com",
+    "nishtha.taneja@bytespoke.com",
+    "Mohamed.y@voltoconsulting.com",
+    "abinaya.j@techwaukee.com",
+    "simran.p@technology-next.com"
   ],
   "contacted_details": [
     {
@@ -8261,6 +8276,116 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-27T12:03:54.216515"
+    },
+    {
+      "urn": "urn:li:activity:7454459936962605057",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454459936962605057",
+      "email": "nishtha.taneja@bytespoke.com",
+      "thread_id": "19dce49c40f67d9d",
+      "message_id": "19dce49c40f67d9d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:03:57.402272"
+    },
+    {
+      "urn": "urn:li:activity:7454453981860442112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454453981860442112",
+      "email": "Mohamed.y@voltoconsulting.com",
+      "thread_id": "19dce49cf0c7f624",
+      "message_id": "19dce49cf0c7f624",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:03:59.813353"
+    },
+    {
+      "urn": "urn:li:activity:7454452351681314816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454452351681314816",
+      "email": "sreeja.vyshnava@groviya.com",
+      "thread_id": "19dce49d6399cd63",
+      "message_id": "19dce49d6399cd63",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:04:02.025852"
+    },
+    {
+      "urn": "urn:li:activity:7454445828095672320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454445828095672320",
+      "email": "abinaya.j@techwaukee.com",
+      "thread_id": "19dce49df60c677d",
+      "message_id": "19dce49df60c677d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:04:04.161003"
+    },
+    {
+      "urn": "urn:li:activity:7454443964797124608",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454443964797124608",
+      "email": "pavithra.m@techwaukee.com",
+      "thread_id": "19dce49e83ca8d54",
+      "message_id": "19dce49e83ca8d54",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:04:06.223319"
+    },
+    {
+      "urn": "urn:li:activity:7454443169443876864",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454443169443876864",
+      "email": "sriraj.rama@impaxioninc.com",
+      "thread_id": "19dce49f1f3aa367",
+      "message_id": "19dce49f1f3aa367",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:04:08.340952"
+    },
+    {
+      "urn": "urn:li:activity:7454436104386007040",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454436104386007040",
+      "email": "Yos@secondtalent.com",
+      "thread_id": "19dce49f99867c39",
+      "message_id": "19dce49f99867c39",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:04:10.779484"
+    },
+    {
+      "urn": "urn:li:activity:7454426058008985600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454426058008985600",
+      "email": "iswarya@impaxioninc.com",
+      "thread_id": "19dce4a0bb69656d",
+      "message_id": "19dce4a0bb69656d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:04:15.373788"
+    },
+    {
+      "urn": "urn:li:activity:7454425294582677504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454425294582677504",
+      "email": "simran.p@technology-next.com",
+      "thread_id": "19dce4a133ac43be",
+      "message_id": "19dce4a133ac43be",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:04:17.447561"
+    },
+    {
+      "urn": "urn:li:activity:7454419337966178304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454419337966178304",
+      "email": "sandhya.s@techwaukee.com",
+      "thread_id": "19dce4a1b40e2385",
+      "message_id": "19dce4a1b40e2385",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:04:19.444085"
+    },
+    {
+      "urn": "urn:li:activity:7454418529581387776",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454418529581387776",
+      "email": "abinaya.j@techwaukee.com",
+      "thread_id": "19dce4a2407b3d40",
+      "message_id": "19dce4a2407b3d40",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T15:04:21.718466"
     }
   ]
 }
