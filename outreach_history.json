@@ -697,7 +697,16 @@
     "urn:li:activity:7453357540437970945",
     "urn:li:activity:7453350212942745600",
     "urn:li:activity:7454375023751925760",
-    "urn:li:activity:7454253248586125313"
+    "urn:li:activity:7454253248586125313",
+    "urn:li:activity:7454415986671349760",
+    "urn:li:activity:7454415187425800192",
+    "urn:li:activity:7454412858085457920",
+    "urn:li:activity:7454410377578278912",
+    "urn:li:activity:7454406177809125377",
+    "urn:li:activity:7454401474081624064",
+    "urn:li:activity:7454401465818775552",
+    "urn:li:activity:7454400814325891072",
+    "urn:li:activity:7454381340738891776"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1123,7 +1132,10 @@
     "majidkhan@talentifyy.com",
     "abina.aravind@attainsolutions.com",
     "gurudatta.kavale@softbay.com",
-    "nupur@pinakinkantha.com"
+    "nupur@pinakinkantha.com",
+    "sreeja.vyshnava@groviya.com",
+    "hrajput1@bayonesolutions.com",
+    "haifa.usman@nityo.com"
   ],
   "contacted_details": [
     {
@@ -8159,6 +8171,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-27T10:05:08.973630"
+    },
+    {
+      "urn": "urn:li:activity:7454415986671349760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454415986671349760",
+      "email": "pavithra.m@techwaukee.com",
+      "thread_id": "19dcda48e8d6485e",
+      "message_id": "19dcda48e8d6485e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T12:03:29.857865"
+    },
+    {
+      "urn": "urn:li:activity:7454415187425800192",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454415187425800192",
+      "email": "pavithra.m@techwaukee.com",
+      "thread_id": "19dcda497c333ef8",
+      "message_id": "19dcda497c333ef8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T12:03:32.218545"
+    },
+    {
+      "urn": "urn:li:activity:7454412858085457920",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454412858085457920",
+      "email": "sreeja.vyshnava@groviya.com",
+      "thread_id": "19dcda4a1a509734",
+      "message_id": "19dcda4a1a509734",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T12:03:34.426977"
+    },
+    {
+      "urn": "urn:li:activity:7454410377578278912",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454410377578278912",
+      "email": "green@wikilabs.in",
+      "thread_id": "19dcda4ad3a023f6",
+      "message_id": "19dcda4ad3a023f6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T12:03:37.438663"
+    },
+    {
+      "urn": "urn:li:activity:7454406177809125377",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454406177809125377",
+      "email": "hrajput1@bayonesolutions.com",
+      "thread_id": "19dcda4b67505b62",
+      "message_id": "19dcda4b67505b62",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T12:03:40.061382"
+    },
+    {
+      "urn": "urn:li:activity:7454401474081624064",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454401474081624064",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dcda4c964f249f",
+      "message_id": "19dcda4c964f249f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T12:03:44.822045"
+    },
+    {
+      "urn": "urn:li:activity:7454401465818775552",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454401465818775552",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dcda4db2888065",
+      "message_id": "19dcda4db2888065",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T12:03:49.497643"
+    },
+    {
+      "urn": "urn:li:activity:7454400814325891072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454400814325891072",
+      "email": "rikhitapadmaa@gmail.com",
+      "thread_id": "19dcda4e5b864432",
+      "message_id": "19dcda4e5b864432",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T12:03:51.884605"
+    },
+    {
+      "urn": "urn:li:activity:7454381340738891776",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454381340738891776",
+      "email": "haifa.usman@nityo.com",
+      "thread_id": "19dcda4edef21b1f",
+      "message_id": "19dcda4edef21b1f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T12:03:54.216515"
     }
   ]
 }
