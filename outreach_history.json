@@ -717,7 +717,14 @@
     "urn:li:activity:7454426058008985600",
     "urn:li:activity:7454425294582677504",
     "urn:li:activity:7454419337966178304",
-    "urn:li:activity:7454418529581387776"
+    "urn:li:activity:7454418529581387776",
+    "urn:li:activity:7454481904671588352",
+    "urn:li:activity:7454470939833999360",
+    "urn:li:activity:7454466796977336320",
+    "urn:li:activity:7454464241392316417",
+    "urn:li:activity:7454463696933666817",
+    "urn:li:activity:7454432799492804608",
+    "urn:li:activity:7454401364245487616"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1150,7 +1157,12 @@
     "nishtha.taneja@bytespoke.com",
     "Mohamed.y@voltoconsulting.com",
     "abinaya.j@techwaukee.com",
-    "simran.p@technology-next.com"
+    "simran.p@technology-next.com",
+    "kanthan.strategic@gmail.com",
+    "taniya.gehlot@clingmultisolutions.org",
+    "vishal.shewale@avaliyaglobal.com, vaibhav.ratnaparkhi@avaliyaglobal.com",
+    "sujeetha.k@giantmindsolutions.com",
+    "chanda@pylonmc.com"
   ],
   "contacted_details": [
     {
@@ -8386,6 +8398,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-27T15:04:21.718466"
+    },
+    {
+      "urn": "urn:li:activity:7454481904671588352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454481904671588352",
+      "email": "kanthan.strategic@gmail.com",
+      "thread_id": "19dce970e0b55bf6",
+      "message_id": "19dce970e0b55bf6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T16:28:20.952717"
+    },
+    {
+      "urn": "urn:li:activity:7454470939833999360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454470939833999360",
+      "email": "focusedjobhr@gmail.com",
+      "thread_id": "19dce971c8a3efb4",
+      "message_id": "19dce971c8a3efb4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T16:28:23.999568"
+    },
+    {
+      "urn": "urn:li:activity:7454466796977336320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454466796977336320",
+      "email": "nishtha.taneja@bytespoke.com",
+      "thread_id": "19dce972c3b400f7",
+      "message_id": "19dce972c3b400f7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T16:28:28.017331"
+    },
+    {
+      "urn": "urn:li:activity:7454464241392316417",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454464241392316417",
+      "email": "taniya.gehlot@clingmultisolutions.org",
+      "thread_id": "19dce973906e4d4f",
+      "message_id": "19dce973906e4d4f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T16:28:31.087609"
+    },
+    {
+      "urn": "urn:li:activity:7454463696933666817",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454463696933666817",
+      "email": "vishal.shewale@avaliyaglobal.com, vaibhav.ratnaparkhi@avaliyaglobal.com",
+      "thread_id": "19dce97477d8cfa9",
+      "message_id": "19dce97477d8cfa9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T16:28:34.996721"
+    },
+    {
+      "urn": "urn:li:activity:7454432799492804608",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454432799492804608",
+      "email": "sujeetha.k@giantmindsolutions.com",
+      "thread_id": "19dce9756347b41b",
+      "message_id": "19dce9756347b41b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T16:28:39.685414"
+    },
+    {
+      "urn": "urn:li:activity:7454401364245487616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454401364245487616",
+      "email": "chanda@pylonmc.com",
+      "thread_id": "19dce9769c7e0729",
+      "message_id": "19dce9769c7e0729",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T16:28:43.716984"
     }
   ]
 }
