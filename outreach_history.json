@@ -695,7 +695,9 @@
     "urn:li:activity:7453384458772168704",
     "urn:li:activity:7453382119529054208",
     "urn:li:activity:7453357540437970945",
-    "urn:li:activity:7453350212942745600"
+    "urn:li:activity:7453350212942745600",
+    "urn:li:activity:7454375023751925760",
+    "urn:li:activity:7454253248586125313"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1120,7 +1122,8 @@
     "divya.c@ekloudservices.com",
     "majidkhan@talentifyy.com",
     "abina.aravind@attainsolutions.com",
-    "gurudatta.kavale@softbay.com"
+    "gurudatta.kavale@softbay.com",
+    "nupur@pinakinkantha.com"
   ],
   "contacted_details": [
     {
@@ -8136,6 +8139,26 @@
       "source": "search",
       "timestamp": "2026-04-24T18:56:12.772805",
       "followup_timestamp": "2026-04-25T19:27:01.034342"
+    },
+    {
+      "urn": "urn:li:activity:7454375023751925760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454375023751925760",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dcd382ab470036",
+      "message_id": "19dcd382ab470036",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T10:05:05.924532"
+    },
+    {
+      "urn": "urn:li:activity:7454253248586125313",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454253248586125313",
+      "email": "nupur@pinakinkantha.com",
+      "thread_id": "19dcd3836554cc44",
+      "message_id": "19dcd3836554cc44",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-27T10:05:08.973630"
     }
   ]
 }
