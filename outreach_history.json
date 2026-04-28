@@ -727,7 +727,18 @@
     "urn:li:activity:7454401364245487616",
     "urn:li:activity:7454465595548315648",
     "urn:li:activity:7454458278421622785",
-    "urn:li:activity:7454421076828196864"
+    "urn:li:activity:7454421076828196864",
+    "urn:li:activity:7454823941346414592",
+    "urn:li:activity:7454821058307837952",
+    "urn:li:activity:7454817520332562432",
+    "urn:li:activity:7454784278405730304",
+    "urn:li:activity:7454770394869182464",
+    "urn:li:activity:7454768165961736192",
+    "urn:li:activity:7454763896583671808",
+    "urn:li:activity:7454763874400096256",
+    "urn:li:activity:7454763021081497600",
+    "urn:li:activity:7454760073467310080",
+    "urn:li:activity:7454757383978778624"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1165,7 +1176,11 @@
     "taniya.gehlot@clingmultisolutions.org",
     "vishal.shewale@avaliyaglobal.com, vaibhav.ratnaparkhi@avaliyaglobal.com",
     "sujeetha.k@giantmindsolutions.com",
-    "chanda@pylonmc.com"
+    "chanda@pylonmc.com",
+    "udayasri.m@martinettechnologies.com",
+    "ankitharani.reddy@cerebra-consulting.com",
+    "chandrakanth.s@people-prime.com",
+    "hr@adventsinsight.com"
   ],
   "contacted_details": [
     {
@@ -8501,6 +8516,116 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-27T18:03:52.359487"
+    },
+    {
+      "urn": "urn:li:activity:7454823941346414592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454823941346414592",
+      "email": "udayasri.m@martinettechnologies.com",
+      "thread_id": "19dd370c941df87c",
+      "message_id": "19dd370c941df87c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:04:37.484484"
+    },
+    {
+      "urn": "urn:li:activity:7454821058307837952",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454821058307837952",
+      "email": "mahesh@msysinc.com",
+      "thread_id": "19dd370d18e7fed9",
+      "message_id": "19dd370d18e7fed9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:04:39.738894"
+    },
+    {
+      "urn": "urn:li:activity:7454817520332562432",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454817520332562432",
+      "email": "ankitharani.reddy@cerebra-consulting.com",
+      "thread_id": "19dd370daf425e6c",
+      "message_id": "19dd370daf425e6c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:04:42.127903"
+    },
+    {
+      "urn": "urn:li:activity:7454784278405730304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454784278405730304",
+      "email": "devarapalli.amrutha@lovasit.com",
+      "thread_id": "19dd370e56319721",
+      "message_id": "19dd370e56319721",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:04:44.477012"
+    },
+    {
+      "urn": "urn:li:activity:7454770394869182464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454770394869182464",
+      "email": "kanthan.strategic@gmail.com",
+      "thread_id": "19dd370ec4e3b356",
+      "message_id": "19dd370ec4e3b356",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:04:46.798878"
+    },
+    {
+      "urn": "urn:li:activity:7454768165961736192",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454768165961736192",
+      "email": "chandrakanth.s@people-prime.com",
+      "thread_id": "19dd370f5f2954da",
+      "message_id": "19dd370f5f2954da",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:04:48.933385"
+    },
+    {
+      "urn": "urn:li:activity:7454763896583671808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454763896583671808",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dd371086dad320",
+      "message_id": "19dd371086dad320",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:04:53.756676"
+    },
+    {
+      "urn": "urn:li:activity:7454763874400096256",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454763874400096256",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dd3711b527925e",
+      "message_id": "19dd3711b527925e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:04:58.181860"
+    },
+    {
+      "urn": "urn:li:activity:7454763021081497600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454763021081497600",
+      "email": "hr@adventsinsight.com",
+      "thread_id": "19dd37124ad90bac",
+      "message_id": "19dd37124ad90bac",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:05:00.725644"
+    },
+    {
+      "urn": "urn:li:activity:7454760073467310080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454760073467310080",
+      "email": "jbhatia@forcecraver.com",
+      "thread_id": "19dd3712dfb998bb",
+      "message_id": "19dd3712dfb998bb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:05:03.047701"
+    },
+    {
+      "urn": "urn:li:activity:7454757383978778624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7454757383978778624",
+      "email": "focusedjobhr@gmail.com",
+      "thread_id": "19dd371371b00682",
+      "message_id": "19dd371371b00682",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-28T15:05:05.583630"
     }
   ]
 }
