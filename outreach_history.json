@@ -753,7 +753,11 @@
     "urn:li:activity:7455122449739870208",
     "urn:li:activity:7455114885811691520",
     "urn:li:activity:7455099800468762624",
-    "urn:li:activity:7455020548360687616"
+    "urn:li:activity:7455020548360687616",
+    "urn:li:activity:7455181379669188609",
+    "urn:li:activity:7455148491145891840",
+    "urn:li:activity:7455146742242529280",
+    "urn:li:activity:7455141091894272001"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1197,7 +1201,11 @@
     "chandrakanth.s@people-prime.com",
     "hr@adventsinsight.com",
     "gayathri@zalway.com",
-    "dev.v@e-solutionsinc.com"
+    "dev.v@e-solutionsinc.com",
+    "yatendra@viennaconsultancy.com",
+    "rohith.m@codinglimits.com",
+    "yoginikothakota.ga.recruiter@gmail.com",
+    "zahera.shaik@codinglimits.com"
   ],
   "contacted_details": [
     {
@@ -8821,6 +8829,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-29T12:04:41.391963"
+    },
+    {
+      "urn": "urn:li:activity:7455181379669188609",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7455181379669188609",
+      "email": "yatendra@viennaconsultancy.com",
+      "thread_id": "19dd8968152ac3cd",
+      "message_id": "19dd8968152ac3cd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-29T15:03:55.810343"
+    },
+    {
+      "urn": "urn:li:activity:7455148491145891840",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7455148491145891840",
+      "email": "rohith.m@codinglimits.com",
+      "thread_id": "19dd8968b2dae22e",
+      "message_id": "19dd8968b2dae22e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-29T15:03:58.022454"
+    },
+    {
+      "urn": "urn:li:activity:7455146742242529280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7455146742242529280",
+      "email": "yoginikothakota.ga.recruiter@gmail.com",
+      "thread_id": "19dd8969281704d3",
+      "message_id": "19dd8969281704d3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-29T15:04:00.122898"
+    },
+    {
+      "urn": "urn:li:activity:7455141091894272001",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7455141091894272001",
+      "email": "zahera.shaik@codinglimits.com",
+      "thread_id": "19dd8969b119582a",
+      "message_id": "19dd8969b119582a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-29T15:04:02.188553"
     }
   ]
 }
