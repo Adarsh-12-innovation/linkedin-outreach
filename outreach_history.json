@@ -8582,9 +8582,10 @@
       "email": "udayasri.m@martinettechnologies.com",
       "thread_id": "19dd370c941df87c",
       "message_id": "19dd370c941df87c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T15:04:37.484484"
+      "timestamp": "2026-04-28T15:04:37.484484",
+      "followup_timestamp": "2026-04-29T20:00:00.127968"
     },
     {
       "urn": "urn:li:activity:7454821058307837952",
@@ -8592,7 +8593,7 @@
       "email": "mahesh@msysinc.com",
       "thread_id": "19dd370d18e7fed9",
       "message_id": "19dd370d18e7fed9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-28T15:04:39.738894"
     },
@@ -8602,9 +8603,10 @@
       "email": "ankitharani.reddy@cerebra-consulting.com",
       "thread_id": "19dd370daf425e6c",
       "message_id": "19dd370daf425e6c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T15:04:42.127903"
+      "timestamp": "2026-04-28T15:04:42.127903",
+      "followup_timestamp": "2026-04-29T20:00:01.863822"
     },
     {
       "urn": "urn:li:activity:7454784278405730304",
@@ -8612,9 +8614,10 @@
       "email": "devarapalli.amrutha@lovasit.com",
       "thread_id": "19dd370e56319721",
       "message_id": "19dd370e56319721",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T15:04:44.477012"
+      "timestamp": "2026-04-28T15:04:44.477012",
+      "followup_timestamp": "2026-04-29T20:00:03.443224"
     },
     {
       "urn": "urn:li:activity:7454770394869182464",
@@ -8622,9 +8625,10 @@
       "email": "kanthan.strategic@gmail.com",
       "thread_id": "19dd370ec4e3b356",
       "message_id": "19dd370ec4e3b356",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T15:04:46.798878"
+      "timestamp": "2026-04-28T15:04:46.798878",
+      "followup_timestamp": "2026-04-29T20:00:05.047263"
     },
     {
       "urn": "urn:li:activity:7454768165961736192",
@@ -8632,9 +8636,10 @@
       "email": "chandrakanth.s@people-prime.com",
       "thread_id": "19dd370f5f2954da",
       "message_id": "19dd370f5f2954da",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T15:04:48.933385"
+      "timestamp": "2026-04-28T15:04:48.933385",
+      "followup_timestamp": "2026-04-29T20:00:06.677613"
     },
     {
       "urn": "urn:li:activity:7454763896583671808",
@@ -8642,7 +8647,7 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19dd371086dad320",
       "message_id": "19dd371086dad320",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-28T15:04:53.756676"
     },
@@ -8652,9 +8657,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19dd3711b527925e",
       "message_id": "19dd3711b527925e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T15:04:58.181860"
+      "timestamp": "2026-04-28T15:04:58.181860",
+      "followup_timestamp": "2026-04-29T20:00:08.415110"
     },
     {
       "urn": "urn:li:activity:7454763021081497600",
@@ -8662,9 +8668,10 @@
       "email": "hr@adventsinsight.com",
       "thread_id": "19dd37124ad90bac",
       "message_id": "19dd37124ad90bac",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T15:05:00.725644"
+      "timestamp": "2026-04-28T15:05:00.725644",
+      "followup_timestamp": "2026-04-29T20:00:10.029622"
     },
     {
       "urn": "urn:li:activity:7454760073467310080",
@@ -8672,9 +8679,10 @@
       "email": "jbhatia@forcecraver.com",
       "thread_id": "19dd3712dfb998bb",
       "message_id": "19dd3712dfb998bb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T15:05:03.047701"
+      "timestamp": "2026-04-28T15:05:03.047701",
+      "followup_timestamp": "2026-04-29T20:00:11.587562"
     },
     {
       "urn": "urn:li:activity:7454757383978778624",
@@ -8682,9 +8690,10 @@
       "email": "focusedjobhr@gmail.com",
       "thread_id": "19dd371371b00682",
       "message_id": "19dd371371b00682",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T15:05:05.583630"
+      "timestamp": "2026-04-28T15:05:05.583630",
+      "followup_timestamp": "2026-04-29T20:00:13.178737"
     },
     {
       "urn": "urn:li:activity:7454847601339908096",
@@ -8692,9 +8701,10 @@
       "email": "sanjana.a@martinettechnologies.com",
       "thread_id": "19dd414fcf00c975",
       "message_id": "19dd414fcf00c975",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T18:03:58.822779"
+      "timestamp": "2026-04-28T18:03:58.822779",
+      "followup_timestamp": "2026-04-29T20:00:14.811576"
     },
     {
       "urn": "urn:li:activity:7454846198085222400",
@@ -8702,9 +8712,10 @@
       "email": "sanjana.a@martinettechnologies.com",
       "thread_id": "19dd415068532c5c",
       "message_id": "19dd415068532c5c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T18:04:01.294651"
+      "timestamp": "2026-04-28T18:04:01.294651",
+      "followup_timestamp": "2026-04-29T20:00:16.470138"
     },
     {
       "urn": "urn:li:activity:7454845836930433024",
@@ -8712,9 +8723,10 @@
       "email": "sanjana.a@martinettechnologies.com",
       "thread_id": "19dd4151bcab0ea4",
       "message_id": "19dd4151bcab0ea4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T18:04:06.342187"
+      "timestamp": "2026-04-28T18:04:06.342187",
+      "followup_timestamp": "2026-04-29T20:00:18.034862"
     },
     {
       "urn": "urn:li:activity:7454827090752770048",
@@ -8722,9 +8734,10 @@
       "email": "priyadarshini.u@martinettechnologies.com",
       "thread_id": "19dd41522a9cdfe2",
       "message_id": "19dd41522a9cdfe2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T18:04:08.612080"
+      "timestamp": "2026-04-28T18:04:08.612080",
+      "followup_timestamp": "2026-04-29T20:00:19.644366"
     },
     {
       "urn": "urn:li:activity:7454825878234087425",
@@ -8732,9 +8745,10 @@
       "email": "priyadarshini.u@martinettechnologies.com",
       "thread_id": "19dd415349270f12",
       "message_id": "19dd415349270f12",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T18:04:13.102899"
+      "timestamp": "2026-04-28T18:04:13.102899",
+      "followup_timestamp": "2026-04-29T20:00:21.276023"
     },
     {
       "urn": "urn:li:activity:7454825380521070592",
@@ -8742,9 +8756,10 @@
       "email": "shireesha.b@martinettechnologies.com",
       "thread_id": "19dd4153feabb3f4",
       "message_id": "19dd4153feabb3f4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T18:04:15.388073"
+      "timestamp": "2026-04-28T18:04:15.388073",
+      "followup_timestamp": "2026-04-29T20:00:22.851561"
     },
     {
       "urn": "urn:li:activity:7454825203605557248",
@@ -8752,9 +8767,10 @@
       "email": "priyadarshini.u@martinettechnologies.com",
       "thread_id": "19dd4154638903f5",
       "message_id": "19dd4154638903f5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T18:04:17.532822"
+      "timestamp": "2026-04-28T18:04:17.532822",
+      "followup_timestamp": "2026-04-29T20:00:24.444271"
     },
     {
       "urn": "urn:li:activity:7454825114103177217",
@@ -8762,9 +8778,10 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "19dd4154f9919dc4",
       "message_id": "19dd4154f9919dc4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-28T18:04:19.795134"
+      "timestamp": "2026-04-28T18:04:19.795134",
+      "followup_timestamp": "2026-04-29T20:00:26.067805"
     },
     {
       "urn": "urn:li:activity:7455136914006806528",
