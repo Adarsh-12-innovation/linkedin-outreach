@@ -757,7 +757,11 @@
     "urn:li:activity:7455181379669188609",
     "urn:li:activity:7455148491145891840",
     "urn:li:activity:7455146742242529280",
-    "urn:li:activity:7455141091894272001"
+    "urn:li:activity:7455141091894272001",
+    "urn:li:activity:7455224108977504256",
+    "urn:li:activity:7455187713600790528",
+    "urn:li:activity:7455187535439450112",
+    "urn:li:activity:7455155032716521472"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1205,7 +1209,9 @@
     "yatendra@viennaconsultancy.com",
     "rohith.m@codinglimits.com",
     "yoginikothakota.ga.recruiter@gmail.com",
-    "zahera.shaik@codinglimits.com"
+    "zahera.shaik@codinglimits.com",
+    "Info@skillbridgestaffing.co",
+    "ashish@skillbridgestaffing.co"
   ],
   "contacted_details": [
     {
@@ -8869,6 +8875,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-04-29T15:04:02.188553"
+    },
+    {
+      "urn": "urn:li:activity:7455224108977504256",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7455224108977504256",
+      "email": "nishtha.taneja@bytespoke.com",
+      "thread_id": "19dd93aec712708b",
+      "message_id": "19dd93aec712708b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-29T18:03:31.952223"
+    },
+    {
+      "urn": "urn:li:activity:7455187713600790528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7455187713600790528",
+      "email": "Info@skillbridgestaffing.co",
+      "thread_id": "19dd93afaa88b877",
+      "message_id": "19dd93afaa88b877",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-29T18:03:35.328141"
+    },
+    {
+      "urn": "urn:li:activity:7455187535439450112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7455187535439450112",
+      "email": "ashish@skillbridgestaffing.co",
+      "thread_id": "19dd93b077c42550",
+      "message_id": "19dd93b077c42550",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-29T18:03:38.582242"
+    },
+    {
+      "urn": "urn:li:activity:7455155032716521472",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7455155032716521472",
+      "email": "sujeetha.k@giantmindsolutions.com",
+      "thread_id": "19dd93b1516a2d94",
+      "message_id": "19dd93b1516a2d94",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-04-29T18:03:43.142843"
     }
   ]
 }
