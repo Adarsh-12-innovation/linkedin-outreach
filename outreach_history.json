@@ -8866,9 +8866,10 @@
       "email": "yatendra@viennaconsultancy.com",
       "thread_id": "19dd8968152ac3cd",
       "message_id": "19dd8968152ac3cd",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-29T15:03:55.810343"
+      "timestamp": "2026-04-29T15:03:55.810343",
+      "followup_timestamp": "2026-04-30T19:57:01.872233"
     },
     {
       "urn": "urn:li:activity:7455148491145891840",
@@ -8876,9 +8877,10 @@
       "email": "rohith.m@codinglimits.com",
       "thread_id": "19dd8968b2dae22e",
       "message_id": "19dd8968b2dae22e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-29T15:03:58.022454"
+      "timestamp": "2026-04-29T15:03:58.022454",
+      "followup_timestamp": "2026-04-30T19:57:03.471174"
     },
     {
       "urn": "urn:li:activity:7455146742242529280",
@@ -8886,7 +8888,7 @@
       "email": "yoginikothakota.ga.recruiter@gmail.com",
       "thread_id": "19dd8969281704d3",
       "message_id": "19dd8969281704d3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-29T15:04:00.122898"
     },
@@ -8896,9 +8898,10 @@
       "email": "zahera.shaik@codinglimits.com",
       "thread_id": "19dd8969b119582a",
       "message_id": "19dd8969b119582a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-29T15:04:02.188553"
+      "timestamp": "2026-04-29T15:04:02.188553",
+      "followup_timestamp": "2026-04-30T19:57:05.234172"
     },
     {
       "urn": "urn:li:activity:7455224108977504256",
@@ -8906,9 +8909,10 @@
       "email": "nishtha.taneja@bytespoke.com",
       "thread_id": "19dd93aec712708b",
       "message_id": "19dd93aec712708b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-29T18:03:31.952223"
+      "timestamp": "2026-04-29T18:03:31.952223",
+      "followup_timestamp": "2026-04-30T19:57:06.988263"
     },
     {
       "urn": "urn:li:activity:7455187713600790528",
@@ -8916,9 +8920,10 @@
       "email": "Info@skillbridgestaffing.co",
       "thread_id": "19dd93afaa88b877",
       "message_id": "19dd93afaa88b877",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-29T18:03:35.328141"
+      "timestamp": "2026-04-29T18:03:35.328141",
+      "followup_timestamp": "2026-04-30T19:57:08.567446"
     },
     {
       "urn": "urn:li:activity:7455187535439450112",
@@ -8926,7 +8931,7 @@
       "email": "ashish@skillbridgestaffing.co",
       "thread_id": "19dd93b077c42550",
       "message_id": "19dd93b077c42550",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-04-29T18:03:38.582242"
     },
@@ -8936,9 +8941,10 @@
       "email": "sujeetha.k@giantmindsolutions.com",
       "thread_id": "19dd93b1516a2d94",
       "message_id": "19dd93b1516a2d94",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-04-29T18:03:43.142843"
+      "timestamp": "2026-04-29T18:03:43.142843",
+      "followup_timestamp": "2026-04-30T19:57:10.291456"
     }
   ]
 }
