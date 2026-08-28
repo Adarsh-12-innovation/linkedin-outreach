@@ -575,7 +575,7 @@ def stage_i_filter(items: list[dict]) -> list[dict]:
         return []
 
     # 2. LLM Contact Detection (flash-lite)
-    batch_size = 10
+    batch_size = 50
     passed = []
     log.info(f"  [Stage I LLM] Detecting contact info in {len(kw_passed)} posts...")
 
