@@ -764,7 +764,9 @@
     "urn:li:activity:7455155032716521472",
     "urn:li:activity:7498917356505743360",
     "urn:li:activity:7498845713015943168",
-    "urn:li:activity:7498845744091799552"
+    "urn:li:activity:7498845744091799552",
+    "urn:li:activity:7498970538208493568",
+    "urn:li:activity:7498969083200196609"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1216,7 +1218,9 @@
     "Info@skillbridgestaffing.co",
     "ashish@skillbridgestaffing.co",
     "jameshill@alambda.com",
-    "reqs1@itvisiongroup.com"
+    "reqs1@itvisiongroup.com",
+    "rupasri@talentweave.org",
+    "biju24934@gmail.com"
   ],
   "contacted_details": [
     {
@@ -8980,6 +8984,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-08-28T10:44:51.792941"
+    },
+    {
+      "urn": "urn:li:activity:7498970538208493568",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7498970538208493568",
+      "email": "rupasri@talentweave.org",
+      "thread_id": "1a047075f340cab5",
+      "message_id": "1a047075f340cab5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-08-28T11:51:00.373045"
+    },
+    {
+      "urn": "urn:li:activity:7498969083200196609",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7498969083200196609",
+      "email": "biju24934@gmail.com",
+      "thread_id": "1a047076bacb6ead",
+      "message_id": "1a047076bacb6ead",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-08-28T11:51:03.270762"
     }
   ]
 }
