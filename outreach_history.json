@@ -761,7 +761,10 @@
     "urn:li:activity:7455224108977504256",
     "urn:li:activity:7455187713600790528",
     "urn:li:activity:7455187535439450112",
-    "urn:li:activity:7455155032716521472"
+    "urn:li:activity:7455155032716521472",
+    "urn:li:activity:7498917356505743360",
+    "urn:li:activity:7498845713015943168",
+    "urn:li:activity:7498845744091799552"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1211,7 +1214,9 @@
     "yoginikothakota.ga.recruiter@gmail.com",
     "zahera.shaik@codinglimits.com",
     "Info@skillbridgestaffing.co",
-    "ashish@skillbridgestaffing.co"
+    "ashish@skillbridgestaffing.co",
+    "jameshill@alambda.com",
+    "reqs1@itvisiongroup.com"
   ],
   "contacted_details": [
     {
@@ -8945,6 +8950,36 @@
       "source": "search",
       "timestamp": "2026-04-29T18:03:43.142843",
       "followup_timestamp": "2026-04-30T19:57:10.291456"
+    },
+    {
+      "urn": "urn:li:activity:7498917356505743360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7498917356505743360",
+      "email": "jameshill@alambda.com",
+      "thread_id": "1a046cabc0fd2571",
+      "message_id": "1a046cabc0fd2571",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-08-28T10:44:46.680848"
+    },
+    {
+      "urn": "urn:li:activity:7498845713015943168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7498845713015943168",
+      "email": "reqs1@itvisiongroup.com",
+      "thread_id": "1a046cac7b43f4d0",
+      "message_id": "1a046cac7b43f4d0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-08-28T10:44:49.265952"
+    },
+    {
+      "urn": "urn:li:activity:7498845744091799552",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7498845744091799552",
+      "email": "reqs1@itvisiongroup.com",
+      "thread_id": "1a046cad168dc704",
+      "message_id": "1a046cad168dc704",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-08-28T10:44:51.792941"
     }
   ]
 }
