@@ -766,7 +766,22 @@
     "urn:li:activity:7498845713015943168",
     "urn:li:activity:7498845744091799552",
     "urn:li:activity:7498970538208493568",
-    "urn:li:activity:7498969083200196609"
+    "urn:li:activity:7498969083200196609",
+    "urn:li:activity:7503321559869345792",
+    "urn:li:activity:7503321234995036160",
+    "urn:li:activity:7503320790226878464",
+    "urn:li:activity:7503320895793356800",
+    "urn:li:activity:7503320516800282625",
+    "urn:li:activity:7503319887767994369",
+    "urn:li:activity:7503318409007255552",
+    "urn:li:activity:7503317170911891456",
+    "urn:li:activity:7503317006591401984",
+    "urn:li:activity:7503317089718562816",
+    "urn:li:activity:7503317123730026497",
+    "urn:li:activity:7503314955778138112",
+    "urn:li:activity:7503311924504342528",
+    "urn:li:activity:7503309122789072896",
+    "urn:li:activity:7503308843662299136"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1220,7 +1235,16 @@
     "jameshill@alambda.com",
     "reqs1@itvisiongroup.com",
     "rupasri@talentweave.org",
-    "biju24934@gmail.com"
+    "biju24934@gmail.com",
+    "deepthi.b@careersoftusa.com",
+    "anusha.a@martinettechnologies.com",
+    "amulya.b@careersoftusa.com",
+    "sangeeta.b@careersoftusa.com",
+    "hr.team@fusionxcloud.com",
+    "riya.domesticstaffing@gmail.com",
+    "rajeswara.reddy@varite.com",
+    "harika.m@people-prime.com",
+    "danish.jameel@virtualworkforce.nl"
   ],
   "contacted_details": [
     {
@@ -8961,7 +8985,7 @@
       "email": "jameshill@alambda.com",
       "thread_id": "1a046cabc0fd2571",
       "message_id": "1a046cabc0fd2571",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-08-28T10:44:46.680848"
     },
@@ -8971,9 +8995,10 @@
       "email": "reqs1@itvisiongroup.com",
       "thread_id": "1a046cac7b43f4d0",
       "message_id": "1a046cac7b43f4d0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-08-28T10:44:49.265952"
+      "timestamp": "2026-08-28T10:44:49.265952",
+      "followup_timestamp": "2026-09-09T11:01:08.108230"
     },
     {
       "urn": "urn:li:activity:7498845744091799552",
@@ -8981,9 +9006,10 @@
       "email": "reqs1@itvisiongroup.com",
       "thread_id": "1a046cad168dc704",
       "message_id": "1a046cad168dc704",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-08-28T10:44:51.792941"
+      "timestamp": "2026-08-28T10:44:51.792941",
+      "followup_timestamp": "2026-09-09T11:01:10.491952"
     },
     {
       "urn": "urn:li:activity:7498970538208493568",
@@ -8991,9 +9017,10 @@
       "email": "rupasri@talentweave.org",
       "thread_id": "1a047075f340cab5",
       "message_id": "1a047075f340cab5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-08-28T11:51:00.373045"
+      "timestamp": "2026-08-28T11:51:00.373045",
+      "followup_timestamp": "2026-09-09T11:01:12.775303"
     },
     {
       "urn": "urn:li:activity:7498969083200196609",
@@ -9001,9 +9028,159 @@
       "email": "biju24934@gmail.com",
       "thread_id": "1a047076bacb6ead",
       "message_id": "1a047076bacb6ead",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-08-28T11:51:03.270762"
+    },
+    {
+      "urn": "urn:li:activity:7503321559869345792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503321559869345792",
+      "email": "sanjana.a@martinettechnologies.com",
+      "thread_id": "1a084a579cebacd6",
+      "message_id": "1a084a579cebacd6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:31.514456"
+    },
+    {
+      "urn": "urn:li:activity:7503321234995036160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503321234995036160",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "1a084a58339eb2f6",
+      "message_id": "1a084a58339eb2f6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:34.158043"
+    },
+    {
+      "urn": "urn:li:activity:7503320790226878464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503320790226878464",
+      "email": "deepthi.b@careersoftusa.com",
+      "thread_id": "1a084a58d8c42104",
+      "message_id": "1a084a58d8c42104",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:36.487292"
+    },
+    {
+      "urn": "urn:li:activity:7503320895793356800",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503320895793356800",
+      "email": "deepthi.b@careersoftusa.com",
+      "thread_id": "1a084a595ba436af",
+      "message_id": "1a084a595ba436af",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:38.749637"
+    },
+    {
+      "urn": "urn:li:activity:7503320516800282625",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503320516800282625",
+      "email": "deepthi.b@careersoftusa.com",
+      "thread_id": "1a084a59d73c64ce",
+      "message_id": "1a084a59d73c64ce",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:40.905978"
+    },
+    {
+      "urn": "urn:li:activity:7503319887767994369",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503319887767994369",
+      "email": "deepthi.b@careersoftusa.com",
+      "thread_id": "1a084a5a76334eca",
+      "message_id": "1a084a5a76334eca",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:43.180664"
+    },
+    {
+      "urn": "urn:li:activity:7503318409007255552",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503318409007255552",
+      "email": "anusha.a@martinettechnologies.com",
+      "thread_id": "1a084a5b068653e1",
+      "message_id": "1a084a5b068653e1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:45.653055"
+    },
+    {
+      "urn": "urn:li:activity:7503317170911891456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503317170911891456",
+      "email": "amulya.b@careersoftusa.com",
+      "thread_id": "1a084a5b9404d7f9",
+      "message_id": "1a084a5b9404d7f9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:47.816292"
+    },
+    {
+      "urn": "urn:li:activity:7503317006591401984",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503317006591401984",
+      "email": "sangeeta.b@careersoftusa.com",
+      "thread_id": "1a084a5c0239bafb",
+      "message_id": "1a084a5c0239bafb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:50.089066"
+    },
+    {
+      "urn": "urn:li:activity:7503317089718562816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503317089718562816",
+      "email": "shireesha.b@martinettechnologies.com",
+      "thread_id": "1a084a5cd033874a",
+      "message_id": "1a084a5cd033874a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:52.808778"
+    },
+    {
+      "urn": "urn:li:activity:7503317123730026497",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503317123730026497",
+      "email": "hr.team@fusionxcloud.com",
+      "thread_id": "1a084a5d46f086bd",
+      "message_id": "1a084a5d46f086bd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:55.038010"
+    },
+    {
+      "urn": "urn:li:activity:7503314955778138112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503314955778138112",
+      "email": "riya.domesticstaffing@gmail.com",
+      "thread_id": "1a084a5de1e568eb",
+      "message_id": "1a084a5de1e568eb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:00:57.397257"
+    },
+    {
+      "urn": "urn:li:activity:7503311924504342528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503311924504342528",
+      "email": "rajeswara.reddy@varite.com",
+      "thread_id": "1a084a5e886b3ef1",
+      "message_id": "1a084a5e886b3ef1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:01:00.294223"
+    },
+    {
+      "urn": "urn:li:activity:7503309122789072896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503309122789072896",
+      "email": "harika.m@people-prime.com",
+      "thread_id": "1a084a5f38307c62",
+      "message_id": "1a084a5f38307c62",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:01:02.690358"
+    },
+    {
+      "urn": "urn:li:activity:7503308843662299136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503308843662299136",
+      "email": "danish.jameel@virtualworkforce.nl",
+      "thread_id": "1a084a5fd1e003c2",
+      "message_id": "1a084a5fd1e003c2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-09T11:01:05.148492"
     }
   ]
 }
