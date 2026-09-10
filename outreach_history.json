@@ -781,7 +781,9 @@
     "urn:li:activity:7503314955778138112",
     "urn:li:activity:7503311924504342528",
     "urn:li:activity:7503309122789072896",
-    "urn:li:activity:7503308843662299136"
+    "urn:li:activity:7503308843662299136",
+    "urn:li:activity:7503636628280614912",
+    "urn:li:activity:7503572483309154305"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1244,7 +1246,9 @@
     "riya.domesticstaffing@gmail.com",
     "rajeswara.reddy@varite.com",
     "harika.m@people-prime.com",
-    "danish.jameel@virtualworkforce.nl"
+    "danish.jameel@virtualworkforce.nl",
+    "syeda.sameena@nskaservices.com",
+    "steven.ram@argyllinfotech.com"
   ],
   "contacted_details": [
     {
@@ -9181,6 +9185,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-09T11:01:05.148492"
+    },
+    {
+      "urn": "urn:li:activity:7503636628280614912",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503636628280614912",
+      "email": "syeda.sameena@nskaservices.com",
+      "thread_id": "1a08996d5aa8e3b3",
+      "message_id": "1a08996d5aa8e3b3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T10:02:38.675585"
+    },
+    {
+      "urn": "urn:li:activity:7503572483309154305",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503572483309154305",
+      "email": "steven.ram@argyllinfotech.com",
+      "thread_id": "1a08996dc9f7165d",
+      "message_id": "1a08996dc9f7165d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T10:02:40.922348"
     }
   ]
 }
