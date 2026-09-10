@@ -785,7 +785,19 @@
     "urn:li:activity:7503636628280614912",
     "urn:li:activity:7503572483309154305",
     "urn:li:activity:7503683388201979904",
-    "urn:li:activity:7503676552455430144"
+    "urn:li:activity:7503676552455430144",
+    "urn:li:activity:7503718968398938112",
+    "urn:li:activity:7503717256749772800",
+    "urn:li:activity:7503711449458974721",
+    "urn:li:activity:7503706402549551104",
+    "urn:li:activity:7503702514874175489",
+    "urn:li:activity:7503699452545769472",
+    "urn:li:activity:7503698695037538304",
+    "urn:li:activity:7503698846909140992",
+    "urn:li:activity:7503695986490515456",
+    "urn:li:activity:7503693420922724352",
+    "urn:li:activity:7503688442912944128",
+    "urn:li:activity:7503688207172284416"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1252,7 +1264,11 @@
     "syeda.sameena@nskaservices.com",
     "steven.ram@argyllinfotech.com",
     "hasini.rageesh@vitimcloud.com",
-    "shivareddy.sumicrotech@gmail.com"
+    "shivareddy.sumicrotech@gmail.com",
+    "info5@worktechnologies.co.in",
+    "info@aarnikshasolutions.com",
+    "archanaa.srivastav@vitimcloud.com",
+    "career@codingera.in"
   ],
   "contacted_details": [
     {
@@ -9229,6 +9245,126 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-10T10:59:46.203065"
+    },
+    {
+      "urn": "urn:li:activity:7503718968398938112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503718968398938112",
+      "email": "info5@worktechnologies.co.in",
+      "thread_id": "1a08a60110fb9108",
+      "message_id": "1a08a60110fb9108",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:26.951324"
+    },
+    {
+      "urn": "urn:li:activity:7503717256749772800",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503717256749772800",
+      "email": "info5@worktechnologies.co.in",
+      "thread_id": "1a08a601ac192a5c",
+      "message_id": "1a08a601ac192a5c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:29.714006"
+    },
+    {
+      "urn": "urn:li:activity:7503711449458974721",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503711449458974721",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a08a60259a3c85b",
+      "message_id": "1a08a60259a3c85b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:32.343990"
+    },
+    {
+      "urn": "urn:li:activity:7503706402549551104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503706402549551104",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a08a60315476220",
+      "message_id": "1a08a60315476220",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:35.021632"
+    },
+    {
+      "urn": "urn:li:activity:7503702514874175489",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503702514874175489",
+      "email": "yashika@vitric.in",
+      "thread_id": "1a08a603886b1d3b",
+      "message_id": "1a08a603886b1d3b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:37.281152"
+    },
+    {
+      "urn": "urn:li:activity:7503699452545769472",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503699452545769472",
+      "email": "info@aarnikshasolutions.com",
+      "thread_id": "1a08a6045c764a73",
+      "message_id": "1a08a6045c764a73",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:40.571695"
+    },
+    {
+      "urn": "urn:li:activity:7503698695037538304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503698695037538304",
+      "email": "anusha.a@martinettechnologies.com",
+      "thread_id": "1a08a604e17cff19",
+      "message_id": "1a08a604e17cff19",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:43.040861"
+    },
+    {
+      "urn": "urn:li:activity:7503698846909140992",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503698846909140992",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a08a605a9b23d18",
+      "message_id": "1a08a605a9b23d18",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:45.762711"
+    },
+    {
+      "urn": "urn:li:activity:7503695986490515456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503695986490515456",
+      "email": "yashika.jain@rayosys.com",
+      "thread_id": "1a08a6062da43bdd",
+      "message_id": "1a08a6062da43bdd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:48.068837"
+    },
+    {
+      "urn": "urn:li:activity:7503693420922724352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503693420922724352",
+      "email": "career@codingera.in",
+      "thread_id": "1a08a60789a9d9d4",
+      "message_id": "1a08a60789a9d9d4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:53.609010"
+    },
+    {
+      "urn": "urn:li:activity:7503688442912944128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503688442912944128",
+      "email": "hr@entalix-systems.com",
+      "thread_id": "1a08a6080a928811",
+      "message_id": "1a08a6080a928811",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:55.698837"
+    },
+    {
+      "urn": "urn:li:activity:7503688207172284416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503688207172284416",
+      "email": "hr@entalix-systems.com",
+      "thread_id": "1a08a608916d65c0",
+      "message_id": "1a08a608916d65c0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T13:42:57.819902"
     }
   ]
 }
