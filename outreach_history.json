@@ -783,7 +783,9 @@
     "urn:li:activity:7503309122789072896",
     "urn:li:activity:7503308843662299136",
     "urn:li:activity:7503636628280614912",
-    "urn:li:activity:7503572483309154305"
+    "urn:li:activity:7503572483309154305",
+    "urn:li:activity:7503683388201979904",
+    "urn:li:activity:7503676552455430144"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1248,7 +1250,9 @@
     "harika.m@people-prime.com",
     "danish.jameel@virtualworkforce.nl",
     "syeda.sameena@nskaservices.com",
-    "steven.ram@argyllinfotech.com"
+    "steven.ram@argyllinfotech.com",
+    "hasini.rageesh@vitimcloud.com",
+    "shivareddy.sumicrotech@gmail.com"
   ],
   "contacted_details": [
     {
@@ -9205,6 +9209,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-10T10:02:40.922348"
+    },
+    {
+      "urn": "urn:li:activity:7503683388201979904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503683388201979904",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a089cb149da3c24",
+      "message_id": "1a089cb149da3c24",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T10:59:43.138812"
+    },
+    {
+      "urn": "urn:li:activity:7503676552455430144",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503676552455430144",
+      "email": "shivareddy.sumicrotech@gmail.com",
+      "thread_id": "1a089cb2197536ab",
+      "message_id": "1a089cb2197536ab",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-10T10:59:46.203065"
     }
   ]
 }
