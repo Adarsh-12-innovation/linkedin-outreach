@@ -818,7 +818,8 @@
     "urn:li:activity:7504135458482958336",
     "urn:li:activity:7504128651941134336",
     "urn:li:activity:7504127657748537344",
-    "urn:li:activity:7504124960244682752"
+    "urn:li:activity:7504124960244682752",
+    "urn:li:activity:7504194126586871808"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1301,7 +1302,8 @@
     "talent@rudrashivconsultants.com",
     "arti@aliqan.com",
     "reachus@talentcrestbridge.com",
-    "stafio.rec@gmail.com"
+    "stafio.rec@gmail.com",
+    "upendar.k@spiceorb.com"
   ],
   "contacted_details": [
     {
@@ -9301,7 +9303,7 @@
       "email": "info5@worktechnologies.co.in",
       "thread_id": "1a08a60110fb9108",
       "message_id": "1a08a60110fb9108",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-10T13:42:26.951324"
     },
@@ -9311,7 +9313,7 @@
       "email": "info5@worktechnologies.co.in",
       "thread_id": "1a08a601ac192a5c",
       "message_id": "1a08a601ac192a5c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-10T13:42:29.714006"
     },
@@ -9321,7 +9323,7 @@
       "email": "hasini.rageesh@vitimcloud.com",
       "thread_id": "1a08a60259a3c85b",
       "message_id": "1a08a60259a3c85b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-10T13:42:32.343990"
     },
@@ -9331,9 +9333,10 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "1a08a60315476220",
       "message_id": "1a08a60315476220",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-10T13:42:35.021632"
+      "timestamp": "2026-09-10T13:42:35.021632",
+      "followup_timestamp": "2026-09-11T20:45:34.326885"
     },
     {
       "urn": "urn:li:activity:7503702514874175489",
@@ -9341,9 +9344,10 @@
       "email": "yashika@vitric.in",
       "thread_id": "1a08a603886b1d3b",
       "message_id": "1a08a603886b1d3b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-10T13:42:37.281152"
+      "timestamp": "2026-09-10T13:42:37.281152",
+      "followup_timestamp": "2026-09-11T20:45:36.642246"
     },
     {
       "urn": "urn:li:activity:7503699452545769472",
@@ -9351,9 +9355,10 @@
       "email": "info@aarnikshasolutions.com",
       "thread_id": "1a08a6045c764a73",
       "message_id": "1a08a6045c764a73",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-10T13:42:40.571695"
+      "timestamp": "2026-09-10T13:42:40.571695",
+      "followup_timestamp": "2026-09-11T20:45:38.886327"
     },
     {
       "urn": "urn:li:activity:7503698695037538304",
@@ -9361,9 +9366,10 @@
       "email": "anusha.a@martinettechnologies.com",
       "thread_id": "1a08a604e17cff19",
       "message_id": "1a08a604e17cff19",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-10T13:42:43.040861"
+      "timestamp": "2026-09-10T13:42:43.040861",
+      "followup_timestamp": "2026-09-11T20:45:41.181295"
     },
     {
       "urn": "urn:li:activity:7503698846909140992",
@@ -9371,7 +9377,7 @@
       "email": "archanaa.srivastav@vitimcloud.com",
       "thread_id": "1a08a605a9b23d18",
       "message_id": "1a08a605a9b23d18",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-10T13:42:45.762711"
     },
@@ -9381,7 +9387,7 @@
       "email": "yashika.jain@rayosys.com",
       "thread_id": "1a08a6062da43bdd",
       "message_id": "1a08a6062da43bdd",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-10T13:42:48.068837"
     },
@@ -9391,9 +9397,10 @@
       "email": "career@codingera.in",
       "thread_id": "1a08a60789a9d9d4",
       "message_id": "1a08a60789a9d9d4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-10T13:42:53.609010"
+      "timestamp": "2026-09-10T13:42:53.609010",
+      "followup_timestamp": "2026-09-11T20:45:44.162147"
     },
     {
       "urn": "urn:li:activity:7503688442912944128",
@@ -9401,9 +9408,10 @@
       "email": "hr@entalix-systems.com",
       "thread_id": "1a08a6080a928811",
       "message_id": "1a08a6080a928811",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-10T13:42:55.698837"
+      "timestamp": "2026-09-10T13:42:55.698837",
+      "followup_timestamp": "2026-09-11T20:45:46.438821"
     },
     {
       "urn": "urn:li:activity:7503688207172284416",
@@ -9411,7 +9419,7 @@
       "email": "hr@entalix-systems.com",
       "thread_id": "1a08a608916d65c0",
       "message_id": "1a08a608916d65c0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-10T13:42:57.819902"
     },
@@ -9624,6 +9632,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-11T18:04:48.092005"
+    },
+    {
+      "urn": "urn:li:activity:7504194126586871808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7504194126586871808",
+      "email": "upendar.k@spiceorb.com",
+      "thread_id": "1a09109bc15331cf",
+      "message_id": "1a09109bc15331cf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-11T20:45:30.202322"
     }
   ]
 }
