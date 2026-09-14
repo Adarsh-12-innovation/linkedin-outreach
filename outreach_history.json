@@ -831,7 +831,9 @@
     "urn:li:activity:7505147368942686208",
     "urn:li:activity:7505141326548459520",
     "urn:li:activity:7505138037048213504",
-    "urn:li:activity:7505127362699784193"
+    "urn:li:activity:7505127362699784193",
+    "urn:li:activity:7505271917403082753",
+    "urn:li:activity:7505267618874974209"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1321,7 +1323,9 @@
     "mohit.gupta@rayosys.com",
     "abajpai@ncubeinfosolutions.com",
     "info@ozarksouth.com",
-    "sunnyksourcing@gmail.com"
+    "sunnyksourcing@gmail.com",
+    "Kiran@sapphiresoftwaresolutions.com",
+    "Likithsai@rapinnotech.com"
   ],
   "contacted_details": [
     {
@@ -9796,6 +9800,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-14T14:00:18.947506"
+    },
+    {
+      "urn": "urn:li:activity:7505271917403082753",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505271917403082753",
+      "email": "Kiran@sapphiresoftwaresolutions.com",
+      "thread_id": "1a0a0606c3c1408e",
+      "message_id": "1a0a0606c3c1408e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T20:14:29.423417"
+    },
+    {
+      "urn": "urn:li:activity:7505267618874974209",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505267618874974209",
+      "email": "Likithsai@rapinnotech.com",
+      "thread_id": "1a0a0607a14f9fdd",
+      "message_id": "1a0a0607a14f9fdd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T20:14:32.375842"
     }
   ]
 }
