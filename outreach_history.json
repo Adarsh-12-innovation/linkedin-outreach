@@ -821,7 +821,17 @@
     "urn:li:activity:7504124960244682752",
     "urn:li:activity:7504194126586871808",
     "urn:li:activity:7505124658862661633",
-    "urn:li:activity:7505102714670858240"
+    "urn:li:activity:7505102714670858240",
+    "urn:li:activity:7505175485560066048",
+    "urn:li:activity:7505173927036522496",
+    "urn:li:activity:7505162671621640192",
+    "urn:li:activity:7505159857776467969",
+    "urn:li:activity:7505158468555907072",
+    "urn:li:activity:7505154697008148481",
+    "urn:li:activity:7505147368942686208",
+    "urn:li:activity:7505141326548459520",
+    "urn:li:activity:7505138037048213504",
+    "urn:li:activity:7505127362699784193"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1307,7 +1317,11 @@
     "stafio.rec@gmail.com",
     "upendar.k@spiceorb.com",
     "m.tasleem@ekloudservices.com",
-    "trang.duong@helius-tech.com"
+    "trang.duong@helius-tech.com",
+    "mohit.gupta@rayosys.com",
+    "abajpai@ncubeinfosolutions.com",
+    "info@ozarksouth.com",
+    "sunnyksourcing@gmail.com"
   ],
   "contacted_details": [
     {
@@ -9682,6 +9696,106 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-14T10:31:48.109479"
+    },
+    {
+      "urn": "urn:li:activity:7505175485560066048",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505175485560066048",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a09f096f407526f",
+      "message_id": "1a09f096f407526f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T13:59:51.264468"
+    },
+    {
+      "urn": "urn:li:activity:7505173927036522496",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505173927036522496",
+      "email": "info5@worktechnologies.co.in",
+      "thread_id": "1a09f0982baa2e8f",
+      "message_id": "1a09f0982baa2e8f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T13:59:56.431310"
+    },
+    {
+      "urn": "urn:li:activity:7505162671621640192",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505162671621640192",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a09f098d6bc1dd2",
+      "message_id": "1a09f098d6bc1dd2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T13:59:58.746361"
+    },
+    {
+      "urn": "urn:li:activity:7505159857776467969",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505159857776467969",
+      "email": "mohit.gupta@rayosys.com",
+      "thread_id": "1a09f0995efa8d69",
+      "message_id": "1a09f0995efa8d69",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T14:00:01.084359"
+    },
+    {
+      "urn": "urn:li:activity:7505158468555907072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505158468555907072",
+      "email": "abajpai@ncubeinfosolutions.com",
+      "thread_id": "1a09f09a89975b4e",
+      "message_id": "1a09f09a89975b4e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T14:00:05.666454"
+    },
+    {
+      "urn": "urn:li:activity:7505154697008148481",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505154697008148481",
+      "email": "info@ozarksouth.com",
+      "thread_id": "1a09f09b055d9a85",
+      "message_id": "1a09f09b055d9a85",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T14:00:07.954850"
+    },
+    {
+      "urn": "urn:li:activity:7505147368942686208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505147368942686208",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a09f09b91c32bd1",
+      "message_id": "1a09f09b91c32bd1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T14:00:10.070854"
+    },
+    {
+      "urn": "urn:li:activity:7505141326548459520",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505141326548459520",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a09f09c30905c3b",
+      "message_id": "1a09f09c30905c3b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T14:00:12.459955"
+    },
+    {
+      "urn": "urn:li:activity:7505138037048213504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505138037048213504",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a09f09cb40c8d66",
+      "message_id": "1a09f09cb40c8d66",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T14:00:14.718722"
+    },
+    {
+      "urn": "urn:li:activity:7505127362699784193",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505127362699784193",
+      "email": "sunnyksourcing@gmail.com",
+      "thread_id": "1a09f09db5094a77",
+      "message_id": "1a09f09db5094a77",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-14T14:00:18.947506"
     }
   ]
 }
