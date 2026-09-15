@@ -857,7 +857,10 @@
     "urn:li:activity:7505529074891816960",
     "urn:li:activity:7505528398752944130",
     "urn:li:activity:7505524756750843904",
-    "urn:li:activity:7505514288598446080"
+    "urn:li:activity:7505514288598446080",
+    "urn:li:activity:7505583850496995328",
+    "urn:li:activity:7505570984616321024",
+    "urn:li:activity:7505561656341573633"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1360,7 +1363,9 @@
     "rupali.mallik@walsystems.com",
     "arjun.yadav@jupiterailabs.com",
     "madhuri.k@technogigsolution.in",
-    "jobs@iclivia.co.in"
+    "jobs@iclivia.co.in",
+    "m.wojturska@svitla.com",
+    "anvitha@kksoftwareassociates.com"
   ],
   "contacted_details": [
     {
@@ -9722,9 +9727,10 @@
       "email": "m.tasleem@ekloudservices.com",
       "thread_id": "1a09e4aeb2be57cb",
       "message_id": "1a09e4aeb2be57cb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-14T10:31:45.639398"
+      "timestamp": "2026-09-14T10:31:45.639398",
+      "followup_timestamp": "2026-09-15T17:14:50.674714"
     },
     {
       "urn": "urn:li:activity:7505102714670858240",
@@ -9732,9 +9738,10 @@
       "email": "trang.duong@helius-tech.com",
       "thread_id": "1a09e4af4e6fd680",
       "message_id": "1a09e4af4e6fd680",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-14T10:31:48.109479"
+      "timestamp": "2026-09-14T10:31:48.109479",
+      "followup_timestamp": "2026-09-15T17:14:53.015094"
     },
     {
       "urn": "urn:li:activity:7505175485560066048",
@@ -10095,6 +10102,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-15T15:09:40.811647"
+    },
+    {
+      "urn": "urn:li:activity:7505583850496995328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505583850496995328",
+      "email": "yashika@vitric.in",
+      "thread_id": "1a0a4e236d44ab58",
+      "message_id": "1a0a4e236d44ab58",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T17:14:42.839459"
+    },
+    {
+      "urn": "urn:li:activity:7505570984616321024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505570984616321024",
+      "email": "m.wojturska@svitla.com",
+      "thread_id": "1a0a4e24383e6524",
+      "message_id": "1a0a4e24383e6524",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T17:14:46.170604"
+    },
+    {
+      "urn": "urn:li:activity:7505561656341573633",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505561656341573633",
+      "email": "anvitha@kksoftwareassociates.com",
+      "thread_id": "1a0a4e24af8d3db5",
+      "message_id": "1a0a4e24af8d3db5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T17:14:48.307666"
     }
   ]
 }
