@@ -833,7 +833,12 @@
     "urn:li:activity:7505138037048213504",
     "urn:li:activity:7505127362699784193",
     "urn:li:activity:7505271917403082753",
-    "urn:li:activity:7505267618874974209"
+    "urn:li:activity:7505267618874974209",
+    "urn:li:activity:7505482020639330304",
+    "urn:li:activity:7505385078445920257",
+    "urn:li:activity:7505354546437599232",
+    "urn:li:activity:7505354055674933248",
+    "urn:li:activity:7505354174365237248"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1325,7 +1330,10 @@
     "info@ozarksouth.com",
     "sunnyksourcing@gmail.com",
     "Kiran@sapphiresoftwaresolutions.com",
-    "Likithsai@rapinnotech.com"
+    "Likithsai@rapinnotech.com",
+    "anushka.bhargava@taranta.com",
+    "tejaswi.banda@sstech.us",
+    "Chaurasiya.a@worknovasllc.com"
   ],
   "contacted_details": [
     {
@@ -9820,6 +9828,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-14T20:14:32.375842"
+    },
+    {
+      "urn": "urn:li:activity:7505482020639330304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505482020639330304",
+      "email": "anushka.bhargava@taranta.com",
+      "thread_id": "1a0a36912ef66957",
+      "message_id": "1a0a36912ef66957",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T10:22:46.760411"
+    },
+    {
+      "urn": "urn:li:activity:7505385078445920257",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505385078445920257",
+      "email": "tejaswi.banda@sstech.us",
+      "thread_id": "1a0a3692433779fe",
+      "message_id": "1a0a3692433779fe",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T10:22:51.517328"
+    },
+    {
+      "urn": "urn:li:activity:7505354546437599232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505354546437599232",
+      "email": "Chaurasiya.a@worknovasllc.com",
+      "thread_id": "1a0a3694ea86e073",
+      "message_id": "1a0a3694ea86e073",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T10:23:02.236170"
+    },
+    {
+      "urn": "urn:li:activity:7505354055674933248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505354055674933248",
+      "email": "Chaurasiya.a@worknovasllc.com",
+      "thread_id": "1a0a369586c353c7",
+      "message_id": "1a0a369586c353c7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T10:23:04.755431"
+    },
+    {
+      "urn": "urn:li:activity:7505354174365237248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505354174365237248",
+      "email": "Chaurasiya.a@worknovasllc.com",
+      "thread_id": "1a0a369626945e16",
+      "message_id": "1a0a369626945e16",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T10:23:07.215495"
     }
   ]
 }
