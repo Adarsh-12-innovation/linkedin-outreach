@@ -838,7 +838,17 @@
     "urn:li:activity:7505385078445920257",
     "urn:li:activity:7505354546437599232",
     "urn:li:activity:7505354055674933248",
-    "urn:li:activity:7505354174365237248"
+    "urn:li:activity:7505354174365237248",
+    "urn:li:activity:7505520040168046592",
+    "urn:li:activity:7505516177385762816",
+    "urn:li:activity:7505513331978461184",
+    "urn:li:activity:7505512763335819265",
+    "urn:li:activity:7505512041005273089",
+    "urn:li:activity:7505511261141553153",
+    "urn:li:activity:7505508233546219520",
+    "urn:li:activity:7505506928307953664",
+    "urn:li:activity:7505506312739467264",
+    "urn:li:activity:7505488072059564032"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1333,7 +1343,12 @@
     "Likithsai@rapinnotech.com",
     "anushka.bhargava@taranta.com",
     "tejaswi.banda@sstech.us",
-    "Chaurasiya.a@worknovasllc.com"
+    "Chaurasiya.a@worknovasllc.com",
+    "sweths.u@onasit.com",
+    "woohasri@hollbornrecruitment.co.uk",
+    "shubham.sahu@luxten.in",
+    "priyanka.jadhav@philodesigntech.com",
+    "rupali.mallik@walsystems.com"
   ],
   "contacted_details": [
     {
@@ -9878,6 +9893,106 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-15T10:23:07.215495"
+    },
+    {
+      "urn": "urn:li:activity:7505520040168046592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505520040168046592",
+      "email": "sweths.u@onasit.com",
+      "thread_id": "1a0a3e415212fd14",
+      "message_id": "1a0a3e415212fd14",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:07.850114"
+    },
+    {
+      "urn": "urn:li:activity:7505516177385762816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505516177385762816",
+      "email": "woohasri@hollbornrecruitment.co.uk",
+      "thread_id": "1a0a3e41d463b7d1",
+      "message_id": "1a0a3e41d463b7d1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:10.143099"
+    },
+    {
+      "urn": "urn:li:activity:7505513331978461184",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505513331978461184",
+      "email": "nishtha.taneja@bytespoke.com",
+      "thread_id": "1a0a3e4267ab7a71",
+      "message_id": "1a0a3e4267ab7a71",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:12.609131"
+    },
+    {
+      "urn": "urn:li:activity:7505512763335819265",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505512763335819265",
+      "email": "shubham.sahu@luxten.in",
+      "thread_id": "1a0a3e42ee5e858e",
+      "message_id": "1a0a3e42ee5e858e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:14.684370"
+    },
+    {
+      "urn": "urn:li:activity:7505512041005273089",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505512041005273089",
+      "email": "nishtha.taneja@bytespoke.com",
+      "thread_id": "1a0a3e439dd7ea4f",
+      "message_id": "1a0a3e439dd7ea4f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:17.140712"
+    },
+    {
+      "urn": "urn:li:activity:7505511261141553153",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505511261141553153",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0a3e44271459c5",
+      "message_id": "1a0a3e44271459c5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:19.627957"
+    },
+    {
+      "urn": "urn:li:activity:7505508233546219520",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505508233546219520",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "1a0a3e4544b1ef0e",
+      "message_id": "1a0a3e4544b1ef0e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:24.131359"
+    },
+    {
+      "urn": "urn:li:activity:7505506928307953664",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505506928307953664",
+      "email": "anusha.a@martinettechnologies.com",
+      "thread_id": "1a0a3e4649f52e29",
+      "message_id": "1a0a3e4649f52e29",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:28.427515"
+    },
+    {
+      "urn": "urn:li:activity:7505506312739467264",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505506312739467264",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "1a0a3e46ec0c22b3",
+      "message_id": "1a0a3e46ec0c22b3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:30.922165"
+    },
+    {
+      "urn": "urn:li:activity:7505488072059564032",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505488072059564032",
+      "email": "rupali.mallik@walsystems.com",
+      "thread_id": "1a0a3e47965963fa",
+      "message_id": "1a0a3e47965963fa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T12:37:33.394887"
     }
   ]
 }
