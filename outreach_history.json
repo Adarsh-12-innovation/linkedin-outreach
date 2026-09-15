@@ -860,7 +860,16 @@
     "urn:li:activity:7505514288598446080",
     "urn:li:activity:7505583850496995328",
     "urn:li:activity:7505570984616321024",
-    "urn:li:activity:7505561656341573633"
+    "urn:li:activity:7505561656341573633",
+    "urn:li:activity:7505623406227316737",
+    "urn:li:activity:7505622205574074368",
+    "urn:li:activity:7505620852068093952",
+    "urn:li:activity:7505619038195204097",
+    "urn:li:activity:7505617586286673920",
+    "urn:li:activity:7505617634936205312",
+    "urn:li:activity:7505617285475110912",
+    "urn:li:activity:7505617331881127937",
+    "urn:li:activity:7505610251782717441"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1365,7 +1374,11 @@
     "madhuri.k@technogigsolution.in",
     "jobs@iclivia.co.in",
     "m.wojturska@svitla.com",
-    "anvitha@kksoftwareassociates.com"
+    "anvitha@kksoftwareassociates.com",
+    "Keerthana.s@agodly.com",
+    "jobs@proximagenesis.com",
+    "prasitha.r@alchemysolutions.us",
+    "shruti.singh@cogentixsystems.co.in"
   ],
   "contacted_details": [
     {
@@ -10132,6 +10145,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-15T17:14:48.307666"
+    },
+    {
+      "urn": "urn:li:activity:7505623406227316737",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505623406227316737",
+      "email": "Keerthana.s@agodly.com",
+      "thread_id": "1a0a555f436276f9",
+      "message_id": "1a0a555f436276f9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T19:21:08.377802"
+    },
+    {
+      "urn": "urn:li:activity:7505622205574074368",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505622205574074368",
+      "email": "jobs@proximagenesis.com",
+      "thread_id": "1a0a55601c66fe57",
+      "message_id": "1a0a55601c66fe57",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T19:21:11.434375"
+    },
+    {
+      "urn": "urn:li:activity:7505620852068093952",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505620852068093952",
+      "email": "jobs@proximagenesis.com",
+      "thread_id": "1a0a556086e2250e",
+      "message_id": "1a0a556086e2250e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T19:21:13.612642"
+    },
+    {
+      "urn": "urn:li:activity:7505619038195204097",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505619038195204097",
+      "email": "prasitha.r@alchemysolutions.us",
+      "thread_id": "1a0a55613ef143da",
+      "message_id": "1a0a55613ef143da",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T19:21:15.888168"
+    },
+    {
+      "urn": "urn:li:activity:7505617586286673920",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505617586286673920",
+      "email": "tejaswi.banda@sstech.us",
+      "thread_id": "1a0a5561b1374edc",
+      "message_id": "1a0a5561b1374edc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T19:21:18.014457"
+    },
+    {
+      "urn": "urn:li:activity:7505617634936205312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505617634936205312",
+      "email": "tejaswi.banda@sstech.us",
+      "thread_id": "1a0a556277df21e5",
+      "message_id": "1a0a556277df21e5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T19:21:21.000689"
+    },
+    {
+      "urn": "urn:li:activity:7505617285475110912",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505617285475110912",
+      "email": "tejaswi.banda@sstech.us",
+      "thread_id": "1a0a5562f7063e8f",
+      "message_id": "1a0a5562f7063e8f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T19:21:23.113644"
+    },
+    {
+      "urn": "urn:li:activity:7505617331881127937",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505617331881127937",
+      "email": "tejaswi.banda@sstech.us",
+      "thread_id": "1a0a5563635780b1",
+      "message_id": "1a0a5563635780b1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T19:21:25.189491"
+    },
+    {
+      "urn": "urn:li:activity:7505610251782717441",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505610251782717441",
+      "email": "shruti.singh@cogentixsystems.co.in",
+      "thread_id": "1a0a55641fe1aa04",
+      "message_id": "1a0a55641fe1aa04",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T19:21:27.886549"
     }
   ]
 }
