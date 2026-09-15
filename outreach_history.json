@@ -848,7 +848,16 @@
     "urn:li:activity:7505508233546219520",
     "urn:li:activity:7505506928307953664",
     "urn:li:activity:7505506312739467264",
-    "urn:li:activity:7505488072059564032"
+    "urn:li:activity:7505488072059564032",
+    "urn:li:activity:7505545537748905984",
+    "urn:li:activity:7505536927304060929",
+    "urn:li:activity:7505532699810521089",
+    "urn:li:activity:7505531874404904960",
+    "urn:li:activity:7505528858767507457",
+    "urn:li:activity:7505529074891816960",
+    "urn:li:activity:7505528398752944130",
+    "urn:li:activity:7505524756750843904",
+    "urn:li:activity:7505514288598446080"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1348,7 +1357,10 @@
     "woohasri@hollbornrecruitment.co.uk",
     "shubham.sahu@luxten.in",
     "priyanka.jadhav@philodesigntech.com",
-    "rupali.mallik@walsystems.com"
+    "rupali.mallik@walsystems.com",
+    "arjun.yadav@jupiterailabs.com",
+    "madhuri.k@technogigsolution.in",
+    "jobs@iclivia.co.in"
   ],
   "contacted_details": [
     {
@@ -9993,6 +10005,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-15T12:37:33.394887"
+    },
+    {
+      "urn": "urn:li:activity:7505545537748905984",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505545537748905984",
+      "email": "arjun.yadav@jupiterailabs.com",
+      "thread_id": "1a0a46f6cfff6e8c",
+      "message_id": "1a0a46f6cfff6e8c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T15:09:19.997993"
+    },
+    {
+      "urn": "urn:li:activity:7505536927304060929",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505536927304060929",
+      "email": "mohit.gupta@rayosys.com",
+      "thread_id": "1a0a46f776d871b1",
+      "message_id": "1a0a46f776d871b1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T15:09:22.381029"
+    },
+    {
+      "urn": "urn:li:activity:7505532699810521089",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505532699810521089",
+      "email": "madhuri.k@technogigsolution.in",
+      "thread_id": "1a0a46f7fd8d6895",
+      "message_id": "1a0a46f7fd8d6895",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T15:09:24.533209"
+    },
+    {
+      "urn": "urn:li:activity:7505531874404904960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505531874404904960",
+      "email": "pallavi.singhal@cibronix.com",
+      "thread_id": "1a0a46f87a6ac850",
+      "message_id": "1a0a46f87a6ac850",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T15:09:26.856154"
+    },
+    {
+      "urn": "urn:li:activity:7505528858767507457",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505528858767507457",
+      "email": "jobs@iclivia.co.in",
+      "thread_id": "1a0a46f8f928cf33",
+      "message_id": "1a0a46f8f928cf33",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T15:09:29.059164"
+    },
+    {
+      "urn": "urn:li:activity:7505529074891816960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505529074891816960",
+      "email": "jobs@iclivia.co.in",
+      "thread_id": "1a0a46f99a7ab923",
+      "message_id": "1a0a46f99a7ab923",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T15:09:31.166536"
+    },
+    {
+      "urn": "urn:li:activity:7505528398752944130",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505528398752944130",
+      "email": "jobs@iclivia.co.in",
+      "thread_id": "1a0a46fa1295aafd",
+      "message_id": "1a0a46fa1295aafd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T15:09:33.287226"
+    },
+    {
+      "urn": "urn:li:activity:7505524756750843904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505524756750843904",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a0a46fb422f9c87",
+      "message_id": "1a0a46fb422f9c87",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T15:09:38.420471"
+    },
+    {
+      "urn": "urn:li:activity:7505514288598446080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505514288598446080",
+      "email": "nishtha.taneja@bytespoke.com",
+      "thread_id": "1a0a46fbffa8f9a7",
+      "message_id": "1a0a46fbffa8f9a7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-15T15:09:40.811647"
     }
   ]
 }
