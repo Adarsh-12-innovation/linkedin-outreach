@@ -896,7 +896,13 @@
     "urn:li:activity:7505933288293822464",
     "urn:li:activity:7505933009062268928",
     "urn:li:activity:7505926628741480448",
-    "urn:li:activity:7505906067277713408"
+    "urn:li:activity:7505906067277713408",
+    "urn:li:activity:7505961079324168192",
+    "urn:li:activity:7505960830170181632",
+    "urn:li:activity:7505960708275367937",
+    "urn:li:activity:7505955946314010624",
+    "urn:li:activity:7505942673569263616",
+    "urn:li:activity:7505932555767074816"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1421,7 +1427,12 @@
     "abhishek.jha@cloudinntech.co.in",
     "contact@anp32techsolutions.com",
     "intelliarcai@gmail.com",
-    "sirisha@softova.com"
+    "sirisha@softova.com",
+    "Sathwik.thokala@covenantglobaltech.com",
+    "Akhila.machunoori@covenantglobaltech.com",
+    "eeshwar.nyshadam@covenantglobaltech.com",
+    "sandeep@taln.cloud",
+    "sthakaare@dgntechnologies.com"
   ],
   "contacted_details": [
     {
@@ -9986,7 +9997,7 @@
       "email": "sweths.u@onasit.com",
       "thread_id": "1a0a3e415212fd14",
       "message_id": "1a0a3e415212fd14",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-15T12:37:07.850114"
     },
@@ -9996,9 +10007,10 @@
       "email": "woohasri@hollbornrecruitment.co.uk",
       "thread_id": "1a0a3e41d463b7d1",
       "message_id": "1a0a3e41d463b7d1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-15T12:37:10.143099"
+      "timestamp": "2026-09-15T12:37:10.143099",
+      "followup_timestamp": "2026-09-16T18:08:02.745410"
     },
     {
       "urn": "urn:li:activity:7505513331978461184",
@@ -10006,9 +10018,10 @@
       "email": "nishtha.taneja@bytespoke.com",
       "thread_id": "1a0a3e4267ab7a71",
       "message_id": "1a0a3e4267ab7a71",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-15T12:37:12.609131"
+      "timestamp": "2026-09-15T12:37:12.609131",
+      "followup_timestamp": "2026-09-16T18:08:05.015668"
     },
     {
       "urn": "urn:li:activity:7505512763335819265",
@@ -10016,9 +10029,10 @@
       "email": "shubham.sahu@luxten.in",
       "thread_id": "1a0a3e42ee5e858e",
       "message_id": "1a0a3e42ee5e858e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-15T12:37:14.684370"
+      "timestamp": "2026-09-15T12:37:14.684370",
+      "followup_timestamp": "2026-09-16T18:08:07.325672"
     },
     {
       "urn": "urn:li:activity:7505512041005273089",
@@ -10026,9 +10040,10 @@
       "email": "nishtha.taneja@bytespoke.com",
       "thread_id": "1a0a3e439dd7ea4f",
       "message_id": "1a0a3e439dd7ea4f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-15T12:37:17.140712"
+      "timestamp": "2026-09-15T12:37:17.140712",
+      "followup_timestamp": "2026-09-16T18:08:09.559027"
     },
     {
       "urn": "urn:li:activity:7505511261141553153",
@@ -10036,9 +10051,10 @@
       "email": "priyanka.jadhav@philodesigntech.com",
       "thread_id": "1a0a3e44271459c5",
       "message_id": "1a0a3e44271459c5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-15T12:37:19.627957"
+      "timestamp": "2026-09-15T12:37:19.627957",
+      "followup_timestamp": "2026-09-16T18:08:11.849879"
     },
     {
       "urn": "urn:li:activity:7505508233546219520",
@@ -10046,9 +10062,10 @@
       "email": "priyadarshini.u@martinettechnologies.com",
       "thread_id": "1a0a3e4544b1ef0e",
       "message_id": "1a0a3e4544b1ef0e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-15T12:37:24.131359"
+      "timestamp": "2026-09-15T12:37:24.131359",
+      "followup_timestamp": "2026-09-16T18:08:14.107493"
     },
     {
       "urn": "urn:li:activity:7505506928307953664",
@@ -10056,9 +10073,10 @@
       "email": "anusha.a@martinettechnologies.com",
       "thread_id": "1a0a3e4649f52e29",
       "message_id": "1a0a3e4649f52e29",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-15T12:37:28.427515"
+      "timestamp": "2026-09-15T12:37:28.427515",
+      "followup_timestamp": "2026-09-16T18:08:16.393803"
     },
     {
       "urn": "urn:li:activity:7505506312739467264",
@@ -10066,9 +10084,10 @@
       "email": "priyadarshini.u@martinettechnologies.com",
       "thread_id": "1a0a3e46ec0c22b3",
       "message_id": "1a0a3e46ec0c22b3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-15T12:37:30.922165"
+      "timestamp": "2026-09-15T12:37:30.922165",
+      "followup_timestamp": "2026-09-16T18:08:18.683213"
     },
     {
       "urn": "urn:li:activity:7505488072059564032",
@@ -10076,9 +10095,10 @@
       "email": "rupali.mallik@walsystems.com",
       "thread_id": "1a0a3e47965963fa",
       "message_id": "1a0a3e47965963fa",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-15T12:37:33.394887"
+      "timestamp": "2026-09-15T12:37:33.394887",
+      "followup_timestamp": "2026-09-16T18:08:21.016431"
     },
     {
       "urn": "urn:li:activity:7505545537748905984",
@@ -10559,6 +10579,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-16T17:06:54.394814"
+    },
+    {
+      "urn": "urn:li:activity:7505961079324168192",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505961079324168192",
+      "email": "Sathwik.thokala@covenantglobaltech.com",
+      "thread_id": "1a0aa3927f159ff9",
+      "message_id": "1a0aa3927f159ff9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T18:07:44.217514"
+    },
+    {
+      "urn": "urn:li:activity:7505960830170181632",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505960830170181632",
+      "email": "Akhila.machunoori@covenantglobaltech.com",
+      "thread_id": "1a0aa392f3c15636",
+      "message_id": "1a0aa392f3c15636",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T18:07:46.511578"
+    },
+    {
+      "urn": "urn:li:activity:7505960708275367937",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505960708275367937",
+      "email": "eeshwar.nyshadam@covenantglobaltech.com",
+      "thread_id": "1a0aa3939a75d1f8",
+      "message_id": "1a0aa3939a75d1f8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T18:07:48.804897"
+    },
+    {
+      "urn": "urn:li:activity:7505955946314010624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505955946314010624",
+      "email": "sandeep@taln.cloud",
+      "thread_id": "1a0aa394174639fa",
+      "message_id": "1a0aa394174639fa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T18:07:51.228744"
+    },
+    {
+      "urn": "urn:li:activity:7505942673569263616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505942673569263616",
+      "email": "sthakaare@dgntechnologies.com",
+      "thread_id": "1a0aa394c8edf3f4",
+      "message_id": "1a0aa394c8edf3f4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T18:07:54.382870"
+    },
+    {
+      "urn": "urn:li:activity:7505932555767074816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505932555767074816",
+      "email": "intelliarcai@gmail.com",
+      "thread_id": "1a0aa395cbfcda09",
+      "message_id": "1a0aa395cbfcda09",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T18:07:58.430356"
     }
   ]
 }
