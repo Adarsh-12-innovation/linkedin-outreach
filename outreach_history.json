@@ -869,7 +869,10 @@
     "urn:li:activity:7505617634936205312",
     "urn:li:activity:7505617285475110912",
     "urn:li:activity:7505617331881127937",
-    "urn:li:activity:7505610251782717441"
+    "urn:li:activity:7505610251782717441",
+    "urn:li:activity:7505844380423909376",
+    "urn:li:activity:7505843834401157120",
+    "urn:li:activity:7505739005808881664"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1378,7 +1381,9 @@
     "Keerthana.s@agodly.com",
     "jobs@proximagenesis.com",
     "prasitha.r@alchemysolutions.us",
-    "shruti.singh@cogentixsystems.co.in"
+    "shruti.singh@cogentixsystems.co.in",
+    "sanghavi.b@careersoftusa.com",
+    "gandhi.kumar@Zenithinfotek.com"
   ],
   "contacted_details": [
     {
@@ -9762,7 +9767,7 @@
       "email": "archanaa.srivastav@vitimcloud.com",
       "thread_id": "1a09f096f407526f",
       "message_id": "1a09f096f407526f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-14T13:59:51.264468"
     },
@@ -9772,7 +9777,7 @@
       "email": "info5@worktechnologies.co.in",
       "thread_id": "1a09f0982baa2e8f",
       "message_id": "1a09f0982baa2e8f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-14T13:59:56.431310"
     },
@@ -9782,7 +9787,7 @@
       "email": "archanaa.srivastav@vitimcloud.com",
       "thread_id": "1a09f098d6bc1dd2",
       "message_id": "1a09f098d6bc1dd2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-14T13:59:58.746361"
     },
@@ -9792,9 +9797,10 @@
       "email": "mohit.gupta@rayosys.com",
       "thread_id": "1a09f0995efa8d69",
       "message_id": "1a09f0995efa8d69",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-14T14:00:01.084359"
+      "timestamp": "2026-09-14T14:00:01.084359",
+      "followup_timestamp": "2026-09-16T10:01:39.566056"
     },
     {
       "urn": "urn:li:activity:7505158468555907072",
@@ -9802,9 +9808,10 @@
       "email": "abajpai@ncubeinfosolutions.com",
       "thread_id": "1a09f09a89975b4e",
       "message_id": "1a09f09a89975b4e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-14T14:00:05.666454"
+      "timestamp": "2026-09-14T14:00:05.666454",
+      "followup_timestamp": "2026-09-16T10:01:41.922399"
     },
     {
       "urn": "urn:li:activity:7505154697008148481",
@@ -9812,9 +9819,10 @@
       "email": "info@ozarksouth.com",
       "thread_id": "1a09f09b055d9a85",
       "message_id": "1a09f09b055d9a85",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-14T14:00:07.954850"
+      "timestamp": "2026-09-14T14:00:07.954850",
+      "followup_timestamp": "2026-09-16T10:01:44.266016"
     },
     {
       "urn": "urn:li:activity:7505147368942686208",
@@ -9822,7 +9830,7 @@
       "email": "hasini.rageesh@vitimcloud.com",
       "thread_id": "1a09f09b91c32bd1",
       "message_id": "1a09f09b91c32bd1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-14T14:00:10.070854"
     },
@@ -9832,7 +9840,7 @@
       "email": "hasini.rageesh@vitimcloud.com",
       "thread_id": "1a09f09c30905c3b",
       "message_id": "1a09f09c30905c3b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-14T14:00:12.459955"
     },
@@ -9842,7 +9850,7 @@
       "email": "hasini.rageesh@vitimcloud.com",
       "thread_id": "1a09f09cb40c8d66",
       "message_id": "1a09f09cb40c8d66",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-14T14:00:14.718722"
     },
@@ -9852,9 +9860,10 @@
       "email": "sunnyksourcing@gmail.com",
       "thread_id": "1a09f09db5094a77",
       "message_id": "1a09f09db5094a77",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-14T14:00:18.947506"
+      "timestamp": "2026-09-14T14:00:18.947506",
+      "followup_timestamp": "2026-09-16T10:01:48.230977"
     },
     {
       "urn": "urn:li:activity:7505271917403082753",
@@ -9862,9 +9871,10 @@
       "email": "Kiran@sapphiresoftwaresolutions.com",
       "thread_id": "1a0a0606c3c1408e",
       "message_id": "1a0a0606c3c1408e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-14T20:14:29.423417"
+      "timestamp": "2026-09-14T20:14:29.423417",
+      "followup_timestamp": "2026-09-16T10:01:50.889510"
     },
     {
       "urn": "urn:li:activity:7505267618874974209",
@@ -9872,9 +9882,10 @@
       "email": "Likithsai@rapinnotech.com",
       "thread_id": "1a0a0607a14f9fdd",
       "message_id": "1a0a0607a14f9fdd",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-14T20:14:32.375842"
+      "timestamp": "2026-09-14T20:14:32.375842",
+      "followup_timestamp": "2026-09-16T10:01:53.225789"
     },
     {
       "urn": "urn:li:activity:7505482020639330304",
@@ -10235,6 +10246,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-15T19:21:27.886549"
+    },
+    {
+      "urn": "urn:li:activity:7505844380423909376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505844380423909376",
+      "email": "amulya.b@careersoftusa.com",
+      "thread_id": "1a0a87bff52d2699",
+      "message_id": "1a0a87bff52d2699",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T10:01:30.725416"
+    },
+    {
+      "urn": "urn:li:activity:7505843834401157120",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505843834401157120",
+      "email": "sanghavi.b@careersoftusa.com",
+      "thread_id": "1a0a87c092e5cc47",
+      "message_id": "1a0a87c092e5cc47",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T10:01:33.064770"
+    },
+    {
+      "urn": "urn:li:activity:7505739005808881664",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505739005808881664",
+      "email": "gandhi.kumar@Zenithinfotek.com",
+      "thread_id": "1a0a87c13443cc29",
+      "message_id": "1a0a87c13443cc29",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T10:01:35.710464"
     }
   ]
 }
