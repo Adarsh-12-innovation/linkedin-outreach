@@ -885,7 +885,13 @@
     "urn:li:activity:7505858528176254976",
     "urn:li:activity:7505858051367804928",
     "urn:li:activity:7505852995855790080",
-    "urn:li:activity:7505852408963444736"
+    "urn:li:activity:7505852408963444736",
+    "urn:li:activity:7505916737083650049",
+    "urn:li:activity:7505912486315950080",
+    "urn:li:activity:7505910404175486977",
+    "urn:li:activity:7505903966812233728",
+    "urn:li:activity:7505901743461781504",
+    "urn:li:activity:7505898287707697152"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1406,7 +1412,9 @@
     "saiprasanthi.t@kairostech.com",
     "careers.florazurhrsolutions@gmail.com",
     "ajaysai.g@careersoftusa.com",
-    "hr@jbmstack.com"
+    "hr@jbmstack.com",
+    "abhishek.jha@cloudinntech.co.in",
+    "contact@anp32techsolutions.com"
   ],
   "contacted_details": [
     {
@@ -10429,6 +10437,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-16T13:23:48.306480"
+    },
+    {
+      "urn": "urn:li:activity:7505916737083650049",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505916737083650049",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a0a9a0dbd707cfa",
+      "message_id": "1a0a9a0dbd707cfa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T15:21:23.602058"
+    },
+    {
+      "urn": "urn:li:activity:7505912486315950080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505912486315950080",
+      "email": "abhishek.jha@cloudinntech.co.in",
+      "thread_id": "1a0a9a0ed8ec0aaa",
+      "message_id": "1a0a9a0ed8ec0aaa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T15:21:28.094494"
+    },
+    {
+      "urn": "urn:li:activity:7505910404175486977",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505910404175486977",
+      "email": "hr@havisoft.in",
+      "thread_id": "1a0a9a0fca6ae87d",
+      "message_id": "1a0a9a0fca6ae87d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T15:21:32.061593"
+    },
+    {
+      "urn": "urn:li:activity:7505903966812233728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505903966812233728",
+      "email": "contact@anp32techsolutions.com",
+      "thread_id": "1a0a9a10eb367d33",
+      "message_id": "1a0a9a10eb367d33",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T15:21:36.988884"
+    },
+    {
+      "urn": "urn:li:activity:7505901743461781504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505901743461781504",
+      "email": "sanjana.patel@huemot.com",
+      "thread_id": "1a0a9a1259d70d44",
+      "message_id": "1a0a9a1259d70d44",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T15:21:42.158159"
+    },
+    {
+      "urn": "urn:li:activity:7505898287707697152",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505898287707697152",
+      "email": "jobs@proximagenesis.com",
+      "thread_id": "1a0a9a12cc4b4e15",
+      "message_id": "1a0a9a12cc4b4e15",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T15:21:44.544426"
     }
   ]
 }
