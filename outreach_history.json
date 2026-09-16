@@ -872,7 +872,20 @@
     "urn:li:activity:7505610251782717441",
     "urn:li:activity:7505844380423909376",
     "urn:li:activity:7505843834401157120",
-    "urn:li:activity:7505739005808881664"
+    "urn:li:activity:7505739005808881664",
+    "urn:li:activity:7505892017001050113",
+    "urn:li:activity:7505885903496638464",
+    "urn:li:activity:7505883856164704256",
+    "urn:li:activity:7505877799325581312",
+    "urn:li:activity:7505876633703247872",
+    "urn:li:activity:7505874139845603328",
+    "urn:li:activity:7505867860460621824",
+    "urn:li:activity:7505862351548678144",
+    "urn:li:activity:7505858322181545985",
+    "urn:li:activity:7505858528176254976",
+    "urn:li:activity:7505858051367804928",
+    "urn:li:activity:7505852995855790080",
+    "urn:li:activity:7505852408963444736"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1383,7 +1396,17 @@
     "prasitha.r@alchemysolutions.us",
     "shruti.singh@cogentixsystems.co.in",
     "sanghavi.b@careersoftusa.com",
-    "gandhi.kumar@Zenithinfotek.com"
+    "gandhi.kumar@Zenithinfotek.com",
+    "ashraf.u@rrootshell.com",
+    "premkumar.valluri@infogine.com",
+    "talentscout@rudrashivconsultants.com",
+    "HR@vitimcloud.com",
+    "rajeswari@mindbrain.co.in",
+    "esha@mappoptimist.com",
+    "saiprasanthi.t@kairostech.com",
+    "careers.florazurhrsolutions@gmail.com",
+    "ajaysai.g@careersoftusa.com",
+    "hr@jbmstack.com"
   ],
   "contacted_details": [
     {
@@ -10276,6 +10299,136 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-16T10:01:35.710464"
+    },
+    {
+      "urn": "urn:li:activity:7505892017001050113",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505892017001050113",
+      "email": "sidhanta.n@careersoftusa.com",
+      "thread_id": "1a0a934c771ba50d",
+      "message_id": "1a0a934c771ba50d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:20.630740"
+    },
+    {
+      "urn": "urn:li:activity:7505885903496638464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505885903496638464",
+      "email": "ashraf.u@rrootshell.com",
+      "thread_id": "1a0a934d01d83e11",
+      "message_id": "1a0a934d01d83e11",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:22.829388"
+    },
+    {
+      "urn": "urn:li:activity:7505883856164704256",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505883856164704256",
+      "email": "premkumar.valluri@infogine.com",
+      "thread_id": "1a0a934d8a90b9b0",
+      "message_id": "1a0a934d8a90b9b0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:25.151758"
+    },
+    {
+      "urn": "urn:li:activity:7505877799325581312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505877799325581312",
+      "email": "talentscout@rudrashivconsultants.com",
+      "thread_id": "1a0a934e5a16ef3b",
+      "message_id": "1a0a934e5a16ef3b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:27.891372"
+    },
+    {
+      "urn": "urn:li:activity:7505876633703247872",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505876633703247872",
+      "email": "HR@vitimcloud.com",
+      "thread_id": "1a0a934ed2f2c8da",
+      "message_id": "1a0a934ed2f2c8da",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:29.950835"
+    },
+    {
+      "urn": "urn:li:activity:7505874139845603328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505874139845603328",
+      "email": "rajeswari@mindbrain.co.in",
+      "thread_id": "1a0a934f5e5e2e78",
+      "message_id": "1a0a934f5e5e2e78",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:32.104492"
+    },
+    {
+      "urn": "urn:li:activity:7505867860460621824",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505867860460621824",
+      "email": "esha@mappoptimist.com",
+      "thread_id": "1a0a934feac2cbdb",
+      "message_id": "1a0a934feac2cbdb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:34.500435"
+    },
+    {
+      "urn": "urn:li:activity:7505862351548678144",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505862351548678144",
+      "email": "saiprasanthi.t@kairostech.com",
+      "thread_id": "1a0a93507f5a0432",
+      "message_id": "1a0a93507f5a0432",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:36.609697"
+    },
+    {
+      "urn": "urn:li:activity:7505858322181545985",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505858322181545985",
+      "email": "careers.florazurhrsolutions@gmail.com",
+      "thread_id": "1a0a9350eb6f5aa0",
+      "message_id": "1a0a9350eb6f5aa0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:39.030384"
+    },
+    {
+      "urn": "urn:li:activity:7505858528176254976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505858528176254976",
+      "email": "ajaysai.g@careersoftusa.com",
+      "thread_id": "1a0a935190e0f497",
+      "message_id": "1a0a935190e0f497",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:41.226563"
+    },
+    {
+      "urn": "urn:li:activity:7505858051367804928",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505858051367804928",
+      "email": "careers.florazurhrsolutions@gmail.com",
+      "thread_id": "1a0a935218399e1a",
+      "message_id": "1a0a935218399e1a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:43.696356"
+    },
+    {
+      "urn": "urn:li:activity:7505852995855790080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505852995855790080",
+      "email": "hr@jbmstack.com",
+      "thread_id": "1a0a9352b5cfdad1",
+      "message_id": "1a0a9352b5cfdad1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:45.926202"
+    },
+    {
+      "urn": "urn:li:activity:7505852408963444736",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505852408963444736",
+      "email": "careers.florazurhrsolutions@gmail.com",
+      "thread_id": "1a0a935345b49abd",
+      "message_id": "1a0a935345b49abd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-16T13:23:48.306480"
     }
   ]
 }
