@@ -906,7 +906,8 @@
     "urn:li:activity:7506190519161622529",
     "urn:li:activity:7506190361204170752",
     "urn:li:activity:7506184999885529090",
-    "urn:li:activity:7506184394039095296"
+    "urn:li:activity:7506184394039095296",
+    "urn:li:activity:7506246871024078848"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1438,7 +1439,8 @@
     "sandeep@taln.cloud",
     "sthakaare@dgntechnologies.com",
     "devi.suresh@midyaconsulting.com",
-    "eshwar.p@bluerose-tech.com"
+    "eshwar.p@bluerose-tech.com",
+    "apply@purplecode.ae"
   ],
   "contacted_details": [
     {
@@ -10706,6 +10708,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-17T10:13:26.512503"
+    },
+    {
+      "urn": "urn:li:activity:7506246871024078848",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506246871024078848",
+      "email": "apply@purplecode.ae",
+      "thread_id": "1a0ae5758033d94c",
+      "message_id": "1a0ae5758033d94c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:19:11.371159"
     }
   ]
 }
