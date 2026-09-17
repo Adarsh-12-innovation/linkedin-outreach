@@ -907,7 +907,16 @@
     "urn:li:activity:7506190361204170752",
     "urn:li:activity:7506184999885529090",
     "urn:li:activity:7506184394039095296",
-    "urn:li:activity:7506246871024078848"
+    "urn:li:activity:7506246871024078848",
+    "urn:li:activity:7506246622138253312",
+    "urn:li:activity:7506244732021538816",
+    "urn:li:activity:7506242003215720449",
+    "urn:li:activity:7506241267274801152",
+    "urn:li:activity:7506240806500982788",
+    "urn:li:activity:7506240361518759936",
+    "urn:li:activity:7506234338074615808",
+    "urn:li:activity:7506224094863077376",
+    "urn:li:activity:7506215928733302786"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1440,7 +1449,11 @@
     "sthakaare@dgntechnologies.com",
     "devi.suresh@midyaconsulting.com",
     "eshwar.p@bluerose-tech.com",
-    "apply@purplecode.ae"
+    "apply@purplecode.ae",
+    "aditi.s@techmantraglobal.com",
+    "pratikshyanibsbridge@gmail.com",
+    "saibhargavi@infogine.com",
+    "amrut@quantumcentric.ai"
   ],
   "contacted_details": [
     {
@@ -10718,6 +10731,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-17T13:19:11.371159"
+    },
+    {
+      "urn": "urn:li:activity:7506246622138253312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506246622138253312",
+      "email": "aditi.s@techmantraglobal.com",
+      "thread_id": "1a0ae5bb540594bb",
+      "message_id": "1a0ae5bb540594bb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:23:56.808295"
+    },
+    {
+      "urn": "urn:li:activity:7506244732021538816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506244732021538816",
+      "email": "apply@purplecode.ae",
+      "thread_id": "1a0ae5bbce055b63",
+      "message_id": "1a0ae5bbce055b63",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:23:59.125263"
+    },
+    {
+      "urn": "urn:li:activity:7506242003215720449",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506242003215720449",
+      "email": "pratikshyanibsbridge@gmail.com",
+      "thread_id": "1a0ae5bc699045e3",
+      "message_id": "1a0ae5bc699045e3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:24:01.421631"
+    },
+    {
+      "urn": "urn:li:activity:7506241267274801152",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506241267274801152",
+      "email": "pratikshyanibsbridge@gmail.com",
+      "thread_id": "1a0ae5bce63bb182",
+      "message_id": "1a0ae5bce63bb182",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:24:03.669230"
+    },
+    {
+      "urn": "urn:li:activity:7506240806500982788",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506240806500982788",
+      "email": "pratikshyanibsbridge@gmail.com",
+      "thread_id": "1a0ae5bd97f013c9",
+      "message_id": "1a0ae5bd97f013c9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:24:05.891077"
+    },
+    {
+      "urn": "urn:li:activity:7506240361518759936",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506240361518759936",
+      "email": "pratikshyanibsbridge@gmail.com",
+      "thread_id": "1a0ae5be0fb436a4",
+      "message_id": "1a0ae5be0fb436a4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:24:08.109525"
+    },
+    {
+      "urn": "urn:li:activity:7506234338074615808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506234338074615808",
+      "email": "saibhargavi@infogine.com",
+      "thread_id": "1a0ae5be95d83587",
+      "message_id": "1a0ae5be95d83587",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:24:10.139531"
+    },
+    {
+      "urn": "urn:li:activity:7506224094863077376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506224094863077376",
+      "email": "Akhila.machunoori@covenantglobaltech.com",
+      "thread_id": "1a0ae5bf04871bf1",
+      "message_id": "1a0ae5bf04871bf1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:24:12.332982"
+    },
+    {
+      "urn": "urn:li:activity:7506215928733302786",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506215928733302786",
+      "email": "amrut@quantumcentric.ai",
+      "thread_id": "1a0ae5bf8192937f",
+      "message_id": "1a0ae5bf8192937f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T13:24:14.413588"
     }
   ]
 }
