@@ -916,7 +916,13 @@
     "urn:li:activity:7506240361518759936",
     "urn:li:activity:7506234338074615808",
     "urn:li:activity:7506224094863077376",
-    "urn:li:activity:7506215928733302786"
+    "urn:li:activity:7506215928733302786",
+    "urn:li:activity:7506283789480845312",
+    "urn:li:activity:7506276735110479872",
+    "urn:li:activity:7506275176322621440",
+    "urn:li:activity:7506266882899902465",
+    "urn:li:activity:7506262883626926080",
+    "urn:li:activity:7506261654062514176"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1453,7 +1459,12 @@
     "aditi.s@techmantraglobal.com",
     "pratikshyanibsbridge@gmail.com",
     "saibhargavi@infogine.com",
-    "amrut@quantumcentric.ai"
+    "amrut@quantumcentric.ai",
+    "jaswanthi.sanku@infogine.com",
+    "krishnat@mahasanaits.com",
+    "jagriti.mishra.hr@gmail.com",
+    "gaurav@solulab.co",
+    "contact@iaretes.in"
   ],
   "contacted_details": [
     {
@@ -10358,9 +10369,10 @@
       "email": "amulya.b@careersoftusa.com",
       "thread_id": "1a0a87bff52d2699",
       "message_id": "1a0a87bff52d2699",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-16T10:01:30.725416"
+      "timestamp": "2026-09-16T10:01:30.725416",
+      "followup_timestamp": "2026-09-17T15:32:07.551934"
     },
     {
       "urn": "urn:li:activity:7505843834401157120",
@@ -10368,9 +10380,10 @@
       "email": "sanghavi.b@careersoftusa.com",
       "thread_id": "1a0a87c092e5cc47",
       "message_id": "1a0a87c092e5cc47",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-16T10:01:33.064770"
+      "timestamp": "2026-09-16T10:01:33.064770",
+      "followup_timestamp": "2026-09-17T15:32:09.822745"
     },
     {
       "urn": "urn:li:activity:7505739005808881664",
@@ -10378,9 +10391,10 @@
       "email": "gandhi.kumar@Zenithinfotek.com",
       "thread_id": "1a0a87c13443cc29",
       "message_id": "1a0a87c13443cc29",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-16T10:01:35.710464"
+      "timestamp": "2026-09-16T10:01:35.710464",
+      "followup_timestamp": "2026-09-17T15:32:12.180652"
     },
     {
       "urn": "urn:li:activity:7505892017001050113",
@@ -10821,6 +10835,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-17T13:24:14.413588"
+    },
+    {
+      "urn": "urn:li:activity:7506283789480845312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506283789480845312",
+      "email": "jaswanthi.sanku@infogine.com",
+      "thread_id": "1a0aed0c3e10ecfa",
+      "message_id": "1a0aed0c3e10ecfa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T15:31:47.402194"
+    },
+    {
+      "urn": "urn:li:activity:7506276735110479872",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506276735110479872",
+      "email": "krishnat@mahasanaits.com",
+      "thread_id": "1a0aed0db1731d5c",
+      "message_id": "1a0aed0db1731d5c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T15:31:53.168747"
+    },
+    {
+      "urn": "urn:li:activity:7506275176322621440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506275176322621440",
+      "email": "krishnat@mahasanaits.com",
+      "thread_id": "1a0aed0efec42b61",
+      "message_id": "1a0aed0efec42b61",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T15:31:58.459582"
+    },
+    {
+      "urn": "urn:li:activity:7506266882899902465",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506266882899902465",
+      "email": "jagriti.mishra.hr@gmail.com",
+      "thread_id": "1a0aed0f836b2426",
+      "message_id": "1a0aed0f836b2426",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T15:32:00.937213"
+    },
+    {
+      "urn": "urn:li:activity:7506262883626926080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506262883626926080",
+      "email": "gaurav@solulab.co",
+      "thread_id": "1a0aed100525d8e5",
+      "message_id": "1a0aed100525d8e5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T15:32:03.050577"
+    },
+    {
+      "urn": "urn:li:activity:7506261654062514176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506261654062514176",
+      "email": "contact@iaretes.in",
+      "thread_id": "1a0aed1082523fe2",
+      "message_id": "1a0aed1082523fe2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-17T15:32:05.153856"
     }
   ]
 }
