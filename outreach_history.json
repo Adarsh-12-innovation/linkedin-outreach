@@ -937,7 +937,13 @@
     "urn:li:activity:7506583810789228544",
     "urn:li:activity:7506580744979447808",
     "urn:li:activity:7506575704508039168",
-    "urn:li:activity:7506571767197650944"
+    "urn:li:activity:7506571767197650944",
+    "urn:li:activity:7506631348690878466",
+    "urn:li:activity:7506607639213154304",
+    "urn:li:activity:7506607678098411521",
+    "urn:li:activity:7506607758243336192",
+    "urn:li:activity:7506606386555015168",
+    "urn:li:activity:7506591750896144384"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1492,7 +1498,10 @@
     "harishhsamrajan@outlook.com",
     "vasu@rarefiedit.com",
     "kalyan@intellisofttech.com",
-    "Kadagaladevi30@gmail.com"
+    "Kadagaladevi30@gmail.com",
+    "himanshi.rawat@legaledgehr.co",
+    "recruiting.meenakshi@gmail.com",
+    "rajdeep.singh@sumerusolutions.com"
   ],
   "contacted_details": [
     {
@@ -11100,6 +11109,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-18T12:12:22.351473"
+    },
+    {
+      "urn": "urn:li:activity:7506631348690878466",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506631348690878466",
+      "email": "himanshi.rawat@legaledgehr.co",
+      "thread_id": "1a0b3b1468805cc2",
+      "message_id": "1a0b3b1468805cc2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T14:15:34.638313"
+    },
+    {
+      "urn": "urn:li:activity:7506607639213154304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506607639213154304",
+      "email": "praveen@hirenestworkforce.com",
+      "thread_id": "1a0b3b1524f9b288",
+      "message_id": "1a0b3b1524f9b288",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T14:15:37.464641"
+    },
+    {
+      "urn": "urn:li:activity:7506607678098411521",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506607678098411521",
+      "email": "praveen@hirenestworkforce.com",
+      "thread_id": "1a0b3b15a9872fb6",
+      "message_id": "1a0b3b15a9872fb6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T14:15:39.840491"
+    },
+    {
+      "urn": "urn:li:activity:7506607758243336192",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506607758243336192",
+      "email": "praveen@hirenestworkforce.com",
+      "thread_id": "1a0b3b16555c2692",
+      "message_id": "1a0b3b16555c2692",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T14:15:42.147373"
+    },
+    {
+      "urn": "urn:li:activity:7506606386555015168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506606386555015168",
+      "email": "recruiting.meenakshi@gmail.com",
+      "thread_id": "1a0b3b16c213a90b",
+      "message_id": "1a0b3b16c213a90b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T14:15:44.376402"
+    },
+    {
+      "urn": "urn:li:activity:7506591750896144384",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506591750896144384",
+      "email": "rajdeep.singh@sumerusolutions.com",
+      "thread_id": "1a0b3b17ccf1578f",
+      "message_id": "1a0b3b17ccf1578f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T14:15:48.130305"
     }
   ]
 }
