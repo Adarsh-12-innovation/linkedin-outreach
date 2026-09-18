@@ -943,7 +943,11 @@
     "urn:li:activity:7506607678098411521",
     "urn:li:activity:7506607758243336192",
     "urn:li:activity:7506606386555015168",
-    "urn:li:activity:7506591750896144384"
+    "urn:li:activity:7506591750896144384",
+    "urn:li:activity:7506681913693175809",
+    "urn:li:activity:7506675100180508672",
+    "urn:li:activity:7506674545064558592",
+    "urn:li:activity:7506637083642322946"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1501,7 +1505,10 @@
     "Kadagaladevi30@gmail.com",
     "himanshi.rawat@legaledgehr.co",
     "recruiting.meenakshi@gmail.com",
-    "rajdeep.singh@sumerusolutions.com"
+    "rajdeep.singh@sumerusolutions.com",
+    "Vimal.kashyap@bytespoke.com",
+    "ragini.rajput@huemot.com",
+    "swetha.patapati@enfycon.com"
   ],
   "contacted_details": [
     {
@@ -10766,9 +10773,10 @@
       "email": "devi.suresh@midyaconsulting.com",
       "thread_id": "1a0adad2b506ae24",
       "message_id": "1a0adad2b506ae24",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-17T10:13:18.455994"
+      "timestamp": "2026-09-17T10:13:18.455994",
+      "followup_timestamp": "2026-09-18T17:59:30.176010"
     },
     {
       "urn": "urn:li:activity:7506190361204170752",
@@ -10776,7 +10784,7 @@
       "email": "devi.suresh@midyaconsulting.com",
       "thread_id": "1a0adad3554dafab",
       "message_id": "1a0adad3554dafab",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-17T10:13:20.595236"
     },
@@ -10786,7 +10794,7 @@
       "email": "eshwar.p@bluerose-tech.com",
       "thread_id": "1a0adad3eebd180e",
       "message_id": "1a0adad3eebd180e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-17T10:13:23.470373"
     },
@@ -10796,7 +10804,7 @@
       "email": "eshwar.p@bluerose-tech.com",
       "thread_id": "1a0adad4bb124a95",
       "message_id": "1a0adad4bb124a95",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-17T10:13:26.512503"
     },
@@ -11169,6 +11177,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-18T14:15:48.130305"
+    },
+    {
+      "urn": "urn:li:activity:7506681913693175809",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506681913693175809",
+      "email": "Vimal.kashyap@bytespoke.com",
+      "thread_id": "1a0b47e071b041cc",
+      "message_id": "1a0b47e071b041cc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T17:59:13.244469"
+    },
+    {
+      "urn": "urn:li:activity:7506675100180508672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506675100180508672",
+      "email": "ragini.rajput@huemot.com",
+      "thread_id": "1a0b47e1a1e7d8c2",
+      "message_id": "1a0b47e1a1e7d8c2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T17:59:18.256823"
+    },
+    {
+      "urn": "urn:li:activity:7506674545064558592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506674545064558592",
+      "email": "sanjana.patel@huemot.com",
+      "thread_id": "1a0b47e2ed925b4c",
+      "message_id": "1a0b47e2ed925b4c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T17:59:23.181972"
+    },
+    {
+      "urn": "urn:li:activity:7506637083642322946",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506637083642322946",
+      "email": "swetha.patapati@enfycon.com",
+      "thread_id": "1a0b47e41a0f5f9c",
+      "message_id": "1a0b47e41a0f5f9c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T17:59:27.867731"
     }
   ]
 }
