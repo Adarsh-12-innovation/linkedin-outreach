@@ -929,7 +929,15 @@
     "urn:li:activity:7506320689663229953",
     "urn:li:activity:7506566399268470784",
     "urn:li:activity:7506475526744621057",
-    "urn:li:activity:7506441581575430144"
+    "urn:li:activity:7506441581575430144",
+    "urn:li:activity:7506601599365169152",
+    "urn:li:activity:7506593260883116032",
+    "urn:li:activity:7506593042917687296",
+    "urn:li:activity:7506588766719963136",
+    "urn:li:activity:7506583810789228544",
+    "urn:li:activity:7506580744979447808",
+    "urn:li:activity:7506575704508039168",
+    "urn:li:activity:7506571767197650944"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1478,7 +1486,13 @@
     "pureitsoln@gmail.com",
     "sowmya.b@people-prime.com",
     "akash.chaudhary@keasis.com",
-    "Akash.s@dexpertsinc.com"
+    "Akash.s@dexpertsinc.com",
+    "Mubina@ravinsol.com",
+    "careers@onmogsoftsol.com",
+    "harishhsamrajan@outlook.com",
+    "vasu@rarefiedit.com",
+    "kalyan@intellisofttech.com",
+    "Kadagaladevi30@gmail.com"
   ],
   "contacted_details": [
     {
@@ -11006,6 +11020,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-18T10:08:00.772009"
+    },
+    {
+      "urn": "urn:li:activity:7506601599365169152",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506601599365169152",
+      "email": "Mubina@ravinsol.com",
+      "thread_id": "1a0b34029cd48eb6",
+      "message_id": "1a0b34029cd48eb6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T12:12:01.067187"
+    },
+    {
+      "urn": "urn:li:activity:7506593260883116032",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506593260883116032",
+      "email": "careers@onmogsoftsol.com",
+      "thread_id": "1a0b3403c4182780",
+      "message_id": "1a0b3403c4182780",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T12:12:06.058891"
+    },
+    {
+      "urn": "urn:li:activity:7506593042917687296",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506593042917687296",
+      "email": "careers@onmogsoftsol.com",
+      "thread_id": "1a0b3404eb7388e3",
+      "message_id": "1a0b3404eb7388e3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T12:12:10.700251"
+    },
+    {
+      "urn": "urn:li:activity:7506588766719963136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506588766719963136",
+      "email": "harishhsamrajan@outlook.com",
+      "thread_id": "1a0b3405659ce989",
+      "message_id": "1a0b3405659ce989",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T12:12:12.969516"
+    },
+    {
+      "urn": "urn:li:activity:7506583810789228544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506583810789228544",
+      "email": "vasu@rarefiedit.com",
+      "thread_id": "1a0b3405fb1f8b50",
+      "message_id": "1a0b3405fb1f8b50",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T12:12:15.813698"
+    },
+    {
+      "urn": "urn:li:activity:7506580744979447808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506580744979447808",
+      "email": "kalyan@intellisofttech.com",
+      "thread_id": "1a0b3406b0e5df06",
+      "message_id": "1a0b3406b0e5df06",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T12:12:17.969260"
+    },
+    {
+      "urn": "urn:li:activity:7506575704508039168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506575704508039168",
+      "email": "sanghavi.b@careersoftusa.com",
+      "thread_id": "1a0b34072dbdc97e",
+      "message_id": "1a0b34072dbdc97e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T12:12:20.071936"
+    },
+    {
+      "urn": "urn:li:activity:7506571767197650944",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506571767197650944",
+      "email": "Kadagaladevi30@gmail.com",
+      "thread_id": "1a0b3407af0234c5",
+      "message_id": "1a0b3407af0234c5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-18T12:12:22.351473"
     }
   ]
 }
