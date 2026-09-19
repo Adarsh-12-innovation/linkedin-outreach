@@ -957,7 +957,11 @@
     "urn:li:activity:7506952374847082497",
     "urn:li:activity:7506824105887809536",
     "urn:li:activity:7506819256278335488",
-    "urn:li:activity:7506815109642702848"
+    "urn:li:activity:7506815109642702848",
+    "urn:li:activity:7506979727879073792",
+    "urn:li:activity:7506978268345147392",
+    "urn:li:activity:7506968514235166720",
+    "urn:li:activity:7506967619607007232"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1527,7 +1531,9 @@
     "shivanshglobalresources@gmail.com",
     "naveen@synergyassure.com",
     "muktis@recruizellc.com",
-    "jack@americanitsystems.com"
+    "jack@americanitsystems.com",
+    "dsstradeserve@gmail.com",
+    "ashrithuppala80@gmail.com"
   ],
   "contacted_details": [
     {
@@ -11053,9 +11059,10 @@
       "email": "sowmya.b@people-prime.com",
       "thread_id": "1a0b2ce8ea1c06a4",
       "message_id": "1a0b2ce8ea1c06a4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-18T10:07:56.088850"
+      "timestamp": "2026-09-18T10:07:56.088850",
+      "followup_timestamp": "2026-09-19T16:19:47.203125"
     },
     {
       "urn": "urn:li:activity:7506475526744621057",
@@ -11063,9 +11070,10 @@
       "email": "akash.chaudhary@keasis.com",
       "thread_id": "1a0b2ce99f973d6e",
       "message_id": "1a0b2ce99f973d6e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-18T10:07:58.500803"
+      "timestamp": "2026-09-18T10:07:58.500803",
+      "followup_timestamp": "2026-09-19T16:19:50.575409"
     },
     {
       "urn": "urn:li:activity:7506441581575430144",
@@ -11073,9 +11081,10 @@
       "email": "Akash.s@dexpertsinc.com",
       "thread_id": "1a0b2cea0a3ce60c",
       "message_id": "1a0b2cea0a3ce60c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-18T10:08:00.772009"
+      "timestamp": "2026-09-18T10:08:00.772009",
+      "followup_timestamp": "2026-09-19T16:19:53.958411"
     },
     {
       "urn": "urn:li:activity:7506601599365169152",
@@ -11356,6 +11365,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-19T12:10:25.038546"
+    },
+    {
+      "urn": "urn:li:activity:7506979727879073792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506979727879073792",
+      "email": "mohit.gupta@rayosys.com",
+      "thread_id": "1a0b9491b5ef288e",
+      "message_id": "1a0b9491b5ef288e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-19T16:19:29.683777"
+    },
+    {
+      "urn": "urn:li:activity:7506978268345147392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506978268345147392",
+      "email": "dsstradeserve@gmail.com",
+      "thread_id": "1a0b949256dda679",
+      "message_id": "1a0b949256dda679",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-19T16:19:32.398859"
+    },
+    {
+      "urn": "urn:li:activity:7506968514235166720",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506968514235166720",
+      "email": "yashika.jain@rayosys.com",
+      "thread_id": "1a0b9493540ea079",
+      "message_id": "1a0b9493540ea079",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-19T16:19:36.496099"
+    },
+    {
+      "urn": "urn:li:activity:7506967619607007232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7506967619607007232",
+      "email": "ashrithuppala80@gmail.com",
+      "thread_id": "1a0b9495455b736c",
+      "message_id": "1a0b9495455b736c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-19T16:19:44.894421"
     }
   ]
 }
