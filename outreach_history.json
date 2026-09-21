@@ -971,7 +971,14 @@
     "urn:li:activity:7507675574128201728",
     "urn:li:activity:7507672640531185664",
     "urn:li:activity:7507666133580218371",
-    "urn:li:activity:7507664468039020544"
+    "urn:li:activity:7507664468039020544",
+    "urn:li:activity:7507716175804416000",
+    "urn:li:activity:7507711481791283200",
+    "urn:li:activity:7507711213527744513",
+    "urn:li:activity:7507699499738247168",
+    "urn:li:activity:7507697742052417538",
+    "urn:li:activity:7507697750529200128",
+    "urn:li:activity:7507695382739529728"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1548,7 +1555,12 @@
     "chouhanlavishka1@gmail.com",
     "samuel@fourwaysconsulting.com",
     "eshwar_p@bluerose-tech.com",
-    "aishwarya@ihrsindia.co.in"
+    "aishwarya@ihrsindia.co.in",
+    "abhishek.das@intelliprogroup.com",
+    "careers@ilytixservices.com",
+    "srinithi@delectusnetworks.com",
+    "rojarani.k@yalantistech.com",
+    "hr@zynotexus.com"
   ],
   "contacted_details": [
     {
@@ -11552,6 +11564,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-21T12:08:37.807144"
+    },
+    {
+      "urn": "urn:li:activity:7507716175804416000",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507716175804416000",
+      "email": "abhishek.das@intelliprogroup.com",
+      "thread_id": "1a0c32435ece0c68",
+      "message_id": "1a0c32435ece0c68",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T14:15:25.309033"
+    },
+    {
+      "urn": "urn:li:activity:7507711481791283200",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507711481791283200",
+      "email": "careers@ilytixservices.com",
+      "thread_id": "1a0c32442f947a53",
+      "message_id": "1a0c32442f947a53",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T14:15:28.588834"
+    },
+    {
+      "urn": "urn:li:activity:7507711213527744513",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507711213527744513",
+      "email": "srinithi@delectusnetworks.com",
+      "thread_id": "1a0c32454c35db8c",
+      "message_id": "1a0c32454c35db8c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T14:15:33.484581"
+    },
+    {
+      "urn": "urn:li:activity:7507699499738247168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507699499738247168",
+      "email": "rojarani.k@yalantistech.com",
+      "thread_id": "1a0c3245f9077c16",
+      "message_id": "1a0c3245f9077c16",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T14:15:36.148723"
+    },
+    {
+      "urn": "urn:li:activity:7507697742052417538",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507697742052417538",
+      "email": "hr@zynotexus.com",
+      "thread_id": "1a0c3246913f3e45",
+      "message_id": "1a0c3246913f3e45",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T14:15:38.375171"
+    },
+    {
+      "urn": "urn:li:activity:7507697750529200128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507697750529200128",
+      "email": "hr@zynotexus.com",
+      "thread_id": "1a0c32471a47eabb",
+      "message_id": "1a0c32471a47eabb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T14:15:40.510970"
+    },
+    {
+      "urn": "urn:li:activity:7507695382739529728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507695382739529728",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a0c3247bdd7cb33",
+      "message_id": "1a0c3247bdd7cb33",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T14:15:42.896940"
     }
   ]
 }
