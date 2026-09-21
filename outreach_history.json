@@ -966,7 +966,12 @@
     "urn:li:activity:7506977571306295296",
     "urn:li:activity:7507658624555659264",
     "urn:li:activity:7507657068816920577",
-    "urn:li:activity:7507632333047484417"
+    "urn:li:activity:7507632333047484417",
+    "urn:li:activity:7507681116066209792",
+    "urn:li:activity:7507675574128201728",
+    "urn:li:activity:7507672640531185664",
+    "urn:li:activity:7507666133580218371",
+    "urn:li:activity:7507664468039020544"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1540,7 +1545,10 @@
     "dsstradeserve@gmail.com",
     "ashrithuppala80@gmail.com",
     "salma@digivancesol.com",
-    "chouhanlavishka1@gmail.com"
+    "chouhanlavishka1@gmail.com",
+    "samuel@fourwaysconsulting.com",
+    "eshwar_p@bluerose-tech.com",
+    "aishwarya@ihrsindia.co.in"
   ],
   "contacted_details": [
     {
@@ -11494,6 +11502,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-21T10:13:38.912392"
+    },
+    {
+      "urn": "urn:li:activity:7507681116066209792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507681116066209792",
+      "email": "samuel@fourwaysconsulting.com",
+      "thread_id": "1a0c2aff71b174f1",
+      "message_id": "1a0c2aff71b174f1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T12:08:27.272451"
+    },
+    {
+      "urn": "urn:li:activity:7507675574128201728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507675574128201728",
+      "email": "eshwar_p@bluerose-tech.com",
+      "thread_id": "1a0c2b0047fb35b9",
+      "message_id": "1a0c2b0047fb35b9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T12:08:30.605541"
+    },
+    {
+      "urn": "urn:li:activity:7507672640531185664",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507672640531185664",
+      "email": "aishwarya@ihrsindia.co.in",
+      "thread_id": "1a0c2b00ef59dc41",
+      "message_id": "1a0c2b00ef59dc41",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T12:08:33.331255"
+    },
+    {
+      "urn": "urn:li:activity:7507666133580218371",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507666133580218371",
+      "email": "kalyan@intellisofttech.com",
+      "thread_id": "1a0c2b019b282a46",
+      "message_id": "1a0c2b019b282a46",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T12:08:35.659160"
+    },
+    {
+      "urn": "urn:li:activity:7507664468039020544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507664468039020544",
+      "email": "sangeeta.b@careersoftusa.com",
+      "thread_id": "1a0c2b021ca87ea7",
+      "message_id": "1a0c2b021ca87ea7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T12:08:37.807144"
     }
   ]
 }
