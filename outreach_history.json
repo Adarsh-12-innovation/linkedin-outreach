@@ -978,7 +978,9 @@
     "urn:li:activity:7507699499738247168",
     "urn:li:activity:7507697742052417538",
     "urn:li:activity:7507697750529200128",
-    "urn:li:activity:7507695382739529728"
+    "urn:li:activity:7507695382739529728",
+    "urn:li:activity:7507732435099643904",
+    "urn:li:activity:7507696250981507072"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1560,7 +1562,9 @@
     "careers@ilytixservices.com",
     "srinithi@delectusnetworks.com",
     "rojarani.k@yalantistech.com",
-    "hr@zynotexus.com"
+    "hr@zynotexus.com",
+    "ankita.asrani@covetus.com",
+    "kashish@tasknera.com"
   ],
   "contacted_details": [
     {
@@ -11634,6 +11638,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-21T14:15:42.896940"
+    },
+    {
+      "urn": "urn:li:activity:7507732435099643904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507732435099643904",
+      "email": "ankita.asrani@covetus.com",
+      "thread_id": "1a0c3931c17e0126",
+      "message_id": "1a0c3931c17e0126",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T16:16:33.411923"
+    },
+    {
+      "urn": "urn:li:activity:7507696250981507072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507696250981507072",
+      "email": "kashish@tasknera.com",
+      "thread_id": "1a0c39327fcad1d6",
+      "message_id": "1a0c39327fcad1d6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T16:16:35.920665"
     }
   ]
 }
