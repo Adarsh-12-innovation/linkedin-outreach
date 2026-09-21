@@ -980,7 +980,11 @@
     "urn:li:activity:7507697750529200128",
     "urn:li:activity:7507695382739529728",
     "urn:li:activity:7507732435099643904",
-    "urn:li:activity:7507696250981507072"
+    "urn:li:activity:7507696250981507072",
+    "urn:li:activity:7507763087010226176",
+    "urn:li:activity:7507762775193178112",
+    "urn:li:activity:7507740919106801666",
+    "urn:li:activity:7507739162863923200"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1564,7 +1568,8 @@
     "rojarani.k@yalantistech.com",
     "hr@zynotexus.com",
     "ankita.asrani@covetus.com",
-    "kashish@tasknera.com"
+    "kashish@tasknera.com",
+    "lokesh.b@dabster.net"
   ],
   "contacted_details": [
     {
@@ -11658,6 +11663,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-21T16:16:35.920665"
+    },
+    {
+      "urn": "urn:li:activity:7507763087010226176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507763087010226176",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a0c3eeb1ade39e8",
+      "message_id": "1a0c3eeb1ade39e8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T17:56:35.355942"
+    },
+    {
+      "urn": "urn:li:activity:7507762775193178112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507762775193178112",
+      "email": "Aquib@nabuzsoftware.com",
+      "thread_id": "1a0c3eec27c95db6",
+      "message_id": "1a0c3eec27c95db6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T17:56:39.761036"
+    },
+    {
+      "urn": "urn:li:activity:7507740919106801666",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507740919106801666",
+      "email": "lokesh.b@dabster.net",
+      "thread_id": "1a0c3eecc731aa29",
+      "message_id": "1a0c3eecc731aa29",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T17:56:42.158553"
+    },
+    {
+      "urn": "urn:li:activity:7507739162863923200",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507739162863923200",
+      "email": "ankitharani.reddy@cerebra-consulting.com",
+      "thread_id": "1a0c3eed493e0e2b",
+      "message_id": "1a0c3eed493e0e2b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-21T17:56:44.222969"
     }
   ]
 }
