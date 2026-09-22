@@ -996,7 +996,19 @@
     "urn:li:activity:7508108465769291776",
     "urn:li:activity:7508092665981493248",
     "urn:li:activity:7508086991163588608",
-    "urn:li:activity:7508056234433007616"
+    "urn:li:activity:7508056234433007616",
+    "urn:li:activity:7508164775621672962",
+    "urn:li:activity:7508162092818915329",
+    "urn:li:activity:7508162147013787649",
+    "urn:li:activity:7508160743335157760",
+    "urn:li:activity:7508160846498541568",
+    "urn:li:activity:7508159518883696643",
+    "urn:li:activity:7508159185226887168",
+    "urn:li:activity:7508156843274301440",
+    "urn:li:activity:7508155480134037504",
+    "urn:li:activity:7508150571107966976",
+    "urn:li:activity:7508149439199399936",
+    "urn:li:activity:7508145548659675136"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1586,7 +1598,16 @@
     "julee.l@dtjsolutions.com",
     "ritika.k@techgrowglobal.com",
     "hiring@talentifyy.com",
-    "duongntt4@vmogroup.com"
+    "duongntt4@vmogroup.com",
+    "shravsjanagam123@gmail.com",
+    "srivalli.a@ideatetechnologies.com",
+    "sravan@acunor.com",
+    "Ravinder.k@worknovasllc.com",
+    "Bhupender.s@worknovasllc.com",
+    "ashwin.chennadi@tetriqsolutions.com",
+    "vivekraj@raad7.com",
+    "ashwin.a@kanandcorp.com",
+    "hr@pcdglobaltechsolutions.com"
   ],
   "contacted_details": [
     {
@@ -11549,9 +11570,10 @@
       "email": "samuel@fourwaysconsulting.com",
       "thread_id": "1a0c2aff71b174f1",
       "message_id": "1a0c2aff71b174f1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T12:08:27.272451"
+      "timestamp": "2026-09-21T12:08:27.272451",
+      "followup_timestamp": "2026-09-22T19:41:15.774089"
     },
     {
       "urn": "urn:li:activity:7507675574128201728",
@@ -11559,9 +11581,10 @@
       "email": "eshwar_p@bluerose-tech.com",
       "thread_id": "1a0c2b0047fb35b9",
       "message_id": "1a0c2b0047fb35b9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T12:08:30.605541"
+      "timestamp": "2026-09-21T12:08:30.605541",
+      "followup_timestamp": "2026-09-22T19:41:18.158918"
     },
     {
       "urn": "urn:li:activity:7507672640531185664",
@@ -11569,9 +11592,10 @@
       "email": "aishwarya@ihrsindia.co.in",
       "thread_id": "1a0c2b00ef59dc41",
       "message_id": "1a0c2b00ef59dc41",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T12:08:33.331255"
+      "timestamp": "2026-09-21T12:08:33.331255",
+      "followup_timestamp": "2026-09-22T19:41:20.596574"
     },
     {
       "urn": "urn:li:activity:7507666133580218371",
@@ -11579,9 +11603,10 @@
       "email": "kalyan@intellisofttech.com",
       "thread_id": "1a0c2b019b282a46",
       "message_id": "1a0c2b019b282a46",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T12:08:35.659160"
+      "timestamp": "2026-09-21T12:08:35.659160",
+      "followup_timestamp": "2026-09-22T19:41:23.249756"
     },
     {
       "urn": "urn:li:activity:7507664468039020544",
@@ -11589,9 +11614,10 @@
       "email": "sangeeta.b@careersoftusa.com",
       "thread_id": "1a0c2b021ca87ea7",
       "message_id": "1a0c2b021ca87ea7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T12:08:37.807144"
+      "timestamp": "2026-09-21T12:08:37.807144",
+      "followup_timestamp": "2026-09-22T19:41:25.848729"
     },
     {
       "urn": "urn:li:activity:7507716175804416000",
@@ -11842,6 +11868,126 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-22T16:17:14.453981"
+    },
+    {
+      "urn": "urn:li:activity:7508164775621672962",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508164775621672962",
+      "email": "shravsjanagam123@gmail.com",
+      "thread_id": "1a0c9745d14ae7b6",
+      "message_id": "1a0c9745d14ae7b6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:40:41.858285"
+    },
+    {
+      "urn": "urn:li:activity:7508162092818915329",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508162092818915329",
+      "email": "srivalli.a@ideatetechnologies.com",
+      "thread_id": "1a0c97465eb6a964",
+      "message_id": "1a0c97465eb6a964",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:40:44.105005"
+    },
+    {
+      "urn": "urn:li:activity:7508162147013787649",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508162147013787649",
+      "email": "sravan@acunor.com",
+      "thread_id": "1a0c97473b964317",
+      "message_id": "1a0c97473b964317",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:40:47.468366"
+    },
+    {
+      "urn": "urn:li:activity:7508160743335157760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508160743335157760",
+      "email": "Ravinder.k@worknovasllc.com",
+      "thread_id": "1a0c9747bb4be277",
+      "message_id": "1a0c9747bb4be277",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:40:49.753074"
+    },
+    {
+      "urn": "urn:li:activity:7508160846498541568",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508160846498541568",
+      "email": "Ravinder.k@worknovasllc.com",
+      "thread_id": "1a0c97482e6158f6",
+      "message_id": "1a0c97482e6158f6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:40:51.765437"
+    },
+    {
+      "urn": "urn:li:activity:7508159518883696643",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508159518883696643",
+      "email": "Bhupender.s@worknovasllc.com",
+      "thread_id": "1a0c9748a504bc5e",
+      "message_id": "1a0c9748a504bc5e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:40:54.057238"
+    },
+    {
+      "urn": "urn:li:activity:7508159185226887168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508159185226887168",
+      "email": "Bhupender.s@worknovasllc.com",
+      "thread_id": "1a0c974945e38070",
+      "message_id": "1a0c974945e38070",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:40:56.201100"
+    },
+    {
+      "urn": "urn:li:activity:7508156843274301440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508156843274301440",
+      "email": "hr@cstechnologysolution.com",
+      "thread_id": "1a0c974a73771576",
+      "message_id": "1a0c974a73771576",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:41:00.865068"
+    },
+    {
+      "urn": "urn:li:activity:7508155480134037504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508155480134037504",
+      "email": "ashwin.chennadi@tetriqsolutions.com",
+      "thread_id": "1a0c974b017c3831",
+      "message_id": "1a0c974b017c3831",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:41:03.171676"
+    },
+    {
+      "urn": "urn:li:activity:7508150571107966976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508150571107966976",
+      "email": "vivekraj@raad7.com",
+      "thread_id": "1a0c974b8f306dbb",
+      "message_id": "1a0c974b8f306dbb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:41:05.453816"
+    },
+    {
+      "urn": "urn:li:activity:7508149439199399936",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508149439199399936",
+      "email": "ashwin.a@kanandcorp.com",
+      "thread_id": "1a0c974ccafcaf12",
+      "message_id": "1a0c974ccafcaf12",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:41:10.579206"
+    },
+    {
+      "urn": "urn:li:activity:7508145548659675136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508145548659675136",
+      "email": "hr@pcdglobaltechsolutions.com",
+      "thread_id": "1a0c974d797556e2",
+      "message_id": "1a0c974d797556e2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T19:41:13.386729"
     }
   ]
 }
