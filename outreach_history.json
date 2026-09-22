@@ -985,7 +985,14 @@
     "urn:li:activity:7507762775193178112",
     "urn:li:activity:7507740919106801666",
     "urn:li:activity:7507739162863923200",
-    "urn:li:activity:7507923364678905856"
+    "urn:li:activity:7507923364678905856",
+    "urn:li:activity:7508048746157559808",
+    "urn:li:activity:7508041385166544897",
+    "urn:li:activity:7508037338178932736",
+    "urn:li:activity:7508035672755068928",
+    "urn:li:activity:7508031599188475904",
+    "urn:li:activity:7508029963820752899",
+    "urn:li:activity:7508025832817491970"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1571,7 +1578,9 @@
     "ankita.asrani@covetus.com",
     "kashish@tasknera.com",
     "lokesh.b@dabster.net",
-    "Rick@nasscomm.com"
+    "Rick@nasscomm.com",
+    "julee.l@dtjsolutions.com",
+    "ritika.k@techgrowglobal.com"
   ],
   "contacted_details": [
     {
@@ -11715,6 +11724,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-22T10:04:27.960704"
+    },
+    {
+      "urn": "urn:li:activity:7508048746157559808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508048746157559808",
+      "email": "julee.l@dtjsolutions.com",
+      "thread_id": "1a0c7e27f4f0ff87",
+      "message_id": "1a0c7e27f4f0ff87",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T12:21:42.463406"
+    },
+    {
+      "urn": "urn:li:activity:7508041385166544897",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508041385166544897",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a0c7e28f7062024",
+      "message_id": "1a0c7e28f7062024",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T12:21:46.606628"
+    },
+    {
+      "urn": "urn:li:activity:7508037338178932736",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508037338178932736",
+      "email": "shireesha.b@martinettechnologies.com",
+      "thread_id": "1a0c7e2a017788e6",
+      "message_id": "1a0c7e2a017788e6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T12:21:51.035425"
+    },
+    {
+      "urn": "urn:li:activity:7508035672755068928",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508035672755068928",
+      "email": "ritika.k@techgrowglobal.com",
+      "thread_id": "1a0c7e2a93d774f1",
+      "message_id": "1a0c7e2a93d774f1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T12:21:53.211905"
+    },
+    {
+      "urn": "urn:li:activity:7508031599188475904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508031599188475904",
+      "email": "saiprasanthi.t@kairostech.com",
+      "thread_id": "1a0c7e2b008356b4",
+      "message_id": "1a0c7e2b008356b4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T12:21:55.328379"
+    },
+    {
+      "urn": "urn:li:activity:7508029963820752899",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508029963820752899",
+      "email": "sidhanta.n@careersoftusa.com",
+      "thread_id": "1a0c7e2bac3f779c",
+      "message_id": "1a0c7e2bac3f779c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T12:21:57.481709"
+    },
+    {
+      "urn": "urn:li:activity:7508025832817491970",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508025832817491970",
+      "email": "sanghavi.b@careersoftusa.com",
+      "thread_id": "1a0c7e2c2b380f5e",
+      "message_id": "1a0c7e2c2b380f5e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T12:21:59.704554"
     }
   ]
 }
