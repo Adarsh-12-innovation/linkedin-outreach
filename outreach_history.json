@@ -984,7 +984,8 @@
     "urn:li:activity:7507763087010226176",
     "urn:li:activity:7507762775193178112",
     "urn:li:activity:7507740919106801666",
-    "urn:li:activity:7507739162863923200"
+    "urn:li:activity:7507739162863923200",
+    "urn:li:activity:7507923364678905856"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1569,7 +1570,8 @@
     "hr@zynotexus.com",
     "ankita.asrani@covetus.com",
     "kashish@tasknera.com",
-    "lokesh.b@dabster.net"
+    "lokesh.b@dabster.net",
+    "Rick@nasscomm.com"
   ],
   "contacted_details": [
     {
@@ -11703,6 +11705,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-21T17:56:44.222969"
+    },
+    {
+      "urn": "urn:li:activity:7507923364678905856",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7507923364678905856",
+      "email": "Rick@nasscomm.com",
+      "thread_id": "1a0c764d96944bec",
+      "message_id": "1a0c764d96944bec",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T10:04:27.960704"
     }
   ]
 }
