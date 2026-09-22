@@ -992,7 +992,11 @@
     "urn:li:activity:7508035672755068928",
     "urn:li:activity:7508031599188475904",
     "urn:li:activity:7508029963820752899",
-    "urn:li:activity:7508025832817491970"
+    "urn:li:activity:7508025832817491970",
+    "urn:li:activity:7508108465769291776",
+    "urn:li:activity:7508092665981493248",
+    "urn:li:activity:7508086991163588608",
+    "urn:li:activity:7508056234433007616"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1580,7 +1584,9 @@
     "lokesh.b@dabster.net",
     "Rick@nasscomm.com",
     "julee.l@dtjsolutions.com",
-    "ritika.k@techgrowglobal.com"
+    "ritika.k@techgrowglobal.com",
+    "hiring@talentifyy.com",
+    "duongntt4@vmogroup.com"
   ],
   "contacted_details": [
     {
@@ -11511,9 +11517,10 @@
       "email": "amulya.b@careersoftusa.com",
       "thread_id": "1a0c246c75db052c",
       "message_id": "1a0c246c75db052c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T10:13:33.536793"
+      "timestamp": "2026-09-21T10:13:33.536793",
+      "followup_timestamp": "2026-09-22T16:17:16.851306"
     },
     {
       "urn": "urn:li:activity:7507657068816920577",
@@ -11521,9 +11528,10 @@
       "email": "sanghavi.b@careersoftusa.com",
       "thread_id": "1a0c246d19d66756",
       "message_id": "1a0c246d19d66756",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T10:13:35.853179"
+      "timestamp": "2026-09-21T10:13:35.853179",
+      "followup_timestamp": "2026-09-22T16:17:19.400412"
     },
     {
       "urn": "urn:li:activity:7507632333047484417",
@@ -11531,7 +11539,7 @@
       "email": "chouhanlavishka1@gmail.com",
       "thread_id": "1a0c246dc781f7c3",
       "message_id": "1a0c246dc781f7c3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-09-21T10:13:38.912392"
     },
@@ -11794,6 +11802,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-22T12:21:59.704554"
+    },
+    {
+      "urn": "urn:li:activity:7508108465769291776",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508108465769291776",
+      "email": "hiring@talentifyy.com",
+      "thread_id": "1a0c8b9f60969603",
+      "message_id": "1a0c8b9f60969603",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T16:17:03.229586"
+    },
+    {
+      "urn": "urn:li:activity:7508092665981493248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508092665981493248",
+      "email": "duongntt4@vmogroup.com",
+      "thread_id": "1a0c8ba0a0c49cd8",
+      "message_id": "1a0c8ba0a0c49cd8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T16:17:08.366354"
+    },
+    {
+      "urn": "urn:li:activity:7508086991163588608",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508086991163588608",
+      "email": "intelliarcai@gmail.com",
+      "thread_id": "1a0c8ba12f758420",
+      "message_id": "1a0c8ba12f758420",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T16:17:10.694011"
+    },
+    {
+      "urn": "urn:li:activity:7508056234433007616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508056234433007616",
+      "email": "rsharma@forcecraver.com",
+      "thread_id": "1a0c8ba22957319d",
+      "message_id": "1a0c8ba22957319d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-22T16:17:14.453981"
     }
   ]
 }
