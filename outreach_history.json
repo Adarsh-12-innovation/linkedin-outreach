@@ -1018,7 +1018,9 @@
     "urn:li:activity:7508381805700403200",
     "urn:li:activity:7508406388336025600",
     "urn:li:activity:7508394011968184320",
-    "urn:li:activity:7508392443805937664"
+    "urn:li:activity:7508392443805937664",
+    "urn:li:activity:7508438040353284096",
+    "urn:li:activity:7508420729160384512"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1626,7 +1628,9 @@
     "riya@univedgeconsulting.com",
     "sonia@157ipl.com",
     "hr@runmapglobal.com",
-    "info@uhvsoftwaresolutions.com"
+    "info@uhvsoftwaresolutions.com",
+    "kavya.j@jaastechnologies.com",
+    "gyana.nibsbridge@gmail.com"
   ],
   "contacted_details": [
     {
@@ -12119,6 +12123,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-23T12:17:20.328249"
+    },
+    {
+      "urn": "urn:li:activity:7508438040353284096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508438040353284096",
+      "email": "kavya.j@jaastechnologies.com",
+      "thread_id": "1a0cdaf48d11845e",
+      "message_id": "1a0cdaf48d11845e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T15:23:30.864283"
+    },
+    {
+      "urn": "urn:li:activity:7508420729160384512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508420729160384512",
+      "email": "gyana.nibsbridge@gmail.com",
+      "thread_id": "1a0cdaf51c12290d",
+      "message_id": "1a0cdaf51c12290d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T15:23:33.325808"
     }
   ]
 }
