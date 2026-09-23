@@ -1020,7 +1020,10 @@
     "urn:li:activity:7508394011968184320",
     "urn:li:activity:7508392443805937664",
     "urn:li:activity:7508438040353284096",
-    "urn:li:activity:7508420729160384512"
+    "urn:li:activity:7508420729160384512",
+    "urn:li:activity:7508489531860430848",
+    "urn:li:activity:7508479894079844352",
+    "urn:li:activity:7508476996226777088"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1630,7 +1633,10 @@
     "hr@runmapglobal.com",
     "info@uhvsoftwaresolutions.com",
     "kavya.j@jaastechnologies.com",
-    "gyana.nibsbridge@gmail.com"
+    "gyana.nibsbridge@gmail.com",
+    "reshma.shaik@creativets.in",
+    "hiring@secureminds.pro",
+    "krishna@fincitaconsulting.com"
   ],
   "contacted_details": [
     {
@@ -11790,9 +11796,10 @@
       "email": "Rick@nasscomm.com",
       "thread_id": "1a0c764d96944bec",
       "message_id": "1a0c764d96944bec",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-22T10:04:27.960704"
+      "timestamp": "2026-09-22T10:04:27.960704",
+      "followup_timestamp": "2026-09-23T17:17:48.142227"
     },
     {
       "urn": "urn:li:activity:7508048746157559808",
@@ -12143,6 +12150,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-23T15:23:33.325808"
+    },
+    {
+      "urn": "urn:li:activity:7508489531860430848",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508489531860430848",
+      "email": "reshma.shaik@creativets.in",
+      "thread_id": "1a0ce17c6308a122",
+      "message_id": "1a0ce17c6308a122",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T17:17:39.237492"
+    },
+    {
+      "urn": "urn:li:activity:7508479894079844352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508479894079844352",
+      "email": "hiring@secureminds.pro",
+      "thread_id": "1a0ce17d8e8b42d1",
+      "message_id": "1a0ce17d8e8b42d1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T17:17:43.711592"
+    },
+    {
+      "urn": "urn:li:activity:7508476996226777088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508476996226777088",
+      "email": "krishna@fincitaconsulting.com",
+      "thread_id": "1a0ce17e0e9bcb95",
+      "message_id": "1a0ce17e0e9bcb95",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T17:17:45.913084"
     }
   ]
 }
