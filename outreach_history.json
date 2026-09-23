@@ -1015,7 +1015,10 @@
     "urn:li:activity:7508194520933707776",
     "urn:li:activity:7508182830380851200",
     "urn:li:activity:7508180521772818434",
-    "urn:li:activity:7508381805700403200"
+    "urn:li:activity:7508381805700403200",
+    "urn:li:activity:7508406388336025600",
+    "urn:li:activity:7508394011968184320",
+    "urn:li:activity:7508392443805937664"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1621,7 +1624,9 @@
     "harshap@askconsulting.com",
     "stuti@uplers.com",
     "riya@univedgeconsulting.com",
-    "sonia@157ipl.com"
+    "sonia@157ipl.com",
+    "hr@runmapglobal.com",
+    "info@uhvsoftwaresolutions.com"
   ],
   "contacted_details": [
     {
@@ -12084,6 +12089,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-23T10:22:09.607392"
+    },
+    {
+      "urn": "urn:li:activity:7508406388336025600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508406388336025600",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a0cd04b90b8d2d6",
+      "message_id": "1a0cd04b90b8d2d6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T12:17:12.807286"
+    },
+    {
+      "urn": "urn:li:activity:7508394011968184320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508394011968184320",
+      "email": "hr@runmapglobal.com",
+      "thread_id": "1a0cd04c640d72e4",
+      "message_id": "1a0cd04c640d72e4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T12:17:16.010974"
+    },
+    {
+      "urn": "urn:li:activity:7508392443805937664",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508392443805937664",
+      "email": "info@uhvsoftwaresolutions.com",
+      "thread_id": "1a0cd04d61f17a67",
+      "message_id": "1a0cd04d61f17a67",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T12:17:20.328249"
     }
   ]
 }
