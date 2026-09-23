@@ -1014,7 +1014,8 @@
     "urn:li:activity:7508194455993204737",
     "urn:li:activity:7508194520933707776",
     "urn:li:activity:7508182830380851200",
-    "urn:li:activity:7508180521772818434"
+    "urn:li:activity:7508180521772818434",
+    "urn:li:activity:7508381805700403200"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1619,7 +1620,8 @@
     "Naveen@smartitframe.com",
     "harshap@askconsulting.com",
     "stuti@uplers.com",
-    "riya@univedgeconsulting.com"
+    "riya@univedgeconsulting.com",
+    "sonia@157ipl.com"
   ],
   "contacted_details": [
     {
@@ -11735,9 +11737,10 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "1a0c3eeb1ade39e8",
       "message_id": "1a0c3eeb1ade39e8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T17:56:35.355942"
+      "timestamp": "2026-09-21T17:56:35.355942",
+      "followup_timestamp": "2026-09-23T10:22:12.023582"
     },
     {
       "urn": "urn:li:activity:7507762775193178112",
@@ -11745,9 +11748,10 @@
       "email": "Aquib@nabuzsoftware.com",
       "thread_id": "1a0c3eec27c95db6",
       "message_id": "1a0c3eec27c95db6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T17:56:39.761036"
+      "timestamp": "2026-09-21T17:56:39.761036",
+      "followup_timestamp": "2026-09-23T10:22:14.313935"
     },
     {
       "urn": "urn:li:activity:7507740919106801666",
@@ -11755,9 +11759,10 @@
       "email": "lokesh.b@dabster.net",
       "thread_id": "1a0c3eecc731aa29",
       "message_id": "1a0c3eecc731aa29",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T17:56:42.158553"
+      "timestamp": "2026-09-21T17:56:42.158553",
+      "followup_timestamp": "2026-09-23T10:22:16.613890"
     },
     {
       "urn": "urn:li:activity:7507739162863923200",
@@ -11765,9 +11770,10 @@
       "email": "ankitharani.reddy@cerebra-consulting.com",
       "thread_id": "1a0c3eed493e0e2b",
       "message_id": "1a0c3eed493e0e2b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-21T17:56:44.222969"
+      "timestamp": "2026-09-21T17:56:44.222969",
+      "followup_timestamp": "2026-09-23T10:22:18.897304"
     },
     {
       "urn": "urn:li:activity:7507923364678905856",
@@ -12068,6 +12074,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-22T22:02:08.791858"
+    },
+    {
+      "urn": "urn:li:activity:7508381805700403200",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508381805700403200",
+      "email": "sonia@157ipl.com",
+      "thread_id": "1a0cc9b6257e865d",
+      "message_id": "1a0cc9b6257e865d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T10:22:09.607392"
     }
   ]
 }
