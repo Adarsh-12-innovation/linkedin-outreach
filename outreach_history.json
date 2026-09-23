@@ -1023,7 +1023,24 @@
     "urn:li:activity:7508420729160384512",
     "urn:li:activity:7508489531860430848",
     "urn:li:activity:7508479894079844352",
-    "urn:li:activity:7508476996226777088"
+    "urn:li:activity:7508476996226777088",
+    "urn:li:activity:7508523356988825600",
+    "urn:li:activity:7508520323902812161",
+    "urn:li:activity:7508514217151397888",
+    "urn:li:activity:7508514275972538368",
+    "urn:li:activity:7508514348214956032",
+    "urn:li:activity:7508511316748271616",
+    "urn:li:activity:7508509785294749697",
+    "urn:li:activity:7508505428230561792",
+    "urn:li:activity:7508505204183543808",
+    "urn:li:activity:7508505307891912705",
+    "urn:li:activity:7508504989095399425",
+    "urn:li:activity:7508505088169226240",
+    "urn:li:activity:7508504842722623488",
+    "urn:li:activity:7508503023284019200",
+    "urn:li:activity:7508502671369097216",
+    "urn:li:activity:7508502785215221761",
+    "urn:li:activity:7508502450161704962"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1636,7 +1653,11 @@
     "gyana.nibsbridge@gmail.com",
     "reshma.shaik@creativets.in",
     "hiring@secureminds.pro",
-    "krishna@fincitaconsulting.com"
+    "krishna@fincitaconsulting.com",
+    "priyanaidu@thesancloud.com",
+    "srawan@americanitsystems.com",
+    "jay.prakash@exarcainc.com",
+    "sthakare@dgntechnologies.com"
   ],
   "contacted_details": [
     {
@@ -11807,9 +11828,10 @@
       "email": "julee.l@dtjsolutions.com",
       "thread_id": "1a0c7e27f4f0ff87",
       "message_id": "1a0c7e27f4f0ff87",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-22T12:21:42.463406"
+      "timestamp": "2026-09-22T12:21:42.463406",
+      "followup_timestamp": "2026-09-23T19:26:02.998587"
     },
     {
       "urn": "urn:li:activity:7508041385166544897",
@@ -11817,9 +11839,10 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "1a0c7e28f7062024",
       "message_id": "1a0c7e28f7062024",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-22T12:21:46.606628"
+      "timestamp": "2026-09-22T12:21:46.606628",
+      "followup_timestamp": "2026-09-23T19:26:05.296588"
     },
     {
       "urn": "urn:li:activity:7508037338178932736",
@@ -11827,9 +11850,10 @@
       "email": "shireesha.b@martinettechnologies.com",
       "thread_id": "1a0c7e2a017788e6",
       "message_id": "1a0c7e2a017788e6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-22T12:21:51.035425"
+      "timestamp": "2026-09-22T12:21:51.035425",
+      "followup_timestamp": "2026-09-23T19:26:07.791342"
     },
     {
       "urn": "urn:li:activity:7508035672755068928",
@@ -11837,9 +11861,10 @@
       "email": "ritika.k@techgrowglobal.com",
       "thread_id": "1a0c7e2a93d774f1",
       "message_id": "1a0c7e2a93d774f1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-22T12:21:53.211905"
+      "timestamp": "2026-09-22T12:21:53.211905",
+      "followup_timestamp": "2026-09-23T19:26:10.398223"
     },
     {
       "urn": "urn:li:activity:7508031599188475904",
@@ -11847,9 +11872,10 @@
       "email": "saiprasanthi.t@kairostech.com",
       "thread_id": "1a0c7e2b008356b4",
       "message_id": "1a0c7e2b008356b4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-22T12:21:55.328379"
+      "timestamp": "2026-09-22T12:21:55.328379",
+      "followup_timestamp": "2026-09-23T19:26:13.146946"
     },
     {
       "urn": "urn:li:activity:7508029963820752899",
@@ -11857,9 +11883,10 @@
       "email": "sidhanta.n@careersoftusa.com",
       "thread_id": "1a0c7e2bac3f779c",
       "message_id": "1a0c7e2bac3f779c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-22T12:21:57.481709"
+      "timestamp": "2026-09-22T12:21:57.481709",
+      "followup_timestamp": "2026-09-23T19:26:15.585645"
     },
     {
       "urn": "urn:li:activity:7508025832817491970",
@@ -11867,9 +11894,10 @@
       "email": "sanghavi.b@careersoftusa.com",
       "thread_id": "1a0c7e2c2b380f5e",
       "message_id": "1a0c7e2c2b380f5e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-22T12:21:59.704554"
+      "timestamp": "2026-09-22T12:21:59.704554",
+      "followup_timestamp": "2026-09-23T19:26:18.029507"
     },
     {
       "urn": "urn:li:activity:7508108465769291776",
@@ -12180,6 +12208,176 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-23T17:17:45.913084"
+    },
+    {
+      "urn": "urn:li:activity:7508523356988825600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508523356988825600",
+      "email": "Bhupender.s@worknovasllc.com",
+      "thread_id": "1a0ce8c91888d399",
+      "message_id": "1a0ce8c91888d399",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:13.294881"
+    },
+    {
+      "urn": "urn:li:activity:7508520323902812161",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508520323902812161",
+      "email": "priyanaidu@thesancloud.com",
+      "thread_id": "1a0ce8c984926a96",
+      "message_id": "1a0ce8c984926a96",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:15.557242"
+    },
+    {
+      "urn": "urn:li:activity:7508514217151397888",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508514217151397888",
+      "email": "srawan@americanitsystems.com",
+      "thread_id": "1a0ce8cad96d351c",
+      "message_id": "1a0ce8cad96d351c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:20.538592"
+    },
+    {
+      "urn": "urn:li:activity:7508514275972538368",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508514275972538368",
+      "email": "jay.prakash@exarcainc.com",
+      "thread_id": "1a0ce8cb5b5f9ff3",
+      "message_id": "1a0ce8cb5b5f9ff3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:22.604914"
+    },
+    {
+      "urn": "urn:li:activity:7508514348214956032",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508514348214956032",
+      "email": "srawan@americanitsystems.com",
+      "thread_id": "1a0ce8cc99170cc1",
+      "message_id": "1a0ce8cc99170cc1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:27.710813"
+    },
+    {
+      "urn": "urn:li:activity:7508511316748271616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508511316748271616",
+      "email": "sthakare@dgntechnologies.com",
+      "thread_id": "1a0ce8cd9a4d1308",
+      "message_id": "1a0ce8cd9a4d1308",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:32.002919"
+    },
+    {
+      "urn": "urn:li:activity:7508509785294749697",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508509785294749697",
+      "email": "sthakare@dgntechnologies.com",
+      "thread_id": "1a0ce8ceba4cc544",
+      "message_id": "1a0ce8ceba4cc544",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:36.401683"
+    },
+    {
+      "urn": "urn:li:activity:7508505428230561792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508505428230561792",
+      "email": "salma@digivancesol.com",
+      "thread_id": "1a0ce8cf57640eac",
+      "message_id": "1a0ce8cf57640eac",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:38.855148"
+    },
+    {
+      "urn": "urn:li:activity:7508505204183543808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508505204183543808",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0ce8cfc612a323",
+      "message_id": "1a0ce8cfc612a323",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:41.070992"
+    },
+    {
+      "urn": "urn:li:activity:7508505307891912705",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508505307891912705",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0ce8d0451b60c0",
+      "message_id": "1a0ce8d0451b60c0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:43.180068"
+    },
+    {
+      "urn": "urn:li:activity:7508504989095399425",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508504989095399425",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0ce8d0ec8e51cb",
+      "message_id": "1a0ce8d0ec8e51cb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:45.480285"
+    },
+    {
+      "urn": "urn:li:activity:7508505088169226240",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508505088169226240",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0ce8d1672d31cf",
+      "message_id": "1a0ce8d1672d31cf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:47.927724"
+    },
+    {
+      "urn": "urn:li:activity:7508504842722623488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508504842722623488",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0ce8d2659814f7",
+      "message_id": "1a0ce8d2659814f7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:51.893231"
+    },
+    {
+      "urn": "urn:li:activity:7508503023284019200",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508503023284019200",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0ce8d2f5f97c5b",
+      "message_id": "1a0ce8d2f5f97c5b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:53.989515"
+    },
+    {
+      "urn": "urn:li:activity:7508502671369097216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508502671369097216",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0ce8d3818fcd25",
+      "message_id": "1a0ce8d3818fcd25",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:56.168224"
+    },
+    {
+      "urn": "urn:li:activity:7508502785215221761",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508502785215221761",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0ce8d40aa83564",
+      "message_id": "1a0ce8d40aa83564",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:25:58.494967"
+    },
+    {
+      "urn": "urn:li:activity:7508502450161704962",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508502450161704962",
+      "email": "priyanka.jadhav@philodesigntech.com",
+      "thread_id": "1a0ce8d48f9313e7",
+      "message_id": "1a0ce8d48f9313e7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-23T19:26:00.523391"
     }
   ]
 }
