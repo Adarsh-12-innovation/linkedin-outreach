@@ -1061,7 +1061,8 @@
     "urn:li:activity:7508759702520954881",
     "urn:li:activity:7508834791736328193",
     "urn:li:activity:7508819708264083456",
-    "urn:li:activity:7508814632212643840"
+    "urn:li:activity:7508814632212643840",
+    "urn:li:activity:7508865565873311744"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1692,7 +1693,8 @@
     "swapna@techsilicon.com",
     "farheen@techsilicon.com",
     "amna.yaseen@hrsgonline.com",
-    "info@thestaffingcircle.com"
+    "info@thestaffingcircle.com",
+    "internacional@veronezirh.com.br"
   ],
   "contacted_details": [
     {
@@ -12191,9 +12193,10 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "1a0cd04b90b8d2d6",
       "message_id": "1a0cd04b90b8d2d6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-23T12:17:12.807286"
+      "timestamp": "2026-09-23T12:17:12.807286",
+      "followup_timestamp": "2026-09-24T18:29:41.225727"
     },
     {
       "urn": "urn:li:activity:7508394011968184320",
@@ -12201,9 +12204,10 @@
       "email": "hr@runmapglobal.com",
       "thread_id": "1a0cd04c640d72e4",
       "message_id": "1a0cd04c640d72e4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-23T12:17:16.010974"
+      "timestamp": "2026-09-23T12:17:16.010974",
+      "followup_timestamp": "2026-09-24T18:29:43.499653"
     },
     {
       "urn": "urn:li:activity:7508392443805937664",
@@ -12211,9 +12215,10 @@
       "email": "info@uhvsoftwaresolutions.com",
       "thread_id": "1a0cd04d61f17a67",
       "message_id": "1a0cd04d61f17a67",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-23T12:17:20.328249"
+      "timestamp": "2026-09-23T12:17:20.328249",
+      "followup_timestamp": "2026-09-24T18:29:45.764358"
     },
     {
       "urn": "urn:li:activity:7508438040353284096",
@@ -12644,6 +12649,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-24T16:09:14.449663"
+    },
+    {
+      "urn": "urn:li:activity:7508865565873311744",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508865565873311744",
+      "email": "internacional@veronezirh.com.br",
+      "thread_id": "1a0d38016200889b",
+      "message_id": "1a0d38016200889b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T18:29:38.880929"
     }
   ]
 }
