@@ -1042,7 +1042,19 @@
     "urn:li:activity:7508502785215221761",
     "urn:li:activity:7508502450161704962",
     "urn:li:activity:7508737469782212608",
-    "urn:li:activity:7508635269395394561"
+    "urn:li:activity:7508635269395394561",
+    "urn:li:activity:7508769270739353601",
+    "urn:li:activity:7508769037875580928",
+    "urn:li:activity:7508769098101764098",
+    "urn:li:activity:7508766075350786048",
+    "urn:li:activity:7508762637027979265",
+    "urn:li:activity:7508762420966756352",
+    "urn:li:activity:7508761530390433793",
+    "urn:li:activity:7508759736876609537",
+    "urn:li:activity:7508759443459887104",
+    "urn:li:activity:7508758284410138624",
+    "urn:li:activity:7508752332180860930",
+    "urn:li:activity:7508692181113753600"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1661,7 +1673,13 @@
     "jay.prakash@exarcainc.com",
     "sthakare@dgntechnologies.com",
     "abeda.nadaf@usherservices.com",
-    "ramshankara@tblocks.com"
+    "ramshankara@tblocks.com",
+    "admin@conpriquo-solutions.in, moonam@conpriquo-solutions.in",
+    "radhika.p@apideltech.com",
+    "hrteam@vworkinfo.com",
+    "harsha.limgampalli@excellerate-consulting.com",
+    "krati@aliqan.com",
+    "sivak@connecttechtalent.com"
   ],
   "contacted_details": [
     {
@@ -12422,6 +12440,126 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-24T10:26:37.698717"
+    },
+    {
+      "urn": "urn:li:activity:7508769270739353601",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508769270739353601",
+      "email": "arvind@ninjatechnolabs.com",
+      "thread_id": "1a0d21054a4baeb1",
+      "message_id": "1a0d21054a4baeb1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:47:57.291216"
+    },
+    {
+      "urn": "urn:li:activity:7508769037875580928",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508769037875580928",
+      "email": "admin@conpriquo-solutions.in, moonam@conpriquo-solutions.in",
+      "thread_id": "1a0d210671243a8e",
+      "message_id": "1a0d210671243a8e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:01.995385"
+    },
+    {
+      "urn": "urn:li:activity:7508769098101764098",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508769098101764098",
+      "email": "haresh@ninjatechnolabs.com",
+      "thread_id": "1a0d21071f9a07ab",
+      "message_id": "1a0d21071f9a07ab",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:04.450847"
+    },
+    {
+      "urn": "urn:li:activity:7508766075350786048",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508766075350786048",
+      "email": "radhika.p@apideltech.com",
+      "thread_id": "1a0d2108300586c2",
+      "message_id": "1a0d2108300586c2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:09.216376"
+    },
+    {
+      "urn": "urn:li:activity:7508762637027979265",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508762637027979265",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a0d2108d87a0317",
+      "message_id": "1a0d2108d87a0317",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:11.488898"
+    },
+    {
+      "urn": "urn:li:activity:7508762420966756352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508762420966756352",
+      "email": "hrteam@vworkinfo.com",
+      "thread_id": "1a0d21096a9f4317",
+      "message_id": "1a0d21096a9f4317",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:13.988908"
+    },
+    {
+      "urn": "urn:li:activity:7508761530390433793",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508761530390433793",
+      "email": "harsha.limgampalli@excellerate-consulting.com",
+      "thread_id": "1a0d2109f84fb758",
+      "message_id": "1a0d2109f84fb758",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:16.423903"
+    },
+    {
+      "urn": "urn:li:activity:7508759736876609537",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508759736876609537",
+      "email": "sanjana.patel@huemot.com",
+      "thread_id": "1a0d210a8c765a27",
+      "message_id": "1a0d210a8c765a27",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:18.895458"
+    },
+    {
+      "urn": "urn:li:activity:7508759443459887104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508759443459887104",
+      "email": "krati@aliqan.com",
+      "thread_id": "1a0d210b22158753",
+      "message_id": "1a0d210b22158753",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:21.266037"
+    },
+    {
+      "urn": "urn:li:activity:7508758284410138624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508758284410138624",
+      "email": "anusha.a@martinettechnologies.com",
+      "thread_id": "1a0d210ba9e9a215",
+      "message_id": "1a0d210ba9e9a215",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:23.376858"
+    },
+    {
+      "urn": "urn:li:activity:7508752332180860930",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508752332180860930",
+      "email": "sanjana.a@martinettechnologies.com",
+      "thread_id": "1a0d210c2b57c3e5",
+      "message_id": "1a0d210c2b57c3e5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:25.408160"
+    },
+    {
+      "urn": "urn:li:activity:7508692181113753600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508692181113753600",
+      "email": "sivak@connecttechtalent.com",
+      "thread_id": "1a0d210caffdc58f",
+      "message_id": "1a0d210caffdc58f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T11:48:27.465250"
     }
   ]
 }
