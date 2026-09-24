@@ -1054,7 +1054,11 @@
     "urn:li:activity:7508759443459887104",
     "urn:li:activity:7508758284410138624",
     "urn:li:activity:7508752332180860930",
-    "urn:li:activity:7508692181113753600"
+    "urn:li:activity:7508692181113753600",
+    "urn:li:activity:7508780385418432512",
+    "urn:li:activity:7508779636126851074",
+    "urn:li:activity:7508760270329126912",
+    "urn:li:activity:7508759702520954881"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1679,7 +1683,11 @@
     "hrteam@vworkinfo.com",
     "harsha.limgampalli@excellerate-consulting.com",
     "krati@aliqan.com",
-    "sivak@connecttechtalent.com"
+    "sivak@connecttechtalent.com",
+    "connect@heavennovatalentsolutions.in",
+    "mdhuzaifa.lahzrtech@gmail.com",
+    "swapna@techsilicon.com",
+    "farheen@techsilicon.com"
   ],
   "contacted_details": [
     {
@@ -12560,6 +12568,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-24T11:48:27.465250"
+    },
+    {
+      "urn": "urn:li:activity:7508780385418432512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508780385418432512",
+      "email": "connect@heavennovatalentsolutions.in",
+      "thread_id": "1a0d2a86443ee435",
+      "message_id": "1a0d2a86443ee435",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T14:34:02.842377"
+    },
+    {
+      "urn": "urn:li:activity:7508779636126851074",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508779636126851074",
+      "email": "mdhuzaifa.lahzrtech@gmail.com",
+      "thread_id": "1a0d2a870317f842",
+      "message_id": "1a0d2a870317f842",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T14:34:06.092648"
+    },
+    {
+      "urn": "urn:li:activity:7508760270329126912",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508760270329126912",
+      "email": "swapna@techsilicon.com",
+      "thread_id": "1a0d2a87bf8d0176",
+      "message_id": "1a0d2a87bf8d0176",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T14:34:08.619163"
+    },
+    {
+      "urn": "urn:li:activity:7508759702520954881",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508759702520954881",
+      "email": "farheen@techsilicon.com",
+      "thread_id": "1a0d2a885882655d",
+      "message_id": "1a0d2a885882655d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T14:34:10.925015"
     }
   ]
 }
