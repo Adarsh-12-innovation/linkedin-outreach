@@ -1058,7 +1058,10 @@
     "urn:li:activity:7508780385418432512",
     "urn:li:activity:7508779636126851074",
     "urn:li:activity:7508760270329126912",
-    "urn:li:activity:7508759702520954881"
+    "urn:li:activity:7508759702520954881",
+    "urn:li:activity:7508834791736328193",
+    "urn:li:activity:7508819708264083456",
+    "urn:li:activity:7508814632212643840"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1687,7 +1690,9 @@
     "connect@heavennovatalentsolutions.in",
     "mdhuzaifa.lahzrtech@gmail.com",
     "swapna@techsilicon.com",
-    "farheen@techsilicon.com"
+    "farheen@techsilicon.com",
+    "amna.yaseen@hrsgonline.com",
+    "info@thestaffingcircle.com"
   ],
   "contacted_details": [
     {
@@ -12175,9 +12180,10 @@
       "email": "sonia@157ipl.com",
       "thread_id": "1a0cc9b6257e865d",
       "message_id": "1a0cc9b6257e865d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-23T10:22:09.607392"
+      "timestamp": "2026-09-23T10:22:09.607392",
+      "followup_timestamp": "2026-09-24T16:09:16.778689"
     },
     {
       "urn": "urn:li:activity:7508406388336025600",
@@ -12608,6 +12614,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-24T14:34:10.925015"
+    },
+    {
+      "urn": "urn:li:activity:7508834791736328193",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508834791736328193",
+      "email": "amna.yaseen@hrsgonline.com",
+      "thread_id": "1a0d2ff6c801bffa",
+      "message_id": "1a0d2ff6c801bffa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T16:09:06.699554"
+    },
+    {
+      "urn": "urn:li:activity:7508819708264083456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508819708264083456",
+      "email": "sthakaare@dgntechnologies.com",
+      "thread_id": "1a0d2ff822a26c26",
+      "message_id": "1a0d2ff822a26c26",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T16:09:12.272206"
+    },
+    {
+      "urn": "urn:li:activity:7508814632212643840",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508814632212643840",
+      "email": "info@thestaffingcircle.com",
+      "thread_id": "1a0d2ff8a99db66b",
+      "message_id": "1a0d2ff8a99db66b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-24T16:09:14.449663"
     }
   ]
 }
