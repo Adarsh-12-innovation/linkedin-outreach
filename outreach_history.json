@@ -1064,7 +1064,17 @@
     "urn:li:activity:7508814632212643840",
     "urn:li:activity:7508865565873311744",
     "urn:li:activity:7508991282313252865",
-    "urn:li:activity:7508986909541531648"
+    "urn:li:activity:7508986909541531648",
+    "urn:li:activity:7509140675888766976",
+    "urn:li:activity:7509133675221954560",
+    "urn:li:activity:7509122878601187328",
+    "urn:li:activity:7509118672322547712",
+    "urn:li:activity:7509116835435327489",
+    "urn:li:activity:7509115354749579264",
+    "urn:li:activity:7509114476282085377",
+    "urn:li:activity:7509113449575034880",
+    "urn:li:activity:7509109643156176896",
+    "urn:li:activity:7509109086538342400"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1698,7 +1708,11 @@
     "info@thestaffingcircle.com",
     "internacional@veronezirh.com.br",
     "athampi@innovatixinc.com",
-    "Bala@Alchemysolutions.us"
+    "Bala@Alchemysolutions.us",
+    "kondaboinapoornima@people-prime.com",
+    "careers@apexitcs.org",
+    "hamzasharifhamzi@gmail.com",
+    "niroshcse@gmail.com"
   ],
   "contacted_details": [
     {
@@ -12704,6 +12718,106 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-25T10:01:25.577244"
+    },
+    {
+      "urn": "urn:li:activity:7509140675888766976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509140675888766976",
+      "email": "recruiting.meenakshi@gmail.com",
+      "thread_id": "1a0d75439557f956",
+      "message_id": "1a0d75439557f956",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:16.462784"
+    },
+    {
+      "urn": "urn:li:activity:7509133675221954560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509133675221954560",
+      "email": "harsha.limgampalli@excellerate-consulting.com",
+      "thread_id": "1a0d7544a6d827d9",
+      "message_id": "1a0d7544a6d827d9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:21.337823"
+    },
+    {
+      "urn": "urn:li:activity:7509122878601187328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509122878601187328",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a0d754540bbf5b0",
+      "message_id": "1a0d754540bbf5b0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:23.731503"
+    },
+    {
+      "urn": "urn:li:activity:7509118672322547712",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509118672322547712",
+      "email": "kondaboinapoornima@people-prime.com",
+      "thread_id": "1a0d7545d628c7e9",
+      "message_id": "1a0d7545d628c7e9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:26.109087"
+    },
+    {
+      "urn": "urn:li:activity:7509116835435327489",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509116835435327489",
+      "email": "careers@apexitcs.org",
+      "thread_id": "1a0d7546640b28c3",
+      "message_id": "1a0d7546640b28c3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:28.742087"
+    },
+    {
+      "urn": "urn:li:activity:7509115354749579264",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509115354749579264",
+      "email": "careers@apexitcs.org",
+      "thread_id": "1a0d75471016a894",
+      "message_id": "1a0d75471016a894",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:31.125588"
+    },
+    {
+      "urn": "urn:li:activity:7509114476282085377",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509114476282085377",
+      "email": "hamzasharifhamzi@gmail.com",
+      "thread_id": "1a0d7547a7ddfdd1",
+      "message_id": "1a0d7547a7ddfdd1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:33.589245"
+    },
+    {
+      "urn": "urn:li:activity:7509113449575034880",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509113449575034880",
+      "email": "leela.revanth@adroitinnovative.com",
+      "thread_id": "1a0d7548ee689888",
+      "message_id": "1a0d7548ee689888",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:38.613759"
+    },
+    {
+      "urn": "urn:li:activity:7509109643156176896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509109643156176896",
+      "email": "niroshcse@gmail.com",
+      "thread_id": "1a0d75498dd836ba",
+      "message_id": "1a0d75498dd836ba",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:41.163344"
+    },
+    {
+      "urn": "urn:li:activity:7509109086538342400",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509109086538342400",
+      "email": "niroshcse@gmail.com",
+      "thread_id": "1a0d754a471ac47d",
+      "message_id": "1a0d754a471ac47d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T12:20:44.063912"
     }
   ]
 }
