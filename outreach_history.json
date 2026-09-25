@@ -1074,7 +1074,14 @@
     "urn:li:activity:7509114476282085377",
     "urn:li:activity:7509113449575034880",
     "urn:li:activity:7509109643156176896",
-    "urn:li:activity:7509109086538342400"
+    "urn:li:activity:7509109086538342400",
+    "urn:li:activity:7509194639321677824",
+    "urn:li:activity:7509190129194840064",
+    "urn:li:activity:7509187213369257985",
+    "urn:li:activity:7509173748898500609",
+    "urn:li:activity:7509154524784373760",
+    "urn:li:activity:7509153609079492608",
+    "urn:li:activity:7509150291968036865"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1712,7 +1719,11 @@
     "kondaboinapoornima@people-prime.com",
     "careers@apexitcs.org",
     "hamzasharifhamzi@gmail.com",
-    "niroshcse@gmail.com"
+    "niroshcse@gmail.com",
+    "Princi@akaasa.com",
+    "smeeta@skywaves.pro",
+    "tahir.hussen@ambiquest.com",
+    "nitish@spruceinfotech.com"
   ],
   "contacted_details": [
     {
@@ -12818,6 +12829,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-25T12:20:44.063912"
+    },
+    {
+      "urn": "urn:li:activity:7509194639321677824",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509194639321677824",
+      "email": "Princi@akaasa.com",
+      "thread_id": "1a0d817417b7cb53",
+      "message_id": "1a0d817417b7cb53",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T15:53:18.506603"
+    },
+    {
+      "urn": "urn:li:activity:7509190129194840064",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509190129194840064",
+      "email": "hamzasharifhamzi@gmail.com",
+      "thread_id": "1a0d8174d205227c",
+      "message_id": "1a0d8174d205227c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T15:53:21.409249"
+    },
+    {
+      "urn": "urn:li:activity:7509187213369257985",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509187213369257985",
+      "email": "sonali.girhe@follextechnology.com",
+      "thread_id": "1a0d817544fe4cec",
+      "message_id": "1a0d817544fe4cec",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T15:53:23.513350"
+    },
+    {
+      "urn": "urn:li:activity:7509173748898500609",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509173748898500609",
+      "email": "eshwar_p@bluerose-tech.com",
+      "thread_id": "1a0d8175c2a55b10",
+      "message_id": "1a0d8175c2a55b10",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T15:53:25.533187"
+    },
+    {
+      "urn": "urn:li:activity:7509154524784373760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509154524784373760",
+      "email": "smeeta@skywaves.pro",
+      "thread_id": "1a0d81767735eb70",
+      "message_id": "1a0d81767735eb70",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T15:53:27.793323"
+    },
+    {
+      "urn": "urn:li:activity:7509153609079492608",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509153609079492608",
+      "email": "tahir.hussen@ambiquest.com",
+      "thread_id": "1a0d817785f9b756",
+      "message_id": "1a0d817785f9b756",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T15:53:32.847208"
+    },
+    {
+      "urn": "urn:li:activity:7509150291968036865",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509150291968036865",
+      "email": "nitish@spruceinfotech.com",
+      "thread_id": "1a0d8178205e39d2",
+      "message_id": "1a0d8178205e39d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-25T15:53:35.063132"
     }
   ]
 }
