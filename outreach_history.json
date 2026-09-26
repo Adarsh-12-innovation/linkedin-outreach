@@ -1099,7 +1099,11 @@
     "urn:li:activity:7509486122855690240",
     "urn:li:activity:7509482991535108096",
     "urn:li:activity:7509482230264725504",
-    "urn:li:activity:7509481917260656640"
+    "urn:li:activity:7509481917260656640",
+    "urn:li:activity:7509495278224244736",
+    "urn:li:activity:7509493290371751936",
+    "urn:li:activity:7509481857210556417",
+    "urn:li:activity:7509472953537933312"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1751,7 +1755,10 @@
     "shaik.mudassir@dabster.net",
     "kirankumar.t@spiceorb.com",
     "amishra@globalitfamily.com",
-    "bhuvana@prorsum-tech.com"
+    "bhuvana@prorsum-tech.com",
+    "kattamurali@startechiecs.org",
+    "tulasi.chereddy@connectrz.in",
+    "prerana@onspaceglobal.com"
   ],
   "contacted_details": [
     {
@@ -13127,6 +13134,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-26T11:40:39.493458"
+    },
+    {
+      "urn": "urn:li:activity:7509495278224244736",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509495278224244736",
+      "email": "kirankumar.t@spiceorb.com",
+      "thread_id": "1a0dcd72241ee667",
+      "message_id": "1a0dcd72241ee667",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-26T14:01:22.282219"
+    },
+    {
+      "urn": "urn:li:activity:7509493290371751936",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509493290371751936",
+      "email": "kattamurali@startechiecs.org",
+      "thread_id": "1a0dcd735ebe77eb",
+      "message_id": "1a0dcd735ebe77eb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-26T14:01:26.873492"
+    },
+    {
+      "urn": "urn:li:activity:7509481857210556417",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509481857210556417",
+      "email": "tulasi.chereddy@connectrz.in",
+      "thread_id": "1a0dcd74509eabe1",
+      "message_id": "1a0dcd74509eabe1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-26T14:01:30.873616"
+    },
+    {
+      "urn": "urn:li:activity:7509472953537933312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7509472953537933312",
+      "email": "prerana@onspaceglobal.com",
+      "thread_id": "1a0dcd74caa004f2",
+      "message_id": "1a0dcd74caa004f2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-26T14:01:32.968486"
     }
   ]
 }
