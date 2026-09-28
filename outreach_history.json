@@ -1124,7 +1124,9 @@
     "urn:li:activity:7510233320199380993",
     "urn:li:activity:7510225838265765888",
     "urn:li:activity:7510222733696270336",
-    "urn:li:activity:7510220643364278272"
+    "urn:li:activity:7510220643364278272",
+    "urn:li:activity:7510274893704237057",
+    "urn:li:activity:7510269342404608000"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1790,7 +1792,8 @@
     "swetha.u@onasit.com",
     "nikita.soni@optimumvalue.co",
     "hr@otrixindia.com",
-    "muskan@sourcebae.com"
+    "muskan@sourcebae.com",
+    "laxmi.shrestha@apptadinc.com"
   ],
   "contacted_details": [
     {
@@ -13454,6 +13457,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-28T14:43:26.677899"
+    },
+    {
+      "urn": "urn:li:activity:7510274893704237057",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510274893704237057",
+      "email": "laxmi.shrestha@apptadinc.com",
+      "thread_id": "1a0e7952064823c7",
+      "message_id": "1a0e7952064823c7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T16:05:04.454198"
+    },
+    {
+      "urn": "urn:li:activity:7510269342404608000",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510269342404608000",
+      "email": "sthakare@dgntechnologies.com",
+      "thread_id": "1a0e7952a6969acf",
+      "message_id": "1a0e7952a6969acf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T16:05:07.347988"
     }
   ]
 }
