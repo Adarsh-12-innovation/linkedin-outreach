@@ -1108,7 +1108,14 @@
     "urn:li:activity:7510185823888371712",
     "urn:li:activity:7510204620036751360",
     "urn:li:activity:7510194323594850304",
-    "urn:li:activity:7510181399249887232"
+    "urn:li:activity:7510181399249887232",
+    "urn:li:activity:7510232831915261952",
+    "urn:li:activity:7510223714916143104",
+    "urn:li:activity:7510220691946815488",
+    "urn:li:activity:7510218610007773184",
+    "urn:li:activity:7510212898024005632",
+    "urn:li:activity:7510198081687216128",
+    "urn:li:activity:7510192763955646465"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1766,7 +1773,11 @@
     "prerana@onspaceglobal.com",
     "resumes@ingeniumnext.com",
     "anwar.jakate@apptadinc.com",
-    "jessiev@secondtalent.com"
+    "jessiev@secondtalent.com",
+    "shivani.sinha@delphic.in",
+    "aravind.t@jaastechnologies.com",
+    "daniya.m@flycatchtech.com",
+    "upendrareddy@sidramtech.com"
   ],
   "contacted_details": [
     {
@@ -13270,6 +13281,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-28T10:57:03.195966"
+    },
+    {
+      "urn": "urn:li:activity:7510232831915261952",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510232831915261952",
+      "email": "shivani.sinha@delphic.in",
+      "thread_id": "1a0e6dc84fb14655",
+      "message_id": "1a0e6dc84fb14655",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T12:43:27.662385"
+    },
+    {
+      "urn": "urn:li:activity:7510223714916143104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510223714916143104",
+      "email": "khushi.j@infowaygroup.com",
+      "thread_id": "1a0e6dc90a14caa1",
+      "message_id": "1a0e6dc90a14caa1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T12:43:30.461467"
+    },
+    {
+      "urn": "urn:li:activity:7510220691946815488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510220691946815488",
+      "email": "Shreya@infowaygroup.com",
+      "thread_id": "1a0e6dc9bd3e6640",
+      "message_id": "1a0e6dc9bd3e6640",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T12:43:33.099624"
+    },
+    {
+      "urn": "urn:li:activity:7510218610007773184",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510218610007773184",
+      "email": "aravind.t@jaastechnologies.com",
+      "thread_id": "1a0e6dcb1e3a7234",
+      "message_id": "1a0e6dcb1e3a7234",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T12:43:38.719103"
+    },
+    {
+      "urn": "urn:li:activity:7510212898024005632",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510212898024005632",
+      "email": "daniya.m@flycatchtech.com",
+      "thread_id": "1a0e6dcc8477f42c",
+      "message_id": "1a0e6dcc8477f42c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T12:43:44.918861"
+    },
+    {
+      "urn": "urn:li:activity:7510198081687216128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510198081687216128",
+      "email": "upendrareddy@sidramtech.com",
+      "thread_id": "1a0e6dcdbeb5908c",
+      "message_id": "1a0e6dcdbeb5908c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T12:43:49.439185"
+    },
+    {
+      "urn": "urn:li:activity:7510192763955646465",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510192763955646465",
+      "email": "upendrareddy@sidramtech.com",
+      "thread_id": "1a0e6dce55b7b09d",
+      "message_id": "1a0e6dce55b7b09d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T12:43:51.942252"
     }
   ]
 }
