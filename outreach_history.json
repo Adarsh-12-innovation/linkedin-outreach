@@ -1115,7 +1115,16 @@
     "urn:li:activity:7510218610007773184",
     "urn:li:activity:7510212898024005632",
     "urn:li:activity:7510198081687216128",
-    "urn:li:activity:7510192763955646465"
+    "urn:li:activity:7510192763955646465",
+    "urn:li:activity:7510246588624318464",
+    "urn:li:activity:7510246662083158016",
+    "urn:li:activity:7510239428318035968",
+    "urn:li:activity:7510238929866948610",
+    "urn:li:activity:7510237445507055617",
+    "urn:li:activity:7510233320199380993",
+    "urn:li:activity:7510225838265765888",
+    "urn:li:activity:7510222733696270336",
+    "urn:li:activity:7510220643364278272"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1777,7 +1786,11 @@
     "shivani.sinha@delphic.in",
     "aravind.t@jaastechnologies.com",
     "daniya.m@flycatchtech.com",
-    "upendrareddy@sidramtech.com"
+    "upendrareddy@sidramtech.com",
+    "swetha.u@onasit.com",
+    "nikita.soni@optimumvalue.co",
+    "hr@otrixindia.com",
+    "muskan@sourcebae.com"
   ],
   "contacted_details": [
     {
@@ -13351,6 +13364,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-28T12:43:51.942252"
+    },
+    {
+      "urn": "urn:li:activity:7510246588624318464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510246588624318464",
+      "email": "swetha.u@onasit.com",
+      "thread_id": "1a0e749f04157144",
+      "message_id": "1a0e749f04157144",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T14:42:58.569746"
+    },
+    {
+      "urn": "urn:li:activity:7510246662083158016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510246662083158016",
+      "email": "nikita.soni@optimumvalue.co",
+      "thread_id": "1a0e749f9b8bb481",
+      "message_id": "1a0e749f9b8bb481",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T14:43:00.670471"
+    },
+    {
+      "urn": "urn:li:activity:7510239428318035968",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510239428318035968",
+      "email": "kavya.j@jaastechnologies.com",
+      "thread_id": "1a0e74a0b3fbbf7c",
+      "message_id": "1a0e74a0b3fbbf7c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T14:43:05.278093"
+    },
+    {
+      "urn": "urn:li:activity:7510238929866948610",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510238929866948610",
+      "email": "mansi@infowaygroup.com",
+      "thread_id": "1a0e74a176aa6730",
+      "message_id": "1a0e74a176aa6730",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T14:43:08.008830"
+    },
+    {
+      "urn": "urn:li:activity:7510237445507055617",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510237445507055617",
+      "email": "hr@otrixindia.com",
+      "thread_id": "1a0e74a26a110bb3",
+      "message_id": "1a0e74a26a110bb3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T14:43:12.295964"
+    },
+    {
+      "urn": "urn:li:activity:7510233320199380993",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510233320199380993",
+      "email": "sanjana.patel@huemot.com",
+      "thread_id": "1a0e74a3cbe32956",
+      "message_id": "1a0e74a3cbe32956",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T14:43:18.257553"
+    },
+    {
+      "urn": "urn:li:activity:7510225838265765888",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510225838265765888",
+      "email": "harsha@code1.dev",
+      "thread_id": "1a0e74a48890e7e7",
+      "message_id": "1a0e74a48890e7e7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T14:43:21.279194"
+    },
+    {
+      "urn": "urn:li:activity:7510222733696270336",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510222733696270336",
+      "email": "muskan@sourcebae.com",
+      "thread_id": "1a0e74a530e27e95",
+      "message_id": "1a0e74a530e27e95",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T14:43:23.695274"
+    },
+    {
+      "urn": "urn:li:activity:7510220643364278272",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510220643364278272",
+      "email": "shifa@sourcebae.com",
+      "thread_id": "1a0e74a5ef1fda0a",
+      "message_id": "1a0e74a5ef1fda0a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T14:43:26.677899"
     }
   ]
 }
