@@ -1126,7 +1126,12 @@
     "urn:li:activity:7510222733696270336",
     "urn:li:activity:7510220643364278272",
     "urn:li:activity:7510274893704237057",
-    "urn:li:activity:7510269342404608000"
+    "urn:li:activity:7510269342404608000",
+    "urn:li:activity:7510317310298034176",
+    "urn:li:activity:7510313207048318977",
+    "urn:li:activity:7510309105488580609",
+    "urn:li:activity:7510289673089536000",
+    "urn:li:activity:7510286137484283904"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1793,7 +1798,11 @@
     "nikita.soni@optimumvalue.co",
     "hr@otrixindia.com",
     "muskan@sourcebae.com",
-    "laxmi.shrestha@apptadinc.com"
+    "laxmi.shrestha@apptadinc.com",
+    "sushma.talawar@elanceindia.com",
+    "syed.mujafar@codinglimits.com",
+    "goswamiisha024@gmail.com",
+    "shivani.s.soni@oaktreecloud.com"
   ],
   "contacted_details": [
     {
@@ -13477,6 +13486,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-28T16:05:07.347988"
+    },
+    {
+      "urn": "urn:li:activity:7510317310298034176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510317310298034176",
+      "email": "sushma.talawar@elanceindia.com",
+      "thread_id": "1a0e80f799b274e8",
+      "message_id": "1a0e80f799b274e8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T18:18:42.566378"
+    },
+    {
+      "urn": "urn:li:activity:7510313207048318977",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510313207048318977",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a0e80f9000848f4",
+      "message_id": "1a0e80f9000848f4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T18:18:48.560683"
+    },
+    {
+      "urn": "urn:li:activity:7510309105488580609",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510309105488580609",
+      "email": "syed.mujafar@codinglimits.com",
+      "thread_id": "1a0e80f991d914ce",
+      "message_id": "1a0e80f991d914ce",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T18:18:51.013098"
+    },
+    {
+      "urn": "urn:li:activity:7510289673089536000",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510289673089536000",
+      "email": "goswamiisha024@gmail.com",
+      "thread_id": "1a0e80fa369b3a28",
+      "message_id": "1a0e80fa369b3a28",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T18:18:53.098022"
+    },
+    {
+      "urn": "urn:li:activity:7510286137484283904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510286137484283904",
+      "email": "shivani.s.soni@oaktreecloud.com",
+      "thread_id": "1a0e80faa3a75c7b",
+      "message_id": "1a0e80faa3a75c7b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-28T18:18:55.237632"
     }
   ]
 }
