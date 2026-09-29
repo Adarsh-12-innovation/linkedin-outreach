@@ -1165,7 +1165,18 @@
     "urn:li:activity:7510607358444601346",
     "urn:li:activity:7510603332244123649",
     "urn:li:activity:7510597255368843265",
-    "urn:li:activity:7510577667558121472"
+    "urn:li:activity:7510577667558121472",
+    "urn:li:activity:7510652117179584512",
+    "urn:li:activity:7510643733382475776",
+    "urn:li:activity:7510637209021161472",
+    "urn:li:activity:7510635658970050561",
+    "urn:li:activity:7510635280773787648",
+    "urn:li:activity:7510635043451531265",
+    "urn:li:activity:7510631499860254720",
+    "urn:li:activity:7510629411088482304",
+    "urn:li:activity:7510626789635907584",
+    "urn:li:activity:7510626639568015361",
+    "urn:li:activity:7510623112648888320"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1852,7 +1863,13 @@
     "jaswanth.g@careersoftusa.com",
     "Business@maverickignite.com",
     "Somil.manak@tekgence.com",
-    "nermin.a@marc-ellis.com"
+    "nermin.a@marc-ellis.com",
+    "recruiting@apexitcs.org",
+    "hr@anantyatechlabs.com",
+    "yamini@conveytechlabs.com",
+    "Praharsha.m@Careersoftusa.com",
+    "vijayababu.kamaraj@f2p.org.in",
+    "praneel.b@aarktech.ch"
   ],
   "contacted_details": [
     {
@@ -13313,9 +13330,10 @@
       "email": "careers@apexitcs.org",
       "thread_id": "1a0e64b32b6964c7",
       "message_id": "1a0e64b32b6964c7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-28T10:04:43.640241"
+      "timestamp": "2026-09-28T10:04:43.640241",
+      "followup_timestamp": "2026-09-29T16:38:58.182685"
     },
     {
       "urn": "urn:li:activity:7510185823888371712",
@@ -13323,9 +13341,10 @@
       "email": "careers@apexitcs.org",
       "thread_id": "1a0e64b3c2399c0c",
       "message_id": "1a0e64b3c2399c0c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-28T10:04:46.172019"
+      "timestamp": "2026-09-28T10:04:46.172019",
+      "followup_timestamp": "2026-09-29T16:39:00.518134"
     },
     {
       "urn": "urn:li:activity:7510204620036751360",
@@ -13333,9 +13352,10 @@
       "email": "resumes@ingeniumnext.com",
       "thread_id": "1a0e67af647c8aef",
       "message_id": "1a0e67af647c8aef",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-28T10:56:54.168069"
+      "timestamp": "2026-09-28T10:56:54.168069",
+      "followup_timestamp": "2026-09-29T16:39:03.039623"
     },
     {
       "urn": "urn:li:activity:7510194323594850304",
@@ -13343,9 +13363,10 @@
       "email": "anwar.jakate@apptadinc.com",
       "thread_id": "1a0e67b09d6e944e",
       "message_id": "1a0e67b09d6e944e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-28T10:56:59.120851"
+      "timestamp": "2026-09-28T10:56:59.120851",
+      "followup_timestamp": "2026-09-29T16:39:05.312405"
     },
     {
       "urn": "urn:li:activity:7510181399249887232",
@@ -13353,9 +13374,10 @@
       "email": "jessiev@secondtalent.com",
       "thread_id": "1a0e67b1b0c23f75",
       "message_id": "1a0e67b1b0c23f75",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-28T10:57:03.195966"
+      "timestamp": "2026-09-28T10:57:03.195966",
+      "followup_timestamp": "2026-09-29T16:39:07.585980"
     },
     {
       "urn": "urn:li:activity:7510232831915261952",
@@ -13926,6 +13948,116 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-29T14:27:20.198669"
+    },
+    {
+      "urn": "urn:li:activity:7510652117179584512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510652117179584512",
+      "email": "udayasri.m@martinettechnologies.com",
+      "thread_id": "1a0ecda0d3653608",
+      "message_id": "1a0ecda0d3653608",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:27.637181"
+    },
+    {
+      "urn": "urn:li:activity:7510643733382475776",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510643733382475776",
+      "email": "recruiting@apexitcs.org",
+      "thread_id": "1a0ecda18639e0a8",
+      "message_id": "1a0ecda18639e0a8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:30.844114"
+    },
+    {
+      "urn": "urn:li:activity:7510637209021161472",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510637209021161472",
+      "email": "hr@anantyatechlabs.com",
+      "thread_id": "1a0ecda22fe1c764",
+      "message_id": "1a0ecda22fe1c764",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:33.341856"
+    },
+    {
+      "urn": "urn:li:activity:7510635658970050561",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510635658970050561",
+      "email": "careers@onmogsoftsol.com",
+      "thread_id": "1a0ecda2c70a05fd",
+      "message_id": "1a0ecda2c70a05fd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:35.609859"
+    },
+    {
+      "urn": "urn:li:activity:7510635280773787648",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510635280773787648",
+      "email": "careers@onmogsoftsol.com",
+      "thread_id": "1a0ecda350055cb1",
+      "message_id": "1a0ecda350055cb1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:37.759900"
+    },
+    {
+      "urn": "urn:li:activity:7510635043451531265",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510635043451531265",
+      "email": "careers@onmogsoftsol.com",
+      "thread_id": "1a0ecda3e23cc21b",
+      "message_id": "1a0ecda3e23cc21b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:40.766285"
+    },
+    {
+      "urn": "urn:li:activity:7510631499860254720",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510631499860254720",
+      "email": "yamini@conveytechlabs.com",
+      "thread_id": "1a0ecda4afce12f4",
+      "message_id": "1a0ecda4afce12f4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:43.446962"
+    },
+    {
+      "urn": "urn:li:activity:7510629411088482304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510629411088482304",
+      "email": "Praharsha.m@Careersoftusa.com",
+      "thread_id": "1a0ecda5308d607a",
+      "message_id": "1a0ecda5308d607a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:45.792111"
+    },
+    {
+      "urn": "urn:li:activity:7510626789635907584",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510626789635907584",
+      "email": "vijayababu.kamaraj@f2p.org.in",
+      "thread_id": "1a0ecda5cd14398d",
+      "message_id": "1a0ecda5cd14398d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:48.221673"
+    },
+    {
+      "urn": "urn:li:activity:7510626639568015361",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510626639568015361",
+      "email": "vijayababu.kamaraj@f2p.org.in",
+      "thread_id": "1a0ecda67c959db8",
+      "message_id": "1a0ecda67c959db8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:50.631338"
+    },
+    {
+      "urn": "urn:li:activity:7510623112648888320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510623112648888320",
+      "email": "praneel.b@aarktech.ch",
+      "thread_id": "1a0ecda7bfb96c4a",
+      "message_id": "1a0ecda7bfb96c4a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T16:38:55.578066"
     }
   ]
 }
