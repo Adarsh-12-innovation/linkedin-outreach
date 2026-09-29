@@ -1179,7 +1179,9 @@
     "urn:li:activity:7510623112648888320",
     "urn:li:activity:7510676277671059457",
     "urn:li:activity:7510670803307327488",
-    "urn:li:activity:7510643777607196672"
+    "urn:li:activity:7510643777607196672",
+    "urn:li:activity:7510693302812172296",
+    "urn:li:activity:7510689613557129219"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1874,7 +1876,9 @@
     "vijayababu.kamaraj@f2p.org.in",
     "praneel.b@aarktech.ch",
     "careers@avismita.com",
-    "manju.m@globalcontinual.com"
+    "manju.m@globalcontinual.com",
+    "careers@primetekgs.com",
+    "aditi.srivastava@avanciers.com"
   ],
   "contacted_details": [
     {
@@ -14100,6 +14104,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-29T18:22:11.427203"
+    },
+    {
+      "urn": "urn:li:activity:7510693302812172296",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510693302812172296",
+      "email": "careers@primetekgs.com",
+      "thread_id": "1a0ed6d822fc2fed",
+      "message_id": "1a0ed6d822fc2fed",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T19:19:31.937603"
+    },
+    {
+      "urn": "urn:li:activity:7510689613557129219",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510689613557129219",
+      "email": "aditi.srivastava@avanciers.com",
+      "thread_id": "1a0ed6d8bc997af2",
+      "message_id": "1a0ed6d8bc997af2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T19:19:34.265983"
     }
   ]
 }
