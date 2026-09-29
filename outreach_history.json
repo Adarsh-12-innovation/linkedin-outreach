@@ -1159,7 +1159,13 @@
     "urn:li:activity:7510568122521817089",
     "urn:li:activity:7510563594724646912",
     "urn:li:activity:7510556116120932352",
-    "urn:li:activity:7510544096986464256"
+    "urn:li:activity:7510544096986464256",
+    "urn:li:activity:7510613137201455104",
+    "urn:li:activity:7510607898784280577",
+    "urn:li:activity:7510607358444601346",
+    "urn:li:activity:7510603332244123649",
+    "urn:li:activity:7510597255368843265",
+    "urn:li:activity:7510577667558121472"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1845,7 +1851,8 @@
     "Shireesha.b@martinettechnologies.com",
     "jaswanth.g@careersoftusa.com",
     "Business@maverickignite.com",
-    "Somil.manak@tekgence.com"
+    "Somil.manak@tekgence.com",
+    "nermin.a@marc-ellis.com"
   ],
   "contacted_details": [
     {
@@ -13859,6 +13866,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-29T12:40:37.075416"
+    },
+    {
+      "urn": "urn:li:activity:7510613137201455104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510613137201455104",
+      "email": "sthakare@dgntechnologies.com",
+      "thread_id": "1a0ec616db1ae146",
+      "message_id": "1a0ec616db1ae146",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T14:26:42.382910"
+    },
+    {
+      "urn": "urn:li:activity:7510607898784280577",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510607898784280577",
+      "email": "sanjay@audentestech.com",
+      "thread_id": "1a0ec617ec02afe2",
+      "message_id": "1a0ec617ec02afe2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T14:26:46.861563"
+    },
+    {
+      "urn": "urn:li:activity:7510607358444601346",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510607358444601346",
+      "email": "Business@maverickignite.com",
+      "thread_id": "1a0ec618d13761fb",
+      "message_id": "1a0ec618d13761fb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T14:26:50.740151"
+    },
+    {
+      "urn": "urn:li:activity:7510603332244123649",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510603332244123649",
+      "email": "info@martinettechnologies.com",
+      "thread_id": "1a0ec61991ccb660",
+      "message_id": "1a0ec61991ccb660",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T14:26:53.374403"
+    },
+    {
+      "urn": "urn:li:activity:7510597255368843265",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510597255368843265",
+      "email": "syed.mujafar@codinglimits.com",
+      "thread_id": "1a0ec61a1418887f",
+      "message_id": "1a0ec61a1418887f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T14:26:55.836314"
+    },
+    {
+      "urn": "urn:li:activity:7510577667558121472",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510577667558121472",
+      "email": "nermin.a@marc-ellis.com",
+      "thread_id": "1a0ec6200249b795",
+      "message_id": "1a0ec6200249b795",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T14:27:20.198669"
     }
   ]
 }
