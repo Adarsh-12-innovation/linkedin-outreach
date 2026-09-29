@@ -1143,7 +1143,23 @@
     "urn:li:activity:7510470527057313793",
     "urn:li:activity:7510441854954541056",
     "urn:li:activity:7510439495847165954",
-    "urn:li:activity:7510438750041071617"
+    "urn:li:activity:7510438750041071617",
+    "urn:li:activity:7510592608709234688",
+    "urn:li:activity:7510591161733054464",
+    "urn:li:activity:7510591008993087488",
+    "urn:li:activity:7510587694624870400",
+    "urn:li:activity:7510579862101864448",
+    "urn:li:activity:7510573359487983616",
+    "urn:li:activity:7510573193808744450",
+    "urn:li:activity:7510571422906523649",
+    "urn:li:activity:7510570625900531712",
+    "urn:li:activity:7510570390747025408",
+    "urn:li:activity:7510569217428148224",
+    "urn:li:activity:7510568463632039936",
+    "urn:li:activity:7510568122521817089",
+    "urn:li:activity:7510563594724646912",
+    "urn:li:activity:7510556116120932352",
+    "urn:li:activity:7510544096986464256"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1821,7 +1837,15 @@
     "koolhubtech@koolhub.org",
     "wajahat@benchzero.com",
     "bhanuprakash@intellectt.com",
-    "kajalverma@hexgs.com"
+    "kajalverma@hexgs.com",
+    "morgadijyothi@gmail.com",
+    "jobs@xperteez.co.in",
+    "sujala@conveytechlabs.com",
+    "info@martinettechnologies.com",
+    "Shireesha.b@martinettechnologies.com",
+    "jaswanth.g@careersoftusa.com",
+    "Business@maverickignite.com",
+    "Somil.manak@tekgence.com"
   ],
   "contacted_details": [
     {
@@ -13675,6 +13699,166 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-29T10:46:04.781488"
+    },
+    {
+      "urn": "urn:li:activity:7510592608709234688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510592608709234688",
+      "email": "morgadijyothi@gmail.com",
+      "thread_id": "1a0ebff9d1a6e23e",
+      "message_id": "1a0ebff9d1a6e23e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:39:51.888403"
+    },
+    {
+      "urn": "urn:li:activity:7510591161733054464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510591161733054464",
+      "email": "vijayalakshmi@conveytechlabs.com",
+      "thread_id": "1a0ebffa6866e583",
+      "message_id": "1a0ebffa6866e583",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:39:54.631496"
+    },
+    {
+      "urn": "urn:li:activity:7510591008993087488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510591008993087488",
+      "email": "vijayalakshmi@conveytechlabs.com",
+      "thread_id": "1a0ebffb04cef99e",
+      "message_id": "1a0ebffb04cef99e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:39:57.063180"
+    },
+    {
+      "urn": "urn:li:activity:7510587694624870400",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510587694624870400",
+      "email": "jobs@xperteez.co.in",
+      "thread_id": "1a0ebffb8cc3b584",
+      "message_id": "1a0ebffb8cc3b584",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:39:59.233512"
+    },
+    {
+      "urn": "urn:li:activity:7510579862101864448",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510579862101864448",
+      "email": "sujala@conveytechlabs.com",
+      "thread_id": "1a0ebffc26633668",
+      "message_id": "1a0ebffc26633668",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:02.113187"
+    },
+    {
+      "urn": "urn:li:activity:7510573359487983616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510573359487983616",
+      "email": "info@martinettechnologies.com",
+      "thread_id": "1a0ebffd720a7f1b",
+      "message_id": "1a0ebffd720a7f1b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:06.723537"
+    },
+    {
+      "urn": "urn:li:activity:7510573193808744450",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510573193808744450",
+      "email": "udayasri.m@martinettechnologies.com",
+      "thread_id": "1a0ebffdebea7bdf",
+      "message_id": "1a0ebffdebea7bdf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:09.376400"
+    },
+    {
+      "urn": "urn:li:activity:7510571422906523649",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510571422906523649",
+      "email": "anusha.a@martinettechnologies.com",
+      "thread_id": "1a0ebffe97e70b31",
+      "message_id": "1a0ebffe97e70b31",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:11.574406"
+    },
+    {
+      "urn": "urn:li:activity:7510570625900531712",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510570625900531712",
+      "email": "shireesha.b@martinettechnologies.com",
+      "thread_id": "1a0ebfff4b38f2ae",
+      "message_id": "1a0ebfff4b38f2ae",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:14.551536"
+    },
+    {
+      "urn": "urn:li:activity:7510570390747025408",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510570390747025408",
+      "email": "Shireesha.b@martinettechnologies.com",
+      "thread_id": "1a0ebfffe501b2e8",
+      "message_id": "1a0ebfffe501b2e8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:17.001551"
+    },
+    {
+      "urn": "urn:li:activity:7510569217428148224",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510569217428148224",
+      "email": "info@uhvsoftwaresolutions.com",
+      "thread_id": "1a0ec000e020ffb8",
+      "message_id": "1a0ec000e020ffb8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:21.209558"
+    },
+    {
+      "urn": "urn:li:activity:7510568463632039936",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510568463632039936",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a0ec00247376013",
+      "message_id": "1a0ec00247376013",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:26.763457"
+    },
+    {
+      "urn": "urn:li:activity:7510568122521817089",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510568122521817089",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "1a0ec002d333a953",
+      "message_id": "1a0ec002d333a953",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:29.167303"
+    },
+    {
+      "urn": "urn:li:activity:7510563594724646912",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510563594724646912",
+      "email": "jaswanth.g@careersoftusa.com",
+      "thread_id": "1a0ec0038d25bfbe",
+      "message_id": "1a0ec0038d25bfbe",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:31.936359"
+    },
+    {
+      "urn": "urn:li:activity:7510556116120932352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510556116120932352",
+      "email": "Business@maverickignite.com",
+      "thread_id": "1a0ec0042ac5ad47",
+      "message_id": "1a0ec0042ac5ad47",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:34.701513"
+    },
+    {
+      "urn": "urn:li:activity:7510544096986464256",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510544096986464256",
+      "email": "Somil.manak@tekgence.com",
+      "thread_id": "1a0ec004c28d30aa",
+      "message_id": "1a0ec004c28d30aa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T12:40:37.075416"
     }
   ]
 }
