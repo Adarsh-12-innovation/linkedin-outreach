@@ -1131,7 +1131,19 @@
     "urn:li:activity:7510313207048318977",
     "urn:li:activity:7510309105488580609",
     "urn:li:activity:7510289673089536000",
-    "urn:li:activity:7510286137484283904"
+    "urn:li:activity:7510286137484283904",
+    "urn:li:activity:7510565869123502080",
+    "urn:li:activity:7510563591209799682",
+    "urn:li:activity:7510563149150838784",
+    "urn:li:activity:7510560996869160960",
+    "urn:li:activity:7510559667731832832",
+    "urn:li:activity:7510553996487655424",
+    "urn:li:activity:7510550503307776001",
+    "urn:li:activity:7510542101298950146",
+    "urn:li:activity:7510470527057313793",
+    "urn:li:activity:7510441854954541056",
+    "urn:li:activity:7510439495847165954",
+    "urn:li:activity:7510438750041071617"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1802,7 +1814,14 @@
     "sushma.talawar@elanceindia.com",
     "syed.mujafar@codinglimits.com",
     "goswamiisha024@gmail.com",
-    "shivani.s.soni@oaktreecloud.com"
+    "shivani.s.soni@oaktreecloud.com",
+    "Lokeshwer@datatechgenius.com",
+    "anbarasi@datatechgenius.com",
+    "dhina@datatechgenius.com",
+    "koolhubtech@koolhub.org",
+    "wajahat@benchzero.com",
+    "bhanuprakash@intellectt.com",
+    "kajalverma@hexgs.com"
   ],
   "contacted_details": [
     {
@@ -13536,6 +13555,126 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-28T18:18:55.237632"
+    },
+    {
+      "urn": "urn:li:activity:7510565869123502080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510565869123502080",
+      "email": "Lokeshwer@datatechgenius.com",
+      "thread_id": "1a0eb96f86d505db",
+      "message_id": "1a0eb96f86d505db",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:45:34.306738"
+    },
+    {
+      "urn": "urn:li:activity:7510563591209799682",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510563591209799682",
+      "email": "anbarasi@datatechgenius.com",
+      "thread_id": "1a0eb970df09c314",
+      "message_id": "1a0eb970df09c314",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:45:39.392488"
+    },
+    {
+      "urn": "urn:li:activity:7510563149150838784",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510563149150838784",
+      "email": "dhina@datatechgenius.com",
+      "thread_id": "1a0eb97157801fee",
+      "message_id": "1a0eb97157801fee",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:45:41.452988"
+    },
+    {
+      "urn": "urn:li:activity:7510560996869160960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510560996869160960",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "1a0eb971c45d36e8",
+      "message_id": "1a0eb971c45d36e8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:45:43.533023"
+    },
+    {
+      "urn": "urn:li:activity:7510559667731832832",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510559667731832832",
+      "email": "koolhubtech@koolhub.org",
+      "thread_id": "1a0eb9731036886b",
+      "message_id": "1a0eb9731036886b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:45:48.534600"
+    },
+    {
+      "urn": "urn:li:activity:7510553996487655424",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510553996487655424",
+      "email": "careers@apexitcs.org",
+      "thread_id": "1a0eb973a9ef5f66",
+      "message_id": "1a0eb973a9ef5f66",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:45:50.955680"
+    },
+    {
+      "urn": "urn:li:activity:7510550503307776001",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510550503307776001",
+      "email": "careers@apexitcs.org",
+      "thread_id": "1a0eb9743db3a706",
+      "message_id": "1a0eb9743db3a706",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:45:53.359665"
+    },
+    {
+      "urn": "urn:li:activity:7510542101298950146",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510542101298950146",
+      "email": "dsstradeserve@gmail.com",
+      "thread_id": "1a0eb974daf6b32f",
+      "message_id": "1a0eb974daf6b32f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:45:55.504114"
+    },
+    {
+      "urn": "urn:li:activity:7510470527057313793",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510470527057313793",
+      "email": "wajahat@benchzero.com",
+      "thread_id": "1a0eb975647dca7f",
+      "message_id": "1a0eb975647dca7f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:45:58.117858"
+    },
+    {
+      "urn": "urn:li:activity:7510441854954541056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510441854954541056",
+      "email": "bhanuprakash@intellectt.com",
+      "thread_id": "1a0eb975e5189b10",
+      "message_id": "1a0eb975e5189b10",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:46:00.234986"
+    },
+    {
+      "urn": "urn:li:activity:7510439495847165954",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510439495847165954",
+      "email": "Naveen@smartitframe.com",
+      "thread_id": "1a0eb9766e047cc9",
+      "message_id": "1a0eb9766e047cc9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:46:02.616338"
+    },
+    {
+      "urn": "urn:li:activity:7510438750041071617",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510438750041071617",
+      "email": "kajalverma@hexgs.com",
+      "thread_id": "1a0eb9771853f609",
+      "message_id": "1a0eb9771853f609",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-29T10:46:04.781488"
     }
   ]
 }
