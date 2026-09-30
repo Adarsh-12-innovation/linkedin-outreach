@@ -1189,7 +1189,15 @@
     "urn:li:activity:7510932412139503617",
     "urn:li:activity:7510931176963076096",
     "urn:li:activity:7510930968510332928",
-    "urn:li:activity:7510930131373346817"
+    "urn:li:activity:7510930131373346817",
+    "urn:li:activity:7510960923025731584",
+    "urn:li:activity:7510958344334004224",
+    "urn:li:activity:7510947135077449728",
+    "urn:li:activity:7510946473602244608",
+    "urn:li:activity:7510941983155122176",
+    "urn:li:activity:7510939224267870210",
+    "urn:li:activity:7510928761627017216",
+    "urn:li:activity:7510925708630745088"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1891,7 +1899,11 @@
     "sai@ekfrazo.com",
     "careers@americanitsystems.com",
     "harsha@phoenixinfo.co.in",
-    "jobs.3@proximagenesis.com"
+    "jobs.3@proximagenesis.com",
+    "pavanmandavilli24@gmail.com",
+    "gattigorlarajesh@gmail.com",
+    "sadiya.qadri@techmatys.com",
+    "jobs2@proximagenesis.com"
   ],
   "contacted_details": [
     {
@@ -14233,6 +14245,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-30T11:01:45.789284"
+    },
+    {
+      "urn": "urn:li:activity:7510960923025731584",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510960923025731584",
+      "email": "pavanmandavilli24@gmail.com",
+      "thread_id": "1a0f14d1ce5f5dc7",
+      "message_id": "1a0f14d1ce5f5dc7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T13:22:37.957037"
+    },
+    {
+      "urn": "urn:li:activity:7510958344334004224",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510958344334004224",
+      "email": "shweta.sgempertsindia@gmail.com",
+      "thread_id": "1a0f14d2ee8efdfd",
+      "message_id": "1a0f14d2ee8efdfd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T13:22:42.397457"
+    },
+    {
+      "urn": "urn:li:activity:7510947135077449728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510947135077449728",
+      "email": "gattigorlarajesh@gmail.com",
+      "thread_id": "1a0f14d46cdd18c6",
+      "message_id": "1a0f14d46cdd18c6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T13:22:48.873259"
+    },
+    {
+      "urn": "urn:li:activity:7510946473602244608",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510946473602244608",
+      "email": "krati@aliqan.com",
+      "thread_id": "1a0f14d5a3016084",
+      "message_id": "1a0f14d5a3016084",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T13:22:54.082826"
+    },
+    {
+      "urn": "urn:li:activity:7510941983155122176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510941983155122176",
+      "email": "arti@aliqan.com",
+      "thread_id": "1a0f14d71426c023",
+      "message_id": "1a0f14d71426c023",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T13:22:59.656569"
+    },
+    {
+      "urn": "urn:li:activity:7510939224267870210",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510939224267870210",
+      "email": "sadiya.qadri@techmatys.com",
+      "thread_id": "1a0f14d7a8057be7",
+      "message_id": "1a0f14d7a8057be7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T13:23:02.070313"
+    },
+    {
+      "urn": "urn:li:activity:7510928761627017216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510928761627017216",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "1a0f14d8577ef5bb",
+      "message_id": "1a0f14d8577ef5bb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T13:23:04.573170"
+    },
+    {
+      "urn": "urn:li:activity:7510925708630745088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510925708630745088",
+      "email": "jobs2@proximagenesis.com",
+      "thread_id": "1a0f14d8fcf3c946",
+      "message_id": "1a0f14d8fcf3c946",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T13:23:06.938516"
     }
   ]
 }
