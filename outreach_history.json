@@ -1197,7 +1197,14 @@
     "urn:li:activity:7510941983155122176",
     "urn:li:activity:7510939224267870210",
     "urn:li:activity:7510928761627017216",
-    "urn:li:activity:7510925708630745088"
+    "urn:li:activity:7510925708630745088",
+    "urn:li:activity:7510993756352016384",
+    "urn:li:activity:7510977407303094273",
+    "urn:li:activity:7510976107614027776",
+    "urn:li:activity:7510973249766379520",
+    "urn:li:activity:7510973284969250816",
+    "urn:li:activity:7510970604230103040",
+    "urn:li:activity:7510969281342373888"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1903,7 +1910,10 @@
     "pavanmandavilli24@gmail.com",
     "gattigorlarajesh@gmail.com",
     "sadiya.qadri@techmatys.com",
-    "jobs2@proximagenesis.com"
+    "jobs2@proximagenesis.com",
+    "venkat@adarshsolutions.com",
+    "rohini@strongpoint.digital",
+    "hrappcrates@gmail.com"
   ],
   "contacted_details": [
     {
@@ -14325,6 +14335,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-09-30T13:23:06.938516"
+    },
+    {
+      "urn": "urn:li:activity:7510993756352016384",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510993756352016384",
+      "email": "venkat@adarshsolutions.com",
+      "thread_id": "1a0f1adda271d280",
+      "message_id": "1a0f1adda271d280",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T15:08:18.397585"
+    },
+    {
+      "urn": "urn:li:activity:7510977407303094273",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510977407303094273",
+      "email": "rohini@strongpoint.digital",
+      "thread_id": "1a0f1ade88b0e5a9",
+      "message_id": "1a0f1ade88b0e5a9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T15:08:21.513657"
+    },
+    {
+      "urn": "urn:li:activity:7510976107614027776",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510976107614027776",
+      "email": "hrappcrates@gmail.com",
+      "thread_id": "1a0f1adf0e3af811",
+      "message_id": "1a0f1adf0e3af811",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T15:08:23.697916"
+    },
+    {
+      "urn": "urn:li:activity:7510973249766379520",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510973249766379520",
+      "email": "HR@vitimcloud.com",
+      "thread_id": "1a0f1adf9090dd89",
+      "message_id": "1a0f1adf9090dd89",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T15:08:25.815557"
+    },
+    {
+      "urn": "urn:li:activity:7510973284969250816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510973284969250816",
+      "email": "HR@vitimcloud.com",
+      "thread_id": "1a0f1ae0701a8992",
+      "message_id": "1a0f1ae0701a8992",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T15:08:29.524923"
+    },
+    {
+      "urn": "urn:li:activity:7510970604230103040",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510970604230103040",
+      "email": "jobs@proximagenesis.com",
+      "thread_id": "1a0f1ae11d4d9713",
+      "message_id": "1a0f1ae11d4d9713",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T15:08:31.943520"
+    },
+    {
+      "urn": "urn:li:activity:7510969281342373888",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510969281342373888",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a0f1ae196700592",
+      "message_id": "1a0f1ae196700592",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-09-30T15:08:34.052198"
     }
   ]
 }
