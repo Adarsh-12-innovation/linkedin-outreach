@@ -1222,7 +1222,10 @@
     "urn:li:activity:7511070842605252608",
     "urn:li:activity:7511059355052568576",
     "urn:li:activity:7511058363380740096",
-    "urn:li:activity:7511178132356222977"
+    "urn:li:activity:7511178132356222977",
+    "urn:li:activity:7511299862378893312",
+    "urn:li:activity:7511285772671516673",
+    "urn:li:activity:7511282754752536576"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1941,7 +1944,8 @@
     "devika@itpremia.com",
     "Bhavya.Sharma@mamsys.com",
     "ayushi@akaasa.com",
-    "Michael@nexreq.com"
+    "Michael@nexreq.com",
+    "nasrin.jafin@outlook.com"
   ],
   "contacted_details": [
     {
@@ -14660,6 +14664,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-01T10:15:17.014969"
+    },
+    {
+      "urn": "urn:li:activity:7511299862378893312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511299862378893312",
+      "email": "harika.m@people-prime.com",
+      "thread_id": "1a0f628cbd3123b8",
+      "message_id": "1a0f628cbd3123b8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-01T12:01:04.193539"
+    },
+    {
+      "urn": "urn:li:activity:7511285772671516673",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511285772671516673",
+      "email": "nasrin.jafin@outlook.com",
+      "thread_id": "1a0f628d753a4ff3",
+      "message_id": "1a0f628d753a4ff3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-01T12:01:07.372130"
+    },
+    {
+      "urn": "urn:li:activity:7511282754752536576",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511282754752536576",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "1a0f628e1dd718de",
+      "message_id": "1a0f628e1dd718de",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-01T12:01:09.853796"
     }
   ]
 }
