@@ -1229,7 +1229,9 @@
     "urn:li:activity:7511344731583393792",
     "urn:li:activity:7511316514629644289",
     "urn:li:activity:7511294911808278528",
-    "urn:li:activity:7511345695128276992"
+    "urn:li:activity:7511345695128276992",
+    "urn:li:activity:7511402443067412480",
+    "urn:li:activity:7511394786868801536"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1951,7 +1953,9 @@
     "Michael@nexreq.com",
     "nasrin.jafin@outlook.com",
     "srushti.bombe@ltm.com",
-    "nabbimutt@thoughtframeworks.com"
+    "nabbimutt@thoughtframeworks.com",
+    "nafeeshabano@zenzarttech.com",
+    "nvinod@thoughtframeworks.com"
   ],
   "contacted_details": [
     {
@@ -14300,9 +14304,10 @@
       "email": "harsha@phoenixinfo.co.in",
       "thread_id": "1a0f0cbfaac34904",
       "message_id": "1a0f0cbfaac34904",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-30T11:01:35.097124"
+      "timestamp": "2026-09-30T11:01:35.097124",
+      "followup_timestamp": "2026-10-01T18:08:07.140813"
     },
     {
       "urn": "urn:li:activity:7510932412139503617",
@@ -14310,9 +14315,10 @@
       "email": "sanjana.a@martinettechnologies.com",
       "thread_id": "1a0f0cc07ec317aa",
       "message_id": "1a0f0cc07ec317aa",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-30T11:01:38.218923"
+      "timestamp": "2026-09-30T11:01:38.218923",
+      "followup_timestamp": "2026-10-01T18:08:09.477096"
     },
     {
       "urn": "urn:li:activity:7510931176963076096",
@@ -14320,9 +14326,10 @@
       "email": "anusha.a@martinettechnologies.com",
       "thread_id": "1a0f0cc11a4b89da",
       "message_id": "1a0f0cc11a4b89da",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-30T11:01:40.877916"
+      "timestamp": "2026-09-30T11:01:40.877916",
+      "followup_timestamp": "2026-10-01T18:08:12.070584"
     },
     {
       "urn": "urn:li:activity:7510930968510332928",
@@ -14330,9 +14337,10 @@
       "email": "jobs.3@proximagenesis.com",
       "thread_id": "1a0f0cc1acd8f16b",
       "message_id": "1a0f0cc1acd8f16b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-30T11:01:43.385571"
+      "timestamp": "2026-09-30T11:01:43.385571",
+      "followup_timestamp": "2026-10-01T18:08:14.696849"
     },
     {
       "urn": "urn:li:activity:7510930131373346817",
@@ -14340,9 +14348,10 @@
       "email": "priyadarshini.u@martinettechnologies.com",
       "thread_id": "1a0f0cc24fbdcf05",
       "message_id": "1a0f0cc24fbdcf05",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-30T11:01:45.789284"
+      "timestamp": "2026-09-30T11:01:45.789284",
+      "followup_timestamp": "2026-10-01T18:08:18.341271"
     },
     {
       "urn": "urn:li:activity:7510960923025731584",
@@ -14743,6 +14752,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-01T16:01:46.203873"
+    },
+    {
+      "urn": "urn:li:activity:7511402443067412480",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511402443067412480",
+      "email": "nafeeshabano@zenzarttech.com",
+      "thread_id": "1a0f778c5114c982",
+      "message_id": "1a0f778c5114c982",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-01T18:08:02.726060"
+    },
+    {
+      "urn": "urn:li:activity:7511394786868801536",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511394786868801536",
+      "email": "nvinod@thoughtframeworks.com",
+      "thread_id": "1a0f778cc3c28a6c",
+      "message_id": "1a0f778cc3c28a6c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-01T18:08:04.838240"
     }
   ]
 }
