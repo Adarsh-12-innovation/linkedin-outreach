@@ -1228,7 +1228,8 @@
     "urn:li:activity:7511282754752536576",
     "urn:li:activity:7511344731583393792",
     "urn:li:activity:7511316514629644289",
-    "urn:li:activity:7511294911808278528"
+    "urn:li:activity:7511294911808278528",
+    "urn:li:activity:7511345695128276992"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -14266,9 +14267,10 @@
       "email": "surya@iitsolutionsinc.com",
       "thread_id": "1a0f0a2d21d63b3a",
       "message_id": "1a0f0a2d21d63b3a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-30T10:16:37.836790"
+      "timestamp": "2026-09-30T10:16:37.836790",
+      "followup_timestamp": "2026-10-01T16:01:48.514203"
     },
     {
       "urn": "urn:li:activity:7510820336179924992",
@@ -14276,9 +14278,10 @@
       "email": "sai@ekfrazo.com",
       "thread_id": "1a0f0a2dd1e66e5b",
       "message_id": "1a0f0a2dd1e66e5b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-30T10:16:40.495327"
+      "timestamp": "2026-09-30T10:16:40.495327",
+      "followup_timestamp": "2026-10-01T16:01:50.827036"
     },
     {
       "urn": "urn:li:activity:7510819820590923777",
@@ -14286,9 +14289,10 @@
       "email": "careers@americanitsystems.com",
       "thread_id": "1a0f0a2e70ab7857",
       "message_id": "1a0f0a2e70ab7857",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-09-30T10:16:42.871147"
+      "timestamp": "2026-09-30T10:16:42.871147",
+      "followup_timestamp": "2026-10-01T16:01:53.085767"
     },
     {
       "urn": "urn:li:activity:7510932337665368064",
@@ -14729,6 +14733,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-01T14:15:27.066781"
+    },
+    {
+      "urn": "urn:li:activity:7511345695128276992",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511345695128276992",
+      "email": "sushma.talawar@elanceindia.com",
+      "thread_id": "1a0f70528a00ab65",
+      "message_id": "1a0f70528a00ab65",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-01T16:01:46.203873"
     }
   ]
 }
