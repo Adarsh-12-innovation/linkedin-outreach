@@ -1225,7 +1225,10 @@
     "urn:li:activity:7511178132356222977",
     "urn:li:activity:7511299862378893312",
     "urn:li:activity:7511285772671516673",
-    "urn:li:activity:7511282754752536576"
+    "urn:li:activity:7511282754752536576",
+    "urn:li:activity:7511344731583393792",
+    "urn:li:activity:7511316514629644289",
+    "urn:li:activity:7511294911808278528"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1945,7 +1948,9 @@
     "Bhavya.Sharma@mamsys.com",
     "ayushi@akaasa.com",
     "Michael@nexreq.com",
-    "nasrin.jafin@outlook.com"
+    "nasrin.jafin@outlook.com",
+    "srushti.bombe@ltm.com",
+    "nabbimutt@thoughtframeworks.com"
   ],
   "contacted_details": [
     {
@@ -14694,6 +14699,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-01T12:01:09.853796"
+    },
+    {
+      "urn": "urn:li:activity:7511344731583393792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511344731583393792",
+      "email": "srushti.bombe@ltm.com",
+      "thread_id": "1a0f6a3c146a135d",
+      "message_id": "1a0f6a3c146a135d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-01T14:15:22.276914"
+    },
+    {
+      "urn": "urn:li:activity:7511316514629644289",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511316514629644289",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a0f6a3cb5c4d9ee",
+      "message_id": "1a0f6a3cb5c4d9ee",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-01T14:15:24.884405"
+    },
+    {
+      "urn": "urn:li:activity:7511294911808278528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511294911808278528",
+      "email": "nabbimutt@thoughtframeworks.com",
+      "thread_id": "1a0f6a3d20fc31d5",
+      "message_id": "1a0f6a3d20fc31d5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-01T14:15:27.066781"
     }
   ]
 }
