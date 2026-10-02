@@ -1235,7 +1235,12 @@
     "urn:li:activity:7511625496309305344",
     "urn:li:activity:7511575638315630592",
     "urn:li:activity:7511651151952416768",
-    "urn:li:activity:7511700838193618945"
+    "urn:li:activity:7511700838193618945",
+    "urn:li:activity:7511726828118806528",
+    "urn:li:activity:7511725184693809153",
+    "urn:li:activity:7511722261142380544",
+    "urn:li:activity:7511719384474750976",
+    "urn:li:activity:7511714143607881728"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1960,7 +1965,8 @@
     "nabbimutt@thoughtframeworks.com",
     "nafeeshabano@zenzarttech.com",
     "nvinod@thoughtframeworks.com",
-    "venkatesh@encore-itsolutions.com"
+    "venkatesh@encore-itsolutions.com",
+    "Nirupama.shaw@techqware.com"
   ],
   "contacted_details": [
     {
@@ -14842,6 +14848,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-02T14:29:50.108311"
+    },
+    {
+      "urn": "urn:li:activity:7511726828118806528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511726828118806528",
+      "email": "hr@zynotexus.com",
+      "thread_id": "1a0fc13c171c03ed",
+      "message_id": "1a0fc13c171c03ed",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-02T15:35:47.027061"
+    },
+    {
+      "urn": "urn:li:activity:7511725184693809153",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511725184693809153",
+      "email": "hr@zynotexus.com",
+      "thread_id": "1a0fc13cb4d78734",
+      "message_id": "1a0fc13cb4d78734",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-02T15:35:49.376546"
+    },
+    {
+      "urn": "urn:li:activity:7511722261142380544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511722261142380544",
+      "email": "Nirupama.shaw@techqware.com",
+      "thread_id": "1a0fc13d3e940565",
+      "message_id": "1a0fc13d3e940565",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-02T15:35:51.701932"
+    },
+    {
+      "urn": "urn:li:activity:7511719384474750976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511719384474750976",
+      "email": "chary@technologyhub.net",
+      "thread_id": "1a0fc13e94833849",
+      "message_id": "1a0fc13e94833849",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-02T15:35:57.329749"
+    },
+    {
+      "urn": "urn:li:activity:7511714143607881728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511714143607881728",
+      "email": "HR@vitimcloud.com",
+      "thread_id": "1a0fc13f1a0e6325",
+      "message_id": "1a0fc13f1a0e6325",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-02T15:35:59.517389"
     }
   ]
 }
