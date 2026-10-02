@@ -1242,7 +1242,11 @@
     "urn:li:activity:7511719384474750976",
     "urn:li:activity:7511714143607881728",
     "urn:li:activity:7511729477895524352",
-    "urn:li:activity:7511729537181863937"
+    "urn:li:activity:7511729537181863937",
+    "urn:li:activity:7511773127853432833",
+    "urn:li:activity:7511771202533834752",
+    "urn:li:activity:7511726977045798912",
+    "urn:li:activity:7511721924436353024"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1969,7 +1973,8 @@
     "nvinod@thoughtframeworks.com",
     "venkatesh@encore-itsolutions.com",
     "Nirupama.shaw@techqware.com",
-    "shravani@overtideasandsolutions.in"
+    "shravani@overtideasandsolutions.in",
+    "vedika.pakhale@huemot.com"
   ],
   "contacted_details": [
     {
@@ -14925,6 +14930,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-02T17:38:49.572551"
+    },
+    {
+      "urn": "urn:li:activity:7511773127853432833",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511773127853432833",
+      "email": "prasitha.r@alchemysolutions.us",
+      "thread_id": "1a0fcca2ca492fe1",
+      "message_id": "1a0fcca2ca492fe1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-02T18:55:02.521981"
+    },
+    {
+      "urn": "urn:li:activity:7511771202533834752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511771202533834752",
+      "email": "vedika.pakhale@huemot.com",
+      "thread_id": "1a0fcca44c497590",
+      "message_id": "1a0fcca44c497590",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-02T18:55:08.500671"
+    },
+    {
+      "urn": "urn:li:activity:7511726977045798912",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511726977045798912",
+      "email": "hr@zynotexus.com",
+      "thread_id": "1a0fcca4df0b91be",
+      "message_id": "1a0fcca4df0b91be",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-02T18:55:10.671657"
+    },
+    {
+      "urn": "urn:li:activity:7511721924436353024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511721924436353024",
+      "email": "services@tekonsystems.com",
+      "thread_id": "1a0fcca556d73544",
+      "message_id": "1a0fcca556d73544",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-02T18:55:12.896481"
     }
   ]
 }
