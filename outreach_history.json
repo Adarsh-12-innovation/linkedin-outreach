@@ -1246,7 +1246,11 @@
     "urn:li:activity:7511773127853432833",
     "urn:li:activity:7511771202533834752",
     "urn:li:activity:7511726977045798912",
-    "urn:li:activity:7511721924436353024"
+    "urn:li:activity:7511721924436353024",
+    "urn:li:activity:7511894319700705280",
+    "urn:li:activity:7511878355689033728",
+    "urn:li:activity:7511862026554695680",
+    "urn:li:activity:7511862134746853376"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1974,7 +1978,9 @@
     "venkatesh@encore-itsolutions.com",
     "Nirupama.shaw@techqware.com",
     "shravani@overtideasandsolutions.in",
-    "vedika.pakhale@huemot.com"
+    "vedika.pakhale@huemot.com",
+    "naveen@godigitive.com",
+    "Jagadeesh.A@nityainc.com"
   ],
   "contacted_details": [
     {
@@ -14767,9 +14773,10 @@
       "email": "srushti.bombe@ltm.com",
       "thread_id": "1a0f6a3c146a135d",
       "message_id": "1a0f6a3c146a135d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-01T14:15:22.276914"
+      "timestamp": "2026-10-01T14:15:22.276914",
+      "followup_timestamp": "2026-10-03T10:33:30.631824"
     },
     {
       "urn": "urn:li:activity:7511316514629644289",
@@ -14777,9 +14784,10 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "1a0f6a3cb5c4d9ee",
       "message_id": "1a0f6a3cb5c4d9ee",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-01T14:15:24.884405"
+      "timestamp": "2026-10-01T14:15:24.884405",
+      "followup_timestamp": "2026-10-03T10:33:33.510239"
     },
     {
       "urn": "urn:li:activity:7511294911808278528",
@@ -14787,9 +14795,10 @@
       "email": "nabbimutt@thoughtframeworks.com",
       "thread_id": "1a0f6a3d20fc31d5",
       "message_id": "1a0f6a3d20fc31d5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-01T14:15:27.066781"
+      "timestamp": "2026-10-01T14:15:27.066781",
+      "followup_timestamp": "2026-10-03T10:33:35.811790"
     },
     {
       "urn": "urn:li:activity:7511345695128276992",
@@ -14797,9 +14806,10 @@
       "email": "sushma.talawar@elanceindia.com",
       "thread_id": "1a0f70528a00ab65",
       "message_id": "1a0f70528a00ab65",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-01T16:01:46.203873"
+      "timestamp": "2026-10-01T16:01:46.203873",
+      "followup_timestamp": "2026-10-03T10:33:38.344095"
     },
     {
       "urn": "urn:li:activity:7511402443067412480",
@@ -14807,9 +14817,10 @@
       "email": "nafeeshabano@zenzarttech.com",
       "thread_id": "1a0f778c5114c982",
       "message_id": "1a0f778c5114c982",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-01T18:08:02.726060"
+      "timestamp": "2026-10-01T18:08:02.726060",
+      "followup_timestamp": "2026-10-03T10:33:40.943441"
     },
     {
       "urn": "urn:li:activity:7511394786868801536",
@@ -14817,9 +14828,10 @@
       "email": "nvinod@thoughtframeworks.com",
       "thread_id": "1a0f778cc3c28a6c",
       "message_id": "1a0f778cc3c28a6c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-01T18:08:04.838240"
+      "timestamp": "2026-10-01T18:08:04.838240",
+      "followup_timestamp": "2026-10-03T10:33:43.509140"
     },
     {
       "urn": "urn:li:activity:7511625496309305344",
@@ -14970,6 +14982,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-02T18:55:12.896481"
+    },
+    {
+      "urn": "urn:li:activity:7511894319700705280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511894319700705280",
+      "email": "naveen@godigitive.com",
+      "thread_id": "1a10025331e5b0af",
+      "message_id": "1a10025331e5b0af",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-03T10:33:21.000046"
+    },
+    {
+      "urn": "urn:li:activity:7511878355689033728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511878355689033728",
+      "email": "upendrareddy@sidramtech.com",
+      "thread_id": "1a100253c945747c",
+      "message_id": "1a100253c945747c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-03T10:33:23.521171"
+    },
+    {
+      "urn": "urn:li:activity:7511862026554695680",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511862026554695680",
+      "email": "Jagadeesh.A@nityainc.com",
+      "thread_id": "1a1002547117c895",
+      "message_id": "1a1002547117c895",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-03T10:33:25.918101"
+    },
+    {
+      "urn": "urn:li:activity:7511862134746853376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511862134746853376",
+      "email": "Jagadeesh.A@nityainc.com",
+      "thread_id": "1a100254f3f22b47",
+      "message_id": "1a100254f3f22b47",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-03T10:33:28.335346"
     }
   ]
 }
