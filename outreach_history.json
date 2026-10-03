@@ -14849,7 +14849,7 @@
       "email": "HR@vitimcloud.com",
       "thread_id": "1a0faeb38ad88d57",
       "message_id": "1a0faeb38ad88d57",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-02T10:11:53.657505"
     },
@@ -14859,9 +14859,10 @@
       "email": "jameshill@alambda.com",
       "thread_id": "1a0faeb4715051e9",
       "message_id": "1a0faeb4715051e9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T10:11:56.723142"
+      "timestamp": "2026-10-02T10:11:56.723142",
+      "followup_timestamp": "2026-10-03T21:52:08.983832"
     },
     {
       "urn": "urn:li:activity:7511651151952416768",
@@ -14869,9 +14870,10 @@
       "email": "upendrareddy@sidramtech.com",
       "thread_id": "1a0fb50d31304bce",
       "message_id": "1a0fb50d31304bce",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T12:02:51.970871"
+      "timestamp": "2026-10-02T12:02:51.970871",
+      "followup_timestamp": "2026-10-03T21:52:11.285096"
     },
     {
       "urn": "urn:li:activity:7511700838193618945",
@@ -14879,9 +14881,10 @@
       "email": "venkatesh@encore-itsolutions.com",
       "thread_id": "1a0fbd7616574380",
       "message_id": "1a0fbd7616574380",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T14:29:50.108311"
+      "timestamp": "2026-10-02T14:29:50.108311",
+      "followup_timestamp": "2026-10-03T21:52:13.572043"
     },
     {
       "urn": "urn:li:activity:7511726828118806528",
@@ -14889,9 +14892,10 @@
       "email": "hr@zynotexus.com",
       "thread_id": "1a0fc13c171c03ed",
       "message_id": "1a0fc13c171c03ed",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T15:35:47.027061"
+      "timestamp": "2026-10-02T15:35:47.027061",
+      "followup_timestamp": "2026-10-03T21:52:15.819833"
     },
     {
       "urn": "urn:li:activity:7511725184693809153",
@@ -14899,9 +14903,10 @@
       "email": "hr@zynotexus.com",
       "thread_id": "1a0fc13cb4d78734",
       "message_id": "1a0fc13cb4d78734",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T15:35:49.376546"
+      "timestamp": "2026-10-02T15:35:49.376546",
+      "followup_timestamp": "2026-10-03T21:52:18.078076"
     },
     {
       "urn": "urn:li:activity:7511722261142380544",
@@ -14909,9 +14914,10 @@
       "email": "Nirupama.shaw@techqware.com",
       "thread_id": "1a0fc13d3e940565",
       "message_id": "1a0fc13d3e940565",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T15:35:51.701932"
+      "timestamp": "2026-10-02T15:35:51.701932",
+      "followup_timestamp": "2026-10-03T21:52:20.344363"
     },
     {
       "urn": "urn:li:activity:7511719384474750976",
@@ -14919,9 +14925,10 @@
       "email": "chary@technologyhub.net",
       "thread_id": "1a0fc13e94833849",
       "message_id": "1a0fc13e94833849",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T15:35:57.329749"
+      "timestamp": "2026-10-02T15:35:57.329749",
+      "followup_timestamp": "2026-10-03T21:52:22.633432"
     },
     {
       "urn": "urn:li:activity:7511714143607881728",
@@ -14929,7 +14936,7 @@
       "email": "HR@vitimcloud.com",
       "thread_id": "1a0fc13f1a0e6325",
       "message_id": "1a0fc13f1a0e6325",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-02T15:35:59.517389"
     },
