@@ -1254,7 +1254,8 @@
     "urn:li:activity:7512032061969358849",
     "urn:li:activity:7512029389149265920",
     "urn:li:activity:7512023664784117760",
-    "urn:li:activity:7512022490878181376"
+    "urn:li:activity:7512022490878181376",
+    "urn:li:activity:7512040088093130752"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1985,7 +1986,8 @@
     "vedika.pakhale@huemot.com",
     "naveen@godigitive.com",
     "Jagadeesh.A@nityainc.com",
-    "saisanthosh.g@terbiumtech.com"
+    "saisanthosh.g@terbiumtech.com",
+    "careers@tigglemindai.in"
   ],
   "contacted_details": [
     {
@@ -15067,6 +15069,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-03T12:06:52.101980"
+    },
+    {
+      "urn": "urn:li:activity:7512040088093130752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512040088093130752",
+      "email": "careers@tigglemindai.in",
+      "thread_id": "1a100dfaf4bc72a2",
+      "message_id": "1a100dfaf4bc72a2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-03T13:57:02.844023"
     }
   ]
 }
