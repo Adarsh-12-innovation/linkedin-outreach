@@ -1250,7 +1250,11 @@
     "urn:li:activity:7511894319700705280",
     "urn:li:activity:7511878355689033728",
     "urn:li:activity:7511862026554695680",
-    "urn:li:activity:7511862134746853376"
+    "urn:li:activity:7511862134746853376",
+    "urn:li:activity:7512032061969358849",
+    "urn:li:activity:7512029389149265920",
+    "urn:li:activity:7512023664784117760",
+    "urn:li:activity:7512022490878181376"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1980,7 +1984,8 @@
     "shravani@overtideasandsolutions.in",
     "vedika.pakhale@huemot.com",
     "naveen@godigitive.com",
-    "Jagadeesh.A@nityainc.com"
+    "Jagadeesh.A@nityainc.com",
+    "saisanthosh.g@terbiumtech.com"
   ],
   "contacted_details": [
     {
@@ -15022,6 +15027,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-03T10:33:28.335346"
+    },
+    {
+      "urn": "urn:li:activity:7512032061969358849",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512032061969358849",
+      "email": "sanjana.a@martinettechnologies.com",
+      "thread_id": "1a1007aad5793b77",
+      "message_id": "1a1007aad5793b77",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-03T12:06:42.998634"
+    },
+    {
+      "urn": "urn:li:activity:7512029389149265920",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512029389149265920",
+      "email": "saisanthosh.g@terbiumtech.com",
+      "thread_id": "1a1007abf0eb3b59",
+      "message_id": "1a1007abf0eb3b59",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-03T12:06:47.582390"
+    },
+    {
+      "urn": "urn:li:activity:7512023664784117760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512023664784117760",
+      "email": "priyadarshini.u@martinettechnologies.com",
+      "thread_id": "1a1007ac88ef1d6f",
+      "message_id": "1a1007ac88ef1d6f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-03T12:06:49.841425"
+    },
+    {
+      "urn": "urn:li:activity:7512022490878181376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512022490878181376",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a1007ad15ab1b0d",
+      "message_id": "1a1007ad15ab1b0d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-03T12:06:52.101980"
     }
   ]
 }
