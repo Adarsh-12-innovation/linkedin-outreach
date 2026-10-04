@@ -1258,7 +1258,9 @@
     "urn:li:activity:7512040088093130752",
     "urn:li:activity:7512053417050202112",
     "urn:li:activity:7512052403941187584",
-    "urn:li:activity:7512052144456495104"
+    "urn:li:activity:7512052144456495104",
+    "urn:li:activity:7512342243958091776",
+    "urn:li:activity:7512315503831601153"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1990,7 +1992,9 @@
     "naveen@godigitive.com",
     "Jagadeesh.A@nityainc.com",
     "saisanthosh.g@terbiumtech.com",
-    "careers@tigglemindai.in"
+    "careers@tigglemindai.in",
+    "yos@secondtalent.com",
+    "HR.Nigeria@escrow-tech.co.uk"
   ],
   "contacted_details": [
     {
@@ -14946,9 +14950,10 @@
       "email": "shravani@overtideasandsolutions.in",
       "thread_id": "1a0fc845d1a95cc0",
       "message_id": "1a0fc845d1a95cc0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T17:38:47.301184"
+      "timestamp": "2026-10-02T17:38:47.301184",
+      "followup_timestamp": "2026-10-04T12:30:53.324071"
     },
     {
       "urn": "urn:li:activity:7511729537181863937",
@@ -14956,9 +14961,10 @@
       "email": "hr@zynotexus.com",
       "thread_id": "1a0fc8467774c63d",
       "message_id": "1a0fc8467774c63d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T17:38:49.572551"
+      "timestamp": "2026-10-02T17:38:49.572551",
+      "followup_timestamp": "2026-10-04T12:30:55.728688"
     },
     {
       "urn": "urn:li:activity:7511773127853432833",
@@ -14966,9 +14972,10 @@
       "email": "prasitha.r@alchemysolutions.us",
       "thread_id": "1a0fcca2ca492fe1",
       "message_id": "1a0fcca2ca492fe1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T18:55:02.521981"
+      "timestamp": "2026-10-02T18:55:02.521981",
+      "followup_timestamp": "2026-10-04T12:30:57.989672"
     },
     {
       "urn": "urn:li:activity:7511771202533834752",
@@ -14976,9 +14983,10 @@
       "email": "vedika.pakhale@huemot.com",
       "thread_id": "1a0fcca44c497590",
       "message_id": "1a0fcca44c497590",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T18:55:08.500671"
+      "timestamp": "2026-10-02T18:55:08.500671",
+      "followup_timestamp": "2026-10-04T12:31:00.423387"
     },
     {
       "urn": "urn:li:activity:7511726977045798912",
@@ -14986,9 +14994,10 @@
       "email": "hr@zynotexus.com",
       "thread_id": "1a0fcca4df0b91be",
       "message_id": "1a0fcca4df0b91be",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T18:55:10.671657"
+      "timestamp": "2026-10-02T18:55:10.671657",
+      "followup_timestamp": "2026-10-04T12:31:02.743750"
     },
     {
       "urn": "urn:li:activity:7511721924436353024",
@@ -14996,9 +15005,10 @@
       "email": "services@tekonsystems.com",
       "thread_id": "1a0fcca556d73544",
       "message_id": "1a0fcca556d73544",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-02T18:55:12.896481"
+      "timestamp": "2026-10-02T18:55:12.896481",
+      "followup_timestamp": "2026-10-04T12:31:05.060421"
     },
     {
       "urn": "urn:li:activity:7511894319700705280",
@@ -15119,6 +15129,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-03T15:21:47.874429"
+    },
+    {
+      "urn": "urn:li:activity:7512342243958091776",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512342243958091776",
+      "email": "yos@secondtalent.com",
+      "thread_id": "1a105b70c7320037",
+      "message_id": "1a105b70c7320037",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-04T12:30:47.937977"
+    },
+    {
+      "urn": "urn:li:activity:7512315503831601153",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512315503831601153",
+      "email": "HR.Nigeria@escrow-tech.co.uk",
+      "thread_id": "1a105b718b3d43c5",
+      "message_id": "1a105b718b3d43c5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-04T12:30:50.978853"
     }
   ]
 }
