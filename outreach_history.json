@@ -1262,7 +1262,8 @@
     "urn:li:activity:7512342243958091776",
     "urn:li:activity:7512315503831601153",
     "urn:li:activity:7511369804977606656",
-    "urn:li:activity:7512435217987428352"
+    "urn:li:activity:7512435217987428352",
+    "urn:li:activity:7512501687241187328"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -1998,7 +1999,8 @@
     "yos@secondtalent.com",
     "HR.Nigeria@escrow-tech.co.uk",
     "swapnil.t@ipeopleinfosystems.com",
-    "abinp1012@gmail.com"
+    "abinp1012@gmail.com",
+    "contact@gnanova.pro"
   ],
   "contacted_details": [
     {
@@ -15178,6 +15180,16 @@
       "message_id": "1a1070ffc029235e",
       "followed_up": false,
       "timestamp": "2026-10-04T13:17:30.717168"
+    },
+    {
+      "urn": "urn:li:activity:7512501687241187328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512501687241187328",
+      "email": "contact@gnanova.pro",
+      "thread_id": "1a1071594105071b",
+      "message_id": "1a1071594105071b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-04T18:53:40.225250"
     }
   ]
 }
