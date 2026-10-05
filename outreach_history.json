@@ -1283,7 +1283,8 @@
     "urn:li:activity:7512757082862043136",
     "urn:li:activity:7512756351945711617",
     "urn:li:activity:7512749915375108096",
-    "urn:li:activity:7512748193995120640"
+    "urn:li:activity:7512748193995120640",
+    "urn:li:activity:7512819534962302976"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2028,7 +2029,8 @@
     "sapna@dynamicsmonk.com",
     "nhi.phamkha@kyanon.digital",
     "deepika.manokaran@augustahitech.com",
-    "hosseinheydari982020@gmail.com"
+    "hosseinheydari982020@gmail.com",
+    "Niharika.sahu@huemot.com"
   ],
   "contacted_details": [
     {
@@ -15422,6 +15424,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-05T15:11:07.771624"
+    },
+    {
+      "urn": "urn:li:activity:7512819534962302976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512819534962302976",
+      "email": "Niharika.sahu@huemot.com",
+      "thread_id": "1a10bad81daf5f76",
+      "message_id": "1a10bad81daf5f76",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T16:18:06.114609"
     }
   ]
 }
