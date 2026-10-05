@@ -1276,7 +1276,14 @@
     "urn:li:activity:7512759807561412609",
     "urn:li:activity:7512755961208463360",
     "urn:li:activity:7512748027271413761",
-    "urn:li:activity:7512748064848179200"
+    "urn:li:activity:7512748064848179200",
+    "urn:li:activity:7512806206084886528",
+    "urn:li:activity:7512804441193017344",
+    "urn:li:activity:7512788063593320448",
+    "urn:li:activity:7512757082862043136",
+    "urn:li:activity:7512756351945711617",
+    "urn:li:activity:7512749915375108096",
+    "urn:li:activity:7512748193995120640"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2018,7 +2025,10 @@
     "hussnainmulazam@gmail.com",
     "srilakshmi.mada@adroitinnovative.com",
     "sweta@ggtechglobal.com",
-    "sapna@dynamicsmonk.com"
+    "sapna@dynamicsmonk.com",
+    "nhi.phamkha@kyanon.digital",
+    "deepika.manokaran@augustahitech.com",
+    "hosseinheydari982020@gmail.com"
   ],
   "contacted_details": [
     {
@@ -15342,6 +15352,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-05T13:46:56.588411"
+    },
+    {
+      "urn": "urn:li:activity:7512806206084886528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512806206084886528",
+      "email": "nhi.phamkha@kyanon.digital",
+      "thread_id": "1a10b6fe8b8128a6",
+      "message_id": "1a10b6fe8b8128a6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T15:10:49.459333"
+    },
+    {
+      "urn": "urn:li:activity:7512804441193017344",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512804441193017344",
+      "email": "deepika.manokaran@augustahitech.com",
+      "thread_id": "1a10b6ff581c4bd7",
+      "message_id": "1a10b6ff581c4bd7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T15:10:52.418196"
+    },
+    {
+      "urn": "urn:li:activity:7512788063593320448",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512788063593320448",
+      "email": "hosseinheydari982020@gmail.com",
+      "thread_id": "1a10b6ffea0fbe87",
+      "message_id": "1a10b6ffea0fbe87",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T15:10:54.800011"
+    },
+    {
+      "urn": "urn:li:activity:7512757082862043136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512757082862043136",
+      "email": "arvind@ninjatechnolabs.com",
+      "thread_id": "1a10b700c9aefc62",
+      "message_id": "1a10b700c9aefc62",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T15:10:58.252612"
+    },
+    {
+      "urn": "urn:li:activity:7512756351945711617",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512756351945711617",
+      "email": "haresh@ninjatechnolabs.com",
+      "thread_id": "1a10b70166bc4797",
+      "message_id": "1a10b70166bc4797",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T15:11:00.774942"
+    },
+    {
+      "urn": "urn:li:activity:7512749915375108096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512749915375108096",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a10b70261de57bd",
+      "message_id": "1a10b70261de57bd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T15:11:05.290319"
+    },
+    {
+      "urn": "urn:li:activity:7512748193995120640",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512748193995120640",
+      "email": "praveen@hirenestworkforce.com",
+      "thread_id": "1a10b7030d9df208",
+      "message_id": "1a10b7030d9df208",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T15:11:07.771624"
     }
   ]
 }
