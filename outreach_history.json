@@ -1284,7 +1284,11 @@
     "urn:li:activity:7512756351945711617",
     "urn:li:activity:7512749915375108096",
     "urn:li:activity:7512748193995120640",
-    "urn:li:activity:7512819534962302976"
+    "urn:li:activity:7512819534962302976",
+    "urn:li:activity:7512846604840783872",
+    "urn:li:activity:7512844294492196864",
+    "urn:li:activity:7512832008319053825",
+    "urn:li:activity:7512829636922400768"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2030,7 +2034,10 @@
     "nhi.phamkha@kyanon.digital",
     "deepika.manokaran@augustahitech.com",
     "hosseinheydari982020@gmail.com",
-    "Niharika.sahu@huemot.com"
+    "Niharika.sahu@huemot.com",
+    "hr@loopinfinitytech.com",
+    "leena.popli@linkageit.com",
+    "vilasini@rdrindia.in"
   ],
   "contacted_details": [
     {
@@ -15183,9 +15190,10 @@
       "email": "yos@secondtalent.com",
       "thread_id": "1a105b70c7320037",
       "message_id": "1a105b70c7320037",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-04T12:30:47.937977"
+      "timestamp": "2026-10-04T12:30:47.937977",
+      "followup_timestamp": "2026-10-05T18:08:00.733306"
     },
     {
       "urn": "urn:li:activity:7512315503831601153",
@@ -15193,9 +15201,10 @@
       "email": "HR.Nigeria@escrow-tech.co.uk",
       "thread_id": "1a105b718b3d43c5",
       "message_id": "1a105b718b3d43c5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-04T12:30:50.978853"
+      "timestamp": "2026-10-04T12:30:50.978853",
+      "followup_timestamp": "2026-10-05T18:08:03.069614"
     },
     {
       "urn": "urn:li:activity:7511369804977606656",
@@ -15434,6 +15443,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-05T16:18:06.114609"
+    },
+    {
+      "urn": "urn:li:activity:7512846604840783872",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512846604840783872",
+      "email": "hr@loopinfinitytech.com",
+      "thread_id": "1a10c1205eead682",
+      "message_id": "1a10c1205eead682",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T18:07:50.610880"
+    },
+    {
+      "urn": "urn:li:activity:7512844294492196864",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512844294492196864",
+      "email": "leena.popli@linkageit.com",
+      "thread_id": "1a10c12111b26807",
+      "message_id": "1a10c12111b26807",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T18:07:53.643138"
+    },
+    {
+      "urn": "urn:li:activity:7512832008319053825",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512832008319053825",
+      "email": "ragini.rajput@huemot.com",
+      "thread_id": "1a10c121b495a3f2",
+      "message_id": "1a10c121b495a3f2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T18:07:55.830327"
+    },
+    {
+      "urn": "urn:li:activity:7512829636922400768",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512829636922400768",
+      "email": "vilasini@rdrindia.in",
+      "thread_id": "1a10c1224bac77c2",
+      "message_id": "1a10c1224bac77c2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T18:07:58.457130"
     }
   ]
 }
