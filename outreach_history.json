@@ -1268,7 +1268,15 @@
     "urn:li:activity:7512565943395602432",
     "urn:li:activity:7512749701654458368",
     "urn:li:activity:7512748660796051456",
-    "urn:li:activity:7512748839515353088"
+    "urn:li:activity:7512748839515353088",
+    "urn:li:activity:7512777552550371328",
+    "urn:li:activity:7512776222297378816",
+    "urn:li:activity:7512774519682572288",
+    "urn:li:activity:7512763766283874304",
+    "urn:li:activity:7512759807561412609",
+    "urn:li:activity:7512755961208463360",
+    "urn:li:activity:7512748027271413761",
+    "urn:li:activity:7512748064848179200"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2007,7 +2015,10 @@
     "abinp1012@gmail.com",
     "contact@gnanova.pro",
     "elite.support@vanguardibank.com",
-    "hussnainmulazam@gmail.com"
+    "hussnainmulazam@gmail.com",
+    "srilakshmi.mada@adroitinnovative.com",
+    "sweta@ggtechglobal.com",
+    "sapna@dynamicsmonk.com"
   ],
   "contacted_details": [
     {
@@ -15251,6 +15262,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-05T11:55:23.933017"
+    },
+    {
+      "urn": "urn:li:activity:7512777552550371328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512777552550371328",
+      "email": "jobs@xperteez.co.in",
+      "thread_id": "1a10b22cb7ca7830",
+      "message_id": "1a10b22cb7ca7830",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T13:46:35.271497"
+    },
+    {
+      "urn": "urn:li:activity:7512776222297378816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512776222297378816",
+      "email": "srilakshmi.mada@adroitinnovative.com",
+      "thread_id": "1a10b22d7345a49c",
+      "message_id": "1a10b22d7345a49c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T13:46:38.212948"
+    },
+    {
+      "urn": "urn:li:activity:7512774519682572288",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512774519682572288",
+      "email": "leela.revanth@adroitinnovative.com",
+      "thread_id": "1a10b22dfd51a039",
+      "message_id": "1a10b22dfd51a039",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T13:46:40.558087"
+    },
+    {
+      "urn": "urn:li:activity:7512763766283874304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512763766283874304",
+      "email": "sweta@ggtechglobal.com",
+      "thread_id": "1a10b22e9b9360f1",
+      "message_id": "1a10b22e9b9360f1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T13:46:42.986346"
+    },
+    {
+      "urn": "urn:li:activity:7512759807561412609",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512759807561412609",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a10b22f612831a0",
+      "message_id": "1a10b22f612831a0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T13:46:46.464286"
+    },
+    {
+      "urn": "urn:li:activity:7512755961208463360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512755961208463360",
+      "email": "sapna@dynamicsmonk.com",
+      "thread_id": "1a10b230a1e94290",
+      "message_id": "1a10b230a1e94290",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T13:46:51.567069"
+    },
+    {
+      "urn": "urn:li:activity:7512748027271413761",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512748027271413761",
+      "email": "praveen@hirenestworkforce.com",
+      "thread_id": "1a10b23157d25ee4",
+      "message_id": "1a10b23157d25ee4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T13:46:54.232779"
+    },
+    {
+      "urn": "urn:li:activity:7512748064848179200",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512748064848179200",
+      "email": "praveen@hirenestworkforce.com",
+      "thread_id": "1a10b231d4106daa",
+      "message_id": "1a10b231d4106daa",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T13:46:56.588411"
     }
   ]
 }
