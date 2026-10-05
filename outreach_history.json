@@ -1263,7 +1263,9 @@
     "urn:li:activity:7512315503831601153",
     "urn:li:activity:7511369804977606656",
     "urn:li:activity:7512435217987428352",
-    "urn:li:activity:7512501687241187328"
+    "urn:li:activity:7512501687241187328",
+    "urn:li:activity:7512733590032420864",
+    "urn:li:activity:7512565943395602432"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2000,7 +2002,8 @@
     "HR.Nigeria@escrow-tech.co.uk",
     "swapnil.t@ipeopleinfosystems.com",
     "abinp1012@gmail.com",
-    "contact@gnanova.pro"
+    "contact@gnanova.pro",
+    "elite.support@vanguardibank.com"
   ],
   "contacted_details": [
     {
@@ -15109,9 +15112,10 @@
       "email": "careers@tigglemindai.in",
       "thread_id": "1a100dfaf4bc72a2",
       "message_id": "1a100dfaf4bc72a2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-03T13:57:02.844023"
+      "timestamp": "2026-10-03T13:57:02.844023",
+      "followup_timestamp": "2026-10-05T10:44:51.194359"
     },
     {
       "urn": "urn:li:activity:7512053417050202112",
@@ -15119,9 +15123,10 @@
       "email": "upendrareddy@sidramtech.com",
       "thread_id": "1a1012d35254182d",
       "message_id": "1a1012d35254182d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-03T15:21:43.125536"
+      "timestamp": "2026-10-03T15:21:43.125536",
+      "followup_timestamp": "2026-10-05T10:44:53.517134"
     },
     {
       "urn": "urn:li:activity:7512052403941187584",
@@ -15129,9 +15134,10 @@
       "email": "upendrareddy@sidramtech.com",
       "thread_id": "1a1012d3eecf53be",
       "message_id": "1a1012d3eecf53be",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-03T15:21:45.568732"
+      "timestamp": "2026-10-03T15:21:45.568732",
+      "followup_timestamp": "2026-10-05T10:44:55.817416"
     },
     {
       "urn": "urn:li:activity:7512052144456495104",
@@ -15139,9 +15145,10 @@
       "email": "upendrareddy@sidramtech.com",
       "thread_id": "1a1012d47ee67bb3",
       "message_id": "1a1012d47ee67bb3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-03T15:21:47.874429"
+      "timestamp": "2026-10-03T15:21:47.874429",
+      "followup_timestamp": "2026-10-05T10:44:58.275852"
     },
     {
       "urn": "urn:li:activity:7512342243958091776",
@@ -15190,6 +15197,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-04T18:53:40.225250"
+    },
+    {
+      "urn": "urn:li:activity:7512733590032420864",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512733590032420864",
+      "email": "sanjana.a@martinettechnologies.com",
+      "thread_id": "1a10a7c5672007ec",
+      "message_id": "1a10a7c5672007ec",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T10:44:46.485239"
+    },
+    {
+      "urn": "urn:li:activity:7512565943395602432",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512565943395602432",
+      "email": "elite.support@vanguardibank.com",
+      "thread_id": "1a10a7c6001c3b1d",
+      "message_id": "1a10a7c6001c3b1d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-05T10:44:48.895104"
     }
   ]
 }
