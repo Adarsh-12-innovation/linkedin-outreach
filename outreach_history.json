@@ -1298,7 +1298,10 @@
     "urn:li:activity:7513078604272918529",
     "urn:li:activity:7512972850857668609",
     "urn:li:activity:7512973063605481472",
-    "urn:li:activity:7512972654765699072"
+    "urn:li:activity:7512972654765699072",
+    "urn:li:activity:7513105877642653696",
+    "urn:li:activity:7513103529507500034",
+    "urn:li:activity:7513098838983991298"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2055,7 +2058,9 @@
     "aikinssyres@gmail.com",
     "sushilkumar.s@hurix.com",
     "heer@corpxcel.com",
-    "Nitish.kumar@apptoza.com"
+    "Nitish.kumar@apptoza.com",
+    "neha.patil@hiristan.com",
+    "pyoni.varshney@curetechservices.com"
   ],
   "contacted_details": [
     {
@@ -15604,6 +15609,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-06T10:11:05.039221"
+    },
+    {
+      "urn": "urn:li:activity:7513105877642653696",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513105877642653696",
+      "email": "neha.patil@hiristan.com",
+      "thread_id": "1a10fbb864faba32",
+      "message_id": "1a10fbb864faba32",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T11:11:50.167009"
+    },
+    {
+      "urn": "urn:li:activity:7513103529507500034",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513103529507500034",
+      "email": "anbarasi@datatechgenius.com",
+      "thread_id": "1a10fbb8fe29e3e1",
+      "message_id": "1a10fbb8fe29e3e1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T11:11:52.288227"
+    },
+    {
+      "urn": "urn:li:activity:7513098838983991298",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513098838983991298",
+      "email": "pyoni.varshney@curetechservices.com",
+      "thread_id": "1a10fbb9b919b8ce",
+      "message_id": "1a10fbb9b919b8ce",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T11:11:55.634457"
     }
   ]
 }
