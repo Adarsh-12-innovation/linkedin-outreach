@@ -1294,7 +1294,11 @@
     "urn:li:activity:7512874998563381250",
     "urn:li:activity:7512872740106883074",
     "urn:li:activity:7512870519998681089",
-    "urn:li:activity:7512862608425758720"
+    "urn:li:activity:7512862608425758720",
+    "urn:li:activity:7513078604272918529",
+    "urn:li:activity:7512972850857668609",
+    "urn:li:activity:7512973063605481472",
+    "urn:li:activity:7512972654765699072"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2049,7 +2053,9 @@
     "ishita@corpxcel.com",
     "akhilanune2002@gmail.com",
     "aikinssyres@gmail.com",
-    "sushilkumar.s@hurix.com"
+    "sushilkumar.s@hurix.com",
+    "heer@corpxcel.com",
+    "Nitish.kumar@apptoza.com"
   ],
   "contacted_details": [
     {
@@ -15244,9 +15250,10 @@
       "email": "contact@gnanova.pro",
       "thread_id": "1a1071594105071b",
       "message_id": "1a1071594105071b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-04T18:53:40.225250"
+      "timestamp": "2026-10-04T18:53:40.225250",
+      "followup_timestamp": "2026-10-06T10:11:07.367238"
     },
     {
       "urn": "urn:li:activity:7512733590032420864",
@@ -15557,6 +15564,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-05T19:52:35.577066"
+    },
+    {
+      "urn": "urn:li:activity:7513078604272918529",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513078604272918529",
+      "email": "heer@corpxcel.com",
+      "thread_id": "1a10f83b0676e603",
+      "message_id": "1a10f83b0676e603",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T10:10:50.947985"
+    },
+    {
+      "urn": "urn:li:activity:7512972850857668609",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512972850857668609",
+      "email": "Nitish.kumar@apptoza.com",
+      "thread_id": "1a10f83c4e8e42d5",
+      "message_id": "1a10f83c4e8e42d5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T10:10:55.983876"
+    },
+    {
+      "urn": "urn:li:activity:7512973063605481472",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512973063605481472",
+      "email": "Nitish.kumar@apptoza.com",
+      "thread_id": "1a10f83d78e5bc7c",
+      "message_id": "1a10f83d78e5bc7c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T10:11:00.609396"
+    },
+    {
+      "urn": "urn:li:activity:7512972654765699072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512972654765699072",
+      "email": "Nitish.kumar@apptoza.com",
+      "thread_id": "1a10f83e61198719",
+      "message_id": "1a10f83e61198719",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T10:11:05.039221"
     }
   ]
 }
