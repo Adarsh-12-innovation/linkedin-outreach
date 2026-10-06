@@ -1306,7 +1306,12 @@
     "urn:li:activity:7513120369386393600",
     "urn:li:activity:7513115465343197184",
     "urn:li:activity:7513114964858093568",
-    "urn:li:activity:7513115010894639104"
+    "urn:li:activity:7513115010894639104",
+    "urn:li:activity:7513139695661318144",
+    "urn:li:activity:7513139286628708353",
+    "urn:li:activity:7513130640737824768",
+    "urn:li:activity:7513127234312830977",
+    "urn:li:activity:7513123375716794369"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2068,7 +2073,9 @@
     "pyoni.varshney@curetechservices.com",
     "cloudcareersaiand@gmail.com",
     "career@refercircle.in",
-    "jyoti.hooda@radiansys.com"
+    "jyoti.hooda@radiansys.com",
+    "ryashwanth110@gmail.com",
+    "geethika@icsglobalsoft.com"
   ],
   "contacted_details": [
     {
@@ -15697,6 +15704,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-06T12:06:00.275299"
+    },
+    {
+      "urn": "urn:li:activity:7513139695661318144",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513139695661318144",
+      "email": "career@refercircle.in",
+      "thread_id": "1a1104f9ac05c6c1",
+      "message_id": "1a1104f9ac05c6c1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T13:53:34.679780"
+    },
+    {
+      "urn": "urn:li:activity:7513139286628708353",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513139286628708353",
+      "email": "career@refercircle.in",
+      "thread_id": "1a1104fa335023d2",
+      "message_id": "1a1104fa335023d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T13:53:36.876007"
+    },
+    {
+      "urn": "urn:li:activity:7513130640737824768",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513130640737824768",
+      "email": "esha@mappoptimist.com",
+      "thread_id": "1a1104fab6ce7540",
+      "message_id": "1a1104fab6ce7540",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T13:53:38.966372"
+    },
+    {
+      "urn": "urn:li:activity:7513127234312830977",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513127234312830977",
+      "email": "ryashwanth110@gmail.com",
+      "thread_id": "1a1104fc131fd79f",
+      "message_id": "1a1104fc131fd79f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T13:53:44.265842"
+    },
+    {
+      "urn": "urn:li:activity:7513123375716794369",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513123375716794369",
+      "email": "geethika@icsglobalsoft.com",
+      "thread_id": "1a1104fc9cc031df",
+      "message_id": "1a1104fc9cc031df",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T13:53:46.579550"
     }
   ]
 }
