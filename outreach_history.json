@@ -1311,7 +1311,9 @@
     "urn:li:activity:7513139286628708353",
     "urn:li:activity:7513130640737824768",
     "urn:li:activity:7513127234312830977",
-    "urn:li:activity:7513123375716794369"
+    "urn:li:activity:7513123375716794369",
+    "urn:li:activity:7513176465245409280",
+    "urn:li:activity:7513160632117108736"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2075,7 +2077,9 @@
     "career@refercircle.in",
     "jyoti.hooda@radiansys.com",
     "ryashwanth110@gmail.com",
-    "geethika@icsglobalsoft.com"
+    "geethika@icsglobalsoft.com",
+    "Info5@worktechnologies.co.in",
+    "recruitment@anikson.com"
   ],
   "contacted_details": [
     {
@@ -15754,6 +15758,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-06T13:53:46.579550"
+    },
+    {
+      "urn": "urn:li:activity:7513176465245409280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513176465245409280",
+      "email": "Info5@worktechnologies.co.in",
+      "thread_id": "1a110c188f3070eb",
+      "message_id": "1a110c188f3070eb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T15:58:01.445891"
+    },
+    {
+      "urn": "urn:li:activity:7513160632117108736",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513160632117108736",
+      "email": "recruitment@anikson.com",
+      "thread_id": "1a110c193f4d3763",
+      "message_id": "1a110c193f4d3763",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T15:58:03.875417"
     }
   ]
 }
