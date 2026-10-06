@@ -1301,7 +1301,12 @@
     "urn:li:activity:7512972654765699072",
     "urn:li:activity:7513105877642653696",
     "urn:li:activity:7513103529507500034",
-    "urn:li:activity:7513098838983991298"
+    "urn:li:activity:7513098838983991298",
+    "urn:li:activity:7513120208677691392",
+    "urn:li:activity:7513120369386393600",
+    "urn:li:activity:7513115465343197184",
+    "urn:li:activity:7513114964858093568",
+    "urn:li:activity:7513115010894639104"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2060,7 +2065,10 @@
     "heer@corpxcel.com",
     "Nitish.kumar@apptoza.com",
     "neha.patil@hiristan.com",
-    "pyoni.varshney@curetechservices.com"
+    "pyoni.varshney@curetechservices.com",
+    "cloudcareersaiand@gmail.com",
+    "career@refercircle.in",
+    "jyoti.hooda@radiansys.com"
   ],
   "contacted_details": [
     {
@@ -15639,6 +15647,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-06T11:11:55.634457"
+    },
+    {
+      "urn": "urn:li:activity:7513120208677691392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513120208677691392",
+      "email": "hussnainmulazam@gmail.com",
+      "thread_id": "1a10fecefef6fddd",
+      "message_id": "1a10fecefef6fddd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T12:05:48.313225"
+    },
+    {
+      "urn": "urn:li:activity:7513120369386393600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513120369386393600",
+      "email": "cloudcareersaiand@gmail.com",
+      "thread_id": "1a10fecf9e6cb483",
+      "message_id": "1a10fecf9e6cb483",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T12:05:50.884583"
+    },
+    {
+      "urn": "urn:li:activity:7513115465343197184",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513115465343197184",
+      "email": "career@refercircle.in",
+      "thread_id": "1a10fed03ce291c1",
+      "message_id": "1a10fed03ce291c1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T12:05:53.036564"
+    },
+    {
+      "urn": "urn:li:activity:7513114964858093568",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513114964858093568",
+      "email": "jyoti.hooda@radiansys.com",
+      "thread_id": "1a10fed1647dad82",
+      "message_id": "1a10fed1647dad82",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T12:05:58.218254"
+    },
+    {
+      "urn": "urn:li:activity:7513115010894639104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513115010894639104",
+      "email": "career@refercircle.in",
+      "thread_id": "1a10fed1f851d984",
+      "message_id": "1a10fed1f851d984",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-06T12:06:00.275299"
     }
   ]
 }
