@@ -1328,7 +1328,12 @@
     "urn:li:activity:7513448132110880769",
     "urn:li:activity:7513406289885155328",
     "urn:li:activity:7513390422002475008",
-    "urn:li:activity:7513347013908852736"
+    "urn:li:activity:7513347013908852736",
+    "urn:li:activity:7513486902457606145",
+    "urn:li:activity:7513486232295833600",
+    "urn:li:activity:7513475048637149185",
+    "urn:li:activity:7513470600368103424",
+    "urn:li:activity:7513438101776691200"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2101,7 +2106,10 @@
     "justamrutha77@gmail.com",
     "alok@infigroup.com",
     "pratap.jha@techneptune.com",
-    "saikrishna@sapphiresoftwaresolutions.com"
+    "saikrishna@sapphiresoftwaresolutions.com",
+    "laxmiganeshk@digiquadsolutions.com",
+    "apply-rsharma@forcecraver.com",
+    "Jagadhathri@nexroar.com"
   ],
   "contacted_details": [
     {
@@ -15975,6 +15983,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-07T10:23:06.247164"
+    },
+    {
+      "urn": "urn:li:activity:7513486902457606145",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513486902457606145",
+      "email": "laxmiganeshk@digiquadsolutions.com",
+      "thread_id": "1a115173e33fd1c9",
+      "message_id": "1a115173e33fd1c9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T12:10:07.844303"
+    },
+    {
+      "urn": "urn:li:activity:7513486232295833600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513486232295833600",
+      "email": "Jagadeesh.A@nityainc.com",
+      "thread_id": "1a115174df91c8ac",
+      "message_id": "1a115174df91c8ac",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T12:10:11.110746"
+    },
+    {
+      "urn": "urn:li:activity:7513475048637149185",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513475048637149185",
+      "email": "apply-rsharma@forcecraver.com",
+      "thread_id": "1a1151755ae65c6e",
+      "message_id": "1a1151755ae65c6e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T12:10:13.204368"
+    },
+    {
+      "urn": "urn:li:activity:7513470600368103424",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513470600368103424",
+      "email": "hr@asyvainfotech.com",
+      "thread_id": "1a115175cf9139da",
+      "message_id": "1a115175cf9139da",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T12:10:15.220563"
+    },
+    {
+      "urn": "urn:li:activity:7513438101776691200",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513438101776691200",
+      "email": "Jagadhathri@nexroar.com",
+      "thread_id": "1a1151779273e3b6",
+      "message_id": "1a1151779273e3b6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T12:10:22.188113"
     }
   ]
 }
