@@ -1344,7 +1344,13 @@
     "urn:li:activity:7513508378103410689",
     "urn:li:activity:7513497569679872000",
     "urn:li:activity:7513555588463742976",
-    "urn:li:activity:7513528454705938432"
+    "urn:li:activity:7513528454705938432",
+    "urn:li:activity:7513553651991384064",
+    "urn:li:activity:7513551728261124096",
+    "urn:li:activity:7513551821873934336",
+    "urn:li:activity:7513551449335816193",
+    "urn:li:activity:7513542059144757248",
+    "urn:li:activity:7513536514476146688"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2126,7 +2132,9 @@
     "connect@nervwell.com",
     "jila.a@marc-ellis.com",
     "pooja.a@hashroot.com",
-    "chitra.vgemperts@gmail.com"
+    "chitra.vgemperts@gmail.com",
+    "hr@tekfocusminds.com",
+    "praveenm@vrdella.com"
   ],
   "contacted_details": [
     {
@@ -15744,9 +15752,10 @@
       "email": "hussnainmulazam@gmail.com",
       "thread_id": "1a10fecefef6fddd",
       "message_id": "1a10fecefef6fddd",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T12:05:48.313225"
+      "timestamp": "2026-10-06T12:05:48.313225",
+      "followup_timestamp": "2026-10-07T18:28:43.459651"
     },
     {
       "urn": "urn:li:activity:7513120369386393600",
@@ -15754,9 +15763,10 @@
       "email": "cloudcareersaiand@gmail.com",
       "thread_id": "1a10fecf9e6cb483",
       "message_id": "1a10fecf9e6cb483",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T12:05:50.884583"
+      "timestamp": "2026-10-06T12:05:50.884583",
+      "followup_timestamp": "2026-10-07T18:28:45.771631"
     },
     {
       "urn": "urn:li:activity:7513115465343197184",
@@ -15764,9 +15774,10 @@
       "email": "career@refercircle.in",
       "thread_id": "1a10fed03ce291c1",
       "message_id": "1a10fed03ce291c1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T12:05:53.036564"
+      "timestamp": "2026-10-06T12:05:53.036564",
+      "followup_timestamp": "2026-10-07T18:28:48.030268"
     },
     {
       "urn": "urn:li:activity:7513114964858093568",
@@ -15774,9 +15785,10 @@
       "email": "jyoti.hooda@radiansys.com",
       "thread_id": "1a10fed1647dad82",
       "message_id": "1a10fed1647dad82",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T12:05:58.218254"
+      "timestamp": "2026-10-06T12:05:58.218254",
+      "followup_timestamp": "2026-10-07T18:28:50.341761"
     },
     {
       "urn": "urn:li:activity:7513115010894639104",
@@ -15784,9 +15796,10 @@
       "email": "career@refercircle.in",
       "thread_id": "1a10fed1f851d984",
       "message_id": "1a10fed1f851d984",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T12:06:00.275299"
+      "timestamp": "2026-10-06T12:06:00.275299",
+      "followup_timestamp": "2026-10-07T18:28:53.430830"
     },
     {
       "urn": "urn:li:activity:7513139695661318144",
@@ -16167,6 +16180,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-07T16:46:17.733055"
+    },
+    {
+      "urn": "urn:li:activity:7513553651991384064",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513553651991384064",
+      "email": "hr@tekfocusminds.com",
+      "thread_id": "1a1167105888487c",
+      "message_id": "1a1167105888487c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T18:27:48.558880"
+    },
+    {
+      "urn": "urn:li:activity:7513551728261124096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513551728261124096",
+      "email": "careers@vextarainfo.com",
+      "thread_id": "1a116713d314bc7e",
+      "message_id": "1a116713d314bc7e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T18:28:03.189305"
+    },
+    {
+      "urn": "urn:li:activity:7513551821873934336",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513551821873934336",
+      "email": "careers@vextarainfo.com",
+      "thread_id": "1a116718bc4e6620",
+      "message_id": "1a116718bc4e6620",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T18:28:22.727545"
+    },
+    {
+      "urn": "urn:li:activity:7513551449335816193",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513551449335816193",
+      "email": "careers@vextarainfo.com",
+      "thread_id": "1a11671a96f991e7",
+      "message_id": "1a11671a96f991e7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T18:28:30.384122"
+    },
+    {
+      "urn": "urn:li:activity:7513542059144757248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513542059144757248",
+      "email": "aditi.bhargava@oaktreecloud.com",
+      "thread_id": "1a11671b199525d2",
+      "message_id": "1a11671b199525d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T18:28:32.449050"
+    },
+    {
+      "urn": "urn:li:activity:7513536514476146688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513536514476146688",
+      "email": "praveenm@vrdella.com",
+      "thread_id": "1a11671d2cdfcac5",
+      "message_id": "1a11671d2cdfcac5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T18:28:41.152278"
     }
   ]
 }
