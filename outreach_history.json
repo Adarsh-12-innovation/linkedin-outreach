@@ -1333,7 +1333,13 @@
     "urn:li:activity:7513486232295833600",
     "urn:li:activity:7513475048637149185",
     "urn:li:activity:7513470600368103424",
-    "urn:li:activity:7513438101776691200"
+    "urn:li:activity:7513438101776691200",
+    "urn:li:activity:7513506071743918080",
+    "urn:li:activity:7513505116222590977",
+    "urn:li:activity:7513496185547120640",
+    "urn:li:activity:7513492507037708288",
+    "urn:li:activity:7513491413733638144",
+    "urn:li:activity:7513478549463257089"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2109,7 +2115,9 @@
     "saikrishna@sapphiresoftwaresolutions.com",
     "laxmiganeshk@digiquadsolutions.com",
     "apply-rsharma@forcecraver.com",
-    "Jagadhathri@nexroar.com"
+    "Jagadhathri@nexroar.com",
+    "sanjai@infinity-crestgroup.com",
+    "kalyan.babu@intellyk.com"
   ],
   "contacted_details": [
     {
@@ -16033,6 +16041,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-07T12:10:22.188113"
+    },
+    {
+      "urn": "urn:li:activity:7513506071743918080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513506071743918080",
+      "email": "justamrutha77@gmail.com",
+      "thread_id": "1a1155f5fae57db8",
+      "message_id": "1a1155f5fae57db8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T13:28:54.488709"
+    },
+    {
+      "urn": "urn:li:activity:7513505116222590977",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513505116222590977",
+      "email": "justamrutha77@gmail.com",
+      "thread_id": "1a1155f67fea24ca",
+      "message_id": "1a1155f67fea24ca",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T13:28:56.741178"
+    },
+    {
+      "urn": "urn:li:activity:7513496185547120640",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513496185547120640",
+      "email": "sanjai@infinity-crestgroup.com",
+      "thread_id": "1a1155f734836be7",
+      "message_id": "1a1155f734836be7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T13:28:59.705777"
+    },
+    {
+      "urn": "urn:li:activity:7513492507037708288",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513492507037708288",
+      "email": "sanjai@infinity-crestgroup.com",
+      "thread_id": "1a1155f7cc2b3f70",
+      "message_id": "1a1155f7cc2b3f70",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T13:29:01.977718"
+    },
+    {
+      "urn": "urn:li:activity:7513491413733638144",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513491413733638144",
+      "email": "kalyan.babu@intellyk.com",
+      "thread_id": "1a1155f8d3071d04",
+      "message_id": "1a1155f8d3071d04",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T13:29:06.497890"
+    },
+    {
+      "urn": "urn:li:activity:7513478549463257089",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513478549463257089",
+      "email": "neha.patil@hiristan.com",
+      "thread_id": "1a1155f95ecafe6f",
+      "message_id": "1a1155f95ecafe6f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-07T13:29:08.491568"
     }
   ]
 }
