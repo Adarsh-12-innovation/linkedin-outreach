@@ -1352,7 +1352,10 @@
     "urn:li:activity:7513542059144757248",
     "urn:li:activity:7513536514476146688",
     "urn:li:activity:7513594556752437248",
-    "urn:li:activity:7513594088911380480"
+    "urn:li:activity:7513594088911380480",
+    "urn:li:activity:7513823106109546496",
+    "urn:li:activity:7513720804614955008",
+    "urn:li:activity:7513715525017899008"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2137,7 +2140,10 @@
     "chitra.vgemperts@gmail.com",
     "hr@tekfocusminds.com",
     "praveenm@vrdella.com",
-    "Gaurav.s@hgtechinc.net"
+    "Gaurav.s@hgtechinc.net",
+    "hr4.infinitycrest@gmail.com",
+    "roji@unimindss.com",
+    "deepak@jconnectinc.com"
   ],
   "contacted_details": [
     {
@@ -15865,7 +15871,7 @@
       "email": "Info5@worktechnologies.co.in",
       "thread_id": "1a110c188f3070eb",
       "message_id": "1a110c188f3070eb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-06T15:58:01.445891"
     },
@@ -15875,9 +15881,10 @@
       "email": "recruitment@anikson.com",
       "thread_id": "1a110c193f4d3763",
       "message_id": "1a110c193f4d3763",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T15:58:03.875417"
+      "timestamp": "2026-10-06T15:58:03.875417",
+      "followup_timestamp": "2026-10-08T10:35:58.585250"
     },
     {
       "urn": "urn:li:activity:7513202153612828674",
@@ -15885,7 +15892,7 @@
       "email": "priyanka@rayosys.com",
       "thread_id": "1a11126187085a45",
       "message_id": "1a11126187085a45",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-06T17:47:51.637984"
     },
@@ -15895,9 +15902,10 @@
       "email": "aditi.bhargava@oaktreecloud.com",
       "thread_id": "1a1112621ce89222",
       "message_id": "1a1112621ce89222",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T17:47:53.849366"
+      "timestamp": "2026-10-06T17:47:53.849366",
+      "followup_timestamp": "2026-10-08T10:36:02.169267"
     },
     {
       "urn": "urn:li:activity:7513185606576001024",
@@ -15905,7 +15913,7 @@
       "email": "careers@vextarainfo.com",
       "thread_id": "1a1112629be00885",
       "message_id": "1a1112629be00885",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-06T17:47:55.982186"
     },
@@ -15915,7 +15923,7 @@
       "email": "careers@vextarainfo.com",
       "thread_id": "1a111263137d16f3",
       "message_id": "1a111263137d16f3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-06T17:47:58.023451"
     },
@@ -15925,7 +15933,7 @@
       "email": "careers@vextarainfo.com",
       "thread_id": "1a111263982737bb",
       "message_id": "1a111263982737bb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-06T17:48:00.094514"
     },
@@ -15935,9 +15943,10 @@
       "email": "satyam@jconnect.in",
       "thread_id": "1a11126400409ffc",
       "message_id": "1a11126400409ffc",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T17:48:02.665034"
+      "timestamp": "2026-10-06T17:48:02.665034",
+      "followup_timestamp": "2026-10-08T10:36:07.118665"
     },
     {
       "urn": "urn:li:activity:7513171810805440514",
@@ -15945,9 +15954,10 @@
       "email": "hussnainmulazam@gmail.com",
       "thread_id": "1a111264f58111ff",
       "message_id": "1a111264f58111ff",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T17:48:05.567552"
+      "timestamp": "2026-10-06T17:48:05.567552",
+      "followup_timestamp": "2026-10-08T10:36:10.648294"
     },
     {
       "urn": "urn:li:activity:7513227267460993024",
@@ -15955,9 +15965,10 @@
       "email": "justamrutha77@gmail.com",
       "thread_id": "1a11183970dd111c",
       "message_id": "1a11183970dd111c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T19:29:58.763943"
+      "timestamp": "2026-10-06T19:29:58.763943",
+      "followup_timestamp": "2026-10-08T10:36:15.968938"
     },
     {
       "urn": "urn:li:activity:7513222860459421696",
@@ -15965,7 +15976,7 @@
       "email": "ishita@corpxcel.com",
       "thread_id": "1a11183aa2bd0c94",
       "message_id": "1a11183aa2bd0c94",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-06T19:30:04.001920"
     },
@@ -15975,9 +15986,10 @@
       "email": "alok@infigroup.com",
       "thread_id": "1a11183b33df13d3",
       "message_id": "1a11183b33df13d3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-06T19:30:06.172136"
+      "timestamp": "2026-10-06T19:30:06.172136",
+      "followup_timestamp": "2026-10-08T10:36:20.180894"
     },
     {
       "urn": "urn:li:activity:7513456547012993024",
@@ -16268,6 +16280,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-07T19:55:41.448153"
+    },
+    {
+      "urn": "urn:li:activity:7513823106109546496",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513823106109546496",
+      "email": "hr4.infinitycrest@gmail.com",
+      "thread_id": "1a119e720b89e4ab",
+      "message_id": "1a119e720b89e4ab",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T10:35:41.475137"
+    },
+    {
+      "urn": "urn:li:activity:7513720804614955008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513720804614955008",
+      "email": "roji@unimindss.com",
+      "thread_id": "1a119e749ef97941",
+      "message_id": "1a119e749ef97941",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T10:35:51.511568"
+    },
+    {
+      "urn": "urn:li:activity:7513715525017899008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513715525017899008",
+      "email": "deepak@jconnectinc.com",
+      "thread_id": "1a119e755ef84689",
+      "message_id": "1a119e755ef84689",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T10:35:54.730545"
     }
   ]
 }
