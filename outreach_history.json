@@ -1361,7 +1361,15 @@
     "urn:li:activity:7513833615022157824",
     "urn:li:activity:7513832995624120320",
     "urn:li:activity:7513824493174304768",
-    "urn:li:activity:7513814419357773824"
+    "urn:li:activity:7513814419357773824",
+    "urn:li:activity:7513878475263500288",
+    "urn:li:activity:7513870476302012418",
+    "urn:li:activity:7513868331502751744",
+    "urn:li:activity:7513867601173999617",
+    "urn:li:activity:7513867035802497024",
+    "urn:li:activity:7513865879688749056",
+    "urn:li:activity:7513855848960491520",
+    "urn:li:activity:7513850084971802625"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2152,7 +2160,12 @@
     "deepak@jconnectinc.com",
     "hrd@parthglobalconsultants.com",
     "info@bcloudglobalservices.com",
-    "bd5.infinitycrest@gmail.com"
+    "bd5.infinitycrest@gmail.com",
+    "sushanth.g@faroconsulting.co.in",
+    "hr@unleasedconsultants.com",
+    "janani.j@primesourcellp.com",
+    "shinkee.devi@lancesoft.com",
+    "careers@rmsitsolutions.com"
   ],
   "contacted_details": [
     {
@@ -16379,6 +16392,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-08T11:52:48.381748"
+    },
+    {
+      "urn": "urn:li:activity:7513878475263500288",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513878475263500288",
+      "email": "career@refercircle.in",
+      "thread_id": "1a11ab2347c85d2e",
+      "message_id": "1a11ab2347c85d2e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T14:17:29.926263"
+    },
+    {
+      "urn": "urn:li:activity:7513870476302012418",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513870476302012418",
+      "email": "sushanth.g@faroconsulting.co.in",
+      "thread_id": "1a11ab2416136146",
+      "message_id": "1a11ab2416136146",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T14:17:32.965273"
+    },
+    {
+      "urn": "urn:li:activity:7513868331502751744",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513868331502751744",
+      "email": "hr@unleasedconsultants.com",
+      "thread_id": "1a11ab253b05ef1f",
+      "message_id": "1a11ab253b05ef1f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T14:17:37.636264"
+    },
+    {
+      "urn": "urn:li:activity:7513867601173999617",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513867601173999617",
+      "email": "hr@unleasedconsultants.com",
+      "thread_id": "1a11ab264b3b0f76",
+      "message_id": "1a11ab264b3b0f76",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T14:17:41.911826"
+    },
+    {
+      "urn": "urn:li:activity:7513867035802497024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513867035802497024",
+      "email": "harsha@code1.dev",
+      "thread_id": "1a11ab26d7449dae",
+      "message_id": "1a11ab26d7449dae",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T14:17:44.252628"
+    },
+    {
+      "urn": "urn:li:activity:7513865879688749056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513865879688749056",
+      "email": "janani.j@primesourcellp.com",
+      "thread_id": "1a11ab2749d9d2df",
+      "message_id": "1a11ab2749d9d2df",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T14:17:46.388355"
+    },
+    {
+      "urn": "urn:li:activity:7513855848960491520",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513855848960491520",
+      "email": "shinkee.devi@lancesoft.com",
+      "thread_id": "1a11ab27ed30ae71",
+      "message_id": "1a11ab27ed30ae71",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T14:17:48.708129"
+    },
+    {
+      "urn": "urn:li:activity:7513850084971802625",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513850084971802625",
+      "email": "careers@rmsitsolutions.com",
+      "thread_id": "1a11ab291b916148",
+      "message_id": "1a11ab291b916148",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T14:17:53.448542"
     }
   ]
 }
