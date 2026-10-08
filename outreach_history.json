@@ -1355,7 +1355,13 @@
     "urn:li:activity:7513594088911380480",
     "urn:li:activity:7513823106109546496",
     "urn:li:activity:7513720804614955008",
-    "urn:li:activity:7513715525017899008"
+    "urn:li:activity:7513715525017899008",
+    "urn:li:activity:7513839358735552512",
+    "urn:li:activity:7513835275199062017",
+    "urn:li:activity:7513833615022157824",
+    "urn:li:activity:7513832995624120320",
+    "urn:li:activity:7513824493174304768",
+    "urn:li:activity:7513814419357773824"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2143,7 +2149,10 @@
     "Gaurav.s@hgtechinc.net",
     "hr4.infinitycrest@gmail.com",
     "roji@unimindss.com",
-    "deepak@jconnectinc.com"
+    "deepak@jconnectinc.com",
+    "hrd@parthglobalconsultants.com",
+    "info@bcloudglobalservices.com",
+    "bd5.infinitycrest@gmail.com"
   ],
   "contacted_details": [
     {
@@ -16310,6 +16319,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-08T10:35:54.730545"
+    },
+    {
+      "urn": "urn:li:activity:7513839358735552512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513839358735552512",
+      "email": "hrd@parthglobalconsultants.com",
+      "thread_id": "1a11a2d853224a13",
+      "message_id": "1a11a2d853224a13",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T11:52:33.840225"
+    },
+    {
+      "urn": "urn:li:activity:7513835275199062017",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513835275199062017",
+      "email": "info@bcloudglobalservices.com",
+      "thread_id": "1a11a2d98a096e7a",
+      "message_id": "1a11a2d98a096e7a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T11:52:38.959775"
+    },
+    {
+      "urn": "urn:li:activity:7513833615022157824",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513833615022157824",
+      "email": "info@aarnikshasolutions.com",
+      "thread_id": "1a11a2da115f209b",
+      "message_id": "1a11a2da115f209b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T11:52:41.213575"
+    },
+    {
+      "urn": "urn:li:activity:7513832995624120320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513832995624120320",
+      "email": "info@uhvsoftwaresolutions.com",
+      "thread_id": "1a11a2daa00555e6",
+      "message_id": "1a11a2daa00555e6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T11:52:43.772542"
+    },
+    {
+      "urn": "urn:li:activity:7513824493174304768",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513824493174304768",
+      "email": "anbarasi@datatechgenius.com",
+      "thread_id": "1a11a2db55d5f1f8",
+      "message_id": "1a11a2db55d5f1f8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T11:52:45.871736"
+    },
+    {
+      "urn": "urn:li:activity:7513814419357773824",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513814419357773824",
+      "email": "bd5.infinitycrest@gmail.com",
+      "thread_id": "1a11a2dbdb5d6819",
+      "message_id": "1a11a2dbdb5d6819",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T11:52:48.381748"
     }
   ]
 }
