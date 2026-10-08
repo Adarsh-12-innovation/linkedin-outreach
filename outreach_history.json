@@ -1378,7 +1378,11 @@
     "urn:li:activity:7513884776546791424",
     "urn:li:activity:7513883401020665857",
     "urn:li:activity:7513867808783417346",
-    "urn:li:activity:7513857568960741376"
+    "urn:li:activity:7513857568960741376",
+    "urn:li:activity:7513935574295138304",
+    "urn:li:activity:7513934569285541889",
+    "urn:li:activity:7513919732052463616",
+    "urn:li:activity:7513913139638403072"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2176,7 +2180,9 @@
     "shinkee.devi@lancesoft.com",
     "careers@rmsitsolutions.com",
     "namitaihrs05@gmail.com",
-    "divya@humanectere.com"
+    "divya@humanectere.com",
+    "reachus@graphisum.com",
+    "hr@syscaltech.com"
   ],
   "contacted_details": [
     {
@@ -16084,9 +16090,10 @@
       "email": "laxmiganeshk@digiquadsolutions.com",
       "thread_id": "1a115173e33fd1c9",
       "message_id": "1a115173e33fd1c9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-07T12:10:07.844303"
+      "timestamp": "2026-10-07T12:10:07.844303",
+      "followup_timestamp": "2026-10-08T18:08:07.400365"
     },
     {
       "urn": "urn:li:activity:7513486232295833600",
@@ -16094,9 +16101,10 @@
       "email": "Jagadeesh.A@nityainc.com",
       "thread_id": "1a115174df91c8ac",
       "message_id": "1a115174df91c8ac",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-07T12:10:11.110746"
+      "timestamp": "2026-10-07T12:10:11.110746",
+      "followup_timestamp": "2026-10-08T18:08:09.649041"
     },
     {
       "urn": "urn:li:activity:7513475048637149185",
@@ -16104,9 +16112,10 @@
       "email": "apply-rsharma@forcecraver.com",
       "thread_id": "1a1151755ae65c6e",
       "message_id": "1a1151755ae65c6e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-07T12:10:13.204368"
+      "timestamp": "2026-10-07T12:10:13.204368",
+      "followup_timestamp": "2026-10-08T18:08:11.898345"
     },
     {
       "urn": "urn:li:activity:7513470600368103424",
@@ -16114,9 +16123,10 @@
       "email": "hr@asyvainfotech.com",
       "thread_id": "1a115175cf9139da",
       "message_id": "1a115175cf9139da",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-07T12:10:15.220563"
+      "timestamp": "2026-10-07T12:10:15.220563",
+      "followup_timestamp": "2026-10-08T18:08:14.198375"
     },
     {
       "urn": "urn:li:activity:7513438101776691200",
@@ -16124,9 +16134,10 @@
       "email": "Jagadhathri@nexroar.com",
       "thread_id": "1a1151779273e3b6",
       "message_id": "1a1151779273e3b6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-07T12:10:22.188113"
+      "timestamp": "2026-10-07T12:10:22.188113",
+      "followup_timestamp": "2026-10-08T18:08:16.441222"
     },
     {
       "urn": "urn:li:activity:7513506071743918080",
@@ -16577,6 +16588,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-08T16:26:01.717114"
+    },
+    {
+      "urn": "urn:li:activity:7513935574295138304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513935574295138304",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a11b85339f955a8",
+      "message_id": "1a11b85339f955a8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T18:07:57.786364"
+    },
+    {
+      "urn": "urn:li:activity:7513934569285541889",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513934569285541889",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a11b853cecb3e79",
+      "message_id": "1a11b853cecb3e79",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T18:08:00.187416"
+    },
+    {
+      "urn": "urn:li:activity:7513919732052463616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513919732052463616",
+      "email": "reachus@graphisum.com",
+      "thread_id": "1a11b854622ef0a9",
+      "message_id": "1a11b854622ef0a9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T18:08:02.788157"
+    },
+    {
+      "urn": "urn:li:activity:7513913139638403072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513913139638403072",
+      "email": "hr@syscaltech.com",
+      "thread_id": "1a11b85507e7594d",
+      "message_id": "1a11b85507e7594d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-08T18:08:05.114884"
     }
   ]
 }
