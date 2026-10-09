@@ -1412,7 +1412,9 @@
     "urn:li:activity:7514265704372658176",
     "urn:li:activity:7514262665301696512",
     "urn:li:activity:7514244108844949504",
-    "urn:li:activity:7514244276134961153"
+    "urn:li:activity:7514244276134961153",
+    "urn:li:activity:7514319550339809280",
+    "urn:li:activity:7514318463050444801"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -16994,6 +16996,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-09T17:58:15.226258"
+    },
+    {
+      "urn": "urn:li:activity:7514319550339809280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514319550339809280",
+      "email": "pratap.jha@techneptune.com",
+      "thread_id": "1a120fe2bb0d4aab",
+      "message_id": "1a120fe2bb0d4aab",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T19:38:11.650302"
+    },
+    {
+      "urn": "urn:li:activity:7514318463050444801",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514318463050444801",
+      "email": "pratap.jha@techneptune.com",
+      "thread_id": "1a120fe32e9a5261",
+      "message_id": "1a120fe32e9a5261",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T19:38:13.907890"
     }
   ]
 }
