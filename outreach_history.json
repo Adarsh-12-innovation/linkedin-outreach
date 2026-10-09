@@ -1395,7 +1395,13 @@
     "urn:li:activity:7514058091928178688",
     "urn:li:activity:7514204637584015360",
     "urn:li:activity:7514199786993037312",
-    "urn:li:activity:7514188657415790592"
+    "urn:li:activity:7514188657415790592",
+    "urn:li:activity:7514246028112609280",
+    "urn:li:activity:7514232375174942720",
+    "urn:li:activity:7514209561910607873",
+    "urn:li:activity:7514209300924289024",
+    "urn:li:activity:7514198844109279232",
+    "urn:li:activity:7514197212810235904"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2203,7 +2209,10 @@
     "karuna@etekit.com",
     "raveena@dmsvisions.com",
     "durga.bhavani@orisonsolutions.com",
-    "saurabh.kumar@itmcsystems.com"
+    "saurabh.kumar@itmcsystems.com",
+    "teamhr.ashutosh@gmail.com",
+    "r5@hiking-it.com",
+    "r1@hiking-it.com"
   ],
   "contacted_details": [
     {
@@ -16795,6 +16804,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-09T11:45:39.940609"
+    },
+    {
+      "urn": "urn:li:activity:7514246028112609280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514246028112609280",
+      "email": "harsha@phoenixinfo.co.in",
+      "thread_id": "1a11fe8083c9466a",
+      "message_id": "1a11fe8083c9466a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T14:34:25.378358"
+    },
+    {
+      "urn": "urn:li:activity:7514232375174942720",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514232375174942720",
+      "email": "teamhr.ashutosh@gmail.com",
+      "thread_id": "1a11fe8114726001",
+      "message_id": "1a11fe8114726001",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T14:34:27.706867"
+    },
+    {
+      "urn": "urn:li:activity:7514209561910607873",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514209561910607873",
+      "email": "cloudcareersaiand@gmail.com",
+      "thread_id": "1a11fe82087dba2d",
+      "message_id": "1a11fe82087dba2d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T14:34:31.421164"
+    },
+    {
+      "urn": "urn:li:activity:7514209300924289024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514209300924289024",
+      "email": "anbarasi@datatechgenius.com",
+      "thread_id": "1a11fe82ac5a88a3",
+      "message_id": "1a11fe82ac5a88a3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T14:34:34.193860"
+    },
+    {
+      "urn": "urn:li:activity:7514198844109279232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514198844109279232",
+      "email": "r5@hiking-it.com",
+      "thread_id": "1a11fe83f4faff1d",
+      "message_id": "1a11fe83f4faff1d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T14:34:39.275003"
+    },
+    {
+      "urn": "urn:li:activity:7514197212810235904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514197212810235904",
+      "email": "r1@hiking-it.com",
+      "thread_id": "1a11fe8513e13a41",
+      "message_id": "1a11fe8513e13a41",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T14:34:44.024628"
     }
   ]
 }
