@@ -1392,7 +1392,10 @@
     "urn:li:activity:7513964848892878848",
     "urn:li:activity:7514077365279531010",
     "urn:li:activity:7514062084188598272",
-    "urn:li:activity:7514058091928178688"
+    "urn:li:activity:7514058091928178688",
+    "urn:li:activity:7514204637584015360",
+    "urn:li:activity:7514199786993037312",
+    "urn:li:activity:7514188657415790592"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -16762,6 +16765,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-09T10:35:27.230032"
+    },
+    {
+      "urn": "urn:li:activity:7514204637584015360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514204637584015360",
+      "email": "shinkee.devi@lancesoft.com",
+      "thread_id": "1a11f4d6c1fa3ae4",
+      "message_id": "1a11f4d6c1fa3ae4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T11:45:32.622995"
+    },
+    {
+      "urn": "urn:li:activity:7514199786993037312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514199786993037312",
+      "email": "shweta.sgempertsindia@gmail.com",
+      "thread_id": "1a11f4d7f0636a5d",
+      "message_id": "1a11f4d7f0636a5d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T11:45:37.550892"
+    },
+    {
+      "urn": "urn:li:activity:7514188657415790592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514188657415790592",
+      "email": "career@refercircle.in",
+      "thread_id": "1a11f4d898c10f0c",
+      "message_id": "1a11f4d898c10f0c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-09T11:45:39.940609"
     }
   ]
 }
