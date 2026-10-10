@@ -1423,7 +1423,9 @@
     "urn:li:activity:7514417492895760384",
     "urn:li:activity:7514407954004226048",
     "urn:li:activity:7514394588392914944",
-    "urn:li:activity:7514567502975229954"
+    "urn:li:activity:7514567502975229954",
+    "urn:li:activity:7514556395246092288",
+    "urn:li:activity:7514433564650733569"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2241,7 +2243,9 @@
     "somesh@jpstechsolutions.com",
     "ajmath@arkinfotechspectrum.com",
     "akansha@code-aspire.com",
-    "Ajay@vergilremnant.com"
+    "Ajay@vergilremnant.com",
+    "mamutha.d@people-prime.com",
+    "Akanksha@mcubesoft.com"
   ],
   "contacted_details": [
     {
@@ -17146,6 +17150,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-10T12:04:27.729935"
+    },
+    {
+      "urn": "urn:li:activity:7514556395246092288",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514556395246092288",
+      "email": "mamutha.d@people-prime.com",
+      "thread_id": "1a125044a63bc3d5",
+      "message_id": "1a125044a63bc3d5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-10T14:23:21.999648"
+    },
+    {
+      "urn": "urn:li:activity:7514433564650733569",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514433564650733569",
+      "email": "Akanksha@mcubesoft.com",
+      "thread_id": "1a1250460cb0fcfe",
+      "message_id": "1a1250460cb0fcfe",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-10T14:23:27.436593"
     }
   ]
 }
