@@ -1425,7 +1425,9 @@
     "urn:li:activity:7514394588392914944",
     "urn:li:activity:7514567502975229954",
     "urn:li:activity:7514556395246092288",
-    "urn:li:activity:7514433564650733569"
+    "urn:li:activity:7514433564650733569",
+    "urn:li:activity:7514645872865988610",
+    "urn:li:activity:7514570098666450944"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2245,7 +2247,8 @@
     "akansha@code-aspire.com",
     "Ajay@vergilremnant.com",
     "mamutha.d@people-prime.com",
-    "Akanksha@mcubesoft.com"
+    "Akanksha@mcubesoft.com",
+    "Uzairarslan16@gmail.com"
   ],
   "contacted_details": [
     {
@@ -16817,9 +16820,10 @@
       "email": "raveena@dmsvisions.com",
       "thread_id": "1a11f0d267b74175",
       "message_id": "1a11f0d267b74175",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-09T10:35:20.717600"
+      "timestamp": "2026-10-09T10:35:20.717600",
+      "followup_timestamp": "2026-10-10T19:18:55.533190"
     },
     {
       "urn": "urn:li:activity:7514062084188598272",
@@ -16827,9 +16831,10 @@
       "email": "durga.bhavani@orisonsolutions.com",
       "thread_id": "1a11f0d3515a8055",
       "message_id": "1a11f0d3515a8055",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-09T10:35:24.287213"
+      "timestamp": "2026-10-09T10:35:24.287213",
+      "followup_timestamp": "2026-10-10T19:18:57.869560"
     },
     {
       "urn": "urn:li:activity:7514058091928178688",
@@ -16837,9 +16842,10 @@
       "email": "saurabh.kumar@itmcsystems.com",
       "thread_id": "1a11f0d41191371b",
       "message_id": "1a11f0d41191371b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-09T10:35:27.230032"
+      "timestamp": "2026-10-09T10:35:27.230032",
+      "followup_timestamp": "2026-10-10T19:19:01.034116"
     },
     {
       "urn": "urn:li:activity:7514204637584015360",
@@ -16847,9 +16853,10 @@
       "email": "shinkee.devi@lancesoft.com",
       "thread_id": "1a11f4d6c1fa3ae4",
       "message_id": "1a11f4d6c1fa3ae4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-09T11:45:32.622995"
+      "timestamp": "2026-10-09T11:45:32.622995",
+      "followup_timestamp": "2026-10-10T19:19:04.218360"
     },
     {
       "urn": "urn:li:activity:7514199786993037312",
@@ -16857,9 +16864,10 @@
       "email": "shweta.sgempertsindia@gmail.com",
       "thread_id": "1a11f4d7f0636a5d",
       "message_id": "1a11f4d7f0636a5d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-09T11:45:37.550892"
+      "timestamp": "2026-10-09T11:45:37.550892",
+      "followup_timestamp": "2026-10-10T19:19:06.575481"
     },
     {
       "urn": "urn:li:activity:7514188657415790592",
@@ -16867,9 +16875,10 @@
       "email": "career@refercircle.in",
       "thread_id": "1a11f4d898c10f0c",
       "message_id": "1a11f4d898c10f0c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-09T11:45:39.940609"
+      "timestamp": "2026-10-09T11:45:39.940609",
+      "followup_timestamp": "2026-10-10T19:19:09.014316"
     },
     {
       "urn": "urn:li:activity:7514246028112609280",
@@ -17170,6 +17179,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-10T14:23:27.436593"
+    },
+    {
+      "urn": "urn:li:activity:7514645872865988610",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514645872865988610",
+      "email": "Uzairarslan16@gmail.com",
+      "thread_id": "1a12612c1819f243",
+      "message_id": "1a12612c1819f243",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-10T19:18:46.711300"
+    },
+    {
+      "urn": "urn:li:activity:7514570098666450944",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514570098666450944",
+      "email": "r1@hiking-it.com",
+      "thread_id": "1a12612d82f2f64a",
+      "message_id": "1a12612d82f2f64a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-10T19:18:53.057741"
     }
   ]
 }
