@@ -1422,7 +1422,8 @@
     "urn:li:activity:7514417754637246464",
     "urn:li:activity:7514417492895760384",
     "urn:li:activity:7514407954004226048",
-    "urn:li:activity:7514394588392914944"
+    "urn:li:activity:7514394588392914944",
+    "urn:li:activity:7514567502975229954"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2239,7 +2240,8 @@
     "manika.asthana@connvertex.com",
     "somesh@jpstechsolutions.com",
     "ajmath@arkinfotechspectrum.com",
-    "akansha@code-aspire.com"
+    "akansha@code-aspire.com",
+    "Ajay@vergilremnant.com"
   ],
   "contacted_details": [
     {
@@ -17134,6 +17136,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-10T10:17:30.513047"
+    },
+    {
+      "urn": "urn:li:activity:7514567502975229954",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514567502975229954",
+      "email": "Ajay@vergilremnant.com",
+      "thread_id": "1a12485213a27945",
+      "message_id": "1a12485213a27945",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-10T12:04:27.729935"
     }
   ]
 }
