@@ -1442,7 +1442,12 @@
     "urn:li:activity:7515299506922434560",
     "urn:li:activity:7515296267414159360",
     "urn:li:activity:7515291620485832705",
-    "urn:li:activity:7515278448479784960"
+    "urn:li:activity:7515278448479784960",
+    "urn:li:activity:7515339403339304960",
+    "urn:li:activity:7515326797882945537",
+    "urn:li:activity:7515317493771575297",
+    "urn:li:activity:7515297178714742784",
+    "urn:li:activity:7515292792466706432"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2269,7 +2274,11 @@
     "saikiran@hanumainfotech.com",
     "uday@cygnuspro.com",
     "shivanshi.pandey@knackconsulting.com",
-    "subash@northern-base.com"
+    "subash@northern-base.com",
+    "celebso54@gmail.com",
+    "hima@devenir.co.in",
+    "durga.malleswara@rapinnotech.de",
+    " bhuvana@prorsum-tech.com"
   ],
   "contacted_details": [
     {
@@ -17397,6 +17406,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-12T13:50:04.128003"
+    },
+    {
+      "urn": "urn:li:activity:7515339403339304960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515339403339304960",
+      "email": "celebso54@gmail.com",
+      "thread_id": "1a12f92566998cc9",
+      "message_id": "1a12f92566998cc9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T15:34:43.736921"
+    },
+    {
+      "urn": "urn:li:activity:7515326797882945537",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515326797882945537",
+      "email": "hima@devenir.co.in",
+      "thread_id": "1a12f9267f3caf3e",
+      "message_id": "1a12f9267f3caf3e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T15:34:47.784934"
+    },
+    {
+      "urn": "urn:li:activity:7515317493771575297",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515317493771575297",
+      "email": "durga.malleswara@rapinnotech.de",
+      "thread_id": "1a12f926f5183638",
+      "message_id": "1a12f926f5183638",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T15:34:49.930571"
+    },
+    {
+      "urn": "urn:li:activity:7515297178714742784",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515297178714742784",
+      "email": " bhuvana@prorsum-tech.com",
+      "thread_id": "1a12f927834bd4f8",
+      "message_id": "1a12f927834bd4f8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T15:34:52.647958"
+    },
+    {
+      "urn": "urn:li:activity:7515292792466706432",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515292792466706432",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a12f9283646c121",
+      "message_id": "1a12f9283646c121",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T15:34:55.110754"
     }
   ]
 }
