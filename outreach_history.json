@@ -1432,7 +1432,11 @@
     "urn:li:activity:7514752755312553984",
     "urn:li:activity:7514930528761004032",
     "urn:li:activity:7514767855649849345",
-    "urn:li:activity:7515263413133164546"
+    "urn:li:activity:7515263413133164546",
+    "urn:li:activity:7515291205728092160",
+    "urn:li:activity:7515278048292765697",
+    "urn:li:activity:7515272533504479233",
+    "urn:li:activity:7515271735991185408"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2254,7 +2258,9 @@
     "mamutha.d@people-prime.com",
     "Akanksha@mcubesoft.com",
     "Uzairarslan16@gmail.com",
-    "Gursahibsingh203@gmail.com"
+    "Gursahibsingh203@gmail.com",
+    "nida.anjum@tagletconsulting.com",
+    "saikiran@hanumainfotech.com"
   ],
   "contacted_details": [
     {
@@ -17282,6 +17288,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-12T09:58:32.385902"
+    },
+    {
+      "urn": "urn:li:activity:7515291205728092160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515291205728092160",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a12ebb5d00758b5",
+      "message_id": "1a12ebb5d00758b5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T11:39:55.006250"
+    },
+    {
+      "urn": "urn:li:activity:7515278048292765697",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515278048292765697",
+      "email": "nida.anjum@tagletconsulting.com",
+      "thread_id": "1a12ebb67741a7eb",
+      "message_id": "1a12ebb67741a7eb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T11:39:57.140607"
+    },
+    {
+      "urn": "urn:li:activity:7515272533504479233",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515272533504479233",
+      "email": "saikiran@hanumainfotech.com",
+      "thread_id": "1a12ebb6f9ae3328",
+      "message_id": "1a12ebb6f9ae3328",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T11:39:59.237114"
+    },
+    {
+      "urn": "urn:li:activity:7515271735991185408",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515271735991185408",
+      "email": "saikiran@hanumainfotech.com",
+      "thread_id": "1a12ebb76e8c30dc",
+      "message_id": "1a12ebb76e8c30dc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T11:40:01.504905"
     }
   ]
 }
