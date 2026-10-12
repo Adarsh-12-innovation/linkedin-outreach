@@ -1447,7 +1447,10 @@
     "urn:li:activity:7515326797882945537",
     "urn:li:activity:7515317493771575297",
     "urn:li:activity:7515297178714742784",
-    "urn:li:activity:7515292792466706432"
+    "urn:li:activity:7515292792466706432",
+    "urn:li:activity:7515370000879202304",
+    "urn:li:activity:7515347422961725440",
+    "urn:li:activity:7515344729677627392"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -17263,7 +17266,7 @@
       "email": "kattamurali@startechiecs.org",
       "thread_id": "1a1296df9cc3d235",
       "message_id": "1a1296df9cc3d235",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-11T10:57:17.153612"
     },
@@ -17273,7 +17276,7 @@
       "email": "Gursahibsingh203@gmail.com",
       "thread_id": "1a1296e0258a520f",
       "message_id": "1a1296e0258a520f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-11T10:57:19.801095"
     },
@@ -17456,6 +17459,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-12T15:34:55.110754"
+    },
+    {
+      "urn": "urn:li:activity:7515370000879202304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515370000879202304",
+      "email": "durga.malleswara@rapinnotech.de",
+      "thread_id": "1a12fd9fb487f6e6",
+      "message_id": "1a12fd9fb487f6e6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T16:52:59.132659"
+    },
+    {
+      "urn": "urn:li:activity:7515347422961725440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515347422961725440",
+      "email": "sonali.girhe@follextechnology.com",
+      "thread_id": "1a12fda049fb47d5",
+      "message_id": "1a12fda049fb47d5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T16:53:01.272094"
+    },
+    {
+      "urn": "urn:li:activity:7515344729677627392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515344729677627392",
+      "email": "jobs@proximagenesis.com",
+      "thread_id": "1a12fda115e4c0c6",
+      "message_id": "1a12fda115e4c0c6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T16:53:04.429019"
     }
   ]
 }
