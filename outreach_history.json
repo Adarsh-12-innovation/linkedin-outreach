@@ -1431,7 +1431,8 @@
     "urn:li:activity:7514761743387217920",
     "urn:li:activity:7514752755312553984",
     "urn:li:activity:7514930528761004032",
-    "urn:li:activity:7514767855649849345"
+    "urn:li:activity:7514767855649849345",
+    "urn:li:activity:7515263413133164546"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -17095,9 +17096,10 @@
       "email": "hr@unleasedconsultants.com",
       "thread_id": "1a12422f5e496e0f",
       "message_id": "1a12422f5e496e0f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T10:17:14.008805"
+      "timestamp": "2026-10-10T10:17:14.008805",
+      "followup_timestamp": "2026-10-12T09:58:34.971178"
     },
     {
       "urn": "urn:li:activity:7514434769280012288",
@@ -17105,9 +17107,10 @@
       "email": "manika.asthana@connvertex.com",
       "thread_id": "1a12422fff7a9a78",
       "message_id": "1a12422fff7a9a78",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T10:17:16.427647"
+      "timestamp": "2026-10-10T10:17:16.427647",
+      "followup_timestamp": "2026-10-12T09:58:37.281110"
     },
     {
       "urn": "urn:li:activity:7514421535177097216",
@@ -17115,9 +17118,10 @@
       "email": "info@uhvsoftwaresolutions.com",
       "thread_id": "1a124230796762d7",
       "message_id": "1a124230796762d7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T10:17:18.758312"
+      "timestamp": "2026-10-10T10:17:18.758312",
+      "followup_timestamp": "2026-10-12T09:58:41.295555"
     },
     {
       "urn": "urn:li:activity:7514418160817721353",
@@ -17125,9 +17129,10 @@
       "email": "somesh@jpstechsolutions.com",
       "thread_id": "1a12423115636f9e",
       "message_id": "1a12423115636f9e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T10:17:21.209529"
+      "timestamp": "2026-10-10T10:17:21.209529",
+      "followup_timestamp": "2026-10-12T09:58:43.760301"
     },
     {
       "urn": "urn:li:activity:7514417754637246464",
@@ -17135,9 +17140,10 @@
       "email": "somesh@jpstechsolutions.com",
       "thread_id": "1a124231ba9604db",
       "message_id": "1a124231ba9604db",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T10:17:23.588438"
+      "timestamp": "2026-10-10T10:17:23.588438",
+      "followup_timestamp": "2026-10-12T09:58:46.141303"
     },
     {
       "urn": "urn:li:activity:7514417492895760384",
@@ -17145,9 +17151,10 @@
       "email": "somesh@jpstechsolutions.com",
       "thread_id": "1a124232265d5437",
       "message_id": "1a124232265d5437",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T10:17:25.850405"
+      "timestamp": "2026-10-10T10:17:25.850405",
+      "followup_timestamp": "2026-10-12T09:58:48.619497"
     },
     {
       "urn": "urn:li:activity:7514407954004226048",
@@ -17155,9 +17162,10 @@
       "email": "ajmath@arkinfotechspectrum.com",
       "thread_id": "1a124232dbd5911a",
       "message_id": "1a124232dbd5911a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T10:17:28.156028"
+      "timestamp": "2026-10-10T10:17:28.156028",
+      "followup_timestamp": "2026-10-12T09:58:51.149149"
     },
     {
       "urn": "urn:li:activity:7514394588392914944",
@@ -17165,9 +17173,10 @@
       "email": "akansha@code-aspire.com",
       "thread_id": "1a12423359cb8a34",
       "message_id": "1a12423359cb8a34",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T10:17:30.513047"
+      "timestamp": "2026-10-10T10:17:30.513047",
+      "followup_timestamp": "2026-10-12T09:58:53.961766"
     },
     {
       "urn": "urn:li:activity:7514567502975229954",
@@ -17175,9 +17184,10 @@
       "email": "Ajay@vergilremnant.com",
       "thread_id": "1a12485213a27945",
       "message_id": "1a12485213a27945",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T12:04:27.729935"
+      "timestamp": "2026-10-10T12:04:27.729935",
+      "followup_timestamp": "2026-10-12T09:58:56.431024"
     },
     {
       "urn": "urn:li:activity:7514556395246092288",
@@ -17185,9 +17195,10 @@
       "email": "mamutha.d@people-prime.com",
       "thread_id": "1a125044a63bc3d5",
       "message_id": "1a125044a63bc3d5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T14:23:21.999648"
+      "timestamp": "2026-10-10T14:23:21.999648",
+      "followup_timestamp": "2026-10-12T09:58:58.898310"
     },
     {
       "urn": "urn:li:activity:7514433564650733569",
@@ -17195,9 +17206,10 @@
       "email": "Akanksha@mcubesoft.com",
       "thread_id": "1a1250460cb0fcfe",
       "message_id": "1a1250460cb0fcfe",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T14:23:27.436593"
+      "timestamp": "2026-10-10T14:23:27.436593",
+      "followup_timestamp": "2026-10-12T09:59:01.649352"
     },
     {
       "urn": "urn:li:activity:7514645872865988610",
@@ -17205,9 +17217,10 @@
       "email": "Uzairarslan16@gmail.com",
       "thread_id": "1a12612c1819f243",
       "message_id": "1a12612c1819f243",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T19:18:46.711300"
+      "timestamp": "2026-10-10T19:18:46.711300",
+      "followup_timestamp": "2026-10-12T09:59:04.326307"
     },
     {
       "urn": "urn:li:activity:7514570098666450944",
@@ -17215,9 +17228,10 @@
       "email": "r1@hiking-it.com",
       "thread_id": "1a12612d82f2f64a",
       "message_id": "1a12612d82f2f64a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-10T19:18:53.057741"
+      "timestamp": "2026-10-10T19:18:53.057741",
+      "followup_timestamp": "2026-10-12T09:59:06.651390"
     },
     {
       "urn": "urn:li:activity:7514761743387217920",
@@ -17258,6 +17272,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-11T14:45:41.180582"
+    },
+    {
+      "urn": "urn:li:activity:7515263413133164546",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515263413133164546",
+      "email": "r1@hiking-it.com",
+      "thread_id": "1a12e5e8ebef4b7e",
+      "message_id": "1a12e5e8ebef4b7e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-12T09:58:32.385902"
     }
   ]
 }
