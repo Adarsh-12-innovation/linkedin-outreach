@@ -1463,7 +1463,11 @@
     "urn:li:activity:7515663853704212480",
     "urn:li:activity:7515660484570812416",
     "urn:li:activity:7515643969264082944",
-    "urn:li:activity:7515633812631080960"
+    "urn:li:activity:7515633812631080960",
+    "urn:li:activity:7515667868408209408",
+    "urn:li:activity:7515663925020102656",
+    "urn:li:activity:7515662971486789632",
+    "urn:li:activity:7515660716645785600"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2301,7 +2305,8 @@
     "careers@savintechnologies.com",
     "mishita.narang@xsassociates.com",
     "nikitha.a@NEXTGENITLABS.COM, pallavi.m@NEXTGENITLABS.COM",
-    "keerti.d@ashudividend.com"
+    "keerti.d@ashudividend.com",
+    "divya.s@technology-next.com"
   ],
   "contacted_details": [
     {
@@ -17640,6 +17645,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-13T12:56:22.752301"
+    },
+    {
+      "urn": "urn:li:activity:7515667868408209408",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515667868408209408",
+      "email": "m.tasleem@ekloudservices.com",
+      "thread_id": "1a13479b495ef882",
+      "message_id": "1a13479b495ef882",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T14:25:54.599569"
+    },
+    {
+      "urn": "urn:li:activity:7515663925020102656",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515663925020102656",
+      "email": "sanjana.a@martinettechnologies.com",
+      "thread_id": "1a13479bf1031009",
+      "message_id": "1a13479bf1031009",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T14:25:57.312081"
+    },
+    {
+      "urn": "urn:li:activity:7515662971486789632",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515662971486789632",
+      "email": "mishita.narang@xsassociates.com",
+      "thread_id": "1a13479cb377539a",
+      "message_id": "1a13479cb377539a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T14:26:00.083142"
+    },
+    {
+      "urn": "urn:li:activity:7515660716645785600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515660716645785600",
+      "email": "divya.s@technology-next.com",
+      "thread_id": "1a13479db2dfeea7",
+      "message_id": "1a13479db2dfeea7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T14:26:04.400653"
     }
   ]
 }
