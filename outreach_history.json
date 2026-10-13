@@ -1457,7 +1457,13 @@
     "urn:li:activity:7515520706567254016",
     "urn:li:activity:7515518243621564416",
     "urn:li:activity:7515653783616430080",
-    "urn:li:activity:7515637651153166337"
+    "urn:li:activity:7515637651153166337",
+    "urn:li:activity:7515666773376176130",
+    "urn:li:activity:7515666793491988480",
+    "urn:li:activity:7515663853704212480",
+    "urn:li:activity:7515660484570812416",
+    "urn:li:activity:7515643969264082944",
+    "urn:li:activity:7515633812631080960"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2291,7 +2297,11 @@
     " bhuvana@prorsum-tech.com",
     "patil.shivani@orcapod.work",
     "shubham.kumar@tekishub.com",
-    "jobs@openturf.in"
+    "jobs@openturf.in",
+    "careers@savintechnologies.com",
+    "mishita.narang@xsassociates.com",
+    "nikitha.a@NEXTGENITLABS.COM, pallavi.m@NEXTGENITLABS.COM",
+    "keerti.d@ashudividend.com"
   ],
   "contacted_details": [
     {
@@ -17570,6 +17580,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-13T11:45:53.753731"
+    },
+    {
+      "urn": "urn:li:activity:7515666773376176130",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515666773376176130",
+      "email": "careers@savintechnologies.com",
+      "thread_id": "1a134277a8d8d32b",
+      "message_id": "1a134277a8d8d32b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T12:56:05.890453"
+    },
+    {
+      "urn": "urn:li:activity:7515666793491988480",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515666793491988480",
+      "email": "mohit.gupta@rayosys.com",
+      "thread_id": "1a13427868b05e84",
+      "message_id": "1a13427868b05e84",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T12:56:08.494920"
+    },
+    {
+      "urn": "urn:li:activity:7515663853704212480",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515663853704212480",
+      "email": "mishita.narang@xsassociates.com",
+      "thread_id": "1a1342798dda73fb",
+      "message_id": "1a1342798dda73fb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T12:56:13.072896"
+    },
+    {
+      "urn": "urn:li:activity:7515660484570812416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515660484570812416",
+      "email": "nikitha.a@NEXTGENITLABS.COM, pallavi.m@NEXTGENITLABS.COM",
+      "thread_id": "1a13427a0bfc624d",
+      "message_id": "1a13427a0bfc624d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T12:56:15.388620"
+    },
+    {
+      "urn": "urn:li:activity:7515643969264082944",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515643969264082944",
+      "email": "uday@cygnuspro.com",
+      "thread_id": "1a13427aa35d97f0",
+      "message_id": "1a13427aa35d97f0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T12:56:17.866183"
+    },
+    {
+      "urn": "urn:li:activity:7515633812631080960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515633812631080960",
+      "email": "keerti.d@ashudividend.com",
+      "thread_id": "1a13427bf6cad7a4",
+      "message_id": "1a13427bf6cad7a4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T12:56:22.752301"
     }
   ]
 }
