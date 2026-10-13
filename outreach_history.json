@@ -1455,7 +1455,9 @@
     "urn:li:activity:7515377424042450944",
     "urn:li:activity:7515360751876804609",
     "urn:li:activity:7515520706567254016",
-    "urn:li:activity:7515518243621564416"
+    "urn:li:activity:7515518243621564416",
+    "urn:li:activity:7515653783616430080",
+    "urn:li:activity:7515637651153166337"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2288,7 +2290,8 @@
     "durga.malleswara@rapinnotech.de",
     " bhuvana@prorsum-tech.com",
     "patil.shivani@orcapod.work",
-    "shubham.kumar@tekishub.com"
+    "shubham.kumar@tekishub.com",
+    "jobs@openturf.in"
   ],
   "contacted_details": [
     {
@@ -17547,6 +17550,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-13T10:09:16.063270"
+    },
+    {
+      "urn": "urn:li:activity:7515653783616430080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515653783616430080",
+      "email": "jobs@openturf.in",
+      "thread_id": "1a133e72b19c30c4",
+      "message_id": "1a133e72b19c30c4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T11:45:50.781708"
+    },
+    {
+      "urn": "urn:li:activity:7515637651153166337",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515637651153166337",
+      "email": "divya@humanectere.com",
+      "thread_id": "1a133e73781b3513",
+      "message_id": "1a133e73781b3513",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-13T11:45:53.753731"
     }
   ]
 }
