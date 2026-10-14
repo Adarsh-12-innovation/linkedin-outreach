@@ -1477,7 +1477,12 @@
     "urn:li:activity:7515759077659123713",
     "urn:li:activity:7515999592476446721",
     "urn:li:activity:7515996460119814144",
-    "urn:li:activity:7515983380128137216"
+    "urn:li:activity:7515983380128137216",
+    "urn:li:activity:7516013044444061696",
+    "urn:li:activity:7516008391933255681",
+    "urn:li:activity:7516007440367157248",
+    "urn:li:activity:7516000766583803904",
+    "urn:li:activity:7515975166116540416"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2325,7 +2330,12 @@
     "sonika@planetdevelopers.com",
     "tien.nguyen@inapps.net",
     "sagarramoliya93@gmail.com",
-    "arjunsinghnegixxx78@gmail.com"
+    "arjunsinghnegixxx78@gmail.com",
+    "nehasisodiya@orbioninfotech.com",
+    "lipika.gogia@appzime.com",
+    "praveen.v@people-prime.com",
+    "talent@brightaxis.ai",
+    "loura.clarissa@elitez.asia"
   ],
   "contacted_details": [
     {
@@ -17823,6 +17833,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-14T10:58:35.307447"
+    },
+    {
+      "urn": "urn:li:activity:7516013044444061696",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7516013044444061696",
+      "email": "nehasisodiya@orbioninfotech.com",
+      "thread_id": "1a1394056728ef18",
+      "message_id": "1a1394056728ef18",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-14T12:41:19.731119"
+    },
+    {
+      "urn": "urn:li:activity:7516008391933255681",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7516008391933255681",
+      "email": "lipika.gogia@appzime.com",
+      "thread_id": "1a1394060f5678b2",
+      "message_id": "1a1394060f5678b2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-14T12:41:22.281913"
+    },
+    {
+      "urn": "urn:li:activity:7516007440367157248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7516007440367157248",
+      "email": "praveen.v@people-prime.com",
+      "thread_id": "1a139406c8368581",
+      "message_id": "1a139406c8368581",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-14T12:41:25.160543"
+    },
+    {
+      "urn": "urn:li:activity:7516000766583803904",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7516000766583803904",
+      "email": "talent@brightaxis.ai",
+      "thread_id": "1a1394075a0e3dea",
+      "message_id": "1a1394075a0e3dea",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-14T12:41:27.450554"
+    },
+    {
+      "urn": "urn:li:activity:7515975166116540416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7515975166116540416",
+      "email": "loura.clarissa@elitez.asia",
+      "thread_id": "1a139407df9121b4",
+      "message_id": "1a139407df9121b4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-14T12:41:29.683726"
     }
   ]
 }
