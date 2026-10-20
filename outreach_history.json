@@ -1486,7 +1486,8 @@
     "urn:li:activity:7512759024392679425",
     "urn:li:activity:7518197896853524480",
     "urn:li:activity:7514031872167890944",
-    "urn:li:activity:7516055934167678976"
+    "urn:li:activity:7516055934167678976",
+    "urn:li:activity:7518252165413404672"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2342,7 +2343,8 @@
     "loura.clarissa@elitez.asia",
     "saurav@zerogrunt.ai",
     "smantri.iitr@gmail.com",
-    "Jayveer.nanda@gartner.com"
+    "Jayveer.nanda@gartner.com",
+    "swati.singh@onzestt.com"
   ],
   "contacted_details": [
     {
@@ -17953,6 +17955,16 @@
       "message_id": "1a158c4628304959",
       "followed_up": false,
       "timestamp": "2026-10-20T10:03:47.830803"
+    },
+    {
+      "urn": "urn:li:activity:7518252165413404672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518252165413404672",
+      "email": "swati.singh@onzestt.com",
+      "thread_id": "1a158d1604c9bc6c",
+      "message_id": "1a158d1604c9bc6c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-20T15:48:00.046461"
     }
   ]
 }
