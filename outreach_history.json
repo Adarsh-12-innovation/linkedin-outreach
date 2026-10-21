@@ -1488,7 +1488,10 @@
     "urn:li:activity:7514031872167890944",
     "urn:li:activity:7516055934167678976",
     "urn:li:activity:7518252165413404672",
-    "urn:li:activity:7518252846211977216"
+    "urn:li:activity:7518252846211977216",
+    "urn:li:activity:7518535172745666560",
+    "urn:li:activity:7518512666324140032",
+    "urn:li:activity:7518430952336080896"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2345,7 +2348,10 @@
     "saurav@zerogrunt.ai",
     "smantri.iitr@gmail.com",
     "Jayveer.nanda@gartner.com",
-    "swati.singh@onzestt.com"
+    "swati.singh@onzestt.com",
+    "prashasti.s@staffise.com",
+    "dolonr718@gmail.com",
+    "anirudh.j@e-solutionsinc.com"
   ],
   "contacted_details": [
     {
@@ -17976,6 +17982,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-20T18:28:46.487128"
+    },
+    {
+      "urn": "urn:li:activity:7518535172745666560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518535172745666560",
+      "email": "prashasti.s@staffise.com",
+      "thread_id": "1a15cec9d11a3d47",
+      "message_id": "1a15cec9d11a3d47",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T10:56:15.091675"
+    },
+    {
+      "urn": "urn:li:activity:7518512666324140032",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518512666324140032",
+      "email": "dolonr718@gmail.com",
+      "thread_id": "1a15cecb1bf273fd",
+      "message_id": "1a15cecb1bf273fd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T10:56:20.333176"
+    },
+    {
+      "urn": "urn:li:activity:7518430952336080896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518430952336080896",
+      "email": "anirudh.j@e-solutionsinc.com",
+      "thread_id": "1a15cecc52bffa68",
+      "message_id": "1a15cecc52bffa68",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T10:56:25.409363"
     }
   ]
 }
