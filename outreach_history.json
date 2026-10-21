@@ -1499,7 +1499,14 @@
     "urn:li:activity:7518546675242569729",
     "urn:li:activity:7518544135528873984",
     "urn:li:activity:7518529423504265216",
-    "urn:li:activity:7518427102593933312"
+    "urn:li:activity:7518427102593933312",
+    "urn:li:activity:7518596662123085824",
+    "urn:li:activity:7518592854772830208",
+    "urn:li:activity:7518585042193903616",
+    "urn:li:activity:7518571768580710400",
+    "urn:li:activity:7518570835977330688",
+    "urn:li:activity:7518570587624161280",
+    "urn:li:activity:7518545623772499968"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2364,7 +2371,11 @@
     "komal@theargusconsulting.com",
     "bonala.lohitha@costaffglobal.com",
     "statnexa.tech@gmail.com",
-    "gaurav@pddninc.net"
+    "gaurav@pddninc.net",
+    "oo71097145198@gmail.com",
+    "silvana.oprea@techtalent.ro",
+    "Krishna.Chaitanya@Excelgens.com",
+    "riya@ihrsindia.co.in"
   ],
   "contacted_details": [
     {
@@ -18105,6 +18116,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-21T12:17:19.918151"
+    },
+    {
+      "urn": "urn:li:activity:7518596662123085824",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518596662123085824",
+      "email": "neha.patil@hiristan.com",
+      "thread_id": "1a15dbd8691a5a1e",
+      "message_id": "1a15dbd8691a5a1e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T14:44:26.870420"
+    },
+    {
+      "urn": "urn:li:activity:7518592854772830208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518592854772830208",
+      "email": "oo71097145198@gmail.com",
+      "thread_id": "1a15dbd92d586ae8",
+      "message_id": "1a15dbd92d586ae8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T14:44:29.847944"
+    },
+    {
+      "urn": "urn:li:activity:7518585042193903616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518585042193903616",
+      "email": "info@bcloudglobalservices.com",
+      "thread_id": "1a15dbd9cd65c6f3",
+      "message_id": "1a15dbd9cd65c6f3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T14:44:32.567165"
+    },
+    {
+      "urn": "urn:li:activity:7518571768580710400",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518571768580710400",
+      "email": "sapna@dynamicsmonk.com",
+      "thread_id": "1a15dbdb0de12866",
+      "message_id": "1a15dbdb0de12866",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T14:44:37.649890"
+    },
+    {
+      "urn": "urn:li:activity:7518570835977330688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518570835977330688",
+      "email": "silvana.oprea@techtalent.ro",
+      "thread_id": "1a15dbdbc9674a98",
+      "message_id": "1a15dbdbc9674a98",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T14:44:40.746508"
+    },
+    {
+      "urn": "urn:li:activity:7518570587624161280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518570587624161280",
+      "email": "Krishna.Chaitanya@Excelgens.com",
+      "thread_id": "1a15dbdc98a1bd2f",
+      "message_id": "1a15dbdc98a1bd2f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T14:44:43.791947"
+    },
+    {
+      "urn": "urn:li:activity:7518545623772499968",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518545623772499968",
+      "email": "riya@ihrsindia.co.in",
+      "thread_id": "1a15dbdd211f2cc1",
+      "message_id": "1a15dbdd211f2cc1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T14:44:46.130228"
     }
   ]
 }
