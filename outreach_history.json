@@ -1506,7 +1506,10 @@
     "urn:li:activity:7518571768580710400",
     "urn:li:activity:7518570835977330688",
     "urn:li:activity:7518570587624161280",
-    "urn:li:activity:7518545623772499968"
+    "urn:li:activity:7518545623772499968",
+    "urn:li:activity:7518597922763247618",
+    "urn:li:activity:7518597763136122880",
+    "urn:li:activity:7518597471355244545"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -17957,7 +17960,7 @@
       "email": "hasini.rageesh@vitimcloud.com",
       "thread_id": "1a158c44d116be86",
       "message_id": "1a158c44d116be86",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-10-20T10:03:42.240806"
     },
     {
@@ -17966,8 +17969,9 @@
       "email": "saurav@zerogrunt.ai",
       "thread_id": "1a158c453c905bc2",
       "message_id": "1a158c453c905bc2",
-      "followed_up": false,
-      "timestamp": "2026-10-20T10:03:44.137140"
+      "followed_up": true,
+      "timestamp": "2026-10-20T10:03:44.137140",
+      "followup_timestamp": "2026-10-21T17:20:12.958274"
     },
     {
       "urn": "urn:li:activity:7514031872167890944",
@@ -17975,7 +17979,7 @@
       "email": "smantri.iitr@gmail.com",
       "thread_id": "1a158c45a9a7055a",
       "message_id": "1a158c45a9a7055a",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-10-20T10:03:45.985348"
     },
     {
@@ -17984,8 +17988,9 @@
       "email": "Jayveer.nanda@gartner.com",
       "thread_id": "1a158c4628304959",
       "message_id": "1a158c4628304959",
-      "followed_up": false,
-      "timestamp": "2026-10-20T10:03:47.830803"
+      "followed_up": true,
+      "timestamp": "2026-10-20T10:03:47.830803",
+      "followup_timestamp": "2026-10-21T17:20:15.514008"
     },
     {
       "urn": "urn:li:activity:7518252165413404672",
@@ -18186,6 +18191,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-21T14:44:46.130228"
+    },
+    {
+      "urn": "urn:li:activity:7518597922763247618",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518597922763247618",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "1a15e4bf986802a5",
+      "message_id": "1a15e4bf986802a5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T17:20:00.024925"
+    },
+    {
+      "urn": "urn:li:activity:7518597763136122880",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518597763136122880",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "1a15e4c0e3c646fb",
+      "message_id": "1a15e4c0e3c646fb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T17:20:05.700640"
+    },
+    {
+      "urn": "urn:li:activity:7518597471355244545",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518597471355244545",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "1a15e4c20f7b6c0b",
+      "message_id": "1a15e4c20f7b6c0b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T17:20:10.321279"
     }
   ]
 }
