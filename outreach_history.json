@@ -1491,7 +1491,15 @@
     "urn:li:activity:7518252846211977216",
     "urn:li:activity:7518535172745666560",
     "urn:li:activity:7518512666324140032",
-    "urn:li:activity:7518430952336080896"
+    "urn:li:activity:7518430952336080896",
+    "urn:li:activity:7518556124078366720",
+    "urn:li:activity:7518554011935858688",
+    "urn:li:activity:7518552482889945089",
+    "urn:li:activity:7518548483180498944",
+    "urn:li:activity:7518546675242569729",
+    "urn:li:activity:7518544135528873984",
+    "urn:li:activity:7518529423504265216",
+    "urn:li:activity:7518427102593933312"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2351,7 +2359,12 @@
     "swati.singh@onzestt.com",
     "prashasti.s@staffise.com",
     "dolonr718@gmail.com",
-    "anirudh.j@e-solutionsinc.com"
+    "anirudh.j@e-solutionsinc.com",
+    "sarvankumar@itbmsinc.com",
+    "komal@theargusconsulting.com",
+    "bonala.lohitha@costaffglobal.com",
+    "statnexa.tech@gmail.com",
+    "gaurav@pddninc.net"
   ],
   "contacted_details": [
     {
@@ -18012,6 +18025,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-21T10:56:25.409363"
+    },
+    {
+      "urn": "urn:li:activity:7518556124078366720",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518556124078366720",
+      "email": "career@refercircle.in",
+      "thread_id": "1a15d367e0a83aa3",
+      "message_id": "1a15d367e0a83aa3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T12:16:57.265735"
+    },
+    {
+      "urn": "urn:li:activity:7518554011935858688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518554011935858688",
+      "email": "manasa@cygnuspro.com",
+      "thread_id": "1a15d3686269a804",
+      "message_id": "1a15d3686269a804",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T12:16:59.340123"
+    },
+    {
+      "urn": "urn:li:activity:7518552482889945089",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518552482889945089",
+      "email": "sarvankumar@itbmsinc.com",
+      "thread_id": "1a15d3693f6bf733",
+      "message_id": "1a15d3693f6bf733",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T12:17:02.580202"
+    },
+    {
+      "urn": "urn:li:activity:7518548483180498944",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518548483180498944",
+      "email": "komal@theargusconsulting.com",
+      "thread_id": "1a15d36a126565b9",
+      "message_id": "1a15d36a126565b9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T12:17:05.898895"
+    },
+    {
+      "urn": "urn:li:activity:7518546675242569729",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518546675242569729",
+      "email": "samg@taffinc.com",
+      "thread_id": "1a15d36a802a5aae",
+      "message_id": "1a15d36a802a5aae",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T12:17:08.208596"
+    },
+    {
+      "urn": "urn:li:activity:7518544135528873984",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518544135528873984",
+      "email": "bonala.lohitha@costaffglobal.com",
+      "thread_id": "1a15d36b4ecf7629",
+      "message_id": "1a15d36b4ecf7629",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T12:17:11.156432"
+    },
+    {
+      "urn": "urn:li:activity:7518529423504265216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518529423504265216",
+      "email": "statnexa.tech@gmail.com",
+      "thread_id": "1a15d36cbaa47098",
+      "message_id": "1a15d36cbaa47098",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T12:17:16.568864"
+    },
+    {
+      "urn": "urn:li:activity:7518427102593933312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518427102593933312",
+      "email": "gaurav@pddninc.net",
+      "thread_id": "1a15d36d73a76e2d",
+      "message_id": "1a15d36d73a76e2d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-21T12:17:19.918151"
     }
   ]
 }
