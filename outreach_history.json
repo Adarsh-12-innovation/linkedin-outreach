@@ -1517,7 +1517,16 @@
     "urn:li:activity:7518928628231933953",
     "urn:li:activity:7518926675607302145",
     "urn:li:activity:7518916931681345537",
-    "urn:li:activity:7518903406170689536"
+    "urn:li:activity:7518903406170689536",
+    "urn:li:activity:7518975946570301440",
+    "urn:li:activity:7518965804139319297",
+    "urn:li:activity:7518961603656974336",
+    "urn:li:activity:7518960300327333888",
+    "urn:li:activity:7518958861647671296",
+    "urn:li:activity:7518955161311133696",
+    "urn:li:activity:7518948020873416704",
+    "urn:li:activity:7518938055005671425",
+    "urn:li:activity:7518931434196221952"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2393,7 +2402,13 @@
     "talentglobalacquisition@gmail.com",
     "swetha@cygnuspro.com",
     "connect@infosprucetech.com",
-    "apply-rsharma1@forcecraver.com"
+    "apply-rsharma1@forcecraver.com",
+    "ahmad.ridho@nityo.com",
+    "shania.salsabila@nityo.com",
+    "m.akhlaq@recruitingers.com",
+    "hr@ggstinnovations.com",
+    "ektabatra@itoneclick.com",
+    "careers@oci-threads.com"
   ],
   "contacted_details": [
     {
@@ -18318,6 +18333,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-22T13:43:53.043384"
+    },
+    {
+      "urn": "urn:li:activity:7518975946570301440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518975946570301440",
+      "email": "ahmad.ridho@nityo.com",
+      "thread_id": "1a1631f7f444c5da",
+      "message_id": "1a1631f7f444c5da",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T15:49:30.794091"
+    },
+    {
+      "urn": "urn:li:activity:7518965804139319297",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518965804139319297",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1631f8b17ab43c",
+      "message_id": "1a1631f8b17ab43c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T15:49:34.011236"
+    },
+    {
+      "urn": "urn:li:activity:7518961603656974336",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518961603656974336",
+      "email": "shania.salsabila@nityo.com",
+      "thread_id": "1a1631f9961736e0",
+      "message_id": "1a1631f9961736e0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T15:49:38.183766"
+    },
+    {
+      "urn": "urn:li:activity:7518960300327333888",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518960300327333888",
+      "email": "m.akhlaq@recruitingers.com",
+      "thread_id": "1a1631fa7c7820e7",
+      "message_id": "1a1631fa7c7820e7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T15:49:41.278861"
+    },
+    {
+      "urn": "urn:li:activity:7518958861647671296",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518958861647671296",
+      "email": "hr@ggstinnovations.com",
+      "thread_id": "1a1631fae8f289f8",
+      "message_id": "1a1631fae8f289f8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T15:49:43.379870"
+    },
+    {
+      "urn": "urn:li:activity:7518955161311133696",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518955161311133696",
+      "email": "m.akhlaq@recruitingers.com",
+      "thread_id": "1a1631fbbca15556",
+      "message_id": "1a1631fbbca15556",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T15:49:46.484640"
+    },
+    {
+      "urn": "urn:li:activity:7518948020873416704",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518948020873416704",
+      "email": "ektabatra@itoneclick.com",
+      "thread_id": "1a1631fc4a936dbc",
+      "message_id": "1a1631fc4a936dbc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T15:49:48.830845"
+    },
+    {
+      "urn": "urn:li:activity:7518938055005671425",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518938055005671425",
+      "email": "careers@oci-threads.com",
+      "thread_id": "1a1631fd0d185c8c",
+      "message_id": "1a1631fd0d185c8c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T15:49:51.983422"
+    },
+    {
+      "urn": "urn:li:activity:7518931434196221952",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518931434196221952",
+      "email": "careers@oci-threads.com",
+      "thread_id": "1a1631fddf3d20da",
+      "message_id": "1a1631fddf3d20da",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T15:49:55.068531"
     }
   ]
 }
