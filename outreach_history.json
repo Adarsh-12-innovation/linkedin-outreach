@@ -1509,7 +1509,9 @@
     "urn:li:activity:7518545623772499968",
     "urn:li:activity:7518597922763247618",
     "urn:li:activity:7518597763136122880",
-    "urn:li:activity:7518597471355244545"
+    "urn:li:activity:7518597471355244545",
+    "urn:li:activity:7518802710591078400",
+    "urn:li:activity:7518789083645509633"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2378,7 +2380,9 @@
     "oo71097145198@gmail.com",
     "silvana.oprea@techtalent.ro",
     "Krishna.Chaitanya@Excelgens.com",
-    "riya@ihrsindia.co.in"
+    "riya@ihrsindia.co.in",
+    "jobs@headsbaseconsulting.com",
+    "info@connecttechtalent.com"
   ],
   "contacted_details": [
     {
@@ -17998,9 +18002,10 @@
       "email": "swati.singh@onzestt.com",
       "thread_id": "1a158d1604c9bc6c",
       "message_id": "1a158d1604c9bc6c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-20T15:48:00.046461"
+      "timestamp": "2026-10-20T15:48:00.046461",
+      "followup_timestamp": "2026-10-22T10:24:53.021304"
     },
     {
       "urn": "urn:li:activity:7518252846211977216",
@@ -18008,9 +18013,10 @@
       "email": "samg@taffinc.com",
       "thread_id": "1a159649253c90d9",
       "message_id": "1a159649253c90d9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-20T18:28:46.487128"
+      "timestamp": "2026-10-20T18:28:46.487128",
+      "followup_timestamp": "2026-10-22T10:24:55.239936"
     },
     {
       "urn": "urn:li:activity:7518535172745666560",
@@ -18221,6 +18227,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-21T17:20:10.321279"
+    },
+    {
+      "urn": "urn:li:activity:7518802710591078400",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518802710591078400",
+      "email": "jobs@headsbaseconsulting.com",
+      "thread_id": "1a161f63576cd489",
+      "message_id": "1a161f63576cd489",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T10:24:48.084758"
+    },
+    {
+      "urn": "urn:li:activity:7518789083645509633",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518789083645509633",
+      "email": "info@connecttechtalent.com",
+      "thread_id": "1a161f63e3919631",
+      "message_id": "1a161f63e3919631",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T10:24:50.710207"
     }
   ]
 }
