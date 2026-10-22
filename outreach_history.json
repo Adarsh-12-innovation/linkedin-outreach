@@ -1511,7 +1511,13 @@
     "urn:li:activity:7518597763136122880",
     "urn:li:activity:7518597471355244545",
     "urn:li:activity:7518802710591078400",
-    "urn:li:activity:7518789083645509633"
+    "urn:li:activity:7518789083645509633",
+    "urn:li:activity:7518939995219574785",
+    "urn:li:activity:7518931927412830208",
+    "urn:li:activity:7518928628231933953",
+    "urn:li:activity:7518926675607302145",
+    "urn:li:activity:7518916931681345537",
+    "urn:li:activity:7518903406170689536"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2382,7 +2388,12 @@
     "Krishna.Chaitanya@Excelgens.com",
     "riya@ihrsindia.co.in",
     "jobs@headsbaseconsulting.com",
-    "info@connecttechtalent.com"
+    "info@connecttechtalent.com",
+    "nvroy@prointegrate.net",
+    "talentglobalacquisition@gmail.com",
+    "swetha@cygnuspro.com",
+    "connect@infosprucetech.com",
+    "apply-rsharma1@forcecraver.com"
   ],
   "contacted_details": [
     {
@@ -18247,6 +18258,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-22T10:24:50.710207"
+    },
+    {
+      "urn": "urn:li:activity:7518939995219574785",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518939995219574785",
+      "email": "nvroy@prointegrate.net",
+      "thread_id": "1a162ac4b6f37fbf",
+      "message_id": "1a162ac4b6f37fbf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T13:43:40.753150"
+    },
+    {
+      "urn": "urn:li:activity:7518931927412830208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518931927412830208",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a162ac55cac93be",
+      "message_id": "1a162ac55cac93be",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T13:43:43.467379"
+    },
+    {
+      "urn": "urn:li:activity:7518928628231933953",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518928628231933953",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a162ac613a849fc",
+      "message_id": "1a162ac613a849fc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T13:43:46.224994"
+    },
+    {
+      "urn": "urn:li:activity:7518926675607302145",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518926675607302145",
+      "email": "swetha@cygnuspro.com",
+      "thread_id": "1a162ac697eaf122",
+      "message_id": "1a162ac697eaf122",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T13:43:48.302204"
+    },
+    {
+      "urn": "urn:li:activity:7518916931681345537",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518916931681345537",
+      "email": "connect@infosprucetech.com",
+      "thread_id": "1a162ac73ef75496",
+      "message_id": "1a162ac73ef75496",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T13:43:50.937108"
+    },
+    {
+      "urn": "urn:li:activity:7518903406170689536",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518903406170689536",
+      "email": "apply-rsharma1@forcecraver.com",
+      "thread_id": "1a162ac7ab28df6e",
+      "message_id": "1a162ac7ab28df6e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-22T13:43:53.043384"
     }
   ]
 }
