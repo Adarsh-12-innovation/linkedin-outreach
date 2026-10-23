@@ -1564,7 +1564,9 @@
     "urn:li:activity:7519331770215985152",
     "urn:li:activity:7519329940111056896",
     "urn:li:activity:7519330047380312064",
-    "urn:li:activity:7519327390095937536"
+    "urn:li:activity:7519327390095937536",
+    "urn:li:activity:7519364649495195648",
+    "urn:li:activity:7519363032259551233"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2470,7 +2472,8 @@
     "recruitment@talos-technologies.com",
     "sales.infinitycrest@gmail.com",
     "talentscout529@gmail.com",
-    "Deeksha.Pillala@Excelgens.com"
+    "Deeksha.Pillala@Excelgens.com",
+    "Vibha@uplers.com"
   ],
   "contacted_details": [
     {
@@ -18888,6 +18891,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-23T17:12:25.382493"
+    },
+    {
+      "urn": "urn:li:activity:7519364649495195648",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519364649495195648",
+      "email": "info@thehrworldsolutions.in",
+      "thread_id": "1a168d90a2d609cf",
+      "message_id": "1a168d90a2d609cf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T18:30:17.635407"
+    },
+    {
+      "urn": "urn:li:activity:7519363032259551233",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519363032259551233",
+      "email": "Vibha@uplers.com",
+      "thread_id": "1a168d91a470a0e6",
+      "message_id": "1a168d91a470a0e6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T18:30:22.178770"
     }
   ]
 }
