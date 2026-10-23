@@ -1545,7 +1545,15 @@
     "urn:li:activity:7519027686405464064",
     "urn:li:activity:7519243228462899201",
     "urn:li:activity:7519233441628856320",
-    "urn:li:activity:7519144214702735360"
+    "urn:li:activity:7519144214702735360",
+    "urn:li:activity:7519275680644222976",
+    "urn:li:activity:7519268961889234944",
+    "urn:li:activity:7519266409353334784",
+    "urn:li:activity:7519264703475261440",
+    "urn:li:activity:7519264531949191168",
+    "urn:li:activity:7519263786751565825",
+    "urn:li:activity:7519263918763012096",
+    "urn:li:activity:7519263319891812352"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2440,7 +2448,11 @@
     "badvel.anusha@csm.tech",
     "ithiringspecialist@gmail.com",
     "Sourcing@signitycs.com",
-    "krips.talentlink@gmail.com"
+    "krips.talentlink@gmail.com",
+    "official@astravinx.com",
+    "archana.b@ashudividend.com",
+    "bsctechs369@gmail.com",
+    "Hr@daengroup.com"
   ],
   "contacted_details": [
     {
@@ -18666,6 +18678,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-23T10:32:17.777199"
+    },
+    {
+      "urn": "urn:li:activity:7519275680644222976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519275680644222976",
+      "email": "official@astravinx.com",
+      "thread_id": "1a167600c9d98a37",
+      "message_id": "1a167600c9d98a37",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T11:38:31.254668"
+    },
+    {
+      "urn": "urn:li:activity:7519268961889234944",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519268961889234944",
+      "email": "kanchan.manral@infojiniconsulting.com",
+      "thread_id": "1a167601d137ce11",
+      "message_id": "1a167601d137ce11",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T11:38:34.978239"
+    },
+    {
+      "urn": "urn:li:activity:7519266409353334784",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519266409353334784",
+      "email": "keerti.d@ashudividend.com",
+      "thread_id": "1a167603f708c97d",
+      "message_id": "1a167603f708c97d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T11:38:43.920270"
+    },
+    {
+      "urn": "urn:li:activity:7519264703475261440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519264703475261440",
+      "email": "archana.b@ashudividend.com",
+      "thread_id": "1a16760618e98e1b",
+      "message_id": "1a16760618e98e1b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T11:38:52.601808"
+    },
+    {
+      "urn": "urn:li:activity:7519264531949191168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519264531949191168",
+      "email": "apply-rsharma@forcecraver.com",
+      "thread_id": "1a16760813861504",
+      "message_id": "1a16760813861504",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T11:39:00.910909"
+    },
+    {
+      "urn": "urn:li:activity:7519263786751565825",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519263786751565825",
+      "email": "bsctechs369@gmail.com",
+      "thread_id": "1a16760b517a533a",
+      "message_id": "1a16760b517a533a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T11:39:14.062840"
+    },
+    {
+      "urn": "urn:li:activity:7519263918763012096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519263918763012096",
+      "email": "hr@ggstinnovations.com",
+      "thread_id": "1a16760bcf2edd11",
+      "message_id": "1a16760bcf2edd11",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T11:39:16.138538"
+    },
+    {
+      "urn": "urn:li:activity:7519263319891812352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519263319891812352",
+      "email": "Hr@daengroup.com",
+      "thread_id": "1a16760c5c0d7ae7",
+      "message_id": "1a16760c5c0d7ae7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T11:39:18.218006"
     }
   ]
 }
