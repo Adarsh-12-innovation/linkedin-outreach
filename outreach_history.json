@@ -1542,7 +1542,10 @@
     "urn:li:activity:7519034151988006912",
     "urn:li:activity:7519030428465487872",
     "urn:li:activity:7519028242696249345",
-    "urn:li:activity:7519027686405464064"
+    "urn:li:activity:7519027686405464064",
+    "urn:li:activity:7519243228462899201",
+    "urn:li:activity:7519233441628856320",
+    "urn:li:activity:7519144214702735360"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2435,7 +2438,9 @@
     "hari.om@recruiter.nlbtech.com",
     "pkanowa@vyzeinc.com",
     "badvel.anusha@csm.tech",
-    "ithiringspecialist@gmail.com"
+    "ithiringspecialist@gmail.com",
+    "Sourcing@signitycs.com",
+    "krips.talentlink@gmail.com"
   ],
   "contacted_details": [
     {
@@ -18275,9 +18280,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "1a15e4bf986802a5",
       "message_id": "1a15e4bf986802a5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-21T17:20:00.024925"
+      "timestamp": "2026-10-21T17:20:00.024925",
+      "followup_timestamp": "2026-10-23T10:32:20.052479"
     },
     {
       "urn": "urn:li:activity:7518597763136122880",
@@ -18285,9 +18291,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "1a15e4c0e3c646fb",
       "message_id": "1a15e4c0e3c646fb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-21T17:20:05.700640"
+      "timestamp": "2026-10-21T17:20:05.700640",
+      "followup_timestamp": "2026-10-23T10:32:22.239838"
     },
     {
       "urn": "urn:li:activity:7518597471355244545",
@@ -18295,9 +18302,10 @@
       "email": "Khalil@weradioactive.com",
       "thread_id": "1a15e4c20f7b6c0b",
       "message_id": "1a15e4c20f7b6c0b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-21T17:20:10.321279"
+      "timestamp": "2026-10-21T17:20:10.321279",
+      "followup_timestamp": "2026-10-23T10:32:24.474189"
     },
     {
       "urn": "urn:li:activity:7518802710591078400",
@@ -18628,6 +18636,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-22T20:15:34.452556"
+    },
+    {
+      "urn": "urn:li:activity:7519243228462899201",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519243228462899201",
+      "email": "haifa.usman@nityo.com",
+      "thread_id": "1a1672358f4994c3",
+      "message_id": "1a1672358f4994c3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T10:32:12.623877"
+    },
+    {
+      "urn": "urn:li:activity:7519233441628856320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519233441628856320",
+      "email": "Sourcing@signitycs.com",
+      "thread_id": "1a167236122e620d",
+      "message_id": "1a167236122e620d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T10:32:14.723781"
+    },
+    {
+      "urn": "urn:li:activity:7519144214702735360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519144214702735360",
+      "email": "krips.talentlink@gmail.com",
+      "thread_id": "1a167236ddbaed6d",
+      "message_id": "1a167236ddbaed6d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T10:32:17.777199"
     }
   ]
 }
