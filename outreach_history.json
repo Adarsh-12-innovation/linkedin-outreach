@@ -1553,7 +1553,10 @@
     "urn:li:activity:7519264531949191168",
     "urn:li:activity:7519263786751565825",
     "urn:li:activity:7519263918763012096",
-    "urn:li:activity:7519263319891812352"
+    "urn:li:activity:7519263319891812352",
+    "urn:li:activity:7519319544071655424",
+    "urn:li:activity:7519294962153263105",
+    "urn:li:activity:7519265964383756288"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2452,7 +2455,9 @@
     "official@astravinx.com",
     "archana.b@ashudividend.com",
     "bsctechs369@gmail.com",
-    "Hr@daengroup.com"
+    "Hr@daengroup.com",
+    "info@thehrworldsolutions.in",
+    "Sirishad@ca-one.com"
   ],
   "contacted_details": [
     {
@@ -18758,6 +18763,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-23T11:39:18.218006"
+    },
+    {
+      "urn": "urn:li:activity:7519319544071655424",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519319544071655424",
+      "email": "info@thehrworldsolutions.in",
+      "thread_id": "1a168121e4c5406a",
+      "message_id": "1a168121e4c5406a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T14:53:01.840747"
+    },
+    {
+      "urn": "urn:li:activity:7519294962153263105",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519294962153263105",
+      "email": "Sirishad@ca-one.com",
+      "thread_id": "1a16812336a1737b",
+      "message_id": "1a16812336a1737b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T14:53:06.479148"
+    },
+    {
+      "urn": "urn:li:activity:7519265964383756288",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519265964383756288",
+      "email": "krips.talentlink@gmail.com",
+      "thread_id": "1a168123e0fa421c",
+      "message_id": "1a168123e0fa421c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T14:53:09.252368"
     }
   ]
 }
