@@ -1566,7 +1566,14 @@
     "urn:li:activity:7519330047380312064",
     "urn:li:activity:7519327390095937536",
     "urn:li:activity:7519364649495195648",
-    "urn:li:activity:7519363032259551233"
+    "urn:li:activity:7519363032259551233",
+    "urn:li:activity:7519409219813629953",
+    "urn:li:activity:7519405395153498113",
+    "urn:li:activity:7519402191409942528",
+    "urn:li:activity:7519397916265078784",
+    "urn:li:activity:7519397501884325889",
+    "urn:li:activity:7519396917789749248",
+    "urn:li:activity:7519389920814362624"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2473,7 +2480,13 @@
     "sales.infinitycrest@gmail.com",
     "talentscout529@gmail.com",
     "Deeksha.Pillala@Excelgens.com",
-    "Vibha@uplers.com"
+    "Vibha@uplers.com",
+    "viswa@etekit.com",
+    "jamuna.singh@apptadinc.com",
+    "srihari@smartitframe.com",
+    "mathavan@krgtech.com",
+    "Kranthi@stonegate-tech.com",
+    "ashokkumar@stonegate-tech.com"
   ],
   "contacted_details": [
     {
@@ -18368,9 +18381,10 @@
       "email": "nvroy@prointegrate.net",
       "thread_id": "1a162ac4b6f37fbf",
       "message_id": "1a162ac4b6f37fbf",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-22T13:43:40.753150"
+      "timestamp": "2026-10-22T13:43:40.753150",
+      "followup_timestamp": "2026-10-23T20:52:21.101670"
     },
     {
       "urn": "urn:li:activity:7518931927412830208",
@@ -18378,7 +18392,7 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a162ac55cac93be",
       "message_id": "1a162ac55cac93be",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-22T13:43:43.467379"
     },
@@ -18388,9 +18402,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a162ac613a849fc",
       "message_id": "1a162ac613a849fc",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-22T13:43:46.224994"
+      "timestamp": "2026-10-22T13:43:46.224994",
+      "followup_timestamp": "2026-10-23T20:52:23.820160"
     },
     {
       "urn": "urn:li:activity:7518926675607302145",
@@ -18398,9 +18413,10 @@
       "email": "swetha@cygnuspro.com",
       "thread_id": "1a162ac697eaf122",
       "message_id": "1a162ac697eaf122",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-22T13:43:48.302204"
+      "timestamp": "2026-10-22T13:43:48.302204",
+      "followup_timestamp": "2026-10-23T20:52:26.094752"
     },
     {
       "urn": "urn:li:activity:7518916931681345537",
@@ -18408,9 +18424,10 @@
       "email": "connect@infosprucetech.com",
       "thread_id": "1a162ac73ef75496",
       "message_id": "1a162ac73ef75496",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-22T13:43:50.937108"
+      "timestamp": "2026-10-22T13:43:50.937108",
+      "followup_timestamp": "2026-10-23T20:52:28.321750"
     },
     {
       "urn": "urn:li:activity:7518903406170689536",
@@ -18418,7 +18435,7 @@
       "email": "apply-rsharma1@forcecraver.com",
       "thread_id": "1a162ac7ab28df6e",
       "message_id": "1a162ac7ab28df6e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-22T13:43:53.043384"
     },
@@ -18911,6 +18928,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-23T18:30:22.178770"
+    },
+    {
+      "urn": "urn:li:activity:7519409219813629953",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519409219813629953",
+      "email": "viswa@etekit.com",
+      "thread_id": "1a169498160557bd",
+      "message_id": "1a169498160557bd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T20:33:07.915752"
+    },
+    {
+      "urn": "urn:li:activity:7519405395153498113",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519405395153498113",
+      "email": "jamuna.singh@apptadinc.com",
+      "thread_id": "1a169498ad7b5c8d",
+      "message_id": "1a169498ad7b5c8d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T20:33:10.845923"
+    },
+    {
+      "urn": "urn:li:activity:7519402191409942528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519402191409942528",
+      "email": "srihari@smartitframe.com",
+      "thread_id": "1a169499602a92d2",
+      "message_id": "1a169499602a92d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T20:33:13.495941"
+    },
+    {
+      "urn": "urn:li:activity:7519397916265078784",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519397916265078784",
+      "email": "mathavan@krgtech.com",
+      "thread_id": "1a16949a48526257",
+      "message_id": "1a16949a48526257",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T20:33:17.161755"
+    },
+    {
+      "urn": "urn:li:activity:7519397501884325889",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519397501884325889",
+      "email": "Kranthi@stonegate-tech.com",
+      "thread_id": "1a1695af174bf2a8",
+      "message_id": "1a1695af174bf2a8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T20:52:10.675530"
+    },
+    {
+      "urn": "urn:li:activity:7519396917789749248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519396917789749248",
+      "email": "ashokkumar@stonegate-tech.com",
+      "thread_id": "1a1695af85d2cb07",
+      "message_id": "1a1695af85d2cb07",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T20:52:12.853826"
+    },
+    {
+      "urn": "urn:li:activity:7519389920814362624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519389920814362624",
+      "email": "payal@digital-twin-solutions.com",
+      "thread_id": "1a1695b10118db5e",
+      "message_id": "1a1695b10118db5e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T20:52:18.823560"
     }
   ]
 }
