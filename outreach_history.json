@@ -1556,7 +1556,15 @@
     "urn:li:activity:7519263319891812352",
     "urn:li:activity:7519319544071655424",
     "urn:li:activity:7519294962153263105",
-    "urn:li:activity:7519265964383756288"
+    "urn:li:activity:7519265964383756288",
+    "urn:li:activity:7519348238613626881",
+    "urn:li:activity:7519347675633475585",
+    "urn:li:activity:7519347172547551232",
+    "urn:li:activity:7519338877858308096",
+    "urn:li:activity:7519331770215985152",
+    "urn:li:activity:7519329940111056896",
+    "urn:li:activity:7519330047380312064",
+    "urn:li:activity:7519327390095937536"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2457,7 +2465,12 @@
     "bsctechs369@gmail.com",
     "Hr@daengroup.com",
     "info@thehrworldsolutions.in",
-    "Sirishad@ca-one.com"
+    "Sirishad@ca-one.com",
+    "devyani.patil@soliteck.com",
+    "recruitment@talos-technologies.com",
+    "sales.infinitycrest@gmail.com",
+    "talentscout529@gmail.com",
+    "Deeksha.Pillala@Excelgens.com"
   ],
   "contacted_details": [
     {
@@ -18330,9 +18343,10 @@
       "email": "jobs@headsbaseconsulting.com",
       "thread_id": "1a161f63576cd489",
       "message_id": "1a161f63576cd489",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-22T10:24:48.084758"
+      "timestamp": "2026-10-22T10:24:48.084758",
+      "followup_timestamp": "2026-10-23T17:12:27.950620"
     },
     {
       "urn": "urn:li:activity:7518789083645509633",
@@ -18340,9 +18354,10 @@
       "email": "info@connecttechtalent.com",
       "thread_id": "1a161f63e3919631",
       "message_id": "1a161f63e3919631",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-10-22T10:24:50.710207"
+      "timestamp": "2026-10-22T10:24:50.710207",
+      "followup_timestamp": "2026-10-23T17:12:30.426865"
     },
     {
       "urn": "urn:li:activity:7518939995219574785",
@@ -18793,6 +18808,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-23T14:53:09.252368"
+    },
+    {
+      "urn": "urn:li:activity:7519348238613626881",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519348238613626881",
+      "email": "devyani.patil@soliteck.com",
+      "thread_id": "1a168917005f0075",
+      "message_id": "1a168917005f0075",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T17:12:05.208155"
+    },
+    {
+      "urn": "urn:li:activity:7519347675633475585",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519347675633475585",
+      "email": "recruitment@talos-technologies.com",
+      "thread_id": "1a1689179818df66",
+      "message_id": "1a1689179818df66",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T17:12:07.505949"
+    },
+    {
+      "urn": "urn:li:activity:7519347172547551232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519347172547551232",
+      "email": "recruitment@talos-technologies.com",
+      "thread_id": "1a1689183774c6af",
+      "message_id": "1a1689183774c6af",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T17:12:09.838115"
+    },
+    {
+      "urn": "urn:li:activity:7519338877858308096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519338877858308096",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a168918f56a3d10",
+      "message_id": "1a168918f56a3d10",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T17:12:12.834301"
+    },
+    {
+      "urn": "urn:li:activity:7519331770215985152",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519331770215985152",
+      "email": "sales.infinitycrest@gmail.com",
+      "thread_id": "1a16891962e27532",
+      "message_id": "1a16891962e27532",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T17:12:15.088606"
+    },
+    {
+      "urn": "urn:li:activity:7519329940111056896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519329940111056896",
+      "email": "talentscout529@gmail.com",
+      "thread_id": "1a16891a291f25f6",
+      "message_id": "1a16891a291f25f6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T17:12:18.312180"
+    },
+    {
+      "urn": "urn:li:activity:7519330047380312064",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519330047380312064",
+      "email": "talentscout529@gmail.com",
+      "thread_id": "1a16891b039d6ba5",
+      "message_id": "1a16891b039d6ba5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T17:12:21.417874"
+    },
+    {
+      "urn": "urn:li:activity:7519327390095937536",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519327390095937536",
+      "email": "Deeksha.Pillala@Excelgens.com",
+      "thread_id": "1a16891bfbf9bf30",
+      "message_id": "1a16891bfbf9bf30",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-23T17:12:25.382493"
     }
   ]
 }
