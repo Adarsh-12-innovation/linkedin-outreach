@@ -1575,7 +1575,10 @@
     "urn:li:activity:7519396917789749248",
     "urn:li:activity:7519389920814362624",
     "urn:li:activity:7519623623914151938",
-    "urn:li:activity:7519505373125455872"
+    "urn:li:activity:7519505373125455872",
+    "urn:li:activity:7519648733693825024",
+    "urn:li:activity:7519645068589342722",
+    "urn:li:activity:7519636086890061824"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2489,7 +2492,10 @@
     "mathavan@krgtech.com",
     "Kranthi@stonegate-tech.com",
     "ashokkumar@stonegate-tech.com",
-    "gandhi.kumar@zenithinfotek.com"
+    "gandhi.kumar@zenithinfotek.com",
+    "payal@digital-twin-solution.com",
+    "bdm@deepsciencetech.com",
+    "sathvika.y@martinettechnologies.com"
   ],
   "contacted_details": [
     {
@@ -19044,6 +19050,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-24T11:53:43.239405"
+    },
+    {
+      "urn": "urn:li:activity:7519648733693825024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519648733693825024",
+      "email": "payal@digital-twin-solution.com",
+      "thread_id": "1a16d2c085b3e1ed",
+      "message_id": "1a16d2c085b3e1ed",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-24T14:39:26.124783"
+    },
+    {
+      "urn": "urn:li:activity:7519645068589342722",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519645068589342722",
+      "email": "bdm@deepsciencetech.com",
+      "thread_id": "1a16d2c15eca7b6c",
+      "message_id": "1a16d2c15eca7b6c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-24T14:39:28.708309"
+    },
+    {
+      "urn": "urn:li:activity:7519636086890061824",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519636086890061824",
+      "email": "sathvika.y@martinettechnologies.com",
+      "thread_id": "1a16d2c1dc84982f",
+      "message_id": "1a16d2c1dc84982f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-24T14:39:30.884987"
     }
   ]
 }
