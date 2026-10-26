@@ -1595,7 +1595,9 @@
     "urn:li:activity:7520368735531200512",
     "urn:li:activity:7520407190826889216",
     "urn:li:activity:7520407145973125120",
-    "urn:li:activity:7520380786789904384"
+    "urn:li:activity:7520380786789904384",
+    "urn:li:activity:7520443915905220608",
+    "urn:li:activity:7520433602283610113"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2518,7 +2520,8 @@
     "divya@olyntrix.com",
     "kumar.unnati@cloudstakes.com",
     "vishnupriyajp0505@gmail.com",
-    "neha.patil@hitistan.com"
+    "neha.patil@hitistan.com",
+    "madhu@arctrs.com"
   ],
   "contacted_details": [
     {
@@ -19299,6 +19302,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-26T15:03:46.821370"
+    },
+    {
+      "urn": "urn:li:activity:7520443915905220608",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520443915905220608",
+      "email": "madhu@arctrs.com",
+      "thread_id": "1a1780ae286dd8ad",
+      "message_id": "1a1780ae286dd8ad",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T17:19:02.454298"
+    },
+    {
+      "urn": "urn:li:activity:7520433602283610113",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520433602283610113",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a1780aed78849a3",
+      "message_id": "1a1780aed78849a3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T17:19:05.180655"
     }
   ]
 }
