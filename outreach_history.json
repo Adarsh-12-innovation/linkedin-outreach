@@ -1592,7 +1592,10 @@
     "urn:li:activity:7520383389800263680",
     "urn:li:activity:7520372263070748672",
     "urn:li:activity:7520369670521081857",
-    "urn:li:activity:7520368735531200512"
+    "urn:li:activity:7520368735531200512",
+    "urn:li:activity:7520407190826889216",
+    "urn:li:activity:7520407145973125120",
+    "urn:li:activity:7520380786789904384"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2512,7 +2515,10 @@
     "sathvika.y@martinettechnologies.com",
     "sales@aashviinfotech.com",
     "saba@aliqan.com",
-    "divya@olyntrix.com"
+    "divya@olyntrix.com",
+    "kumar.unnati@cloudstakes.com",
+    "vishnupriyajp0505@gmail.com",
+    "neha.patil@hitistan.com"
   ],
   "contacted_details": [
     {
@@ -19263,6 +19269,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-26T13:35:19.658865"
+    },
+    {
+      "urn": "urn:li:activity:7520407190826889216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520407190826889216",
+      "email": "kumar.unnati@cloudstakes.com",
+      "thread_id": "1a1778ef291bdf3d",
+      "message_id": "1a1778ef291bdf3d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T15:03:40.322497"
+    },
+    {
+      "urn": "urn:li:activity:7520407145973125120",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520407145973125120",
+      "email": "vishnupriyajp0505@gmail.com",
+      "thread_id": "1a1778f03ae63030",
+      "message_id": "1a1778f03ae63030",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T15:03:44.442540"
+    },
+    {
+      "urn": "urn:li:activity:7520380786789904384",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520380786789904384",
+      "email": "neha.patil@hitistan.com",
+      "thread_id": "1a1778f0c05f35b7",
+      "message_id": "1a1778f0c05f35b7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T15:03:46.821370"
     }
   ]
 }
