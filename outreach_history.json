@@ -1587,7 +1587,12 @@
     "urn:li:activity:7520359392949518336",
     "urn:li:activity:7520358354217562112",
     "urn:li:activity:7520352069900419073",
-    "urn:li:activity:7520338758991319040"
+    "urn:li:activity:7520338758991319040",
+    "urn:li:activity:7520384916002529280",
+    "urn:li:activity:7520383389800263680",
+    "urn:li:activity:7520372263070748672",
+    "urn:li:activity:7520369670521081857",
+    "urn:li:activity:7520368735531200512"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2506,7 +2511,8 @@
     "bdm@deepsciencetech.com",
     "sathvika.y@martinettechnologies.com",
     "sales@aashviinfotech.com",
-    "saba@aliqan.com"
+    "saba@aliqan.com",
+    "divya@olyntrix.com"
   ],
   "contacted_details": [
     {
@@ -19207,6 +19213,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-26T11:54:11.689354"
+    },
+    {
+      "urn": "urn:li:activity:7520384916002529280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520384916002529280",
+      "email": "hrd@parthglobalconsultants.com",
+      "thread_id": "1a1773deebf82b5a",
+      "message_id": "1a1773deebf82b5a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T13:35:10.640772"
+    },
+    {
+      "urn": "urn:li:activity:7520383389800263680",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520383389800263680",
+      "email": "sushree@mindbrain.co.in",
+      "thread_id": "1a1773df703c52e5",
+      "message_id": "1a1773df703c52e5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T13:35:12.871798"
+    },
+    {
+      "urn": "urn:li:activity:7520372263070748672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520372263070748672",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1773dfe57b708c",
+      "message_id": "1a1773dfe57b708c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T13:35:15.207761"
+    },
+    {
+      "urn": "urn:li:activity:7520369670521081857",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520369670521081857",
+      "email": "recruitment@talos-technologies.com",
+      "thread_id": "1a1773e090954fe0",
+      "message_id": "1a1773e090954fe0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T13:35:17.405342"
+    },
+    {
+      "urn": "urn:li:activity:7520368735531200512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520368735531200512",
+      "email": "divya@olyntrix.com",
+      "thread_id": "1a1773e11f30757d",
+      "message_id": "1a1773e11f30757d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T13:35:19.658865"
     }
   ]
 }
