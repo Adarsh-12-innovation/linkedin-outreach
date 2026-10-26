@@ -1597,7 +1597,20 @@
     "urn:li:activity:7520407145973125120",
     "urn:li:activity:7520380786789904384",
     "urn:li:activity:7520443915905220608",
-    "urn:li:activity:7520433602283610113"
+    "urn:li:activity:7520433602283610113",
+    "urn:li:activity:7520493106438389760",
+    "urn:li:activity:7520488906770014208",
+    "urn:li:activity:7520488272649969664",
+    "urn:li:activity:7520488424462635009",
+    "urn:li:activity:7520488043976511491",
+    "urn:li:activity:7520488204106477568",
+    "urn:li:activity:7520487734529134592",
+    "urn:li:activity:7520487884160757760",
+    "urn:li:activity:7520487612915138560",
+    "urn:li:activity:7520487360690753536",
+    "urn:li:activity:7520484184981733376",
+    "urn:li:activity:7520482874223919104",
+    "urn:li:activity:7520476858149138432"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2521,7 +2534,16 @@
     "kumar.unnati@cloudstakes.com",
     "vishnupriyajp0505@gmail.com",
     "neha.patil@hitistan.com",
-    "madhu@arctrs.com"
+    "madhu@arctrs.com",
+    "durga@acunor.com",
+    "Shirin.khan@jm-group.ca",
+    "mahesh@riseedgeitinc.com",
+    "sathish@everestglobalsolutionsinc.com",
+    "praveen@linktms.com",
+    "syanchi@bcgnj.com",
+    "lalit.kumar@exlneo.com",
+    "sujit@excellentprogroup.com",
+    "piyush.patel@nearwe.in"
   ],
   "contacted_details": [
     {
@@ -19322,6 +19344,136 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-26T17:19:05.180655"
+    },
+    {
+      "urn": "urn:li:activity:7520493106438389760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520493106438389760",
+      "email": "durga@acunor.com",
+      "thread_id": "1a178a86cd43e520",
+      "message_id": "1a178a86cd43e520",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:07.440613"
+    },
+    {
+      "urn": "urn:li:activity:7520488906770014208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520488906770014208",
+      "email": "Shirin.khan@jm-group.ca",
+      "thread_id": "1a178a87782f165a",
+      "message_id": "1a178a87782f165a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:09.500673"
+    },
+    {
+      "urn": "urn:li:activity:7520488272649969664",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520488272649969664",
+      "email": "mahesh@riseedgeitinc.com",
+      "thread_id": "1a178a888bc6c8af",
+      "message_id": "1a178a888bc6c8af",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:14.191787"
+    },
+    {
+      "urn": "urn:li:activity:7520488424462635009",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520488424462635009",
+      "email": "sathish@everestglobalsolutionsinc.com",
+      "thread_id": "1a178a892005bf57",
+      "message_id": "1a178a892005bf57",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:16.817780"
+    },
+    {
+      "urn": "urn:li:activity:7520488043976511491",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520488043976511491",
+      "email": "mahesh@riseedgeitinc.com",
+      "thread_id": "1a178a8a3bbb1fa1",
+      "message_id": "1a178a8a3bbb1fa1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:20.961997"
+    },
+    {
+      "urn": "urn:li:activity:7520488204106477568",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520488204106477568",
+      "email": "mahesh@riseedgeitinc.com",
+      "thread_id": "1a178a8b5f1c4685",
+      "message_id": "1a178a8b5f1c4685",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:25.873872"
+    },
+    {
+      "urn": "urn:li:activity:7520487734529134592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520487734529134592",
+      "email": "praveen@linktms.com",
+      "thread_id": "1a178a8c7abd821f",
+      "message_id": "1a178a8c7abd821f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:30.559183"
+    },
+    {
+      "urn": "urn:li:activity:7520487884160757760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520487884160757760",
+      "email": "mahesh@riseedgeitinc.com",
+      "thread_id": "1a178a8da14aac1b",
+      "message_id": "1a178a8da14aac1b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:35.666723"
+    },
+    {
+      "urn": "urn:li:activity:7520487612915138560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520487612915138560",
+      "email": "syanchi@bcgnj.com",
+      "thread_id": "1a178a8e59261c82",
+      "message_id": "1a178a8e59261c82",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:38.215634"
+    },
+    {
+      "urn": "urn:li:activity:7520487360690753536",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520487360690753536",
+      "email": "praveen@linktms.com",
+      "thread_id": "1a178a8f9a188c74",
+      "message_id": "1a178a8f9a188c74",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:43.483669"
+    },
+    {
+      "urn": "urn:li:activity:7520484184981733376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520484184981733376",
+      "email": "lalit.kumar@exlneo.com",
+      "thread_id": "1a178a905b991687",
+      "message_id": "1a178a905b991687",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:46.083207"
+    },
+    {
+      "urn": "urn:li:activity:7520482874223919104",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520482874223919104",
+      "email": "sujit@excellentprogroup.com",
+      "thread_id": "1a178a90f11e8815",
+      "message_id": "1a178a90f11e8815",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:48.584336"
+    },
+    {
+      "urn": "urn:li:activity:7520476858149138432",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520476858149138432",
+      "email": "piyush.patel@nearwe.in",
+      "thread_id": "1a178a9191911c56",
+      "message_id": "1a178a9191911c56",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-26T20:11:51.050625"
     }
   ]
 }
