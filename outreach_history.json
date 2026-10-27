@@ -1624,7 +1624,14 @@
     "urn:li:activity:7520711653655764992",
     "urn:li:activity:7520711070651559936",
     "urn:li:activity:7520710816560676864",
-    "urn:li:activity:7520751850971684865"
+    "urn:li:activity:7520751850971684865",
+    "urn:li:activity:7520794071016136704",
+    "urn:li:activity:7520790482017284097",
+    "urn:li:activity:7520781654412435456",
+    "urn:li:activity:7520781702781177857",
+    "urn:li:activity:7520781212391583745",
+    "urn:li:activity:7520769645122093056",
+    "urn:li:activity:7520759677815742465"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2560,7 +2567,8 @@
     "piyush.patel@nearwe.in",
     "komal.pal@asyvainfotech.com",
     "jobs.research@dvara.com",
-    "hiring@alpha-consultants.in"
+    "hiring@alpha-consultants.in",
+    "vanshika@talentro.in"
   ],
   "contacted_details": [
     {
@@ -19178,7 +19186,7 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a176999152b6d8e",
       "message_id": "1a176999152b6d8e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-10-26T10:35:39.015351"
     },
@@ -19631,6 +19639,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-27T14:33:27.691936"
+    },
+    {
+      "urn": "urn:li:activity:7520794071016136704",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520794071016136704",
+      "email": "vanshika@talentro.in",
+      "thread_id": "1a17d222ecbebc5e",
+      "message_id": "1a17d222ecbebc5e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T17:02:35.955595"
+    },
+    {
+      "urn": "urn:li:activity:7520790482017284097",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520790482017284097",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a17d223a2d8cb09",
+      "message_id": "1a17d223a2d8cb09",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T17:02:39.108858"
+    },
+    {
+      "urn": "urn:li:activity:7520781654412435456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520781654412435456",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "1a17d224ac3dac7c",
+      "message_id": "1a17d224ac3dac7c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T17:02:42.917799"
+    },
+    {
+      "urn": "urn:li:activity:7520781702781177857",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520781702781177857",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "1a17d2257e923d5f",
+      "message_id": "1a17d2257e923d5f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T17:02:46.092107"
+    },
+    {
+      "urn": "urn:li:activity:7520781212391583745",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520781212391583745",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "1a17d226bf6f50a2",
+      "message_id": "1a17d226bf6f50a2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T17:02:51.129551"
+    },
+    {
+      "urn": "urn:li:activity:7520769645122093056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520769645122093056",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a17d22724780e49",
+      "message_id": "1a17d22724780e49",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T17:02:53.213776"
+    },
+    {
+      "urn": "urn:li:activity:7520759677815742465",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520759677815742465",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a17d2282954d17e",
+      "message_id": "1a17d2282954d17e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T17:02:57.016928"
     }
   ]
 }
