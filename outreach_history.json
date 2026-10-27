@@ -1610,7 +1610,9 @@
     "urn:li:activity:7520487360690753536",
     "urn:li:activity:7520484184981733376",
     "urn:li:activity:7520482874223919104",
-    "urn:li:activity:7520476858149138432"
+    "urn:li:activity:7520476858149138432",
+    "urn:li:activity:7520709737999458306",
+    "urn:li:activity:7520682872232443905"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -19474,6 +19476,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-26T20:11:51.050625"
+    },
+    {
+      "urn": "urn:li:activity:7520709737999458306",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520709737999458306",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a17bbb0b4e36be1",
+      "message_id": "1a17bbb0b4e36be1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T10:30:19.307309"
+    },
+    {
+      "urn": "urn:li:activity:7520682872232443905",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520682872232443905",
+      "email": "ahmad.ridho@nityo.com",
+      "thread_id": "1a17bbb17d09d8dc",
+      "message_id": "1a17bbb17d09d8dc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T10:30:22.101663"
     }
   ]
 }
