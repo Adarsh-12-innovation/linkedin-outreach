@@ -1612,7 +1612,18 @@
     "urn:li:activity:7520482874223919104",
     "urn:li:activity:7520476858149138432",
     "urn:li:activity:7520709737999458306",
-    "urn:li:activity:7520682872232443905"
+    "urn:li:activity:7520682872232443905",
+    "urn:li:activity:7520741315953991680",
+    "urn:li:activity:7520737849550450688",
+    "urn:li:activity:7520737010219773952",
+    "urn:li:activity:7520727525937881088",
+    "urn:li:activity:7520719148335861760",
+    "urn:li:activity:7520715145053130752",
+    "urn:li:activity:7520714453823152128",
+    "urn:li:activity:7520711683414077441",
+    "urn:li:activity:7520711653655764992",
+    "urn:li:activity:7520711070651559936",
+    "urn:li:activity:7520710816560676864"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2545,7 +2556,10 @@
     "syanchi@bcgnj.com",
     "lalit.kumar@exlneo.com",
     "sujit@excellentprogroup.com",
-    "piyush.patel@nearwe.in"
+    "piyush.patel@nearwe.in",
+    "komal.pal@asyvainfotech.com",
+    "jobs.research@dvara.com",
+    "hiring@alpha-consultants.in"
   ],
   "contacted_details": [
     {
@@ -19496,6 +19510,116 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-10-27T10:30:22.101663"
+    },
+    {
+      "urn": "urn:li:activity:7520741315953991680",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520741315953991680",
+      "email": "hr.sgs.consultancy@gmail.com",
+      "thread_id": "1a17c46219a2838d",
+      "message_id": "1a17c46219a2838d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:14.036645"
+    },
+    {
+      "urn": "urn:li:activity:7520737849550450688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520737849550450688",
+      "email": "komal.pal@asyvainfotech.com",
+      "thread_id": "1a17c4635c19cffe",
+      "message_id": "1a17c4635c19cffe",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:19.214489"
+    },
+    {
+      "urn": "urn:li:activity:7520737010219773952",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520737010219773952",
+      "email": "komal.pal@asyvainfotech.com",
+      "thread_id": "1a17c463c5b219e5",
+      "message_id": "1a17c463c5b219e5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:21.896859"
+    },
+    {
+      "urn": "urn:li:activity:7520727525937881088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520727525937881088",
+      "email": "hr.sgs.consultancy@gmail.com",
+      "thread_id": "1a17c4649c6739e6",
+      "message_id": "1a17c4649c6739e6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:24.399434"
+    },
+    {
+      "urn": "urn:li:activity:7520719148335861760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520719148335861760",
+      "email": "jobs.research@dvara.com",
+      "thread_id": "1a17c4652e7663ab",
+      "message_id": "1a17c4652e7663ab",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:26.950605"
+    },
+    {
+      "urn": "urn:li:activity:7520715145053130752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520715145053130752",
+      "email": "rikhitapadmaa@gmail.com",
+      "thread_id": "1a17c46645f807dc",
+      "message_id": "1a17c46645f807dc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:31.761302"
+    },
+    {
+      "urn": "urn:li:activity:7520714453823152128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520714453823152128",
+      "email": "rikhitapadmaa@gmail.com",
+      "thread_id": "1a17c466ee2c6eca",
+      "message_id": "1a17c466ee2c6eca",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:33.939266"
+    },
+    {
+      "urn": "urn:li:activity:7520711683414077441",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520711683414077441",
+      "email": "hiring@alpha-consultants.in",
+      "thread_id": "1a17c46797fc36f7",
+      "message_id": "1a17c46797fc36f7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:36.580210"
+    },
+    {
+      "urn": "urn:li:activity:7520711653655764992",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520711653655764992",
+      "email": "hiring@alpha-consultants.in",
+      "thread_id": "1a17c468232d60ca",
+      "message_id": "1a17c468232d60ca",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:39.046470"
+    },
+    {
+      "urn": "urn:li:activity:7520711070651559936",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520711070651559936",
+      "email": "hiring@alpha-consultants.in",
+      "thread_id": "1a17c468d610ba37",
+      "message_id": "1a17c468d610ba37",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:41.921425"
+    },
+    {
+      "urn": "urn:li:activity:7520710816560676864",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520710816560676864",
+      "email": "hiring@alpha-consultants.in",
+      "thread_id": "1a17c4697e9bdc6a",
+      "message_id": "1a17c4697e9bdc6a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-10-27T13:02:44.389293"
     }
   ]
 }
