@@ -1636,7 +1636,10 @@
     "urn:li:activity:7521077592884498432",
     "urn:li:activity:7520895675593637888",
     "urn:li:activity:7521095986098909184",
-    "urn:li:activity:7521082072803975169"
+    "urn:li:activity:7521082072803975169",
+    "urn:li:activity:7521111398131798016",
+    "urn:li:activity:7521111769252237312",
+    "urn:li:activity:7521110039793963008"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2576,7 +2579,9 @@
     "vanshika@talentro.in",
     "advnikitatokse@gmail.com",
     "Chinnadurai.P@alchemysolutions.us",
-    "hamad@hamadshafiq.com"
+    "hamad@hamadshafiq.com",
+    "smurari@theaesgroup.com",
+    "jobs@onesource.one"
   ],
   "contacted_details": [
     {
@@ -19786,6 +19791,33 @@
       "message_id": "1a1815399ba72237",
       "followed_up": false,
       "timestamp": "2026-10-28T07:05:01.941161"
+    },
+    {
+      "urn": "urn:li:activity:7521111398131798016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521111398131798016",
+      "email": "ashraf.u@rrootshell.com",
+      "thread_id": "1a181a5cc10c9b5b",
+      "message_id": "1a181a5cc10c9b5b",
+      "followed_up": false,
+      "timestamp": "2026-10-28T08:34:49.289110"
+    },
+    {
+      "urn": "urn:li:activity:7521111769252237312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521111769252237312",
+      "email": "smurari@theaesgroup.com",
+      "thread_id": "1a181a5d341200e5",
+      "message_id": "1a181a5d341200e5",
+      "followed_up": false,
+      "timestamp": "2026-10-28T08:34:51.272154"
+    },
+    {
+      "urn": "urn:li:activity:7521110039793963008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521110039793963008",
+      "email": "jobs@onesource.one",
+      "thread_id": "1a181a5dae689780",
+      "message_id": "1a181a5dae689780",
+      "followed_up": false,
+      "timestamp": "2026-10-28T08:34:53.192846"
     }
   ]
 }
