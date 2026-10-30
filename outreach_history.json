@@ -1649,7 +1649,8 @@
     "urn:li:activity:7521264641495158784",
     "urn:li:activity:7521449358890897408",
     "urn:li:activity:7521260895335833601",
-    "urn:li:activity:7519421963086331904"
+    "urn:li:activity:7519421963086331904",
+    "urn:li:activity:7521767216665645056"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -19786,8 +19787,9 @@
       "email": "mohit.gupta@rayosys.com",
       "thread_id": "1a18153704418d78",
       "message_id": "1a18153704418d78",
-      "followed_up": false,
-      "timestamp": "2026-10-28T07:04:51.758406"
+      "followed_up": true,
+      "timestamp": "2026-10-28T07:04:51.758406",
+      "followup_timestamp": "2026-10-30T04:08:17.814315"
     },
     {
       "urn": "urn:li:activity:7521077592884498432",
@@ -19795,8 +19797,9 @@
       "email": "advnikitatokse@gmail.com",
       "thread_id": "1a18153788f3edc7",
       "message_id": "1a18153788f3edc7",
-      "followed_up": false,
-      "timestamp": "2026-10-28T07:04:53.758302"
+      "followed_up": true,
+      "timestamp": "2026-10-28T07:04:53.758302",
+      "followup_timestamp": "2026-10-30T04:08:19.331422"
     },
     {
       "urn": "urn:li:activity:7520895675593637888",
@@ -19804,8 +19807,9 @@
       "email": "Chinnadurai.P@alchemysolutions.us",
       "thread_id": "1a181537f38a5d2b",
       "message_id": "1a181537f38a5d2b",
-      "followed_up": false,
-      "timestamp": "2026-10-28T07:04:55.703423"
+      "followed_up": true,
+      "timestamp": "2026-10-28T07:04:55.703423",
+      "followup_timestamp": "2026-10-30T04:08:20.869961"
     },
     {
       "urn": "urn:li:activity:7521095986098909184",
@@ -19813,8 +19817,9 @@
       "email": "hamad@hamadshafiq.com",
       "thread_id": "1a1815387ee1f293",
       "message_id": "1a1815387ee1f293",
-      "followed_up": false,
-      "timestamp": "2026-10-28T07:04:57.467503"
+      "followed_up": true,
+      "timestamp": "2026-10-28T07:04:57.467503",
+      "followup_timestamp": "2026-10-30T04:08:22.380841"
     },
     {
       "urn": "urn:li:activity:7521082072803975169",
@@ -19822,8 +19827,9 @@
       "email": "daniya.m@flycatchtech.com",
       "thread_id": "1a1815399ba72237",
       "message_id": "1a1815399ba72237",
-      "followed_up": false,
-      "timestamp": "2026-10-28T07:05:01.941161"
+      "followed_up": true,
+      "timestamp": "2026-10-28T07:05:01.941161",
+      "followup_timestamp": "2026-10-30T04:08:23.927402"
     },
     {
       "urn": "urn:li:activity:7521111398131798016",
@@ -19831,8 +19837,9 @@
       "email": "ashraf.u@rrootshell.com",
       "thread_id": "1a181a5cc10c9b5b",
       "message_id": "1a181a5cc10c9b5b",
-      "followed_up": false,
-      "timestamp": "2026-10-28T08:34:49.289110"
+      "followed_up": true,
+      "timestamp": "2026-10-28T08:34:49.289110",
+      "followup_timestamp": "2026-10-30T04:08:25.414662"
     },
     {
       "urn": "urn:li:activity:7521111769252237312",
@@ -19840,8 +19847,9 @@
       "email": "smurari@theaesgroup.com",
       "thread_id": "1a181a5d341200e5",
       "message_id": "1a181a5d341200e5",
-      "followed_up": false,
-      "timestamp": "2026-10-28T08:34:51.272154"
+      "followed_up": true,
+      "timestamp": "2026-10-28T08:34:51.272154",
+      "followup_timestamp": "2026-10-30T04:08:26.917785"
     },
     {
       "urn": "urn:li:activity:7521110039793963008",
@@ -19849,8 +19857,9 @@
       "email": "jobs@onesource.one",
       "thread_id": "1a181a5dae689780",
       "message_id": "1a181a5dae689780",
-      "followed_up": false,
-      "timestamp": "2026-10-28T08:34:53.192846"
+      "followed_up": true,
+      "timestamp": "2026-10-28T08:34:53.192846",
+      "followup_timestamp": "2026-10-30T04:08:28.486101"
     },
     {
       "urn": "urn:li:activity:7521437257178910720",
@@ -19941,6 +19950,15 @@
       "message_id": "1a18642027eb7c72",
       "followed_up": false,
       "timestamp": "2026-10-29T06:03:55.942119"
+    },
+    {
+      "urn": "urn:li:activity:7521767216665645056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7521767216665645056",
+      "email": "ahmad.ridho@nityo.com",
+      "thread_id": "1a18afe7be9f29b4",
+      "message_id": "1a18afe7be9f29b4",
+      "followed_up": false,
+      "timestamp": "2026-10-30T04:08:16.206100"
     }
   ]
 }
