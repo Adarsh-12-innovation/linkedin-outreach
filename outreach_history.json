@@ -1650,7 +1650,11 @@
     "urn:li:activity:7521449358890897408",
     "urn:li:activity:7521260895335833601",
     "urn:li:activity:7519421963086331904",
-    "urn:li:activity:7521767216665645056"
+    "urn:li:activity:7521767216665645056",
+    "urn:li:activity:7522013068294352896",
+    "urn:li:activity:7522070711730061312",
+    "urn:li:activity:7522016017263353856",
+    "urn:li:activity:7522022651305996288"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2596,7 +2600,10 @@
     "sukesh@lovasit.com",
     "sreya@ashudividend.com",
     "rijwana@rackerainc.com",
-    "hr@mvss.online"
+    "hr@mvss.online",
+    "rohithr@hanstaffing.com",
+    "aastha.soni@yashco.com",
+    "peter@ak-infotech.com"
   ],
   "contacted_details": [
     {
@@ -19867,8 +19874,9 @@
       "email": "manasa@cygnuspro.com",
       "thread_id": "1a18641a2cf5651f",
       "message_id": "1a18641a2cf5651f",
-      "followed_up": false,
-      "timestamp": "2026-10-29T06:03:31.132463"
+      "followed_up": true,
+      "timestamp": "2026-10-29T06:03:31.132463",
+      "followup_timestamp": "2026-10-31T04:24:10.605110"
     },
     {
       "urn": "urn:li:activity:7521443103161958400",
@@ -19876,8 +19884,9 @@
       "email": "sukesh@lovasit.com",
       "thread_id": "1a18641ab0aa606d",
       "message_id": "1a18641ab0aa606d",
-      "followed_up": false,
-      "timestamp": "2026-10-29T06:03:33.015211"
+      "followed_up": true,
+      "timestamp": "2026-10-29T06:03:33.015211",
+      "followup_timestamp": "2026-10-31T04:24:12.023822"
     },
     {
       "urn": "urn:li:activity:7521440875646791680",
@@ -19885,8 +19894,9 @@
       "email": "sreya@ashudividend.com",
       "thread_id": "1a18641b87cd1e48",
       "message_id": "1a18641b87cd1e48",
-      "followed_up": false,
-      "timestamp": "2026-10-29T06:03:36.720121"
+      "followed_up": true,
+      "timestamp": "2026-10-29T06:03:36.720121",
+      "followup_timestamp": "2026-10-31T04:24:13.422522"
     },
     {
       "urn": "urn:li:activity:7521441839086788608",
@@ -19894,7 +19904,7 @@
       "email": "sreya@ashudividend.com",
       "thread_id": "1a18641c6791b8c0",
       "message_id": "1a18641c6791b8c0",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-10-29T06:03:40.621685"
     },
     {
@@ -19903,8 +19913,9 @@
       "email": "leela.revanth@adroitinnovative.com",
       "thread_id": "1a18641d7d1ff97f",
       "message_id": "1a18641d7d1ff97f",
-      "followed_up": false,
-      "timestamp": "2026-10-29T06:03:44.362273"
+      "followed_up": true,
+      "timestamp": "2026-10-29T06:03:44.362273",
+      "followup_timestamp": "2026-10-31T04:24:14.844338"
     },
     {
       "urn": "urn:li:activity:7521427968993386497",
@@ -19912,8 +19923,9 @@
       "email": "keerti.d@ashudividend.com",
       "thread_id": "1a18641e556e140e",
       "message_id": "1a18641e556e140e",
-      "followed_up": false,
-      "timestamp": "2026-10-29T06:03:48.106498"
+      "followed_up": true,
+      "timestamp": "2026-10-29T06:03:48.106498",
+      "followup_timestamp": "2026-10-31T04:24:16.262823"
     },
     {
       "urn": "urn:li:activity:7521264641495158784",
@@ -19921,8 +19933,9 @@
       "email": "Ravinder.k@worknovasllc.com",
       "thread_id": "1a18641ec7430bb3",
       "message_id": "1a18641ec7430bb3",
-      "followed_up": false,
-      "timestamp": "2026-10-29T06:03:49.984962"
+      "followed_up": true,
+      "timestamp": "2026-10-29T06:03:49.984962",
+      "followup_timestamp": "2026-10-31T04:24:17.723415"
     },
     {
       "urn": "urn:li:activity:7521449358890897408",
@@ -19930,7 +19943,7 @@
       "email": "apply-rsharma1@forcecraver.com",
       "thread_id": "1a18641f4b3c4017",
       "message_id": "1a18641f4b3c4017",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-10-29T06:03:52.128778"
     },
     {
@@ -19939,7 +19952,7 @@
       "email": "rijwana@rackerainc.com",
       "thread_id": "1a18641fde459bcf",
       "message_id": "1a18641fde459bcf",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-10-29T06:03:54.109281"
     },
     {
@@ -19948,7 +19961,7 @@
       "email": "hr@mvss.online",
       "thread_id": "1a18642027eb7c72",
       "message_id": "1a18642027eb7c72",
-      "followed_up": false,
+      "followed_up": true,
       "timestamp": "2026-10-29T06:03:55.942119"
     },
     {
@@ -19957,8 +19970,45 @@
       "email": "ahmad.ridho@nityo.com",
       "thread_id": "1a18afe7be9f29b4",
       "message_id": "1a18afe7be9f29b4",
+      "followed_up": true,
+      "timestamp": "2026-10-30T04:08:16.206100",
+      "followup_timestamp": "2026-10-31T04:24:19.448745"
+    },
+    {
+      "urn": "urn:li:activity:7522013068294352896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522013068294352896",
+      "email": "rohithr@hanstaffing.com",
+      "thread_id": "1a190334dd999759",
+      "message_id": "1a190334dd999759",
       "followed_up": false,
-      "timestamp": "2026-10-30T04:08:16.206100"
+      "timestamp": "2026-10-31T04:24:03.652003"
+    },
+    {
+      "urn": "urn:li:activity:7522070711730061312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522070711730061312",
+      "email": "aastha.soni@yashco.com",
+      "thread_id": "1a1903353d7db6a8",
+      "message_id": "1a1903353d7db6a8",
+      "followed_up": false,
+      "timestamp": "2026-10-31T04:24:05.532741"
+    },
+    {
+      "urn": "urn:li:activity:7522016017263353856",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522016017263353856",
+      "email": "rohithr@hanstaffing.com",
+      "thread_id": "1a190335bb7c33cc",
+      "message_id": "1a190335bb7c33cc",
+      "followed_up": false,
+      "timestamp": "2026-10-31T04:24:07.277801"
+    },
+    {
+      "urn": "urn:li:activity:7522022651305996288",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522022651305996288",
+      "email": "peter@ak-infotech.com",
+      "thread_id": "1a1903361f494b85",
+      "message_id": "1a1903361f494b85",
+      "followed_up": false,
+      "timestamp": "2026-10-31T04:24:09.136583"
     }
   ]
 }
