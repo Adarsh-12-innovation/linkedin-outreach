@@ -1656,7 +1656,10 @@
     "urn:li:activity:7522016017263353856",
     "urn:li:activity:7522022651305996288",
     "urn:li:activity:7522894585304420352",
-    "urn:li:activity:7522896919665479680"
+    "urn:li:activity:7522896919665479680",
+    "urn:li:activity:7522981806233731072",
+    "urn:li:activity:7522977209972883456",
+    "urn:li:activity:7522944799541276672"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2607,7 +2610,9 @@
     "aastha.soni@yashco.com",
     "peter@ak-infotech.com",
     "pujitha.p@ambiquest.com",
-    "samad@cygnuspro.com"
+    "samad@cygnuspro.com",
+    "Dipti.p@tekwissen.in",
+    "nagesh.bade@reignmarkcs.com"
   ],
   "contacted_details": [
     {
@@ -20035,6 +20040,33 @@
       "message_id": "1a19b4f309769d58",
       "followed_up": false,
       "timestamp": "2026-11-02T08:10:20.973288"
+    },
+    {
+      "urn": "urn:li:activity:7522981806233731072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522981806233731072",
+      "email": "Dipti.p@tekwissen.in",
+      "thread_id": "1a19c301b24c60d3",
+      "message_id": "1a19c301b24c60d3",
+      "followed_up": false,
+      "timestamp": "2026-11-02T12:16:00.887274"
+    },
+    {
+      "urn": "urn:li:activity:7522977209972883456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522977209972883456",
+      "email": "devi.suresh@midyaconsulting.com",
+      "thread_id": "1a19c302a906c2ed",
+      "message_id": "1a19c302a906c2ed",
+      "followed_up": false,
+      "timestamp": "2026-11-02T12:16:05.018180"
+    },
+    {
+      "urn": "urn:li:activity:7522944799541276672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522944799541276672",
+      "email": "nagesh.bade@reignmarkcs.com",
+      "thread_id": "1a19c303a2b5eea2",
+      "message_id": "1a19c303a2b5eea2",
+      "followed_up": false,
+      "timestamp": "2026-11-02T12:16:09.186393"
     }
   ]
 }
