@@ -1654,7 +1654,9 @@
     "urn:li:activity:7522013068294352896",
     "urn:li:activity:7522070711730061312",
     "urn:li:activity:7522016017263353856",
-    "urn:li:activity:7522022651305996288"
+    "urn:li:activity:7522022651305996288",
+    "urn:li:activity:7522894585304420352",
+    "urn:li:activity:7522896919665479680"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2603,7 +2605,9 @@
     "hr@mvss.online",
     "rohithr@hanstaffing.com",
     "aastha.soni@yashco.com",
-    "peter@ak-infotech.com"
+    "peter@ak-infotech.com",
+    "pujitha.p@ambiquest.com",
+    "samad@cygnuspro.com"
   ],
   "contacted_details": [
     {
@@ -19980,8 +19984,9 @@
       "email": "rohithr@hanstaffing.com",
       "thread_id": "1a190334dd999759",
       "message_id": "1a190334dd999759",
-      "followed_up": false,
-      "timestamp": "2026-10-31T04:24:03.652003"
+      "followed_up": true,
+      "timestamp": "2026-10-31T04:24:03.652003",
+      "followup_timestamp": "2026-11-02T08:10:22.540073"
     },
     {
       "urn": "urn:li:activity:7522070711730061312",
@@ -19989,8 +19994,9 @@
       "email": "aastha.soni@yashco.com",
       "thread_id": "1a1903353d7db6a8",
       "message_id": "1a1903353d7db6a8",
-      "followed_up": false,
-      "timestamp": "2026-10-31T04:24:05.532741"
+      "followed_up": true,
+      "timestamp": "2026-10-31T04:24:05.532741",
+      "followup_timestamp": "2026-11-02T08:10:24.031081"
     },
     {
       "urn": "urn:li:activity:7522016017263353856",
@@ -19998,8 +20004,9 @@
       "email": "rohithr@hanstaffing.com",
       "thread_id": "1a190335bb7c33cc",
       "message_id": "1a190335bb7c33cc",
-      "followed_up": false,
-      "timestamp": "2026-10-31T04:24:07.277801"
+      "followed_up": true,
+      "timestamp": "2026-10-31T04:24:07.277801",
+      "followup_timestamp": "2026-11-02T08:10:25.499841"
     },
     {
       "urn": "urn:li:activity:7522022651305996288",
@@ -20007,8 +20014,27 @@
       "email": "peter@ak-infotech.com",
       "thread_id": "1a1903361f494b85",
       "message_id": "1a1903361f494b85",
+      "followed_up": true,
+      "timestamp": "2026-10-31T04:24:09.136583",
+      "followup_timestamp": "2026-11-02T08:10:26.999991"
+    },
+    {
+      "urn": "urn:li:activity:7522894585304420352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522894585304420352",
+      "email": "pujitha.p@ambiquest.com",
+      "thread_id": "1a19b4f2921ca2e7",
+      "message_id": "1a19b4f2921ca2e7",
       "followed_up": false,
-      "timestamp": "2026-10-31T04:24:09.136583"
+      "timestamp": "2026-11-02T08:10:19.129099"
+    },
+    {
+      "urn": "urn:li:activity:7522896919665479680",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7522896919665479680",
+      "email": "samad@cygnuspro.com",
+      "thread_id": "1a19b4f309769d58",
+      "message_id": "1a19b4f309769d58",
+      "followed_up": false,
+      "timestamp": "2026-11-02T08:10:20.973288"
     }
   ]
 }
