@@ -1669,7 +1669,13 @@
     "urn:li:activity:7523255577007861760",
     "urn:li:activity:7523237746497339392",
     "urn:li:activity:7523238917098336257",
-    "urn:li:activity:7523238218813648896"
+    "urn:li:activity:7523238218813648896",
+    "urn:li:activity:7523267454027042817",
+    "urn:li:activity:7523270265452314626",
+    "urn:li:activity:7523272053760774146",
+    "urn:li:activity:7523270223005794304",
+    "urn:li:activity:7523260818419855360",
+    "urn:li:activity:7523266469946814466"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2628,7 +2634,11 @@
     "santhoshkumar.g@vrikshamsofttech.com",
     "divya.venna@krazy-tech.com",
     "ngocvth@globaldev.asia",
-    "arkavanta@arkavanta.com"
+    "arkavanta@arkavanta.com",
+    "samarth.yadav@oaktreecloud.com",
+    "vamsi@webconvoy.in",
+    "mehma.singh@hirealpha.co.in",
+    "jobs@ddtsoftware.com"
   ],
   "contacted_details": [
     {
@@ -20173,6 +20183,60 @@
       "message_id": "1a19ff6c2dae8a88",
       "followed_up": false,
       "timestamp": "2026-11-03T05:51:51.872192"
+    },
+    {
+      "urn": "urn:li:activity:7523267454027042817",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523267454027042817",
+      "email": "samarth.yadav@oaktreecloud.com",
+      "thread_id": "1a1a02d7ad52d1d3",
+      "message_id": "1a1a02d7ad52d1d3",
+      "followed_up": false,
+      "timestamp": "2026-11-03T06:51:37.634388"
+    },
+    {
+      "urn": "urn:li:activity:7523270265452314626",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523270265452314626",
+      "email": "careers@vextarainfo.com",
+      "thread_id": "1a1a02d8111f8a28",
+      "message_id": "1a1a02d8111f8a28",
+      "followed_up": false,
+      "timestamp": "2026-11-03T06:51:39.392126"
+    },
+    {
+      "urn": "urn:li:activity:7523272053760774146",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523272053760774146",
+      "email": "vamsi@webconvoy.in",
+      "thread_id": "1a1a02d90599b89e",
+      "message_id": "1a1a02d90599b89e",
+      "followed_up": false,
+      "timestamp": "2026-11-03T06:51:43.252381"
+    },
+    {
+      "urn": "urn:li:activity:7523270223005794304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523270223005794304",
+      "email": "careers@vextarainfo.com",
+      "thread_id": "1a1a02d968ff5829",
+      "message_id": "1a1a02d968ff5829",
+      "followed_up": false,
+      "timestamp": "2026-11-03T06:51:44.992551"
+    },
+    {
+      "urn": "urn:li:activity:7523260818419855360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523260818419855360",
+      "email": "mehma.singh@hirealpha.co.in",
+      "thread_id": "1a1a02d9c24051ed",
+      "message_id": "1a1a02d9c24051ed",
+      "followed_up": false,
+      "timestamp": "2026-11-03T06:51:46.834269"
+    },
+    {
+      "urn": "urn:li:activity:7523266469946814466",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523266469946814466",
+      "email": "jobs@ddtsoftware.com",
+      "thread_id": "1a1a02dad99f95f2",
+      "message_id": "1a1a02dad99f95f2",
+      "followed_up": false,
+      "timestamp": "2026-11-03T06:51:50.440643"
     }
   ]
 }
