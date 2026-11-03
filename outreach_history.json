@@ -1675,7 +1675,13 @@
     "urn:li:activity:7523272053760774146",
     "urn:li:activity:7523270223005794304",
     "urn:li:activity:7523260818419855360",
-    "urn:li:activity:7523266469946814466"
+    "urn:li:activity:7523266469946814466",
+    "urn:li:activity:7523295064702316546",
+    "urn:li:activity:7523348482749919232",
+    "urn:li:activity:7523378351034556417",
+    "urn:li:activity:7523376230012928000",
+    "urn:li:activity:7523377963959021568",
+    "urn:li:activity:7523354366888599552"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2638,7 +2644,12 @@
     "samarth.yadav@oaktreecloud.com",
     "vamsi@webconvoy.in",
     "mehma.singh@hirealpha.co.in",
-    "jobs@ddtsoftware.com"
+    "jobs@ddtsoftware.com",
+    "moxa.talent@gmail.com",
+    "careers@nexoratechinc.com",
+    "careers@addisongrouptechnologies.com",
+    "careers@palantiraisol.com",
+    "legala.prasanna@infogine.com"
   ],
   "contacted_details": [
     {
@@ -20055,8 +20066,9 @@
       "email": "pujitha.p@ambiquest.com",
       "thread_id": "1a19b4f2921ca2e7",
       "message_id": "1a19b4f2921ca2e7",
-      "followed_up": false,
-      "timestamp": "2026-11-02T08:10:19.129099"
+      "followed_up": true,
+      "timestamp": "2026-11-02T08:10:19.129099",
+      "followup_timestamp": "2026-11-03T13:47:28.940676"
     },
     {
       "urn": "urn:li:activity:7522896919665479680",
@@ -20064,8 +20076,9 @@
       "email": "samad@cygnuspro.com",
       "thread_id": "1a19b4f309769d58",
       "message_id": "1a19b4f309769d58",
-      "followed_up": false,
-      "timestamp": "2026-11-02T08:10:20.973288"
+      "followed_up": true,
+      "timestamp": "2026-11-02T08:10:20.973288",
+      "followup_timestamp": "2026-11-03T13:47:30.744509"
     },
     {
       "urn": "urn:li:activity:7522981806233731072",
@@ -20073,8 +20086,9 @@
       "email": "Dipti.p@tekwissen.in",
       "thread_id": "1a19c301b24c60d3",
       "message_id": "1a19c301b24c60d3",
-      "followed_up": false,
-      "timestamp": "2026-11-02T12:16:00.887274"
+      "followed_up": true,
+      "timestamp": "2026-11-02T12:16:00.887274",
+      "followup_timestamp": "2026-11-03T13:47:32.490403"
     },
     {
       "urn": "urn:li:activity:7522977209972883456",
@@ -20082,8 +20096,9 @@
       "email": "devi.suresh@midyaconsulting.com",
       "thread_id": "1a19c302a906c2ed",
       "message_id": "1a19c302a906c2ed",
-      "followed_up": false,
-      "timestamp": "2026-11-02T12:16:05.018180"
+      "followed_up": true,
+      "timestamp": "2026-11-02T12:16:05.018180",
+      "followup_timestamp": "2026-11-03T13:47:34.181256"
     },
     {
       "urn": "urn:li:activity:7522944799541276672",
@@ -20091,8 +20106,9 @@
       "email": "nagesh.bade@reignmarkcs.com",
       "thread_id": "1a19c303a2b5eea2",
       "message_id": "1a19c303a2b5eea2",
-      "followed_up": false,
-      "timestamp": "2026-11-02T12:16:09.186393"
+      "followed_up": true,
+      "timestamp": "2026-11-02T12:16:09.186393",
+      "followup_timestamp": "2026-11-03T13:47:35.846734"
     },
     {
       "urn": "urn:li:activity:7523029031613706241",
@@ -20237,6 +20253,60 @@
       "message_id": "1a1a02dad99f95f2",
       "followed_up": false,
       "timestamp": "2026-11-03T06:51:50.440643"
+    },
+    {
+      "urn": "urn:li:activity:7523295064702316546",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523295064702316546",
+      "email": "moxa.talent@gmail.com",
+      "thread_id": "1a1a1a9fdcc1fcdf",
+      "message_id": "1a1a1a9fdcc1fcdf",
+      "followed_up": false,
+      "timestamp": "2026-11-03T13:47:14.830778"
+    },
+    {
+      "urn": "urn:li:activity:7523348482749919232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523348482749919232",
+      "email": "leela.revanth@adroitinnovative.com",
+      "thread_id": "1a1a1aa0ee678593",
+      "message_id": "1a1a1aa0ee678593",
+      "followed_up": false,
+      "timestamp": "2026-11-03T13:47:19.301262"
+    },
+    {
+      "urn": "urn:li:activity:7523378351034556417",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523378351034556417",
+      "email": "careers@nexoratechinc.com",
+      "thread_id": "1a1a1aa1444e1a7a",
+      "message_id": "1a1a1aa1444e1a7a",
+      "followed_up": false,
+      "timestamp": "2026-11-03T13:47:21.220236"
+    },
+    {
+      "urn": "urn:li:activity:7523376230012928000",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523376230012928000",
+      "email": "careers@addisongrouptechnologies.com",
+      "thread_id": "1a1a1aa1c0263676",
+      "message_id": "1a1a1aa1c0263676",
+      "followed_up": false,
+      "timestamp": "2026-11-03T13:47:23.137435"
+    },
+    {
+      "urn": "urn:li:activity:7523377963959021568",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523377963959021568",
+      "email": "careers@palantiraisol.com",
+      "thread_id": "1a1a1aa25fe85cc4",
+      "message_id": "1a1a1aa25fe85cc4",
+      "followed_up": false,
+      "timestamp": "2026-11-03T13:47:25.110620"
+    },
+    {
+      "urn": "urn:li:activity:7523354366888599552",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523354366888599552",
+      "email": "legala.prasanna@infogine.com",
+      "thread_id": "1a1a1aa2cfbd0619",
+      "message_id": "1a1a1aa2cfbd0619",
+      "followed_up": false,
+      "timestamp": "2026-11-03T13:47:27.029538"
     }
   ]
 }
