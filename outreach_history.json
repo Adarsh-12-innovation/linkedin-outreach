@@ -1664,7 +1664,12 @@
     "urn:li:activity:7523024896785022976",
     "urn:li:activity:7523028774171475969",
     "urn:li:activity:7523029147984662528",
-    "urn:li:activity:7523024896747315200"
+    "urn:li:activity:7523024896747315200",
+    "urn:li:activity:7523249950634246145",
+    "urn:li:activity:7523255577007861760",
+    "urn:li:activity:7523237746497339392",
+    "urn:li:activity:7523238917098336257",
+    "urn:li:activity:7523238218813648896"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2619,7 +2624,11 @@
     "Dipti.p@tekwissen.in",
     "nagesh.bade@reignmarkcs.com",
     "careers@cogentcube.com",
-    "careers@bluerocktalentgroup.com"
+    "careers@bluerocktalentgroup.com",
+    "santhoshkumar.g@vrikshamsofttech.com",
+    "divya.venna@krazy-tech.com",
+    "ngocvth@globaldev.asia",
+    "arkavanta@arkavanta.com"
   ],
   "contacted_details": [
     {
@@ -20119,6 +20128,51 @@
       "message_id": "1a19cf4bca5ecde2",
       "followed_up": false,
       "timestamp": "2026-11-02T15:50:47.463899"
+    },
+    {
+      "urn": "urn:li:activity:7523249950634246145",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523249950634246145",
+      "email": "devi.suresh@midyaconsulting.com",
+      "thread_id": "1a19ff69ee187162",
+      "message_id": "1a19ff69ee187162",
+      "followed_up": false,
+      "timestamp": "2026-11-03T05:51:42.455814"
+    },
+    {
+      "urn": "urn:li:activity:7523255577007861760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523255577007861760",
+      "email": "santhoshkumar.g@vrikshamsofttech.com",
+      "thread_id": "1a19ff6a55ba3c76",
+      "message_id": "1a19ff6a55ba3c76",
+      "followed_up": false,
+      "timestamp": "2026-11-03T05:51:44.477611"
+    },
+    {
+      "urn": "urn:li:activity:7523237746497339392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523237746497339392",
+      "email": "divya.venna@krazy-tech.com",
+      "thread_id": "1a19ff6ac9c1b927",
+      "message_id": "1a19ff6ac9c1b927",
+      "followed_up": false,
+      "timestamp": "2026-11-03T05:51:46.301952"
+    },
+    {
+      "urn": "urn:li:activity:7523238917098336257",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523238917098336257",
+      "email": "ngocvth@globaldev.asia",
+      "thread_id": "1a19ff6bdcbed590",
+      "message_id": "1a19ff6bdcbed590",
+      "followed_up": false,
+      "timestamp": "2026-11-03T05:51:50.049750"
+    },
+    {
+      "urn": "urn:li:activity:7523238218813648896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523238218813648896",
+      "email": "arkavanta@arkavanta.com",
+      "thread_id": "1a19ff6c2dae8a88",
+      "message_id": "1a19ff6c2dae8a88",
+      "followed_up": false,
+      "timestamp": "2026-11-03T05:51:51.872192"
     }
   ]
 }
