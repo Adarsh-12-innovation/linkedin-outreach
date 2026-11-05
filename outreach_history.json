@@ -1691,7 +1691,15 @@
     "urn:li:activity:7523613925440045056",
     "urn:li:activity:7523636908435103745",
     "urn:li:activity:7523964426870239233",
-    "urn:li:activity:7523959444100177920"
+    "urn:li:activity:7523959444100177920",
+    "urn:li:activity:7524009192785870848",
+    "urn:li:activity:7523999794051248128",
+    "urn:li:activity:7523989643223134208",
+    "urn:li:activity:7523989669584334849",
+    "urn:li:activity:7523989607840149505",
+    "urn:li:activity:7523985654477967360",
+    "urn:li:activity:7523982820252413953",
+    "urn:li:activity:7523973481265508352"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2666,7 +2674,9 @@
     "cv.in@qboydsolutions.com",
     "careers@cyrino.com",
     "namrata.chauhan@patchinfotech.com",
-    "tkale@eteaminc.com"
+    "tkale@eteaminc.com",
+    "amrita.majumdar@qiskitq.com",
+    "bhuwan@scrobits.com"
   ],
   "contacted_details": [
     {
@@ -20348,8 +20358,9 @@
       "email": "onewebmart3@gmail.com",
       "thread_id": "1a1a5948bd8fc9e0",
       "message_id": "1a1a5948bd8fc9e0",
-      "followed_up": false,
-      "timestamp": "2026-11-04T08:02:18.302239"
+      "followed_up": true,
+      "timestamp": "2026-11-04T08:02:18.302239",
+      "followup_timestamp": "2026-11-05T13:44:43.668336"
     },
     {
       "urn": "urn:li:activity:7523621006150864897",
@@ -20357,8 +20368,9 @@
       "email": "ashok.nowwin@protonmail.com",
       "thread_id": "1a1a59492f0602b0",
       "message_id": "1a1a59492f0602b0",
-      "followed_up": false,
-      "timestamp": "2026-11-04T08:02:20.216163"
+      "followed_up": true,
+      "timestamp": "2026-11-04T08:02:20.216163",
+      "followup_timestamp": "2026-11-05T13:44:45.886347"
     },
     {
       "urn": "urn:li:activity:7523639691234148352",
@@ -20366,8 +20378,9 @@
       "email": "info@glo-train.com",
       "thread_id": "1a1a5949a5ef2b6a",
       "message_id": "1a1a5949a5ef2b6a",
-      "followed_up": false,
-      "timestamp": "2026-11-04T08:02:22.079984"
+      "followed_up": true,
+      "timestamp": "2026-11-04T08:02:22.079984",
+      "followup_timestamp": "2026-11-05T13:44:48.365838"
     },
     {
       "urn": "urn:li:activity:7523619585514934272",
@@ -20375,8 +20388,9 @@
       "email": "ashok.nowwin@protonmail.com",
       "thread_id": "1a1a594a0b4d18b5",
       "message_id": "1a1a594a0b4d18b5",
-      "followed_up": false,
-      "timestamp": "2026-11-04T08:02:23.962099"
+      "followed_up": true,
+      "timestamp": "2026-11-04T08:02:23.962099",
+      "followup_timestamp": "2026-11-05T13:44:50.593461"
     },
     {
       "urn": "urn:li:activity:7523613854585561088",
@@ -20384,8 +20398,9 @@
       "email": "careers@ilytixservices.com",
       "thread_id": "1a1a594a8fb113f2",
       "message_id": "1a1a594a8fb113f2",
-      "followed_up": false,
-      "timestamp": "2026-11-04T08:02:25.716254"
+      "followed_up": true,
+      "timestamp": "2026-11-04T08:02:25.716254",
+      "followup_timestamp": "2026-11-05T13:44:52.833192"
     },
     {
       "urn": "urn:li:activity:7523615954216333312",
@@ -20393,8 +20408,9 @@
       "email": "cv.in@qboydsolutions.com",
       "thread_id": "1a1a594ae0bb1c16",
       "message_id": "1a1a594ae0bb1c16",
-      "followed_up": false,
-      "timestamp": "2026-11-04T08:02:27.563115"
+      "followed_up": true,
+      "timestamp": "2026-11-04T08:02:27.563115",
+      "followup_timestamp": "2026-11-05T13:44:55.050573"
     },
     {
       "urn": "urn:li:activity:7523613925440045056",
@@ -20402,8 +20418,9 @@
       "email": "careers@cyrino.com",
       "thread_id": "1a1a594b7f112a79",
       "message_id": "1a1a594b7f112a79",
-      "followed_up": false,
-      "timestamp": "2026-11-04T08:02:29.329064"
+      "followed_up": true,
+      "timestamp": "2026-11-04T08:02:29.329064",
+      "followup_timestamp": "2026-11-05T13:44:57.267453"
     },
     {
       "urn": "urn:li:activity:7523636908435103745",
@@ -20411,8 +20428,9 @@
       "email": "namrata.chauhan@patchinfotech.com",
       "thread_id": "1a1a594bd1c73fa7",
       "message_id": "1a1a594bd1c73fa7",
-      "followed_up": false,
-      "timestamp": "2026-11-04T08:02:31.181141"
+      "followed_up": true,
+      "timestamp": "2026-11-04T08:02:31.181141",
+      "followup_timestamp": "2026-11-05T13:44:59.508046"
     },
     {
       "urn": "urn:li:activity:7523964426870239233",
@@ -20433,6 +20451,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-05T10:03:35.327155"
+    },
+    {
+      "urn": "urn:li:activity:7524009192785870848",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524009192785870848",
+      "email": "mishita.narang@xsassociates.com",
+      "thread_id": "1a1aac5df1c4af3a",
+      "message_id": "1a1aac5df1c4af3a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-05T13:44:17.095503"
+    },
+    {
+      "urn": "urn:li:activity:7523999794051248128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523999794051248128",
+      "email": "amrita.majumdar@qiskitq.com",
+      "thread_id": "1a1aac5e7431a5d3",
+      "message_id": "1a1aac5e7431a5d3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-05T13:44:19.102816"
+    },
+    {
+      "urn": "urn:li:activity:7523989643223134208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523989643223134208",
+      "email": "careers@vextarainfo.com",
+      "thread_id": "1a1aac5f9c3435e0",
+      "message_id": "1a1aac5f9c3435e0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-05T13:44:23.927069"
+    },
+    {
+      "urn": "urn:li:activity:7523989669584334849",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523989669584334849",
+      "email": "careers@vextarainfo.com",
+      "thread_id": "1a1aac60a582c737",
+      "message_id": "1a1aac60a582c737",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-05T13:44:28.464488"
+    },
+    {
+      "urn": "urn:li:activity:7523989607840149505",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523989607840149505",
+      "email": "careers@vextarainfo.com",
+      "thread_id": "1a1aac61ae509f5e",
+      "message_id": "1a1aac61ae509f5e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-05T13:44:32.491309"
+    },
+    {
+      "urn": "urn:li:activity:7523985654477967360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523985654477967360",
+      "email": "info@glo-train.com",
+      "thread_id": "1a1aac622a2677d1",
+      "message_id": "1a1aac622a2677d1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-05T13:44:34.421139"
+    },
+    {
+      "urn": "urn:li:activity:7523982820252413953",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523982820252413953",
+      "email": "info@aarnikshasolutions.com",
+      "thread_id": "1a1aac634ad9ddd8",
+      "message_id": "1a1aac634ad9ddd8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-05T13:44:39.121195"
+    },
+    {
+      "urn": "urn:li:activity:7523973481265508352",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7523973481265508352",
+      "email": "bhuwan@scrobits.com",
+      "thread_id": "1a1aac63c66b69af",
+      "message_id": "1a1aac63c66b69af",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-05T13:44:41.165169"
     }
   ]
 }
