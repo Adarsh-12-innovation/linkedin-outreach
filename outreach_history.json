@@ -1703,7 +1703,14 @@
     "urn:li:activity:7524398842201432064",
     "urn:li:activity:7524397124260745216",
     "urn:li:activity:7524371990691139584",
-    "urn:li:activity:7524365558251724800"
+    "urn:li:activity:7524365558251724800",
+    "urn:li:activity:7524432775433859072",
+    "urn:li:activity:7524424202150666240",
+    "urn:li:activity:7524423688776114176",
+    "urn:li:activity:7524422239769964545",
+    "urn:li:activity:7524421035509575680",
+    "urn:li:activity:7524419606610997248",
+    "urn:li:activity:7524380168996696064"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2681,7 +2688,8 @@
     "tkale@eteaminc.com",
     "amrita.majumdar@qiskitq.com",
     "bhuwan@scrobits.com",
-    "sadiq@bssrecruit.com"
+    "sadiq@bssrecruit.com",
+    "daksh@key2source.com"
   ],
   "contacted_details": [
     {
@@ -20577,6 +20585,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-06T15:43:32.141764"
+    },
+    {
+      "urn": "urn:li:activity:7524432775433859072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524432775433859072",
+      "email": "sanjana.patel@huemot.com",
+      "thread_id": "1a1b0b9c13042b56",
+      "message_id": "1a1b0b9c13042b56",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T17:28:45.760699"
+    },
+    {
+      "urn": "urn:li:activity:7524424202150666240",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524424202150666240",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1b0b9cfcf60d75",
+      "message_id": "1a1b0b9cfcf60d75",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T17:28:49.318622"
+    },
+    {
+      "urn": "urn:li:activity:7524423688776114176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524423688776114176",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1b0b9d8474d181",
+      "message_id": "1a1b0b9d8474d181",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T17:28:51.901944"
+    },
+    {
+      "urn": "urn:li:activity:7524422239769964545",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524422239769964545",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1b0b9e452309a5",
+      "message_id": "1a1b0b9e452309a5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T17:28:55.105492"
+    },
+    {
+      "urn": "urn:li:activity:7524421035509575680",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524421035509575680",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1b0b9f0bb93a57",
+      "message_id": "1a1b0b9f0bb93a57",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T17:28:57.723457"
+    },
+    {
+      "urn": "urn:li:activity:7524419606610997248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524419606610997248",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1b0b9ff8874b40",
+      "message_id": "1a1b0b9ff8874b40",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T17:29:01.625462"
+    },
+    {
+      "urn": "urn:li:activity:7524380168996696064",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524380168996696064",
+      "email": "daksh@key2source.com",
+      "thread_id": "1a1b0ba14420d4f1",
+      "message_id": "1a1b0ba14420d4f1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T17:29:07.028646"
     }
   ]
 }
