@@ -1699,7 +1699,11 @@
     "urn:li:activity:7523989607840149505",
     "urn:li:activity:7523985654477967360",
     "urn:li:activity:7523982820252413953",
-    "urn:li:activity:7523973481265508352"
+    "urn:li:activity:7523973481265508352",
+    "urn:li:activity:7524398842201432064",
+    "urn:li:activity:7524397124260745216",
+    "urn:li:activity:7524371990691139584",
+    "urn:li:activity:7524365558251724800"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2676,7 +2680,8 @@
     "namrata.chauhan@patchinfotech.com",
     "tkale@eteaminc.com",
     "amrita.majumdar@qiskitq.com",
-    "bhuwan@scrobits.com"
+    "bhuwan@scrobits.com",
+    "sadiq@bssrecruit.com"
   ],
   "contacted_details": [
     {
@@ -20438,7 +20443,7 @@
       "email": "hasini.rageesh@vitimcloud.com",
       "thread_id": "1a1a9fbbf64e421f",
       "message_id": "1a1a9fbbf64e421f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-05T10:03:30.793534"
     },
@@ -20448,9 +20453,10 @@
       "email": "tkale@eteaminc.com",
       "thread_id": "1a1a9fbd04da7323",
       "message_id": "1a1a9fbd04da7323",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-05T10:03:35.327155"
+      "timestamp": "2026-11-05T10:03:35.327155",
+      "followup_timestamp": "2026-11-06T15:43:34.911198"
     },
     {
       "urn": "urn:li:activity:7524009192785870848",
@@ -20531,6 +20537,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-05T13:44:41.165169"
+    },
+    {
+      "urn": "urn:li:activity:7524398842201432064",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524398842201432064",
+      "email": "hasini.rageesh@vitimcloud.com",
+      "thread_id": "1a1b05932b32c3f6",
+      "message_id": "1a1b05932b32c3f6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T15:43:17.842046"
+    },
+    {
+      "urn": "urn:li:activity:7524397124260745216",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524397124260745216",
+      "email": "sadiq@bssrecruit.com",
+      "thread_id": "1a1b0594702a4edf",
+      "message_id": "1a1b0594702a4edf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T15:43:22.945928"
+    },
+    {
+      "urn": "urn:li:activity:7524371990691139584",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524371990691139584",
+      "email": "vaibhav.pathak@genisysapp.com",
+      "thread_id": "1a1b059628a169ae",
+      "message_id": "1a1b059628a169ae",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T15:43:30.189422"
+    },
+    {
+      "urn": "urn:li:activity:7524365558251724800",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524365558251724800",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a1b0596bb6f4ed5",
+      "message_id": "1a1b0596bb6f4ed5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-06T15:43:32.141764"
     }
   ]
 }
