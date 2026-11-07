@@ -1710,7 +1710,9 @@
     "urn:li:activity:7524422239769964545",
     "urn:li:activity:7524421035509575680",
     "urn:li:activity:7524419606610997248",
-    "urn:li:activity:7524380168996696064"
+    "urn:li:activity:7524380168996696064",
+    "urn:li:activity:7524662091837014016",
+    "urn:li:activity:7524582741594562561"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2689,7 +2691,9 @@
     "amrita.majumdar@qiskitq.com",
     "bhuwan@scrobits.com",
     "sadiq@bssrecruit.com",
-    "daksh@key2source.com"
+    "daksh@key2source.com",
+    "hello@wigwamgroup.com",
+    "Samir@smallarc.com"
   ],
   "contacted_details": [
     {
@@ -20472,9 +20476,10 @@
       "email": "mishita.narang@xsassociates.com",
       "thread_id": "1a1aac5df1c4af3a",
       "message_id": "1a1aac5df1c4af3a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-05T13:44:17.095503"
+      "timestamp": "2026-11-05T13:44:17.095503",
+      "followup_timestamp": "2026-11-07T12:53:46.822843"
     },
     {
       "urn": "urn:li:activity:7523999794051248128",
@@ -20482,9 +20487,10 @@
       "email": "amrita.majumdar@qiskitq.com",
       "thread_id": "1a1aac5e7431a5d3",
       "message_id": "1a1aac5e7431a5d3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-05T13:44:19.102816"
+      "timestamp": "2026-11-05T13:44:19.102816",
+      "followup_timestamp": "2026-11-07T12:53:49.201133"
     },
     {
       "urn": "urn:li:activity:7523989643223134208",
@@ -20492,7 +20498,7 @@
       "email": "careers@vextarainfo.com",
       "thread_id": "1a1aac5f9c3435e0",
       "message_id": "1a1aac5f9c3435e0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-05T13:44:23.927069"
     },
@@ -20502,7 +20508,7 @@
       "email": "careers@vextarainfo.com",
       "thread_id": "1a1aac60a582c737",
       "message_id": "1a1aac60a582c737",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-05T13:44:28.464488"
     },
@@ -20512,7 +20518,7 @@
       "email": "careers@vextarainfo.com",
       "thread_id": "1a1aac61ae509f5e",
       "message_id": "1a1aac61ae509f5e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-05T13:44:32.491309"
     },
@@ -20522,9 +20528,10 @@
       "email": "info@glo-train.com",
       "thread_id": "1a1aac622a2677d1",
       "message_id": "1a1aac622a2677d1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-05T13:44:34.421139"
+      "timestamp": "2026-11-05T13:44:34.421139",
+      "followup_timestamp": "2026-11-07T12:53:52.487875"
     },
     {
       "urn": "urn:li:activity:7523982820252413953",
@@ -20532,9 +20539,10 @@
       "email": "info@aarnikshasolutions.com",
       "thread_id": "1a1aac634ad9ddd8",
       "message_id": "1a1aac634ad9ddd8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-05T13:44:39.121195"
+      "timestamp": "2026-11-05T13:44:39.121195",
+      "followup_timestamp": "2026-11-07T12:53:55.118186"
     },
     {
       "urn": "urn:li:activity:7523973481265508352",
@@ -20542,9 +20550,10 @@
       "email": "bhuwan@scrobits.com",
       "thread_id": "1a1aac63c66b69af",
       "message_id": "1a1aac63c66b69af",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-05T13:44:41.165169"
+      "timestamp": "2026-11-05T13:44:41.165169",
+      "followup_timestamp": "2026-11-07T12:53:57.583225"
     },
     {
       "urn": "urn:li:activity:7524398842201432064",
@@ -20655,6 +20664,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-06T17:29:07.028646"
+    },
+    {
+      "urn": "urn:li:activity:7524662091837014016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524662091837014016",
+      "email": "hello@wigwamgroup.com",
+      "thread_id": "1a1b4e447282d816",
+      "message_id": "1a1b4e447282d816",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-07T12:53:41.609336"
+    },
+    {
+      "urn": "urn:li:activity:7524582741594562561",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524582741594562561",
+      "email": "Samir@smallarc.com",
+      "thread_id": "1a1b4e45382c176e",
+      "message_id": "1a1b4e45382c176e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-07T12:53:44.194844"
     }
   ]
 }
