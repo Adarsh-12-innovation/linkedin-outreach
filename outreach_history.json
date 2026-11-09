@@ -1718,7 +1718,11 @@
     "urn:li:activity:7525428855155613696",
     "urn:li:activity:7525450532170432512",
     "urn:li:activity:7525443330269270016",
-    "urn:li:activity:7525493865722732544"
+    "urn:li:activity:7525493865722732544",
+    "urn:li:activity:7525529003760476160",
+    "urn:li:activity:7525511462555975680",
+    "urn:li:activity:7525510425522810880",
+    "urn:li:activity:7525491508003635200"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2703,7 +2707,10 @@
     "mounika.b@kksoftwareassociates.com",
     "info@dataabsolute.com",
     "deepak@forcecraver.com",
-    "sonam.kumari@msrscorp.com"
+    "sonam.kumari@msrscorp.com",
+    "Eshwarprasad.work@gmail.com",
+    "Jaswant@vergilremnant.com",
+    "shital.damale@aviratalent.com"
   ],
   "contacted_details": [
     {
@@ -20764,6 +20771,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-09T15:57:21.048803"
+    },
+    {
+      "urn": "urn:li:activity:7525529003760476160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525529003760476160",
+      "email": "Eshwarprasad.work@gmail.com",
+      "thread_id": "1a1c089ec63abe83",
+      "message_id": "1a1c089ec63abe83",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-09T19:10:27.657141"
+    },
+    {
+      "urn": "urn:li:activity:7525511462555975680",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525511462555975680",
+      "email": "deepak@forcecraver.com",
+      "thread_id": "1a1c089f7ff96c0c",
+      "message_id": "1a1c089f7ff96c0c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-09T19:10:29.941412"
+    },
+    {
+      "urn": "urn:li:activity:7525510425522810880",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525510425522810880",
+      "email": "Jaswant@vergilremnant.com",
+      "thread_id": "1a1c08a0a8a1ea2b",
+      "message_id": "1a1c08a0a8a1ea2b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-09T19:10:34.981522"
+    },
+    {
+      "urn": "urn:li:activity:7525491508003635200",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525491508003635200",
+      "email": "shital.damale@aviratalent.com",
+      "thread_id": "1a1c08a12a6a76a5",
+      "message_id": "1a1c08a12a6a76a5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-09T19:10:36.854355"
     }
   ]
 }
