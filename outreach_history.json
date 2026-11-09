@@ -1715,7 +1715,9 @@
     "urn:li:activity:7524582741594562561",
     "urn:li:activity:7525400442432802816",
     "urn:li:activity:7525435652419772416",
-    "urn:li:activity:7525428855155613696"
+    "urn:li:activity:7525428855155613696",
+    "urn:li:activity:7525450532170432512",
+    "urn:li:activity:7525443330269270016"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2697,7 +2699,9 @@
     "daksh@key2source.com",
     "hello@wigwamgroup.com",
     "Samir@smallarc.com",
-    "mounika.b@kksoftwareassociates.com"
+    "mounika.b@kksoftwareassociates.com",
+    "info@dataabsolute.com",
+    "deepak@forcecraver.com"
   ],
   "contacted_details": [
     {
@@ -20728,6 +20732,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-09T11:51:19.197275"
+    },
+    {
+      "urn": "urn:li:activity:7525450532170432512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525450532170432512",
+      "email": "info@dataabsolute.com",
+      "thread_id": "1a1bf91dfd26c1a2",
+      "message_id": "1a1bf91dfd26c1a2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-09T14:39:31.161069"
+    },
+    {
+      "urn": "urn:li:activity:7525443330269270016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525443330269270016",
+      "email": "deepak@forcecraver.com",
+      "thread_id": "1a1bf91eb1dd5f53",
+      "message_id": "1a1bf91eb1dd5f53",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-09T14:39:33.840297"
     }
   ]
 }
