@@ -1717,7 +1717,8 @@
     "urn:li:activity:7525435652419772416",
     "urn:li:activity:7525428855155613696",
     "urn:li:activity:7525450532170432512",
-    "urn:li:activity:7525443330269270016"
+    "urn:li:activity:7525443330269270016",
+    "urn:li:activity:7525493865722732544"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2701,7 +2702,8 @@
     "Samir@smallarc.com",
     "mounika.b@kksoftwareassociates.com",
     "info@dataabsolute.com",
-    "deepak@forcecraver.com"
+    "deepak@forcecraver.com",
+    "sonam.kumari@msrscorp.com"
   ],
   "contacted_details": [
     {
@@ -20752,6 +20754,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-09T14:39:33.840297"
+    },
+    {
+      "urn": "urn:li:activity:7525493865722732544",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525493865722732544",
+      "email": "sonam.kumari@msrscorp.com",
+      "thread_id": "1a1bfd922ca2eb3c",
+      "message_id": "1a1bfd922ca2eb3c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-09T15:57:21.048803"
     }
   ]
 }
