@@ -1713,7 +1713,9 @@
     "urn:li:activity:7524380168996696064",
     "urn:li:activity:7524662091837014016",
     "urn:li:activity:7524582741594562561",
-    "urn:li:activity:7525400442432802816"
+    "urn:li:activity:7525400442432802816",
+    "urn:li:activity:7525435652419772416",
+    "urn:li:activity:7525428855155613696"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2694,7 +2696,8 @@
     "sadiq@bssrecruit.com",
     "daksh@key2source.com",
     "hello@wigwamgroup.com",
-    "Samir@smallarc.com"
+    "Samir@smallarc.com",
+    "mounika.b@kksoftwareassociates.com"
   ],
   "contacted_details": [
     {
@@ -20705,6 +20708,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-09T10:25:45.628879"
+    },
+    {
+      "urn": "urn:li:activity:7525435652419772416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525435652419772416",
+      "email": "mounika.b@kksoftwareassociates.com",
+      "thread_id": "1a1bef7db0346218",
+      "message_id": "1a1bef7db0346218",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-09T11:51:17.230996"
+    },
+    {
+      "urn": "urn:li:activity:7525428855155613696",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525428855155613696",
+      "email": "leela.revanth@adroitinnovative.com",
+      "thread_id": "1a1bef7e31a341dc",
+      "message_id": "1a1bef7e31a341dc",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-09T11:51:19.197275"
     }
   ]
 }
