@@ -1739,7 +1739,9 @@
     "urn:li:activity:7525714067081220096",
     "urn:li:activity:7525840977278816256",
     "urn:li:activity:7525865567925325826",
-    "urn:li:activity:7525861375353692162"
+    "urn:li:activity:7525861375353692162",
+    "urn:li:activity:7525891387884752896",
+    "urn:li:activity:7525878566853578752"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2737,7 +2739,8 @@
     "golapi.banerjee@yatiresource.com",
     "sreekanth@burgeonits.net",
     "madhavam@altops.co",
-    "hania@nirasystems.com"
+    "hania@nirasystems.com",
+    "shreya@rskitsolutions.com"
   ],
   "contacted_details": [
     {
@@ -20756,9 +20759,10 @@
       "email": "mounika.b@kksoftwareassociates.com",
       "thread_id": "1a1bef7db0346218",
       "message_id": "1a1bef7db0346218",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T11:51:17.230996"
+      "timestamp": "2026-11-09T11:51:17.230996",
+      "followup_timestamp": "2026-11-10T17:43:06.029439"
     },
     {
       "urn": "urn:li:activity:7525428855155613696",
@@ -20766,9 +20770,10 @@
       "email": "leela.revanth@adroitinnovative.com",
       "thread_id": "1a1bef7e31a341dc",
       "message_id": "1a1bef7e31a341dc",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T11:51:19.197275"
+      "timestamp": "2026-11-09T11:51:19.197275",
+      "followup_timestamp": "2026-11-10T17:43:08.565511"
     },
     {
       "urn": "urn:li:activity:7525450532170432512",
@@ -21005,6 +21010,26 @@
       "message_id": "1a1c514873dc9fe4",
       "followed_up": false,
       "timestamp": "2026-11-10T10:50:19.390401"
+    },
+    {
+      "urn": "urn:li:activity:7525891387884752896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525891387884752896",
+      "email": "shreya@rskitsolutions.com",
+      "thread_id": "1a1c5603a80cc97c",
+      "message_id": "1a1c5603a80cc97c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T17:43:01.116323"
+    },
+    {
+      "urn": "urn:li:activity:7525878566853578752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525878566853578752",
+      "email": "deepak@forcecraver.com",
+      "thread_id": "1a1c56043fb782a1",
+      "message_id": "1a1c56043fb782a1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T17:43:02.992641"
     }
   ]
 }
