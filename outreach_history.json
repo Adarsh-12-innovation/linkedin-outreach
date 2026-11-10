@@ -1734,7 +1734,8 @@
     "urn:li:activity:7525816579788431360",
     "urn:li:activity:7525813011392155648",
     "urn:li:activity:7525806714110193666",
-    "urn:li:activity:7525801394050707456"
+    "urn:li:activity:7525801394050707456",
+    "urn:li:activity:7525807516392251392"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2729,7 +2730,8 @@
     "parminder@cortexbleu.com",
     "shalini@qiaska.com",
     "Sapna@dynamicsmonk.com",
-    "golapi.banerjee@yatiresource.com"
+    "golapi.banerjee@yatiresource.com",
+    "sreekanth@burgeonits.net"
   ],
   "contacted_details": [
     {
@@ -20950,6 +20952,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-10T13:47:28.347984"
+    },
+    {
+      "urn": "urn:li:activity:7525807516392251392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525807516392251392",
+      "email": "sreekanth@burgeonits.net",
+      "thread_id": "1a1c4fb29389246a",
+      "message_id": "1a1c4fb29389246a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T15:52:37.253133"
     }
   ]
 }
