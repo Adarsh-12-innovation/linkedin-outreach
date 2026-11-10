@@ -1724,7 +1724,11 @@
     "urn:li:activity:7525510425522810880",
     "urn:li:activity:7525491508003635200",
     "urn:li:activity:7525772268493520896",
-    "urn:li:activity:7525756423771820033"
+    "urn:li:activity:7525756423771820033",
+    "urn:li:activity:7525803293441318912",
+    "urn:li:activity:7525796763878920193",
+    "urn:li:activity:7525790529293443074",
+    "urn:li:activity:7525777172616216578"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2713,7 +2717,9 @@
     "Eshwarprasad.work@gmail.com",
     "Jaswant@vergilremnant.com",
     "shital.damale@aviratalent.com",
-    "Watcharapong.ballz@gmail.com"
+    "Watcharapong.ballz@gmail.com",
+    "career@techopusin.com",
+    "Rishabh@infowaygroup.com"
   ],
   "contacted_details": [
     {
@@ -20834,6 +20840,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-10T10:05:31.501039"
+    },
+    {
+      "urn": "urn:li:activity:7525803293441318912",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525803293441318912",
+      "email": "career@techopusin.com",
+      "thread_id": "1a1c42e9fc1402ba",
+      "message_id": "1a1c42e9fc1402ba",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T12:09:12.732699"
+    },
+    {
+      "urn": "urn:li:activity:7525796763878920193",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525796763878920193",
+      "email": "Rishabh@infowaygroup.com",
+      "thread_id": "1a1c42eaa25974f4",
+      "message_id": "1a1c42eaa25974f4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T12:09:15.579349"
+    },
+    {
+      "urn": "urn:li:activity:7525790529293443074",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525790529293443074",
+      "email": "Shreya@infowaygroup.com",
+      "thread_id": "1a1c42eb531078ac",
+      "message_id": "1a1c42eb531078ac",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T12:09:18.162167"
+    },
+    {
+      "urn": "urn:li:activity:7525777172616216578",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525777172616216578",
+      "email": "sonam.kumari@msrscorp.com",
+      "thread_id": "1a1c42ebae2209f7",
+      "message_id": "1a1c42ebae2209f7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T12:09:19.925018"
     }
   ]
 }
