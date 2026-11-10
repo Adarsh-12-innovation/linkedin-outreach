@@ -1735,7 +1735,11 @@
     "urn:li:activity:7525813011392155648",
     "urn:li:activity:7525806714110193666",
     "urn:li:activity:7525801394050707456",
-    "urn:li:activity:7525807516392251392"
+    "urn:li:activity:7525807516392251392",
+    "urn:li:activity:7525714067081220096",
+    "urn:li:activity:7525840977278816256",
+    "urn:li:activity:7525865567925325826",
+    "urn:li:activity:7525861375353692162"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2731,7 +2735,9 @@
     "shalini@qiaska.com",
     "Sapna@dynamicsmonk.com",
     "golapi.banerjee@yatiresource.com",
-    "sreekanth@burgeonits.net"
+    "sreekanth@burgeonits.net",
+    "madhavam@altops.co",
+    "hania@nirasystems.com"
   ],
   "contacted_details": [
     {
@@ -20739,9 +20745,10 @@
       "email": "ahmad.ridho@nityo.com",
       "thread_id": "1a1bea98c79eff74",
       "message_id": "1a1bea98c79eff74",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T10:25:45.628879"
+      "timestamp": "2026-11-09T10:25:45.628879",
+      "followup_timestamp": "2026-11-10T10:50:20.943716"
     },
     {
       "urn": "urn:li:activity:7525435652419772416",
@@ -20962,6 +20969,42 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-10T15:52:37.253133"
+    },
+    {
+      "urn": "urn:li:activity:7525714067081220096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525714067081220096",
+      "email": "madhavam@altops.co",
+      "thread_id": "1a1c514738190275",
+      "message_id": "1a1c514738190275",
+      "followed_up": false,
+      "timestamp": "2026-11-10T10:50:14.437244"
+    },
+    {
+      "urn": "urn:li:activity:7525840977278816256",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525840977278816256",
+      "email": "careers@cyrino.com",
+      "thread_id": "1a1c51478e2fb4aa",
+      "message_id": "1a1c51478e2fb4aa",
+      "followed_up": false,
+      "timestamp": "2026-11-10T10:50:16.104007"
+    },
+    {
+      "urn": "urn:li:activity:7525865567925325826",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525865567925325826",
+      "email": "hania@nirasystems.com",
+      "thread_id": "1a1c514808d343ea",
+      "message_id": "1a1c514808d343ea",
+      "followed_up": false,
+      "timestamp": "2026-11-10T10:50:17.706718"
+    },
+    {
+      "urn": "urn:li:activity:7525861375353692162",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525861375353692162",
+      "email": "hania@nirasystems.com",
+      "thread_id": "1a1c514873dc9fe4",
+      "message_id": "1a1c514873dc9fe4",
+      "followed_up": false,
+      "timestamp": "2026-11-10T10:50:19.390401"
     }
   ]
 }
