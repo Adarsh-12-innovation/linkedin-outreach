@@ -1728,7 +1728,13 @@
     "urn:li:activity:7525803293441318912",
     "urn:li:activity:7525796763878920193",
     "urn:li:activity:7525790529293443074",
-    "urn:li:activity:7525777172616216578"
+    "urn:li:activity:7525777172616216578",
+    "urn:li:activity:7525832489999708160",
+    "urn:li:activity:7525826594381258753",
+    "urn:li:activity:7525816579788431360",
+    "urn:li:activity:7525813011392155648",
+    "urn:li:activity:7525806714110193666",
+    "urn:li:activity:7525801394050707456"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2719,7 +2725,11 @@
     "shital.damale@aviratalent.com",
     "Watcharapong.ballz@gmail.com",
     "career@techopusin.com",
-    "Rishabh@infowaygroup.com"
+    "Rishabh@infowaygroup.com",
+    "parminder@cortexbleu.com",
+    "shalini@qiaska.com",
+    "Sapna@dynamicsmonk.com",
+    "golapi.banerjee@yatiresource.com"
   ],
   "contacted_details": [
     {
@@ -20880,6 +20890,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-10T12:09:19.925018"
+    },
+    {
+      "urn": "urn:li:activity:7525832489999708160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525832489999708160",
+      "email": "parminder@cortexbleu.com",
+      "thread_id": "1a1c48855c92b0f2",
+      "message_id": "1a1c48855c92b0f2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T13:47:11.957184"
+    },
+    {
+      "urn": "urn:li:activity:7525826594381258753",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525826594381258753",
+      "email": "harika.m@people-prime.com",
+      "thread_id": "1a1c4885ef81ef8a",
+      "message_id": "1a1c4885ef81ef8a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T13:47:14.630738"
+    },
+    {
+      "urn": "urn:li:activity:7525816579788431360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525816579788431360",
+      "email": "shalini@qiaska.com",
+      "thread_id": "1a1c48867edc1c4b",
+      "message_id": "1a1c48867edc1c4b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T13:47:16.667940"
+    },
+    {
+      "urn": "urn:li:activity:7525813011392155648",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525813011392155648",
+      "email": "Sapna@dynamicsmonk.com",
+      "thread_id": "1a1c488786440cc1",
+      "message_id": "1a1c488786440cc1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T13:47:21.295597"
+    },
+    {
+      "urn": "urn:li:activity:7525806714110193666",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525806714110193666",
+      "email": "tkale@eteaminc.com",
+      "thread_id": "1a1c488810b1c37a",
+      "message_id": "1a1c488810b1c37a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T13:47:23.197689"
+    },
+    {
+      "urn": "urn:li:activity:7525801394050707456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525801394050707456",
+      "email": "golapi.banerjee@yatiresource.com",
+      "thread_id": "1a1c4889580f985b",
+      "message_id": "1a1c4889580f985b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T13:47:28.347984"
     }
   ]
 }
