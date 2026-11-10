@@ -1722,7 +1722,9 @@
     "urn:li:activity:7525529003760476160",
     "urn:li:activity:7525511462555975680",
     "urn:li:activity:7525510425522810880",
-    "urn:li:activity:7525491508003635200"
+    "urn:li:activity:7525491508003635200",
+    "urn:li:activity:7525772268493520896",
+    "urn:li:activity:7525756423771820033"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2710,7 +2712,8 @@
     "sonam.kumari@msrscorp.com",
     "Eshwarprasad.work@gmail.com",
     "Jaswant@vergilremnant.com",
-    "shital.damale@aviratalent.com"
+    "shital.damale@aviratalent.com",
+    "Watcharapong.ballz@gmail.com"
   ],
   "contacted_details": [
     {
@@ -20811,6 +20814,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-09T19:10:36.854355"
+    },
+    {
+      "urn": "urn:li:activity:7525772268493520896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525772268493520896",
+      "email": "harika.m@people-prime.com",
+      "thread_id": "1a1c3bd57a1f63e9",
+      "message_id": "1a1c3bd57a1f63e9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T10:05:29.117654"
+    },
+    {
+      "urn": "urn:li:activity:7525756423771820033",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525756423771820033",
+      "email": "Watcharapong.ballz@gmail.com",
+      "thread_id": "1a1c3bd60ad3cc18",
+      "message_id": "1a1c3bd60ad3cc18",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T10:05:31.501039"
     }
   ]
 }
