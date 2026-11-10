@@ -1741,7 +1741,11 @@
     "urn:li:activity:7525865567925325826",
     "urn:li:activity:7525861375353692162",
     "urn:li:activity:7525891387884752896",
-    "urn:li:activity:7525878566853578752"
+    "urn:li:activity:7525878566853578752",
+    "urn:li:activity:7525914634240053248",
+    "urn:li:activity:7525903635302465537",
+    "urn:li:activity:7525901982956597248",
+    "urn:li:activity:7525894303911706624"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2740,7 +2744,9 @@
     "sreekanth@burgeonits.net",
     "madhavam@altops.co",
     "hania@nirasystems.com",
-    "shreya@rskitsolutions.com"
+    "shreya@rskitsolutions.com",
+    "vamsidhar@symbastech.com",
+    "contato@licenciadorh.com.br"
   ],
   "contacted_details": [
     {
@@ -21030,6 +21036,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-10T17:43:02.992641"
+    },
+    {
+      "urn": "urn:li:activity:7525914634240053248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525914634240053248",
+      "email": "vamsidhar@symbastech.com",
+      "thread_id": "1a1c5b2d2abd84d9",
+      "message_id": "1a1c5b2d2abd84d9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T19:13:13.956084"
+    },
+    {
+      "urn": "urn:li:activity:7525903635302465537",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525903635302465537",
+      "email": "recruiting@apexitcs.org",
+      "thread_id": "1a1c5b2e2b8cc6ab",
+      "message_id": "1a1c5b2e2b8cc6ab",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T19:13:17.724917"
+    },
+    {
+      "urn": "urn:li:activity:7525901982956597248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525901982956597248",
+      "email": "contato@licenciadorh.com.br",
+      "thread_id": "1a1c5b2ec144128b",
+      "message_id": "1a1c5b2ec144128b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T19:13:20.378385"
+    },
+    {
+      "urn": "urn:li:activity:7525894303911706624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525894303911706624",
+      "email": "deepak@forcecraver.com",
+      "thread_id": "1a1c5b2f72c65326",
+      "message_id": "1a1c5b2f72c65326",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-10T19:13:23.141232"
     }
   ]
 }
