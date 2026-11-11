@@ -1758,7 +1758,9 @@
     "urn:li:activity:7526202466145755136",
     "urn:li:activity:7526194198677590016",
     "urn:li:activity:7526171662044725249",
-    "urn:li:activity:7526171520407293952"
+    "urn:li:activity:7526171520407293952",
+    "urn:li:activity:7526242633669795840",
+    "urn:li:activity:7526237567009267712"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -20907,9 +20909,10 @@
       "email": "career@techopusin.com",
       "thread_id": "1a1c42e9fc1402ba",
       "message_id": "1a1c42e9fc1402ba",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T12:09:12.732699"
+      "timestamp": "2026-11-10T12:09:12.732699",
+      "followup_timestamp": "2026-11-11T18:16:06.514868"
     },
     {
       "urn": "urn:li:activity:7525796763878920193",
@@ -20917,9 +20920,10 @@
       "email": "Rishabh@infowaygroup.com",
       "thread_id": "1a1c42eaa25974f4",
       "message_id": "1a1c42eaa25974f4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T12:09:15.579349"
+      "timestamp": "2026-11-10T12:09:15.579349",
+      "followup_timestamp": "2026-11-11T18:16:08.792123"
     },
     {
       "urn": "urn:li:activity:7525790529293443074",
@@ -20927,9 +20931,10 @@
       "email": "Shreya@infowaygroup.com",
       "thread_id": "1a1c42eb531078ac",
       "message_id": "1a1c42eb531078ac",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T12:09:18.162167"
+      "timestamp": "2026-11-10T12:09:18.162167",
+      "followup_timestamp": "2026-11-11T18:16:11.046282"
     },
     {
       "urn": "urn:li:activity:7525777172616216578",
@@ -20937,9 +20942,10 @@
       "email": "sonam.kumari@msrscorp.com",
       "thread_id": "1a1c42ebae2209f7",
       "message_id": "1a1c42ebae2209f7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T12:09:19.925018"
+      "timestamp": "2026-11-10T12:09:19.925018",
+      "followup_timestamp": "2026-11-11T18:16:13.526387"
     },
     {
       "urn": "urn:li:activity:7525832489999708160",
@@ -21017,8 +21023,9 @@
       "email": "madhavam@altops.co",
       "thread_id": "1a1c514738190275",
       "message_id": "1a1c514738190275",
-      "followed_up": false,
-      "timestamp": "2026-11-10T10:50:14.437244"
+      "followed_up": true,
+      "timestamp": "2026-11-10T10:50:14.437244",
+      "followup_timestamp": "2026-11-11T18:16:15.882295"
     },
     {
       "urn": "urn:li:activity:7525840977278816256",
@@ -21026,8 +21033,9 @@
       "email": "careers@cyrino.com",
       "thread_id": "1a1c51478e2fb4aa",
       "message_id": "1a1c51478e2fb4aa",
-      "followed_up": false,
-      "timestamp": "2026-11-10T10:50:16.104007"
+      "followed_up": true,
+      "timestamp": "2026-11-10T10:50:16.104007",
+      "followup_timestamp": "2026-11-11T18:16:18.279295"
     },
     {
       "urn": "urn:li:activity:7525865567925325826",
@@ -21035,8 +21043,9 @@
       "email": "hania@nirasystems.com",
       "thread_id": "1a1c514808d343ea",
       "message_id": "1a1c514808d343ea",
-      "followed_up": false,
-      "timestamp": "2026-11-10T10:50:17.706718"
+      "followed_up": true,
+      "timestamp": "2026-11-10T10:50:17.706718",
+      "followup_timestamp": "2026-11-11T18:16:20.646425"
     },
     {
       "urn": "urn:li:activity:7525861375353692162",
@@ -21044,8 +21053,9 @@
       "email": "hania@nirasystems.com",
       "thread_id": "1a1c514873dc9fe4",
       "message_id": "1a1c514873dc9fe4",
-      "followed_up": false,
-      "timestamp": "2026-11-10T10:50:19.390401"
+      "followed_up": true,
+      "timestamp": "2026-11-10T10:50:19.390401",
+      "followup_timestamp": "2026-11-11T18:16:22.910137"
     },
     {
       "urn": "urn:li:activity:7525891387884752896",
@@ -21236,6 +21246,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-11T16:18:46.445349"
+    },
+    {
+      "urn": "urn:li:activity:7526242633669795840",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526242633669795840",
+      "email": "deepak@forcecraver.com",
+      "thread_id": "1a1caa4d1840c11c",
+      "message_id": "1a1caa4d1840c11c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T18:16:01.866637"
+    },
+    {
+      "urn": "urn:li:activity:7526237567009267712",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526237567009267712",
+      "email": "hr.sgs.consultancy@gmail.com",
+      "thread_id": "1a1caa4da099dc4c",
+      "message_id": "1a1caa4da099dc4c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T18:16:04.252731"
     }
   ]
 }
