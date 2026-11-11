@@ -1760,7 +1760,10 @@
     "urn:li:activity:7526171662044725249",
     "urn:li:activity:7526171520407293952",
     "urn:li:activity:7526242633669795840",
-    "urn:li:activity:7526237567009267712"
+    "urn:li:activity:7526237567009267712",
+    "urn:li:activity:7526271890429186048",
+    "urn:li:activity:7526241232659070976",
+    "urn:li:activity:7526241232948330496"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2769,7 +2772,9 @@
     "hello@hirevibetalent.com",
     "sahil@sapmindsconsulting.com",
     "sumit@mebotiz.com",
-    "zarish.akhtar@dakrishsolutions.com"
+    "zarish.akhtar@dakrishsolutions.com",
+    "bhavya.k@techgrowglobal.com",
+    "talktome@analogueshifts.com"
   ],
   "contacted_details": [
     {
@@ -21266,6 +21271,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-11T18:16:04.252731"
+    },
+    {
+      "urn": "urn:li:activity:7526271890429186048",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526271890429186048",
+      "email": "bhavya.k@techgrowglobal.com",
+      "thread_id": "1a1cadc961020f24",
+      "message_id": "1a1cadc961020f24",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T19:16:56.669814"
+    },
+    {
+      "urn": "urn:li:activity:7526241232659070976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526241232659070976",
+      "email": "talktome@analogueshifts.com",
+      "thread_id": "1a1cadca1b5621be",
+      "message_id": "1a1cadca1b5621be",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T19:16:59.236617"
+    },
+    {
+      "urn": "urn:li:activity:7526241232948330496",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526241232948330496",
+      "email": "talktome@analogueshifts.com",
+      "thread_id": "1a1cadca940d81bb",
+      "message_id": "1a1cadca940d81bb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T19:17:01.571820"
     }
   ]
 }
