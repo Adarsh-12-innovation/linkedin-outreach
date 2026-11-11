@@ -1756,7 +1756,9 @@
     "urn:li:activity:7526168551334977536",
     "urn:li:activity:7526150770266800128",
     "urn:li:activity:7526202466145755136",
-    "urn:li:activity:7526194198677590016"
+    "urn:li:activity:7526194198677590016",
+    "urn:li:activity:7526171662044725249",
+    "urn:li:activity:7526171520407293952"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2764,7 +2766,8 @@
     "prachijat930@gmail.com",
     "hello@hirevibetalent.com",
     "sahil@sapmindsconsulting.com",
-    "sumit@mebotiz.com"
+    "sumit@mebotiz.com",
+    "zarish.akhtar@dakrishsolutions.com"
   ],
   "contacted_details": [
     {
@@ -20882,9 +20885,10 @@
       "email": "harika.m@people-prime.com",
       "thread_id": "1a1c3bd57a1f63e9",
       "message_id": "1a1c3bd57a1f63e9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T10:05:29.117654"
+      "timestamp": "2026-11-10T10:05:29.117654",
+      "followup_timestamp": "2026-11-11T16:18:48.761423"
     },
     {
       "urn": "urn:li:activity:7525756423771820033",
@@ -20892,9 +20896,10 @@
       "email": "Watcharapong.ballz@gmail.com",
       "thread_id": "1a1c3bd60ad3cc18",
       "message_id": "1a1c3bd60ad3cc18",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T10:05:31.501039"
+      "timestamp": "2026-11-10T10:05:31.501039",
+      "followup_timestamp": "2026-11-11T16:18:51.034899"
     },
     {
       "urn": "urn:li:activity:7525803293441318912",
@@ -21211,6 +21216,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-11T14:59:39.751590"
+    },
+    {
+      "urn": "urn:li:activity:7526171662044725249",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526171662044725249",
+      "email": "zarish.akhtar@dakrishsolutions.com",
+      "thread_id": "1a1ca39633083139",
+      "message_id": "1a1ca39633083139",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T16:18:41.182712"
+    },
+    {
+      "urn": "urn:li:activity:7526171520407293952",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526171520407293952",
+      "email": "zarish.akhtar@dakrishsolutions.com",
+      "thread_id": "1a1ca39767702d6b",
+      "message_id": "1a1ca39767702d6b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T16:18:46.445349"
     }
   ]
 }
