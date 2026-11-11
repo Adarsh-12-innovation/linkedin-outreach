@@ -1754,7 +1754,9 @@
     "urn:li:activity:7526191228082835456",
     "urn:li:activity:7526188206136971264",
     "urn:li:activity:7526168551334977536",
-    "urn:li:activity:7526150770266800128"
+    "urn:li:activity:7526150770266800128",
+    "urn:li:activity:7526202466145755136",
+    "urn:li:activity:7526194198677590016"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2760,7 +2762,9 @@
     "hr@daengroup.com",
     "hr@kahutopacific.com",
     "prachijat930@gmail.com",
-    "hello@hirevibetalent.com"
+    "hello@hirevibetalent.com",
+    "sahil@sapmindsconsulting.com",
+    "sumit@mebotiz.com"
   ],
   "contacted_details": [
     {
@@ -21187,6 +21191,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-11T13:54:00.083096"
+    },
+    {
+      "urn": "urn:li:activity:7526202466145755136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526202466145755136",
+      "email": "sahil@sapmindsconsulting.com",
+      "thread_id": "1a1c9f0f37431729",
+      "message_id": "1a1c9f0f37431729",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T14:59:33.760165"
+    },
+    {
+      "urn": "urn:li:activity:7526194198677590016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526194198677590016",
+      "email": "sumit@mebotiz.com",
+      "thread_id": "1a1c9f1092350519",
+      "message_id": "1a1c9f1092350519",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T14:59:39.751590"
     }
   ]
 }
