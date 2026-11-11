@@ -1750,7 +1750,11 @@
     "urn:li:activity:7526158368902832128",
     "urn:li:activity:7526157274113994752",
     "urn:li:activity:7526153633181380608",
-    "urn:li:activity:7526150971484360704"
+    "urn:li:activity:7526150971484360704",
+    "urn:li:activity:7526191228082835456",
+    "urn:li:activity:7526188206136971264",
+    "urn:li:activity:7526168551334977536",
+    "urn:li:activity:7526150770266800128"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2753,7 +2757,10 @@
     "vamsidhar@symbastech.com",
     "contato@licenciadorh.com.br",
     "Bhavya.sharma@mamsys.com",
-    "hr@daengroup.com"
+    "hr@daengroup.com",
+    "hr@kahutopacific.com",
+    "prachijat930@gmail.com",
+    "hello@hirevibetalent.com"
   ],
   "contacted_details": [
     {
@@ -21140,6 +21147,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-11T11:42:46.850023"
+    },
+    {
+      "urn": "urn:li:activity:7526191228082835456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526191228082835456",
+      "email": "hr@kahutopacific.com",
+      "thread_id": "1a1c9b4d1163f466",
+      "message_id": "1a1c9b4d1163f466",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T13:53:53.050103"
+    },
+    {
+      "urn": "urn:li:activity:7526188206136971264",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526188206136971264",
+      "email": "prachijat930@gmail.com",
+      "thread_id": "1a1c9b4d6840bb9e",
+      "message_id": "1a1c9b4d6840bb9e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T13:53:54.944149"
+    },
+    {
+      "urn": "urn:li:activity:7526168551334977536",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526168551334977536",
+      "email": "hello@hirevibetalent.com",
+      "thread_id": "1a1c9b4e19808fb7",
+      "message_id": "1a1c9b4e19808fb7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T13:53:57.490903"
+    },
+    {
+      "urn": "urn:li:activity:7526150770266800128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526150770266800128",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1c9b4ec28098bd",
+      "message_id": "1a1c9b4ec28098bd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T13:54:00.083096"
     }
   ]
 }
