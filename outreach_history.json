@@ -1745,7 +1745,8 @@
     "urn:li:activity:7525914634240053248",
     "urn:li:activity:7525903635302465537",
     "urn:li:activity:7525901982956597248",
-    "urn:li:activity:7525894303911706624"
+    "urn:li:activity:7525894303911706624",
+    "urn:li:activity:7526022941214552064"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2746,7 +2747,8 @@
     "hania@nirasystems.com",
     "shreya@rskitsolutions.com",
     "vamsidhar@symbastech.com",
-    "contato@licenciadorh.com.br"
+    "contato@licenciadorh.com.br",
+    "Bhavya.sharma@mamsys.com"
   ],
   "contacted_details": [
     {
@@ -20787,9 +20789,10 @@
       "email": "info@dataabsolute.com",
       "thread_id": "1a1bf91dfd26c1a2",
       "message_id": "1a1bf91dfd26c1a2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T14:39:31.161069"
+      "timestamp": "2026-11-09T14:39:31.161069",
+      "followup_timestamp": "2026-11-11T10:07:59.737827"
     },
     {
       "urn": "urn:li:activity:7525443330269270016",
@@ -20797,9 +20800,10 @@
       "email": "deepak@forcecraver.com",
       "thread_id": "1a1bf91eb1dd5f53",
       "message_id": "1a1bf91eb1dd5f53",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T14:39:33.840297"
+      "timestamp": "2026-11-09T14:39:33.840297",
+      "followup_timestamp": "2026-11-11T10:08:01.997748"
     },
     {
       "urn": "urn:li:activity:7525493865722732544",
@@ -20807,9 +20811,10 @@
       "email": "sonam.kumari@msrscorp.com",
       "thread_id": "1a1bfd922ca2eb3c",
       "message_id": "1a1bfd922ca2eb3c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T15:57:21.048803"
+      "timestamp": "2026-11-09T15:57:21.048803",
+      "followup_timestamp": "2026-11-11T10:08:04.213361"
     },
     {
       "urn": "urn:li:activity:7525529003760476160",
@@ -20817,9 +20822,10 @@
       "email": "Eshwarprasad.work@gmail.com",
       "thread_id": "1a1c089ec63abe83",
       "message_id": "1a1c089ec63abe83",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T19:10:27.657141"
+      "timestamp": "2026-11-09T19:10:27.657141",
+      "followup_timestamp": "2026-11-11T10:08:06.413017"
     },
     {
       "urn": "urn:li:activity:7525511462555975680",
@@ -20827,9 +20833,10 @@
       "email": "deepak@forcecraver.com",
       "thread_id": "1a1c089f7ff96c0c",
       "message_id": "1a1c089f7ff96c0c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T19:10:29.941412"
+      "timestamp": "2026-11-09T19:10:29.941412",
+      "followup_timestamp": "2026-11-11T10:08:08.664717"
     },
     {
       "urn": "urn:li:activity:7525510425522810880",
@@ -20837,9 +20844,10 @@
       "email": "Jaswant@vergilremnant.com",
       "thread_id": "1a1c08a0a8a1ea2b",
       "message_id": "1a1c08a0a8a1ea2b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T19:10:34.981522"
+      "timestamp": "2026-11-09T19:10:34.981522",
+      "followup_timestamp": "2026-11-11T10:08:10.924377"
     },
     {
       "urn": "urn:li:activity:7525491508003635200",
@@ -20847,9 +20855,10 @@
       "email": "shital.damale@aviratalent.com",
       "thread_id": "1a1c08a12a6a76a5",
       "message_id": "1a1c08a12a6a76a5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-09T19:10:36.854355"
+      "timestamp": "2026-11-09T19:10:36.854355",
+      "followup_timestamp": "2026-11-11T10:08:13.123858"
     },
     {
       "urn": "urn:li:activity:7525772268493520896",
@@ -21076,6 +21085,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-10T19:13:23.141232"
+    },
+    {
+      "urn": "urn:li:activity:7526022941214552064",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526022941214552064",
+      "email": "Bhavya.sharma@mamsys.com",
+      "thread_id": "1a1c8e5f84798b76",
+      "message_id": "1a1c8e5f84798b76",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-11T10:07:57.475743"
     }
   ]
 }
