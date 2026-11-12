@@ -1777,7 +1777,11 @@
     "urn:li:activity:7526515012182376448",
     "urn:li:activity:7526514536808411136",
     "urn:li:activity:7526514331790884864",
-    "urn:li:activity:7526514385025110016"
+    "urn:li:activity:7526514385025110016",
+    "urn:li:activity:7526594674443202561",
+    "urn:li:activity:7526565678666174464",
+    "urn:li:activity:7526563636765409280",
+    "urn:li:activity:7526561598346498048"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2797,7 +2801,9 @@
     "anamika.tripathi@geeksinvention.com",
     "Sandhya@vergilremnant.com",
     "arshi.shrimali@shivsys.com",
-    "apply@creadetech.com"
+    "apply@creadetech.com",
+    "karthikp@digiquadsolutions.com",
+    "contact@avismita.com"
   ],
   "contacted_details": [
     {
@@ -21163,9 +21169,10 @@
       "email": "Bhavya.sharma@mamsys.com",
       "thread_id": "1a1c8e5f84798b76",
       "message_id": "1a1c8e5f84798b76",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-11T10:07:57.475743"
+      "timestamp": "2026-11-11T10:07:57.475743",
+      "followup_timestamp": "2026-11-12T16:42:21.370026"
     },
     {
       "urn": "urn:li:activity:7526158368902832128",
@@ -21476,6 +21483,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-12T12:54:16.741321"
+    },
+    {
+      "urn": "urn:li:activity:7526594674443202561",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526594674443202561",
+      "email": "karthikp@digiquadsolutions.com",
+      "thread_id": "1a1cf75393ab2ec3",
+      "message_id": "1a1cf75393ab2ec3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T16:42:08.648848"
+    },
+    {
+      "urn": "urn:li:activity:7526565678666174464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526565678666174464",
+      "email": "contact@avismita.com",
+      "thread_id": "1a1cf7544b34f674",
+      "message_id": "1a1cf7544b34f674",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T16:42:11.452905"
+    },
+    {
+      "urn": "urn:li:activity:7526563636765409280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526563636765409280",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1cf75525717c14",
+      "message_id": "1a1cf75525717c14",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T16:42:14.994066"
+    },
+    {
+      "urn": "urn:li:activity:7526561598346498048",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526561598346498048",
+      "email": "contact@avismita.com",
+      "thread_id": "1a1cf7561b1120dd",
+      "message_id": "1a1cf7561b1120dd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T16:42:18.476861"
     }
   ]
 }
