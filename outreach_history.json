@@ -1763,7 +1763,12 @@
     "urn:li:activity:7526237567009267712",
     "urn:li:activity:7526271890429186048",
     "urn:li:activity:7526241232659070976",
-    "urn:li:activity:7526241232948330496"
+    "urn:li:activity:7526241232948330496",
+    "urn:li:activity:7526500592396148737",
+    "urn:li:activity:7526466277306028032",
+    "urn:li:activity:7526426707898118144",
+    "urn:li:activity:7526418133868306432",
+    "urn:li:activity:7526404467970256897"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2774,7 +2779,11 @@
     "sumit@mebotiz.com",
     "zarish.akhtar@dakrishsolutions.com",
     "bhavya.k@techgrowglobal.com",
-    "talktome@analogueshifts.com"
+    "talktome@analogueshifts.com",
+    "oziaee@cspro.com.au",
+    "VishaIC@vbeyond.com",
+    "hanumesh.e@datafactz.ai",
+    "amit@metrixit.com"
   ],
   "contacted_details": [
     {
@@ -20958,9 +20967,10 @@
       "email": "parminder@cortexbleu.com",
       "thread_id": "1a1c48855c92b0f2",
       "message_id": "1a1c48855c92b0f2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T13:47:11.957184"
+      "timestamp": "2026-11-10T13:47:11.957184",
+      "followup_timestamp": "2026-11-12T10:23:49.511228"
     },
     {
       "urn": "urn:li:activity:7525826594381258753",
@@ -20968,9 +20978,10 @@
       "email": "harika.m@people-prime.com",
       "thread_id": "1a1c4885ef81ef8a",
       "message_id": "1a1c4885ef81ef8a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T13:47:14.630738"
+      "timestamp": "2026-11-10T13:47:14.630738",
+      "followup_timestamp": "2026-11-12T10:23:51.766240"
     },
     {
       "urn": "urn:li:activity:7525816579788431360",
@@ -20978,9 +20989,10 @@
       "email": "shalini@qiaska.com",
       "thread_id": "1a1c48867edc1c4b",
       "message_id": "1a1c48867edc1c4b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T13:47:16.667940"
+      "timestamp": "2026-11-10T13:47:16.667940",
+      "followup_timestamp": "2026-11-12T10:23:54.019934"
     },
     {
       "urn": "urn:li:activity:7525813011392155648",
@@ -20988,9 +21000,10 @@
       "email": "Sapna@dynamicsmonk.com",
       "thread_id": "1a1c488786440cc1",
       "message_id": "1a1c488786440cc1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T13:47:21.295597"
+      "timestamp": "2026-11-10T13:47:21.295597",
+      "followup_timestamp": "2026-11-12T10:23:56.296748"
     },
     {
       "urn": "urn:li:activity:7525806714110193666",
@@ -20998,9 +21011,10 @@
       "email": "tkale@eteaminc.com",
       "thread_id": "1a1c488810b1c37a",
       "message_id": "1a1c488810b1c37a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T13:47:23.197689"
+      "timestamp": "2026-11-10T13:47:23.197689",
+      "followup_timestamp": "2026-11-12T10:23:58.599435"
     },
     {
       "urn": "urn:li:activity:7525801394050707456",
@@ -21008,9 +21022,10 @@
       "email": "golapi.banerjee@yatiresource.com",
       "thread_id": "1a1c4889580f985b",
       "message_id": "1a1c4889580f985b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T13:47:28.347984"
+      "timestamp": "2026-11-10T13:47:28.347984",
+      "followup_timestamp": "2026-11-12T10:24:00.906730"
     },
     {
       "urn": "urn:li:activity:7525807516392251392",
@@ -21018,9 +21033,10 @@
       "email": "sreekanth@burgeonits.net",
       "thread_id": "1a1c4fb29389246a",
       "message_id": "1a1c4fb29389246a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T15:52:37.253133"
+      "timestamp": "2026-11-10T15:52:37.253133",
+      "followup_timestamp": "2026-11-12T10:24:03.148401"
     },
     {
       "urn": "urn:li:activity:7525714067081220096",
@@ -21068,9 +21084,10 @@
       "email": "shreya@rskitsolutions.com",
       "thread_id": "1a1c5603a80cc97c",
       "message_id": "1a1c5603a80cc97c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T17:43:01.116323"
+      "timestamp": "2026-11-10T17:43:01.116323",
+      "followup_timestamp": "2026-11-12T10:24:05.395202"
     },
     {
       "urn": "urn:li:activity:7525878566853578752",
@@ -21078,9 +21095,10 @@
       "email": "deepak@forcecraver.com",
       "thread_id": "1a1c56043fb782a1",
       "message_id": "1a1c56043fb782a1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T17:43:02.992641"
+      "timestamp": "2026-11-10T17:43:02.992641",
+      "followup_timestamp": "2026-11-12T10:24:07.648443"
     },
     {
       "urn": "urn:li:activity:7525914634240053248",
@@ -21088,9 +21106,10 @@
       "email": "vamsidhar@symbastech.com",
       "thread_id": "1a1c5b2d2abd84d9",
       "message_id": "1a1c5b2d2abd84d9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T19:13:13.956084"
+      "timestamp": "2026-11-10T19:13:13.956084",
+      "followup_timestamp": "2026-11-12T10:24:09.895491"
     },
     {
       "urn": "urn:li:activity:7525903635302465537",
@@ -21098,9 +21117,10 @@
       "email": "recruiting@apexitcs.org",
       "thread_id": "1a1c5b2e2b8cc6ab",
       "message_id": "1a1c5b2e2b8cc6ab",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T19:13:17.724917"
+      "timestamp": "2026-11-10T19:13:17.724917",
+      "followup_timestamp": "2026-11-12T10:24:12.150326"
     },
     {
       "urn": "urn:li:activity:7525901982956597248",
@@ -21108,7 +21128,7 @@
       "email": "contato@licenciadorh.com.br",
       "thread_id": "1a1c5b2ec144128b",
       "message_id": "1a1c5b2ec144128b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-10T19:13:20.378385"
     },
@@ -21118,9 +21138,10 @@
       "email": "deepak@forcecraver.com",
       "thread_id": "1a1c5b2f72c65326",
       "message_id": "1a1c5b2f72c65326",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-10T19:13:23.141232"
+      "timestamp": "2026-11-10T19:13:23.141232",
+      "followup_timestamp": "2026-11-12T10:24:14.763981"
     },
     {
       "urn": "urn:li:activity:7526022941214552064",
@@ -21301,6 +21322,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-11T19:17:01.571820"
+    },
+    {
+      "urn": "urn:li:activity:7526500592396148737",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526500592396148737",
+      "email": "Shreya@infowaygroup.com",
+      "thread_id": "1a1ce1aabee0dda9",
+      "message_id": "1a1ce1aabee0dda9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T10:23:35.999958"
+    },
+    {
+      "urn": "urn:li:activity:7526466277306028032",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526466277306028032",
+      "email": "oziaee@cspro.com.au",
+      "thread_id": "1a1ce1ab465f96d3",
+      "message_id": "1a1ce1ab465f96d3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T10:23:38.367319"
+    },
+    {
+      "urn": "urn:li:activity:7526426707898118144",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526426707898118144",
+      "email": "VishaIC@vbeyond.com",
+      "thread_id": "1a1ce1abae59246d",
+      "message_id": "1a1ce1abae59246d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T10:23:40.204256"
+    },
+    {
+      "urn": "urn:li:activity:7526418133868306432",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526418133868306432",
+      "email": "hanumesh.e@datafactz.ai",
+      "thread_id": "1a1ce1acd32a6176",
+      "message_id": "1a1ce1acd32a6176",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T10:23:44.834539"
+    },
+    {
+      "urn": "urn:li:activity:7526404467970256897",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526404467970256897",
+      "email": "amit@metrixit.com",
+      "thread_id": "1a1ce1ad79b3794c",
+      "message_id": "1a1ce1ad79b3794c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T10:23:47.210043"
     }
   ]
 }
