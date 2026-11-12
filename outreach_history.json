@@ -1768,7 +1768,16 @@
     "urn:li:activity:7526466277306028032",
     "urn:li:activity:7526426707898118144",
     "urn:li:activity:7526418133868306432",
-    "urn:li:activity:7526404467970256897"
+    "urn:li:activity:7526404467970256897",
+    "urn:li:activity:7526542859890511872",
+    "urn:li:activity:7526537275724255232",
+    "urn:li:activity:7526527956278468610",
+    "urn:li:activity:7526517866611916800",
+    "urn:li:activity:7526517713729458177",
+    "urn:li:activity:7526515012182376448",
+    "urn:li:activity:7526514536808411136",
+    "urn:li:activity:7526514331790884864",
+    "urn:li:activity:7526514385025110016"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2783,7 +2792,12 @@
     "oziaee@cspro.com.au",
     "VishaIC@vbeyond.com",
     "hanumesh.e@datafactz.ai",
-    "amit@metrixit.com"
+    "amit@metrixit.com",
+    "hr@omreenterprises.in",
+    "anamika.tripathi@geeksinvention.com",
+    "Sandhya@vergilremnant.com",
+    "arshi.shrimali@shivsys.com",
+    "apply@creadetech.com"
   ],
   "contacted_details": [
     {
@@ -21372,6 +21386,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-12T10:23:47.210043"
+    },
+    {
+      "urn": "urn:li:activity:7526542859890511872",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526542859890511872",
+      "email": "hr@omreenterprises.in",
+      "thread_id": "1a1cea438bb6acb5",
+      "message_id": "1a1cea438bb6acb5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T12:53:50.642461"
+    },
+    {
+      "urn": "urn:li:activity:7526537275724255232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526537275724255232",
+      "email": "anamika.tripathi@geeksinvention.com",
+      "thread_id": "1a1cea4432d95b5b",
+      "message_id": "1a1cea4432d95b5b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T12:53:53.106629"
+    },
+    {
+      "urn": "urn:li:activity:7526527956278468610",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526527956278468610",
+      "email": "manasa@cygnuspro.com",
+      "thread_id": "1a1cea454f72ec3d",
+      "message_id": "1a1cea454f72ec3d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T12:53:57.822469"
+    },
+    {
+      "urn": "urn:li:activity:7526517866611916800",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526517866611916800",
+      "email": "deepak@forcecraver.com",
+      "thread_id": "1a1cea469582336f",
+      "message_id": "1a1cea469582336f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T12:54:03.051233"
+    },
+    {
+      "urn": "urn:li:activity:7526517713729458177",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526517713729458177",
+      "email": "Sandhya@vergilremnant.com",
+      "thread_id": "1a1cea477e8cedd8",
+      "message_id": "1a1cea477e8cedd8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T12:54:06.759945"
+    },
+    {
+      "urn": "urn:li:activity:7526515012182376448",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526515012182376448",
+      "email": "arshi.shrimali@shivsys.com",
+      "thread_id": "1a1cea4816cfee72",
+      "message_id": "1a1cea4816cfee72",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T12:54:09.236227"
+    },
+    {
+      "urn": "urn:li:activity:7526514536808411136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526514536808411136",
+      "email": "apply@creadetech.com",
+      "thread_id": "1a1cea48a0f3204d",
+      "message_id": "1a1cea48a0f3204d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T12:54:11.704573"
+    },
+    {
+      "urn": "urn:li:activity:7526514331790884864",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526514331790884864",
+      "email": "apply@creadetech.com",
+      "thread_id": "1a1cea495fae0904",
+      "message_id": "1a1cea495fae0904",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T12:54:14.343764"
+    },
+    {
+      "urn": "urn:li:activity:7526514385025110016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526514385025110016",
+      "email": "apply@creadetech.com",
+      "thread_id": "1a1cea49e109a025",
+      "message_id": "1a1cea49e109a025",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T12:54:16.741321"
     }
   ]
 }
