@@ -1781,7 +1781,9 @@
     "urn:li:activity:7526594674443202561",
     "urn:li:activity:7526565678666174464",
     "urn:li:activity:7526563636765409280",
-    "urn:li:activity:7526561598346498048"
+    "urn:li:activity:7526561598346498048",
+    "urn:li:activity:7526608872527065088",
+    "urn:li:activity:7526604416016252928"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2803,7 +2805,9 @@
     "arshi.shrimali@shivsys.com",
     "apply@creadetech.com",
     "karthikp@digiquadsolutions.com",
-    "contact@avismita.com"
+    "contact@avismita.com",
+    "gapepalli@primusglobal.com",
+    "richa@fairfieldconsultancy.com"
   ],
   "contacted_details": [
     {
@@ -21180,9 +21184,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1c93cac90e43aa",
       "message_id": "1a1c93cac90e43aa",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-11T11:42:39.431297"
+      "timestamp": "2026-11-11T11:42:39.431297",
+      "followup_timestamp": "2026-11-12T18:10:53.248922"
     },
     {
       "urn": "urn:li:activity:7526157274113994752",
@@ -21190,9 +21195,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1c93cb63d5cad9",
       "message_id": "1a1c93cb63d5cad9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-11T11:42:42.397619"
+      "timestamp": "2026-11-11T11:42:42.397619",
+      "followup_timestamp": "2026-11-12T18:10:55.454550"
     },
     {
       "urn": "urn:li:activity:7526153633181380608",
@@ -21200,9 +21206,10 @@
       "email": "careers@apexitcs.org",
       "thread_id": "1a1c93cbf2b78473",
       "message_id": "1a1c93cbf2b78473",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-11T11:42:44.290349"
+      "timestamp": "2026-11-11T11:42:44.290349",
+      "followup_timestamp": "2026-11-12T18:10:58.350706"
     },
     {
       "urn": "urn:li:activity:7526150971484360704",
@@ -21210,9 +21217,10 @@
       "email": "hr@daengroup.com",
       "thread_id": "1a1c93cc845904f2",
       "message_id": "1a1c93cc845904f2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-11T11:42:46.850023"
+      "timestamp": "2026-11-11T11:42:46.850023",
+      "followup_timestamp": "2026-11-12T18:11:00.572557"
     },
     {
       "urn": "urn:li:activity:7526191228082835456",
@@ -21523,6 +21531,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-12T16:42:18.476861"
+    },
+    {
+      "urn": "urn:li:activity:7526608872527065088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526608872527065088",
+      "email": "gapepalli@primusglobal.com",
+      "thread_id": "1a1cfc66b6e5c8c8",
+      "message_id": "1a1cfc66b6e5c8c8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T18:10:49.284987"
+    },
+    {
+      "urn": "urn:li:activity:7526604416016252928",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526604416016252928",
+      "email": "richa@fairfieldconsultancy.com",
+      "thread_id": "1a1cfc67203afa92",
+      "message_id": "1a1cfc67203afa92",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-12T18:10:50.949041"
     }
   ]
 }
