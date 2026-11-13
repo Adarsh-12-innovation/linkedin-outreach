@@ -1790,7 +1790,15 @@
     "urn:li:activity:7526826664836636673",
     "urn:li:activity:7526817506867638272",
     "urn:li:activity:7526771630321266688",
-    "urn:li:activity:7526760828180779008"
+    "urn:li:activity:7526760828180779008",
+    "urn:li:activity:7526883703935987712",
+    "urn:li:activity:7526882907005546496",
+    "urn:li:activity:7526882628675915777",
+    "urn:li:activity:7526873897863131136",
+    "urn:li:activity:7526873418764357632",
+    "urn:li:activity:7526872621494456321",
+    "urn:li:activity:7526865952614023168",
+    "urn:li:activity:7526793027671969792"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2817,7 +2825,10 @@
     "richa@fairfieldconsultancy.com",
     "vaishnavi@vone8.com",
     "rani.p@xforiatech.com",
-    "Rajat3@votoconsulting.com"
+    "Rajat3@votoconsulting.com",
+    "saiteja.chinnagari@invyondata.com",
+    "talent@rediansoftware.com",
+    "career@vanceitsolutions.com"
   ],
   "contacted_details": [
     {
@@ -21643,6 +21654,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-13T10:08:17.098396"
+    },
+    {
+      "urn": "urn:li:activity:7526883703935987712",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526883703935987712",
+      "email": "saiteja.chinnagari@invyondata.com",
+      "thread_id": "1a1d37f6f0e5f62b",
+      "message_id": "1a1d37f6f0e5f62b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T11:31:46.560447"
+    },
+    {
+      "urn": "urn:li:activity:7526882907005546496",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526882907005546496",
+      "email": "saiteja.chinnagari@invyondata.com",
+      "thread_id": "1a1d37f743565ef8",
+      "message_id": "1a1d37f743565ef8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T11:31:48.309072"
+    },
+    {
+      "urn": "urn:li:activity:7526882628675915777",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526882628675915777",
+      "email": "uma@taln.cloud",
+      "thread_id": "1a1d37f81008b341",
+      "message_id": "1a1d37f81008b341",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T11:31:51.018706"
+    },
+    {
+      "urn": "urn:li:activity:7526873897863131136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526873897863131136",
+      "email": "talent@rediansoftware.com",
+      "thread_id": "1a1d37f86772cd11",
+      "message_id": "1a1d37f86772cd11",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T11:31:52.701250"
+    },
+    {
+      "urn": "urn:li:activity:7526873418764357632",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526873418764357632",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1d37f91fb3f151",
+      "message_id": "1a1d37f91fb3f151",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T11:31:55.400192"
+    },
+    {
+      "urn": "urn:li:activity:7526872621494456321",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526872621494456321",
+      "email": "komal.pal@asyvainfotech.com",
+      "thread_id": "1a1d37f988cee2af",
+      "message_id": "1a1d37f988cee2af",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T11:31:57.119428"
+    },
+    {
+      "urn": "urn:li:activity:7526865952614023168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526865952614023168",
+      "email": "sonam.kumari@msrscorp.com",
+      "thread_id": "1a1d37f9e72973ef",
+      "message_id": "1a1d37f9e72973ef",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T11:31:58.792978"
+    },
+    {
+      "urn": "urn:li:activity:7526793027671969792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526793027671969792",
+      "email": "career@vanceitsolutions.com",
+      "thread_id": "1a1d37fb195ac76b",
+      "message_id": "1a1d37fb195ac76b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T11:32:03.638922"
     }
   ]
 }
