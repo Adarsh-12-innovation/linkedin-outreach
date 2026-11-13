@@ -1799,7 +1799,11 @@
     "urn:li:activity:7526872621494456321",
     "urn:li:activity:7526865952614023168",
     "urn:li:activity:7526793027671969792",
-    "urn:li:activity:7526886534055256064"
+    "urn:li:activity:7526886534055256064",
+    "urn:li:activity:7526954159263342592",
+    "urn:li:activity:7526948208892149760",
+    "urn:li:activity:7526948024531718144",
+    "urn:li:activity:7526946880249958401"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2829,7 +2833,8 @@
     "Rajat3@votoconsulting.com",
     "saiteja.chinnagari@invyondata.com",
     "talent@rediansoftware.com",
-    "career@vanceitsolutions.com"
+    "career@vanceitsolutions.com",
+    "tanu@bmoffshoresolutions.com.au"
   ],
   "contacted_details": [
     {
@@ -21392,9 +21397,10 @@
       "email": "Shreya@infowaygroup.com",
       "thread_id": "1a1ce1aabee0dda9",
       "message_id": "1a1ce1aabee0dda9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-12T10:23:35.999958"
+      "timestamp": "2026-11-12T10:23:35.999958",
+      "followup_timestamp": "2026-11-13T16:14:32.320052"
     },
     {
       "urn": "urn:li:activity:7526466277306028032",
@@ -21402,9 +21408,10 @@
       "email": "oziaee@cspro.com.au",
       "thread_id": "1a1ce1ab465f96d3",
       "message_id": "1a1ce1ab465f96d3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-12T10:23:38.367319"
+      "timestamp": "2026-11-12T10:23:38.367319",
+      "followup_timestamp": "2026-11-13T16:14:34.552745"
     },
     {
       "urn": "urn:li:activity:7526426707898118144",
@@ -21412,7 +21419,7 @@
       "email": "VishaIC@vbeyond.com",
       "thread_id": "1a1ce1abae59246d",
       "message_id": "1a1ce1abae59246d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-12T10:23:40.204256"
     },
@@ -21422,9 +21429,10 @@
       "email": "hanumesh.e@datafactz.ai",
       "thread_id": "1a1ce1acd32a6176",
       "message_id": "1a1ce1acd32a6176",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-12T10:23:44.834539"
+      "timestamp": "2026-11-12T10:23:44.834539",
+      "followup_timestamp": "2026-11-13T16:14:37.375162"
     },
     {
       "urn": "urn:li:activity:7526404467970256897",
@@ -21432,9 +21440,10 @@
       "email": "amit@metrixit.com",
       "thread_id": "1a1ce1ad79b3794c",
       "message_id": "1a1ce1ad79b3794c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-12T10:23:47.210043"
+      "timestamp": "2026-11-12T10:23:47.210043",
+      "followup_timestamp": "2026-11-13T16:14:39.578774"
     },
     {
       "urn": "urn:li:activity:7526542859890511872",
@@ -21745,6 +21754,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-13T14:02:41.598704"
+    },
+    {
+      "urn": "urn:li:activity:7526954159263342592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526954159263342592",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a1d4822948d3d79",
+      "message_id": "1a1d4822948d3d79",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T16:14:22.632900"
+    },
+    {
+      "urn": "urn:li:activity:7526948208892149760",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526948208892149760",
+      "email": "anamika.tripathi@geeksinvention.com",
+      "thread_id": "1a1d4823258bd0e8",
+      "message_id": "1a1d4823258bd0e8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T16:14:24.990149"
+    },
+    {
+      "urn": "urn:li:activity:7526948024531718144",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526948024531718144",
+      "email": "anamika.tripathi@geeksinvention.com",
+      "thread_id": "1a1d4823fef75a7b",
+      "message_id": "1a1d4823fef75a7b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T16:14:27.790042"
+    },
+    {
+      "urn": "urn:li:activity:7526946880249958401",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526946880249958401",
+      "email": "tanu@bmoffshoresolutions.com.au",
+      "thread_id": "1a1d4824664a4165",
+      "message_id": "1a1d4824664a4165",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T16:14:29.984583"
     }
   ]
 }
