@@ -1803,7 +1803,9 @@
     "urn:li:activity:7526954159263342592",
     "urn:li:activity:7526948208892149760",
     "urn:li:activity:7526948024531718144",
-    "urn:li:activity:7526946880249958401"
+    "urn:li:activity:7526946880249958401",
+    "urn:li:activity:7526957350348476416",
+    "urn:li:activity:7526915005183746048"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2834,7 +2836,8 @@
     "saiteja.chinnagari@invyondata.com",
     "talent@rediansoftware.com",
     "career@vanceitsolutions.com",
-    "tanu@bmoffshoresolutions.com.au"
+    "tanu@bmoffshoresolutions.com.au",
+    "niharika.sahu@huemot.com"
   ],
   "contacted_details": [
     {
@@ -21794,6 +21797,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-13T16:14:29.984583"
+    },
+    {
+      "urn": "urn:li:activity:7526957350348476416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526957350348476416",
+      "email": "cv@softwarezgroup.com",
+      "thread_id": "1a1d4dbf2ad9b791",
+      "message_id": "1a1d4dbf2ad9b791",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T17:52:26.816356"
+    },
+    {
+      "urn": "urn:li:activity:7526915005183746048",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526915005183746048",
+      "email": "niharika.sahu@huemot.com",
+      "thread_id": "1a1d4dbfceb89ca1",
+      "message_id": "1a1d4dbfceb89ca1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-13T17:52:29.298988"
     }
   ]
 }
