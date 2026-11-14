@@ -1814,7 +1814,8 @@
     "urn:li:activity:7527252235378987009",
     "urn:li:activity:7527222611672641537",
     "urn:li:activity:7527125579054080000",
-    "urn:li:activity:7527123968047263744"
+    "urn:li:activity:7527123968047263744",
+    "urn:li:activity:7527221847961079808"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2853,7 +2854,8 @@
     "robert@ashratech.com",
     "akhil@tror.ai",
     "technologiesapexgrid@gmail.com",
-    "nikhil.guttula@eminds.ai"
+    "nikhil.guttula@eminds.ai",
+    "thirumalesh.a@people-prime.com"
   ],
   "contacted_details": [
     {
@@ -21935,6 +21937,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-14T12:14:27.920942"
+    },
+    {
+      "urn": "urn:li:activity:7527221847961079808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527221847961079808",
+      "email": "thirumalesh.a@people-prime.com",
+      "thread_id": "1a1d976d8d6560d7",
+      "message_id": "1a1d976d8d6560d7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-14T15:20:07.788297"
     }
   ]
 }
