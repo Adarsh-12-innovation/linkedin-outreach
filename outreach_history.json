@@ -1816,7 +1816,10 @@
     "urn:li:activity:7527125579054080000",
     "urn:li:activity:7527123968047263744",
     "urn:li:activity:7527221847961079808",
-    "urn:li:activity:7527344785553145856"
+    "urn:li:activity:7527344785553145856",
+    "urn:li:activity:7527363599636320257",
+    "urn:li:activity:7527305774189035520",
+    "urn:li:activity:7527305577388015616"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2857,7 +2860,8 @@
     "technologiesapexgrid@gmail.com",
     "nikhil.guttula@eminds.ai",
     "thirumalesh.a@people-prime.com",
-    "trupti@skilltasy.com"
+    "trupti@skilltasy.com",
+    "business@statnexa.co"
   ],
   "contacted_details": [
     {
@@ -21801,9 +21805,10 @@
       "email": "manasa@cygnuspro.com",
       "thread_id": "1a1d4099a82beddf",
       "message_id": "1a1d4099a82beddf",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-13T14:02:41.598704"
+      "timestamp": "2026-11-13T14:02:41.598704",
+      "followup_timestamp": "2026-11-14T20:13:56.000210"
     },
     {
       "urn": "urn:li:activity:7526954159263342592",
@@ -21974,6 +21979,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-14T17:58:54.165351"
+    },
+    {
+      "urn": "urn:li:activity:7527363599636320257",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527363599636320257",
+      "email": "business@statnexa.co",
+      "thread_id": "1a1da83b8a79402b",
+      "message_id": "1a1da83b8a79402b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-14T20:13:48.430475"
+    },
+    {
+      "urn": "urn:li:activity:7527305774189035520",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527305774189035520",
+      "email": "anamika.tripathi@geeksinvention.com",
+      "thread_id": "1a1da83c32db5930",
+      "message_id": "1a1da83c32db5930",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-14T20:13:51.008574"
+    },
+    {
+      "urn": "urn:li:activity:7527305577388015616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527305577388015616",
+      "email": "anamika.tripathi@geeksinvention.com",
+      "thread_id": "1a1da83cd48f5854",
+      "message_id": "1a1da83cd48f5854",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-14T20:13:53.430577"
     }
   ]
 }
