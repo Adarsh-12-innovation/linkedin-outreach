@@ -1810,7 +1810,11 @@
     "urn:li:activity:7527124993839714305",
     "urn:li:activity:7527120803969265664",
     "urn:li:activity:7527119301250703362",
-    "urn:li:activity:7527112122644963329"
+    "urn:li:activity:7527112122644963329",
+    "urn:li:activity:7527252235378987009",
+    "urn:li:activity:7527222611672641537",
+    "urn:li:activity:7527125579054080000",
+    "urn:li:activity:7527123968047263744"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2847,7 +2851,9 @@
     "gunjan.lachhwani@bravensinc.com",
     "vikas.dhobale@bravensinc.com",
     "robert@ashratech.com",
-    "akhil@tror.ai"
+    "akhil@tror.ai",
+    "technologiesapexgrid@gmail.com",
+    "nikhil.guttula@eminds.ai"
   ],
   "contacted_details": [
     {
@@ -21889,6 +21895,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-14T11:07:35.493511"
+    },
+    {
+      "urn": "urn:li:activity:7527252235378987009",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527252235378987009",
+      "email": "technologiesapexgrid@gmail.com",
+      "thread_id": "1a1d8ccc24fc845f",
+      "message_id": "1a1d8ccc24fc845f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-14T12:14:21.004086"
+    },
+    {
+      "urn": "urn:li:activity:7527222611672641537",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527222611672641537",
+      "email": "harika.m@people-prime.com",
+      "thread_id": "1a1d8cccb316634f",
+      "message_id": "1a1d8cccb316634f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-14T12:14:23.209046"
+    },
+    {
+      "urn": "urn:li:activity:7527125579054080000",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527125579054080000",
+      "email": "nikhil.guttula@eminds.ai",
+      "thread_id": "1a1d8ccd428db7e9",
+      "message_id": "1a1d8ccd428db7e9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-14T12:14:25.463543"
+    },
+    {
+      "urn": "urn:li:activity:7527123968047263744",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527123968047263744",
+      "email": "nikhil.guttula@eminds.ai",
+      "thread_id": "1a1d8ccdc2250b9b",
+      "message_id": "1a1d8ccdc2250b9b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-14T12:14:27.920942"
     }
   ]
 }
