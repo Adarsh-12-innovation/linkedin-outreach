@@ -1819,7 +1819,8 @@
     "urn:li:activity:7527344785553145856",
     "urn:li:activity:7527363599636320257",
     "urn:li:activity:7527305774189035520",
-    "urn:li:activity:7527305577388015616"
+    "urn:li:activity:7527305577388015616",
+    "urn:li:activity:7525917099114926080"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2861,7 +2862,8 @@
     "nikhil.guttula@eminds.ai",
     "thirumalesh.a@people-prime.com",
     "trupti@skilltasy.com",
-    "business@statnexa.co"
+    "business@statnexa.co",
+    "mohneeshmalik927@gmail.com"
   ],
   "contacted_details": [
     {
@@ -21816,9 +21818,10 @@
       "email": "hr@sparkinfosol.com",
       "thread_id": "1a1d4822948d3d79",
       "message_id": "1a1d4822948d3d79",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-13T16:14:22.632900"
+      "timestamp": "2026-11-13T16:14:22.632900",
+      "followup_timestamp": "2026-11-15T11:24:10.885572"
     },
     {
       "urn": "urn:li:activity:7526948208892149760",
@@ -21826,9 +21829,10 @@
       "email": "anamika.tripathi@geeksinvention.com",
       "thread_id": "1a1d4823258bd0e8",
       "message_id": "1a1d4823258bd0e8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-13T16:14:24.990149"
+      "timestamp": "2026-11-13T16:14:24.990149",
+      "followup_timestamp": "2026-11-15T11:24:12.420089"
     },
     {
       "urn": "urn:li:activity:7526948024531718144",
@@ -21836,9 +21840,10 @@
       "email": "anamika.tripathi@geeksinvention.com",
       "thread_id": "1a1d4823fef75a7b",
       "message_id": "1a1d4823fef75a7b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-13T16:14:27.790042"
+      "timestamp": "2026-11-13T16:14:27.790042",
+      "followup_timestamp": "2026-11-15T11:24:13.952563"
     },
     {
       "urn": "urn:li:activity:7526946880249958401",
@@ -21846,9 +21851,10 @@
       "email": "tanu@bmoffshoresolutions.com.au",
       "thread_id": "1a1d4824664a4165",
       "message_id": "1a1d4824664a4165",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-13T16:14:29.984583"
+      "timestamp": "2026-11-13T16:14:29.984583",
+      "followup_timestamp": "2026-11-15T11:24:15.484690"
     },
     {
       "urn": "urn:li:activity:7526957350348476416",
@@ -21856,9 +21862,10 @@
       "email": "cv@softwarezgroup.com",
       "thread_id": "1a1d4dbf2ad9b791",
       "message_id": "1a1d4dbf2ad9b791",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-13T17:52:26.816356"
+      "timestamp": "2026-11-13T17:52:26.816356",
+      "followup_timestamp": "2026-11-15T11:24:17.081581"
     },
     {
       "urn": "urn:li:activity:7526915005183746048",
@@ -21866,9 +21873,10 @@
       "email": "niharika.sahu@huemot.com",
       "thread_id": "1a1d4dbfceb89ca1",
       "message_id": "1a1d4dbfceb89ca1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-13T17:52:29.298988"
+      "timestamp": "2026-11-13T17:52:29.298988",
+      "followup_timestamp": "2026-11-15T11:24:18.611036"
     },
     {
       "urn": "urn:li:activity:7527143386907267072",
@@ -21876,9 +21884,10 @@
       "email": "arpitkumar.singh@raasinfotek.com",
       "thread_id": "1a1d88f7202fbaf2",
       "message_id": "1a1d88f7202fbaf2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T11:07:23.091462"
+      "timestamp": "2026-11-14T11:07:23.091462",
+      "followup_timestamp": "2026-11-15T11:24:20.142238"
     },
     {
       "urn": "urn:li:activity:7527124993839714305",
@@ -21886,9 +21895,10 @@
       "email": "gunjan.lachhwani@bravensinc.com",
       "thread_id": "1a1d88f7f73235c0",
       "message_id": "1a1d88f7f73235c0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T11:07:26.109525"
+      "timestamp": "2026-11-14T11:07:26.109525",
+      "followup_timestamp": "2026-11-15T11:24:21.656474"
     },
     {
       "urn": "urn:li:activity:7527120803969265664",
@@ -21896,9 +21906,10 @@
       "email": "vikas.dhobale@bravensinc.com",
       "thread_id": "1a1d88f89cc8f13d",
       "message_id": "1a1d88f89cc8f13d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T11:07:28.617932"
+      "timestamp": "2026-11-14T11:07:28.617932",
+      "followup_timestamp": "2026-11-15T11:24:23.205894"
     },
     {
       "urn": "urn:li:activity:7527119301250703362",
@@ -21906,9 +21917,10 @@
       "email": "robert@ashratech.com",
       "thread_id": "1a1d88f90a79c36d",
       "message_id": "1a1d88f90a79c36d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T11:07:30.384122"
+      "timestamp": "2026-11-14T11:07:30.384122",
+      "followup_timestamp": "2026-11-15T11:24:24.767527"
     },
     {
       "urn": "urn:li:activity:7527112122644963329",
@@ -21916,9 +21928,10 @@
       "email": "akhil@tror.ai",
       "thread_id": "1a1d88fa424d9902",
       "message_id": "1a1d88fa424d9902",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T11:07:35.493511"
+      "timestamp": "2026-11-14T11:07:35.493511",
+      "followup_timestamp": "2026-11-15T11:24:26.306619"
     },
     {
       "urn": "urn:li:activity:7527252235378987009",
@@ -22009,6 +22022,15 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-14T20:13:53.430577"
+    },
+    {
+      "urn": "urn:li:activity:7525917099114926080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525917099114926080",
+      "email": "mohneeshmalik927@gmail.com",
+      "thread_id": "1a1def34b99e3f66",
+      "message_id": "1a1def34b99e3f66",
+      "followed_up": false,
+      "timestamp": "2026-11-15T11:24:09.322703"
     }
   ]
 }
