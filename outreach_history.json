@@ -1825,7 +1825,10 @@
     "urn:li:activity:7527974125110292480",
     "urn:li:activity:7527973439924760576",
     "urn:li:activity:7527969986997379072",
-    "urn:li:activity:7527959223369052160"
+    "urn:li:activity:7527959223369052160",
+    "urn:li:activity:7528002294781751296",
+    "urn:li:activity:7527999548997332992",
+    "urn:li:activity:7527985483726008320"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2870,7 +2873,8 @@
     "business@statnexa.co",
     "mohneeshmalik927@gmail.com",
     "simran@pylonmc.com",
-    "riyanshi@teknobit.com"
+    "riyanshi@teknobit.com",
+    "lavanya@tspaus.com"
   ],
   "contacted_details": [
     {
@@ -22096,6 +22100,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-16T12:09:58.977215"
+    },
+    {
+      "urn": "urn:li:activity:7528002294781751296",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528002294781751296",
+      "email": "lavanya@tspaus.com",
+      "thread_id": "1a1e38531c69be83",
+      "message_id": "1a1e38531c69be83",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T14:11:59.981256"
+    },
+    {
+      "urn": "urn:li:activity:7527999548997332992",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527999548997332992",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a1e385394876929",
+      "message_id": "1a1e385394876929",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T14:12:01.902948"
+    },
+    {
+      "urn": "urn:li:activity:7527985483726008320",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527985483726008320",
+      "email": "Shreya@infowaygroup.com",
+      "thread_id": "1a1e3854215b8ca8",
+      "message_id": "1a1e3854215b8ca8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T14:12:04.586567"
     }
   ]
 }
