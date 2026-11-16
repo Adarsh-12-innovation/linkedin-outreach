@@ -1848,7 +1848,8 @@
     "urn:li:activity:7528049374845825024",
     "urn:li:activity:7528048484386770944",
     "urn:li:activity:7528040975001239552",
-    "urn:li:activity:7528033899495440384"
+    "urn:li:activity:7528033899495440384",
+    "urn:li:activity:7528099040497094656"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2903,7 +2904,8 @@
     "somil.jangid@xsassoxiates.com",
     "bhavya.k@techandgrowglobal.com",
     "neha@skilltasy.com",
-    "arzoo@fountane.com"
+    "arzoo@fountane.com",
+    "ruma@squarehiring.com"
   ],
   "contacted_details": [
     {
@@ -22360,6 +22362,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-16T18:10:06.403278"
+    },
+    {
+      "urn": "urn:li:activity:7528099040497094656",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528099040497094656",
+      "email": "ruma@squarehiring.com",
+      "thread_id": "1a1e4bdf3445973f",
+      "message_id": "1a1e4bdf3445973f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T19:53:36.719352"
     }
   ]
 }
