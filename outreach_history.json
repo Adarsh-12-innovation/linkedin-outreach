@@ -1820,7 +1820,8 @@
     "urn:li:activity:7527363599636320257",
     "urn:li:activity:7527305774189035520",
     "urn:li:activity:7527305577388015616",
-    "urn:li:activity:7525917099114926080"
+    "urn:li:activity:7525917099114926080",
+    "urn:li:activity:7527954278720720896"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2863,7 +2864,8 @@
     "thirumalesh.a@people-prime.com",
     "trupti@skilltasy.com",
     "business@statnexa.co",
-    "mohneeshmalik927@gmail.com"
+    "mohneeshmalik927@gmail.com",
+    "simran@pylonmc.com"
   ],
   "contacted_details": [
     {
@@ -21939,7 +21941,7 @@
       "email": "technologiesapexgrid@gmail.com",
       "thread_id": "1a1d8ccc24fc845f",
       "message_id": "1a1d8ccc24fc845f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-14T12:14:21.004086"
     },
@@ -21949,9 +21951,10 @@
       "email": "harika.m@people-prime.com",
       "thread_id": "1a1d8cccb316634f",
       "message_id": "1a1d8cccb316634f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T12:14:23.209046"
+      "timestamp": "2026-11-14T12:14:23.209046",
+      "followup_timestamp": "2026-11-16T10:34:08.088378"
     },
     {
       "urn": "urn:li:activity:7527125579054080000",
@@ -21959,9 +21962,10 @@
       "email": "nikhil.guttula@eminds.ai",
       "thread_id": "1a1d8ccd428db7e9",
       "message_id": "1a1d8ccd428db7e9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T12:14:25.463543"
+      "timestamp": "2026-11-14T12:14:25.463543",
+      "followup_timestamp": "2026-11-16T10:34:10.519002"
     },
     {
       "urn": "urn:li:activity:7527123968047263744",
@@ -21969,9 +21973,10 @@
       "email": "nikhil.guttula@eminds.ai",
       "thread_id": "1a1d8ccdc2250b9b",
       "message_id": "1a1d8ccdc2250b9b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T12:14:27.920942"
+      "timestamp": "2026-11-14T12:14:27.920942",
+      "followup_timestamp": "2026-11-16T10:34:12.781971"
     },
     {
       "urn": "urn:li:activity:7527221847961079808",
@@ -21979,9 +21984,10 @@
       "email": "thirumalesh.a@people-prime.com",
       "thread_id": "1a1d976d8d6560d7",
       "message_id": "1a1d976d8d6560d7",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T15:20:07.788297"
+      "timestamp": "2026-11-14T15:20:07.788297",
+      "followup_timestamp": "2026-11-16T10:34:15.175027"
     },
     {
       "urn": "urn:li:activity:7527344785553145856",
@@ -21989,9 +21995,10 @@
       "email": "trupti@skilltasy.com",
       "thread_id": "1a1da0836e14b613",
       "message_id": "1a1da0836e14b613",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T17:58:54.165351"
+      "timestamp": "2026-11-14T17:58:54.165351",
+      "followup_timestamp": "2026-11-16T10:34:17.483670"
     },
     {
       "urn": "urn:li:activity:7527363599636320257",
@@ -21999,9 +22006,10 @@
       "email": "business@statnexa.co",
       "thread_id": "1a1da83b8a79402b",
       "message_id": "1a1da83b8a79402b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T20:13:48.430475"
+      "timestamp": "2026-11-14T20:13:48.430475",
+      "followup_timestamp": "2026-11-16T10:34:20.048919"
     },
     {
       "urn": "urn:li:activity:7527305774189035520",
@@ -22009,9 +22017,10 @@
       "email": "anamika.tripathi@geeksinvention.com",
       "thread_id": "1a1da83c32db5930",
       "message_id": "1a1da83c32db5930",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T20:13:51.008574"
+      "timestamp": "2026-11-14T20:13:51.008574",
+      "followup_timestamp": "2026-11-16T10:34:22.302573"
     },
     {
       "urn": "urn:li:activity:7527305577388015616",
@@ -22019,9 +22028,10 @@
       "email": "anamika.tripathi@geeksinvention.com",
       "thread_id": "1a1da83cd48f5854",
       "message_id": "1a1da83cd48f5854",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-14T20:13:53.430577"
+      "timestamp": "2026-11-14T20:13:53.430577",
+      "followup_timestamp": "2026-11-16T10:34:24.835357"
     },
     {
       "urn": "urn:li:activity:7525917099114926080",
@@ -22031,6 +22041,16 @@
       "message_id": "1a1def34b99e3f66",
       "followed_up": false,
       "timestamp": "2026-11-15T11:24:09.322703"
+    },
+    {
+      "urn": "urn:li:activity:7527954278720720896",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527954278720720896",
+      "email": "simran@pylonmc.com",
+      "thread_id": "1a1e2bdae3a44657",
+      "message_id": "1a1e2bdae3a44657",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T10:34:05.195077"
     }
   ]
 }
