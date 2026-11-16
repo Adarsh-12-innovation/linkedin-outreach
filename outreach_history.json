@@ -1828,7 +1828,22 @@
     "urn:li:activity:7527959223369052160",
     "urn:li:activity:7528002294781751296",
     "urn:li:activity:7527999548997332992",
-    "urn:li:activity:7527985483726008320"
+    "urn:li:activity:7527985483726008320",
+    "urn:li:activity:7528043163123617792",
+    "urn:li:activity:7528042870730018816",
+    "urn:li:activity:7528042316175933440",
+    "urn:li:activity:7528041886314549248",
+    "urn:li:activity:7528041278589206528",
+    "urn:li:activity:7528039617867034625",
+    "urn:li:activity:7528039697907097600",
+    "urn:li:activity:7528038730599723008",
+    "urn:li:activity:7528037002852835328",
+    "urn:li:activity:7528036637134630914",
+    "urn:li:activity:7528035131698126848",
+    "urn:li:activity:7528034933995565056",
+    "urn:li:activity:7528019383495843840",
+    "urn:li:activity:7528016424158687232",
+    "urn:li:activity:7528001795571458048"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2874,7 +2889,13 @@
     "mohneeshmalik927@gmail.com",
     "simran@pylonmc.com",
     "riyanshi@teknobit.com",
-    "lavanya@tspaus.com"
+    "lavanya@tspaus.com",
+    "verazinctech@gmail.com",
+    "simran@pylonm.com",
+    "hr@aethercoretechnologies.in",
+    "tatla@primusglobal.com",
+    "Shivani.s.soni@oaktreecloud.com",
+    "somil.jangid@xsassoxiates.com"
   ],
   "contacted_details": [
     {
@@ -22130,6 +22151,156 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-16T14:12:04.586567"
+    },
+    {
+      "urn": "urn:li:activity:7528043163123617792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528043163123617792",
+      "email": "trupti@skilltasy.com",
+      "thread_id": "1a1e3f65191a6293",
+      "message_id": "1a1e3f65191a6293",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:33.777142"
+    },
+    {
+      "urn": "urn:li:activity:7528042870730018816",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528042870730018816",
+      "email": "akansha2@aliqan.com",
+      "thread_id": "1a1e3f6658fe99a5",
+      "message_id": "1a1e3f6658fe99a5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:38.601980"
+    },
+    {
+      "urn": "urn:li:activity:7528042316175933440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528042316175933440",
+      "email": "verazinctech@gmail.com",
+      "thread_id": "1a1e3f66bfdba8be",
+      "message_id": "1a1e3f66bfdba8be",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:40.339118"
+    },
+    {
+      "urn": "urn:li:activity:7528041886314549248",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528041886314549248",
+      "email": "verazinctech@gmail.com",
+      "thread_id": "1a1e3f673f1b0e57",
+      "message_id": "1a1e3f673f1b0e57",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:42.080020"
+    },
+    {
+      "urn": "urn:li:activity:7528041278589206528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528041278589206528",
+      "email": "simran@pylonm.com",
+      "thread_id": "1a1e3f67aa53b275",
+      "message_id": "1a1e3f67aa53b275",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:44.271327"
+    },
+    {
+      "urn": "urn:li:activity:7528039617867034625",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528039617867034625",
+      "email": "hr@aethercoretechnologies.in",
+      "thread_id": "1a1e3f681e722ac5",
+      "message_id": "1a1e3f681e722ac5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:46.025456"
+    },
+    {
+      "urn": "urn:li:activity:7528039697907097600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528039697907097600",
+      "email": "resume@fiddleleafsolutions.com",
+      "thread_id": "1a1e3f68817710c7",
+      "message_id": "1a1e3f68817710c7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:47.761598"
+    },
+    {
+      "urn": "urn:li:activity:7528038730599723008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528038730599723008",
+      "email": "simran.p@technology-next.com",
+      "thread_id": "1a1e3f6916f792a7",
+      "message_id": "1a1e3f6916f792a7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:49.764321"
+    },
+    {
+      "urn": "urn:li:activity:7528037002852835328",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528037002852835328",
+      "email": "tatla@primusglobal.com",
+      "thread_id": "1a1e3f69794a9547",
+      "message_id": "1a1e3f69794a9547",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:51.547508"
+    },
+    {
+      "urn": "urn:li:activity:7528036637134630914",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528036637134630914",
+      "email": "tatla@primusglobal.com",
+      "thread_id": "1a1e3f69ea4f5ce8",
+      "message_id": "1a1e3f69ea4f5ce8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:53.260464"
+    },
+    {
+      "urn": "urn:li:activity:7528035131698126848",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528035131698126848",
+      "email": "hr@aethercoretechnologies.in",
+      "thread_id": "1a1e3f6a43bfb2ed",
+      "message_id": "1a1e3f6a43bfb2ed",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:55.083728"
+    },
+    {
+      "urn": "urn:li:activity:7528034933995565056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528034933995565056",
+      "email": "resume@fiddleleafsolutions.com",
+      "thread_id": "1a1e3f6ac4dda501",
+      "message_id": "1a1e3f6ac4dda501",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:15:56.871729"
+    },
+    {
+      "urn": "urn:li:activity:7528019383495843840",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528019383495843840",
+      "email": "Shivani.s.soni@oaktreecloud.com",
+      "thread_id": "1a1e3f6bc5f41db0",
+      "message_id": "1a1e3f6bc5f41db0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:16:01.276187"
+    },
+    {
+      "urn": "urn:li:activity:7528016424158687232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528016424158687232",
+      "email": "somil.jangid@xsassoxiates.com",
+      "thread_id": "1a1e3f6c51c90a77",
+      "message_id": "1a1e3f6c51c90a77",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:16:03.028998"
+    },
+    {
+      "urn": "urn:li:activity:7528001795571458048",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528001795571458048",
+      "email": "mohit.gupta@rayosys.com",
+      "thread_id": "1a1e3f6cba73a245",
+      "message_id": "1a1e3f6cba73a245",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T16:16:04.834356"
     }
   ]
 }
