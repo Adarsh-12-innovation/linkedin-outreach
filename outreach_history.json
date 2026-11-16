@@ -1821,7 +1821,11 @@
     "urn:li:activity:7527305774189035520",
     "urn:li:activity:7527305577388015616",
     "urn:li:activity:7525917099114926080",
-    "urn:li:activity:7527954278720720896"
+    "urn:li:activity:7527954278720720896",
+    "urn:li:activity:7527974125110292480",
+    "urn:li:activity:7527973439924760576",
+    "urn:li:activity:7527969986997379072",
+    "urn:li:activity:7527959223369052160"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2865,7 +2869,8 @@
     "trupti@skilltasy.com",
     "business@statnexa.co",
     "mohneeshmalik927@gmail.com",
-    "simran@pylonmc.com"
+    "simran@pylonmc.com",
+    "riyanshi@teknobit.com"
   ],
   "contacted_details": [
     {
@@ -22051,6 +22056,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-16T10:34:05.195077"
+    },
+    {
+      "urn": "urn:li:activity:7527974125110292480",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527974125110292480",
+      "email": "hr.sgs.consultancy@gmail.com",
+      "thread_id": "1a1e315632c770dd",
+      "message_id": "1a1e315632c770dd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T12:09:52.683837"
+    },
+    {
+      "urn": "urn:li:activity:7527973439924760576",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527973439924760576",
+      "email": "riyanshi@teknobit.com",
+      "thread_id": "1a1e3156a65d518e",
+      "message_id": "1a1e3156a65d518e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T12:09:54.622798"
+    },
+    {
+      "urn": "urn:li:activity:7527969986997379072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527969986997379072",
+      "email": "hr.sgs.consultancy@gmail.com",
+      "thread_id": "1a1e315714dd4196",
+      "message_id": "1a1e315714dd4196",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T12:09:56.373014"
+    },
+    {
+      "urn": "urn:li:activity:7527959223369052160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7527959223369052160",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1e3157a821de08",
+      "message_id": "1a1e3157a821de08",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T12:09:58.977215"
     }
   ]
 }
