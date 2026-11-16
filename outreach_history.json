@@ -1843,7 +1843,12 @@
     "urn:li:activity:7528034933995565056",
     "urn:li:activity:7528019383495843840",
     "urn:li:activity:7528016424158687232",
-    "urn:li:activity:7528001795571458048"
+    "urn:li:activity:7528001795571458048",
+    "urn:li:activity:7528058549315268608",
+    "urn:li:activity:7528049374845825024",
+    "urn:li:activity:7528048484386770944",
+    "urn:li:activity:7528040975001239552",
+    "urn:li:activity:7528033899495440384"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2895,7 +2900,10 @@
     "hr@aethercoretechnologies.in",
     "tatla@primusglobal.com",
     "Shivani.s.soni@oaktreecloud.com",
-    "somil.jangid@xsassoxiates.com"
+    "somil.jangid@xsassoxiates.com",
+    "bhavya.k@techandgrowglobal.com",
+    "neha@skilltasy.com",
+    "arzoo@fountane.com"
   ],
   "contacted_details": [
     {
@@ -22069,8 +22077,9 @@
       "email": "mohneeshmalik927@gmail.com",
       "thread_id": "1a1def34b99e3f66",
       "message_id": "1a1def34b99e3f66",
-      "followed_up": false,
-      "timestamp": "2026-11-15T11:24:09.322703"
+      "followed_up": true,
+      "timestamp": "2026-11-15T11:24:09.322703",
+      "followup_timestamp": "2026-11-16T18:10:09.087290"
     },
     {
       "urn": "urn:li:activity:7527954278720720896",
@@ -22301,6 +22310,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-16T16:16:04.834356"
+    },
+    {
+      "urn": "urn:li:activity:7528058549315268608",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528058549315268608",
+      "email": "bhavya.k@techandgrowglobal.com",
+      "thread_id": "1a1e45f0097a021f",
+      "message_id": "1a1e45f0097a021f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T18:09:54.195949"
+    },
+    {
+      "urn": "urn:li:activity:7528049374845825024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528049374845825024",
+      "email": "neha@skilltasy.com",
+      "thread_id": "1a1e45f1044a5519",
+      "message_id": "1a1e45f1044a5519",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T18:09:58.441258"
+    },
+    {
+      "urn": "urn:li:activity:7528048484386770944",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528048484386770944",
+      "email": "arti@aliqan.com",
+      "thread_id": "1a1e45f2088b2267",
+      "message_id": "1a1e45f2088b2267",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T18:10:02.439270"
+    },
+    {
+      "urn": "urn:li:activity:7528040975001239552",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528040975001239552",
+      "email": "harsha@code1.dev",
+      "thread_id": "1a1e45f282b76119",
+      "message_id": "1a1e45f282b76119",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T18:10:04.409563"
+    },
+    {
+      "urn": "urn:li:activity:7528033899495440384",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528033899495440384",
+      "email": "arzoo@fountane.com",
+      "thread_id": "1a1e45f30dd30cc4",
+      "message_id": "1a1e45f30dd30cc4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-16T18:10:06.403278"
     }
   ]
 }
