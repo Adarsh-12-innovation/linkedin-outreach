@@ -1874,7 +1874,9 @@
     "urn:li:activity:7528348448929128450",
     "urn:li:activity:7528380854121840640",
     "urn:li:activity:7528378152008638465",
-    "urn:li:activity:7528372486946820096"
+    "urn:li:activity:7528372486946820096",
+    "urn:li:activity:7528400949883600897",
+    "urn:li:activity:7528072300550713344"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2941,7 +2943,9 @@
     "anas.shaikh@theittalent.com",
     "kiruthika.b@accelgrowthtech.com",
     "hr@bintybyte.com",
-    "bhoomika@tesseractuk.in"
+    "bhoomika@tesseractuk.in",
+    "shalini.j@esolglobal.com",
+    "kshitij.dixit@networkedge.in"
   ],
   "contacted_details": [
     {
@@ -22125,9 +22129,10 @@
       "email": "simran@pylonmc.com",
       "thread_id": "1a1e2bdae3a44657",
       "message_id": "1a1e2bdae3a44657",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T10:34:05.195077"
+      "timestamp": "2026-11-16T10:34:05.195077",
+      "followup_timestamp": "2026-11-17T12:22:16.062523"
     },
     {
       "urn": "urn:li:activity:7527974125110292480",
@@ -22135,9 +22140,10 @@
       "email": "hr.sgs.consultancy@gmail.com",
       "thread_id": "1a1e315632c770dd",
       "message_id": "1a1e315632c770dd",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T12:09:52.683837"
+      "timestamp": "2026-11-16T12:09:52.683837",
+      "followup_timestamp": "2026-11-17T12:22:17.646755"
     },
     {
       "urn": "urn:li:activity:7527973439924760576",
@@ -22145,9 +22151,10 @@
       "email": "riyanshi@teknobit.com",
       "thread_id": "1a1e3156a65d518e",
       "message_id": "1a1e3156a65d518e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T12:09:54.622798"
+      "timestamp": "2026-11-16T12:09:54.622798",
+      "followup_timestamp": "2026-11-17T12:22:19.197893"
     },
     {
       "urn": "urn:li:activity:7527969986997379072",
@@ -22155,9 +22162,10 @@
       "email": "hr.sgs.consultancy@gmail.com",
       "thread_id": "1a1e315714dd4196",
       "message_id": "1a1e315714dd4196",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T12:09:56.373014"
+      "timestamp": "2026-11-16T12:09:56.373014",
+      "followup_timestamp": "2026-11-17T12:22:20.805757"
     },
     {
       "urn": "urn:li:activity:7527959223369052160",
@@ -22165,9 +22173,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1e3157a821de08",
       "message_id": "1a1e3157a821de08",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T12:09:58.977215"
+      "timestamp": "2026-11-16T12:09:58.977215",
+      "followup_timestamp": "2026-11-17T12:22:22.374705"
     },
     {
       "urn": "urn:li:activity:7528002294781751296",
@@ -22658,6 +22667,24 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-17T15:46:10.468279"
+    },
+    {
+      "urn": "urn:li:activity:7528400949883600897",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528400949883600897",
+      "email": "shalini.j@esolglobal.com",
+      "thread_id": "1a1e9752a8ae0fec",
+      "message_id": "1a1e9752a8ae0fec",
+      "followed_up": false,
+      "timestamp": "2026-11-17T12:22:12.823041"
+    },
+    {
+      "urn": "urn:li:activity:7528072300550713344",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528072300550713344",
+      "email": "kshitij.dixit@networkedge.in",
+      "thread_id": "1a1e97531376a466",
+      "message_id": "1a1e97531376a466",
+      "followed_up": false,
+      "timestamp": "2026-11-17T12:22:14.407325"
     }
   ]
 }
