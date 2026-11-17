@@ -1849,7 +1849,17 @@
     "urn:li:activity:7528048484386770944",
     "urn:li:activity:7528040975001239552",
     "urn:li:activity:7528033899495440384",
-    "urn:li:activity:7528099040497094656"
+    "urn:li:activity:7528099040497094656",
+    "urn:li:activity:7528328662132297728",
+    "urn:li:activity:7528326402811551745",
+    "urn:li:activity:7528324504104906752",
+    "urn:li:activity:7528324623873241088",
+    "urn:li:activity:7528324277457276929",
+    "urn:li:activity:7528320949071491072",
+    "urn:li:activity:7528319069012377601",
+    "urn:li:activity:7528317689266839552",
+    "urn:li:activity:7528313287290122241",
+    "urn:li:activity:7528306448976564224"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2905,7 +2915,11 @@
     "bhavya.k@techandgrowglobal.com",
     "neha@skilltasy.com",
     "arzoo@fountane.com",
-    "ruma@squarehiring.com"
+    "ruma@squarehiring.com",
+    "team@futurestaq.com",
+    "vasavi.g@capabiliq.com",
+    "sneha@ihrsindia.co.in",
+    "pushparaj@nrinnovium.com"
   ],
   "contacted_details": [
     {
@@ -22372,6 +22386,106 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-16T19:53:36.719352"
+    },
+    {
+      "urn": "urn:li:activity:7528328662132297728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528328662132297728",
+      "email": "team@futurestaq.com",
+      "thread_id": "1a1e80107edc7b2e",
+      "message_id": "1a1e80107edc7b2e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:05:44.825409"
+    },
+    {
+      "urn": "urn:li:activity:7528326402811551745",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528326402811551745",
+      "email": "jobs@ddtsoftware.com",
+      "thread_id": "1a1e8010fb62ac79",
+      "message_id": "1a1e8010fb62ac79",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:05:46.663051"
+    },
+    {
+      "urn": "urn:li:activity:7528324504104906752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528324504104906752",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1e801184ca729e",
+      "message_id": "1a1e801184ca729e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:05:49.440455"
+    },
+    {
+      "urn": "urn:li:activity:7528324623873241088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528324623873241088",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1e801229619652",
+      "message_id": "1a1e801229619652",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:05:52.132015"
+    },
+    {
+      "urn": "urn:li:activity:7528324277457276929",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528324277457276929",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1e8012cc9e82f5",
+      "message_id": "1a1e8012cc9e82f5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:05:54.646438"
+    },
+    {
+      "urn": "urn:li:activity:7528320949071491072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528320949071491072",
+      "email": "vasavi.g@capabiliq.com",
+      "thread_id": "1a1e801397c5d70d",
+      "message_id": "1a1e801397c5d70d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:05:57.460997"
+    },
+    {
+      "urn": "urn:li:activity:7528319069012377601",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528319069012377601",
+      "email": "sneha@ihrsindia.co.in",
+      "thread_id": "1a1e8014215b40e0",
+      "message_id": "1a1e8014215b40e0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:05:59.974111"
+    },
+    {
+      "urn": "urn:li:activity:7528317689266839552",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528317689266839552",
+      "email": "career@refercircle.in",
+      "thread_id": "1a1e80148f3e4a2e",
+      "message_id": "1a1e80148f3e4a2e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:06:01.805132"
+    },
+    {
+      "urn": "urn:li:activity:7528313287290122241",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528313287290122241",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1e80152f1c3774",
+      "message_id": "1a1e80152f1c3774",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:06:04.294489"
+    },
+    {
+      "urn": "urn:li:activity:7528306448976564224",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528306448976564224",
+      "email": "pushparaj@nrinnovium.com",
+      "thread_id": "1a1e8015b536e983",
+      "message_id": "1a1e8015b536e983",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T11:06:06.024127"
     }
   ]
 }
