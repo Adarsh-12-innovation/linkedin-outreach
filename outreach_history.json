@@ -1871,7 +1871,10 @@
     "urn:li:activity:7528364358830125056",
     "urn:li:activity:7528362073970491392",
     "urn:li:activity:7528360880498094080",
-    "urn:li:activity:7528348448929128450"
+    "urn:li:activity:7528348448929128450",
+    "urn:li:activity:7528380854121840640",
+    "urn:li:activity:7528378152008638465",
+    "urn:li:activity:7528372486946820096"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2935,7 +2938,10 @@
     "rishi.dewangan@hrprosolution.com",
     "sahil@novaretalent.com",
     "jobs@qrewz.com",
-    "anas.shaikh@theittalent.com"
+    "anas.shaikh@theittalent.com",
+    "kiruthika.b@accelgrowthtech.com",
+    "hr@bintybyte.com",
+    "bhoomika@tesseractuk.in"
   ],
   "contacted_details": [
     {
@@ -22622,6 +22628,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-17T13:48:28.497402"
+    },
+    {
+      "urn": "urn:li:activity:7528380854121840640",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528380854121840640",
+      "email": "kiruthika.b@accelgrowthtech.com",
+      "thread_id": "1a1e901ac58b7ca0",
+      "message_id": "1a1e901ac58b7ca0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T15:46:04.058622"
+    },
+    {
+      "urn": "urn:li:activity:7528378152008638465",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528378152008638465",
+      "email": "hr@bintybyte.com",
+      "thread_id": "1a1e901bdbda3108",
+      "message_id": "1a1e901bdbda3108",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T15:46:08.567737"
+    },
+    {
+      "urn": "urn:li:activity:7528372486946820096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528372486946820096",
+      "email": "bhoomika@tesseractuk.in",
+      "thread_id": "1a1e901c5fec7c24",
+      "message_id": "1a1e901c5fec7c24",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T15:46:10.468279"
     }
   ]
 }
