@@ -1859,7 +1859,14 @@
     "urn:li:activity:7528319069012377601",
     "urn:li:activity:7528317689266839552",
     "urn:li:activity:7528313287290122241",
-    "urn:li:activity:7528306448976564224"
+    "urn:li:activity:7528306448976564224",
+    "urn:li:activity:7528343935228731393",
+    "urn:li:activity:7528340061310984192",
+    "urn:li:activity:7528335249156575232",
+    "urn:li:activity:7528329900861210625",
+    "urn:li:activity:7528328673150525441",
+    "urn:li:activity:7528328456653135872",
+    "urn:li:activity:7528313964905029632"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -22486,6 +22493,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-17T11:06:06.024127"
+    },
+    {
+      "urn": "urn:li:activity:7528343935228731393",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528343935228731393",
+      "email": "reshma.shaik@creativets.in",
+      "thread_id": "1a1e83f401599a7c",
+      "message_id": "1a1e83f401599a7c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T12:13:42.501473"
+    },
+    {
+      "urn": "urn:li:activity:7528340061310984192",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528340061310984192",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1e83f4bd51cc76",
+      "message_id": "1a1e83f4bd51cc76",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T12:13:45.017250"
+    },
+    {
+      "urn": "urn:li:activity:7528335249156575232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528335249156575232",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a1e83f51f5e1e69",
+      "message_id": "1a1e83f51f5e1e69",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T12:13:46.820505"
+    },
+    {
+      "urn": "urn:li:activity:7528329900861210625",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528329900861210625",
+      "email": "archana@taln.cloud",
+      "thread_id": "1a1e83f588164299",
+      "message_id": "1a1e83f588164299",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T12:13:48.706969"
+    },
+    {
+      "urn": "urn:li:activity:7528328673150525441",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528328673150525441",
+      "email": "hrteam@vworkinfo.com",
+      "thread_id": "1a1e83f62dfb238d",
+      "message_id": "1a1e83f62dfb238d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T12:13:51.272996"
+    },
+    {
+      "urn": "urn:li:activity:7528328456653135872",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528328456653135872",
+      "email": "hrteam@vworkinfo.com",
+      "thread_id": "1a1e83f7127265e2",
+      "message_id": "1a1e83f7127265e2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T12:13:54.647107"
+    },
+    {
+      "urn": "urn:li:activity:7528313964905029632",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528313964905029632",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1e83f7893c2551",
+      "message_id": "1a1e83f7893c2551",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T12:13:57.079846"
     }
   ]
 }
