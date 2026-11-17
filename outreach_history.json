@@ -1866,7 +1866,12 @@
     "urn:li:activity:7528329900861210625",
     "urn:li:activity:7528328673150525441",
     "urn:li:activity:7528328456653135872",
-    "urn:li:activity:7528313964905029632"
+    "urn:li:activity:7528313964905029632",
+    "urn:li:activity:7528369853880123392",
+    "urn:li:activity:7528364358830125056",
+    "urn:li:activity:7528362073970491392",
+    "urn:li:activity:7528360880498094080",
+    "urn:li:activity:7528348448929128450"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2926,7 +2931,11 @@
     "team@futurestaq.com",
     "vasavi.g@capabiliq.com",
     "sneha@ihrsindia.co.in",
-    "pushparaj@nrinnovium.com"
+    "pushparaj@nrinnovium.com",
+    "rishi.dewangan@hrprosolution.com",
+    "sahil@novaretalent.com",
+    "jobs@qrewz.com",
+    "anas.shaikh@theittalent.com"
   ],
   "contacted_details": [
     {
@@ -22563,6 +22572,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-17T12:13:57.079846"
+    },
+    {
+      "urn": "urn:li:activity:7528369853880123392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528369853880123392",
+      "email": "rishi.dewangan@hrprosolution.com",
+      "thread_id": "1a1e895dfc4e9efb",
+      "message_id": "1a1e895dfc4e9efb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T13:48:19.201267"
+    },
+    {
+      "urn": "urn:li:activity:7528364358830125056",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528364358830125056",
+      "email": "sahil@novaretalent.com",
+      "thread_id": "1a1e895ebd550c3b",
+      "message_id": "1a1e895ebd550c3b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T13:48:22.102335"
+    },
+    {
+      "urn": "urn:li:activity:7528362073970491392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528362073970491392",
+      "email": "jobs@qrewz.com",
+      "thread_id": "1a1e895f19e3e09f",
+      "message_id": "1a1e895f19e3e09f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T13:48:24.081379"
+    },
+    {
+      "urn": "urn:li:activity:7528360880498094080",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528360880498094080",
+      "email": "anas.shaikh@theittalent.com",
+      "thread_id": "1a1e895f9588115a",
+      "message_id": "1a1e895f9588115a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T13:48:25.965053"
+    },
+    {
+      "urn": "urn:li:activity:7528348448929128450",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528348448929128450",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1e89603a7f8528",
+      "message_id": "1a1e89603a7f8528",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T13:48:28.497402"
     }
   ]
 }
