@@ -1876,7 +1876,12 @@
     "urn:li:activity:7528378152008638465",
     "urn:li:activity:7528372486946820096",
     "urn:li:activity:7528400949883600897",
-    "urn:li:activity:7528072300550713344"
+    "urn:li:activity:7528072300550713344",
+    "urn:li:activity:7528434371066974209",
+    "urn:li:activity:7528430821179932672",
+    "urn:li:activity:7528430695384399873",
+    "urn:li:activity:7528419783839535105",
+    "urn:li:activity:7528414821202186240"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2945,7 +2950,10 @@
     "hr@bintybyte.com",
     "bhoomika@tesseractuk.in",
     "shalini.j@esolglobal.com",
-    "kshitij.dixit@networkedge.in"
+    "kshitij.dixit@networkedge.in",
+    "rajat.u@jconnectinc.com",
+    "aadhi.nandhini@cloudtechnologiesltd.co.uk",
+    "avani.agarwal@altezzasys.com"
   ],
   "contacted_details": [
     {
@@ -22685,6 +22693,56 @@
       "message_id": "1a1e97531376a466",
       "followed_up": false,
       "timestamp": "2026-11-17T12:22:14.407325"
+    },
+    {
+      "urn": "urn:li:activity:7528434371066974209",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528434371066974209",
+      "email": "rajat.u@jconnectinc.com",
+      "thread_id": "1a1e9904030af34b",
+      "message_id": "1a1e9904030af34b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T18:21:47.865668"
+    },
+    {
+      "urn": "urn:li:activity:7528430821179932672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528430821179932672",
+      "email": "aadhi.nandhini@cloudtechnologiesltd.co.uk",
+      "thread_id": "1a1e9904b6293fe1",
+      "message_id": "1a1e9904b6293fe1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T18:21:50.705372"
+    },
+    {
+      "urn": "urn:li:activity:7528430695384399873",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528430695384399873",
+      "email": "aadhi.nandhini@cloudtechnologiesltd.co.uk",
+      "thread_id": "1a1e9905396ffc30",
+      "message_id": "1a1e9905396ffc30",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T18:21:52.807072"
+    },
+    {
+      "urn": "urn:li:activity:7528419783839535105",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528419783839535105",
+      "email": "avani.agarwal@altezzasys.com",
+      "thread_id": "1a1e9905dd555c1e",
+      "message_id": "1a1e9905dd555c1e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T18:21:55.047419"
+    },
+    {
+      "urn": "urn:li:activity:7528414821202186240",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528414821202186240",
+      "email": "m.tasleem@ekloudservices.com",
+      "thread_id": "1a1e99065e75877f",
+      "message_id": "1a1e99065e75877f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-17T18:21:57.053952"
     }
   ]
 }
