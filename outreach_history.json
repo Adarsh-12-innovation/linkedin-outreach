@@ -1888,7 +1888,12 @@
     "urn:li:activity:7528440086003326977",
     "urn:li:activity:7528479056909176832",
     "urn:li:activity:7528593983674028033",
-    "urn:li:activity:7528575555596783616"
+    "urn:li:activity:7528575555596783616",
+    "urn:li:activity:7528706148301197312",
+    "urn:li:activity:7528705000932360192",
+    "urn:li:activity:7528689912754151424",
+    "urn:li:activity:7528680660467761153",
+    "urn:li:activity:7528674832264318976"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2965,7 +2970,10 @@
     "g.ankita@ekloudservices.com",
     "varma@uniteditinc.com",
     "deepa.l@vdartinc.com",
-    "Shekar@ngtalenttech.com"
+    "Shekar@ngtalenttech.com",
+    "palak.s@divvaatechh.com",
+    "ramya@proconnxt.com",
+    "recruitment@arkavanta.com"
   ],
   "contacted_details": [
     {
@@ -22847,6 +22855,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-18T09:58:16.205700"
+    },
+    {
+      "urn": "urn:li:activity:7528706148301197312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528706148301197312",
+      "email": "palak.s@divvaatechh.com",
+      "thread_id": "1a1ed6b2809b00a6",
+      "message_id": "1a1ed6b2809b00a6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T12:19:44.763190"
+    },
+    {
+      "urn": "urn:li:activity:7528705000932360192",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528705000932360192",
+      "email": "ramya@proconnxt.com",
+      "thread_id": "1a1ed6b332e5684c",
+      "message_id": "1a1ed6b332e5684c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T12:19:47.410638"
+    },
+    {
+      "urn": "urn:li:activity:7528689912754151424",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528689912754151424",
+      "email": "contact@anp32techsolutions.com",
+      "thread_id": "1a1ed6b3b007a671",
+      "message_id": "1a1ed6b3b007a671",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T12:19:49.503115"
+    },
+    {
+      "urn": "urn:li:activity:7528680660467761153",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528680660467761153",
+      "email": "recruitment@arkavanta.com",
+      "thread_id": "1a1ed6b427e901ef",
+      "message_id": "1a1ed6b427e901ef",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T12:19:51.588838"
+    },
+    {
+      "urn": "urn:li:activity:7528674832264318976",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528674832264318976",
+      "email": "arti@aliqan.com",
+      "thread_id": "1a1ed6b4897a703b",
+      "message_id": "1a1ed6b4897a703b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T12:19:53.313886"
     }
   ]
 }
