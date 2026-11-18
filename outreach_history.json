@@ -1893,7 +1893,17 @@
     "urn:li:activity:7528705000932360192",
     "urn:li:activity:7528689912754151424",
     "urn:li:activity:7528680660467761153",
-    "urn:li:activity:7528674832264318976"
+    "urn:li:activity:7528674832264318976",
+    "urn:li:activity:7528755072948727808",
+    "urn:li:activity:7528753311894810624",
+    "urn:li:activity:7528746911252553728",
+    "urn:li:activity:7528744530888523777",
+    "urn:li:activity:7528726669222912001",
+    "urn:li:activity:7528724227085086720",
+    "urn:li:activity:7528717822332628993",
+    "urn:li:activity:7528717238762344448",
+    "urn:li:activity:7528716924671848448",
+    "urn:li:activity:7528714914824286208"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2973,7 +2983,10 @@
     "Shekar@ngtalenttech.com",
     "palak.s@divvaatechh.com",
     "ramya@proconnxt.com",
-    "recruitment@arkavanta.com"
+    "recruitment@arkavanta.com",
+    "ramadevi.bhumireddy@newpage.io",
+    "rani@talentsyker.co.in",
+    "info@higherup.in"
   ],
   "contacted_details": [
     {
@@ -22905,6 +22918,106 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-18T12:19:53.313886"
+    },
+    {
+      "urn": "urn:li:activity:7528755072948727808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528755072948727808",
+      "email": "ramadevi.bhumireddy@newpage.io",
+      "thread_id": "1a1ee167f40a3898",
+      "message_id": "1a1ee167f40a3898",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:26:54.311195"
+    },
+    {
+      "urn": "urn:li:activity:7528753311894810624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528753311894810624",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a1ee1688c8ad457",
+      "message_id": "1a1ee1688c8ad457",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:26:56.436614"
+    },
+    {
+      "urn": "urn:li:activity:7528746911252553728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528746911252553728",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1ee169179b05ef",
+      "message_id": "1a1ee169179b05ef",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:26:58.711851"
+    },
+    {
+      "urn": "urn:li:activity:7528744530888523777",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528744530888523777",
+      "email": "ramya@proconnxt.com",
+      "thread_id": "1a1ee1698ba4fc54",
+      "message_id": "1a1ee1698ba4fc54",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:27:00.717233"
+    },
+    {
+      "urn": "urn:li:activity:7528726669222912001",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528726669222912001",
+      "email": "hr.sgs.consultancy@gmail.com",
+      "thread_id": "1a1ee169f501944b",
+      "message_id": "1a1ee169f501944b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:27:02.489007"
+    },
+    {
+      "urn": "urn:li:activity:7528724227085086720",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528724227085086720",
+      "email": "hr.sgs.consultancy@gmail.com",
+      "thread_id": "1a1ee16a6c0621d2",
+      "message_id": "1a1ee16a6c0621d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:27:04.264327"
+    },
+    {
+      "urn": "urn:li:activity:7528717822332628993",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528717822332628993",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a1ee16ae408434e",
+      "message_id": "1a1ee16ae408434e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:27:06.308986"
+    },
+    {
+      "urn": "urn:li:activity:7528717238762344448",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528717238762344448",
+      "email": "rani@talentsyker.co.in",
+      "thread_id": "1a1ee16b6b75149b",
+      "message_id": "1a1ee16b6b75149b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:27:08.309491"
+    },
+    {
+      "urn": "urn:li:activity:7528716924671848448",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528716924671848448",
+      "email": "rani@talentsyker.co.in",
+      "thread_id": "1a1ee16be364a7f5",
+      "message_id": "1a1ee16be364a7f5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:27:10.369745"
+    },
+    {
+      "urn": "urn:li:activity:7528714914824286208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528714914824286208",
+      "email": "info@higherup.in",
+      "thread_id": "1a1ee16cd9d2aff6",
+      "message_id": "1a1ee16cd9d2aff6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T15:27:14.152052"
     }
   ]
 }
