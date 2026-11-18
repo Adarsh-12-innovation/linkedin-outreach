@@ -1906,7 +1906,16 @@
     "urn:li:activity:7528714914824286208",
     "urn:li:activity:7528795115683840000",
     "urn:li:activity:7528794937404874752",
-    "urn:li:activity:7528761759567093762"
+    "urn:li:activity:7528761759567093762",
+    "urn:li:activity:7528821651145322497",
+    "urn:li:activity:7528803590824452096",
+    "urn:li:activity:7528803173512409088",
+    "urn:li:activity:7528802766022942721",
+    "urn:li:activity:7528802238660747264",
+    "urn:li:activity:7528801889736589312",
+    "urn:li:activity:7528799770606190594",
+    "urn:li:activity:7528798971511644160",
+    "urn:li:activity:7528797441899327488"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2990,7 +2999,9 @@
     "ramadevi.bhumireddy@newpage.io",
     "rani@talentsyker.co.in",
     "info@higherup.in",
-    "Mounika@acunor.com"
+    "Mounika@acunor.com",
+    "sai.m@eraytec.com",
+    "info@krinovaconsultant.com"
   ],
   "contacted_details": [
     {
@@ -22675,7 +22686,7 @@
       "email": "rishi.dewangan@hrprosolution.com",
       "thread_id": "1a1e895dfc4e9efb",
       "message_id": "1a1e895dfc4e9efb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-17T13:48:19.201267"
     },
@@ -22685,7 +22696,7 @@
       "email": "sahil@novaretalent.com",
       "thread_id": "1a1e895ebd550c3b",
       "message_id": "1a1e895ebd550c3b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-17T13:48:22.102335"
     },
@@ -22695,9 +22706,10 @@
       "email": "jobs@qrewz.com",
       "thread_id": "1a1e895f19e3e09f",
       "message_id": "1a1e895f19e3e09f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T13:48:24.081379"
+      "timestamp": "2026-11-17T13:48:24.081379",
+      "followup_timestamp": "2026-11-18T19:49:23.669214"
     },
     {
       "urn": "urn:li:activity:7528360880498094080",
@@ -22705,9 +22717,10 @@
       "email": "anas.shaikh@theittalent.com",
       "thread_id": "1a1e895f9588115a",
       "message_id": "1a1e895f9588115a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T13:48:25.965053"
+      "timestamp": "2026-11-17T13:48:25.965053",
+      "followup_timestamp": "2026-11-18T19:49:26.040032"
     },
     {
       "urn": "urn:li:activity:7528348448929128450",
@@ -22715,9 +22728,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1e89603a7f8528",
       "message_id": "1a1e89603a7f8528",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T13:48:28.497402"
+      "timestamp": "2026-11-17T13:48:28.497402",
+      "followup_timestamp": "2026-11-18T19:49:28.308201"
     },
     {
       "urn": "urn:li:activity:7528380854121840640",
@@ -23067,6 +23081,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-18T18:02:43.954866"
+    },
+    {
+      "urn": "urn:li:activity:7528821651145322497",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528821651145322497",
+      "email": "sai.m@eraytec.com",
+      "thread_id": "1a1ef067c74da7c3",
+      "message_id": "1a1ef067c74da7c3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T19:49:02.334489"
+    },
+    {
+      "urn": "urn:li:activity:7528803590824452096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528803590824452096",
+      "email": "ramya@proconnxt.com",
+      "thread_id": "1a1ef0686e68a1fb",
+      "message_id": "1a1ef0686e68a1fb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T19:49:05.114991"
+    },
+    {
+      "urn": "urn:li:activity:7528803173512409088",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528803173512409088",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1ef068ec2ea560",
+      "message_id": "1a1ef068ec2ea560",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T19:49:07.159858"
+    },
+    {
+      "urn": "urn:li:activity:7528802766022942721",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528802766022942721",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1ef06978baf75f",
+      "message_id": "1a1ef06978baf75f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T19:49:09.230449"
+    },
+    {
+      "urn": "urn:li:activity:7528802238660747264",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528802238660747264",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1ef069ed81b244",
+      "message_id": "1a1ef069ed81b244",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T19:49:11.365028"
+    },
+    {
+      "urn": "urn:li:activity:7528801889736589312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528801889736589312",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1ef06a849a3eb2",
+      "message_id": "1a1ef06a849a3eb2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T19:49:13.870806"
+    },
+    {
+      "urn": "urn:li:activity:7528799770606190594",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528799770606190594",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1ef06b2804bc57",
+      "message_id": "1a1ef06b2804bc57",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T19:49:16.143081"
+    },
+    {
+      "urn": "urn:li:activity:7528798971511644160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528798971511644160",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1ef06bb12e6f7e",
+      "message_id": "1a1ef06bb12e6f7e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T19:49:18.244221"
+    },
+    {
+      "urn": "urn:li:activity:7528797441899327488",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528797441899327488",
+      "email": "info@krinovaconsultant.com",
+      "thread_id": "1a1ef06c1331ec09",
+      "message_id": "1a1ef06c1331ec09",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T19:49:20.141924"
     }
   ]
 }
