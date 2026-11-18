@@ -1886,7 +1886,9 @@
     "urn:li:activity:7528458018972233729",
     "urn:li:activity:7528454918178000896",
     "urn:li:activity:7528440086003326977",
-    "urn:li:activity:7528479056909176832"
+    "urn:li:activity:7528479056909176832",
+    "urn:li:activity:7528593983674028033",
+    "urn:li:activity:7528575555596783616"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -2961,7 +2963,9 @@
     "avani.agarwal@altezzasys.com",
     "nag@bitsolutionsus.com",
     "g.ankita@ekloudservices.com",
-    "varma@uniteditinc.com"
+    "varma@uniteditinc.com",
+    "deepa.l@vdartinc.com",
+    "Shekar@ngtalenttech.com"
   ],
   "contacted_details": [
     {
@@ -22396,9 +22400,10 @@
       "email": "bhavya.k@techandgrowglobal.com",
       "thread_id": "1a1e45f0097a021f",
       "message_id": "1a1e45f0097a021f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T18:09:54.195949"
+      "timestamp": "2026-11-16T18:09:54.195949",
+      "followup_timestamp": "2026-11-18T09:58:18.522830"
     },
     {
       "urn": "urn:li:activity:7528049374845825024",
@@ -22406,9 +22411,10 @@
       "email": "neha@skilltasy.com",
       "thread_id": "1a1e45f1044a5519",
       "message_id": "1a1e45f1044a5519",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T18:09:58.441258"
+      "timestamp": "2026-11-16T18:09:58.441258",
+      "followup_timestamp": "2026-11-18T09:58:20.703389"
     },
     {
       "urn": "urn:li:activity:7528048484386770944",
@@ -22416,9 +22422,10 @@
       "email": "arti@aliqan.com",
       "thread_id": "1a1e45f2088b2267",
       "message_id": "1a1e45f2088b2267",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T18:10:02.439270"
+      "timestamp": "2026-11-16T18:10:02.439270",
+      "followup_timestamp": "2026-11-18T09:58:22.915238"
     },
     {
       "urn": "urn:li:activity:7528040975001239552",
@@ -22426,9 +22433,10 @@
       "email": "harsha@code1.dev",
       "thread_id": "1a1e45f282b76119",
       "message_id": "1a1e45f282b76119",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T18:10:04.409563"
+      "timestamp": "2026-11-16T18:10:04.409563",
+      "followup_timestamp": "2026-11-18T09:58:25.155277"
     },
     {
       "urn": "urn:li:activity:7528033899495440384",
@@ -22436,9 +22444,10 @@
       "email": "arzoo@fountane.com",
       "thread_id": "1a1e45f30dd30cc4",
       "message_id": "1a1e45f30dd30cc4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T18:10:06.403278"
+      "timestamp": "2026-11-16T18:10:06.403278",
+      "followup_timestamp": "2026-11-18T09:58:27.404063"
     },
     {
       "urn": "urn:li:activity:7528099040497094656",
@@ -22446,9 +22455,10 @@
       "email": "ruma@squarehiring.com",
       "thread_id": "1a1e4bdf3445973f",
       "message_id": "1a1e4bdf3445973f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-16T19:53:36.719352"
+      "timestamp": "2026-11-16T19:53:36.719352",
+      "followup_timestamp": "2026-11-18T09:58:29.620137"
     },
     {
       "urn": "urn:li:activity:7528328662132297728",
@@ -22817,6 +22827,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-17T22:10:02.447645"
+    },
+    {
+      "urn": "urn:li:activity:7528593983674028033",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528593983674028033",
+      "email": "deepa.l@vdartinc.com",
+      "thread_id": "1a1ece99b52fe241",
+      "message_id": "1a1ece99b52fe241",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T09:58:14.403091"
+    },
+    {
+      "urn": "urn:li:activity:7528575555596783616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528575555596783616",
+      "email": "Shekar@ngtalenttech.com",
+      "thread_id": "1a1ece9a11d35c08",
+      "message_id": "1a1ece9a11d35c08",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-18T09:58:16.205700"
     }
   ]
 }
