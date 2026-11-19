@@ -1915,7 +1915,10 @@
     "urn:li:activity:7528801889736589312",
     "urn:li:activity:7528799770606190594",
     "urn:li:activity:7528798971511644160",
-    "urn:li:activity:7528797441899327488"
+    "urn:li:activity:7528797441899327488",
+    "urn:li:activity:7528954897564786688",
+    "urn:li:activity:7528952615213281280",
+    "urn:li:activity:7528950360468647937"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3001,7 +3004,9 @@
     "info@higherup.in",
     "Mounika@acunor.com",
     "sai.m@eraytec.com",
-    "info@krinovaconsultant.com"
+    "info@krinovaconsultant.com",
+    "monti.kumar@neerinfo.com",
+    "saurav.patil@bravensinc.com"
   ],
   "contacted_details": [
     {
@@ -22739,9 +22744,10 @@
       "email": "kiruthika.b@accelgrowthtech.com",
       "thread_id": "1a1e901ac58b7ca0",
       "message_id": "1a1e901ac58b7ca0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T15:46:04.058622"
+      "timestamp": "2026-11-17T15:46:04.058622",
+      "followup_timestamp": "2026-11-19T10:37:44.563194"
     },
     {
       "urn": "urn:li:activity:7528378152008638465",
@@ -22749,9 +22755,10 @@
       "email": "hr@bintybyte.com",
       "thread_id": "1a1e901bdbda3108",
       "message_id": "1a1e901bdbda3108",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T15:46:08.567737"
+      "timestamp": "2026-11-17T15:46:08.567737",
+      "followup_timestamp": "2026-11-19T10:37:46.788512"
     },
     {
       "urn": "urn:li:activity:7528372486946820096",
@@ -22759,9 +22766,10 @@
       "email": "bhoomika@tesseractuk.in",
       "thread_id": "1a1e901c5fec7c24",
       "message_id": "1a1e901c5fec7c24",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T15:46:10.468279"
+      "timestamp": "2026-11-17T15:46:10.468279",
+      "followup_timestamp": "2026-11-19T10:37:49.148425"
     },
     {
       "urn": "urn:li:activity:7528400949883600897",
@@ -22788,9 +22796,10 @@
       "email": "rajat.u@jconnectinc.com",
       "thread_id": "1a1e9904030af34b",
       "message_id": "1a1e9904030af34b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T18:21:47.865668"
+      "timestamp": "2026-11-17T18:21:47.865668",
+      "followup_timestamp": "2026-11-19T10:37:51.356202"
     },
     {
       "urn": "urn:li:activity:7528430821179932672",
@@ -22798,9 +22807,10 @@
       "email": "aadhi.nandhini@cloudtechnologiesltd.co.uk",
       "thread_id": "1a1e9904b6293fe1",
       "message_id": "1a1e9904b6293fe1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T18:21:50.705372"
+      "timestamp": "2026-11-17T18:21:50.705372",
+      "followup_timestamp": "2026-11-19T10:37:53.541976"
     },
     {
       "urn": "urn:li:activity:7528430695384399873",
@@ -22808,9 +22818,10 @@
       "email": "aadhi.nandhini@cloudtechnologiesltd.co.uk",
       "thread_id": "1a1e9905396ffc30",
       "message_id": "1a1e9905396ffc30",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T18:21:52.807072"
+      "timestamp": "2026-11-17T18:21:52.807072",
+      "followup_timestamp": "2026-11-19T10:37:55.766406"
     },
     {
       "urn": "urn:li:activity:7528419783839535105",
@@ -22818,9 +22829,10 @@
       "email": "avani.agarwal@altezzasys.com",
       "thread_id": "1a1e9905dd555c1e",
       "message_id": "1a1e9905dd555c1e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T18:21:55.047419"
+      "timestamp": "2026-11-17T18:21:55.047419",
+      "followup_timestamp": "2026-11-19T10:37:57.998513"
     },
     {
       "urn": "urn:li:activity:7528414821202186240",
@@ -22828,9 +22840,10 @@
       "email": "m.tasleem@ekloudservices.com",
       "thread_id": "1a1e99065e75877f",
       "message_id": "1a1e99065e75877f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T18:21:57.053952"
+      "timestamp": "2026-11-17T18:21:57.053952",
+      "followup_timestamp": "2026-11-19T10:38:00.189877"
     },
     {
       "urn": "urn:li:activity:7528458185410768896",
@@ -22838,9 +22851,10 @@
       "email": "nag@bitsolutionsus.com",
       "thread_id": "1a1e9ddc1ba924a9",
       "message_id": "1a1e9ddc1ba924a9",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T19:46:27.881725"
+      "timestamp": "2026-11-17T19:46:27.881725",
+      "followup_timestamp": "2026-11-19T10:38:02.409471"
     },
     {
       "urn": "urn:li:activity:7528458018972233729",
@@ -22848,9 +22862,10 @@
       "email": "nag@bitsolutionsus.com",
       "thread_id": "1a1e9ddcde8894e5",
       "message_id": "1a1e9ddcde8894e5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T19:46:31.300801"
+      "timestamp": "2026-11-17T19:46:31.300801",
+      "followup_timestamp": "2026-11-19T10:38:04.595107"
     },
     {
       "urn": "urn:li:activity:7528454918178000896",
@@ -22858,7 +22873,7 @@
       "email": "contato@licenciadorh.com.br",
       "thread_id": "1a1e9dddc15c361b",
       "message_id": "1a1e9dddc15c361b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-17T19:46:34.789223"
     },
@@ -22868,9 +22883,10 @@
       "email": "g.ankita@ekloudservices.com",
       "thread_id": "1a1e9dde926b14b4",
       "message_id": "1a1e9dde926b14b4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T19:46:38.171425"
+      "timestamp": "2026-11-17T19:46:38.171425",
+      "followup_timestamp": "2026-11-19T10:38:07.242043"
     },
     {
       "urn": "urn:li:activity:7528479056909176832",
@@ -22878,9 +22894,10 @@
       "email": "varma@uniteditinc.com",
       "thread_id": "1a1ea61378454085",
       "message_id": "1a1ea61378454085",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-17T22:10:02.447645"
+      "timestamp": "2026-11-17T22:10:02.447645",
+      "followup_timestamp": "2026-11-19T10:38:09.465418"
     },
     {
       "urn": "urn:li:activity:7528593983674028033",
@@ -23171,6 +23188,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-18T19:49:20.141924"
+    },
+    {
+      "urn": "urn:li:activity:7528954897564786688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528954897564786688",
+      "email": "samara@sdvstech.com",
+      "thread_id": "1a1f233f9b0150e3",
+      "message_id": "1a1f233f9b0150e3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T10:37:35.447542"
+    },
+    {
+      "urn": "urn:li:activity:7528952615213281280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528952615213281280",
+      "email": "monti.kumar@neerinfo.com",
+      "thread_id": "1a1f234025c3c69c",
+      "message_id": "1a1f234025c3c69c",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T10:37:37.740538"
+    },
+    {
+      "urn": "urn:li:activity:7528950360468647937",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7528950360468647937",
+      "email": "saurav.patil@bravensinc.com",
+      "thread_id": "1a1f234142a1e9fb",
+      "message_id": "1a1f234142a1e9fb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T10:37:42.330807"
     }
   ]
 }
