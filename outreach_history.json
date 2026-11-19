@@ -1937,7 +1937,11 @@
     "urn:li:activity:7529076500348891138",
     "urn:li:activity:7529075272516722688",
     "urn:li:activity:7529074619958530049",
-    "urn:li:activity:7529069711163056128"
+    "urn:li:activity:7529069711163056128",
+    "urn:li:activity:7529110344116453376",
+    "urn:li:activity:7529084243638136832",
+    "urn:li:activity:7529078857371607040",
+    "urn:li:activity:7529065350785789953"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3038,7 +3042,9 @@
     "asha.krishnan@wattlecorp.com",
     "barsha.rm@intineriinfosol.com",
     "bhaskar.mishra@intineriinfosol.com",
-    "Shrikrishivhr@gmail.com"
+    "Shrikrishivhr@gmail.com",
+    "koushik@macsof.in, bhargavi@macsof.in",
+    "siddhartha.pal@msrscorp.com"
   ],
   "contacted_details": [
     {
@@ -23440,6 +23446,46 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-19T14:34:09.809865"
+    },
+    {
+      "urn": "urn:li:activity:7529110344116453376",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529110344116453376",
+      "email": "jiya@aliqan.com",
+      "thread_id": "1a1f3387476b7977",
+      "message_id": "1a1f3387476b7977",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T15:22:06.457591"
+    },
+    {
+      "urn": "urn:li:activity:7529084243638136832",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529084243638136832",
+      "email": "career@techopusin.com",
+      "thread_id": "1a1f3387defcc519",
+      "message_id": "1a1f3387defcc519",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T15:22:08.710364"
+    },
+    {
+      "urn": "urn:li:activity:7529078857371607040",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529078857371607040",
+      "email": "koushik@macsof.in, bhargavi@macsof.in",
+      "thread_id": "1a1f338888302807",
+      "message_id": "1a1f338888302807",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T15:22:11.577541"
+    },
+    {
+      "urn": "urn:li:activity:7529065350785789953",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529065350785789953",
+      "email": "siddhartha.pal@msrscorp.com",
+      "thread_id": "1a1f338915c1f1d2",
+      "message_id": "1a1f338915c1f1d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T15:22:13.720391"
     }
   ]
 }
