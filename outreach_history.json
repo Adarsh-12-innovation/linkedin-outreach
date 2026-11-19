@@ -1918,7 +1918,19 @@
     "urn:li:activity:7528797441899327488",
     "urn:li:activity:7528954897564786688",
     "urn:li:activity:7528952615213281280",
-    "urn:li:activity:7528950360468647937"
+    "urn:li:activity:7528950360468647937",
+    "urn:li:activity:7529068509738205185",
+    "urn:li:activity:7529068218045329409",
+    "urn:li:activity:7529063442855518208",
+    "urn:li:activity:7529061367299858434",
+    "urn:li:activity:7529061532173963264",
+    "urn:li:activity:7529060657254785024",
+    "urn:li:activity:7529060791350870016",
+    "urn:li:activity:7529059730925973504",
+    "urn:li:activity:7529059385596338176",
+    "urn:li:activity:7529057203505422336",
+    "urn:li:activity:7529056969358340096",
+    "urn:li:activity:7529035706023964672"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3006,7 +3018,14 @@
     "sai.m@eraytec.com",
     "info@krinovaconsultant.com",
     "monti.kumar@neerinfo.com",
-    "saurav.patil@bravensinc.com"
+    "saurav.patil@bravensinc.com",
+    "Jobs@headsbaseconsulting.com",
+    "mahima.r@uhvsoftwaresolutions.com",
+    "sharanya@uhvsoftwaresolutions.com, alekhya.g@uhvsoftwaresolutions.com",
+    "jiya@aliqan.com",
+    "jyoti@aliqan.com",
+    "sharanya@uhvsoftwaresolutions.com",
+    "salatmahenoor7.8.6@gmail.com"
   ],
   "contacted_details": [
     {
@@ -23218,6 +23237,126 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-19T10:37:42.330807"
+    },
+    {
+      "urn": "urn:li:activity:7529068509738205185",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529068509738205185",
+      "email": "Jobs@headsbaseconsulting.com",
+      "thread_id": "1a1f28da3536792f",
+      "message_id": "1a1f28da3536792f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:31.729695"
+    },
+    {
+      "urn": "urn:li:activity:7529068218045329409",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529068218045329409",
+      "email": "mahima.r@uhvsoftwaresolutions.com",
+      "thread_id": "1a1f28daca82108a",
+      "message_id": "1a1f28daca82108a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:34.008674"
+    },
+    {
+      "urn": "urn:li:activity:7529063442855518208",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529063442855518208",
+      "email": "mahek@aliqan.com",
+      "thread_id": "1a1f28db4ff991a8",
+      "message_id": "1a1f28db4ff991a8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:36.169644"
+    },
+    {
+      "urn": "urn:li:activity:7529061367299858434",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529061367299858434",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1f28dbf788cc0b",
+      "message_id": "1a1f28dbf788cc0b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:38.637482"
+    },
+    {
+      "urn": "urn:li:activity:7529061532173963264",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529061532173963264",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1f28dc851b65f0",
+      "message_id": "1a1f28dc851b65f0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:41.102559"
+    },
+    {
+      "urn": "urn:li:activity:7529060657254785024",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529060657254785024",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1f28dd11edf1d4",
+      "message_id": "1a1f28dd11edf1d4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:43.451517"
+    },
+    {
+      "urn": "urn:li:activity:7529060791350870016",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529060791350870016",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1f28ddb7e9f75f",
+      "message_id": "1a1f28ddb7e9f75f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:45.730558"
+    },
+    {
+      "urn": "urn:li:activity:7529059730925973504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529059730925973504",
+      "email": "sharanya@uhvsoftwaresolutions.com, alekhya.g@uhvsoftwaresolutions.com",
+      "thread_id": "1a1f28de34958154",
+      "message_id": "1a1f28de34958154",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:47.861759"
+    },
+    {
+      "urn": "urn:li:activity:7529059385596338176",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529059385596338176",
+      "email": "jiya@aliqan.com",
+      "thread_id": "1a1f28dea0252717",
+      "message_id": "1a1f28dea0252717",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:50.021254"
+    },
+    {
+      "urn": "urn:li:activity:7529057203505422336",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529057203505422336",
+      "email": "jyoti@aliqan.com",
+      "thread_id": "1a1f28df309fa384",
+      "message_id": "1a1f28df309fa384",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:52.154586"
+    },
+    {
+      "urn": "urn:li:activity:7529056969358340096",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529056969358340096",
+      "email": "sharanya@uhvsoftwaresolutions.com",
+      "thread_id": "1a1f28dfc32319d1",
+      "message_id": "1a1f28dfc32319d1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:54.675428"
+    },
+    {
+      "urn": "urn:li:activity:7529035706023964672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529035706023964672",
+      "email": "salatmahenoor7.8.6@gmail.com",
+      "thread_id": "1a1f28e068cbf201",
+      "message_id": "1a1f28e068cbf201",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T12:15:57.061235"
     }
   ]
 }
