@@ -1941,7 +1941,16 @@
     "urn:li:activity:7529110344116453376",
     "urn:li:activity:7529084243638136832",
     "urn:li:activity:7529078857371607040",
-    "urn:li:activity:7529065350785789953"
+    "urn:li:activity:7529065350785789953",
+    "urn:li:activity:7529138754050121728",
+    "urn:li:activity:7529136598471593984",
+    "urn:li:activity:7529134740734464000",
+    "urn:li:activity:7529134336353320960",
+    "urn:li:activity:7529133430484426753",
+    "urn:li:activity:7529132751699202048",
+    "urn:li:activity:7529126096055713792",
+    "urn:li:activity:7529123534577594368",
+    "urn:li:activity:7529105995936194560"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3044,7 +3053,11 @@
     "bhaskar.mishra@intineriinfosol.com",
     "Shrikrishivhr@gmail.com",
     "koushik@macsof.in, bhargavi@macsof.in",
-    "siddhartha.pal@msrscorp.com"
+    "siddhartha.pal@msrscorp.com",
+    "bhavitha.kandhi@sncitservices.com",
+    "dhruvanth@xanikainfotech.com",
+    "nirmala@xanikainfotech.com",
+    "hr@techhatsitsolutions.com"
   ],
   "contacted_details": [
     {
@@ -22943,9 +22956,10 @@
       "email": "deepa.l@vdartinc.com",
       "thread_id": "1a1ece99b52fe241",
       "message_id": "1a1ece99b52fe241",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-18T09:58:14.403091"
+      "timestamp": "2026-11-18T09:58:14.403091",
+      "followup_timestamp": "2026-11-19T16:57:48.280626"
     },
     {
       "urn": "urn:li:activity:7528575555596783616",
@@ -22953,9 +22967,10 @@
       "email": "Shekar@ngtalenttech.com",
       "thread_id": "1a1ece9a11d35c08",
       "message_id": "1a1ece9a11d35c08",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-18T09:58:16.205700"
+      "timestamp": "2026-11-18T09:58:16.205700",
+      "followup_timestamp": "2026-11-19T16:57:50.627208"
     },
     {
       "urn": "urn:li:activity:7528706148301197312",
@@ -23486,6 +23501,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-19T15:22:13.720391"
+    },
+    {
+      "urn": "urn:li:activity:7529138754050121728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529138754050121728",
+      "email": "bhavitha.kandhi@sncitservices.com",
+      "thread_id": "1a1f38fb87b6d7b8",
+      "message_id": "1a1f38fb87b6d7b8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T16:57:25.640646"
+    },
+    {
+      "urn": "urn:li:activity:7529136598471593984",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529136598471593984",
+      "email": "dhruvanth@xanikainfotech.com",
+      "thread_id": "1a1f38fc0281b9bf",
+      "message_id": "1a1f38fc0281b9bf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T16:57:27.820949"
+    },
+    {
+      "urn": "urn:li:activity:7529134740734464000",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529134740734464000",
+      "email": "vedika.pakhale@huemot.com",
+      "thread_id": "1a1f38fcd692bb13",
+      "message_id": "1a1f38fcd692bb13",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T16:57:30.853725"
+    },
+    {
+      "urn": "urn:li:activity:7529134336353320960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529134336353320960",
+      "email": "vedika.pakhale@huemot.com",
+      "thread_id": "1a1f38fdb26b4a10",
+      "message_id": "1a1f38fdb26b4a10",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T16:57:34.173620"
+    },
+    {
+      "urn": "urn:li:activity:7529133430484426753",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529133430484426753",
+      "email": "nirmala@xanikainfotech.com",
+      "thread_id": "1a1f38fe363f6e65",
+      "message_id": "1a1f38fe363f6e65",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T16:57:36.299678"
+    },
+    {
+      "urn": "urn:li:activity:7529132751699202048",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529132751699202048",
+      "email": "Jobs@headsbaseconsulting.com",
+      "thread_id": "1a1f38fec23d3805",
+      "message_id": "1a1f38fec23d3805",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T16:57:38.829629"
+    },
+    {
+      "urn": "urn:li:activity:7529126096055713792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529126096055713792",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a1f38ff50427265",
+      "message_id": "1a1f38ff50427265",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T16:57:41.118722"
+    },
+    {
+      "urn": "urn:li:activity:7529123534577594368",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529123534577594368",
+      "email": "hr@techhatsitsolutions.com",
+      "thread_id": "1a1f38ffece0b7f6",
+      "message_id": "1a1f38ffece0b7f6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T16:57:43.408347"
+    },
+    {
+      "urn": "urn:li:activity:7529105995936194560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529105995936194560",
+      "email": "siddhartha.pal@msrscorp.com",
+      "thread_id": "1a1f390068e1c3d4",
+      "message_id": "1a1f390068e1c3d4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T16:57:45.649770"
     }
   ]
 }
