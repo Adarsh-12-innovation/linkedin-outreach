@@ -1950,7 +1950,14 @@
     "urn:li:activity:7529132751699202048",
     "urn:li:activity:7529126096055713792",
     "urn:li:activity:7529123534577594368",
-    "urn:li:activity:7529105995936194560"
+    "urn:li:activity:7529105995936194560",
+    "urn:li:activity:7529163957132222465",
+    "urn:li:activity:7529163079092375553",
+    "urn:li:activity:7529162692142653440",
+    "urn:li:activity:7529156622762487808",
+    "urn:li:activity:7529156736629370881",
+    "urn:li:activity:7529150293863821312",
+    "urn:li:activity:7529144548795801600"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3057,7 +3064,11 @@
     "bhavitha.kandhi@sncitservices.com",
     "dhruvanth@xanikainfotech.com",
     "nirmala@xanikainfotech.com",
-    "hr@techhatsitsolutions.com"
+    "hr@techhatsitsolutions.com",
+    "Arpita.baule@rampwork.dev",
+    "yashaswini.bawane@srnext.in",
+    "mkaur@prointegrate.net",
+    "robin@encore-itsolutions.com"
   ],
   "contacted_details": [
     {
@@ -22978,7 +22989,7 @@
       "email": "palak.s@divvaatechh.com",
       "thread_id": "1a1ed6b2809b00a6",
       "message_id": "1a1ed6b2809b00a6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-18T12:19:44.763190"
     },
@@ -22988,9 +22999,10 @@
       "email": "ramya@proconnxt.com",
       "thread_id": "1a1ed6b332e5684c",
       "message_id": "1a1ed6b332e5684c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-18T12:19:47.410638"
+      "timestamp": "2026-11-18T12:19:47.410638",
+      "followup_timestamp": "2026-11-19T18:30:23.040956"
     },
     {
       "urn": "urn:li:activity:7528689912754151424",
@@ -22998,9 +23010,10 @@
       "email": "contact@anp32techsolutions.com",
       "thread_id": "1a1ed6b3b007a671",
       "message_id": "1a1ed6b3b007a671",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-18T12:19:49.503115"
+      "timestamp": "2026-11-18T12:19:49.503115",
+      "followup_timestamp": "2026-11-19T18:30:25.615154"
     },
     {
       "urn": "urn:li:activity:7528680660467761153",
@@ -23008,7 +23021,7 @@
       "email": "recruitment@arkavanta.com",
       "thread_id": "1a1ed6b427e901ef",
       "message_id": "1a1ed6b427e901ef",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-18T12:19:51.588838"
     },
@@ -23018,9 +23031,10 @@
       "email": "arti@aliqan.com",
       "thread_id": "1a1ed6b4897a703b",
       "message_id": "1a1ed6b4897a703b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-18T12:19:53.313886"
+      "timestamp": "2026-11-18T12:19:53.313886",
+      "followup_timestamp": "2026-11-19T18:30:28.432326"
     },
     {
       "urn": "urn:li:activity:7528755072948727808",
@@ -23591,6 +23605,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-19T16:57:45.649770"
+    },
+    {
+      "urn": "urn:li:activity:7529163957132222465",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529163957132222465",
+      "email": "Arpita.baule@rampwork.dev",
+      "thread_id": "1a1f3e48b0b3b0b4",
+      "message_id": "1a1f3e48b0b3b0b4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T18:30:04.735543"
+    },
+    {
+      "urn": "urn:li:activity:7529163079092375553",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529163079092375553",
+      "email": "Arpita.baule@rampwork.dev",
+      "thread_id": "1a1f3e497621dbc3",
+      "message_id": "1a1f3e497621dbc3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T18:30:07.181808"
+    },
+    {
+      "urn": "urn:li:activity:7529162692142653440",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529162692142653440",
+      "email": "yashaswini.bawane@srnext.in",
+      "thread_id": "1a1f3e4a0e5ff9cb",
+      "message_id": "1a1f3e4a0e5ff9cb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T18:30:10.007499"
+    },
+    {
+      "urn": "urn:li:activity:7529156622762487808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529156622762487808",
+      "email": "Mounika@acunor.com",
+      "thread_id": "1a1f3e4aafa1143e",
+      "message_id": "1a1f3e4aafa1143e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T18:30:12.646228"
+    },
+    {
+      "urn": "urn:li:activity:7529156736629370881",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529156736629370881",
+      "email": "yashaswini.bawane@srnext.in",
+      "thread_id": "1a1f3e4b410020bd",
+      "message_id": "1a1f3e4b410020bd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T18:30:15.102714"
+    },
+    {
+      "urn": "urn:li:activity:7529150293863821312",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529150293863821312",
+      "email": "mkaur@prointegrate.net",
+      "thread_id": "1a1f3e4bfc53b40d",
+      "message_id": "1a1f3e4bfc53b40d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T18:30:17.458151"
+    },
+    {
+      "urn": "urn:li:activity:7529144548795801600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529144548795801600",
+      "email": "robin@encore-itsolutions.com",
+      "thread_id": "1a1f3e4c703daa73",
+      "message_id": "1a1f3e4c703daa73",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T18:30:19.996487"
     }
   ]
 }
