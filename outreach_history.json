@@ -1930,7 +1930,14 @@
     "urn:li:activity:7529059385596338176",
     "urn:li:activity:7529057203505422336",
     "urn:li:activity:7529056969358340096",
-    "urn:li:activity:7529035706023964672"
+    "urn:li:activity:7529035706023964672",
+    "urn:li:activity:7529096977125519360",
+    "urn:li:activity:7529095000228294656",
+    "urn:li:activity:7529079696903266304",
+    "urn:li:activity:7529076500348891138",
+    "urn:li:activity:7529075272516722688",
+    "urn:li:activity:7529074619958530049",
+    "urn:li:activity:7529069711163056128"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3025,7 +3032,13 @@
     "jiya@aliqan.com",
     "jyoti@aliqan.com",
     "sharanya@uhvsoftwaresolutions.com",
-    "salatmahenoor7.8.6@gmail.com"
+    "salatmahenoor7.8.6@gmail.com",
+    "bhumika.sr@bhuvitechinnovations.com",
+    "info@conveyease.co.uk",
+    "asha.krishnan@wattlecorp.com",
+    "barsha.rm@intineriinfosol.com",
+    "bhaskar.mishra@intineriinfosol.com",
+    "Shrikrishivhr@gmail.com"
   ],
   "contacted_details": [
     {
@@ -23357,6 +23370,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-19T12:15:57.061235"
+    },
+    {
+      "urn": "urn:li:activity:7529096977125519360",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529096977125519360",
+      "email": "bhumika.sr@bhuvitechinnovations.com",
+      "thread_id": "1a1f30c478e76d71",
+      "message_id": "1a1f30c478e76d71",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T14:33:51.388133"
+    },
+    {
+      "urn": "urn:li:activity:7529095000228294656",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529095000228294656",
+      "email": "info@conveyease.co.uk",
+      "thread_id": "1a1f30c5581a4c9b",
+      "message_id": "1a1f30c5581a4c9b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T14:33:54.427885"
+    },
+    {
+      "urn": "urn:li:activity:7529079696903266304",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529079696903266304",
+      "email": "asha.krishnan@wattlecorp.com",
+      "thread_id": "1a1f30c67bafa4e8",
+      "message_id": "1a1f30c67bafa4e8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T14:33:59.453185"
+    },
+    {
+      "urn": "urn:li:activity:7529076500348891138",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529076500348891138",
+      "email": "barsha.rm@intineriinfosol.com",
+      "thread_id": "1a1f30c7186bf316",
+      "message_id": "1a1f30c7186bf316",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T14:34:02.243896"
+    },
+    {
+      "urn": "urn:li:activity:7529075272516722688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529075272516722688",
+      "email": "bhaskar.mishra@intineriinfosol.com",
+      "thread_id": "1a1f30c7dd9127b3",
+      "message_id": "1a1f30c7dd9127b3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T14:34:04.875586"
+    },
+    {
+      "urn": "urn:li:activity:7529074619958530049",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529074619958530049",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a1f30c871efb92d",
+      "message_id": "1a1f30c871efb92d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T14:34:07.345729"
+    },
+    {
+      "urn": "urn:li:activity:7529069711163056128",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529069711163056128",
+      "email": "Shrikrishivhr@gmail.com",
+      "thread_id": "1a1f30c8f186b4a3",
+      "message_id": "1a1f30c8f186b4a3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-19T14:34:09.809865"
     }
   ]
 }
