@@ -1981,7 +1981,14 @@
     "urn:li:activity:7529434625140506624",
     "urn:li:activity:7529432158193778688",
     "urn:li:activity:7529424568399196160",
-    "urn:li:activity:7529414874741948417"
+    "urn:li:activity:7529414874741948417",
+    "urn:li:activity:7529470740241305600",
+    "urn:li:activity:7529451265853038592",
+    "urn:li:activity:7529447083603423232",
+    "urn:li:activity:7529445576036392960",
+    "urn:li:activity:7529444805542793217",
+    "urn:li:activity:7529443495619477504",
+    "urn:li:activity:7529435931825741824"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3105,7 +3112,10 @@
     "kumark@keypixelusa.com",
     "praveen.vasala@zapcg.com",
     "Bulbul@keyinfotek.com",
-    "careers@synaptivontech.com"
+    "careers@synaptivontech.com",
+    "hr@hexatechglobal.com",
+    "rizwan.makrani@tntra.io",
+    "rakesh@devenir.co.in"
   ],
   "contacted_details": [
     {
@@ -23970,6 +23980,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-20T12:37:50.467538"
+    },
+    {
+      "urn": "urn:li:activity:7529470740241305600",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529470740241305600",
+      "email": "hr@hexatechglobal.com",
+      "thread_id": "1a1f85903617c7c0",
+      "message_id": "1a1f85903617c7c0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T15:15:45.839329"
+    },
+    {
+      "urn": "urn:li:activity:7529451265853038592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529451265853038592",
+      "email": "rizwan.makrani@tntra.io",
+      "thread_id": "1a1f85914c5d206e",
+      "message_id": "1a1f85914c5d206e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T15:15:50.651071"
+    },
+    {
+      "urn": "urn:li:activity:7529447083603423232",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529447083603423232",
+      "email": "rakesh@devenir.co.in",
+      "thread_id": "1a1f8591fc5ce3f3",
+      "message_id": "1a1f8591fc5ce3f3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T15:15:53.004235"
+    },
+    {
+      "urn": "urn:li:activity:7529445576036392960",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529445576036392960",
+      "email": "ragini.rajput@huemot.com",
+      "thread_id": "1a1f85929e8f3017",
+      "message_id": "1a1f85929e8f3017",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T15:15:55.295476"
+    },
+    {
+      "urn": "urn:li:activity:7529444805542793217",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529444805542793217",
+      "email": "sanjana.patel@huemot.com",
+      "thread_id": "1a1f8593667cb258",
+      "message_id": "1a1f8593667cb258",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T15:15:59.214292"
+    },
+    {
+      "urn": "urn:li:activity:7529443495619477504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529443495619477504",
+      "email": "sanjana.patel@huemot.com",
+      "thread_id": "1a1f859487c08835",
+      "message_id": "1a1f859487c08835",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T15:16:03.767342"
+    },
+    {
+      "urn": "urn:li:activity:7529435931825741824",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529435931825741824",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1f85952a8daeb1",
+      "message_id": "1a1f85952a8daeb1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T15:16:06.171988"
     }
   ]
 }
