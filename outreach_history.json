@@ -1988,7 +1988,9 @@
     "urn:li:activity:7529445576036392960",
     "urn:li:activity:7529444805542793217",
     "urn:li:activity:7529443495619477504",
-    "urn:li:activity:7529435931825741824"
+    "urn:li:activity:7529435931825741824",
+    "urn:li:activity:7529444879194771456",
+    "urn:li:activity:7529443951360110592"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -23327,9 +23329,10 @@
       "email": "samara@sdvstech.com",
       "thread_id": "1a1f233f9b0150e3",
       "message_id": "1a1f233f9b0150e3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T10:37:35.447542"
+      "timestamp": "2026-11-19T10:37:35.447542",
+      "followup_timestamp": "2026-11-20T17:43:26.226475"
     },
     {
       "urn": "urn:li:activity:7528952615213281280",
@@ -23337,9 +23340,10 @@
       "email": "monti.kumar@neerinfo.com",
       "thread_id": "1a1f234025c3c69c",
       "message_id": "1a1f234025c3c69c",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T10:37:37.740538"
+      "timestamp": "2026-11-19T10:37:37.740538",
+      "followup_timestamp": "2026-11-20T17:43:28.515805"
     },
     {
       "urn": "urn:li:activity:7528950360468647937",
@@ -23347,9 +23351,10 @@
       "email": "saurav.patil@bravensinc.com",
       "thread_id": "1a1f234142a1e9fb",
       "message_id": "1a1f234142a1e9fb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T10:37:42.330807"
+      "timestamp": "2026-11-19T10:37:42.330807",
+      "followup_timestamp": "2026-11-20T17:43:30.991355"
     },
     {
       "urn": "urn:li:activity:7529068509738205185",
@@ -24050,6 +24055,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-20T15:16:06.171988"
+    },
+    {
+      "urn": "urn:li:activity:7529444879194771456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529444879194771456",
+      "email": "nafeeshabano@zenzarttech.com",
+      "thread_id": "1a1f8e0216fbc2e6",
+      "message_id": "1a1f8e0216fbc2e6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T17:43:20.923279"
+    },
+    {
+      "urn": "urn:li:activity:7529443951360110592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529443951360110592",
+      "email": "sanjana.patel@huemot.com",
+      "thread_id": "1a1f8e02de918379",
+      "message_id": "1a1f8e02de918379",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T17:43:23.947717"
     }
   ]
 }
