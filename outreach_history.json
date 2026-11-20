@@ -1974,7 +1974,14 @@
     "urn:li:activity:7529305548685615104",
     "urn:li:activity:7529302519819235328",
     "urn:li:activity:7529297610722025472",
-    "urn:li:activity:7529285317258870784"
+    "urn:li:activity:7529285317258870784",
+    "urn:li:activity:7529435053786017792",
+    "urn:li:activity:7529434773010776065",
+    "urn:li:activity:7529434889553883136",
+    "urn:li:activity:7529434625140506624",
+    "urn:li:activity:7529432158193778688",
+    "urn:li:activity:7529424568399196160",
+    "urn:li:activity:7529414874741948417"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3097,7 +3104,8 @@
     "sahil.d@tecstash.com",
     "kumark@keypixelusa.com",
     "praveen.vasala@zapcg.com",
-    "Bulbul@keyinfotek.com"
+    "Bulbul@keyinfotek.com",
+    "careers@synaptivontech.com"
   ],
   "contacted_details": [
     {
@@ -23892,6 +23900,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-20T10:29:26.294482"
+    },
+    {
+      "urn": "urn:li:activity:7529435053786017792",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529435053786017792",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1f7c8318868973",
+      "message_id": "1a1f7c8318868973",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T12:37:35.261364"
+    },
+    {
+      "urn": "urn:li:activity:7529434773010776065",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529434773010776065",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1f7c83a205a7cb",
+      "message_id": "1a1f7c83a205a7cb",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T12:37:37.760619"
+    },
+    {
+      "urn": "urn:li:activity:7529434889553883136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529434889553883136",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1f7c844b8f9e65",
+      "message_id": "1a1f7c844b8f9e65",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T12:37:40.365404"
+    },
+    {
+      "urn": "urn:li:activity:7529434625140506624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529434625140506624",
+      "email": "talentglobalacquisition@gmail.com",
+      "thread_id": "1a1f7c84ffb4dbec",
+      "message_id": "1a1f7c84ffb4dbec",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T12:37:42.817129"
+    },
+    {
+      "urn": "urn:li:activity:7529432158193778688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529432158193778688",
+      "email": "careers@synaptivontech.com",
+      "thread_id": "1a1f7c857c46efd6",
+      "message_id": "1a1f7c857c46efd6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T12:37:45.573706"
+    },
+    {
+      "urn": "urn:li:activity:7529424568399196160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529424568399196160",
+      "email": "yashika.jain@rayosys.com",
+      "thread_id": "1a1f7c86323247b1",
+      "message_id": "1a1f7c86323247b1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T12:37:48.085173"
+    },
+    {
+      "urn": "urn:li:activity:7529414874741948417",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529414874741948417",
+      "email": "madhu@arctrs.com",
+      "thread_id": "1a1f7c86b44dbb73",
+      "message_id": "1a1f7c86b44dbb73",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-20T12:37:50.467538"
     }
   ]
 }
