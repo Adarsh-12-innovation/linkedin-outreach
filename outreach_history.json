@@ -1990,7 +1990,8 @@
     "urn:li:activity:7529443495619477504",
     "urn:li:activity:7529435931825741824",
     "urn:li:activity:7529444879194771456",
-    "urn:li:activity:7529443951360110592"
+    "urn:li:activity:7529443951360110592",
+    "urn:li:activity:7530474661730586624"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -23362,9 +23363,10 @@
       "email": "Jobs@headsbaseconsulting.com",
       "thread_id": "1a1f28da3536792f",
       "message_id": "1a1f28da3536792f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:31.729695"
+      "timestamp": "2026-11-19T12:15:31.729695",
+      "followup_timestamp": "2026-11-23T10:14:57.382109"
     },
     {
       "urn": "urn:li:activity:7529068218045329409",
@@ -23372,9 +23374,10 @@
       "email": "mahima.r@uhvsoftwaresolutions.com",
       "thread_id": "1a1f28daca82108a",
       "message_id": "1a1f28daca82108a",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:34.008674"
+      "timestamp": "2026-11-19T12:15:34.008674",
+      "followup_timestamp": "2026-11-23T10:14:59.904601"
     },
     {
       "urn": "urn:li:activity:7529063442855518208",
@@ -23382,9 +23385,10 @@
       "email": "mahek@aliqan.com",
       "thread_id": "1a1f28db4ff991a8",
       "message_id": "1a1f28db4ff991a8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:36.169644"
+      "timestamp": "2026-11-19T12:15:36.169644",
+      "followup_timestamp": "2026-11-23T10:15:02.296564"
     },
     {
       "urn": "urn:li:activity:7529061367299858434",
@@ -23392,9 +23396,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1f28dbf788cc0b",
       "message_id": "1a1f28dbf788cc0b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:38.637482"
+      "timestamp": "2026-11-19T12:15:38.637482",
+      "followup_timestamp": "2026-11-23T10:15:04.659064"
     },
     {
       "urn": "urn:li:activity:7529061532173963264",
@@ -23402,9 +23407,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1f28dc851b65f0",
       "message_id": "1a1f28dc851b65f0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:41.102559"
+      "timestamp": "2026-11-19T12:15:41.102559",
+      "followup_timestamp": "2026-11-23T10:15:07.115719"
     },
     {
       "urn": "urn:li:activity:7529060657254785024",
@@ -23412,9 +23418,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1f28dd11edf1d4",
       "message_id": "1a1f28dd11edf1d4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:43.451517"
+      "timestamp": "2026-11-19T12:15:43.451517",
+      "followup_timestamp": "2026-11-23T10:15:09.402840"
     },
     {
       "urn": "urn:li:activity:7529060791350870016",
@@ -23422,9 +23429,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1f28ddb7e9f75f",
       "message_id": "1a1f28ddb7e9f75f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:45.730558"
+      "timestamp": "2026-11-19T12:15:45.730558",
+      "followup_timestamp": "2026-11-23T10:15:11.778587"
     },
     {
       "urn": "urn:li:activity:7529059730925973504",
@@ -23432,9 +23440,10 @@
       "email": "sharanya@uhvsoftwaresolutions.com, alekhya.g@uhvsoftwaresolutions.com",
       "thread_id": "1a1f28de34958154",
       "message_id": "1a1f28de34958154",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:47.861759"
+      "timestamp": "2026-11-19T12:15:47.861759",
+      "followup_timestamp": "2026-11-23T10:15:14.131776"
     },
     {
       "urn": "urn:li:activity:7529059385596338176",
@@ -23442,7 +23451,7 @@
       "email": "jiya@aliqan.com",
       "thread_id": "1a1f28dea0252717",
       "message_id": "1a1f28dea0252717",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-19T12:15:50.021254"
     },
@@ -23452,9 +23461,10 @@
       "email": "jyoti@aliqan.com",
       "thread_id": "1a1f28df309fa384",
       "message_id": "1a1f28df309fa384",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:52.154586"
+      "timestamp": "2026-11-19T12:15:52.154586",
+      "followup_timestamp": "2026-11-23T10:15:16.939942"
     },
     {
       "urn": "urn:li:activity:7529056969358340096",
@@ -23462,9 +23472,10 @@
       "email": "sharanya@uhvsoftwaresolutions.com",
       "thread_id": "1a1f28dfc32319d1",
       "message_id": "1a1f28dfc32319d1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:54.675428"
+      "timestamp": "2026-11-19T12:15:54.675428",
+      "followup_timestamp": "2026-11-23T10:15:19.294130"
     },
     {
       "urn": "urn:li:activity:7529035706023964672",
@@ -23472,9 +23483,10 @@
       "email": "salatmahenoor7.8.6@gmail.com",
       "thread_id": "1a1f28e068cbf201",
       "message_id": "1a1f28e068cbf201",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T12:15:57.061235"
+      "timestamp": "2026-11-19T12:15:57.061235",
+      "followup_timestamp": "2026-11-23T10:15:21.644273"
     },
     {
       "urn": "urn:li:activity:7529096977125519360",
@@ -23482,9 +23494,10 @@
       "email": "bhumika.sr@bhuvitechinnovations.com",
       "thread_id": "1a1f30c478e76d71",
       "message_id": "1a1f30c478e76d71",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T14:33:51.388133"
+      "timestamp": "2026-11-19T14:33:51.388133",
+      "followup_timestamp": "2026-11-23T10:15:24.004993"
     },
     {
       "urn": "urn:li:activity:7529095000228294656",
@@ -23492,9 +23505,10 @@
       "email": "info@conveyease.co.uk",
       "thread_id": "1a1f30c5581a4c9b",
       "message_id": "1a1f30c5581a4c9b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T14:33:54.427885"
+      "timestamp": "2026-11-19T14:33:54.427885",
+      "followup_timestamp": "2026-11-23T10:15:26.462809"
     },
     {
       "urn": "urn:li:activity:7529079696903266304",
@@ -23502,9 +23516,10 @@
       "email": "asha.krishnan@wattlecorp.com",
       "thread_id": "1a1f30c67bafa4e8",
       "message_id": "1a1f30c67bafa4e8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T14:33:59.453185"
+      "timestamp": "2026-11-19T14:33:59.453185",
+      "followup_timestamp": "2026-11-23T10:15:29.022886"
     },
     {
       "urn": "urn:li:activity:7529076500348891138",
@@ -23512,9 +23527,10 @@
       "email": "barsha.rm@intineriinfosol.com",
       "thread_id": "1a1f30c7186bf316",
       "message_id": "1a1f30c7186bf316",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T14:34:02.243896"
+      "timestamp": "2026-11-19T14:34:02.243896",
+      "followup_timestamp": "2026-11-23T10:15:31.378085"
     },
     {
       "urn": "urn:li:activity:7529075272516722688",
@@ -23522,9 +23538,10 @@
       "email": "bhaskar.mishra@intineriinfosol.com",
       "thread_id": "1a1f30c7dd9127b3",
       "message_id": "1a1f30c7dd9127b3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T14:34:04.875586"
+      "timestamp": "2026-11-19T14:34:04.875586",
+      "followup_timestamp": "2026-11-23T10:15:33.685051"
     },
     {
       "urn": "urn:li:activity:7529074619958530049",
@@ -23532,7 +23549,7 @@
       "email": "archanaa.srivastav@vitimcloud.com",
       "thread_id": "1a1f30c871efb92d",
       "message_id": "1a1f30c871efb92d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-19T14:34:07.345729"
     },
@@ -23542,7 +23559,7 @@
       "email": "Shrikrishivhr@gmail.com",
       "thread_id": "1a1f30c8f186b4a3",
       "message_id": "1a1f30c8f186b4a3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-19T14:34:09.809865"
     },
@@ -23552,9 +23569,10 @@
       "email": "jiya@aliqan.com",
       "thread_id": "1a1f3387476b7977",
       "message_id": "1a1f3387476b7977",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T15:22:06.457591"
+      "timestamp": "2026-11-19T15:22:06.457591",
+      "followup_timestamp": "2026-11-23T10:15:37.521673"
     },
     {
       "urn": "urn:li:activity:7529084243638136832",
@@ -23562,9 +23580,10 @@
       "email": "career@techopusin.com",
       "thread_id": "1a1f3387defcc519",
       "message_id": "1a1f3387defcc519",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T15:22:08.710364"
+      "timestamp": "2026-11-19T15:22:08.710364",
+      "followup_timestamp": "2026-11-23T10:15:39.877031"
     },
     {
       "urn": "urn:li:activity:7529078857371607040",
@@ -23572,9 +23591,10 @@
       "email": "koushik@macsof.in, bhargavi@macsof.in",
       "thread_id": "1a1f338888302807",
       "message_id": "1a1f338888302807",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T15:22:11.577541"
+      "timestamp": "2026-11-19T15:22:11.577541",
+      "followup_timestamp": "2026-11-23T10:15:42.335269"
     },
     {
       "urn": "urn:li:activity:7529065350785789953",
@@ -23582,9 +23602,10 @@
       "email": "siddhartha.pal@msrscorp.com",
       "thread_id": "1a1f338915c1f1d2",
       "message_id": "1a1f338915c1f1d2",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T15:22:13.720391"
+      "timestamp": "2026-11-19T15:22:13.720391",
+      "followup_timestamp": "2026-11-23T10:15:44.586029"
     },
     {
       "urn": "urn:li:activity:7529138754050121728",
@@ -23592,9 +23613,10 @@
       "email": "bhavitha.kandhi@sncitservices.com",
       "thread_id": "1a1f38fb87b6d7b8",
       "message_id": "1a1f38fb87b6d7b8",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T16:57:25.640646"
+      "timestamp": "2026-11-19T16:57:25.640646",
+      "followup_timestamp": "2026-11-23T10:15:46.983465"
     },
     {
       "urn": "urn:li:activity:7529136598471593984",
@@ -23602,9 +23624,10 @@
       "email": "dhruvanth@xanikainfotech.com",
       "thread_id": "1a1f38fc0281b9bf",
       "message_id": "1a1f38fc0281b9bf",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T16:57:27.820949"
+      "timestamp": "2026-11-19T16:57:27.820949",
+      "followup_timestamp": "2026-11-23T10:15:49.399885"
     },
     {
       "urn": "urn:li:activity:7529134740734464000",
@@ -23612,9 +23635,10 @@
       "email": "vedika.pakhale@huemot.com",
       "thread_id": "1a1f38fcd692bb13",
       "message_id": "1a1f38fcd692bb13",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T16:57:30.853725"
+      "timestamp": "2026-11-19T16:57:30.853725",
+      "followup_timestamp": "2026-11-23T10:15:51.756268"
     },
     {
       "urn": "urn:li:activity:7529134336353320960",
@@ -23622,9 +23646,10 @@
       "email": "vedika.pakhale@huemot.com",
       "thread_id": "1a1f38fdb26b4a10",
       "message_id": "1a1f38fdb26b4a10",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T16:57:34.173620"
+      "timestamp": "2026-11-19T16:57:34.173620",
+      "followup_timestamp": "2026-11-23T10:15:54.212900"
     },
     {
       "urn": "urn:li:activity:7529133430484426753",
@@ -23632,9 +23657,10 @@
       "email": "nirmala@xanikainfotech.com",
       "thread_id": "1a1f38fe363f6e65",
       "message_id": "1a1f38fe363f6e65",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T16:57:36.299678"
+      "timestamp": "2026-11-19T16:57:36.299678",
+      "followup_timestamp": "2026-11-23T10:15:56.569790"
     },
     {
       "urn": "urn:li:activity:7529132751699202048",
@@ -23642,9 +23668,10 @@
       "email": "Jobs@headsbaseconsulting.com",
       "thread_id": "1a1f38fec23d3805",
       "message_id": "1a1f38fec23d3805",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T16:57:38.829629"
+      "timestamp": "2026-11-19T16:57:38.829629",
+      "followup_timestamp": "2026-11-23T10:15:58.922174"
     },
     {
       "urn": "urn:li:activity:7529126096055713792",
@@ -23652,9 +23679,10 @@
       "email": "hr@sparkinfosol.com",
       "thread_id": "1a1f38ff50427265",
       "message_id": "1a1f38ff50427265",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T16:57:41.118722"
+      "timestamp": "2026-11-19T16:57:41.118722",
+      "followup_timestamp": "2026-11-23T10:16:01.110076"
     },
     {
       "urn": "urn:li:activity:7529123534577594368",
@@ -23662,9 +23690,10 @@
       "email": "hr@techhatsitsolutions.com",
       "thread_id": "1a1f38ffece0b7f6",
       "message_id": "1a1f38ffece0b7f6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T16:57:43.408347"
+      "timestamp": "2026-11-19T16:57:43.408347",
+      "followup_timestamp": "2026-11-23T10:16:03.331042"
     },
     {
       "urn": "urn:li:activity:7529105995936194560",
@@ -23672,9 +23701,10 @@
       "email": "siddhartha.pal@msrscorp.com",
       "thread_id": "1a1f390068e1c3d4",
       "message_id": "1a1f390068e1c3d4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T16:57:45.649770"
+      "timestamp": "2026-11-19T16:57:45.649770",
+      "followup_timestamp": "2026-11-23T10:16:05.579822"
     },
     {
       "urn": "urn:li:activity:7529163957132222465",
@@ -23682,7 +23712,7 @@
       "email": "Arpita.baule@rampwork.dev",
       "thread_id": "1a1f3e48b0b3b0b4",
       "message_id": "1a1f3e48b0b3b0b4",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-19T18:30:04.735543"
     },
@@ -23692,9 +23722,10 @@
       "email": "Arpita.baule@rampwork.dev",
       "thread_id": "1a1f3e497621dbc3",
       "message_id": "1a1f3e497621dbc3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T18:30:07.181808"
+      "timestamp": "2026-11-19T18:30:07.181808",
+      "followup_timestamp": "2026-11-23T10:16:09.061389"
     },
     {
       "urn": "urn:li:activity:7529162692142653440",
@@ -23702,9 +23733,10 @@
       "email": "yashaswini.bawane@srnext.in",
       "thread_id": "1a1f3e4a0e5ff9cb",
       "message_id": "1a1f3e4a0e5ff9cb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T18:30:10.007499"
+      "timestamp": "2026-11-19T18:30:10.007499",
+      "followup_timestamp": "2026-11-23T10:16:11.519370"
     },
     {
       "urn": "urn:li:activity:7529156622762487808",
@@ -23712,9 +23744,10 @@
       "email": "Mounika@acunor.com",
       "thread_id": "1a1f3e4aafa1143e",
       "message_id": "1a1f3e4aafa1143e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T18:30:12.646228"
+      "timestamp": "2026-11-19T18:30:12.646228",
+      "followup_timestamp": "2026-11-23T10:16:13.772616"
     },
     {
       "urn": "urn:li:activity:7529156736629370881",
@@ -23722,9 +23755,10 @@
       "email": "yashaswini.bawane@srnext.in",
       "thread_id": "1a1f3e4b410020bd",
       "message_id": "1a1f3e4b410020bd",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T18:30:15.102714"
+      "timestamp": "2026-11-19T18:30:15.102714",
+      "followup_timestamp": "2026-11-23T10:16:16.323843"
     },
     {
       "urn": "urn:li:activity:7529150293863821312",
@@ -23732,9 +23766,10 @@
       "email": "mkaur@prointegrate.net",
       "thread_id": "1a1f3e4bfc53b40d",
       "message_id": "1a1f3e4bfc53b40d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T18:30:17.458151"
+      "timestamp": "2026-11-19T18:30:17.458151",
+      "followup_timestamp": "2026-11-23T10:16:18.584212"
     },
     {
       "urn": "urn:li:activity:7529144548795801600",
@@ -23742,7 +23777,7 @@
       "email": "robin@encore-itsolutions.com",
       "thread_id": "1a1f3e4c703daa73",
       "message_id": "1a1f3e4c703daa73",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-19T18:30:19.996487"
     },
@@ -23752,9 +23787,10 @@
       "email": "jessica@brightitinc.com",
       "thread_id": "1a1f49c36812c647",
       "message_id": "1a1f49c36812c647",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:50:41.492623"
+      "timestamp": "2026-11-19T21:50:41.492623",
+      "followup_timestamp": "2026-11-23T10:16:21.349296"
     },
     {
       "urn": "urn:li:activity:7529210466644951041",
@@ -23762,9 +23798,10 @@
       "email": "jason@brightitinc.com",
       "thread_id": "1a1f49c4a03f6ea0",
       "message_id": "1a1f49c4a03f6ea0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:50:46.678341"
+      "timestamp": "2026-11-19T21:50:46.678341",
+      "followup_timestamp": "2026-11-23T10:16:23.652608"
     },
     {
       "urn": "urn:li:activity:7529209075314917377",
@@ -23772,9 +23809,10 @@
       "email": "pankaj.k@ehub.global",
       "thread_id": "1a1f49c54c956c71",
       "message_id": "1a1f49c54c956c71",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:50:49.365794"
+      "timestamp": "2026-11-19T21:50:49.365794",
+      "followup_timestamp": "2026-11-23T10:16:26.060214"
     },
     {
       "urn": "urn:li:activity:7529208536879415296",
@@ -23782,9 +23820,10 @@
       "email": "lokesh.g@keyinfotek.com",
       "thread_id": "1a1f49c665997d23",
       "message_id": "1a1f49c665997d23",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:50:53.721173"
+      "timestamp": "2026-11-19T21:50:53.721173",
+      "followup_timestamp": "2026-11-23T10:16:28.517154"
     },
     {
       "urn": "urn:li:activity:7529208218309283841",
@@ -23792,9 +23831,10 @@
       "email": "kirankumar.t@spiceorb.com",
       "thread_id": "1a1f49c78bfbd431",
       "message_id": "1a1f49c78bfbd431",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:50:58.424788"
+      "timestamp": "2026-11-19T21:50:58.424788",
+      "followup_timestamp": "2026-11-23T10:16:30.974275"
     },
     {
       "urn": "urn:li:activity:7529205049613447168",
@@ -23802,9 +23842,10 @@
       "email": "rushikesh.khare@bravensinc.com",
       "thread_id": "1a1f49c82c7f26ab",
       "message_id": "1a1f49c82c7f26ab",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:51:00.830009"
+      "timestamp": "2026-11-19T21:51:00.830009",
+      "followup_timestamp": "2026-11-23T10:16:33.375949"
     },
     {
       "urn": "urn:li:activity:7529204476042469376",
@@ -23812,9 +23853,10 @@
       "email": "Priyanka.devadi@cerebra-consulting.com",
       "thread_id": "1a1f49c96a315a56",
       "message_id": "1a1f49c96a315a56",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:51:06.038383"
+      "timestamp": "2026-11-19T21:51:06.038383",
+      "followup_timestamp": "2026-11-23T10:16:35.685129"
     },
     {
       "urn": "urn:li:activity:7529202116473692161",
@@ -23822,9 +23864,10 @@
       "email": "pavan.gaikwad@bravensinc.com",
       "thread_id": "1a1f49ca1fda772e",
       "message_id": "1a1f49ca1fda772e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:51:08.399451"
+      "timestamp": "2026-11-19T21:51:08.399451",
+      "followup_timestamp": "2026-11-23T10:16:38.040350"
     },
     {
       "urn": "urn:li:activity:7529199798692974592",
@@ -23832,9 +23875,10 @@
       "email": "patrick.r@betterfuturesolutions.com",
       "thread_id": "1a1f49cb392657bb",
       "message_id": "1a1f49cb392657bb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:51:13.167447"
+      "timestamp": "2026-11-19T21:51:13.167447",
+      "followup_timestamp": "2026-11-23T10:16:40.293826"
     },
     {
       "urn": "urn:li:activity:7529198417839816705",
@@ -23842,9 +23886,10 @@
       "email": "sahil.d@tecstash.com",
       "thread_id": "1a1f49cbbb82c9f5",
       "message_id": "1a1f49cbbb82c9f5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:51:15.330473"
+      "timestamp": "2026-11-19T21:51:15.330473",
+      "followup_timestamp": "2026-11-23T10:16:42.751380"
     },
     {
       "urn": "urn:li:activity:7529196231038808064",
@@ -23852,9 +23897,10 @@
       "email": "sarvankumar@itbmsinc.com",
       "thread_id": "1a1f49cc58289fca",
       "message_id": "1a1f49cc58289fca",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:51:17.607218"
+      "timestamp": "2026-11-19T21:51:17.607218",
+      "followup_timestamp": "2026-11-23T10:16:45.004162"
     },
     {
       "urn": "urn:li:activity:7529195824761856000",
@@ -23862,9 +23908,10 @@
       "email": "kumark@keypixelusa.com",
       "thread_id": "1a1f49ccfe40d66d",
       "message_id": "1a1f49ccfe40d66d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-19T21:51:20.285647"
+      "timestamp": "2026-11-19T21:51:20.285647",
+      "followup_timestamp": "2026-11-23T10:16:47.308102"
     },
     {
       "urn": "urn:li:activity:7529398086021042176",
@@ -23872,9 +23919,10 @@
       "email": "krati@aliqan.com",
       "thread_id": "1a1f752acc97d536",
       "message_id": "1a1f752acc97d536",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T10:29:14.108845"
+      "timestamp": "2026-11-20T10:29:14.108845",
+      "followup_timestamp": "2026-11-23T10:16:49.816818"
     },
     {
       "urn": "urn:li:activity:7529305548685615104",
@@ -23882,9 +23930,10 @@
       "email": "sahil.d@tecstash.com",
       "thread_id": "1a1f752b66b26699",
       "message_id": "1a1f752b66b26699",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T10:29:16.329927"
+      "timestamp": "2026-11-20T10:29:16.329927",
+      "followup_timestamp": "2026-11-23T10:16:52.274937"
     },
     {
       "urn": "urn:li:activity:7529302519819235328",
@@ -23892,9 +23941,10 @@
       "email": "praveen.vasala@zapcg.com",
       "thread_id": "1a1f752c26e6cf51",
       "message_id": "1a1f752c26e6cf51",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T10:29:19.385782"
+      "timestamp": "2026-11-20T10:29:19.385782",
+      "followup_timestamp": "2026-11-23T10:16:54.629173"
     },
     {
       "urn": "urn:li:activity:7529297610722025472",
@@ -23902,9 +23952,10 @@
       "email": "gaurav@pddninc.net",
       "thread_id": "1a1f752d4996e126",
       "message_id": "1a1f752d4996e126",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T10:29:24.019665"
+      "timestamp": "2026-11-20T10:29:24.019665",
+      "followup_timestamp": "2026-11-23T10:16:57.087381"
     },
     {
       "urn": "urn:li:activity:7529285317258870784",
@@ -23912,9 +23963,10 @@
       "email": "Bulbul@keyinfotek.com",
       "thread_id": "1a1f752dd206702e",
       "message_id": "1a1f752dd206702e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T10:29:26.294482"
+      "timestamp": "2026-11-20T10:29:26.294482",
+      "followup_timestamp": "2026-11-23T10:16:59.442425"
     },
     {
       "urn": "urn:li:activity:7529435053786017792",
@@ -23922,9 +23974,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1f7c8318868973",
       "message_id": "1a1f7c8318868973",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T12:37:35.261364"
+      "timestamp": "2026-11-20T12:37:35.261364",
+      "followup_timestamp": "2026-11-23T10:17:01.797436"
     },
     {
       "urn": "urn:li:activity:7529434773010776065",
@@ -23932,9 +23985,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1f7c83a205a7cb",
       "message_id": "1a1f7c83a205a7cb",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T12:37:37.760619"
+      "timestamp": "2026-11-20T12:37:37.760619",
+      "followup_timestamp": "2026-11-23T10:17:04.242592"
     },
     {
       "urn": "urn:li:activity:7529434889553883136",
@@ -23942,9 +23996,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1f7c844b8f9e65",
       "message_id": "1a1f7c844b8f9e65",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T12:37:40.365404"
+      "timestamp": "2026-11-20T12:37:40.365404",
+      "followup_timestamp": "2026-11-23T10:17:06.508956"
     },
     {
       "urn": "urn:li:activity:7529434625140506624",
@@ -23952,9 +24007,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1f7c84ffb4dbec",
       "message_id": "1a1f7c84ffb4dbec",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T12:37:42.817129"
+      "timestamp": "2026-11-20T12:37:42.817129",
+      "followup_timestamp": "2026-11-23T10:17:08.944102"
     },
     {
       "urn": "urn:li:activity:7529432158193778688",
@@ -23962,9 +24018,10 @@
       "email": "careers@synaptivontech.com",
       "thread_id": "1a1f7c857c46efd6",
       "message_id": "1a1f7c857c46efd6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T12:37:45.573706"
+      "timestamp": "2026-11-20T12:37:45.573706",
+      "followup_timestamp": "2026-11-23T10:17:11.130587"
     },
     {
       "urn": "urn:li:activity:7529424568399196160",
@@ -23972,9 +24029,10 @@
       "email": "yashika.jain@rayosys.com",
       "thread_id": "1a1f7c86323247b1",
       "message_id": "1a1f7c86323247b1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T12:37:48.085173"
+      "timestamp": "2026-11-20T12:37:48.085173",
+      "followup_timestamp": "2026-11-23T10:17:13.425021"
     },
     {
       "urn": "urn:li:activity:7529414874741948417",
@@ -23982,9 +24040,10 @@
       "email": "madhu@arctrs.com",
       "thread_id": "1a1f7c86b44dbb73",
       "message_id": "1a1f7c86b44dbb73",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T12:37:50.467538"
+      "timestamp": "2026-11-20T12:37:50.467538",
+      "followup_timestamp": "2026-11-23T10:17:15.724334"
     },
     {
       "urn": "urn:li:activity:7529470740241305600",
@@ -23992,9 +24051,10 @@
       "email": "hr@hexatechglobal.com",
       "thread_id": "1a1f85903617c7c0",
       "message_id": "1a1f85903617c7c0",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T15:15:45.839329"
+      "timestamp": "2026-11-20T15:15:45.839329",
+      "followup_timestamp": "2026-11-23T10:17:18.079512"
     },
     {
       "urn": "urn:li:activity:7529451265853038592",
@@ -24002,9 +24062,10 @@
       "email": "rizwan.makrani@tntra.io",
       "thread_id": "1a1f85914c5d206e",
       "message_id": "1a1f85914c5d206e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T15:15:50.651071"
+      "timestamp": "2026-11-20T15:15:50.651071",
+      "followup_timestamp": "2026-11-23T10:17:20.531485"
     },
     {
       "urn": "urn:li:activity:7529447083603423232",
@@ -24012,9 +24073,10 @@
       "email": "rakesh@devenir.co.in",
       "thread_id": "1a1f8591fc5ce3f3",
       "message_id": "1a1f8591fc5ce3f3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T15:15:53.004235"
+      "timestamp": "2026-11-20T15:15:53.004235",
+      "followup_timestamp": "2026-11-23T10:17:22.891725"
     },
     {
       "urn": "urn:li:activity:7529445576036392960",
@@ -24022,9 +24084,10 @@
       "email": "ragini.rajput@huemot.com",
       "thread_id": "1a1f85929e8f3017",
       "message_id": "1a1f85929e8f3017",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T15:15:55.295476"
+      "timestamp": "2026-11-20T15:15:55.295476",
+      "followup_timestamp": "2026-11-23T10:17:25.246922"
     },
     {
       "urn": "urn:li:activity:7529444805542793217",
@@ -24032,9 +24095,10 @@
       "email": "sanjana.patel@huemot.com",
       "thread_id": "1a1f8593667cb258",
       "message_id": "1a1f8593667cb258",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T15:15:59.214292"
+      "timestamp": "2026-11-20T15:15:59.214292",
+      "followup_timestamp": "2026-11-23T10:17:27.602509"
     },
     {
       "urn": "urn:li:activity:7529443495619477504",
@@ -24042,9 +24106,10 @@
       "email": "sanjana.patel@huemot.com",
       "thread_id": "1a1f859487c08835",
       "message_id": "1a1f859487c08835",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T15:16:03.767342"
+      "timestamp": "2026-11-20T15:16:03.767342",
+      "followup_timestamp": "2026-11-23T10:17:30.059468"
     },
     {
       "urn": "urn:li:activity:7529435931825741824",
@@ -24052,9 +24117,10 @@
       "email": "talentglobalacquisition@gmail.com",
       "thread_id": "1a1f85952a8daeb1",
       "message_id": "1a1f85952a8daeb1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T15:16:06.171988"
+      "timestamp": "2026-11-20T15:16:06.171988",
+      "followup_timestamp": "2026-11-23T10:17:32.415335"
     },
     {
       "urn": "urn:li:activity:7529444879194771456",
@@ -24062,9 +24128,10 @@
       "email": "nafeeshabano@zenzarttech.com",
       "thread_id": "1a1f8e0216fbc2e6",
       "message_id": "1a1f8e0216fbc2e6",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-20T17:43:20.923279"
+      "timestamp": "2026-11-20T17:43:20.923279",
+      "followup_timestamp": "2026-11-23T10:17:34.770317"
     },
     {
       "urn": "urn:li:activity:7529443951360110592",
@@ -24072,9 +24139,20 @@
       "email": "sanjana.patel@huemot.com",
       "thread_id": "1a1f8e02de918379",
       "message_id": "1a1f8e02de918379",
+      "followed_up": true,
+      "source": "search",
+      "timestamp": "2026-11-20T17:43:23.947717",
+      "followup_timestamp": "2026-11-23T10:17:37.433197"
+    },
+    {
+      "urn": "urn:li:activity:7530474661730586624",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530474661730586624",
+      "email": "trupti@skilltasy.com",
+      "thread_id": "1a206b8a751deef1",
+      "message_id": "1a206b8a751deef1",
       "followed_up": false,
       "source": "search",
-      "timestamp": "2026-11-20T17:43:23.947717"
+      "timestamp": "2026-11-23T10:14:54.916118"
     }
   ]
 }
