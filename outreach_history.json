@@ -1998,7 +1998,12 @@
     "urn:li:activity:7530502698622738433",
     "urn:li:activity:7530502234615488512",
     "urn:li:activity:7530500140424392704",
-    "urn:li:activity:7530491825267220480"
+    "urn:li:activity:7530491825267220480",
+    "urn:li:activity:7530560337381822464",
+    "urn:li:activity:7530557738901467136",
+    "urn:li:activity:7530536322583683073",
+    "urn:li:activity:7530526475209584640",
+    "urn:li:activity:7530526245340635136"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3127,7 +3132,9 @@
     "rizwan.makrani@tntra.io",
     "rakesh@devenir.co.in",
     "jobs@bizfystaffing.com",
-    "benfield@xanikainfotech.com"
+    "benfield@xanikainfotech.com",
+    "mounika.sheddini@oneprosource.com",
+    "recruiter01@texlnc.com"
   ],
   "contacted_details": [
     {
@@ -24232,6 +24239,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-23T13:02:14.769606"
+    },
+    {
+      "urn": "urn:li:activity:7530560337381822464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530560337381822464",
+      "email": "mounika.sheddini@oneprosource.com",
+      "thread_id": "1a207d3461469d95",
+      "message_id": "1a207d3461469d95",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T15:23:36.906249"
+    },
+    {
+      "urn": "urn:li:activity:7530557738901467136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530557738901467136",
+      "email": "recruiter01@texlnc.com",
+      "thread_id": "1a207d350e24d293",
+      "message_id": "1a207d350e24d293",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T15:23:39.215543"
+    },
+    {
+      "urn": "urn:li:activity:7530536322583683073",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530536322583683073",
+      "email": "pallavi.singhal@cibronix.com",
+      "thread_id": "1a207d3595bb7652",
+      "message_id": "1a207d3595bb7652",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T15:23:41.502241"
+    },
+    {
+      "urn": "urn:li:activity:7530526475209584640",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530526475209584640",
+      "email": "arvind@ninjatechnolabs.com",
+      "thread_id": "1a207d361f60abe4",
+      "message_id": "1a207d361f60abe4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T15:23:43.632325"
+    },
+    {
+      "urn": "urn:li:activity:7530526245340635136",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530526245340635136",
+      "email": "haresh@ninjatechnolabs.com",
+      "thread_id": "1a207d3688e452ff",
+      "message_id": "1a207d3688e452ff",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T15:23:45.702607"
     }
   ]
 }
