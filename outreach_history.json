@@ -1991,7 +1991,14 @@
     "urn:li:activity:7529435931825741824",
     "urn:li:activity:7529444879194771456",
     "urn:li:activity:7529443951360110592",
-    "urn:li:activity:7530474661730586624"
+    "urn:li:activity:7530474661730586624",
+    "urn:li:activity:7530528937706323968",
+    "urn:li:activity:7530521978143944704",
+    "urn:li:activity:7530511127034769408",
+    "urn:li:activity:7530502698622738433",
+    "urn:li:activity:7530502234615488512",
+    "urn:li:activity:7530500140424392704",
+    "urn:li:activity:7530491825267220480"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3118,7 +3125,9 @@
     "careers@synaptivontech.com",
     "hr@hexatechglobal.com",
     "rizwan.makrani@tntra.io",
-    "rakesh@devenir.co.in"
+    "rakesh@devenir.co.in",
+    "jobs@bizfystaffing.com",
+    "benfield@xanikainfotech.com"
   ],
   "contacted_details": [
     {
@@ -24153,6 +24162,76 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-23T10:14:54.916118"
+    },
+    {
+      "urn": "urn:li:activity:7530528937706323968",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530528937706323968",
+      "email": "rani@talentsyker.co.in",
+      "thread_id": "1a20751a5c5b794f",
+      "message_id": "1a20751a5c5b794f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T13:02:01.210159"
+    },
+    {
+      "urn": "urn:li:activity:7530521978143944704",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530521978143944704",
+      "email": "niharika.sahu@huemot.com",
+      "thread_id": "1a20751af6654a78",
+      "message_id": "1a20751af6654a78",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T13:02:03.626448"
+    },
+    {
+      "urn": "urn:li:activity:7530511127034769408",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530511127034769408",
+      "email": "jobs@bizfystaffing.com",
+      "thread_id": "1a20751b6845c508",
+      "message_id": "1a20751b6845c508",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T13:02:05.757072"
+    },
+    {
+      "urn": "urn:li:activity:7530502698622738433",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530502698622738433",
+      "email": "shifa@sourcebae.com",
+      "thread_id": "1a20751c18f9b945",
+      "message_id": "1a20751c18f9b945",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T13:02:08.320436"
+    },
+    {
+      "urn": "urn:li:activity:7530502234615488512",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530502234615488512",
+      "email": "shifa@sourcebae.com",
+      "thread_id": "1a20751c8371e2f7",
+      "message_id": "1a20751c8371e2f7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T13:02:10.645118"
+    },
+    {
+      "urn": "urn:li:activity:7530500140424392704",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530500140424392704",
+      "email": "leela.revanth@adroitinnovative.com",
+      "thread_id": "1a20751d18b51dd0",
+      "message_id": "1a20751d18b51dd0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T13:02:12.689176"
+    },
+    {
+      "urn": "urn:li:activity:7530491825267220480",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530491825267220480",
+      "email": "benfield@xanikainfotech.com",
+      "thread_id": "1a20751d8c180af4",
+      "message_id": "1a20751d8c180af4",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-23T13:02:14.769606"
     }
   ]
 }
