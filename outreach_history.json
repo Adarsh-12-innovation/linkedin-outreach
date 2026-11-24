@@ -2026,7 +2026,10 @@
     "urn:li:activity:7530953635573256192",
     "urn:li:activity:7530952034041327616",
     "urn:li:activity:7530948074492284928",
-    "urn:li:activity:7530936484632178688"
+    "urn:li:activity:7530936484632178688",
+    "urn:li:activity:7530965515285209089",
+    "urn:li:activity:7530963867963838464",
+    "urn:li:activity:7530958122149142528"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3167,7 +3170,8 @@
     "rutva@wiseskulls.com",
     "chaitanya.sahaya@qzigma.com",
     "Mokshi.d@voltoconsulting.com",
-    "pragya.d@sapmindsconsulting.com"
+    "pragya.d@sapmindsconsulting.com",
+    "sireesha@prorsum-tech.com"
   ],
   "contacted_details": [
     {
@@ -24553,6 +24557,36 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-24T17:09:18.811691"
+    },
+    {
+      "urn": "urn:li:activity:7530965515285209089",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530965515285209089",
+      "email": "jobs2@proximagenesis.com",
+      "thread_id": "1a20da2d396e2bd9",
+      "message_id": "1a20da2d396e2bd9",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T18:28:25.213618"
+    },
+    {
+      "urn": "urn:li:activity:7530963867963838464",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530963867963838464",
+      "email": "sireesha@prorsum-tech.com",
+      "thread_id": "1a20da2dc88a6e8f",
+      "message_id": "1a20da2dc88a6e8f",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T18:28:27.425896"
+    },
+    {
+      "urn": "urn:li:activity:7530958122149142528",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530958122149142528",
+      "email": "uma@taln.cloud",
+      "thread_id": "1a20da2e457bec56",
+      "message_id": "1a20da2e457bec56",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T18:28:29.606029"
     }
   ]
 }
