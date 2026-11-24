@@ -2020,7 +2020,13 @@
     "urn:li:activity:7530893870822354945",
     "urn:li:activity:7530892962394771457",
     "urn:li:activity:7530892764960514048",
-    "urn:li:activity:7530891716334272513"
+    "urn:li:activity:7530891716334272513",
+    "urn:li:activity:7530955699468619776",
+    "urn:li:activity:7530955270060032001",
+    "urn:li:activity:7530953635573256192",
+    "urn:li:activity:7530952034041327616",
+    "urn:li:activity:7530948074492284928",
+    "urn:li:activity:7530936484632178688"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3159,7 +3165,9 @@
     "tanya.g@ekloudservices.com",
     "support@kundlisar.com",
     "rutva@wiseskulls.com",
-    "chaitanya.sahaya@qzigma.com"
+    "chaitanya.sahaya@qzigma.com",
+    "Mokshi.d@voltoconsulting.com",
+    "pragya.d@sapmindsconsulting.com"
   ],
   "contacted_details": [
     {
@@ -24191,9 +24199,10 @@
       "email": "trupti@skilltasy.com",
       "thread_id": "1a206b8a751deef1",
       "message_id": "1a206b8a751deef1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-23T10:14:54.916118"
+      "timestamp": "2026-11-23T10:14:54.916118",
+      "followup_timestamp": "2026-11-24T17:09:21.034205"
     },
     {
       "urn": "urn:li:activity:7530528937706323968",
@@ -24484,6 +24493,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-24T15:18:51.515570"
+    },
+    {
+      "urn": "urn:li:activity:7530955699468619776",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530955699468619776",
+      "email": "Mohamed.y@voltoconsulting.com",
+      "thread_id": "1a20d5a2d6f0d5b8",
+      "message_id": "1a20d5a2d6f0d5b8",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T17:09:04.764445"
+    },
+    {
+      "urn": "urn:li:activity:7530955270060032001",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530955270060032001",
+      "email": "Mokshi.d@voltoconsulting.com",
+      "thread_id": "1a20d5a36fe5f732",
+      "message_id": "1a20d5a36fe5f732",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T17:09:07.203026"
+    },
+    {
+      "urn": "urn:li:activity:7530953635573256192",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530953635573256192",
+      "email": "jobs.3@proximagenesis.com",
+      "thread_id": "1a20d5a4018d1e3e",
+      "message_id": "1a20d5a4018d1e3e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T17:09:09.474285"
+    },
+    {
+      "urn": "urn:li:activity:7530952034041327616",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530952034041327616",
+      "email": "jobs@proximagenesis.com",
+      "thread_id": "1a20d5a486df51c3",
+      "message_id": "1a20d5a486df51c3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T17:09:11.799997"
+    },
+    {
+      "urn": "urn:li:activity:7530948074492284928",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530948074492284928",
+      "email": "sujala@conveytechlabs.com",
+      "thread_id": "1a20d5a500f641af",
+      "message_id": "1a20d5a500f641af",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T17:09:13.792081"
+    },
+    {
+      "urn": "urn:li:activity:7530936484632178688",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530936484632178688",
+      "email": "pragya.d@sapmindsconsulting.com",
+      "thread_id": "1a20d5a6513bbfbe",
+      "message_id": "1a20d5a6513bbfbe",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T17:09:18.811691"
     }
   ]
 }
