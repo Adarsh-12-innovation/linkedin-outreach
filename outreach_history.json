@@ -2014,7 +2014,13 @@
     "urn:li:activity:7530859645759057920",
     "urn:li:activity:7530852619636891648",
     "urn:li:activity:7530835324420354048",
-    "urn:li:activity:7530835095994433536"
+    "urn:li:activity:7530835095994433536",
+    "urn:li:activity:7530924323554091008",
+    "urn:li:activity:7530903419910430720",
+    "urn:li:activity:7530893870822354945",
+    "urn:li:activity:7530892962394771457",
+    "urn:li:activity:7530892764960514048",
+    "urn:li:activity:7530891716334272513"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3149,7 +3155,11 @@
     "joana.ferreira@closer.pt",
     "mehrin@wiseskulls.com",
     "dhevi@reqroots.com",
-    "ahmedanalyst8001@gmail.com"
+    "ahmedanalyst8001@gmail.com",
+    "tanya.g@ekloudservices.com",
+    "support@kundlisar.com",
+    "rutva@wiseskulls.com",
+    "chaitanya.sahaya@qzigma.com"
   ],
   "contacted_details": [
     {
@@ -24414,6 +24424,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-24T12:53:22.114661"
+    },
+    {
+      "urn": "urn:li:activity:7530924323554091008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530924323554091008",
+      "email": "tanya.g@ekloudservices.com",
+      "thread_id": "1a20cf5191cfc98e",
+      "message_id": "1a20cf5191cfc98e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T15:18:40.332488"
+    },
+    {
+      "urn": "urn:li:activity:7530903419910430720",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530903419910430720",
+      "email": "support@kundlisar.com",
+      "thread_id": "1a20cf5223a0885b",
+      "message_id": "1a20cf5223a0885b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T15:18:42.700929"
+    },
+    {
+      "urn": "urn:li:activity:7530893870822354945",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530893870822354945",
+      "email": "rutva@wiseskulls.com",
+      "thread_id": "1a20cf52b3cb1d25",
+      "message_id": "1a20cf52b3cb1d25",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T15:18:44.848457"
+    },
+    {
+      "urn": "urn:li:activity:7530892962394771457",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530892962394771457",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a20cf5331d8a69b",
+      "message_id": "1a20cf5331d8a69b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T15:18:47.119894"
+    },
+    {
+      "urn": "urn:li:activity:7530892764960514048",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530892764960514048",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a20cf53a0c5cc78",
+      "message_id": "1a20cf53a0c5cc78",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T15:18:49.274672"
+    },
+    {
+      "urn": "urn:li:activity:7530891716334272513",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7530891716334272513",
+      "email": "chaitanya.sahaya@qzigma.com",
+      "thread_id": "1a20cf5450443da6",
+      "message_id": "1a20cf5450443da6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-24T15:18:51.515570"
     }
   ]
 }
