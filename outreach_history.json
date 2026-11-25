@@ -2031,7 +2031,16 @@
     "urn:li:activity:7530963867963838464",
     "urn:li:activity:7530958122149142528",
     "urn:li:activity:7531201502263250944",
-    "urn:li:activity:7531168132644728832"
+    "urn:li:activity:7531168132644728832",
+    "urn:li:activity:7531307937986666496",
+    "urn:li:activity:7531307059078828032",
+    "urn:li:activity:7531296406817501184",
+    "urn:li:activity:7531287081952632833",
+    "urn:li:activity:7531274493860892672",
+    "urn:li:activity:7531273386744991744",
+    "urn:li:activity:7531272975250087936",
+    "urn:li:activity:7531272467533762560",
+    "urn:li:activity:7531263835157127169"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3175,7 +3184,9 @@
     "pragya.d@sapmindsconsulting.com",
     "sireesha@prorsum-tech.com",
     "rima.banerjee@optivaluetek.com",
-    "hyder@progifytech.com"
+    "hyder@progifytech.com",
+    "careers@avennex.com",
+    "hr@divvaatechh.com"
   ],
   "contacted_details": [
     {
@@ -24622,6 +24633,96 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-25T10:55:14.732686"
+    },
+    {
+      "urn": "urn:li:activity:7531307937986666496",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531307937986666496",
+      "email": "careers@avennex.com",
+      "thread_id": "1a21270c7b5336ae",
+      "message_id": "1a21270c7b5336ae",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-25T16:51:51.880026"
+    },
+    {
+      "urn": "urn:li:activity:7531307059078828032",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531307059078828032",
+      "email": "shweta.sgempertsindia@gmail.com",
+      "thread_id": "1a21270d19aca52d",
+      "message_id": "1a21270d19aca52d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-25T16:51:54.316609"
+    },
+    {
+      "urn": "urn:li:activity:7531296406817501184",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531296406817501184",
+      "email": "aditi.bhargava@oaktreecloud.com",
+      "thread_id": "1a21270dbe4cc1f3",
+      "message_id": "1a21270dbe4cc1f3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-25T16:51:56.737565"
+    },
+    {
+      "urn": "urn:li:activity:7531287081952632833",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531287081952632833",
+      "email": "archanaa.srivastav@vitimcloud.com",
+      "thread_id": "1a21270ecf496e7e",
+      "message_id": "1a21270ecf496e7e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-25T16:52:01.442014"
+    },
+    {
+      "urn": "urn:li:activity:7531274493860892672",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531274493860892672",
+      "email": "hr@divvaatechh.com",
+      "thread_id": "1a21270f62e6f1de",
+      "message_id": "1a21270f62e6f1de",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-25T16:52:03.779533"
+    },
+    {
+      "urn": "urn:li:activity:7531273386744991744",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531273386744991744",
+      "email": "Praharsha.m@Careersoftusa.com",
+      "thread_id": "1a21270fe8f9c061",
+      "message_id": "1a21270fe8f9c061",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-25T16:52:05.861278"
+    },
+    {
+      "urn": "urn:li:activity:7531272975250087936",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531272975250087936",
+      "email": "amulya.b@careersoftusa.com",
+      "thread_id": "1a212710767c0aa7",
+      "message_id": "1a212710767c0aa7",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-25T16:52:07.928344"
+    },
+    {
+      "urn": "urn:li:activity:7531272467533762560",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531272467533762560",
+      "email": "sanghavi.b@careersoftusa.com",
+      "thread_id": "1a212710e7a123bd",
+      "message_id": "1a212710e7a123bd",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-25T16:52:10.000614"
+    },
+    {
+      "urn": "urn:li:activity:7531263835157127169",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531263835157127169",
+      "email": "Shivani.s.soni@oaktreecloud.com",
+      "thread_id": "1a2127120b020c74",
+      "message_id": "1a2127120b020c74",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-25T16:52:14.772085"
     }
   ]
 }
