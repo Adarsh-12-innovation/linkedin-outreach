@@ -2050,7 +2050,15 @@
     "urn:li:activity:7531594821237645312",
     "urn:li:activity:7531587662223171585",
     "urn:li:activity:7531579310202327040",
-    "urn:li:activity:7531561220408180736"
+    "urn:li:activity:7531561220408180736",
+    "urn:li:activity:7531695870812069888",
+    "urn:li:activity:7531691740387516416",
+    "urn:li:activity:7531680409336778752",
+    "urn:li:activity:7531679501559189504",
+    "urn:li:activity:7531672075120484354",
+    "urn:li:activity:7531671645808119808",
+    "urn:li:activity:7531664531769569280",
+    "urn:li:activity:7531656134265479168"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3199,7 +3207,9 @@
     "hr@divvaatechh.com",
     "jagrati.jadhav@devadvantages.com",
     "globaltalent607@gmail.com",
-    "shahrukh@code1.dev"
+    "shahrukh@code1.dev",
+    "aangela.kletos@gmail.com",
+    "dharmendra@cloudvandexa.com"
   ],
   "contacted_details": [
     {
@@ -24655,9 +24665,10 @@
       "email": "rima.banerjee@optivaluetek.com",
       "thread_id": "1a2112a3fcda683f",
       "message_id": "1a2112a3fcda683f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-25T10:55:11.660599"
+      "timestamp": "2026-11-25T10:55:11.660599",
+      "followup_timestamp": "2026-11-26T18:35:12.371180"
     },
     {
       "urn": "urn:li:activity:7531168132644728832",
@@ -24665,9 +24676,10 @@
       "email": "hyder@progifytech.com",
       "thread_id": "1a2112a4b46aa327",
       "message_id": "1a2112a4b46aa327",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-25T10:55:14.732686"
+      "timestamp": "2026-11-25T10:55:14.732686",
+      "followup_timestamp": "2026-11-26T18:35:15.013033"
     },
     {
       "urn": "urn:li:activity:7531307937986666496",
@@ -24858,6 +24870,86 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-26T11:33:31.733467"
+    },
+    {
+      "urn": "urn:li:activity:7531695870812069888",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531695870812069888",
+      "email": "aangela.kletos@gmail.com",
+      "thread_id": "1a217f566d0eac7b",
+      "message_id": "1a217f566d0eac7b",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-26T18:34:49.352577"
+    },
+    {
+      "urn": "urn:li:activity:7531691740387516416",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531691740387516416",
+      "email": "recruitment@arkavanta.com",
+      "thread_id": "1a217f57116cbfbf",
+      "message_id": "1a217f57116cbfbf",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-26T18:34:51.999458"
+    },
+    {
+      "urn": "urn:li:activity:7531680409336778752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531680409336778752",
+      "email": "hr@sparkinfosol.com",
+      "thread_id": "1a217f5790695750",
+      "message_id": "1a217f5790695750",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-26T18:34:54.382694"
+    },
+    {
+      "urn": "urn:li:activity:7531679501559189504",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531679501559189504",
+      "email": "shweta.sgempertsindia@gmail.com",
+      "thread_id": "1a217f583cec9706",
+      "message_id": "1a217f583cec9706",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-26T18:34:56.755552"
+    },
+    {
+      "urn": "urn:li:activity:7531672075120484354",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531672075120484354",
+      "email": "dharmendra@cloudvandexa.com",
+      "thread_id": "1a217f58d3f77a3d",
+      "message_id": "1a217f58d3f77a3d",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-26T18:34:59.187976"
+    },
+    {
+      "urn": "urn:li:activity:7531671645808119808",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531671645808119808",
+      "email": "harsha@code1.dev",
+      "thread_id": "1a217f5a1437e882",
+      "message_id": "1a217f5a1437e882",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-26T18:35:04.289820"
+    },
+    {
+      "urn": "urn:li:activity:7531664531769569280",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531664531769569280",
+      "email": "rishitha.b@martinettechnologies.com",
+      "thread_id": "1a217f5aac8913f5",
+      "message_id": "1a217f5aac8913f5",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-26T18:35:06.934860"
+    },
+    {
+      "urn": "urn:li:activity:7531656134265479168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531656134265479168",
+      "email": "aditi.bhargava@oaktreecloud.com",
+      "thread_id": "1a217f5b49fb65e3",
+      "message_id": "1a217f5b49fb65e3",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-26T18:35:09.484714"
     }
   ]
 }
