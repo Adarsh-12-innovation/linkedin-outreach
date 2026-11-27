@@ -2064,7 +2064,12 @@
     "urn:li:activity:7531964747689324545",
     "urn:li:activity:7531961404468277248",
     "urn:li:activity:7531946388163686400",
-    "urn:li:activity:7531941133556477952"
+    "urn:li:activity:7531941133556477952",
+    "urn:li:activity:7531982890629292032",
+    "urn:li:activity:7531982723805081601",
+    "urn:li:activity:7531982149344878592",
+    "urn:li:activity:7531981842191872000",
+    "urn:li:activity:7531972745409097728"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3217,7 +3222,9 @@
     "aangela.kletos@gmail.com",
     "dharmendra@cloudvandexa.com",
     "recruiting@wynwd.com",
-    "talentrecruiter062@gmail.com"
+    "talentrecruiter062@gmail.com",
+    "sanjana.patel@codevian.com",
+    "aryan.tiwari@innovixtechnology.com"
   ],
   "contacted_details": [
     {
@@ -25030,6 +25037,56 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-27T12:09:52.766171"
+    },
+    {
+      "urn": "urn:li:activity:7531982890629292032",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531982890629292032",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "1a21c2a92d8be431",
+      "message_id": "1a21c2a92d8be431",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T14:11:23.687231"
+    },
+    {
+      "urn": "urn:li:activity:7531982723805081601",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531982723805081601",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "1a21c2aa0b0d6b0e",
+      "message_id": "1a21c2aa0b0d6b0e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T14:11:27.706866"
+    },
+    {
+      "urn": "urn:li:activity:7531982149344878592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531982149344878592",
+      "email": "Khalil@weradioactive.com",
+      "thread_id": "1a21c2ab21dd7692",
+      "message_id": "1a21c2ab21dd7692",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T14:11:31.757749"
+    },
+    {
+      "urn": "urn:li:activity:7531981842191872000",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531981842191872000",
+      "email": "sanjana.patel@codevian.com",
+      "thread_id": "1a21c2abda715f8e",
+      "message_id": "1a21c2abda715f8e",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T14:11:34.639749"
+    },
+    {
+      "urn": "urn:li:activity:7531972745409097728",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531972745409097728",
+      "email": "aryan.tiwari@innovixtechnology.com",
+      "thread_id": "1a21c2ac68a6a54a",
+      "message_id": "1a21c2ac68a6a54a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T14:11:37.107853"
     }
   ]
 }
