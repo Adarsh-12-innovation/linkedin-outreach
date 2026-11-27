@@ -2069,7 +2069,13 @@
     "urn:li:activity:7531982723805081601",
     "urn:li:activity:7531982149344878592",
     "urn:li:activity:7531981842191872000",
-    "urn:li:activity:7531972745409097728"
+    "urn:li:activity:7531972745409097728",
+    "urn:li:activity:7532046528836743168",
+    "urn:li:activity:7531995854824464384",
+    "urn:li:activity:7531991763654467584",
+    "urn:li:activity:7531989834312224769",
+    "urn:li:activity:7531987967381450752",
+    "urn:li:activity:7531983130161819648"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3224,7 +3230,9 @@
     "recruiting@wynwd.com",
     "talentrecruiter062@gmail.com",
     "sanjana.patel@codevian.com",
-    "aryan.tiwari@innovixtechnology.com"
+    "aryan.tiwari@innovixtechnology.com",
+    "Priyanka@aaryavinservices.com",
+    "hr@herleads.com"
   ],
   "contacted_details": [
     {
@@ -24854,7 +24862,7 @@
       "email": "shahrukh@code1.dev",
       "thread_id": "1a21673896b13b08",
       "message_id": "1a21673896b13b08",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-26T11:33:21.531233"
     },
@@ -24864,9 +24872,10 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "1a21673949a124b1",
       "message_id": "1a21673949a124b1",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T11:33:24.411163"
+      "timestamp": "2026-11-26T11:33:24.411163",
+      "followup_timestamp": "2026-11-27T18:05:04.069318"
     },
     {
       "urn": "urn:li:activity:7531587662223171585",
@@ -24874,9 +24883,10 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "1a216739fccc30aa",
       "message_id": "1a216739fccc30aa",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T11:33:27.062031"
+      "timestamp": "2026-11-26T11:33:27.062031",
+      "followup_timestamp": "2026-11-27T18:05:07.006886"
     },
     {
       "urn": "urn:li:activity:7531579310202327040",
@@ -24884,9 +24894,10 @@
       "email": "benfield@xanikainfotech.com",
       "thread_id": "1a21673a66b7109e",
       "message_id": "1a21673a66b7109e",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T11:33:29.280196"
+      "timestamp": "2026-11-26T11:33:29.280196",
+      "followup_timestamp": "2026-11-27T18:05:09.636497"
     },
     {
       "urn": "urn:li:activity:7531561220408180736",
@@ -24894,9 +24905,10 @@
       "email": "ahmad.ridho@nityo.com",
       "thread_id": "1a21673b117dfd1f",
       "message_id": "1a21673b117dfd1f",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T11:33:31.733467"
+      "timestamp": "2026-11-26T11:33:31.733467",
+      "followup_timestamp": "2026-11-27T18:05:12.071302"
     },
     {
       "urn": "urn:li:activity:7531695870812069888",
@@ -25087,6 +25099,66 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-27T14:11:37.107853"
+    },
+    {
+      "urn": "urn:li:activity:7532046528836743168",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7532046528836743168",
+      "email": "Priyanka@aaryavinservices.com",
+      "thread_id": "1a21d003ea5642c1",
+      "message_id": "1a21d003ea5642c1",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T18:04:45.713195"
+    },
+    {
+      "urn": "urn:li:activity:7531995854824464384",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531995854824464384",
+      "email": "hr@herleads.com",
+      "thread_id": "1a21d00481b500de",
+      "message_id": "1a21d00481b500de",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T18:04:48.168816"
+    },
+    {
+      "urn": "urn:li:activity:7531991763654467584",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531991763654467584",
+      "email": "recruiting@wynwd.com",
+      "thread_id": "1a21d005a985cd05",
+      "message_id": "1a21d005a985cd05",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T18:04:52.860326"
+    },
+    {
+      "urn": "urn:li:activity:7531989834312224769",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531989834312224769",
+      "email": "recruiting@wynwd.com",
+      "thread_id": "1a21d00646532dac",
+      "message_id": "1a21d00646532dac",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T18:04:55.405958"
+    },
+    {
+      "urn": "urn:li:activity:7531987967381450752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531987967381450752",
+      "email": "recruiting@wynwd.com",
+      "thread_id": "1a21d006ee0b52d0",
+      "message_id": "1a21d006ee0b52d0",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T18:04:58.038243"
+    },
+    {
+      "urn": "urn:li:activity:7531983130161819648",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7531983130161819648",
+      "email": "recruiting@wynwd.com",
+      "thread_id": "1a21d007873165d2",
+      "message_id": "1a21d007873165d2",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-27T18:05:00.521533"
     }
   ]
 }
