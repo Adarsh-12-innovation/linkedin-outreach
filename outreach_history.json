@@ -2079,7 +2079,9 @@
     "urn:li:activity:7532288472586371072",
     "urn:li:activity:7532301928379244544",
     "urn:li:activity:7532300442865922048",
-    "urn:li:activity:7532300079538335744"
+    "urn:li:activity:7532300079538335744",
+    "urn:li:activity:7532384722887483392",
+    "urn:li:activity:7532337714793267200"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3237,7 +3239,8 @@
     "aryan.tiwari@innovixtechnology.com",
     "Priyanka@aaryavinservices.com",
     "hr@herleads.com",
-    "recruitment@junzo.my"
+    "recruitment@junzo.my",
+    "petercmwong@gmail.com"
   ],
   "contacted_details": [
     {
@@ -25211,6 +25214,26 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-28T12:32:32.871701"
+    },
+    {
+      "urn": "urn:li:activity:7532384722887483392",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7532384722887483392",
+      "email": "petercmwong@gmail.com",
+      "thread_id": "1a221c66235a8922",
+      "message_id": "1a221c66235a8922",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-28T16:19:40.111866"
+    },
+    {
+      "urn": "urn:li:activity:7532337714793267200",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7532337714793267200",
+      "email": "kashish@code1.dev",
+      "thread_id": "1a221c677242dca6",
+      "message_id": "1a221c677242dca6",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-28T16:19:44.944905"
     }
   ]
 }
