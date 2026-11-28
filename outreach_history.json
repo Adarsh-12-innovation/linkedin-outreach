@@ -2075,7 +2075,8 @@
     "urn:li:activity:7531991763654467584",
     "urn:li:activity:7531989834312224769",
     "urn:li:activity:7531987967381450752",
-    "urn:li:activity:7531983130161819648"
+    "urn:li:activity:7531983130161819648",
+    "urn:li:activity:7532288472586371072"
   ],
   "contacted_emails": [
     "sujith.g@eniacsys.com",
@@ -3232,7 +3233,8 @@
     "sanjana.patel@codevian.com",
     "aryan.tiwari@innovixtechnology.com",
     "Priyanka@aaryavinservices.com",
-    "hr@herleads.com"
+    "hr@herleads.com",
+    "recruitment@junzo.my"
   ],
   "contacted_details": [
     {
@@ -24916,9 +24918,10 @@
       "email": "aangela.kletos@gmail.com",
       "thread_id": "1a217f566d0eac7b",
       "message_id": "1a217f566d0eac7b",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T18:34:49.352577"
+      "timestamp": "2026-11-26T18:34:49.352577",
+      "followup_timestamp": "2026-11-28T09:38:48.058308"
     },
     {
       "urn": "urn:li:activity:7531691740387516416",
@@ -24926,9 +24929,10 @@
       "email": "recruitment@arkavanta.com",
       "thread_id": "1a217f57116cbfbf",
       "message_id": "1a217f57116cbfbf",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T18:34:51.999458"
+      "timestamp": "2026-11-26T18:34:51.999458",
+      "followup_timestamp": "2026-11-28T09:38:50.320167"
     },
     {
       "urn": "urn:li:activity:7531680409336778752",
@@ -24936,9 +24940,10 @@
       "email": "hr@sparkinfosol.com",
       "thread_id": "1a217f5790695750",
       "message_id": "1a217f5790695750",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T18:34:54.382694"
+      "timestamp": "2026-11-26T18:34:54.382694",
+      "followup_timestamp": "2026-11-28T09:38:52.746761"
     },
     {
       "urn": "urn:li:activity:7531679501559189504",
@@ -24946,9 +24951,10 @@
       "email": "shweta.sgempertsindia@gmail.com",
       "thread_id": "1a217f583cec9706",
       "message_id": "1a217f583cec9706",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T18:34:56.755552"
+      "timestamp": "2026-11-26T18:34:56.755552",
+      "followup_timestamp": "2026-11-28T09:38:55.392059"
     },
     {
       "urn": "urn:li:activity:7531672075120484354",
@@ -24956,7 +24962,7 @@
       "email": "dharmendra@cloudvandexa.com",
       "thread_id": "1a217f58d3f77a3d",
       "message_id": "1a217f58d3f77a3d",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
       "timestamp": "2026-11-26T18:34:59.187976"
     },
@@ -24966,9 +24972,10 @@
       "email": "harsha@code1.dev",
       "thread_id": "1a217f5a1437e882",
       "message_id": "1a217f5a1437e882",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T18:35:04.289820"
+      "timestamp": "2026-11-26T18:35:04.289820",
+      "followup_timestamp": "2026-11-28T09:38:58.593386"
     },
     {
       "urn": "urn:li:activity:7531664531769569280",
@@ -24976,9 +24983,10 @@
       "email": "rishitha.b@martinettechnologies.com",
       "thread_id": "1a217f5aac8913f5",
       "message_id": "1a217f5aac8913f5",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T18:35:06.934860"
+      "timestamp": "2026-11-26T18:35:06.934860",
+      "followup_timestamp": "2026-11-28T09:39:01.231568"
     },
     {
       "urn": "urn:li:activity:7531656134265479168",
@@ -24986,9 +24994,10 @@
       "email": "aditi.bhargava@oaktreecloud.com",
       "thread_id": "1a217f5b49fb65e3",
       "message_id": "1a217f5b49fb65e3",
-      "followed_up": false,
+      "followed_up": true,
       "source": "search",
-      "timestamp": "2026-11-26T18:35:09.484714"
+      "timestamp": "2026-11-26T18:35:09.484714",
+      "followup_timestamp": "2026-11-28T09:39:03.621019"
     },
     {
       "urn": "urn:li:activity:7531968341368844288",
@@ -25159,6 +25168,16 @@
       "followed_up": false,
       "source": "search",
       "timestamp": "2026-11-27T18:05:00.521533"
+    },
+    {
+      "urn": "urn:li:activity:7532288472586371072",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7532288472586371072",
+      "email": "recruitment@junzo.my",
+      "thread_id": "1a220575ad26416a",
+      "message_id": "1a220575ad26416a",
+      "followed_up": false,
+      "source": "search",
+      "timestamp": "2026-11-28T09:38:45.527353"
     }
   ]
 }
